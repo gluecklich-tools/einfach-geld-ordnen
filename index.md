@@ -21,7 +21,8 @@ dein Geld zu ordnen – Schritt für Schritt.
 
 ## Die drei Bausteine
 1. **Fixkosten**
-   - [Fixkosten übersichtlich erfassen](seiten/fixkosten-uebersicht.html)
+   - - [Fixkosten übersichtlich erfassen](seiten/fixkosten-uebersicht.html)
+
 
 2. **Monatliche Ausgaben**
    - [Monatliche Ausgaben im Blick behalten](seiten/monatliche-ausgaben.html)
