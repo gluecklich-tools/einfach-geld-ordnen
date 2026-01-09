@@ -14,21 +14,21 @@ dein Geld zu ordnen – Schritt für Schritt.
 
 ## Starte hier
 👉 **Grundlagen verstehen**
-- [Haushaltsbuch in Excel einfach erklärt](seiten/haushaltsbuch-excel.md)
+- [Haushaltsbuch in Excel einfach erklärt](seiten/haushaltsbuch-excel.html)
 
 👉 **Direkt loslegen**
-- [Kostenlose Haushaltsbuch-Vorlage](seiten/haushaltsbuch-vorlage-kostenlos.md)
+- [Kostenlose Haushaltsbuch-Vorlage](seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 ## Die drei Bausteine
 1. **Fixkosten**
-   - [Fixkosten übersichtlich erfassen](seiten/fixkosten-uebersicht.md)
+   - [Fixkosten übersichtlich erfassen](seiten/fixkosten-uebersicht.html)
 
 2. **Monatliche Ausgaben**
-   - [Monatliche Ausgaben im Blick behalten](seiten/monatliche-ausgaben.md)
+   - [Monatliche Ausgaben im Blick behalten](seiten/monatliche-ausgaben.html)
 
 3. **Wohn- & Stromkosten**
-   - [Nebenkosten der Miete einfach erklärt](seiten/nebenkosten-miete.md)
-   - [Stromkosten im Haushalt verstehen](seiten/stromkosten-haushalt.md)
+   - [Nebenkosten der Miete einfach erklärt](seiten/nebenkosten-miete.html)
+   - [Stromkosten im Haushalt verstehen](seiten/stromkosten-haushalt.html)
 
 ---
 
