@@ -1,0 +1,107 @@
+# Stromkosten im Haushalt berechnen & verstehen
+
+## Einleitung
+Stromkosten gehören für viele Haushalte zu den größten Unsicherheiten.
+Oft ist nicht klar,
+- wie hoch die Kosten wirklich sind
+- woraus sie sich zusammensetzen
+- warum Abschläge nicht zum tatsächlichen Verbrauch passen
+
+Diese Seite hilft dir, **deine Stromkosten zu verstehen** –
+ohne Fachbegriffe, ohne Rechenstress, ohne Sparzwang.
+
+---
+
+## Was zählt zu den Stromkosten?
+Zu den Stromkosten gehören:
+- der monatliche Abschlag
+- die jährliche Abrechnung
+- eventuelle Nachzahlungen oder Guthaben
+
+Wichtig ist:
+Der Abschlag ist **nur eine Vorauszahlung**,
+nicht die tatsächlichen Kosten.
+
+👉 Zum Gesamteinstieg:  
+[Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
+
+---
+
+## Abschlag vs. tatsächlicher Verbrauch
+Viele orientieren sich nur am monatlichen Abschlag.
+Das kann täuschen.
+
+### Abschlag
+- gleichbleibender Monatsbetrag
+- basiert auf Schätzungen
+- wird einmal im Jahr ausgeglichen
+
+### Tatsächlicher Verbrauch
+- gemessen in Kilowattstunden (kWh)
+- ergibt sich aus deinem realen Stromverbrauch
+- entscheidet über Nachzahlung oder Guthaben
+
+Beides zu kennen, schafft Klarheit.
+
+---
+
+## Stromkosten grob berechnen
+Du brauchst keine exakten Formeln.
+
+Es reicht:
+- dein jährlicher Verbrauch (kWh)
+- dein Preis pro kWh
+- der monatliche Abschlag
+
+Damit kannst du einschätzen:
+- ob der Abschlag realistisch ist
+- wie hoch deine tatsächlichen Kosten sind
+- ob Überraschungen drohen
+
+---
+
+## Warum Stromkosten oft unterschätzt werden
+Stromkosten wirken klein,
+weil sie monatlich gezahlt werden.
+
+Das führt dazu, dass:
+- die Jahreskosten aus dem Blick geraten
+- Nachzahlungen überraschen
+- das Haushaltsbudget falsch eingeschätzt wird
+
+Eine einfache Übersicht reicht,
+um das einzuordnen.
+
+---
+
+## Stromkosten im Haushaltsbuch erfassen
+Im Haushaltsbuch zählen Stromkosten zu den **Fixkosten**.
+
+Du trägst ein:
+- den monatlichen Abschlag
+- optional: Nachzahlung oder Guthaben aus der Jahresabrechnung
+
+Wichtig:
+Du musst nicht exakt rechnen.
+Es reicht, wenn dein monatlicher Abschlag realistisch ist.
+
+So vermeidest du:
+- unerwartete Nachzahlungen
+- falsche Einschätzung deines Budgets
+- böse Überraschungen am Jahresende
+
+Stromkosten sind kein Detail,
+sondern ein fester Bestandteil deiner Fixkosten.
+
+## Überblick – alle Themen
+
+- [Haushaltsbuch in Excel einfach erklärt](../seiten/haushaltsbuch-excel.md)
+- [Kostenlose Haushaltsbuch-Vorlage](../seiten/haushaltsbuch-vorlage-kostenlos.md)
+- [Fixkosten übersichtlich erfassen](../seiten/fixkosten-uebersicht.md)
+- [Monatliche Ausgaben im Blick behalten](../seiten/monatliche-ausgaben.md)
+- [Stromkosten im Haushalt verstehen](../seiten/stromkosten-haushalt.md)
+- [Nebenkosten der Miete einfach erklärt](../seiten/nebenkosten-miete.md)
+---
+
+👉 Zur Hauptübersicht:
+[Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
