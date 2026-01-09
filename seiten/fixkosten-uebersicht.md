@@ -1,5 +1,10 @@
-## Navigation
-[⬅ Zur Startseite](../)
+---
+layout: default
+title: Fixkosten übersichtlich erfassen
+---
+
+[← Zur Startseite](/einfach-geld-ordnen/)
+
 
 # Fixkosten übersichtlich erfassen – so behältst du den Überblick
 
@@ -112,5 +117,6 @@ wird alles andere deutlich einfacher.
 
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
+
 
 
