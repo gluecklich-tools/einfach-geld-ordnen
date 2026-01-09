@@ -14,7 +14,7 @@ dein Geld zu ordnen – Schritt für Schritt.
 
 ## Starte hier
 👉 **Grundlagen verstehen**
-- [Haushaltsbuch in Excel einfach erklärt](seiten/haushaltsbuch-excel.md)
+- [Haushaltsbuch in Excel einfach erklärt](seiten/haushaltsbuch-excel.html)
 
 👉 **Direkt loslegen**
 - [Kostenlose Haushaltsbuch-Vorlage](seiten/haushaltsbuch-vorlage-kostenlos)
