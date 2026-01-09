@@ -1,3 +1,8 @@
+---
+layout: default
+title: Haushaltsbuch in Excel einfach erklärt
+---
+
 # Haushaltsbuch Excel – einfache Vorlage für den Überblick
 
 ## Einleitung
@@ -127,5 +132,6 @@ Alles andere kommt später.
 
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
+
 
 
