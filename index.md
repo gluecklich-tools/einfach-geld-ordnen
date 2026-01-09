@@ -28,11 +28,11 @@ dein Geld zu ordnen – Schritt für Schritt.
    - [Fixkosten übersichtlich erfassen]({{ '/seiten/fixkosten-uebersicht.html' | relative_url }})
 
 2. **Monatliche Ausgaben**
-   - [Monatliche Ausgaben im Blick behalten]({{ '/seiten/....html' | relative_url }})
+   - [Monatliche Ausgaben im Blick behalten]({{ '/seiten/monatliche-ausgaben.html' | relative_url }})
 
 3. **Wohn- & Stromkosten**
-   - [Nebenkosten der Miete einfach erklärt]({{ '/seiten/....html' | relative_url }})
-   - [Stromkosten im Haushalt verstehen]({{ '/seiten/....html' | relative_url }})
+- [Nebenkosten der Miete einfach erklärt]({{ '/seiten/nebenkosten-miete.html' | relative_url }})
+- [Stromkosten im Haushalt verstehen]({{ '/seiten/stromkosten-haushalt.html' | relative_url }})
 
 ---
 
