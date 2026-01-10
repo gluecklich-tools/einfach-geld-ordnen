@@ -2,6 +2,8 @@
 layout: default
 title: Fixkosten übersichtlich erfassen
 permalink: /seiten/fixkosten-uebersicht.html
+next: /seiten/monatliche-ausgaben.html
+
 ---
 
 ## Fixkosten übersichtlich erfassen
