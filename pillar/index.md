@@ -1,9 +1,22 @@
 ---
 title: Pillar
 ---
+layout: default
+title: Einfach Geld ordnen – Überblick
+---
 
-# Pillar-Übersicht
+# Einfach Geld ordnen
 
-Hier kommen die zentralen Grundlagenartikel rein.
+Diese Seite ist der zentrale Einstieg in alle Themen rund ums **Haushaltsbuch, Fixkosten und laufende Ausgaben**.
 
-- [Fixkosten übersichtlich erfassen]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+## Grundlagen
+- [Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- [Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+
+## Vertiefung
+- [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- [Nebenkosten & Miete verstehen]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
+
+## Werkzeuge
+- [Haushaltsbuch in Excel]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- [Kostenlose Haushaltsbuch-Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
