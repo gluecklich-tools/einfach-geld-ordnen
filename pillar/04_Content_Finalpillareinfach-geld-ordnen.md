@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Einfach Geld ordnen – Haushaltsbuch für Anfänger
-permalink: /pillar/einfach-geld-ordnen
+permalink: [Einfach Geld ordnen – Haushaltsbuch für Anfänger](/einfach-geld-ordnen/pillar/einfach-geld-ordnen.html)
+
 
 ---
 Einfach Geld ordnen – Haushaltsbuch für Anfänger
@@ -19,7 +20,7 @@ Was bleibt mir wirklich zur Verfügung?
 Es geht nicht darum, jeden Cent zu kontrollieren, sondern Klarheit zu schaffen.
 
 👉 Mehr dazu findest du in:
-Haushaltsbuch Excel – einfache Vorlage für den Überblick
+[Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 Einnahmen, Fixkosten und Ausgaben unterscheiden
 Der wichtigste Schritt beim Geld ordnen ist die Trennung in drei Bereiche:
@@ -35,7 +36,7 @@ Strom
 Versicherungen
 Verträge
 👉 Siehe auch:
-Fixkosten übersichtlich erfassen
+[Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 Variable Ausgaben
 Kosten, die schwanken:
@@ -45,7 +46,7 @@ Freizeit
 Kleidung
 Sonstiges
 👉 Weiterführend:
-Monatliche Ausgaben im Blick behalten
+[Monatliche Ausgaben im Blick behalten](/einfach-geld-ordnen/seiten/monatliche-ausgaben.html)
 
 Strom- und Nebenkosten verstehen
 Gerade Strom- und Nebenkosten sorgen oft für Unsicherheit. Viele wissen nicht, wie hoch sie wirklich sind oder wie sie zustande kommen.
@@ -62,7 +63,7 @@ kein Konto
 kein Vorwissen
 Ein einfaches Haushaltsbuch in Excel oder LibreOffice reicht völlig aus, wenn es klar aufgebaut ist.
 
-👉 Nächster Schritt: Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)
+👉 Nächster Schritt: [Kostenlose Haushaltsbuch-Vorlage](/einfach-geld-ordnen/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 Fazit
 Geld ordnen heißt nicht sparen um jeden Preis, sondern verstehen, wo man steht.
@@ -99,7 +100,8 @@ Es geht **nicht** darum, jeden Cent zu kontrollieren,
 sondern **Klarheit** zu schaffen.
 
 👉 Mehr dazu findest du in:  
-[Haushaltsbuch Excel – einfache Vorlage für den Überblick](../seiten/haushaltsbuch-excel.md)
+[Haushaltsbuch in Excel einfach erklärt](/einfach-geld-ordnen/seiten/haushaltsbuch-excel.html)
+
 
 ---
 
@@ -118,7 +120,7 @@ Monatlich gleichbleibende Kosten wie:
 - Verträge
 
 👉 Siehe auch:  
-[Fixkosten übersichtlich erfassen](../seiten/fixkosten-uebersicht.md)
+[Fixkosten übersichtlich erfassen](/einfach-geld-ordnen/seiten/fixkosten-uebersicht.html)
 
 ### Variable Ausgaben
 Kosten, die schwanken:
@@ -128,7 +130,8 @@ Kosten, die schwanken:
 - Sonstiges
 
 👉 Weiterführend:  
-[Monatliche Ausgaben im Blick behalten](../seiten/monatliche-ausgaben.md)
+[Monatliche Ausgaben im Blick behalten](/einfach-geld-ordnen/seiten/monatliche-ausgaben.html)
+
 
 ---
 
@@ -137,8 +140,8 @@ Gerade Strom- und Nebenkosten sorgen oft für Unsicherheit.
 Viele wissen nicht, **wie hoch sie wirklich sind** oder **wie sie zustande kommen**.
 
 👉 Schritt-für-Schritt erklärt hier:
-- [Stromkosten im Haushalt berechnen](../seiten/stromkosten-haushalt.md)
-- [Nebenkosten der Miete einfach erklärt](../seiten/nebenkosten-miete.md)
+- [Stromkosten im Haushalt verstehen](/einfach-geld-ordnen/seiten/stromkosten-haushalt.html)
+- [Nebenkosten der Miete einfach erklärt](/einfach-geld-ordnen/seiten/nebenkosten-miete.html)
 
 ---
 
@@ -172,6 +175,7 @@ hast du bereits den wichtigsten Schritt getan.
 ## Download-Hinweis
 > **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
 > *(Download folgt – Platzhalter)*
+
 
 
 
