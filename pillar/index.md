@@ -1,13 +1,15 @@
 ---
-title: Pillar
----
 layout: default
 title: Einfach Geld ordnen – Überblick
+permalink: /pillar/
 ---
 
 # Einfach Geld ordnen
 
 Diese Seite ist der zentrale Einstieg in alle Themen rund ums **Haushaltsbuch, Fixkosten und laufende Ausgaben**.
+
+## Haupt-Pillar
+- [Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})
 
 ## Grundlagen
 - [Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})

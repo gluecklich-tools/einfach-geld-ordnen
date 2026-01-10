@@ -27,7 +27,7 @@ Es geht **nicht** darum, jeden Cent zu kontrollieren,
 sondern **Klarheit** zu schaffen.
 
 👉 Mehr dazu findest du in:  
-[Haushaltsbuch Excel – einfache Vorlage für den Überblick](../seiten/haushaltsbuch-excel.md)
+[Haushaltsbuch Excel – einfache Vorlage für den Überblick]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ---
 
@@ -46,7 +46,7 @@ Monatlich gleichbleibende Kosten wie:
 - Verträge
 
 👉 Siehe auch:  
-[Fixkosten übersichtlich erfassen](../seiten/fixkosten-uebersicht.md)
+[Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 ### Variable Ausgaben
 Kosten, die schwanken:
@@ -56,7 +56,7 @@ Kosten, die schwanken:
 - Sonstiges
 
 👉 Weiterführend:  
-[Monatliche Ausgaben im Blick behalten](../seiten/monatliche-ausgaben.md)
+[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
 
 ---
 
@@ -65,8 +65,8 @@ Gerade Strom- und Nebenkosten sorgen oft für Unsicherheit.
 Viele wissen nicht, **wie hoch sie wirklich sind** oder **wie sie zustande kommen**.
 
 👉 Schritt-für-Schritt erklärt hier:
-- [Stromkosten im Haushalt berechnen](../seiten/stromkosten-haushalt.md)
-- [Nebenkosten der Miete einfach erklärt](../seiten/nebenkosten-miete.md)
+- [Stromkosten im Haushalt berechnen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- [Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
 
 ---
 
@@ -80,7 +80,7 @@ Ein **einfaches Haushaltsbuch in Excel oder LibreOffice** reicht völlig aus,
 wenn es klar aufgebaut ist.
 
 👉 Nächster Schritt:
-[Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)](../seiten/haushaltsbuch-vorlage-kostenlos.md)
+[Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
 
 ---
 
