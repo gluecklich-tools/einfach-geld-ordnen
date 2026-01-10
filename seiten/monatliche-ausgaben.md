@@ -3,6 +3,8 @@ layout: default
 title: Monatliche Ausgaben im Blick behalten
 nav_order: 20
 permalink: /seiten/monatliche-ausgaben.html
+next: /seiten/stromkosten-haushalt.html
+
 ---
 
 # Monatliche Ausgaben im Blick behalten
@@ -118,6 +120,7 @@ Mehr brauchst du nicht.
 
 👉 **Zur Übersicht:**  
 [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
 
 
 
