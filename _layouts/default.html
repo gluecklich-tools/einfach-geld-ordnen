@@ -33,6 +33,18 @@
 
   <main>
     {{ content }}
+
+{% if page.next %}
+<hr>
+<p>
+👉 <strong>Weiter mit:</strong>
+<a href="{{ page.next | relative_url }}">
+  {{ site.pages | where: "url", page.next | first | dig: "title" | default: "Nächster Schritt" }}
+</a>
+</p>
+{% endif %}
+
+
   </main>
 
 </body>
