@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Haushaltsbuch in Excel einfach erklärt
+nav_order: 55
+permalink: /seiten/haushaltsbuch-excel.html
+next: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
 # Haushaltsbuch Excel – einfache Vorlage für den Überblick
@@ -137,6 +140,7 @@ Alles andere kommt später.
 
 👉 **Zur Übersicht:**  
 [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
 
 
 
