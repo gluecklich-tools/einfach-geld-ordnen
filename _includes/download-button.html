@@ -1,0 +1,14 @@
+{%- assign file = include.file | default: '' -%}
+{%- assign label = include.label | default: 'Download' -%}
+{%- assign hint = include.hint | default: '' -%}
+
+{%- if file != '' -%}
+  <div class="download-box">
+    <a class="download-button" href="{{ ('/downloads/' | append: file) | relative_url }}" download>
+      {{ label }}
+    </a>
+    {%- if hint != '' -%}
+      <p class="download-hint">{{ hint }}</p>
+    {%- endif -%}
+  </div>
+{%- endif -%}

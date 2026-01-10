@@ -1,46 +1,37 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="de">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }}{% if site.title and page.title != site.title %} - {{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/base.css" />
-</head>
-<body>
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Hauptnavigation">
-      <div class="site-nav__inner">
-        <a class="brand" href="{{ site.baseurl }}/">Einfach Geld ordnen</a>
-        <ul class="nav-list">
-          {% for item in site.data.nav.main %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}Einfach Geld ordnen</title>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{ '/' | relative_url }}">Einfach Geld ordnen</a>
+        <nav class="site-nav" aria-label="Hauptnavigation">
+          <a href="{{ '/' | relative_url }}">Start</a>
+          <a href="{{ '/pillar/' | relative_url }}">Pillar</a>
+          <a href="{{ '/seiten/haushaltsbuch-excel.html' | relative_url }}">Haushaltsbuch</a>
+        </nav>
       </div>
-    </nav>
-  </header>
+    </header>
 
-  <main class="container">
-    <article class="content">
-      {{ content }}
-    </article>
-
-    {% if page.next %}
-      {% assign next_url = page.next.url | default: page.next %}
-      {% assign next_title = page.next.title | default: 'Naechster Artikel' %}
-      <div class="next-box">
-        <span class="next-label">Weiter mit:</span>
-        <a class="next-link" href="{{ site.baseurl }}{{ next_url }}">{{ next_title }}</a>
+    <main class="site-main">
+      <div class="container">
+        {% if page.h1 %}<h1>{{ page.h1 }}</h1>{% elsif page.title %}<h1>{{ page.title }}</h1>{% endif %}
+        {{ content }}
       </div>
-    {% endif %}
-  </main>
+    </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | default: 'Einfach Geld ordnen' }}</span>
-    </div>
-  </footer>
-</body>
+    <footer class="site-footer">
+      <div class="container">
+        <small>© {{ site.time | date: '%Y' }} Einfach Geld ordnen</small>
+      </div>
+    </footer>
+  </body>
 </html>
