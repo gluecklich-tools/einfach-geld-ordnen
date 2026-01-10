@@ -1,121 +1,40 @@
 ---
 layout: default
-title: Nebenkosten der Miete einfach erklärt
+title: "Nebenkosten der Miete einfach erklärt"
 nav_order: 50
-permalink: /seiten/nebenkosten-miete.html
-next: /seiten/haushaltsbuch-excel.html
+permalink: "/seiten/nebenkosten-miete.html"
 ---
-
 # Nebenkosten der Miete einfach erklärt
+Nebenkosten sind die Kosten rund ums Wohnen, die zusätzlich zur Kaltmiete anfallen.
 
-## Einleitung
-Nebenkosten sorgen in vielen Mietwohnungen für Verwirrung.
-Oft ist unklar,
-- welche Kosten dazugehören
-- was monatlich gezahlt wird
-- warum Nachzahlungen entstehen
+## Was sind typische Nebenkosten?
+- Heizung / Warmwasser (je nach Vertrag)
+- Wasser / Abwasser
+- Müll, Hausreinigung, Hausmeister
+- Allgemeinstrom, Versicherungen (Gebäude)
 
-Diese Seite hilft dir, **Nebenkosten zu verstehen und einzuordnen** –
-ohne Fachbegriffe, ohne rechtliche Details, ohne Optimierungsdruck.
+## Vorauszahlung und Abrechnung
+Du zahlst meist monatlich eine **Vorauszahlung**.  
+Mit der **Nebenkostenabrechnung** wird geprüft, ob das gereicht hat.
 
----
+## Tipp: Abrechnung prüfen
+- Zeitraum stimmt?
+- Zählerstände / Verbrauch plausibel?
+- Umlageschlüssel korrekt?
 
-## Was sind Nebenkosten?
-Nebenkosten sind zusätzliche Kosten zur Kaltmiete.
-Sie entstehen durch den Betrieb der Wohnung oder des Hauses.
-
-Typische Nebenkosten sind:
-- Heizkosten
-- Wasser & Abwasser
-- Müllabfuhr
-- Hausreinigung
-- Grundsteuer
-- Hausverwaltung (umlagefähig)
-
-👉 Zum Einstieg ins Gesamtthema:  
-[Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/04_Content_Finalpillareinfach-geld-ordnen.html" | relative_url }})
-
----
-
-## Nebenkosten vs. Kaltmiete
-Viele betrachten nur die Kaltmiete.
-Für den tatsächlichen Wohnkosten-Überblick brauchst du aber beides.
-
-- **Kaltmiete:** Nutzung der Wohnung  
-- **Nebenkosten:** laufende Zusatzkosten  
-- **Warmmiete:** Kaltmiete + Nebenkosten
-
-Nur die Warmmiete zeigt dir,
-was Wohnen wirklich kostet.
-
----
-
-## Abschläge und Abrechnung verstehen
-Nebenkosten werden meist:
-- monatlich als Abschlag gezahlt
-- einmal im Jahr abgerechnet
-
-Das bedeutet:
-- Abschläge sind Vorauszahlungen
-- Abrechnung zeigt die echten Kosten
-- Nachzahlung oder Guthaben sind normal
-
----
-
-## Warum Nebenkosten oft unterschätzt werden
-Nebenkosten fallen nicht täglich auf,
-sondern laufen „im Hintergrund“.
-
-Das führt dazu, dass:
-- Jahreskosten übersehen werden
-- Wohnkosten zu niedrig eingeschätzt werden
-- das Haushaltsbudget verzerrt ist
-
-Eine einfache Übersicht reicht,
-um das realistisch einzuordnen.
-
----
-
-## Nebenkosten im Haushaltsbuch erfassen
-Im Haushaltsbuch zählen Nebenkosten zu den **Fixkosten**.
-
-Du trägst ein:
-- den monatlichen Abschlag
-- optional: Nachzahlung oder Guthaben
-
-👉 Passende Grundlage:  
-[Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-
-So bleiben Wohnkosten sichtbar,
-ohne dass du sie ständig neu berechnen musst.
-
----
-
-## Zusammenhang mit Stromkosten
-Nebenkosten und Stromkosten werden oft verwechselt,
-gehören aber nicht immer zusammen.
-
-- Strom: meist eigener Vertrag  
-- Nebenkosten: über Vermieter abgerechnet
-
-👉 Zur Einordnung:
-[Stromkosten im Haushalt berechnen & verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
-
+## Fazit
+Nebenkosten wirken kompliziert – sind aber mit einer klaren Liste und ein paar Prüf‑Punkten gut zu verstehen.
+👈 Zur Einordnung: [Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+👉 Weiter mit: [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 ## Überblick – alle Themen
 
 - [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-- [Kostenlose Haushaltsbuch-Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
+- [Kostenlose Haushaltsbuch‑Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
 - [Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 - [Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
 - [Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
 - [Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
----
 
-👉 Zur Hauptübersicht:
-[Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/04_Content_Finalpillareinfach-geld-ordnen.html" | relative_url }})
+👉 Zur Hauptübersicht: [Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})
 
----
-
-👉 **Zur Übersicht:**  
-[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
-
+👉 Zur Übersicht: [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
