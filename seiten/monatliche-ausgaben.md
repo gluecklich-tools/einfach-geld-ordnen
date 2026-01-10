@@ -1,3 +1,10 @@
+---
+layout: default
+title: Monatliche Ausgaben im Blick behalten
+nav_order: 20
+permalink: /seiten/monatliche-ausgaben.html
+---
+
 # Monatliche Ausgaben im Blick behalten
 
 ## Einleitung
@@ -106,6 +113,7 @@ Mehr brauchst du nicht.
 
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen" | relative_url }})
+
 
 
 
