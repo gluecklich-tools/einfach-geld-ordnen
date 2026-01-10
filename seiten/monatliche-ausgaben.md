@@ -28,7 +28,8 @@ Typische Beispiele:
 - sonstige Alltagsausgaben
 
 👉 Zur Abgrenzung:  
-[Fixkosten übersichtlich erfassen](../seiten/fixkosten-uebersicht.md)
+[Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+
 
 ---
 
@@ -104,4 +105,5 @@ Mehr brauchst du nicht.
 
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
+
 
