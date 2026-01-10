@@ -1,0 +1,12 @@
+main:
+  - title: Start
+    url: /
+
+  - title: Fixkosten
+    url: /seiten/fixkosten-uebersicht.html
+
+  - title: Monatliche Ausgaben
+    url: /seiten/monatliche-ausgaben.html
+
+  - title: Pillar
+    url: /pillar/
