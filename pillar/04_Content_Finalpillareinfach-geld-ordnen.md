@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Einfach Geld ordnen – Pillar
-permalink: /pillar/04_Content_Finalpillaereinfach-geld-ordnen.html
+title: Einfach Geld ordnen – Haushaltsbuch für Anfänger
+permalink: /pillar/einfach-geld-ordnen
+
 ---
 Einfach Geld ordnen – Haushaltsbuch für Anfänger
 Einleitung
@@ -171,5 +172,6 @@ hast du bereits den wichtigsten Schritt getan.
 ## Download-Hinweis
 > **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
 > *(Download folgt – Platzhalter)*
+
 
 
