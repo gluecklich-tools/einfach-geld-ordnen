@@ -40,10 +40,11 @@
 
 {% if page.next %}
 <hr>
+{% assign next_page = site.pages | where: "url", page.next | first %}
 <p>
 👉 <strong>Weiter mit:</strong>
 <a href="{{ page.next | relative_url }}">
-  {{ site.pages | where: "url", page.next | first | dig: "title" | default: "Nächster Schritt" }}
+  {{ next_page.title | default: "Nächster Schritt" }}
 </a>
 </p>
 {% endif %}
