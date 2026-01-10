@@ -114,6 +114,12 @@ Mehr brauchst du nicht.
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen" | relative_url }})
 
+---
+
+👉 **Zur Übersicht:**  
+[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
+
 
 
 
