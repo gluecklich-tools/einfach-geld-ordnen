@@ -1,9 +1,14 @@
 ---
 layout: default
-title: "Fixkosten übersichtlich erfassen"
+title: "Fixkosten Übersicht"
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-## Fixkosten übersichtlich erfassen
+## Fixkosten Übersicht
 
-Fixkosten sind alle regelmäßig wiederkehrenden Ausgaben.
+- Miete
+- Strom
+- Versicherungen
+- Abos
+
+➡️ [Zur Übersicht](/pillar/)

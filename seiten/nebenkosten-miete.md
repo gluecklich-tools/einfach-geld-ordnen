@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Nebenkosten der Miete einfach erklärt"
+title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete.html
 ---
 
 ## Nebenkosten der Miete
 
-Nebenkosten sind zusätzliche Kosten zur Kaltmiete.
+Was gehört dazu, was nicht?
+
+➡️ [Zur Übersicht](/pillar/)

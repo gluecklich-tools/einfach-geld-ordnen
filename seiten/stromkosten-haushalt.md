@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Stromkosten im Haushalt verstehen"
+title: "Stromkosten im Haushalt"
 permalink: /seiten/stromkosten-haushalt.html
 ---
 
 ## Stromkosten im Haushalt
 
-So setzt sich dein Strompreis zusammen.
+Verbrauch verstehen und senken.
+
+➡️ [Zur Übersicht](/pillar/)

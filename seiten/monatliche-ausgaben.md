@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Monatliche Ausgaben im Blick behalten"
+title: "Monatliche Ausgaben"
 permalink: /seiten/monatliche-ausgaben.html
 ---
 
 ## Monatliche Ausgaben
 
-Hier behältst du deine variablen Kosten im Blick.
+Alle variablen Kosten im Blick behalten.
+
+➡️ [Zur Übersicht](/pillar/)
