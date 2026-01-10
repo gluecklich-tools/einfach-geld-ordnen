@@ -1,6 +1,7 @@
 ---
 layout: default
-title: einfach-geld-ordnen
+title: Einfach Geld ordnen – Haushaltsbuch für Anfänger
+
 ---
 # Einfach Geld ordnen
 
