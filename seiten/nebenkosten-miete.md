@@ -1,3 +1,11 @@
+---
+layout: default
+title: Nebenkosten der Miete einfach erklärt
+nav_order: 50
+permalink: /seiten/nebenkosten-miete.html
+next: /seiten/haushaltsbuch-excel.html
+---
+
 # Nebenkosten der Miete einfach erklärt
 
 ## Einleitung
@@ -110,3 +118,4 @@ gehören aber nicht immer zusammen.
 
 👉 **Zur Übersicht:**  
 [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
