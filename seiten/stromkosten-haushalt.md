@@ -1,3 +1,11 @@
+---
+layout: default
+title: Stromkosten im Haushalt berechnen & verstehen
+nav_order: 40
+permalink: /seiten/stromkosten-haushalt.html
+next: /seiten/nebenkosten-miete.html
+---
+
 # Stromkosten im Haushalt berechnen & verstehen
 
 ## Einleitung
@@ -23,7 +31,8 @@ Der Abschlag ist **nur eine Vorauszahlung**,
 nicht die tatsächlichen Kosten.
 
 👉 Zum Gesamteinstieg:  
-[Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
+👉 **Zur Übersicht:**  
+[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
 
 ---
 
@@ -110,3 +119,4 @@ sondern ein fester Bestandteil deiner Fixkosten.
 
 👉 **Zur Übersicht:**  
 [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
