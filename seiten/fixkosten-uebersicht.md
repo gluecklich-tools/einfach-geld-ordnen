@@ -9,8 +9,9 @@ Add fixkosten-uebersicht as Jekyll page
 
 ---
 
-👉 **Zur Übersicht:**  
-[Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/04_Content_Finalpillareinfach-geld-ordnen" | relative_url }})
+👉 Zur Übersicht:  
+[Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen" | relative_url }})
 
-👉 **Weiter:**  
+👉 Weiter:  
 [Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+
