@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Der Weg – Einfach Geld ordnen
+next: /seiten/fixkosten-uebersicht.html
+
 ---
 
 # Einfach Geld ordnen – Haushaltsbuch für Anfänger
