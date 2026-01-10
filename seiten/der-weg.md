@@ -1,9 +1,7 @@
 ---
 layout: default
-title: "Der Weg"
+title: "Der Weg – Einfach Geld ordnen"
 permalink: /seiten/der-weg.html
-order: 1
-next: /seiten/haushaltsbuch-excel.html
 ---
 
 ## Der Weg

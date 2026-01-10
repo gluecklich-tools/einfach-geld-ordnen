@@ -1,9 +1,7 @@
 ---
 layout: default
-title: "Überblick"
+title: "Einfach Geld ordnen – Überblick"
 permalink: /pillar/
-order: 0
-next: /pillar/einfach-geld-ordnen.html
 ---
 
 ## Überblick
