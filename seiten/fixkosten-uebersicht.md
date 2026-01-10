@@ -16,3 +16,8 @@ Diese Seite erklärt, wie du deine Fixkosten sauber strukturierst.
 👉 Weiter:  
 [Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
 
+---
+
+👉 **Zur Übersicht:**  
+[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
