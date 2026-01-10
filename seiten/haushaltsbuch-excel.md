@@ -133,5 +133,10 @@ Alles andere kommt später.
 👉 Zur Hauptübersicht:
 [Einfach Geld ordnen – Haushaltsbuch für Anfänger](../pillar/04_Content_Finalpillareinfach-geld-ordnen.md)
 
+---
+
+👉 **Zur Übersicht:**  
+[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
 
 
