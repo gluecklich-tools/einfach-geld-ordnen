@@ -1,3 +1,11 @@
+---
+layout: default
+title: Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)
+nav_order: 60
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
+next: /seiten/haushaltsbuch-excel.html
+---
+
 # Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)
 
 ## Einleitung
@@ -139,3 +147,4 @@ hast du dein Ziel erreicht.
 
 👉 **Zur Übersicht:**  
 [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+
