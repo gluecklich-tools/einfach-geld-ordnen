@@ -1,6 +1,19 @@
 main:
   - title: Start
     url: /
-
   - title: Pillar
     url: /pillar/
+  - title: Der Weg – Einfach Geld ordnen
+    url: /seiten/der-weg.html
+  - title: Fixkosten übersichtlich erfassen
+    url: /seiten/fixkosten-uebersicht.html
+  - title: Haushaltsbuch in Excel einfach erklärt
+    url: /seiten/haushaltsbuch-excel.html
+  - title: Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)
+    url: /seiten/haushaltsbuch-vorlage-kostenlos.html
+  - title: Monatliche Ausgaben im Blick behalten
+    url: /seiten/monatliche-ausgaben.html
+  - title: Nebenkosten der Miete einfach erklärt
+    url: /seiten/nebenkosten-miete.html
+  - title: Stromkosten im Haushalt verstehen
+    url: /seiten/stromkosten-haushalt.html

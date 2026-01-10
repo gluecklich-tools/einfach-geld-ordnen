@@ -1,56 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Minima CSS -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; max-width: 980px; margin: 24px auto; padding: 0 16px; line-height: 1.55; }
+    nav { font-size: 12px; margin-bottom: 14px; }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .nav-sep { color: #666; padding: 0 6px; }
+    hr { margin: 24px 0; }
+  </style>
 </head>
-
 <body>
-
-  <header>
   <nav>
-  <!-- Statische Navigation -->
-  {% for item in site.data.nav.main %}
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %} | {% endunless %}
-  {% endfor %}
-
-  <br>
-
-  <!-- Automatisch alle Seiten unter /seiten/ -->
-  {% assign seiten_pages = site.pages
-    | where_exp: "p", "p.url contains '/seiten/'"
-    | where_exp: "p", "p.nav_hide != true"
-    | sort: "nav_order" %}
-
-  {% for p in seiten_pages %}
-    <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name }}</a>{% unless forloop.last %} | {% endunless %}
-  {% endfor %}
-</nav>
-
-
-    <hr>
-  </header>
+    {% if site.data.nav and site.data.nav.main %}
+      {% for item in site.data.nav.main %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %}<span class="nav-sep">|</span>{% endunless %}
+      {% endfor %}
+    {% endif %}
+  </nav>
 
   <main>
     {{ content }}
 
-{% if page.next %}
-<hr>
-{% assign next_page = site.pages | where: "url", page.next | first %}
-<p>
-👉 <strong>Weiter mit:</strong>
-<a href="{{ page.next | relative_url }}">
-  {{ next_page.title | default: "Nächster Schritt" }}
-</a>
-</p>
-{% endif %}
-
-
+    {% if page.next %}
+      <hr />
+      {% assign next_url = page.next.url | default: page.next %}
+      {% assign next_page = site.pages | where: "url", next_url | first %}
+      {% assign next_title = page.next.title | default: next_page.title | default: "Nächster Schritt" %}
+      <p>👉 <strong>Weiter mit:</strong> <a href="{{ next_url | relative_url }}">{{ next_title }}</a></p>
+    {% endif %}
   </main>
-
 </body>
 </html>
