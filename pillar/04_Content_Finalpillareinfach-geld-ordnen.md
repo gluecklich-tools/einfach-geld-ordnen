@@ -101,7 +101,6 @@ sondern **Klarheit** zu schaffen.
 👉 Mehr dazu findest du in:  
 [Haushaltsbuch in Excel einfach erklärt](/einfach-geld-ordnen/seiten/haushaltsbuch-excel.html)
 
-
 ---
 
 ## Einnahmen, Fixkosten und Ausgaben unterscheiden
@@ -130,7 +129,6 @@ Kosten, die schwanken:
 
 👉 Weiterführend:  
 [Monatliche Ausgaben im Blick behalten](/einfach-geld-ordnen/seiten/monatliche-ausgaben.html)
-
 
 ---
 
@@ -174,8 +172,4 @@ hast du bereits den wichtigsten Schritt getan.
 ## Download-Hinweis
 > **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
 > *(Download folgt – Platzhalter)*
-
-
-
-
 

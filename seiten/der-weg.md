@@ -1,106 +1,46 @@
 ---
 layout: default
-title: Der Weg – Einfach Geld ordnen
-next: /seiten/fixkosten-uebersicht.html
-permalink: /seiten/der-weg.html
+title: "Der Weg – Einfach Geld ordnen"
+nav_order: 10
+permalink: "/seiten/der-weg.html"
 ---
+# Der Weg – Einfach Geld ordnen
+Diese Seite zeigt dir den **einfachen Fahrplan**, wie du dir mit einem Haushaltsbuch Überblick schaffst – ohne Perfektionsdruck.
 
-# Einfach Geld ordnen – Haushaltsbuch für Anfänger
+## 1) Start: Überblick statt Detailstress
+- Ziel ist **Klarheit**, nicht Kontrolle.
+- Erst verstehen: **Einnahmen**, **Fixkosten**, **variable Ausgaben**.
 
-## Einleitung
-Viele Menschen verlieren den Überblick über ihr Geld – nicht, weil sie zu wenig verdienen,
-sondern weil Einnahmen, Fixkosten und Ausgaben unübersichtlich sind.
-Apps wirken oft kompliziert oder verlangen Registrierungen.
+## 2) Fixkosten trennen
+Fixkosten sind monatlich gleich oder sehr ähnlich (Miete, Strom, Versicherungen, Abos).
 
-Diese Seite zeigt dir einen **einfachen, verständlichen Weg**, wie du dein Geld ordnen kannst –
-ohne Fachbegriffe, ohne Druck, ohne Optimierungsstress.
+👉 Nächster Schritt: Fixkosten auflisten und sortieren.
 
----
+## 3) Variable Ausgaben sichtbar machen
+Variable Ausgaben schwanken (Lebensmittel, Freizeit, Kleidung).  
+Ein grobes, aber konsequentes System reicht: Kategorien + Summe pro Monat.
 
-## Warum ein Haushaltsbuch der richtige Start ist
-Ein Haushaltsbuch hilft dir, Antworten auf einfache, aber wichtige Fragen zu bekommen:
-- Wie viel Geld kommt monatlich rein?
-- Welche Fixkosten laufen fest?
-- Was bleibt mir wirklich zur Verfügung?
-
-Es geht **nicht** darum, jeden Cent zu kontrollieren,
-sondern **Klarheit** zu schaffen.
-
-👉 Mehr dazu findest du in:  
-[Haushaltsbuch Excel – einfache Vorlage für den Überblick]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-
----
-
-## Einnahmen, Fixkosten und Ausgaben unterscheiden
-Der wichtigste Schritt beim Geld ordnen ist die Trennung in drei Bereiche:
-
-### Einnahmen
-Alles Geld, das regelmäßig oder unregelmäßig eingeht
-(z. B. Gehalt, Rente, Nebenverdienst).
-
-### Fixkosten
-Monatlich gleichbleibende Kosten wie:
-- Miete
-- Strom
-- Versicherungen
-- Verträge
-
-👉 Siehe auch:  
-[Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-
-### Variable Ausgaben
-Kosten, die schwanken:
-- Lebensmittel
-- Freizeit
-- Kleidung
-- Sonstiges
-
-👉 Weiterführend:  
-[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-
----
-
-## Strom- und Nebenkosten verstehen
-Gerade Strom- und Nebenkosten sorgen oft für Unsicherheit.
-Viele wissen nicht, **wie hoch sie wirklich sind** oder **wie sie zustande kommen**.
-
-👉 Schritt-für-Schritt erklärt hier:
-- [Stromkosten im Haushalt berechnen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
-- [Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
-
----
-
-## Einfach starten – ohne App, ohne Zwang
-Du brauchst:
-- keine App
-- kein Konto
-- kein Vorwissen
-
-Ein **einfaches Haushaltsbuch in Excel oder LibreOffice** reicht völlig aus,
-wenn es klar aufgebaut ist.
-
-👉 Nächster Schritt:
-[Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
-
----
+## 4) Strom & Nebenkosten verstehen
+Viele verwechseln Nebenkosten (über Vermieter) mit Strom (meist eigener Vertrag).  
+Wenn du das sauber trennst, entstehen weniger Überraschungen.
 
 ## Fazit
-Geld ordnen heißt nicht sparen um jeden Preis,
-sondern **verstehen**, wo man steht.
-
 Wenn du weißt:
-- was reinkommt
-- was fest weggeht
-- was übrig bleibt
+- was reinkommt,
+- was fest weggeht,
+- was übrig bleibt,
 
-hast du bereits den wichtigsten Schritt getan.
+hast du den wichtigsten Schritt getan.
 
----
+## Überblick – alle Themen
 
-## Download-Hinweis
-> **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
-> *(Download folgt – Platzhalter)*
----
+- [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- [Kostenlose Haushaltsbuch‑Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
+- [Fixkosten übersichtlich erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- [Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+- [Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- [Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
 
-👉 **Zur Übersicht:**  
-[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
+👉 Zur Hauptübersicht: [Einfach Geld ordnen – Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})
+
+👉 Zur Übersicht: [Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
