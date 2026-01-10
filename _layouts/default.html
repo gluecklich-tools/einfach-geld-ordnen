@@ -8,11 +8,12 @@
 <body>
 
   <header>
-    <nav>
-      <a href="{{ site.baseurl }}/">Start</a> |
-      <a href="{{ site.baseurl }}/seiten/fixkosten-uebersicht.html">Fixkosten</a> |
-      <a href="{{ site.baseurl }}/pillar/">Pillar</a>
-    </nav>
+  <nav>
+  {% for item in site.data.nav.main %}
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</nav>
+
     <hr>
   </header>
 
