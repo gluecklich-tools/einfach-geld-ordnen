@@ -98,3 +98,7 @@ hast du bereits den wichtigsten Schritt getan.
 ## Download-Hinweis
 > **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
 > *(Download folgt – Platzhalter)*
+---
+
+👉 **Zur Übersicht:**  
+[Einfach Geld ordnen – Überblick]({{ "/pillar/" | relative_url }})
