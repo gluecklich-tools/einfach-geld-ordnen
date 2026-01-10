@@ -1,16 +1,17 @@
 ---
 layout: default
-title: "Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)"
+title: "Kostenlose Haushaltsbuch Excel Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
 ## Kostenlose Haushaltsbuch-Vorlage
 
-Eine einfache Vorlage für den schnellen Start.
-
-
----
+Hier bekommst du die Excel-Vorlage kostenlos zum Download.
 
 ## Download
 
-[Excel-Vorlage herunterladen]({{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }})
+**👉 [Excel-Haushaltsbuch kostenlos herunterladen]({{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }})**
+
+## Mehr Infos
+- [Haushaltsbuch erklärt]({{ '/seiten/haushaltsbuch-excel.html' | relative_url }})
+- [Zur Übersicht]({{ '/pillar/' | relative_url }})
