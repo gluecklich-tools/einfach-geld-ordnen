@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Fixkosten übersichtlich erfassen
+permalink: /seiten/fixkosten-uebersicht.html
 ---
+
 ## Fixkosten übersichtlich erfassen
 
 Diese Seite erklärt, wie du deine Fixkosten sauber strukturierst.
