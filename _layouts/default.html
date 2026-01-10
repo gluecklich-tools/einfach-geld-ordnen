@@ -3,35 +3,44 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; max-width: 980px; margin: 24px auto; padding: 0 16px; line-height: 1.55; }
-    nav { font-size: 12px; margin-bottom: 14px; }
-    nav a { text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    .nav-sep { color: #666; padding: 0 6px; }
-    hr { margin: 24px 0; }
-  </style>
+  <title>{{ page.title }}{% if site.title and page.title != site.title %} - {{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/base.css" />
 </head>
 <body>
-  <nav>
-    {% if site.data.nav and site.data.nav.main %}
-      {% for item in site.data.nav.main %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %}<span class="nav-sep">|</span>{% endunless %}
-      {% endfor %}
-    {% endif %}
-  </nav>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <div class="site-nav__inner">
+        <a class="brand" href="{{ site.baseurl }}/">Einfach Geld ordnen</a>
+        <ul class="nav-list">
+          {% for item in site.data.nav.main %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  <main>
-    {{ content }}
+  <main class="container">
+    <article class="content">
+      {{ content }}
+    </article>
 
     {% if page.next %}
-      <hr />
       {% assign next_url = page.next.url | default: page.next %}
-      {% assign next_page = site.pages | where: "url", next_url | first %}
-      {% assign next_title = page.next.title | default: next_page.title | default: "Nächster Schritt" %}
-      <p>👉 <strong>Weiter mit:</strong> <a href="{{ next_url | relative_url }}">{{ next_title }}</a></p>
+      {% assign next_title = page.next.title | default: 'Naechster Artikel' %}
+      <div class="next-box">
+        <span class="next-label">Weiter mit:</span>
+        <a class="next-link" href="{{ site.baseurl }}{{ next_url }}">{{ next_title }}</a>
+      </div>
     {% endif %}
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | default: 'Einfach Geld ordnen' }}</span>
+    </div>
+  </footer>
 </body>
 </html>
