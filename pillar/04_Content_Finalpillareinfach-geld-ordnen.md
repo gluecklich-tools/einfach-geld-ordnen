@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Einfach Geld ordnen – Haushaltsbuch für Anfänger
-permalink: [Einfach Geld ordnen – Haushaltsbuch für Anfänger](/einfach-geld-ordnen/pillar/einfach-geld-ordnen.html)
-
-
+permalink: /pillar/einfach-geld-ordnen.html
 ---
+
 Einfach Geld ordnen – Haushaltsbuch für Anfänger
 Einleitung
 Viele Menschen verlieren den Überblick über ihr Geld – nicht, weil sie zu wenig verdienen, sondern weil Einnahmen, Fixkosten und Ausgaben unübersichtlich sind. Apps wirken oft kompliziert oder verlangen Registrierungen.
@@ -155,7 +154,7 @@ Ein **einfaches Haushaltsbuch in Excel oder LibreOffice** reicht völlig aus,
 wenn es klar aufgebaut ist.
 
 👉 Nächster Schritt:
-[Haushaltsbuch Vorlage kostenlos (Excel & LibreOffice)](../seiten/haushaltsbuch-vorlage-kostenlos.md)
+[Kostenlose Haushaltsbuch-Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
 
 ---
 
@@ -175,6 +174,7 @@ hast du bereits den wichtigsten Schritt getan.
 ## Download-Hinweis
 > **Kostenlose Haushaltsbuch-Vorlage (Excel & LibreOffice)**  
 > *(Download folgt – Platzhalter)*
+
 
 
 
