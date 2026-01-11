@@ -9,8 +9,6 @@ theme: minima
 collections:
   seiten:
     output: true
-  pillar:
-    output: true
 
 defaults:
   - scope:
