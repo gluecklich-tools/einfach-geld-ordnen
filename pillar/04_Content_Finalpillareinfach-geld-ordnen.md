@@ -1,32 +1,39 @@
 ---
 layout: default
-title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
-h1: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
-permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
+title: "Einfach Geld ordnen – Schritt für Schritt"
+permalink: /pillar/einfach-geld-ordnen/
 ---
 
-## Ziel
-Du willst deine Finanzen so strukturieren, dass du **jeden Monat weißt**, was reinkommt, was rausgeht und was übrig bleibt – ohne Chaos, ohne Rätselraten.
+# Einfach Geld ordnen
 
-## In 10 Minuten startklar
-1. Öffne: [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-2. Lade die Datei aus **/downloads/**:
-   - Excel: `haushaltsbuch-excel.xlsx`
-   - (Optional) LibreOffice: `haushaltsbuch-excel.ods` (falls vorhanden)
-3. Trage zuerst **Fixkosten** ein: [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-4. Danach deine **monatlichen Ausgaben**: [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-5. Dann kommt Feinschliff über Zeit (Miete/Nebenkosten/Strom):
+## Für wen ist das?
+Du willst deine Finanzen ordnen – ohne App, ohne Stress, ohne Perfektion.
 
-   - [Nebenkosten Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
-   - [Stromkosten Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+## Was du hier bekommst
+- einen einfachen Start (heute)
+- eine klare Struktur (Fixkosten, Ausgaben, Wohnen & Strom)
+- den nächsten sinnvollen Schritt (Vorlage & Seiten)
 
----
+## So startest du heute (15 Minuten)
+1. Kontostand + Bargeld notieren
+2. Fixkosten-Liste beginnen
+3. 30 Tage Ausgaben kurz mitschreiben (Stichworte reichen)
 
-## Nächster Schritt
-Wenn du heute nur **eine** Sache machst: **Fixkosten sauber erfassen** →  
-[Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+## Die 3 Bausteine
 
----
+### 1) Fixkosten (planbar)
+Alles, was monatlich oder jährlich wiederkommt (Miete, Verträge, Versicherungen).
 
-> Hinweis: Dieser Artikel ist bewusst kurz gehalten und dient als **Pillar-Einstieg**.
-> Ausbau folgt in A3.x (Struktur, Crosslinks, Checklisten, Skalierung).
+### 2) Variable Ausgaben (steuerbar)
+Einkauf, Sprit, Drogerie, Freizeit.  
+Hier entstehen die meisten „Warum ist das Geld weg?“-Momente.
+
+### 3) Wohnen & Strom (großer Hebel)
+Nebenkosten und Strom sind oft der größte Hebel – einmal prüfen kann dauerhaft sparen.
+
+> Hinweis: Dieser Artikel ist bewusst kurz gehalten und dient als **Pillar-Einstieg**.  
+> Der Ausbau erfolgt in Phase B (Struktur, Crosslinks, Checklisten).
+
+## Nächste Schritte
+Wenn die Struktur steht, gehst du weiter zu den passenden Detailseiten und zur Vorlage.
+
