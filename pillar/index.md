@@ -4,7 +4,19 @@ title: Einfach Geld ordnen – Übersicht
 permalink: /pillar/
 ---
 
-# Überblick – Einfach Geld ordnen
+## Zentrale Einstiegsseiten
 
-Hier findest du alle zentralen Themen & Einstiegsseiten.
+Hier findest du die wichtigsten Grundlagen zum Projekt **Einfach Geld ordnen**.
 
+<ul>
+  <li>
+    <a href="{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}">
+      Einfach Geld ordnen – Überblick
+    </a>
+  </li>
+  <li>
+    <a href="{{ '/pillar/einfach-geld-ordnen-haushaltsbuch.html' | relative_url }}">
+      Haushaltsbuch einfach erklärt
+    </a>
+  </li>
+</ul>
