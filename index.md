@@ -18,10 +18,10 @@ Diese Seite zeigt dir einen **einfachen, realistischen Weg**,
 dein Geld zu ordnen – Schritt für Schritt.
 
 ## Starte hier
-👉 **Grundlagen verstehen**
+**Grundlagen verstehen**
 - [Haushaltsbuch in Excel einfach erklärt]({{ '/seiten/haushaltsbuch-excel/' | relative_url }})
 
-👉 **Direkt loslegen**
+**Direkt loslegen**
 - [Kostenlose Haushaltsbuch-Vorlage]({{ '/seiten/haushaltsbuch-vorlage-kostenlos/' | relative_url }})
 
 ## Die drei Bausteine
