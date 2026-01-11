@@ -1,30 +1,19 @@
-﻿---
+---
 layout: default
-title: "Kostenlose Haushaltsbuch Excel Vorlage"
+title: "Haushaltsbuch Vorlage kostenlos"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
-## Kostenlose Haushaltsbuch-Vorlage
-
-Hier bekommst du die Excel-Vorlage kostenlos zum Download.
+Hier findest du die kostenlose Haushaltsbuch-Vorlage als Excel-Datei.
 
 ## Download
 
-<div style="margin:1.5rem 0;">
-{% include download-button.html file="downloads/haushaltsbuch-einfach-geld-ordnen.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" %}
-     class="button"
-     download
-     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
-    ðŸ“Š Excel-Haushaltsbuch kostenlos herunterladen
-  </a>
-</div>
+{% include download-button.html file="haushaltsbuch.xlsx" label="Haushaltsbuch Vorlage herunterladen (Excel .xlsx)" hint="Kostenlos. Ohne Anmeldung." %}
 
-## Mehr Infos
-- [Haushaltsbuch erklÃ¤rt](../seiten/haushaltsbuch-excel.html)
+## Weiterführende Seiten
+
+- [Fixkosten Übersicht]({{ '/seiten/fixkosten-uebersicht.html' | relative_url }})
+- [Monatliche Ausgaben]({{ '/seiten/monatliche-ausgaben.html' | relative_url }})
+- [Nebenkosten der Miete]({{ '/seiten/nebenkosten-miete.html' | relative_url }})
+- [Stromkosten im Haushalt]({{ '/seiten/stromkosten-haushalt.html' | relative_url }})
 - [Zur Übersicht]({{ '/pillar/' | relative_url }})
-
-
-
-
-
-

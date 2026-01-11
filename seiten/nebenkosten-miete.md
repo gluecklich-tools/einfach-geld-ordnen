@@ -1,17 +1,18 @@
-﻿---
+---
 layout: default
 title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete.html
 ---
 
-## Nebenkosten der Miete
+Nebenkosten sind die zusätzlichen Kosten rund um die Wohnung (neben der Kaltmiete).
 
-Was gehÃ¶rt dazu, was nicht?
+Typische Posten:
 
-âž¡ï¸ [Zur Übersicht]({{ '/pillar/' | relative_url }})
+- Heizung
+- Wasser / Abwasser
+- Müll, Hausmeister, Treppenhausreinigung
+- Grundsteuer (umgelegt)
 
+Tipp: Lege dir eine eigene Liste/Spalte an, in der du **Abschlag** und **Jahresabrechnung** getrennt notierst.
 
-
-
-
-
+**Zur Übersicht:** [Zur Übersicht]({{ '/pillar/' | relative_url }})

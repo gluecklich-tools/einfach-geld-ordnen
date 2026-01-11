@@ -1,33 +1,19 @@
-﻿---
+---
 layout: default
-title: "Haushaltsbuch in Excel einfach erklÃ¤rt"
+title: "Haushaltsbuch in Excel einfach erklärt"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
-
-## Haushaltsbuch in Excel
 
 Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.
 
 ## Download
 
-<div style="margin:1.5rem 0;">
-{% include download-button.html file="downloads/haushaltsbuch-einfach-geld-ordnen.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" %}
-     class="button"
-     download
-     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
-    ðŸ“Š Excel-Haushaltsbuch kostenlos herunterladen
-  </a>
-</div>
+{% include download-button.html file="haushaltsbuch.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" hint="Kostenlose Vorlage" %}
 
-## WeiterfÃ¼hrende Seiten
-- [Fixkosten Ãœbersicht](../seiten/fixkosten-uebersicht.html)
-- [Monatliche Ausgaben](../seiten/monatliche-ausgaben.html)
-- [Nebenkosten Miete](../seiten/nebenkosten-miete.html)
-- [Stromkosten Haushalt](../seiten/stromkosten-haushalt.html)
+## Weiterführende Seiten
+
+- [Fixkosten Übersicht]({{ '/seiten/fixkosten-uebersicht.html' | relative_url }})
+- [Monatliche Ausgaben]({{ '/seiten/monatliche-ausgaben.html' | relative_url }})
+- [Nebenkosten der Miete]({{ '/seiten/nebenkosten-miete.html' | relative_url }})
+- [Stromkosten im Haushalt]({{ '/seiten/stromkosten-haushalt.html' | relative_url }})
 - [Zur Übersicht]({{ '/pillar/' | relative_url }})
-
-
-
-
-
-
