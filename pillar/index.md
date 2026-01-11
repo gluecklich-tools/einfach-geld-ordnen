@@ -15,9 +15,10 @@ Hier findest du die wichtigsten Grundlagen zum Projekt **Einfach Geld ordnen**.
     </a>
   </li>
   <li>
-    <a href="{{ '/seiten/haushaltsbuch-excel.html' | relative_url }}">
+    <a href="{{ '/seiten/haushaltsbuch-excel/index.html' | relative_url }}">
       Haushaltsbuch einfach erklärt
     </a>
   </li>
 </ul>
+
 
