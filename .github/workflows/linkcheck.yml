@@ -35,7 +35,7 @@ jobs:
 
       - name: Build site (Jekyll)
         run: |
-          jekyll build --trace
+          jekyll build --verbose --trace
 
       - name: Linkcheck (HTMLProofer)
         run: |
@@ -48,3 +48,4 @@ jobs:
             --ignore-missing-alt \
             --only-4xx \
             --ignore-status-codes "999"
+
