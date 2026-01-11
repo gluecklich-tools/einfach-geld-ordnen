@@ -38,14 +38,14 @@ jobs:
             gem install html-proofer --no-document
           fi
 
-      - name: Build site (Jekyll)
+      - name: Build site (Jekyll) without baseurl for internal linkcheck
         shell: bash
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            bundle exec jekyll build --verbose --trace
+            bundle exec jekyll build --baseurl "" --verbose --trace
           else
-            jekyll build --verbose --trace
+            jekyll build --baseurl "" --verbose --trace
           fi
 
       - name: Linkcheck (internal only)
