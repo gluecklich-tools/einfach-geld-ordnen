@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Monatliche Ausgaben"
-permalink: /seiten/monatliche-ausgaben/index.html
+permalink: /seiten/monatliche-ausgaben/
 ---
 
 Hier sammelst du alle Ausgaben, die in einem normalen Monat anfallen â€“ einmalig **und** regelmÃ¤ÃŸig.
@@ -14,5 +14,5 @@ Praktischer Ansatz:
 
 Tipp: Wenn du jÃ¤hrlich zahlst (z.â€¯B. Versicherung), rechne den Betrag durch 12 und plane den Monatswert ein.
 
-[Zur Ãœbersicht]({{ '/pillar/index.html' | relative_url }})
+[Zur Ãœbersicht]({{ '/pillar/' | relative_url }})
 

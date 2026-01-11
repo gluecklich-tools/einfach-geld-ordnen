@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Der Weg â€“ Einfach Geld ordnen"
-permalink: /seiten/der-weg/index.html
+permalink: /seiten/der-weg/
 ---
 
 ## Der Weg
