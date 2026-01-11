@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Stromkosten im Haushalt"
 permalink: /seiten/stromkosten-haushalt.html
@@ -8,4 +8,10 @@ permalink: /seiten/stromkosten-haushalt.html
 
 Verbrauch verstehen und senken.
 
-➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)
+âž¡ï¸ [Zur Übersicht]({{ '/pillar/' | relative_url }})
+
+
+
+
+
+

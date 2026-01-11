@@ -1,14 +1,21 @@
----
+﻿---
 layout: default
-title: "Fixkosten Übersicht"
+title: "Fixkosten Ãœbersicht"
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-## Fixkosten Übersicht
+## Fixkosten Ãœbersicht
 
 - Miete
 - Strom
 - Versicherungen
 - Abos
 
-➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)
+âž¡ï¸ [Zur Ãœbersicht]({{ '/pillar/' | relative_url }})
+
+
+
+
+
+
+

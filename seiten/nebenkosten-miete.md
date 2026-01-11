@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete.html
@@ -6,6 +6,12 @@ permalink: /seiten/nebenkosten-miete.html
 
 ## Nebenkosten der Miete
 
-Was gehört dazu, was nicht?
+Was gehÃ¶rt dazu, was nicht?
 
-➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)
+âž¡ï¸ [Zur Übersicht]({{ '/pillar/' | relative_url }})
+
+
+
+
+
+

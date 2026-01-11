@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Monatliche Ausgaben"
 permalink: /seiten/monatliche-ausgaben.html
@@ -8,4 +8,10 @@ permalink: /seiten/monatliche-ausgaben.html
 
 Alle variablen Kosten im Blick behalten.
 
-➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)
+âž¡ï¸ [Zur Übersicht]({{ '/pillar/' | relative_url }})
+
+
+
+
+
+
