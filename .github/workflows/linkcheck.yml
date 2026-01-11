@@ -22,12 +22,50 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
+          bundler-cache: true
 
-      - name: Install Jekyll
-        run: gem install jekyll --no-document
+      - name: Install dependencies (GitHub Pages compatible)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f "Gemfile" ]; then
+            echo "Gemfile found -> bundle install"
+            bundle config set path vendor/bundle
+            bundle install --jobs 4 --retry 3
+          else
+            echo "No Gemfile -> install github-pages + html-proofer via gem"
+            gem install github-pages --no-document
+            gem install html-proofer --no-document
+          fi
 
       - name: Build site (Jekyll)
-        run: jekyll build --verbose --trace
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f "Gemfile" ]; then
+            bundle exec jekyll build --verbose --trace
+          else
+            jekyll build --verbose --trace
+          fi
 
-      # htmlproofer bleibt absichtlich deaktiviert
-      # wird im nächsten Schritt sauber aktiviert
+      - name: Linkcheck (internal only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f "Gemfile" ]; then
+            bundle exec htmlproofer ./_site \
+              --assume-extension \
+              --check-html \
+              --only-4xx \
+              --disable-external \
+              --ignore-empty-alt \
+              --ignore-missing-alt
+          else
+            htmlproofer ./_site \
+              --assume-extension \
+              --check-html \
+              --only-4xx \
+              --disable-external \
+              --ignore-empty-alt \
+              --ignore-missing-alt
+          fi
