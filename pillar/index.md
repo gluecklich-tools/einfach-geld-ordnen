@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: Einfach Geld ordnen – Übersicht
-permalink: /pillar/
+permalink: pillar/
 ---
 
 ## Zentrale Einstiegsseiten
