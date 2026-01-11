@@ -17,3 +17,11 @@ defaults:
       path: ""
     values:
       layout: default
+
+exclude:
+  - tools
+  - freeze
+  - docs
+  - README.md
+  - CHECKLISTE_NEUES_REPO_10_MIN.md
+
