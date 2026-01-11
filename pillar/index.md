@@ -10,7 +10,7 @@ Hier findest du die wichtigsten Grundlagen zum Projekt **Einfach Geld ordnen**.
 
 <ul>
   <li>
-    <a href="{{ '/pillar/einfach-geld-ordnen/' | relative_url }}">
+    <a href="{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}">
       Einfach Geld ordnen – Überblick
     </a>
   </li>
