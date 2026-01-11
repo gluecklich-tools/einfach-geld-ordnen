@@ -11,7 +11,7 @@ Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalt
 ## Download
 
 <div style="margin:1.5rem 0;">
-  <a href="/einfach-geld-ordnen/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx"
+{% include download-button.html file="downloads/haushaltsbuch-einfach-geld-ordnen.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" %}
      class="button"
      download
      style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
