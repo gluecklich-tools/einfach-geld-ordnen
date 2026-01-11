@@ -8,7 +8,7 @@ Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalt
 
 ## Download
 
-{% include download-button.html file="haushaltsbuch.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" hint="Kostenlose Vorlage" %}
+{% include download-button.html file="haushaltsbuch-excel.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" hint="Kostenlose Vorlage" %}
 
 ## Weiterführende Seiten
 

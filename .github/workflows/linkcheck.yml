@@ -55,17 +55,26 @@ jobs:
 
           # baseurl aus _config.yml ziehen (z.B. /einfach-geld-ordnen)
           BASEURL="$(ruby -ryaml -e 'c=YAML.load_file("_config.yml") || {}; print(c["baseurl"].to_s)' 2>/dev/null || true)"
-          echo "Detected baseurl: '${BASEURL}'"
 
-          # wenn baseurl gesetzt ist: beim Prüfen weg-swappen, sonst bleiben Links kaputt
-          URLSWAP=""
-          if [ -n "${BASEURL}" ]; then
-            URLSWAP="--url-swap ${BASEURL}/:/"
+          # normalisieren: führender Slash, kein trailing Slash
+          BASEURL="${BASEURL%/}"
+          if [ -n "$BASEURL" ] && [[ "$BASEURL" != /* ]]; then
+            BASEURL="/$BASEURL"
           fi
 
+          echo "Detected baseurl: '${BASEURL}'"
+
+          # Wenn baseurl gesetzt ist: Links beim Prüfen weg-swappen.
+          # Wichtig: wir swappen sowohl "${BASEURL}/" als auch "${BASEURL}" (ohne Slash),
+          # weil im HTML beides vorkommen kann.
+          URLSWAP=()
+          if [ -n "$BASEURL" ]; then
+            URLSWAP+=("--url-swap" "${BASEURL}/:/")
+            URLSWAP+=("--url-swap" "${BASEURL}:/")
+          fi
           if [ -f "Gemfile" ]; then
             bundle exec htmlproofer ./_site \
-              $URLSWAP \
+              "${URLSWAP[@]}" \
               --assume-extension \
               --check-html \
               --only-4xx \
@@ -74,7 +83,7 @@ jobs:
               --ignore-missing-alt
           else
             htmlproofer ./_site \
-              $URLSWAP \
+              "${URLSWAP[@]}" \
               --assume-extension \
               --check-html \
               --only-4xx \

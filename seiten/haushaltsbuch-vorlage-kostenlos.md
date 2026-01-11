@@ -8,7 +8,7 @@ Hier findest du die kostenlose Haushaltsbuch-Vorlage als Excel-Datei.
 
 ## Download
 
-{% include download-button.html file="haushaltsbuch.xlsx" label="Haushaltsbuch Vorlage herunterladen (Excel .xlsx)" hint="Kostenlos. Ohne Anmeldung." %}
+{% include download-button.html file="haushaltsbuch-vorlage-kostenlos.xlsx" label="Haushaltsbuch Vorlage herunterladen (Excel .xlsx)" hint="Kostenlos. Ohne Anmeldung." %}
 
 ## Weiterführende Seiten
 
