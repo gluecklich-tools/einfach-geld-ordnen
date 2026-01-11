@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Stromkosten im Haushalt"
 permalink: /seiten/stromkosten-haushalt.html
@@ -6,12 +6,12 @@ permalink: /seiten/stromkosten-haushalt.html
 
 Stromkosten bestehen aus deinem Verbrauch (kWh) und dem Arbeitspreis/Grundpreis deines Tarifs.
 
-Wichtig für den Überblick:
+Wichtig fÃ¼r den Ãœberblick:
 
 - **kWh-Verbrauch** pro Monat / Jahr
 - **Abschlag** (monatliche Zahlung)
 - **Jahresabrechnung** (Nachzahlung / Guthaben)
 
-Tipp: Notiere den Zählerstand (mindestens) einmal pro Monat – damit erkennst du Ausreißer früh.
+Tipp: Notiere den ZÃ¤hlerstand (mindestens) einmal pro Monat â€“ damit erkennst du AusreiÃŸer frÃ¼h.
 
-**Zur Übersicht:** [Zur Übersicht]({{ '/pillar/' | relative_url }})
+**Zur Ãœbersicht:** [Zur Ãœbersicht]({{ '/pillar/index.html' | relative_url }})

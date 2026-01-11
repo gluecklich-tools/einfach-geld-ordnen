@@ -1,10 +1,10 @@
----
+﻿---
 layout: default
-title: "Fixkosten Übersicht"
+title: "Fixkosten Ãœbersicht"
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-Fixkosten sind die Ausgaben, die jeden Monat (oder regelmäßig) anfallen – unabhängig davon, wie viel du gerade konsumierst.
+Fixkosten sind die Ausgaben, die jeden Monat (oder regelmÃ¤ÃŸig) anfallen â€“ unabhÃ¤ngig davon, wie viel du gerade konsumierst.
 
 Typische Fixkosten:
 
@@ -13,4 +13,4 @@ Typische Fixkosten:
 - Versicherungen
 - Abos
 
-**Zur Übersicht:** [Zur Übersicht]({{ '/pillar/' | relative_url }})
+**Zur Ãœbersicht:** [Zur Ãœbersicht]({{ '/pillar/index.html' | relative_url }})
