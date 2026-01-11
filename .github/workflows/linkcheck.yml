@@ -10,10 +10,6 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: linkcheck-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build-and-check:
     runs-on: ubuntu-latest
@@ -26,15 +22,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
-          bundler-cache: false
 
-      - name: Install html-proofer + jekyll
-        run: |
-          gem install jekyll --no-document
-          gem install html-proofer --no-document
+      - name: Install Jekyll
+        run: gem install jekyll --no-document
 
       - name: Build site (Jekyll)
-        run: |
-          jekyll build --verbose --trace
+        run: jekyll build --verbose --trace
 
-      # TEMP disabled htmlproofer
+      # htmlproofer bleibt absichtlich deaktiviert
+      # wird im nächsten Schritt sauber aktiviert
