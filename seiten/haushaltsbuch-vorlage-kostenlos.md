@@ -10,11 +10,11 @@ Hier findest du die kostenlose Haushaltsbuch-Vorlage als Excel-Datei.
 
 {% include download-button.html file="haushaltsbuch-vorlage-kostenlos.xlsx" label="Haushaltsbuch Vorlage herunterladen (Excel .xlsx)" hint="Kostenlos. Ohne Anmeldung." %}
 
-## WeiterfÃ¼hrende Seiten
+## Weiterführende Seiten
 
-- [Fixkosten Ãœbersicht]({{ '/seiten/fixkosten-uebersicht/' | relative_url }})
+- [Fixkosten Übersicht]({{ '/seiten/fixkosten-uebersicht/' | relative_url }})
 - [Monatliche Ausgaben]({{ '/seiten/monatliche-ausgaben/' | relative_url }})
 - [Nebenkosten der Miete]({{ '/seiten/nebenkosten-miete/' | relative_url }})
 - [Stromkosten im Haushalt]({{ '/seiten/stromkosten-haushalt/' | relative_url }})
-- [Zur Ãœbersicht]({{ '/pillar/' | relative_url }})
+- [Zur Übersicht]({{ '/pillar/' | relative_url }})
 

@@ -1,10 +1,10 @@
 ﻿---
 layout: default
-title: "Der Weg â€“ Einfach Geld ordnen"
+title: "Der Weg – Einfach Geld ordnen"
 permalink: /seiten/der-weg/
 ---
 
 ## Der Weg
 
-Diese Seite zeigt dir Schritt fÃ¼r Schritt, wie du Ordnung in deine Finanzen bringst.
+Diese Seite zeigt dir Schritt für Schritt, wie du Ordnung in deine Finanzen bringst.
 

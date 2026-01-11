@@ -4,16 +4,16 @@ title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete/
 ---
 
-Nebenkosten sind die zusÃ¤tzlichen Kosten rund um die Wohnung (neben der Kaltmiete).
+Nebenkosten sind die zusätzlichen Kosten rund um die Wohnung (neben der Kaltmiete).
 
 Typische Posten:
 
 - Heizung
 - Wasser / Abwasser
-- MÃ¼ll, Hausmeister, Treppenhausreinigung
+- Müll, Hausmeister, Treppenhausreinigung
 - Grundsteuer (umgelegt)
 
 Tipp: Lege dir eine eigene Liste/Spalte an, in der du **Abschlag** und **Jahresabrechnung** getrennt notierst.
 
-**Zur Ãœbersicht:** [Zur Ãœbersicht]({{ '/pillar/' | relative_url }})
+**Zur Übersicht:** [Zur Übersicht]({{ '/pillar/' | relative_url }})
 
