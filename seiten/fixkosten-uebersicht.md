@@ -11,4 +11,4 @@ permalink: /seiten/fixkosten-uebersicht.html
 - Versicherungen
 - Abos
 
-➡️ [Zur Übersicht](/pillar/)
+➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)

@@ -21,4 +21,4 @@ Hier bekommst du die Excel-Vorlage kostenlos zum Download.
 
 ## Mehr Infos
 - [Haushaltsbuch erklärt](../seiten/haushaltsbuch-excel.html)
-- [Zur Übersicht](/pillar/)
+- [Zur Übersicht](/einfach-geld-ordnen/pillar/)

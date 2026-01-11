@@ -24,4 +24,4 @@ Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalt
 - [Monatliche Ausgaben](../seiten/monatliche-ausgaben.html)
 - [Nebenkosten Miete](../seiten/nebenkosten-miete.html)
 - [Stromkosten Haushalt](../seiten/stromkosten-haushalt.html)
-- [Zur Übersicht](/pillar/)
+- [Zur Übersicht](/einfach-geld-ordnen/pillar/)

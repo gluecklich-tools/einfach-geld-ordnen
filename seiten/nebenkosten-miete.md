@@ -8,4 +8,4 @@ permalink: /seiten/nebenkosten-miete.html
 
 Was gehört dazu, was nicht?
 
-➡️ [Zur Übersicht](/pillar/)
+➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)

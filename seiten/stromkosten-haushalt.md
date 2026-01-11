@@ -8,4 +8,4 @@ permalink: /seiten/stromkosten-haushalt.html
 
 Verbrauch verstehen und senken.
 
-➡️ [Zur Übersicht](/pillar/)
+➡️ [Zur Übersicht](/einfach-geld-ordnen/pillar/)
