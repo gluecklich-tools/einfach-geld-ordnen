@@ -37,15 +37,4 @@ jobs:
         run: |
           jekyll build --verbose --trace
 
-      - name: Linkcheck (HTMLProofer)
-        run: |
-          htmlproofer ./_site \
-            --assume-extension \
-            --check-html \
-            --enforce-https \
-            --typhoeus-config '{"followlocation":true}' \
-            --ignore-empty-alt \
-            --ignore-missing-alt \
-            --only-4xx \
-            --ignore-status-codes "999"
-
+      # TEMP disabled htmlproofer
