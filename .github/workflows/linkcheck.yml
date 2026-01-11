@@ -1,0 +1,50 @@
+﻿name: Linkcheck (HTMLProofer)
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: linkcheck-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: false
+
+      - name: Install html-proofer + jekyll
+        run: |
+          gem install jekyll --no-document
+          gem install html-proofer --no-document
+
+      - name: Build site (Jekyll)
+        run: |
+          jekyll build --trace
+
+      - name: Linkcheck (HTMLProofer)
+        run: |
+          htmlproofer ./_site \
+            --assume-extension \
+            --check-html \
+            --enforce-https \
+            --typhoeus-config '{"followlocation":true}' \
+            --ignore-empty-alt \
+            --ignore-missing-alt \
+            --only-4xx \
+            --ignore-status-codes "999"
