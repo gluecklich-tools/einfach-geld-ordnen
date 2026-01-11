@@ -18,10 +18,12 @@ defaults:
     values:
       layout: default
 
+# Nur Website-Inhalte bauen. Alles andere raus.
 exclude:
   - tools
-  - freeze
   - docs
+  - freeze
+  - archiv
+  - _export_zips
   - README.md
   - CHECKLISTE_NEUES_REPO_10_MIN.md
-

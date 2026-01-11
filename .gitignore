@@ -1,0 +1,13 @@
+# build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# local exports / temp
+_export_zips/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
