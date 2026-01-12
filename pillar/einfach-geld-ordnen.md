@@ -1,40 +1,42 @@
----
+﻿---
 layout: default
-title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
+title: "Einfach Geld ordnen – Ueberblick, Ruhe und Kontrolle ohne Vorwissen"
+description: "Geldchaos ist normal. Dieser Leitfaden zeigt dir Schritt fuer Schritt, wie du Ordnung in deine Finanzen bringst – ohne Sparzwang, ohne Fachsprache."
 permalink: /pillar/einfach-geld-ordnen.html
-order: 1
-next: /seiten/der-weg/
 ---
 
-# Einfach Geld ordnen
+## Warum Geldchaos nichts mit Dummheit zu tun hat
+Viele Menschen glauben, ihr Geldproblem sei ein persoenliches Versagen. Das stimmt nicht. Geld ordnen wurde fast niemandem beigebracht.
 
-## Für wen ist das?
-Du willst deine Finanzen ordnen – ohne App, ohne Stress, ohne Perfektion.
+## Warum fast niemand gelernt hat, mit Geld Ordnung zu halten
+Geld taucht im Alltag in Stuecken auf. Ohne Gesamtbild entsteht Unsicherheit. Das ist ein Strukturproblem, kein persoenliches.
 
-## Was du hier bekommst
-- einen einfachen Start (heute)
-- eine klare Struktur (Fixkosten, Ausgaben, Wohnen & Strom)
-- den nächsten sinnvollen Schritt (Vorlage & Seiten)
+## Der groesste Fehler: Sparen ohne Ordnung
+Sparen ohne Ueberblick erzeugt Druck. Ordnung kommt zuerst, Sparen spaeter.
 
-## So startest du heute (15 Minuten)
-1. Kontostand + Bargeld notieren
-2. Fixkosten-Liste beginnen
-3. 30 Tage Ausgaben kurz mitschreiben (Stichworte reichen)
+## Einnahmen verstehen – realistisch
+Entscheidend ist, was regelmaessig verfuegbar ist. Ehrlich und einfach.
 
-## Die 3 Bausteine
+## Fixkosten: der unsichtbare Geldfresser
+Fixkosten gesammelt zu sehen bringt Klarheit. Verstehen kommt vor Veraendern.
 
-### 1) Fixkosten (planbar)
-Alles, was monatlich oder jährlich wiederkommt (Miete, Verträge, Versicherungen).
+## Variable Ausgaben
+Kleine Betraege summieren sich. Bewusstsein statt Kontrolle.
 
-### 2) Variable Ausgaben (steuerbar)
-Einkauf, Sprit, Drogerie, Freizeit.  
-Hier entstehen die meisten „Warum ist das Geld weg?“-Momente.
+## Strom & Nebenkosten
+Planbarkeit nimmt Nachzahlungen den Schrecken.
 
-### 3) Wohnen & Strom (großer Hebel)
-Nebenkosten und Strom sind oft der größte Hebel – einmal prüfen kann dauerhaft sparen.
+## Das Haushaltsbuch – einfach
+Ein einfaches Werkzeug reicht. Perfektion ist nicht noetig.
 
-> Hinweis: Dieser Artikel ist bewusst kurz gehalten und dient als **Pillar-Einstieg**.  
-> Der Ausbau erfolgt in Phase B (Struktur, Crosslinks, Checklisten).
+**Kostenloser Start:**
+{{ "/downloads/Einfaches_Haushaltsbuch_Ueberblick_ohne_Stress.xlsx" | relative_url }}
 
-## Nächste Schritte
-Wenn die Struktur steht, gehst du weiter zu den passenden Detailseiten und zur Vorlage.
+## 7-Tage-Startplan
+Tag 1–2 Einnahmen, Tag 3 Fixkosten, Tag 4 Variabel, Tag 5 Energie, Tag 6 pruefen, Tag 7 Ruhe.
+
+## Nach 30 Tagen
+Mehr Ruhe, weniger Stress, bessere Entscheidungen.
+
+## Wie es weitergeht
+Ordnung oeffnet Optionen. Kein Zwang.
