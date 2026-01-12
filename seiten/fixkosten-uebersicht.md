@@ -1,17 +1,7 @@
 ﻿---
 layout: default
-title: "Fixkosten Übersicht"
-permalink: /seiten/fixkosten-uebersicht/
+title: "Fixkosten übersichtlich erfassen"
+permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-Fixkosten sind die Ausgaben, die jeden Monat (oder regelmäßig) anfallen – unabhängig davon, wie viel du gerade konsumierst.
-
-Typische Fixkosten:
-
-- Miete / Wohnen
-- Strom
-- Versicherungen
-- Abos
-
-**Zur Übersicht:** [Zur Übersicht]({{ '/pillar/' | relative_url }})
-
+Hier erklärst du, wie man Fixkosten übersichtlich sammelt und versteht.

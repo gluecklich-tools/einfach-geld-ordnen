@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsbuch in Excel einfach erklärt"
-permalink: /seiten/haushaltsbuch-excel/
+permalink: /seiten/haushaltsbuch-excel.html
 ---
 
 Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.

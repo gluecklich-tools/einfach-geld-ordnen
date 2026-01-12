@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsbuch Vorlage kostenlos"
-permalink: /seiten/haushaltsbuch-vorlage-kostenlos/
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
 Hier findest du die kostenlose Haushaltsbuch-Vorlage als Excel-Datei.
