@@ -1,7 +1,24 @@
 ---
 layout: default
-title: "Variable Ausgaben im Haushalt – Überblick & Kontrolle"
+title: "Variable Ausgaben – Überblick & Kontrolle"
 permalink: /seiten/variable-ausgaben.html
 ---
 
-Inhalt unverändert übernommen.
+Variable Ausgaben schwanken von Monat zu Monat. Genau deshalb fallen sie oft nicht auf, obwohl sie einen großen Einfluss auf den Kontostand haben.
+
+## Warum sie unterschätzt werden
+Viele kleine Beträge wirken harmlos. In der Summe machen sie jedoch oft den Unterschied zwischen Puffer und Engpass.
+
+## Typische variable Ausgaben
+- Lebensmittel
+- Freizeit & Ausgehen
+- Kleidung
+- Spontankäufe
+
+## Kontrolle gewinnen
+- Alles notieren (auch kleine Beträge)
+- Nur wenige Kategorien nutzen
+- Einen Monatsdurchschnitt bilden
+
+## Mini-Zusammenfassung
+Nicht Verzicht, sondern Übersicht bringt Kontrolle über variable Ausgaben.
