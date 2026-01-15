@@ -1,42 +1,62 @@
-﻿---
+---
 layout: default
-title: "Einfach Geld ordnen – Ueberblick, Ruhe und Kontrolle ohne Vorwissen"
-description: "Geldchaos ist normal. Dieser Leitfaden zeigt dir Schritt fuer Schritt, wie du Ordnung in deine Finanzen bringst – ohne Sparzwang, ohne Fachsprache."
+title: "Einfach Geld ordnen – Überblick & Struktur"
 permalink: /pillar/einfach-geld-ordnen.html
 ---
 
-## Warum Geldchaos nichts mit Dummheit zu tun hat
-Viele Menschen glauben, ihr Geldproblem sei ein persoenliches Versagen. Das stimmt nicht. Geld ordnen wurde fast niemandem beigebracht.
+## Einfach Geld ordnen – Überblick & Struktur
 
-## Warum fast niemand gelernt hat, mit Geld Ordnung zu halten
-Geld taucht im Alltag in Stuecken auf. Ohne Gesamtbild entsteht Unsicherheit. Das ist ein Strukturproblem, kein persoenliches.
+Finanzen müssen nicht kompliziert sein.  
+Unordnung entsteht selten durch zu wenig Geld, sondern fast immer durch fehlende Struktur.
 
-## Der groesste Fehler: Sparen ohne Ordnung
-Sparen ohne Ueberblick erzeugt Druck. Ordnung kommt zuerst, Sparen spaeter.
+Dieser Überblick zeigt dir, **wie du deine Haushaltsfinanzen Schritt für Schritt ordnest** – ruhig, nachvollziehbar und ohne Druck. Du erkennst, **wo du stehst**, **was zusammengehört** und **in welcher Reihenfolge** du vorgehst.
 
-## Einnahmen verstehen – realistisch
-Entscheidend ist, was regelmaessig verfuegbar ist. Ehrlich und einfach.
+## Worum es hier geht – und worum nicht
 
-## Fixkosten: der unsichtbare Geldfresser
-Fixkosten gesammelt zu sehen bringt Klarheit. Verstehen kommt vor Veraendern.
+**Dieses Projekt hilft dir dabei:**
+- Einnahmen und Ausgaben zu verstehen
+- feste und variable Kosten sauber zu trennen
+- einen realistischen Haushaltsüberblick zu gewinnen
 
-## Variable Ausgaben
-Kleine Betraege summieren sich. Bewusstsein statt Kontrolle.
+**Es geht nicht um:**
+- schnelles Reichwerden
+- riskante Spartipps
+- komplizierte Finanzprodukte
 
-## Strom & Nebenkosten
-Planbarkeit nimmt Nachzahlungen den Schrecken.
+## Die Grundstruktur eines geordneten Haushalts
 
-## Das Haushaltsbuch – einfach
-Ein einfaches Werkzeug reicht. Perfektion ist nicht noetig.
+1. Fixkosten klären  
+2. Variable Ausgaben verstehen  
+3. Gesamtkosten kennen  
+4. Spielraum erkennen  
+5. Ordnung halten
 
-**Kostenloser Start:**
-{{ "/downloads/Einfaches_Haushaltsbuch_Ueberblick_ohne_Stress.xlsx" | relative_url }}
+## 1️⃣ Fixkosten – das Fundament
 
-## 7-Tage-Startplan
-Tag 1–2 Einnahmen, Tag 3 Fixkosten, Tag 4 Variabel, Tag 5 Energie, Tag 6 pruefen, Tag 7 Ruhe.
+Fixkosten bestimmen, wie viel Geld **jeden Monat fest gebunden** ist.
 
-## Nach 30 Tagen
-Mehr Ruhe, weniger Stress, bessere Entscheidungen.
+➡️ {{ "/seiten/fixkosten-uebersicht.html" | relative_url }}
 
-## Wie es weitergeht
-Ordnung oeffnet Optionen. Kein Zwang.
+## 2️⃣ Variable Ausgaben – der Alltag
+
+Variable Ausgaben sind flexibel, aber oft unsichtbar.
+
+➡️ {{ "/seiten/variable-ausgaben.html" | relative_url }}
+
+## 3️⃣ Haushaltsüberblick – alles zusammenführen
+
+➡️ {{ "/seiten/haushaltsueberblick.html" | relative_url }}
+
+## 4️⃣ Spielraum erkennen – was wirklich bleibt
+
+➡️ {{ "/seiten/spielraum-ruecklagen.html" | relative_url }}
+
+## 5️⃣ Ordnung halten – einfach & stabil
+
+➡️ {{ "/seiten/ordnung-halten.html" | relative_url }}
+
+## Mini-Zusammenfassung
+
+- Ordnung kommt vor Optimierung  
+- Struktur ist wichtiger als Details  
+- Jeder Schritt baut auf dem vorherigen auf  
