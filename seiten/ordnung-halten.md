@@ -19,5 +19,5 @@ Einfachheit ist der Schlüssel, um finanzielle Ordnung dauerhaft zu halten.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
-⏮️ [Zurück: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
+⏮️ [Zurück: Spielraum erkennen](spielraum-ruecklagen.html)

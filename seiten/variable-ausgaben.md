@@ -25,6 +25,6 @@ Nicht Verzicht, sondern Übersicht bringt Kontrolle über variable Ausgaben.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
-⏮️ [Zurück: Fixkosten klären]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})  
-⏭️ [Weiter: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
+⏮️ [Zurück: Fixkosten klären](fixkosten-uebersicht.html)  
+⏭️ [Weiter: Haushaltsüberblick erstellen](haushaltsueberblick.html)

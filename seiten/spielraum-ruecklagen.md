@@ -19,6 +19,6 @@ Spielraum schafft Ruhe. Rücklagen geben Sicherheit.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
-⏮️ [Zurück: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick.html" | relative_url }})  
-⏭️ [Weiter: Ordnung halten]({{ "/seiten/ordnung-halten.html" | relative_url }})
+🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
+⏮️ [Zurück: Haushaltsüberblick erstellen](haushaltsueberblick.html)  
+⏭️ [Weiter: Ordnung halten](ordnung-halten.html)

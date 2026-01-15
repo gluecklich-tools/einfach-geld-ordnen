@@ -24,6 +24,6 @@ Der Haushaltsüberblick ist die Schaltzentrale deiner Finanzordnung.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
-⏮️ [Zurück: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben.html" | relative_url }})  
-⏭️ [Weiter: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
+⏮️ [Zurück: Variable Ausgaben verstehen](variable-ausgaben.html)  
+⏭️ [Weiter: Spielraum erkennen](spielraum-ruecklagen.html)
