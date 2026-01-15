@@ -16,3 +16,8 @@ Zu komplexe Regeln werden im Alltag nicht durchgehalten.
 
 ## Mini-Zusammenfassung
 Einfachheit ist der Schlüssel, um finanzielle Ordnung dauerhaft zu halten.
+
+---
+
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
+⏮️ [Zurück: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})

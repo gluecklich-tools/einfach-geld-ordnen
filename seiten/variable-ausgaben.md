@@ -22,3 +22,9 @@ Viele kleine Beträge wirken harmlos. In der Summe machen sie jedoch oft den Unt
 
 ## Mini-Zusammenfassung
 Nicht Verzicht, sondern Übersicht bringt Kontrolle über variable Ausgaben.
+
+---
+
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
+⏮️ [Zurück: Fixkosten klären]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})  
+⏭️ [Weiter: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick.html" | relative_url }})

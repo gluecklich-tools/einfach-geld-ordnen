@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Fixkosten im Haushalt – Überblick & Ordnung"
 permalink: /seiten/fixkosten-uebersicht.html
@@ -23,3 +23,8 @@ Fixkosten laufen unabhängig vom Alltag weiter. Ohne klare Übersicht entsteht s
 
 ## Mini-Zusammenfassung
 Fixkosten sind das Fundament. Erst wenn sie klar sind, ergibt jede weitere Planung Sinn.
+
+---
+
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
+⏭️ [Weiter: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben.html" | relative_url }})

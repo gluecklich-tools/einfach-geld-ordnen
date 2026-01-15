@@ -16,3 +16,9 @@ Spielraum ist das, was nach allen festen und variablen Kosten übrig bleibt.
 
 ## Mini-Zusammenfassung
 Spielraum schafft Ruhe. Rücklagen geben Sicherheit.
+
+---
+
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }})  
+⏮️ [Zurück: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick.html" | relative_url }})  
+⏭️ [Weiter: Ordnung halten]({{ "/seiten/ordnung-halten.html" | relative_url }})
