@@ -6,10 +6,6 @@ baseurl: "/einfach-geld-ordnen"
 markdown: kramdown
 theme: minima
 
-collections:
-  seiten:
-    output: true
-
 defaults:
   - scope:
       path: ""
