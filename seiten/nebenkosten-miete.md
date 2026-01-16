@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Nebenkosten der Miete einfach erklärt"
-permalink: /seiten/nebenkosten-miete.html
+permalink: /seiten/nebenkosten-miete/
 ---
 
 Nebenkosten sind Kosten,
@@ -13,7 +13,7 @@ und haben einen großen Einfluss
 auf die monatliche Belastung.
 
 → Einordnung im Gesamtkontext:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
 
 ## Was zu den Nebenkosten gehört
 
@@ -58,7 +58,7 @@ aber **verstehen** hilft,
 Überraschungen zu vermeiden.
 
 → Ein häufiger Kostenpunkt im Detail:  
-[Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+[Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt/" | relative_url }})
 
 ## Kurz zusammengefasst
 

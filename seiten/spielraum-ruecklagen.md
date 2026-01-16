@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen"
-permalink: /seiten/spielraum-ruecklagen.html
+permalink: /seiten/spielraum-ruecklagen/
 ---
 
 Finanzieller Spielraum entsteht nicht durch hohe Einnahmen,

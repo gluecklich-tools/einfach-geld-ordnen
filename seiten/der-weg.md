@@ -33,27 +33,27 @@ Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
 1. **Fixkosten klären**  
    → verstehen, was monatlich fest gebunden ist  
    → weiter hier:  
-   [Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+   [Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
 
 2. **Einnahmen und Ausgaben sammeln**  
    → sichtbar machen, was tatsächlich passiert  
    → Einstieg über:  
-   [Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+   [Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
 
 3. **Alles zusammenführen**  
    → erkennen, was der Haushalt insgesamt kostet  
    → Überblick hier:  
-   [Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+   [Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick/" | relative_url }})
 
 4. **Spielraum einordnen**  
    → verstehen, was möglich ist und was nicht  
    → Einordnung:  
-   [Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+   [Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen/" | relative_url }})
 
 5. **Ordnung stabil halten**  
    → Struktur im Alltag beibehalten  
    → Abschluss:  
-   [Ordnung halten & einfach bleiben]({{ "/seiten/ordnung-halten.html" | relative_url }})
+   [Ordnung halten & einfach bleiben]({{ "/seiten/ordnung-halten/" | relative_url }})
 
 Diese Reihenfolge hat sich bewährt,
 weil sie Überforderung vermeidet

@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Ordnung halten & einfach bleiben"
-permalink: /seiten/ordnung-halten.html
+permalink: /seiten/ordnung-halten/
 ---
 
 Finanzielle Ordnung ist kein einmaliges Projekt.  
@@ -12,7 +12,7 @@ Nicht neue Regeln sorgen für Stabilität,
 sondern **machbare Gewohnheiten**.
 
 → Einordnung im Gesamtprozess:  
-[Der Weg – Einfach Geld ordnen]({{ "/seiten/der-weg.html" | relative_url }})
+[Der Weg – Einfach Geld ordnen]({{ "/seiten/der-weg/" | relative_url }})
 
 ## Warum Ordnung oft wieder verloren geht
 
@@ -51,7 +51,7 @@ sondern **zu wissen, wo man steht**.
 Das reicht.
 
 → Praktischer Bezugspunkt:  
-[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick/" | relative_url }})
 
 ## Kurz zusammengefasst
 

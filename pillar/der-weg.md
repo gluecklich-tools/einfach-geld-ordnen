@@ -25,5 +25,6 @@ Diese Pillar-Version erklärt, **wie die Schritte im Alltag zusammenhängen**, w
 
 Jeder Schritt baut auf dem vorherigen auf.  
 Die Pillar-Version erklärt **nur die Logik**, ohne direktes Handeln.
+
 Die konkrete Umsetzung findest du gesammelt auf  
-[den passenden Themen-Seiten]({{ "/seiten/index.html" | relative_url }}).
+[den passenden Themen-Seiten]({{ "/seiten/" | relative_url }}).

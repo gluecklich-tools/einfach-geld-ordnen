@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Stromkosten im Haushalt verstehen"
-permalink: /seiten/stromkosten-haushalt.html
+permalink: /seiten/stromkosten-haushalt/
 ---
 
 Stromkosten gehören zu den laufenden Fixkosten eines Haushalts.  
@@ -10,7 +10,7 @@ und beeinflussen die monatliche Belastung oft stärker,
 als man zunächst denkt.
 
 → Einordnung im Gesamtkontext:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
 
 ## Wie Stromkosten entstehen
 
@@ -60,7 +60,7 @@ Wichtiger ist,
 dass die Kosten **transparent und eingeplant** sind.
 
 → Häufig im Zusammenhang relevant:  
-[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
+[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete/" | relative_url }})
 
 ## Kurz zusammengefasst
 

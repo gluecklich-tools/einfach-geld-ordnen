@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Monatliche Ausgaben im Blick behalten"
-permalink: /seiten/monatliche-ausgaben.html
+permalink: /seiten/monatliche-ausgaben/
 ---
 
 Monatliche Ausgaben sind alle Kosten,
@@ -45,4 +45,23 @@ jede Ausgabe zu kontrollieren,
 sondern **Zusammenhänge zu erkennen**.
 
 → Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seit)
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
+
+## Wichtige Einordnung
+
+Monatliche Ausgaben sind **beweglich**.  
+Das bedeutet nicht,
+dass sie sofort geändert werden müssen.
+
+Erst wenn klar ist,
+wie hoch sie tatsächlich sind,
+werden sinnvolle Entscheidungen möglich.
+
+→ Zur Zusammenführung aller Zahlen:  
+[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick/" | relative_url }})
+
+## Kurz zusammengefasst
+
+- Monatliche Ausgaben sind flexibel, aber wirkungsvoll  
+- Einzelbeträge täuschen leicht  
+- Klarheit entsteht durch Beobachtung, nicht durch Druck

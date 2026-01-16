@@ -15,11 +15,12 @@ Die Pillar-Version erklärt die Konzepte, ohne konkrete Beträge zu empfehlen.
 
 - Spielraum = frei verfügbare Mittel  
 - Rücklagen = Sicherheitspuffer  
-- Ziel: Klarheit, ohne Druck
+- Ziel: Klarheit, ohne Druck  
+
 ---
 
 ## Fazit
 
 Spielraum und Rücklagen schaffen **Stabilität**, bevor konkrete Entscheidungen nötig werden.  
 Die praktische Umsetzung findest du auf  
-[der Seite „Spielraum & Rücklagen“]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }}).
+[der Seite „Spielraum & Rücklagen“]({{ "/seiten/spielraum-ruecklagen/" | relative_url }}).

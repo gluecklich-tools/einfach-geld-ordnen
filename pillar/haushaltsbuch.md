@@ -23,5 +23,4 @@ Die Pillar-Version erklärt **die Prinzipien**, nicht das konkrete Ausfüllen.
 
 Das Haushaltsbuch bildet die **theoretische Basis**, bevor praktische Schritte erfolgen.  
 Die konkrete Umsetzung findest du auf  
-[den Haushaltsbuch-Seiten]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }}).
-
+[den Haushaltsbuch-Seiten]({{ "/seiten/haushaltsbuch-excel/" | relative_url }}).
