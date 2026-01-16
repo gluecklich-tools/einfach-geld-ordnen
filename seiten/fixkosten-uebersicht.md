@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Fixkosten im Haushalt – Überblick & Ordnung"
-permalink: /seiten/fixkosten-uebersicht/
+permalink: /seiten/fixkosten-uebersicht.html
 ---
 
 Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern.  
@@ -32,7 +32,7 @@ Genau deshalb beginnen wir hier.
 Diese Kosten bilden das **feste Gerüst** deines Haushalts.
 
 → Einordnung zu einem wichtigen Teilbereich:  
-[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete/" | relative_url }})
+[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
 
 ## So gehst du jetzt vor
 
@@ -53,7 +53,7 @@ Jetzt geht es darum,
 ohne komplizierte Regeln, ohne Druck.
 
 👉 **Weiter zum Haushaltsbuch:**  
-[Haushaltsbuch in Excel nutzen]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
+[Haushaltsbuch in Excel nutzen]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ---
 

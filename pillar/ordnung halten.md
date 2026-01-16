@@ -24,4 +24,4 @@ Die Pillar-Version zeigt die Theorie hinter Stabilität und Übersicht.
 
 Ordnung entsteht nicht durch Perfektion, sondern durch **tragfähige Routinen**.  
 Konkrete Beispiele findest du auf  
-[der Seite „Ordnung halten“]({{ "/seiten/ordnung-halten/" | relative_url }}).
+[der Seite „Ordnung halten“]({{ "/seiten/ordnung-halten.html" | relative_url }}).

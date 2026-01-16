@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Einfach Geld ordnen – Schritt für Schritt Ordnung in deine Finanzen"
-permalink: /seiten/
+permalink: /seiten/index.html
 ---
 
 Geldprobleme entstehen selten, weil Menschen „nicht rechnen können“.  
@@ -28,7 +28,7 @@ Schritt für Schritt. In einer sinnvollen Reihenfolge.
 
 Beginne mit der ersten Seite:
 
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 ---
 

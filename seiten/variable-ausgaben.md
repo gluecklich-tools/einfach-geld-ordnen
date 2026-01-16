@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Variable Ausgaben – Überblick & Einordnung"
-permalink: /seiten/variable-ausgaben/
+permalink: /seiten/variable-ausgaben.html
 ---
 
 Variable Ausgaben sind Kosten,
@@ -49,7 +49,7 @@ jeden Betrag zu hinterfragen,
 sondern **Zusammenhänge zu erkennen**.
 
 → Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ## Wichtige Einordnung
 
@@ -61,7 +61,7 @@ wie hoch sie tatsächlich sind,
 werden sinnvolle Entscheidungen möglich.
 
 → Zur Zusammenführung aller Zahlen:  
-[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick/" | relative_url }})
+[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
 
 ## Kurz zusammengefasst
 

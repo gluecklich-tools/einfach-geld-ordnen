@@ -23,4 +23,4 @@ Erklärt, **wie Zahlen zusammenwirken**, bevor Entscheidungen getroffen werden.
 
 Der Haushaltsüberblick schafft **Orientierung**, bevor Entscheidungen getroffen werden.  
 Die praktische Umsetzung findest du auf  
-[der Haushaltsüberblick-Seite]({{ "/seiten/haushaltsueberblick/" | relative_url }}).
+[der Haushaltsüberblick-Seite]({{ "/seiten/haushaltsueberblick.html" | relative_url }}).

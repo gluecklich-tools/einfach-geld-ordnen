@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsbuch in Excel – einfach & übersichtlich"
-permalink: /seiten/haushaltsbuch-excel/
+permalink: /seiten/haushaltsbuch-excel.html
 ---
 
 Ein Haushaltsbuch hilft dir dabei,  
@@ -37,7 +37,7 @@ Klarheit entsteht durch **regelmäßiges Eintragen**,
 nicht durch Genauigkeit.
 
 → Zur Einordnung der Ausgaben:  
-[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben/" | relative_url }})
+[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
 
 ## Wichtige Einordnung
 
