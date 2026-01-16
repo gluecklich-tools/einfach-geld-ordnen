@@ -47,5 +47,5 @@ Wenn deine Fixkosten klar sind, ist der schwierigste Teil geschafft.
 Jetzt geht es darum, **alle Einnahmen und Ausgaben einfach zu sammeln** –
 ohne komplizierte Regeln, ohne Druck.
 
-👉 **Weiter zum Haushaltsbuch (einfacher Start):**  
-[Haushaltsbuch einfach nutzen]({{ "/seiten/haushaltsbuch-start/" | relative_url }})
+👉 **Weiter zum Haushaltsbuch:**  
+[Haushaltsbuch in Excel nutzen]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
