@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen"
 permalink: /seiten/spielraum-ruecklagen/
@@ -19,6 +19,6 @@ Spielraum schafft Ruhe. Rücklagen geben Sicherheit.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
 ⏮️ [Zurück: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick/" | relative_url }})  
 ⏭️ [Weiter: Ordnung halten]({{ "/seiten/ordnung-halten/" | relative_url }})

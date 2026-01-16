@@ -26,6 +26,6 @@ Fixkosten sind das Fundament. Erst wenn sie klar sind, ergibt jede weitere Planu
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
 ⏭️ [Weiter: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben/" | relative_url }})
 

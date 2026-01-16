@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Ordnung halten & einfach bleiben"
 permalink: /seiten/ordnung-halten/
@@ -19,6 +19,5 @@ Einfachheit ist der Schlüssel, um finanzielle Ordnung dauerhaft zu halten.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
 ⏮️ [Zurück: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen/" | relative_url }})
-

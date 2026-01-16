@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Variable Ausgaben – Überblick & Kontrolle"
 permalink: /seiten/variable-ausgaben/
@@ -25,7 +25,6 @@ Nicht Verzicht, sondern Übersicht bringt Kontrolle über variable Ausgaben.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
 ⏮️ [Zurück: Fixkosten klären]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})  
 ⏭️ [Weiter: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick/" | relative_url }})
-

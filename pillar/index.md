@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: Einfach Geld ordnen – Übersicht
-permalink: pillar/
+permalink: /pillar/
 ---
 
 ## Zentrale Einstiegsseiten
@@ -10,7 +10,7 @@ Hier findest du die wichtigsten Grundlagen zum Projekt **Einfach Geld ordnen**.
 
 <ul>
   <li>
-    <a href="{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}">
+    <a href="{{ '/pillar/' | relative_url }}">
       Einfach Geld ordnen – Überblick
     </a>
   </li>
@@ -20,5 +20,3 @@ Hier findest du die wichtigsten Grundlagen zum Projekt **Einfach Geld ordnen**.
     </a>
   </li>
 </ul>
-
-

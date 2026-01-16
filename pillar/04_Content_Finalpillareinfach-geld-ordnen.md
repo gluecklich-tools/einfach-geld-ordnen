@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Einfach Geld ordnen – Schritt für Schritt"
 permalink: /pillar/
@@ -36,6 +36,3 @@ Nebenkosten und Strom sind oft der größte Hebel – einmal prüfen kann dauerh
 
 ## Nächste Schritte
 Wenn die Struktur steht, gehst du weiter zu den passenden Detailseiten und zur Vorlage.
-
-
-

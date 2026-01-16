@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsbuch in Excel einfach erklärt"
-permalink: /seiten/haushaltsbuch-excel.html
+permalink: /seiten/haushaltsbuch-excel/
 ---
 
 Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.
@@ -12,9 +12,8 @@ Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalt
 
 ## Weiterführende Seiten
 
-- [Fixkosten Übersicht]({{ '/seiten/fixkosten-uebersicht/' | relative_url }})
-- [Monatliche Ausgaben]({{ '/seiten/monatliche-ausgaben/' | relative_url }})
-- [Nebenkosten der Miete]({{ '/seiten/nebenkosten-miete/' | relative_url }})
-- [Stromkosten im Haushalt]({{ '/seiten/stromkosten-haushalt/' | relative_url }})
-- [Zur Übersicht]({{ '/pillar/' | relative_url }})
-
+- [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
+- [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben/" | relative_url }})
+- [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete/" | relative_url }})
+- [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt/" | relative_url }})
+- [Zur Übersicht]({{ "/pillar/" | relative_url }})

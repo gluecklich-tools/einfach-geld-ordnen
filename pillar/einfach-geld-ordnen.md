@@ -1,7 +1,7 @@
----
+﻿---
 layout: default
 title: "Einfach Geld ordnen – Überblick & Struktur"
-permalink: /pillar/einfach-geld-ordnen.html
+permalink: /pillar/
 ---
 
 ## Einfach Geld ordnen – Überblick & Struktur
@@ -35,25 +35,25 @@ Dieser Überblick zeigt dir, **wie du deine Haushaltsfinanzen Schritt für Schri
 
 Fixkosten bestimmen, wie viel Geld **jeden Monat fest gebunden** ist.
 
-➡️ {{ "/seiten/fixkosten-uebersicht.html" | relative_url }}
+➡️ {{ "/seiten/fixkosten-uebersicht/" | relative_url }}
 
 ## 2️⃣ Variable Ausgaben – der Alltag
 
 Variable Ausgaben sind flexibel, aber oft unsichtbar.
 
-➡️ {{ "/seiten/variable-ausgaben.html" | relative_url }}
+➡️ {{ "/seiten/variable-ausgaben/" | relative_url }}
 
 ## 3️⃣ Haushaltsüberblick – alles zusammenführen
 
-➡️ {{ "/seiten/haushaltsueberblick.html" | relative_url }}
+➡️ {{ "/seiten/haushaltsueberblick/" | relative_url }}
 
 ## 4️⃣ Spielraum erkennen – was wirklich bleibt
 
-➡️ {{ "/seiten/spielraum-ruecklagen.html" | relative_url }}
+➡️ {{ "/seiten/spielraum-ruecklagen/" | relative_url }}
 
 ## 5️⃣ Ordnung halten – einfach & stabil
 
-➡️ {{ "/seiten/ordnung-halten.html" | relative_url }}
+➡️ {{ "/seiten/ordnung-halten/" | relative_url }}
 
 ## Mini-Zusammenfassung
 
