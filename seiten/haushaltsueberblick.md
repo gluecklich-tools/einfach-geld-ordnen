@@ -13,13 +13,13 @@ und ob das dauerhaft zu deinem Einkommen passt.
 
 ## Warum dieser Überblick wichtig ist
 
-Einzelne Listen helfen beim Ordnen.
+Einzelne Listen helfen beim Ordnen.  
 Der Überblick hilft beim **Verstehen**.
 
 Erst wenn alle Zahlen zusammenkommen, wird sichtbar:
-- ob genug Geld vorhanden ist
-- ob dauerhaft ein Defizit entsteht
-- oder ob Spielraum existiert
+- ob genug Geld vorhanden ist  
+- ob dauerhaft ein Defizit entsteht  
+- oder ob Spielraum existiert  
 
 Dieser Schritt ist kein Anfang,
 sondern eine **Zusammenführung**.
@@ -44,7 +44,7 @@ sondern eine **Orientierung**.
 - wie groß der tatsächliche finanzielle Spielraum ist  
 - wo Anpassungen langfristig sinnvoll wären  
 
-Nicht alles muss sofort geändert werden.
+Nicht alles muss sofort geändert werden.  
 Oft reicht es,
 **erst einmal zu sehen**, wie es wirklich aussieht.
 
@@ -53,8 +53,8 @@ Oft reicht es,
 Der Haushaltsüberblick ist kein Kontrollinstrument
 und kein Sparplan.
 
-Er ist die **Schaltzentrale deiner Finanzordnung**:
-Alles läuft hier zusammen,
+Er ist die **Schaltzentrale deiner Finanzordnung**:  
+Alles läuft hier zusammen,  
 alles wird hier verständlich.
 
 → Nächster Schritt zur Einordnung:  
@@ -64,4 +64,12 @@ alles wird hier verständlich.
 
 - Fixkosten und variable Ausgaben sind verbunden  
 - Das Gesamtbild wird sichtbar  
-- Entscheidungen werden erst **danach** sinnvoll
+- Entscheidungen werden erst **danach** sinnvoll  
+
+---
+
+## Einordnung im Gesamtkonzept
+
+Diese Seite zeigt die **praktische Zusammenführung aller Zahlen**.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Haushaltsüberblick – Rolle im Gesamtsystem]({{ "/pillar/haushaltsueberblick.html" | relative_url }}).

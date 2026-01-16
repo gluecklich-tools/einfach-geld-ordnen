@@ -32,7 +32,7 @@ und im Mietvertrag festgehalten.
 
 ## Warum Nebenkosten oft unterschätzt werden
 
-Nebenkosten werden meist als Abschlag gezahlt.
+Nebenkosten werden meist als Abschlag gezahlt.  
 Der tatsächliche Verbrauch zeigt sich oft
 erst in der jährlichen Abrechnung.
 
@@ -52,7 +52,7 @@ sondern **ein Gefühl für die Größenordnung zu bekommen**.
 
 ## Wichtige Einordnung
 
-Nebenkosten sind Teil der Fixkosten.
+Nebenkosten sind Teil der Fixkosten.  
 Sie lassen sich nicht beliebig steuern,
 aber **verstehen** hilft,
 Überraschungen zu vermeiden.
@@ -64,4 +64,12 @@ aber **verstehen** hilft,
 
 - Nebenkosten gehören zu den Fixkosten  
 - Abschläge und tatsächliche Kosten können abweichen  
-- Klarheit entsteht durch Überblick, nicht durch Kontrolle
+- Klarheit entsteht durch Überblick, nicht durch Kontrolle  
+
+---
+
+## Einordnung im Gesamtsystem
+
+Diese Seite vertieft einen wichtigen Teilbereich der Fixkosten.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Fixkosten – Rolle im Gesamtsystem]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }}).

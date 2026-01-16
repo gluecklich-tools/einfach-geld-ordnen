@@ -57,4 +57,12 @@ Das ist normal.
 
 - Spielraum ist das Ergebnis guter Übersicht  
 - Rücklagen schaffen Ruhe und Stabilität  
-- Sicherheit entsteht Schritt für Schritt
+- Sicherheit entsteht Schritt für Schritt  
+
+---
+
+## Einordnung im Gesamtsystem
+
+Diese Seite zeigt den **praktischen Umgang mit Spielraum und Rücklagen**.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Spielraum & Rücklagen – Überblick & Prinzipien]({{ "/pillar/spielraum-ruecklagen.html" | relative_url }}).

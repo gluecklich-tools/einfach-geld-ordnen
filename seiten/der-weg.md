@@ -12,6 +12,8 @@ Diese Seite zeigt dir,
 **wie die einzelnen Bereiche zusammenhängen**
 und **warum die Reihenfolge entscheidend ist**.
 
+## Der Weg zur finanziellen Ordnung
+
 ## Warum es einen festen Weg gibt
 
 Viele Menschen springen zwischen Themen hin und her:  
@@ -71,4 +73,12 @@ und nichts übersprungen wird.
 
 - Finanzordnung ist ein Prozess  
 - Die Reihenfolge entscheidet über Klarheit  
-- Jeder Schritt bereitet den nächsten vor
+- Jeder Schritt bereitet den nächsten vor  
+
+---
+
+## Einordnung im Gesamtkonzept
+
+Diese Seite beschreibt die **praktische Reihenfolge im Alltag**.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Der Weg – Überblick & Zusammenhänge]({{ "/pillar/der-weg.html" | relative_url }}).

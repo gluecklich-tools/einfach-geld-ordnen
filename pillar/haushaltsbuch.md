@@ -21,4 +21,7 @@ Die Pillar-Version erklärt **die Prinzipien**, nicht das konkrete Ausfüllen.
 
 ## Fazit
 
-Das Haushaltsbuch bildet die **theoretische Basis**, bevor praktische Schritte erfolgen.
+Das Haushaltsbuch bildet die **theoretische Basis**, bevor praktische Schritte erfolgen.  
+Die konkrete Umsetzung findest du auf  
+[den Haushaltsbuch-Seiten]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }}).
+

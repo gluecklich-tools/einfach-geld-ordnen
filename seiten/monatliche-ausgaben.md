@@ -13,12 +13,12 @@ auf den tatsächlichen Geldfluss.
 
 ## Warum monatliche Ausgaben oft unterschätzt werden
 
-Viele dieser Ausgaben passieren nebenbei:
-Einkaufen, Tanken, Essen außer Haus,
+Viele dieser Ausgaben passieren nebenbei:  
+Einkaufen, Tanken, Essen außer Haus,  
 kleine Anschaffungen, spontane Entscheidungen.
 
-Einzelne Beträge fallen kaum auf.
-In der Summe können sie jedoch
+Einzelne Beträge fallen kaum auf.  
+In der Summe können sie jedoch  
 mehr ausmachen als erwartet.
 
 ## Typische monatliche Ausgaben
@@ -29,7 +29,7 @@ mehr ausmachen als erwartet.
 - Kleidung und kleinere Anschaffungen  
 - Sonstige laufende Alltagskosten  
 
-Diese Ausgaben sind nicht „falsch“.
+Diese Ausgaben sind nicht „falsch“.  
 Sie gehören zum Leben dazu.
 
 ## Wie du einen realistischen Überblick bekommst
@@ -45,23 +45,4 @@ jede Ausgabe zu kontrollieren,
 sondern **Zusammenhänge zu erkennen**.
 
 → Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-
-## Wichtige Einordnung
-
-Monatliche Ausgaben sind **beweglich**.
-Das bedeutet nicht,
-dass sie sofort geändert werden müssen.
-
-Erst wenn klar ist,
-wie hoch sie tatsächlich sind,
-werden sinnvolle Entscheidungen möglich.
-
-→ Zur Zusammenführung aller Zahlen:  
-[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
-
-## Kurz zusammengefasst
-
-- Monatliche Ausgaben sind flexibel, aber wirkungsvoll  
-- Einzelbeträge täuschen leicht  
-- Klarheit entsteht durch Beobachtung, nicht durch Druck
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seit)

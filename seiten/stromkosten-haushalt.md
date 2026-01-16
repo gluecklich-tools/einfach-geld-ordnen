@@ -4,7 +4,7 @@ title: "Stromkosten im Haushalt verstehen"
 permalink: /seiten/stromkosten-haushalt.html
 ---
 
-Stromkosten gehören zu den laufenden Fixkosten eines Haushalts.
+Stromkosten gehören zu den laufenden Fixkosten eines Haushalts.  
 Sie fallen regelmäßig an
 und beeinflussen die monatliche Belastung oft stärker,
 als man zunächst denkt.
@@ -19,14 +19,14 @@ Die Stromkosten setzen sich aus zwei Teilen zusammen:
 - dem **tatsächlichen Verbrauch**  
 - dem **Strompreis pro Kilowattstunde**
 
-Zusätzlich fallen Grundpreise an,
+Zusätzlich fallen **Grundpreise** an,
 die unabhängig vom Verbrauch berechnet werden.
 
 Gezahlt wird meist in **monatlichen Abschlägen**.
 
 ## Warum Abschläge oft verwirren
 
-Abschläge sind Vorauszahlungen.
+Abschläge sind Vorauszahlungen.  
 Sie basieren auf einer Schätzung des Jahresverbrauchs.
 
 Erst mit der Jahresabrechnung zeigt sich,
@@ -52,7 +52,7 @@ sondern **Verständnis für die Größenordnung zu entwickeln**.
 
 ## Wichtige Einordnung
 
-Stromkosten lassen sich nur begrenzt steuern.
+Stromkosten lassen sich nur begrenzt steuern.  
 Ein bewusster Umgang ist sinnvoll,
 aber Perfektion ist nicht nötig.
 
@@ -66,4 +66,12 @@ dass die Kosten **transparent und eingeplant** sind.
 
 - Stromkosten gehören zu den Fixkosten  
 - Abschläge sind Vorauszahlungen  
-- Klarheit entsteht durch Verständnis, nicht durch Kontrolle
+- Klarheit entsteht durch Verständnis, nicht durch Kontrolle  
+
+---
+
+## Einordnung im Gesamtsystem
+
+Diese Seite vertieft einen **zentralen Fixkosten-Bereich**.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Fixkosten – Rolle im Gesamtsystem]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }}).

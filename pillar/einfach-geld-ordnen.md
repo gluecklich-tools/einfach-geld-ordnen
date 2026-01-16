@@ -24,4 +24,6 @@ Ruhige, verständliche Theorie – kein Handlungsdruck.
 ## Fazit
 
 Ziel: **Verstehen, nicht direkt tun**.  
-Grundlage für die Seiten in `/seiten/`.
+Grundlage für die Seiten in  
+[den einzelnen Themen-Seiten]({{ "/seiten/index.html" | relative_url }}).
+

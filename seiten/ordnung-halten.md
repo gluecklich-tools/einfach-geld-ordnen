@@ -4,7 +4,7 @@ title: "Ordnung halten & einfach bleiben"
 permalink: /seiten/ordnung-halten.html
 ---
 
-Finanzielle Ordnung ist kein einmaliges Projekt.
+Finanzielle Ordnung ist kein einmaliges Projekt.  
 Sie bleibt nur erhalten,
 wenn sie **einfach, ruhig und alltagstauglich** ist.
 
@@ -20,8 +20,8 @@ Viele Systeme scheitern nicht,
 weil sie falsch sind,
 sondern weil sie zu komplex werden.
 
-Zu viele Kategorien,
-zu viele Auswertungen,
+Zu viele Kategorien,  
+zu viele Auswertungen,  
 zu hohe Erwartungen.
 
 Im Alltag bleibt dafür selten Platz.
@@ -57,4 +57,12 @@ Das reicht.
 
 - Einfachheit schlägt Perfektion  
 - Wiederholung schlägt Motivation  
-- Ruhe schlägt Kontrolle
+- Ruhe schlägt Kontrolle  
+
+---
+
+## Einordnung im Gesamtsystem
+
+Diese Seite zeigt, wie finanzielle Ordnung **dauerhaft stabil** bleibt.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Ordnung halten – Prinzipien & Stabilität]({{ "/pillar/ordnung-halten.html" | relative_url }}).

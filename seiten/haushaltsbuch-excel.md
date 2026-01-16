@@ -52,4 +52,12 @@ deine finanzielle Situation realistisch einzuschätzen.
 
 - Einnahmen und Ausgaben werden gesammelt  
 - Alles bleibt übersichtlich an einem Ort  
-- Entscheidungen werden **erst später** sinnvoll
+- Entscheidungen werden **erst später** sinnvoll  
+
+---
+
+## Einordnung im Gesamtkonzept
+
+Diese Seite zeigt die **praktische Nutzung** des Haushaltsbuchs.  
+Die theoretische Einordnung findest du auf der Pillar-Seite  
+[Haushaltsbuch – Prinzip & Rolle im System]({{ "/pillar/haushaltsbuch.html" | relative_url }}).
