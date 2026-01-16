@@ -4,26 +4,55 @@ title: "Haushaltsüberblick & Monatsbudget"
 permalink: /seiten/haushaltsueberblick/
 ---
 
-Der Haushaltsüberblick verbindet Fixkosten und variable Ausgaben zu einem realistischen Gesamtbild. Erst hier wird sichtbar, was ein Haushalt tatsächlich kostet.
+Der Haushaltsüberblick verbindet **Fixkosten** und **variable Ausgaben**
+zu einem realistischen Gesamtbild.
 
-## Warum der Überblick entscheidend ist
-Einzelne Listen helfen nur begrenzt. Erst die Zusammenführung zeigt, ob Einnahmen und Ausgaben dauerhaft zusammenpassen.
+Er zeigt nicht einzelne Posten,
+sondern **was dein Haushalt insgesamt kostet** –
+und ob das dauerhaft zu deinem Einkommen passt.
 
-## So entsteht dein Monatsbudget
-1. Fixkosten addieren  
-2. Durchschnittliche variable Ausgaben ergänzen  
-3. Gesamtausgaben mit dem Einkommen vergleichen  
+## Warum dieser Überblick wichtig ist
 
-## Was das Ergebnis zeigt
-- ob ein Überschuss oder Defizit besteht
-- wie groß der tatsächliche Spielraum ist
-- wo Anpassungen sinnvoll wären
+Einzelne Listen helfen beim Ordnen.
+Der Überblick hilft beim **Verstehen**.
+
+Erst wenn alle Zahlen zusammenkommen, wird sichtbar:
+- ob genug Geld vorhanden ist
+- ob dauerhaft ein Defizit entsteht
+- oder ob Spielraum existiert
+
+Dieser Schritt ist kein Anfang,
+sondern eine **Zusammenführung**.
+
+## So entsteht ein Monatsbudget
+
+1. Alle Fixkosten werden addiert  
+2. Durchschnittliche variable Ausgaben ergänzt  
+3. Gesamtausgaben dem Einkommen gegenübergestellt  
+
+Das Ergebnis ist kein Urteil,
+sondern eine **Orientierung**.
+
+## Was das Ergebnis zeigen kann
+
+- ob ein Überschuss oder ein Defizit besteht  
+- wie groß der tatsächliche finanzielle Spielraum ist  
+- wo Anpassungen langfristig sinnvoll wären  
+
+Nicht alles muss sofort geändert werden.
+Oft reicht es, **erst einmal zu sehen**, wie es wirklich aussieht.
+
+## Einordnung
+
+Der Haushaltsüberblick ist kein Kontrollinstrument
+und kein Sparplan.
+
+Er ist die **Schaltzentrale deiner Finanzordnung**:
+Alles läuft hier zusammen,
+alles wird hier verständlich.
 
 ## Mini-Zusammenfassung
-Der Haushaltsüberblick ist die Schaltzentrale deiner Finanzordnung.
 
----
-
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
-⏮️ [Zurück: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben/" | relative_url }})  
-⏭️ [Weiter: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen/" | relative_url }})
+- Fixkosten und variable Ausgaben sind verbunden  
+- Das Gesamtbild wird sichtbar  
+- Entscheidungen werden erst **danach** sinnvoll

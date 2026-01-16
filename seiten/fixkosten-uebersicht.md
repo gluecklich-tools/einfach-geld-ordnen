@@ -4,28 +4,48 @@ title: "Fixkosten im Haushalt – Überblick & Ordnung"
 permalink: /seiten/fixkosten-uebersicht/
 ---
 
-Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern. Sie bestimmen, wie viel Geld jeden Monat fest gebunden ist. Wer hier Ordnung schafft, gewinnt Planbarkeit und Sicherheit.
+Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern.
+Sie bestimmen, wie viel Geld jeden Monat fest gebunden ist.
+
+Wer hier Ordnung schafft, gewinnt **Planbarkeit**, **Sicherheit** und vor allem
+ein klares Gefühl dafür, **wo das eigene Geld bleibt**.
 
 ## Warum Fixkosten zuerst kommen
-Fixkosten laufen unabhängig vom Alltag weiter. Ohne klare Übersicht entsteht schnell das Gefühl, dass Geld fehlt, obwohl keine großen Ausgaben getätigt wurden.
 
-## Typische Fixkosten
-- Miete oder Kreditrate
-- Strom, Gas, Wasser
-- Versicherungen
-- Internet, Telefon, Rundfunkbeitrag
-- Abonnements und Mitgliedschaften
+Fixkosten laufen unabhängig vom Alltag weiter.
+Sie werden abgebucht, egal ob man sie gerade „auf dem Schirm“ hat oder nicht.
 
-## So gehst du vor
-1. Alle Verträge und Abbuchungen sammeln  
-2. Jahreskosten auf Monatswerte umrechnen  
-3. In wenige, klare Kategorien bündeln  
+Ohne klare Übersicht entsteht schnell das Gefühl,
+dass Geld fehlt – obwohl keine großen Einzelkäufe stattfinden.
 
-## Mini-Zusammenfassung
-Fixkosten sind das Fundament. Erst wenn sie klar sind, ergibt jede weitere Planung Sinn.
+Genau deshalb beginnen wir hier.
+
+## Typische Fixkosten im Haushalt
+
+- Miete oder Kreditrate  
+- Strom, Gas, Wasser  
+- Versicherungen  
+- Internet, Telefon, Rundfunkbeitrag  
+- Abonnements und Mitgliedschaften  
+
+Diese Kosten bilden das **feste Gerüst** deines Haushalts.
+
+## So gehst du jetzt vor
+
+1. Sammle alle Verträge, Rechnungen und Abbuchungen  
+2. Rechne Jahreskosten auf **monatliche Beträge** um  
+3. Fasse alles in **wenige, klare Kategorien** zusammen  
+
+Perfektion ist hier nicht nötig.
+Wichtig ist nur: **nichts übersehen**.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/" | relative_url }})  
-⏭️ [Weiter: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben/" | relative_url }})
+## Nächster Schritt: alles übersichtlich festhalten
 
+Wenn deine Fixkosten klar sind, ist der schwierigste Teil geschafft.
+Jetzt geht es darum, **alle Einnahmen und Ausgaben einfach zu sammeln** –
+ohne komplizierte Regeln, ohne Druck.
+
+👉 **Weiter zum Haushaltsbuch (einfacher Start):**  
+[Haushaltsbuch einfach nutzen]({{ "/seiten/haushaltsbuch-start/" | relative_url }})

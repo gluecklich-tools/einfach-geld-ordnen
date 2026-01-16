@@ -1,19 +1,52 @@
 ﻿---
 layout: default
-title: "Haushaltsbuch in Excel einfach erklärt"
+title: "Haushaltsbuch in Excel – einfach & übersichtlich"
 permalink: /seiten/haushaltsbuch-excel/
 ---
 
-Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.
+Ein Haushaltsbuch hilft dir dabei,
+**Einnahmen und Ausgaben dauerhaft sichtbar zu machen**.
 
-## Download
+Es geht nicht um Kontrolle oder Perfektion,
+sondern um **Klarheit**:
+Was kommt rein?
+Was geht raus?
+Was bleibt übrig?
+
+## Das Excel-Haushaltsbuch
+
+Diese Excel-Vorlage ist bewusst **einfach gehalten**.
+Du brauchst keine Vorkenntnisse und keine komplizierten Formeln.
+
+Sie unterstützt dich dabei,
+deine Zahlen **geordnet an einem Ort** zu sammeln.
 
 {% include download-button.html file="haushaltsbuch-excel.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" hint="Kostenlose Vorlage" %}
 
-## Weiterführende Seiten
+## Wie du das Haushaltsbuch nutzt
 
-- [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
-- [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben/" | relative_url }})
-- [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete/" | relative_url }})
-- [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt/" | relative_url }})
-- [Zur Übersicht]({{ "/pillar/" | relative_url }})
+- Trage deine **monatlichen Einnahmen** ein  
+- Trage deine **laufenden Ausgaben** ein  
+- Beobachte, wie sich das Gesamtbild entwickelt  
+
+Mehr musst du am Anfang nicht tun.
+
+Es ist völlig in Ordnung,
+wenn nicht alles sofort vollständig ist.
+Klarheit entsteht durch **regelmäßiges Eintragen**,
+nicht durch Genauigkeit.
+
+## Wichtige Einordnung
+
+Dieses Haushaltsbuch ersetzt keine Beratung
+und ist kein Sparplan.
+
+Es ist ein **Arbeitswerkzeug**,
+das dir hilft,
+deine finanzielle Situation realistisch einzuschätzen.
+
+## Mini-Zusammenfassung
+
+- Einnahmen und Ausgaben werden gesammelt  
+- Alles bleibt übersichtlich an einem Ort  
+- Entscheidungen werden **erst später** sinnvoll
