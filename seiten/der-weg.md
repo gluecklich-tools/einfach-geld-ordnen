@@ -4,8 +4,6 @@ title: "Der Weg – Einfach Geld ordnen"
 permalink: /seiten/der-weg.html
 ---
 
-## Der Weg
-
 Ordnung in den eigenen Finanzen entsteht nicht durch einzelne Tipps
 oder schnelle Tricks,
 sondern durch eine **klare und sinnvolle Abfolge von Schritten**.
