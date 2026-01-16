@@ -1,20 +1,20 @@
 - title: Start
-  url: /pillar/
+  url: "{{ '/pillar/' | relative_url }}"
 
 - title: Der Weg
-  url: /pillar/der-weg.html
+  url: "{{ '/pillar/der-weg.html' | relative_url }}"
 
 - title: Haushaltsbuch
-  url: /pillar/haushaltsbuch.html
+  url: "{{ '/pillar/haushaltsbuch.html' | relative_url }}"
 
 - title: Haushaltsüberblick
-  url: /pillar/haushaltsueberblick.html
+  url: "{{ '/pillar/haushaltsueberblick.html' | relative_url }}"
 
 - title: Spielraum & Rücklagen
-  url: /pillar/spielraum-ruecklagen.html
+  url: "{{ '/pillar/spielraum-ruecklagen.html' | relative_url }}"
 
 - title: Ordnung halten
-  url: /pillar/ordnung-halten.html
+  url: "{{ '/pillar/ordnung-halten.html' | relative_url }}"
 
 - title: Grundlagen
-  url: /pillar/einfach-geld-ordnen.html
+  url: "{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}"
