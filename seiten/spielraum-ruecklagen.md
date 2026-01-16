@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen"
-permalink: /seiten/spielraum-ruecklagen.html
+permalink: /seiten/spielraum-ruecklagen/
 ---
 
 Finanzieller Spielraum entsteht nicht durch hohe Einnahmen, sondern durch bewusste Struktur. Rücklagen sorgen dafür, dass unerwartete Ausgaben nicht zur Krise werden.
@@ -19,6 +19,6 @@ Spielraum schafft Ruhe. Rücklagen geben Sicherheit.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
-⏮️ [Zurück: Haushaltsüberblick erstellen](haushaltsueberblick.html)  
-⏭️ [Weiter: Ordnung halten](ordnung-halten.html)
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+⏮️ [Zurück: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick/" | relative_url }})  
+⏭️ [Weiter: Ordnung halten]({{ "/seiten/ordnung-halten/" | relative_url }})

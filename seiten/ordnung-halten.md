@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ordnung halten & einfach bleiben"
-permalink: /seiten/ordnung-halten.html
+permalink: /seiten/ordnung-halten/
 ---
 
 Finanzielle Ordnung ist kein einmaliges Projekt. Sie bleibt nur erhalten, wenn sie einfach und alltagstauglich ist.
@@ -19,5 +19,6 @@ Einfachheit ist der Schlüssel, um finanzielle Ordnung dauerhaft zu halten.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
-⏮️ [Zurück: Spielraum erkennen](spielraum-ruecklagen.html)
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+⏮️ [Zurück: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen/" | relative_url }})
+

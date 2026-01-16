@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Variable Ausgaben – Überblick & Kontrolle"
-permalink: /seiten/variable-ausgaben.html
+permalink: /seiten/variable-ausgaben/
 ---
 
 Variable Ausgaben schwanken von Monat zu Monat. Genau deshalb fallen sie oft nicht auf, obwohl sie einen großen Einfluss auf den Kontostand haben.
@@ -25,6 +25,7 @@ Nicht Verzicht, sondern Übersicht bringt Kontrolle über variable Ausgaben.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
-⏮️ [Zurück: Fixkosten klären](fixkosten-uebersicht.html)  
-⏭️ [Weiter: Haushaltsüberblick erstellen](haushaltsueberblick.html)
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+⏮️ [Zurück: Fixkosten klären]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})  
+⏭️ [Weiter: Haushaltsüberblick erstellen]({{ "/seiten/haushaltsueberblick/" | relative_url }})
+

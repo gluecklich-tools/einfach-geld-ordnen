@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Haushaltsüberblick & Monatsbudget"
-permalink: /seiten/haushaltsueberblick.html
+permalink: /seiten/haushaltsueberblick/
+
 ---
 
 Der Haushaltsüberblick verbindet Fixkosten und variable Ausgaben zu einem realistischen Gesamtbild. Erst hier wird sichtbar, was ein Haushalt tatsächlich kostet.
@@ -24,6 +25,6 @@ Der Haushaltsüberblick ist die Schaltzentrale deiner Finanzordnung.
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
-⏮️ [Zurück: Variable Ausgaben verstehen](variable-ausgaben.html)  
-⏭️ [Weiter: Spielraum erkennen](spielraum-ruecklagen.html)
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+⏮️ [Zurück: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben/" | relative_url }})  
+⏭️ [Weiter: Spielraum erkennen]({{ "/seiten/spielraum-ruecklagen/" | relative_url }})

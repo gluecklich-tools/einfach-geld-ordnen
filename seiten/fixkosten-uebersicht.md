@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Fixkosten im Haushalt – Überblick & Ordnung"
-permalink: /seiten/fixkosten-uebersicht.html
+permalink: /seiten/fixkosten-uebersicht/
 ---
 
 Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern. Sie bestimmen, wie viel Geld jeden Monat fest gebunden ist. Wer hier Ordnung schafft, gewinnt Planbarkeit und Sicherheit.
@@ -26,5 +26,6 @@ Fixkosten sind das Fundament. Erst wenn sie klar sind, ergibt jede weitere Planu
 
 ---
 
-🔙 [Zur Übersicht – Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)  
-⏭️ [Weiter: Variable Ausgaben verstehen](variable-ausgaben.html)
+🔙 [Zur Übersicht – Einfach Geld ordnen]({{ "/pillar/einfach-geld-ordnen/" | relative_url }})  
+⏭️ [Weiter: Variable Ausgaben verstehen]({{ "/seiten/variable-ausgaben/" | relative_url }})
+
