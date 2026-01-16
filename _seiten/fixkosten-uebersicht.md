@@ -4,19 +4,19 @@ title: "Fixkosten im Haushalt – Überblick & Ordnung"
 permalink: /seiten/fixkosten-uebersicht/
 ---
 
-Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern.
+Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern.  
 Sie bestimmen, wie viel Geld jeden Monat fest gebunden ist.
 
-Wer hier Ordnung schafft, gewinnt **Planbarkeit**, **Sicherheit**
-und vor allem ein klares Gefühl dafür,
+Wer hier Ordnung schafft, gewinnt **Planbarkeit**, **Sicherheit**  
+und vor allem ein klares Gefühl dafür,  
 **wo das eigene Geld bleibt**.
 
 ## Warum Fixkosten zuerst kommen
 
-Fixkosten laufen unabhängig vom Alltag weiter.
+Fixkosten laufen unabhängig vom Alltag weiter.  
 Sie werden abgebucht, egal ob man sie gerade „auf dem Schirm“ hat oder nicht.
 
-Ohne klare Übersicht entsteht schnell das Gefühl,
+Ohne klare Übersicht entsteht schnell das Gefühl,  
 dass Geld fehlt – obwohl keine großen Einzelkäufe stattfinden.
 
 Genau deshalb beginnen wir hier.
@@ -40,15 +40,15 @@ Diese Kosten bilden das **feste Gerüst** deines Haushalts.
 2. Rechne Jahreskosten auf **monatliche Beträge** um  
 3. Fasse alles in **wenige, klare Kategorien** zusammen  
 
-Perfektion ist hier nicht nötig.
+Perfektion ist hier nicht nötig.  
 Wichtig ist nur: **nichts übersehen**.
 
 ## Nächster Schritt: alles übersichtlich festhalten
 
-Wenn deine Fixkosten klar sind,
+Wenn deine Fixkosten klar sind,  
 ist der wichtigste Grundstein gelegt.
 
-Jetzt geht es darum,
+Jetzt geht es darum,  
 **alle Einnahmen und Ausgaben einfach zu sammeln** –  
 ohne komplizierte Regeln, ohne Druck.
 

@@ -6,7 +6,7 @@ permalink: /pillar/ordnung-halten.html
 
 ## Überblick
 
-Dauerhafte Ordnung entsteht durch **einfach, überschaubare Routinen**.  
+Dauerhafte Ordnung entsteht durch **einfache, überschaubare Routinen**.  
 Die Pillar-Version zeigt die Theorie hinter Stabilität und Übersicht.
 
 ---

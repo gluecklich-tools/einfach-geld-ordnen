@@ -4,19 +4,19 @@ title: "Haushaltsbuch Vorlage kostenlos"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
-Diese kostenlose Haushaltsbuch-Vorlage hilft dir dabei,
+Diese kostenlose Haushaltsbuch-Vorlage hilft dir dabei,  
 **Einnahmen und Ausgaben übersichtlich zu erfassen**.
 
-Sie ist bewusst einfach gehalten
-und eignet sich besonders,
+Sie ist bewusst einfach gehalten  
+und eignet sich besonders,  
 wenn du ohne Vorkenntnisse starten möchtest.
 
 ## Die kostenlose Haushaltsbuch-Vorlage
 
-Die Excel-Datei bietet dir eine klare Struktur,
+Die Excel-Datei bietet dir eine klare Struktur,  
 um deine Zahlen **an einem Ort** zu sammeln.
 
-Du kannst sie direkt nutzen
+Du kannst sie direkt nutzen  
 und an deine persönliche Situation anpassen.
 
 {% include download-button.html file="haushaltsbuch-vorlage-kostenlos.xlsx" label="Haushaltsbuch Vorlage herunterladen (Excel .xlsx)" hint="Kostenlos. Ohne Anmeldung." %}
@@ -27,20 +27,19 @@ und an deine persönliche Situation anpassen.
 - Trage deine **laufenden Ausgaben** ein  
 - Behalte den Überblick über dein Haushaltsbudget  
 
-Du musst nichts perfekt vorbereiten.
-Wichtig ist nur,
-dass du **anfängst zu sammeln**.
+Du musst nichts perfekt vorbereiten.  
+Wichtig ist nur, dass du **anfängst zu sammeln**.
 
 → Für die strukturierte Nutzung:  
 [Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ## Wichtige Einordnung
 
-Diese Vorlage ist kein Sparplan
+Diese Vorlage ist kein Sparplan  
 und ersetzt keine Beratung.
 
-Sie ist ein **Hilfsmittel**,
-das dir hilft,
+Sie ist ein **Hilfsmittel**,  
+das dir hilft,  
 deine finanzielle Situation realistisch zu sehen.
 
 ## Kurz zusammengefasst

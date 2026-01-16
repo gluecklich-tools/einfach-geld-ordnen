@@ -14,7 +14,7 @@ und **warum die Reihenfolge entscheidend ist**.
 
 ## Warum es einen festen Weg gibt
 
-Viele Menschen springen zwischen Themen hin und her:
+Viele Menschen springen zwischen Themen hin und her:  
 mal sparen, mal rechnen, mal optimieren.
 
 Das fühlt sich nach Aktivität an,
@@ -59,10 +59,10 @@ und Schritt für Schritt Sicherheit schafft.
 
 ## Wichtige Einordnung
 
-Diese Schritte sind **keine Checkliste zum schnellen Abhaken**.
+Diese Schritte sind **keine Checkliste zum schnellen Abhaken**.  
 Sie beschreiben eine **Denk- und Arbeitsweise**.
 
-Nicht alles muss sofort erledigt werden.
+Nicht alles muss sofort erledigt werden.  
 Wichtig ist nur,
 dass die Reihenfolge stimmt
 und nichts übersprungen wird.
