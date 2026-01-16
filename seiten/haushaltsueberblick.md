@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsüberblick & Monatsbudget"
-permalink: /seiten/haushaltsueberblick/
+permalink: /seiten/haushaltsueberblick.html
 ---
 
 Der Haushaltsüberblick verbindet **Fixkosten** und **variable Ausgaben**
@@ -24,6 +24,11 @@ Erst wenn alle Zahlen zusammenkommen, wird sichtbar:
 Dieser Schritt ist kein Anfang,
 sondern eine **Zusammenführung**.
 
+→ Grundlage sind:  
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})  
+und  
+[Variable Ausgaben – Überblick & Einordnung]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+
 ## So entsteht ein Monatsbudget
 
 1. Alle Fixkosten werden addiert  
@@ -40,7 +45,8 @@ sondern eine **Orientierung**.
 - wo Anpassungen langfristig sinnvoll wären  
 
 Nicht alles muss sofort geändert werden.
-Oft reicht es, **erst einmal zu sehen**, wie es wirklich aussieht.
+Oft reicht es,
+**erst einmal zu sehen**, wie es wirklich aussieht.
 
 ## Einordnung
 
@@ -51,7 +57,10 @@ Er ist die **Schaltzentrale deiner Finanzordnung**:
 Alles läuft hier zusammen,
 alles wird hier verständlich.
 
-## Mini-Zusammenfassung
+→ Nächster Schritt zur Einordnung:  
+[Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+
+## Kurz zusammengefasst
 
 - Fixkosten und variable Ausgaben sind verbunden  
 - Das Gesamtbild wird sichtbar  

@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Nebenkosten der Miete einfach erklärt"
-permalink: /seiten/nebenkosten-miete/
+permalink: /seiten/nebenkosten-miete.html
 ---
 
 Nebenkosten sind Kosten,
@@ -11,6 +11,9 @@ und regelmäßig gezahlt werden müssen.
 Sie gehören zu den Fixkosten eines Haushalts
 und haben einen großen Einfluss
 auf die monatliche Belastung.
+
+→ Einordnung im Gesamtkontext:  
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 ## Was zu den Nebenkosten gehört
 
@@ -54,7 +57,10 @@ Sie lassen sich nicht beliebig steuern,
 aber **verstehen** hilft,
 Überraschungen zu vermeiden.
 
-## Mini-Zusammenfassung
+→ Ein häufiger Kostenpunkt im Detail:  
+[Stromkosten im Haushalt verstehen]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+
+## Kurz zusammengefasst
 
 - Nebenkosten gehören zu den Fixkosten  
 - Abschläge und tatsächliche Kosten können abweichen  

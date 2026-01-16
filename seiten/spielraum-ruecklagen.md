@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen"
-permalink: /seiten/spielraum-ruecklagen/
+permalink: /seiten/spielraum-ruecklagen.html
 ---
 
 Finanzieller Spielraum entsteht nicht durch hohe Einnahmen,
@@ -53,7 +53,7 @@ und Entscheidungen in Ruhe getroffen werden können.
 Nicht jeder Monat erlaubt Rücklagen.
 Das ist normal.
 
-## Mini-Zusammenfassung
+## Kurz zusammengefasst
 
 - Spielraum ist das Ergebnis guter Übersicht  
 - Rücklagen schaffen Ruhe und Stabilität  

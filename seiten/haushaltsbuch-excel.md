@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: "Haushaltsbuch in Excel – einfach & übersichtlich"
-permalink: /seiten/haushaltsbuch-excel/
+permalink: /seiten/haushaltsbuch-excel.html
 ---
 
 Ein Haushaltsbuch hilft dir dabei,
@@ -36,6 +36,9 @@ wenn nicht alles sofort vollständig ist.
 Klarheit entsteht durch **regelmäßiges Eintragen**,
 nicht durch Genauigkeit.
 
+→ Zur Einordnung der Ausgaben:  
+[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+
 ## Wichtige Einordnung
 
 Dieses Haushaltsbuch ersetzt keine Beratung
@@ -45,7 +48,7 @@ Es ist ein **Arbeitswerkzeug**,
 das dir hilft,
 deine finanzielle Situation realistisch einzuschätzen.
 
-## Mini-Zusammenfassung
+## Kurz zusammengefasst
 
 - Einnahmen und Ausgaben werden gesammelt  
 - Alles bleibt übersichtlich an einem Ort  

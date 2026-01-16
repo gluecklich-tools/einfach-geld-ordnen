@@ -32,7 +32,7 @@ Der erste und wichtigste Schritt ist, **alle festen monatlichen Kosten** sauber 
 So entsteht Klarheit – ohne Rechnen, ohne Sparzwang, ohne Druck.
 
 👉 **Nächster Schritt:**  
-[Fixkosten verstehen und erfassen]({{ "/seiten/fixkosten-uebersicht/" | relative_url }})
+[Fixkosten verstehen und erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 ## Die Grundstruktur eines geordneten Haushalts
 
@@ -44,24 +44,39 @@ Jeder Schritt baut auf dem vorherigen auf.
 Fixkosten bestimmen, wie viel Geld **jeden Monat fest gebunden** ist.  
 Miete, Strom, Versicherungen und Abos bilden die Basis jeder Planung.
 
+→ Mehr dazu:  
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+
 ## 2️⃣ Variable Ausgaben – der Alltag
 
 Variable Ausgaben sind flexibel, aber oft unsichtbar.  
 Sie entscheiden darüber, wie viel Spielraum tatsächlich bleibt.
 
+→ Mehr dazu:  
+[Variable Ausgaben – Überblick & Einordnung]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+
 ## 3️⃣ Haushaltsüberblick – alles zusammenführen
 
 Erst wenn alle Zahlen zusammenkommen, entsteht ein realistisches Gesamtbild.
+
+→ Weiterführend:  
+[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
 
 ## 4️⃣ Spielraum erkennen – was wirklich bleibt
 
 Der freie Betrag zeigt, was möglich ist – und was nicht.
 
+→ Einordnung hier:  
+[Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+
 ## 5️⃣ Ordnung halten – einfach & stabil
 
 Struktur funktioniert nur, wenn sie alltagstauglich bleibt.
 
-## Mini-Zusammenfassung
+→ Zum Abschluss:  
+[Ordnung halten & einfach bleiben]({{ "/seiten/ordnung-halten.html" | relative_url }})
+
+## Kurz zusammengefasst
 
 - Ordnung kommt vor Optimierung  
 - Struktur ist wichtiger als Details  

@@ -1,14 +1,15 @@
 ﻿---
 layout: default
 title: "Fixkosten im Haushalt – Überblick & Ordnung"
-permalink: /seiten/fixkosten-uebersicht/
+permalink: /seiten/fixkosten-uebersicht.html
 ---
 
 Fixkosten sind Ausgaben, die regelmäßig anfallen und sich kaum verändern.
 Sie bestimmen, wie viel Geld jeden Monat fest gebunden ist.
 
-Wer hier Ordnung schafft, gewinnt **Planbarkeit**, **Sicherheit** und vor allem
-ein klares Gefühl dafür, **wo das eigene Geld bleibt**.
+Wer hier Ordnung schafft, gewinnt **Planbarkeit**, **Sicherheit**
+und vor allem ein klares Gefühl dafür,
+**wo das eigene Geld bleibt**.
 
 ## Warum Fixkosten zuerst kommen
 
@@ -30,6 +31,9 @@ Genau deshalb beginnen wir hier.
 
 Diese Kosten bilden das **feste Gerüst** deines Haushalts.
 
+→ Einordnung zu einem wichtigen Teilbereich:  
+[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
+
 ## So gehst du jetzt vor
 
 1. Sammle alle Verträge, Rechnungen und Abbuchungen  
@@ -39,13 +43,14 @@ Diese Kosten bilden das **feste Gerüst** deines Haushalts.
 Perfektion ist hier nicht nötig.
 Wichtig ist nur: **nichts übersehen**.
 
----
-
 ## Nächster Schritt: alles übersichtlich festhalten
 
-Wenn deine Fixkosten klar sind, ist der schwierigste Teil geschafft.
-Jetzt geht es darum, **alle Einnahmen und Ausgaben einfach zu sammeln** –
+Wenn deine Fixkosten klar sind,
+ist der wichtigste Grundstein gelegt.
+
+Jetzt geht es darum,
+**alle Einnahmen und Ausgaben einfach zu sammeln** –
 ohne komplizierte Regeln, ohne Druck.
 
 👉 **Weiter zum Haushaltsbuch:**  
-[Haushaltsbuch in Excel nutzen]({{ "/seiten/haushaltsbuch-excel/" | relative_url }})
+[Haushaltsbuch in Excel nutzen]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
