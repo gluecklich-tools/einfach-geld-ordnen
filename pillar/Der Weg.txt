@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Der Weg – Pillar-Vertiefung"
+permalink: /pillar/der-weg.html
+---
+
+## Überblick
+
+Dieser Abschnitt zeigt, **wie die Schritte im Alltag zusammenhängen**, warum die Reihenfolge der Themen entscheidend ist und wie sich Fixkosten, Einnahmen, Ausgaben und Übersicht zu einem System fügen.
+
+Die Pillar-Version vermittelt **Verständnis**, nicht konkrete Handlungsanweisungen.
+
+---
+
+## Die Schritte
+
+1. **Fixkosten verstehen**  
+   Stabiler Kern, Grundlage für alles Weitere.
+
+2. **Variable Ausgaben einordnen**  
+   Flexibel, oft unterschätzt, zeigen Potenziale und Grenzen.
+
+3. **Einnahmen erfassen**  
+   Basis für Orientierung und Spielraum.
+
+4. **Übersicht erstellen**  
+   Zusammenführung von Zahlen für realistische Entscheidungen.
+
+5. **Spielraum & Rücklagen**  
+   Zeigt, was frei verfügbar ist und was Sicherheit bietet.
+
+6. **Ordnung halten**  
+   Dauerhafte Struktur, Routinen und Klarheit.
+
+---
+
+## Warum Reihenfolge wichtig ist
+
+Jeder Schritt baut auf dem vorherigen auf.  
+Die Pillar-Version erklärt, **warum diese Reihenfolge Sinn macht**, ohne dass der Leser direkt Aktionen ausführen muss.
+
+---
+
+## Zusammenfassung
+
+- Fokus auf **Verstehen, nicht Tun**  
+- Schritte sind konzeptionell verbunden  
+- Ziel: ruhige Übersicht, klare Systematik
+
+→ Für die praktische Umsetzung siehe die `/seiten/`-Versionen.

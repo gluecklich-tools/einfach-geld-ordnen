@@ -1,83 +1,63 @@
 ﻿---
 layout: default
-title: "Einfach Geld ordnen – Überblick & Struktur"
-permalink: /pillar/
+title: "Einfach Geld ordnen – Schritt für Schritt Ordnung in deine Finanzen"
+permalink: /
 ---
 
-## Einfach Geld ordnen – Überblick & Struktur
+Geldprobleme entstehen selten, weil Menschen „nicht rechnen können“.  
+Sie entstehen, weil **der Überblick fehlt**.
 
-Finanzen müssen nicht kompliziert sein.  
-Unordnung entsteht selten durch zu wenig Geld, sondern fast immer durch fehlende Struktur.
+„Einfach Geld ordnen“ hilft dir, deine Finanzen **ruhig, klar und nachvollziehbar**
+zu sortieren – ohne Fachbegriffe, ohne Druck, ohne komplizierte Systeme.
 
-Dieser Überblick zeigt dir, **wie du deine Haushaltsfinanzen Schritt für Schritt ordnest** – ruhig, nachvollziehbar und ohne Druck.  
-Du erkennst, **wo du stehst**, **was zusammengehört** und **in welcher Reihenfolge** du vorgehst.
+Du musst nichts optimieren, nichts sparen, nichts vergleichen.  
+Du beginnst damit, **zu verstehen, wo dein Geld bleibt**.
 
-## Worum es hier geht – und worum nicht
+## Worum es hier geht
 
-**Dieses Projekt hilft dir dabei:**
-- Einnahmen und Ausgaben zu verstehen
-- feste und variable Kosten sauber zu trennen
-- einen realistischen Haushaltsüberblick zu gewinnen
+Diese Seite begleitet dich dabei,
 
-**Es geht nicht um:**
-- schnelles Reichwerden
-- riskante Spartipps
-- komplizierte Finanzprodukte
+- deine **Fixkosten** zu erkennen  
+- deine **variablen Ausgaben** einzuordnen  
+- deine **Einnahmen** vollständig zu sehen  
+- alles in einem **übersichtlichen Haushaltsbild** zusammenzuführen  
 
-## Überblick schaffen – Schritt für Schritt
+Schritt für Schritt. In einer sinnvollen Reihenfolge.
 
-Wenn sich deine Finanzen gerade unübersichtlich anfühlen, beginne hier.  
-Der erste und wichtigste Schritt ist, **alle festen monatlichen Kosten** sauber zu erfassen.
+## Für wen diese Seite gedacht ist
 
-So entsteht Klarheit – ohne Rechnen, ohne Sparzwang, ohne Druck.
+Für Menschen, die sagen:
 
-👉 **Nächster Schritt:**  
-[Fixkosten verstehen und erfassen]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- „Ich weiß grob, was reinkommt – aber nicht genau, wo es hingeht.“
+- „Am Monatsende ist weniger übrig als gedacht.“
+- „Ich möchte Ordnung, aber kein Finanzstudium.“
 
-## Die Grundstruktur eines geordneten Haushalts
+Wenn du Klarheit willst statt Zahlenstress, bist du hier richtig.
 
-Ein geordneter Haushalt entsteht nicht auf einmal.  
-Jeder Schritt baut auf dem vorherigen auf.
+## Wie du hier vorgehst
 
-## 1️⃣ Fixkosten – das Fundament
+Du beginnst mit den **Fixkosten**.  
+Nicht, weil sie am wichtigsten sind – sondern weil sie **am stabilsten** sind.
 
-Fixkosten bestimmen, wie viel Geld **jeden Monat fest gebunden** ist.  
-Miete, Strom, Versicherungen und Abos bilden die Basis jeder Planung.
+Danach schaust du dir die **variablen Kosten** an.  
+Dann die **Einnahmen**.  
+Zum Schluss führst du alles zusammen.
 
-→ Mehr dazu:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+Jede Seite erklärt **genau einen Schritt** – nicht mehr.
 
-## 2️⃣ Variable Ausgaben – der Alltag
+## Was du hier nicht findest
 
-Variable Ausgaben sind flexibel, aber oft unsichtbar.  
-Sie entscheiden darüber, wie viel Spielraum tatsächlich bleibt.
+- keine Spartipps  
+- keine Apps  
+- keine Vergleiche  
+- kein „du musst nur …“
 
-→ Mehr dazu:  
-[Variable Ausgaben – Überblick & Einordnung]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+Ordnung entsteht nicht durch Tricks, sondern durch **Verstehen**.
 
-## 3️⃣ Haushaltsüberblick – alles zusammenführen
+## Dein Startpunkt
 
-Erst wenn alle Zahlen zusammenkommen, entsteht ein realistisches Gesamtbild.
+Beginne mit der ersten Seite:
 
-→ Weiterführend:  
-[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+**Fixkosten im Haushalt – Überblick & Ordnung**
 
-## 4️⃣ Spielraum erkennen – was wirklich bleibt
-
-Der freie Betrag zeigt, was möglich ist – und was nicht.
-
-→ Einordnung hier:  
-[Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
-
-## 5️⃣ Ordnung halten – einfach & stabil
-
-Struktur funktioniert nur, wenn sie alltagstauglich bleibt.
-
-→ Zum Abschluss:  
-[Ordnung halten & einfach bleiben]({{ "/seiten/ordnung-halten.html" | relative_url }})
-
-## Kurz zusammengefasst
-
-- Ordnung kommt vor Optimierung  
-- Struktur ist wichtiger als Details  
-- Jeder Schritt baut auf dem vorherigen auf
+Dort legst du das Fundament für alles Weitere.
