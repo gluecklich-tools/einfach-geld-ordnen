@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Einfach Geld ordnen – Grundlagen"
-permalink: /pillar/einfach-geld-ordnen.html
+permalink: /pillar/index.htmlindex.htmleinfach-geld-ordnen.html
 ---
 
 ## Überblick

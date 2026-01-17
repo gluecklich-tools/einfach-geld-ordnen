@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Ordnung halten – Pillar-Vertiefung"
-permalink: /pillar/ordnung-halten.html
+permalink: /pillar/index.htmlindex.htmlordnung-halten.html
 ---
 
 ## Überblick

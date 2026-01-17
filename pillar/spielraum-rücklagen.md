@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Spielraum & Rücklagen – Pillar-Vertiefung"
-permalink: /pillar/spielraum-ruecklagen.html
+permalink: /pillar/index.htmlindex.htmlspielraum-ruecklagen.html
 ---
 
 ## Überblick

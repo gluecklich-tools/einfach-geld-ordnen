@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Haushaltsbuch – Pillar-Vertiefung"
-permalink: /pillar/haushaltsbuch.html
+permalink: /pillar/index.htmlindex.htmlhaushaltsbuch.html
 ---
 
 ## Überblick

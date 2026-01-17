@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Haushaltsüberblick – Pillar-Vertiefung"
-permalink: /pillar/haushaltsueberblick.html
+permalink: /pillar/index.htmlindex.htmlhaushaltsueberblick.html
 ---
 
 ## Überblick

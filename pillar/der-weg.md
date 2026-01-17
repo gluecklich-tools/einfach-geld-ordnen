@@ -1,7 +1,7 @@
----
+﻿﻿---
 layout: default
 title: "Der Weg – Pillar-Vertiefung"
-permalink: /pillar/der-weg.html
+permalink: /pillar/index.htmlindex.htmlder-weg.html
 ---
 
 ## Überblick
