@@ -31,7 +31,7 @@ Rücklagen sorgen dafür,
 dass unerwartete Ausgaben
 nicht sofort zu Stress oder Problemen führen.
 
-Sie schaffen **Puffer** –
+Sie schaffen **Puffer** –  
 nicht für Luxus,
 sondern für Stabilität.
 
@@ -59,10 +59,8 @@ Das ist normal.
 - Rücklagen schaffen Ruhe und Stabilität  
 - Sicherheit entsteht Schritt für Schritt  
 
----
-
 ## Einordnung im Gesamtsystem
 
 Diese Seite zeigt den **praktischen Umgang mit Spielraum und Rücklagen**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Spielraum & Rücklagen – Überblick & Prinzipien](/pillar/spielraum-ruecklagen.html)
+[Spielraum & Rücklagen – Überblick & Prinzipien]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)

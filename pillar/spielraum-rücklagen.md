@@ -11,8 +11,6 @@ Finanzieller Spielraum und Rücklagen schaffen **Sicherheit, Ruhe und Entscheidu
 Diese Pillar-Seite erklärt die **Grundlogik hinter Spielraum und Rücklagen** –  
 ohne konkrete Beträge, ohne Sparziele, ohne Handlungsdruck.
 
----
-
 ## Was mit Spielraum gemeint ist
 
 **Spielraum** ist das Geld,  
@@ -26,8 +24,6 @@ Spielraum bedeutet:
 - Luft zum Atmen  
 - Entscheidungen ohne Stress  
 - weniger Angst vor dem Monatsende  
-
----
 
 ## Was Rücklagen leisten
 
@@ -43,8 +39,6 @@ Sie dienen dazu:
 Rücklagen geben Zeit –  
 und Zeit ist finanzielle Ruhe.
 
----
-
 ## Wichtige Unterscheidung
 
 - **Spielraum** betrifft den Alltag  
@@ -52,8 +46,6 @@ und Zeit ist finanzielle Ruhe.
 
 Beides hat unterschiedliche Aufgaben,  
 aber dieselbe Grundlage: **Klarheit über die Zahlen**.
-
----
 
 ## Rolle im Gesamtsystem
 
@@ -66,8 +58,6 @@ Spielraum und Rücklagen kommen **erst nach der Übersicht**:
 Erst dann macht es Sinn,  
 über Spielraum oder Rücklagen nachzudenken.
 
----
-
 ## Wichtige Einordnung
 
 Diese Seite sagt dir **nicht**:
@@ -79,15 +69,11 @@ Diese Seite sagt dir **nicht**:
 Sie erklärt nur,  
 **warum Spielraum und Rücklagen überhaupt entstehen können**.
 
----
-
 ## Weiter zur praktischen Umsetzung
 
 Konkrete, alltagstaugliche Beispiele findest du hier:
 
-👉 **[Spielraum & Rücklagen – praktisch einordnen](/seiten/spielraum-ruecklagen.html)**
-
----
+👉 **[Spielraum & Rücklagen – praktisch einordnen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)**
 
 ## Einordnung im Gesamtkonzept
 
@@ -97,4 +83,3 @@ Sie schließt die inhaltliche Logik ab
 und bereitet den letzten Schritt vor:
 
 → **Ordnung halten**
-

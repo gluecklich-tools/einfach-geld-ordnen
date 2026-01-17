@@ -45,7 +45,7 @@ jede Ausgabe zu kontrollieren,
 sondern **Zusammenhänge zu erkennen**.
 
 → Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ## Wichtige Einordnung
 
@@ -58,7 +58,7 @@ wie hoch sie tatsächlich sind,
 werden sinnvolle Entscheidungen möglich.
 
 → Zur Zusammenführung aller Zahlen:  
-[Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
+[Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 ## Kurz zusammengefasst
 

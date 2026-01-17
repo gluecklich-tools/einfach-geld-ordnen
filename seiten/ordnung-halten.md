@@ -12,7 +12,7 @@ Nicht neue Regeln sorgen für Stabilität,
 sondern **machbare Gewohnheiten**.
 
 → Einordnung im Gesamtprozess:  
-[Der Weg – Einfach Geld ordnen](/seiten/der-weg.html)
+[Der Weg – Einfach Geld ordnen]({{ site.baseurl }}/seiten/der-weg.html)
 
 ## Warum Ordnung oft wieder verloren geht
 
@@ -51,7 +51,7 @@ sondern **zu wissen, wo man steht**.
 Das reicht.
 
 → Praktischer Bezugspunkt:  
-[Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
+[Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 ## Kurz zusammengefasst
 
@@ -59,10 +59,8 @@ Das reicht.
 - Wiederholung schlägt Motivation  
 - Ruhe schlägt Kontrolle  
 
----
-
 ## Einordnung im Gesamtsystem
 
 Diese Seite zeigt, wie finanzielle Ordnung **dauerhaft stabil** bleibt.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Ordnung halten – Prinzipien & Stabilität](/pillar/ordnung-halten.html)
+[Ordnung halten – Prinzipien & Stabilität]({{ site.baseurl }}/pillar/ordnung-halten.html)

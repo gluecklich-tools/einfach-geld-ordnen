@@ -31,27 +31,27 @@ Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
 1. **Fixkosten klären**  
    → verstehen, was monatlich fest gebunden ist  
    → weiter hier:  
-   [Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
+   [Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 2. **Einnahmen und Ausgaben sammeln**  
    → sichtbar machen, was tatsächlich passiert  
    → Einstieg über:  
-   [Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
+   [Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 3. **Alles zusammenführen**  
    → erkennen, was der Haushalt insgesamt kostet  
    → Überblick hier:  
-   [Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
+   [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 4. **Spielraum einordnen**  
    → verstehen, was möglich ist und was nicht  
    → Einordnung:  
-   [Finanzieller Spielraum & Rücklagen](/seiten/spielraum-ruecklagen.html)
+   [Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 5. **Ordnung stabil halten**  
    → Struktur im Alltag beibehalten  
    → Abschluss:  
-   [Ordnung halten & einfach bleiben](/seiten/ordnung-halten.html)
+   [Ordnung halten & einfach bleiben]({{ site.baseurl }}/seiten/ordnung-halten.html)
 
 Diese Reihenfolge hat sich bewährt,
 weil sie Überforderung vermeidet
@@ -73,10 +73,8 @@ und nichts übersprungen wird.
 - Die Reihenfolge entscheidet über Klarheit  
 - Jeder Schritt bereitet den nächsten vor  
 
----
-
 ## Einordnung im Gesamtkonzept
 
 Diese Seite beschreibt die **praktische Reihenfolge im Alltag**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Der Weg – Grundlagen & Überblick](/pillar/der-weg.html)
+[Der Weg – Grundlagen & Überblick]({{ site.baseurl }}/pillar/der-weg.html)

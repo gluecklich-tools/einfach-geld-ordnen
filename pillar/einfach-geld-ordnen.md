@@ -15,8 +15,6 @@ ohne Handlungsdruck, ohne Rechnen, ohne Optimieren.
 
 Ziel ist **Verstehen**, nicht sofortiges Tun.
 
----
-
 ## Die Säulen finanzieller Ordnung
 
 Finanzielle Klarheit entsteht aus dem Zusammenspiel weniger Bereiche:
@@ -39,8 +37,6 @@ Finanzielle Klarheit entsteht aus dem Zusammenspiel weniger Bereiche:
 Diese Bereiche wirken **nicht isoliert**,  
 sondern bauen logisch aufeinander auf.
 
----
-
 ## Warum diese Grundlagen wichtig sind
 
 Viele Menschen versuchen zu sparen oder zu optimieren,  
@@ -55,15 +51,11 @@ Das führt zu:
 Diese Seite schafft die **gedankliche Basis**,  
 auf der die einzelnen Themen-Seiten sinnvoll aufbauen.
 
----
-
 ## Weiterführende Umsetzung
 
 Die **konkrete praktische Umsetzung** findest du gesammelt hier:
 
-👉 [Zu den Themen-Seiten – Schritt für Schritt starten](/seiten/index.html)
-
----
+👉 [Zu den Themen-Seiten – Schritt für Schritt starten]({{ site.baseurl }}/seiten/index.html)
 
 ## Einordnung im Gesamtkonzept
 

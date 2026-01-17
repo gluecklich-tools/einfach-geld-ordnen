@@ -8,7 +8,7 @@ Der Haushaltsüberblick verbindet **Fixkosten** und **variable Ausgaben**
 zu einem realistischen Gesamtbild.
 
 Er zeigt nicht einzelne Posten,
-sondern **was dein Haushalt insgesamt kostet** –
+sondern **was dein Haushalt insgesamt kostet** –  
 und ob das dauerhaft zu deinem Einkommen passt.
 
 ## Warum dieser Überblick wichtig ist
@@ -25,9 +25,9 @@ Dieser Schritt ist kein Anfang,
 sondern eine **Zusammenführung**.
 
 → Grundlage sind:  
-[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)  
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
 und  
-[Variable Ausgaben – Überblick & Einordnung](/seiten/variable-ausgaben.html)
+[Variable Ausgaben – Überblick & Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 
 ## So entsteht ein Monatsbudget
 
@@ -58,7 +58,7 @@ Alles läuft hier zusammen,
 alles wird hier verständlich.
 
 → Nächster Schritt zur Einordnung:  
-[Finanzieller Spielraum & Rücklagen](/seiten/spielraum-ruecklagen.html)
+[Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 ## Kurz zusammengefasst
 
@@ -66,10 +66,8 @@ alles wird hier verständlich.
 - Das Gesamtbild wird sichtbar  
 - Entscheidungen werden erst **danach** sinnvoll  
 
----
-
 ## Einordnung im Gesamtkonzept
 
 Diese Seite zeigt die **praktische Zusammenführung aller Zahlen**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Haushaltsüberblick – Rolle im Gesamtsystem](/pillar/haushaltsueberblick.html)
+[Haushaltsüberblick – Rolle im Gesamtsystem]({{ site.baseurl }}/pillar/haushaltsueberblick.html)

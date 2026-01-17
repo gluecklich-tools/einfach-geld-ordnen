@@ -13,7 +13,7 @@ und haben einen großen Einfluss
 auf die monatliche Belastung.
 
 → Einordnung im Gesamtkontext:  
-[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Was zu den Nebenkosten gehört
 
@@ -58,7 +58,7 @@ aber **verstehen** hilft,
 Überraschungen zu vermeiden.
 
 → Ein häufiger Kostenpunkt im Detail:  
-[Stromkosten im Haushalt verstehen](/seiten/stromkosten-haushalt.html)
+[Stromkosten im Haushalt verstehen]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ## Kurz zusammengefasst
 
@@ -66,10 +66,8 @@ aber **verstehen** hilft,
 - Abschläge und tatsächliche Kosten können abweichen  
 - Klarheit entsteht durch Überblick, nicht durch Kontrolle  
 
----
-
 ## Einordnung im Gesamtsystem
 
 Diese Seite vertieft einen wichtigen Teilbereich der Fixkosten.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Fixkosten – Rolle im Gesamtsystem](/pillar/einfach-geld-ordnen.html)
+[Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)

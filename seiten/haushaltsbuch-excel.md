@@ -37,7 +37,7 @@ Klarheit entsteht durch **regelmäßiges Eintragen**,
 nicht durch Genauigkeit.
 
 → Zur Einordnung der Ausgaben:  
-[Monatliche Ausgaben im Blick behalten](/seiten/monatliche-ausgaben.html)
+[Monatliche Ausgaben im Blick behalten]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 ## Wichtige Einordnung
 
@@ -54,10 +54,8 @@ deine finanzielle Situation realistisch einzuschätzen.
 - Alles bleibt übersichtlich an einem Ort  
 - Entscheidungen werden **erst später** sinnvoll  
 
----
-
 ## Einordnung im Gesamtkonzept
 
 Diese Seite zeigt die **praktische Nutzung** des Haushaltsbuchs.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Haushaltsbuch – Prinzip & Rolle im System](/pillar/haushaltsbuch.html)
+[Haushaltsbuch – Prinzip & Rolle im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)

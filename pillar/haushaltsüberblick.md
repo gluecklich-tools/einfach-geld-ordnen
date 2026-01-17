@@ -17,8 +17,6 @@ Keine Auswertung.
 Keine Bewertung.  
 Keine Optimierung.
 
----
-
 ## Die Rolle des Haushaltsüberblicks
 
 Der Haushaltsüberblick steht **nach dem Haushaltsbuch**  
@@ -29,8 +27,6 @@ Er beantwortet nur eine zentrale Frage:
 > **Wie sieht mein Haushalt insgesamt aus?**
 
 Nicht mehr – aber auch nicht weniger.
-
----
 
 ## Was der Haushaltsüberblick leistet
 
@@ -44,8 +40,6 @@ Der Überblick hilft dabei,
 Er ersetzt Einzelbetrachtungen  
 durch **ein gemeinsames Haushaltsbild**.
 
----
-
 ## Wichtige Abgrenzung
 
 Der Haushaltsüberblick ist:
@@ -57,10 +51,8 @@ Der Haushaltsüberblick ist:
 Er ist **reine Orientierung**.
 
 Er zeigt,
-**wie die aktuelle Situation wirklich aussieht** –
+**wie die aktuelle Situation wirklich aussieht** –  
 nicht, wie sie aussehen sollte.
-
----
 
 ## Warum der Überblick vor Entscheidungen kommt
 
@@ -73,16 +65,12 @@ Ohne Haushaltsüberblick entstehen typische Fehler:
 Der Überblick verhindert das,
 indem er **erst Klarheit schafft**.
 
----
-
 ## Weiter zur praktischen Umsetzung
 
 Die konkrete Erstellung des Haushaltsüberblicks
 findest du auf der Seitenebene:
 
-👉 [Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
-
----
+👉 [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 ## Einordnung im Gesamtkonzept
 

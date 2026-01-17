@@ -28,12 +28,10 @@ Schritt für Schritt. In einer sinnvollen Reihenfolge.
 
 Beginne mit der ersten Seite:
 
-[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
-
----
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Einordnung im Gesamtkonzept
 
 Diese Seite ist der **praktische Einstieg** in das Projekt.  
 Die theoretische Übersicht und die Zusammenhänge findest du auf der Pillar-Seite  
-[Einfach Geld ordnen – Grundlagen & Überblick](/pillar/index.html)
+[Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/index.html)

@@ -16,8 +16,6 @@ Keine Anleitung.
 Kein Handlungsdruck.  
 Nur Orientierung.
 
----
-
 ## Die Struktur des Systems
 
 „Einfach Geld ordnen“ besteht aus zwei Ebenen:
@@ -26,8 +24,6 @@ Nur Orientierung.
 - **Seiten** → zeigen die konkrete Umsetzung im Alltag  
 
 Diese Seite gehört zur **Pillar-Ebene**.
-
----
 
 ## Die zentralen Themen
 
@@ -55,8 +51,6 @@ Alle Inhalte bauen logisch aufeinander auf:
 Jede Säule erklärt **ihre Rolle**,  
 nicht die konkrete Umsetzung.
 
----
-
 ## Wichtige Einordnung
 
 Die Pillar-Seiten beantworten immer nur eine Frage:
@@ -66,16 +60,12 @@ Die Pillar-Seiten beantworten immer nur eine Frage:
 Das **Wie** findest du ausschließlich  
 auf den dazugehörigen Seiten.
 
----
-
 ## Weiter zur praktischen Umsetzung
 
 Wenn du direkt starten möchtest,  
 wechsle jetzt auf die Seiten-Ebene:
 
-👉 **[Zur Startseite mit allen Übersichten](/seiten/index.html)**
-
----
+👉 **[Zur Startseite mit allen Übersichten]({{ site.baseurl }}/seiten/index.html)**
 
 ## Einordnung im Gesamtkonzept
 

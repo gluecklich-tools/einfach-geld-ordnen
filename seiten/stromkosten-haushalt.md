@@ -10,7 +10,7 @@ und beeinflussen die monatliche Belastung oft stärker,
 als man zunächst denkt.
 
 → Einordnung im Gesamtkontext:  
-[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Wie Stromkosten entstehen
 
@@ -61,7 +61,7 @@ Wichtiger ist,
 dass die Kosten **transparent und eingeplant** sind.
 
 → Häufig im Zusammenhang relevant:  
-[Nebenkosten der Miete einfach erklärt](/seiten/nebenkosten-miete.html)
+[Nebenkosten der Miete einfach erklärt]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 
 ## Kurz zusammengefasst
 
@@ -69,10 +69,8 @@ dass die Kosten **transparent und eingeplant** sind.
 - Abschläge sind Vorauszahlungen  
 - Klarheit entsteht durch Verständnis, nicht durch Kontrolle  
 
----
-
 ## Einordnung im Gesamtsystem
 
 Diese Seite vertieft einen **zentralen Fixkosten-Bereich**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Einfach Geld ordnen – Grundlagen & Überblick](/pillar/einfach-geld-ordnen.html)
+[Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)

@@ -13,8 +13,6 @@ Diese Pillar-Seite erklärt die **Grundprinzipien**,
 mit denen finanzielle Ordnung langfristig stabil bleibt –  
 ohne Druck, ohne Perfektion, ohne ständiges Nachjustieren.
 
----
-
 ## Warum Ordnung wieder verloren geht
 
 Viele Systeme scheitern nicht an den Zahlen, sondern am Alltag:
@@ -28,8 +26,6 @@ Was kompliziert ist, wird nicht beibehalten.
 Stabile Ordnung entsteht nur dort,  
 wo sie **in den Alltag passt**.
 
----
-
 ## Zentrale Prinzipien
 
 Dauerhafte Ordnung folgt wenigen, klaren Grundsätzen:
@@ -41,8 +37,6 @@ Dauerhafte Ordnung folgt wenigen, klaren Grundsätzen:
 
 Es geht nicht darum, alles im Griff zu haben,  
 sondern darum, **nicht den Überblick zu verlieren**.
-
----
 
 ## Die Rolle im Gesamtsystem
 
@@ -56,8 +50,6 @@ Er sorgt dafür, dass:
 
 Ohne diesen Schritt zerfällt jedes System langsam wieder.
 
----
-
 ## Wichtige Einordnung
 
 Ordnung halten bedeutet nicht:
@@ -70,15 +62,11 @@ Es bedeutet:
 
 > **regelmäßig kurz hinschauen – und dann weitermachen**
 
----
-
 ## Weiter zur praktischen Umsetzung
 
 Konkrete, alltagstaugliche Beispiele findest du auf der Seiten-Ebene:
 
-👉 **[Ordnung halten – einfach & realistisch](/seiten/ordnung-halten.html)**
-
----
+👉 **[Ordnung halten – einfach & realistisch]({{ site.baseurl }}/seiten/ordnung-halten.html)**
 
 ## Einordnung im Gesamtkonzept
 

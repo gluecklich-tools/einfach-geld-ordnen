@@ -31,7 +31,7 @@ Du musst nichts perfekt vorbereiten.
 Wichtig ist nur, dass du **anfängst zu sammeln**.
 
 → Für die strukturierte Nutzung:  
-[Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ## Wichtige Einordnung
 

@@ -14,8 +14,6 @@ zu **einem stimmigen System** werden.
 Hier geht es **nicht um Umsetzung**,  
 sondern um **Verständnis und Einordnung**.
 
----
-
 ## Die Schritte im System
 
 Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
@@ -38,8 +36,6 @@ Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
 6. **Ordnung halten**  
    → Struktur im Alltag stabilisieren  
 
----
-
 ## Warum die Reihenfolge entscheidend ist
 
 Viele Menschen beginnen mit Sparen oder Optimieren.  
@@ -57,15 +53,11 @@ Erst danach ergibt jede weitere Entscheidung Sinn.
 Diese Pillar-Seite erklärt **die Logik hinter dem Weg**,  
 nicht die einzelnen Arbeitsschritte.
 
----
-
 ## Umsetzung im Alltag
 
 Die **konkrete Umsetzung** findest du gesammelt auf der Startseite der Praxis-Sektion:
 
-👉 [Zu den Themen-Seiten – Schritt für Schritt starten](/seiten/index.html)
-
----
+👉 [Zu den Themen-Seiten – Schritt für Schritt starten]({{ site.baseurl }}/seiten/index.html)
 
 ## Einordnung im Gesamtkonzept
 

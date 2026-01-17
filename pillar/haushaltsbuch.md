@@ -16,8 +16,6 @@ Diese Pillar-Seite erklärt die **Grundprinzipien** des Haushaltsbuchs
 und seine **Rolle im Gesamtsystem** –  
 ohne Anleitungen, ohne Tabellen, ohne Handlungsdruck.
 
----
-
 ## Die Rolle des Haushaltsbuchs
 
 Das Haushaltsbuch steht **zwischen Fixkosten und Gesamtüberblick**.
@@ -30,8 +28,6 @@ Es erfüllt drei zentrale Funktionen:
 
 Es geht nicht darum, sofort Konsequenzen zu ziehen,  
 sondern darum, **realistische Daten zu sammeln**.
-
----
 
 ## Warum das Haushaltsbuch unverzichtbar ist
 
@@ -52,8 +48,6 @@ Erst dadurch werden:
 
 überhaupt sinnvoll bewertbar.
 
----
-
 ## Abgrenzung: Was das Haushaltsbuch nicht ist
 
 Das Haushaltsbuch ist:
@@ -64,16 +58,12 @@ Das Haushaltsbuch ist:
 
 Es ist ein **neutraler Beobachtungsrahmen**.
 
----
-
 ## Weiter zur praktischen Umsetzung
 
 Die **konkrete Anwendung** des Haushaltsbuchs  
 findest du auf der zugehörigen Seitenebene:
 
-👉 [Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
-
----
+👉 [Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ## Einordnung im Gesamtkonzept
 
