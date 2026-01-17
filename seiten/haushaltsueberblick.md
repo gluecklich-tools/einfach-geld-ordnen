@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Haushaltsüberblick & Monatsbudget"
 permalink: /seiten/haushaltsueberblick.html
@@ -25,9 +25,9 @@ Dieser Schritt ist kein Anfang,
 sondern eine **Zusammenführung**.
 
 → Grundlage sind:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})  
+[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)  
 und  
-[Variable Ausgaben – Überblick & Einordnung]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+[Variable Ausgaben – Überblick & Einordnung](/seiten/variable-ausgaben.html)
 
 ## So entsteht ein Monatsbudget
 
@@ -58,7 +58,7 @@ Alles läuft hier zusammen,
 alles wird hier verständlich.
 
 → Nächster Schritt zur Einordnung:  
-[Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+[Finanzieller Spielraum & Rücklagen](/seiten/spielraum-ruecklagen.html)
 
 ## Kurz zusammengefasst
 
@@ -72,4 +72,4 @@ alles wird hier verständlich.
 
 Diese Seite zeigt die **praktische Zusammenführung aller Zahlen**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Haushaltsüberblick – Rolle im Gesamtsystem]({{ "/pillar/haushaltsueberblick.html" | relative_url }}).
+[Haushaltsüberblick – Rolle im Gesamtsystem](/pillar/haushaltsueberblick.html)

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Stromkosten im Haushalt verstehen"
 permalink: /seiten/stromkosten-haushalt.html
@@ -10,14 +10,14 @@ und beeinflussen die monatliche Belastung oft stärker,
 als man zunächst denkt.
 
 → Einordnung im Gesamtkontext:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
 
 ## Wie Stromkosten entstehen
 
 Die Stromkosten setzen sich aus zwei Teilen zusammen:
 
 - dem **tatsächlichen Verbrauch**  
-- dem **Strompreis pro Kilowattstunde**
+- dem **Strompreis pro Kilowattstunde**  
 
 Zusätzlich fallen **Grundpreise** an,
 die unabhängig vom Verbrauch berechnet werden.
@@ -34,6 +34,7 @@ ob die gezahlten Abschläge
 ausgereicht haben oder nicht.
 
 Dadurch entstehen:
+
 - Nachzahlungen  
 - oder Guthaben  
 
@@ -60,7 +61,7 @@ Wichtiger ist,
 dass die Kosten **transparent und eingeplant** sind.
 
 → Häufig im Zusammenhang relevant:  
-[Nebenkosten der Miete einfach erklärt]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
+[Nebenkosten der Miete einfach erklärt](/seiten/nebenkosten-miete.html)
 
 ## Kurz zusammengefasst
 
@@ -74,4 +75,4 @@ dass die Kosten **transparent und eingeplant** sind.
 
 Diese Seite vertieft einen **zentralen Fixkosten-Bereich**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Fixkosten – Rolle im Gesamtsystem]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }}).
+[Einfach Geld ordnen – Grundlagen & Überblick](/pillar/einfach-geld-ordnen.html)

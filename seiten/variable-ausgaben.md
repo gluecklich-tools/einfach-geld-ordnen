@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Variable Ausgaben – Überblick & Einordnung"
 permalink: /seiten/variable-ausgaben.html
@@ -32,7 +32,7 @@ und finanziellem Engpass ausmachen.
 - Kleidung und kleinere Anschaffungen  
 - Spontane oder unregelmäßige Käufe  
 
-Diese Ausgaben sind kein Problem.
+Diese Ausgaben sind kein Problem.  
 Sie gehören zum Alltag dazu.
 
 ## Wie Übersicht entsteht
@@ -49,7 +49,7 @@ jeden Betrag zu hinterfragen,
 sondern **Zusammenhänge zu erkennen**.
 
 → Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+[Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
 
 ## Wichtige Einordnung
 
@@ -61,10 +61,10 @@ wie hoch sie tatsächlich sind,
 werden sinnvolle Entscheidungen möglich.
 
 → Zur Zusammenführung aller Zahlen:  
-[Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+[Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
 
 ## Kurz zusammengefasst
 
 - Variable Ausgaben schwanken und wirken oft unterschätzt  
 - Kleine Beträge machen in der Summe viel aus  
-- Klarheit entsteht durch Überblick, nicht durch Verzicht
+- Klarheit entsteht durch Überblick, nicht durch Verzicht  

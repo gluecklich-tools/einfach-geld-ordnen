@@ -1,4 +1,4 @@
----
+﻿﻿---
 layout: default
 title: "Einfach Geld ordnen – Schritt für Schritt Ordnung in deine Finanzen"
 permalink: /seiten/index.html
@@ -28,7 +28,7 @@ Schritt für Schritt. In einer sinnvollen Reihenfolge.
 
 Beginne mit der ersten Seite:
 
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
 
 ---
 
@@ -36,4 +36,4 @@ Beginne mit der ersten Seite:
 
 Diese Seite ist der **praktische Einstieg** in das Projekt.  
 Die theoretische Übersicht und die Zusammenhänge findest du auf der Pillar-Seite  
-[Einfach Geld ordnen – Grundlagen & Überblick]({{ "/pillar/einfach-geld-ordnen.html" | relative_url }}).
+[Einfach Geld ordnen – Grundlagen & Überblick](/pillar/index.html)

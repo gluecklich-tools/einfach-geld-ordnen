@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Der Weg – Einfach Geld ordnen"
 permalink: /seiten/der-weg.html
@@ -11,8 +11,6 @@ sondern durch eine **klare und sinnvolle Abfolge von Schritten**.
 Diese Seite zeigt dir,
 **wie die einzelnen Bereiche zusammenhängen**
 und **warum die Reihenfolge entscheidend ist**.
-
-## Der Weg zur finanziellen Ordnung
 
 ## Warum es einen festen Weg gibt
 
@@ -33,27 +31,27 @@ Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
 1. **Fixkosten klären**  
    → verstehen, was monatlich fest gebunden ist  
    → weiter hier:  
-   [Fixkosten im Haushalt – Überblick & Ordnung]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+   [Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)
 
 2. **Einnahmen und Ausgaben sammeln**  
    → sichtbar machen, was tatsächlich passiert  
    → Einstieg über:  
-   [Haushaltsbuch in Excel – einfach & übersichtlich]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+   [Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)
 
 3. **Alles zusammenführen**  
    → erkennen, was der Haushalt insgesamt kostet  
    → Überblick hier:  
-   [Haushaltsüberblick & Monatsbudget]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+   [Haushaltsüberblick & Monatsbudget](/seiten/haushaltsueberblick.html)
 
 4. **Spielraum einordnen**  
    → verstehen, was möglich ist und was nicht  
    → Einordnung:  
-   [Finanzieller Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+   [Finanzieller Spielraum & Rücklagen](/seiten/spielraum-ruecklagen.html)
 
 5. **Ordnung stabil halten**  
    → Struktur im Alltag beibehalten  
    → Abschluss:  
-   [Ordnung halten & einfach bleiben]({{ "/seiten/ordnung-halten.html" | relative_url }})
+   [Ordnung halten & einfach bleiben](/seiten/ordnung-halten.html)
 
 Diese Reihenfolge hat sich bewährt,
 weil sie Überforderung vermeidet
@@ -81,4 +79,4 @@ und nichts übersprungen wird.
 
 Diese Seite beschreibt die **praktische Reihenfolge im Alltag**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Der Weg – Überblick & Zusammenhänge]({{ "/pillar/der-weg.html" | relative_url }}).
+[Der Weg – Grundlagen & Überblick](/pillar/der-weg.html)

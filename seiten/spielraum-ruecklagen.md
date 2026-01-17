@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen"
 permalink: /seiten/spielraum-ruecklagen.html
@@ -65,4 +65,4 @@ Das ist normal.
 
 Diese Seite zeigt den **praktischen Umgang mit Spielraum und Rücklagen**.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Spielraum & Rücklagen – Überblick & Prinzipien]({{ "/pillar/spielraum-ruecklagen.html" | relative_url }}).
+[Spielraum & Rücklagen – Überblick & Prinzipien](/pillar/spielraum-ruecklagen.html)

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 layout: default
 title: "Haushaltsbuch in Excel – einfach & übersichtlich"
 permalink: /seiten/haushaltsbuch-excel.html
@@ -37,7 +37,7 @@ Klarheit entsteht durch **regelmäßiges Eintragen**,
 nicht durch Genauigkeit.
 
 → Zur Einordnung der Ausgaben:  
-[Monatliche Ausgaben im Blick behalten]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+[Monatliche Ausgaben im Blick behalten](/seiten/monatliche-ausgaben.html)
 
 ## Wichtige Einordnung
 
@@ -60,4 +60,4 @@ deine finanzielle Situation realistisch einzuschätzen.
 
 Diese Seite zeigt die **praktische Nutzung** des Haushaltsbuchs.  
 Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Haushaltsbuch – Prinzip & Rolle im System]({{ "/pillar/haushaltsbuch.html" | relative_url }}).
+[Haushaltsbuch – Prinzip & Rolle im System](/pillar/haushaltsbuch.html)
