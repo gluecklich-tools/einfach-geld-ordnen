@@ -51,19 +51,21 @@ jobs:
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            bundle exec htmlproofer ./_site/einfach-geld-ordnen \
+            bundle exec htmlproofer ./_site \
               --assume-extension \
               --check-html \
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt
+              --ignore-missing-alt \
+              --url-ignore "/^\\/einfach-geld-ordnen\\//"
           else
-            htmlproofer ./_site/einfach-geld-ordnen \
+            htmlproofer ./_site \
               --assume-extension \
               --check-html \
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt
+              --ignore-missing-alt \
+              --url-ignore "/^\\/einfach-geld-ordnen\\//"
           fi
