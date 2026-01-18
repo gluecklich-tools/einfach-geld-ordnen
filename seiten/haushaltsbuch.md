@@ -34,8 +34,6 @@ Sondern **verständlich und machbar**.
 
 ### 1️⃣ Haushaltsbuch in Excel – einfach & übersichtlich
 
-👉 **[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)**
-
 Diese Variante eignet sich, wenn du:
 
 - regelmäßig Einträge machen willst  
