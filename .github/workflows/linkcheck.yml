@@ -29,11 +29,9 @@ jobs:
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            echo "Gemfile found -> bundle install"
             bundle config set path vendor/bundle
             bundle install --jobs 4 --retry 3
           else
-            echo "No Gemfile -> install github-pages + html-proofer via gem"
             gem install github-pages --no-document
             gem install html-proofer --no-document
           fi
@@ -43,9 +41,9 @@ jobs:
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            bundle exec jekyll build --verbose --trace
+            bundle exec jekyll build --verbose
           else
-            jekyll build --verbose --trace
+            jekyll build --verbose
           fi
 
       - name: Linkcheck (internal only)
@@ -59,7 +57,8 @@ jobs:
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt
+              --ignore-missing-alt \
+              --url-swap '^/einfach-geld-ordnen:'
           else
             htmlproofer ./_site \
               --assume-extension \
@@ -67,5 +66,6 @@ jobs:
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt
+              --ignore-missing-alt \
+              --url-swap '^/einfach-geld-ordnen:'
           fi
