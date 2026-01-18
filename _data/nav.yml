@@ -5,7 +5,7 @@
   url: "{{ site.baseurl }}/pillar/der-weg.html"
 
 - title: Haushaltsbuch
-  url: "{{ site.baseurl }}/pillar/haushaltsbuch.html"
+  url: "{{ site.baseurl }}/seiten/haushaltsbuch.html"
 
 - title: Haushaltsüberblick
   url: "{{ site.baseurl }}/pillar/haushaltsueberblick.html"
