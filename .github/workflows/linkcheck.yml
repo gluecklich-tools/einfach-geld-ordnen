@@ -51,7 +51,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            bundle exec htmlproofer ./_site \
+            bundle exec htmlproofer ./_site/einfach-geld-ordnen \
               --assume-extension \
               --check-html \
               --only-4xx \
@@ -59,7 +59,7 @@ jobs:
               --ignore-empty-alt \
               --ignore-missing-alt
           else
-            htmlproofer ./_site \
+            htmlproofer ./_site/einfach-geld-ordnen \
               --assume-extension \
               --check-html \
               --only-4xx \
