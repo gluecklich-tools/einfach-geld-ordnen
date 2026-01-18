@@ -1,4 +1,4 @@
-﻿name: Linkcheck (HTMLProofer)
+name: Linkcheck (HTMLProofer)
 
 on:
   push:
@@ -38,14 +38,14 @@ jobs:
             gem install html-proofer --no-document
           fi
 
-      - name: Build site (Jekyll) without baseurl for internal linkcheck
+      - name: Build site (Jekyll)
         shell: bash
         run: |
           set -euo pipefail
           if [ -f "Gemfile" ]; then
-            bundle exec jekyll build --baseurl "" --verbose --trace
+            bundle exec jekyll build --verbose --trace
           else
-            jekyll build --baseurl "" --verbose --trace
+            jekyll build --verbose --trace
           fi
 
       - name: Linkcheck (internal only)
