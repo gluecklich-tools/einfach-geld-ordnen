@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Der Weg – Einfach Geld ordnen"
 permalink: /seiten/der-weg.html

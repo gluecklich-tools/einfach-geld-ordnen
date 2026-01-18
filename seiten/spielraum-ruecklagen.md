@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck"
 permalink: /seiten/spielraum-ruecklagen.html

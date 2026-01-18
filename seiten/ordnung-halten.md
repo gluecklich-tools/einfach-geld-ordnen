@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Ordnung halten – Einordnung ohne Pflicht"
 permalink: /seiten/ordnung-halten.html
@@ -82,7 +82,7 @@ und keinen nächsten Schritt.
 
 Die ruhige, grundsätzliche Einordnung
 findest du auf der Pillar-Seite:
-👉 **[Ordnung halten – Stabilität im Alltag]({{ site.baseurl }}/pillar/ordnung-halten.html)**
+👉 **[Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)**
 
 Du kannst diese Seite
 einfach wieder verlassen,

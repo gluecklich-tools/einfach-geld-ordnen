@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Haushaltsbuch Vorlage – optional & kostenlos"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html

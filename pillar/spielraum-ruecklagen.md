@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Spielraum & Rücklagen – Sicherheit ohne Druck"
 permalink: /pillar/spielraum-ruecklagen.html

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: default
 title: "Einfach Geld ordnen – Praxisübersicht"
 permalink: /seiten/index.html

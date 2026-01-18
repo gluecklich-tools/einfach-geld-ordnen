@@ -1,6 +1,6 @@
-﻿---
+---
 layout: default
-title:"MonatlicheAusgaben - Einordnung ohne Druck"
+title: "Monatliche Ausgaben – Einordnung ohne Druck"
 permalink: /seiten/monatliche-ausgaben.html
 ---
 
