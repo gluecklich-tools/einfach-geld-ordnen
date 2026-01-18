@@ -58,7 +58,7 @@ jobs:
               --disable-external \
               --ignore-empty-alt \
               --ignore-missing-alt \
-              --url-ignore "/^\\/einfach-geld-ordnen\\//"
+              --ignore-urls "/^\\/einfach-geld-ordnen\\//"
           else
             htmlproofer ./_site \
               --assume-extension \
@@ -67,5 +67,5 @@ jobs:
               --disable-external \
               --ignore-empty-alt \
               --ignore-missing-alt \
-              --url-ignore "/^\\/einfach-geld-ordnen\\//"
+              --ignore-urls "/^\\/einfach-geld-ordnen\\//"
           fi
