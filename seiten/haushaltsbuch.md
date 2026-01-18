@@ -4,14 +4,12 @@ title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
 permalink: /seiten/haushaltsbuch.html
 ---
 
+# Haushaltsbuch für Anfänger – einfach starten ohne App
+
 Ein Haushaltsbuch ist kein Kontrollinstrument  
 und kein Mittel zur Selbstdisziplinierung.
 
 In diesem Projekt ist es ein **ruhiges Werkzeug zur Klarheit**.
-
-Diese Seite dient als **zentrale Übersicht** rund um das Thema Haushaltsbuch  
-und zeigt dir, **wie du sinnvoll einsteigen kannst** –  
-ohne Druck, ohne Apps, ohne komplizierte Systeme.
 
 ---
 
@@ -20,7 +18,7 @@ ohne Druck, ohne Apps, ohne komplizierte Systeme.
 Viele Menschen scheitern nicht am Rechnen,  
 sondern daran, dass **kein klarer Überblick entsteht**.
 
-Ein Haushaltsbuch hilft dir dabei,
+Ein Haushaltsbuch hilft dir dabei:
 
 - Einnahmen sichtbar zu machen  
 - Ausgaben realistisch zu erfassen  
@@ -34,12 +32,7 @@ Sondern **verständlich und machbar**.
 
 ## Zwei einfache Wege zum Einstieg
 
-Je nach Situation kannst du unterschiedlich starten.
-
 ### 1️⃣ Haushaltsbuch in Excel – einfach & übersichtlich
-
-Wenn du deine Einnahmen und Ausgaben  
-strukturiert und dauerhaft festhalten möchtest:
 
 👉 **[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)**
 
@@ -53,29 +46,14 @@ Diese Variante eignet sich, wenn du:
 
 ### 2️⃣ Kostenlose Haushaltsbuch-Vorlage
 
-Wenn du erst einmal **niedrigschwellig beginnen** willst:
-
 👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
-
-Diese Variante eignet sich, wenn du:
-
-- ohne Vorbereitung starten möchtest  
-- keine komplexen Tabellen brauchst  
-- einfach loslegen willst  
 
 ---
 
 ## Wie es danach weitergeht
 
-Das Haushaltsbuch ist **kein Endpunkt**,  
-sondern ein **Zwischenschritt**.
-
 Sobald deine Zahlen sichtbar sind,  
 geht es weiter mit der Einordnung:
-
-- **Fixkosten verstehen**  
-- **variable Ausgaben einordnen**  
-- **alles zu einem Haushaltsüberblick zusammenführen**
 
 👉 **[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
 
@@ -83,13 +61,11 @@ geht es weiter mit der Einordnung:
 
 ## Einordnung im Gesamtkonzept
 
-Diese Seite gehört zur **Praxis-Ebene**.  
-Sie bündelt alle Einstiege rund um das Haushaltsbuch  
-und zeigt dir, **wo du sinnvoll beginnst**.
+Diese Seite gehört zur **Praxis-Ebene**.
 
-Die theoretische Einordnung findest du auf der Pillar-Seite:
+Die theoretische Einordnung findest du hier:
 
-👉 **[Haushaltsbuch – Grundlagen & Rolle im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
+👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
 ---
 
