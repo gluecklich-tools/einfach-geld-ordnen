@@ -9,40 +9,49 @@ die sich von Monat zu Monat verändern
 und **nicht fest gebunden** sind.
 
 Gerade weil sie flexibel sind,
-fallen sie oft weniger auf
-als Fixkosten – obwohl sie einen großen Einfluss
+fallen sie oft weniger auf als Fixkosten –
+obwohl sie einen großen Einfluss
 auf den tatsächlichen Geldfluss haben.
+
+---
 
 ## Warum variable Ausgaben leicht unterschätzt werden
 
 Viele dieser Ausgaben bestehen aus
 kleinen Einzelbeträgen:
 Einkäufe, spontane Entscheidungen,
-Freizeit, Alltagskosten.
+Freizeit und laufende Alltagskosten.
 
 Jeder einzelne Betrag wirkt harmlos.
 In der Summe können sie jedoch
 den Unterschied zwischen Spielraum
 und finanziellem Engpass ausmachen.
 
+---
+
 ## Typische variable Ausgaben
 
-- Lebensmittel und Drogerie  
-- Freizeit, Ausgehen, Hobbys  
-- Kleidung und kleinere Anschaffungen  
-- Spontane oder unregelmäßige Käufe  
+Zu den variablen Ausgaben zählen unter anderem:
 
-Diese Ausgaben sind kein Problem.  
-Sie gehören zum Alltag dazu.
+- Lebensmittel und Drogerie
+- Freizeit, Ausgehen und Hobbys
+- Kleidung und kleinere Anschaffungen
+- spontane oder unregelmäßige Käufe
+
+Diese Ausgaben sind **kein Problem**.
+Sie gehören zum Alltag dazu
+und sind Teil eines realistischen Haushalts.
+
+---
 
 ## Wie Übersicht entsteht
 
 Übersicht entsteht nicht durch Kontrolle,
-sondern durch **Beobachtung**:
+sondern durch **Beobachtung über einen Zeitraum**:
 
-- Ausgaben vollständig erfassen  
-- Nur wenige, übersichtliche Kategorien nutzen  
-- Durchschnittswerte über mehrere Monate betrachten  
+- Ausgaben vollständig erfassen
+- nur wenige, übersichtliche Kategorien nutzen
+- Durchschnittswerte über mehrere Monate betrachten
 
 Es geht nicht darum,
 jeden Betrag zu hinterfragen,
@@ -51,20 +60,32 @@ sondern **Zusammenhänge zu erkennen**.
 → Zum Erfassen der Ausgaben:  
 [Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
+---
+
 ## Wichtige Einordnung
 
-Variable Ausgaben lassen sich verändern,
-müssen es aber nicht sofort.
+Variable Ausgaben sind **beweglich**.
+Das bedeutet nicht,
+dass sie sofort verändert werden müssen.
 
 Erst wenn klar ist,
 wie hoch sie tatsächlich sind,
 werden sinnvolle Entscheidungen möglich.
 
-→ Zur Zusammenführung aller Zahlen:  
-[Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+---
+
+## Wie es danach weitergeht
+
+Sobald Fixkosten
+und variable Ausgaben bekannt sind,
+können alle Zahlen zusammengeführt werden:
+
+→ [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+---
 
 ## Kurz zusammengefasst
 
-- Variable Ausgaben schwanken und wirken oft unterschätzt  
-- Kleine Beträge machen in der Summe viel aus  
-- Klarheit entsteht durch Überblick, nicht durch Verzicht  
+- variable Ausgaben schwanken und werden leicht unterschätzt
+- viele kleine Beträge machen in der Summe viel aus
+- Klarheit entsteht durch Überblick, nicht durch Verzicht

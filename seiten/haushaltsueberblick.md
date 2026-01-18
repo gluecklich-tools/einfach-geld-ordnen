@@ -5,69 +5,103 @@ permalink: /seiten/haushaltsueberblick.html
 ---
 
 Der Haushaltsüberblick verbindet **Fixkosten** und **variable Ausgaben**
-zu einem realistischen Gesamtbild.
+zu einem **realistischen Gesamtbild**.
 
 Er zeigt nicht einzelne Posten,
-sondern **was dein Haushalt insgesamt kostet** –  
+sondern **wie dein Haushalt insgesamt aussieht** –
 und ob das dauerhaft zu deinem Einkommen passt.
+
+---
 
 ## Warum dieser Überblick wichtig ist
 
 Einzelne Listen helfen beim Ordnen.  
-Der Überblick hilft beim **Verstehen**.
+Der Haushaltsüberblick hilft beim **Verstehen**.
 
-Erst wenn alle Zahlen zusammenkommen, wird sichtbar:
-- ob genug Geld vorhanden ist  
+Erst wenn alle Zahlen zusammengeführt sind, wird sichtbar:
+
+- ob dein Einkommen die laufenden Kosten trägt  
 - ob dauerhaft ein Defizit entsteht  
-- oder ob Spielraum existiert  
+- oder ob realer Spielraum vorhanden ist  
 
-Dieser Schritt ist kein Anfang,
-sondern eine **Zusammenführung**.
+Dieser Schritt ist **kein Anfang**,
+sondern eine **Zusammenführung** dessen,
+was bereits erfasst wurde.
 
-→ Grundlage sind:  
-[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
-und  
-[Variable Ausgaben – Überblick & Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+Grundlage sind:
+
+- [Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
+- [Variable Ausgaben – Überblick & Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+
+---
 
 ## So entsteht ein Monatsbudget
 
-1. Alle Fixkosten werden addiert  
-2. Durchschnittliche variable Ausgaben ergänzt  
+Für den Haushaltsüberblick werden:
+
+1. alle Fixkosten zusammengeführt  
+2. durchschnittliche variable Ausgaben ergänzt  
 3. Gesamtausgaben dem Einkommen gegenübergestellt  
 
-Das Ergebnis ist kein Urteil,
+Das Ergebnis ist **kein Urteil**,
 sondern eine **Orientierung**.
 
-## Was das Ergebnis zeigen kann
+Es zeigt,
+wie dein Haushalt **aktuell funktioniert** –
+nicht, wie er funktionieren sollte.
+
+---
+
+## Was der Überblick zeigen kann
+
+Der Haushaltsüberblick macht sichtbar:
 
 - ob ein Überschuss oder ein Defizit besteht  
 - wie groß der tatsächliche finanzielle Spielraum ist  
-- wo Anpassungen langfristig sinnvoll wären  
+- wo langfristig Handlungsbedarf entstehen könnte  
 
-Nicht alles muss sofort geändert werden.  
+Nicht alles muss sofort geändert werden.
 Oft reicht es,
-**erst einmal zu sehen**, wie es wirklich aussieht.
+**erst einmal zu sehen**, wie die Situation wirklich ist.
 
-## Einordnung
+---
 
-Der Haushaltsüberblick ist kein Kontrollinstrument
-und kein Sparplan.
+## Wichtige Einordnung
 
-Er ist die **Schaltzentrale deiner Finanzordnung**:  
-Alles läuft hier zusammen,  
+Der Haushaltsüberblick ist:
+
+- ❌ kein Kontrollinstrument  
+- ❌ kein Sparplan  
+- ❌ keine Aufforderung zu sofortigen Änderungen  
+
+Er ist die **Schaltzentrale deiner Finanzordnung**:
+Alle Zahlen laufen hier zusammen,
 alles wird hier verständlich.
 
-→ Nächster Schritt zur Einordnung:  
-[Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+---
+
+## Wie es danach weitergeht
+
+Sobald der Überblick steht,
+kann eingeordnet werden,
+was tatsächlich möglich ist:
+
+→ [Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+
+---
 
 ## Kurz zusammengefasst
 
-- Fixkosten und variable Ausgaben sind verbunden  
-- Das Gesamtbild wird sichtbar  
-- Entscheidungen werden erst **danach** sinnvoll  
+- Fixkosten und variable Ausgaben werden verbunden  
+- das Gesamtbild wird sichtbar  
+- Entscheidungen werden **erst danach** sinnvoll  
+
+---
 
 ## Einordnung im Gesamtkonzept
 
-Diese Seite zeigt die **praktische Zusammenführung aller Zahlen**.  
-Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Haushaltsüberblick – Rolle im Gesamtsystem]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+Diese Seite gehört zur **Praxis-Ebene**.
+Sie zeigt die **Zusammenführung aller Zahlen**.
+
+Die theoretische Einordnung findest du auf der Pillar-Seite:  
+👉 [Haushaltsüberblick – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsueberblick.html)

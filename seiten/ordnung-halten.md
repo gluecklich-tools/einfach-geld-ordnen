@@ -4,7 +4,7 @@ title: "Ordnung halten & einfach bleiben"
 permalink: /seiten/ordnung-halten.html
 ---
 
-Finanzielle Ordnung ist kein einmaliges Projekt.  
+Finanzielle Ordnung ist kein einmaliges Projekt.
 Sie bleibt nur erhalten,
 wenn sie **einfach, ruhig und alltagstauglich** ist.
 
@@ -14,30 +14,36 @@ sondern **machbare Gewohnheiten**.
 → Einordnung im Gesamtprozess:  
 [Der Weg – Einfach Geld ordnen]({{ site.baseurl }}/seiten/der-weg.html)
 
+---
+
 ## Warum Ordnung oft wieder verloren geht
 
 Viele Systeme scheitern nicht,
 weil sie falsch sind,
-sondern weil sie zu komplex werden.
+sondern weil sie im Alltag zu komplex werden.
 
-Zu viele Kategorien,  
-zu viele Auswertungen,  
-zu hohe Erwartungen.
+- zu viele Kategorien  
+- zu viele Auswertungen  
+- zu hohe Erwartungen  
 
-Im Alltag bleibt dafür selten Platz.
+Dafür bleibt im Alltag selten Platz.
+
+---
 
 ## Was wirklich funktioniert
 
 Dauerhafte Ordnung entsteht,
 wenn du es dir **leicht machst**:
 
-- Ein kurzer Überblick in festen Abständen  
-- Wenige, wiederkehrende Routinen  
-- Keine ständige Optimierung  
+- ein kurzer Überblick in festen Abständen  
+- wenige, wiederkehrende Routinen  
+- keine ständige Optimierung  
 - Akzeptanz von Unvollständigkeit  
 
 Ordnung bedeutet nicht Kontrolle,
 sondern **Überschaubarkeit**.
+
+---
 
 ## Wichtige Einordnung
 
@@ -53,14 +59,21 @@ Das reicht.
 → Praktischer Bezugspunkt:  
 [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
+---
+
 ## Kurz zusammengefasst
 
 - Einfachheit schlägt Perfektion  
 - Wiederholung schlägt Motivation  
 - Ruhe schlägt Kontrolle  
 
+---
+
 ## Einordnung im Gesamtsystem
 
-Diese Seite zeigt, wie finanzielle Ordnung **dauerhaft stabil** bleibt.  
-Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Ordnung halten – Prinzipien & Stabilität]({{ site.baseurl }}/pillar/ordnung-halten.html)
+Diese Seite gehört zur **Praxis-Ebene**
+und zeigt,
+wie finanzielle Ordnung **dauerhaft stabil** bleibt.
+
+Die theoretische Einordnung findest du auf der Pillar-Seite:  
+👉 [Ordnung halten – Stabilität im Alltag]({{ site.baseurl }}/pillar/ordnung-halten.html)

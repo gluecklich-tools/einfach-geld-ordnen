@@ -12,9 +12,11 @@ Diese Seite zeigt dir,
 **wie die einzelnen Bereiche zusammenhängen**
 und **warum die Reihenfolge entscheidend ist**.
 
+---
+
 ## Warum es einen festen Weg gibt
 
-Viele Menschen springen zwischen Themen hin und her:  
+Viele Menschen springen zwischen Themen hin und her:
 mal sparen, mal rechnen, mal optimieren.
 
 Das fühlt sich nach Aktivität an,
@@ -24,48 +26,66 @@ Ein stabiler Überblick entsteht erst dann,
 wenn jeder Schritt **auf dem vorherigen aufbaut**
 und nichts Wesentliches übersprungen wird.
 
-## Die grundlegende Reihenfolge
+---
+
+## Die sinnvolle Reihenfolge im Alltag
 
 Der Weg zur finanziellen Ordnung folgt immer derselben Logik:
 
-1. **Fixkosten klären**  
-   → verstehen, was monatlich fest gebunden ist  
-   → weiter hier:  
-   [Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+### 1️⃣ Fixkosten klären
+→ verstehen, was monatlich fest gebunden ist  
+→ weiter hier:  
+[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
-2. **Einnahmen und Ausgaben sammeln**  
-   → sichtbar machen, was tatsächlich passiert  
-   → Einstieg über:  
-   [Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+---
 
-3. **Alles zusammenführen**  
-   → erkennen, was der Haushalt insgesamt kostet  
-   → Überblick hier:  
-   [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+### 2️⃣ Einnahmen und Ausgaben sammeln
+→ sichtbar machen, was tatsächlich passiert  
+→ Einstieg über:  
+[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
-4. **Spielraum einordnen**  
-   → verstehen, was möglich ist und was nicht  
-   → Einordnung:  
-   [Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+---
 
-5. **Ordnung stabil halten**  
-   → Struktur im Alltag beibehalten  
-   → Abschluss:  
-   [Ordnung halten & einfach bleiben]({{ site.baseurl }}/seiten/ordnung-halten.html)
+### 3️⃣ Alles zusammenführen
+→ erkennen, wie der Haushalt insgesamt aussieht  
+→ Überblick hier:  
+[Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+---
+
+### 4️⃣ Spielraum einordnen
+→ verstehen, was möglich ist und was nicht  
+→ Einordnung:  
+[Finanzieller Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+
+---
+
+### 5️⃣ Ordnung stabil halten
+→ Struktur im Alltag beibehalten  
+→ Abschluss:  
+[Ordnung halten & einfach bleiben]({{ site.baseurl }}/seiten/ordnung-halten.html)
+
+---
 
 Diese Reihenfolge hat sich bewährt,
 weil sie Überforderung vermeidet
 und Schritt für Schritt Sicherheit schafft.
 
+---
+
 ## Wichtige Einordnung
 
-Diese Schritte sind **keine Checkliste zum schnellen Abhaken**.  
-Sie beschreiben eine **Denk- und Arbeitsweise**.
+Diese Schritte sind **keine Checkliste zum schnellen Abhaken**.
 
-Nicht alles muss sofort erledigt werden.  
+Sie beschreiben eine **Denk- und Arbeitsweise**,
+die im eigenen Tempo umgesetzt wird.
+
+Nicht alles muss sofort erledigt werden.
 Wichtig ist nur,
 dass die Reihenfolge stimmt
-und nichts übersprungen wird.
+und nichts Wesentliches übersprungen wird.
+
+---
 
 ## Kurz zusammengefasst
 
@@ -73,8 +93,11 @@ und nichts übersprungen wird.
 - Die Reihenfolge entscheidet über Klarheit  
 - Jeder Schritt bereitet den nächsten vor  
 
+---
+
 ## Einordnung im Gesamtkonzept
 
-Diese Seite beschreibt die **praktische Reihenfolge im Alltag**.  
-Die theoretische Einordnung findest du auf der Pillar-Seite  
-[Der Weg – Grundlagen & Überblick]({{ site.baseurl }}/pillar/der-weg.html)
+Diese Seite beschreibt die **praktische Reihenfolge im Alltag**.
+
+Die theoretische Einordnung findest du auf der Pillar-Seite:  
+👉 [Der Weg – Grundlagen & Überblick]({{ site.baseurl }}/pillar/der-weg.html)

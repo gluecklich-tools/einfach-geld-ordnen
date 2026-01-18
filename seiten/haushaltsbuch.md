@@ -36,12 +36,12 @@ Sondern **verständlich und machbar**.
 
 Je nach Situation kannst du unterschiedlich starten.
 
-### 1) Haushaltsbuch in Excel – einfach & übersichtlich
+### 1️⃣ Haushaltsbuch in Excel – einfach & übersichtlich
 
 Wenn du deine Einnahmen und Ausgaben  
 strukturiert und dauerhaft festhalten möchtest:
 
-👉 **[Haushaltsbuch in Excel – einfach & übersichtlich](/seiten/haushaltsbuch-excel.html)**
+👉 **[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)**
 
 Diese Variante eignet sich, wenn du:
 
@@ -51,11 +51,11 @@ Diese Variante eignet sich, wenn du:
 
 ---
 
-### 2) Kostenlose Haushaltsbuch-Vorlage
+### 2️⃣ Kostenlose Haushaltsbuch-Vorlage
 
 Wenn du erst einmal **niedrigschwellig beginnen** willst:
 
-👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen](/seiten/haushaltsbuch-vorlage-kostenlos.html)**
+👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
 
 Diese Variante eignet sich, wenn du:
 
@@ -77,19 +77,19 @@ geht es weiter mit der Einordnung:
 - **variable Ausgaben einordnen**  
 - **alles zu einem Haushaltsüberblick zusammenführen**
 
-👉 **[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)**
+👉 **[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
 
 ---
 
 ## Einordnung im Gesamtkonzept
 
-Diese Seite ist Teil der **praktischen Seiten-Ebene**.  
-Sie verbindet die einzelnen Haushaltsbuch-Inhalte  
-und zeigt dir, **wo du sinnvoll einsteigst**.
+Diese Seite gehört zur **Praxis-Ebene**.  
+Sie bündelt alle Einstiege rund um das Haushaltsbuch  
+und zeigt dir, **wo du sinnvoll beginnst**.
 
 Die theoretische Einordnung findest du auf der Pillar-Seite:
 
-👉 **[Haushaltsbuch – Grundlagen & Rolle im System](/pillar/haushaltsbuch.html)**
+👉 **[Haushaltsbuch – Grundlagen & Rolle im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
 ---
 

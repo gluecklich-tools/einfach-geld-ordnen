@@ -8,29 +8,38 @@ permalink: /pillar/index.html
 
 Diese Seite ist der **Startpunkt der Pillar-Ebene**.
 
-Sie erklärt **wie die einzelnen Themen zusammenhängen**,  
-warum es eine feste Reihenfolge gibt  
+Sie erklärt,
+**wie die einzelnen Themen zusammenhängen**,
+warum es eine feste Reihenfolge gibt
 und welche Rolle jede Säule im Gesamtsystem spielt.
 
 Keine Anleitung.  
 Kein Handlungsdruck.  
 Nur Orientierung.
 
-## Die Struktur des Systems
+---
 
-„Einfach Geld ordnen“ besteht aus zwei Ebenen:
+## Aufbau des Projekts
 
-- **Pillar-Seiten** → erklären Zusammenhänge und Logik  
-- **Seiten** → zeigen die konkrete Umsetzung im Alltag  
+„Einfach Geld ordnen“ besteht aus zwei klar getrennten Ebenen:
+
+- **Pillar-Seiten**  
+  → erklären Zusammenhänge, Logik und Reihenfolge  
+
+- **Seiten**  
+  → zeigen die konkrete Umsetzung im Alltag  
 
 Diese Seite gehört zur **Pillar-Ebene**.
 
-## Die zentralen Themen
+---
 
-Alle Inhalte bauen logisch aufeinander auf:
+## Die zentralen Themen im System
+
+Alle Inhalte bauen logisch aufeinander auf.
+Jede Säule erklärt **ihre Bedeutung**, nicht die Umsetzung:
 
 1. **Der Weg**  
-   → warum Reihenfolge wichtig ist  
+   → warum Reihenfolge entscheidend ist  
    → wie Klarheit Schritt für Schritt entsteht  
 
 2. **Fixkosten**  
@@ -48,29 +57,33 @@ Alle Inhalte bauen logisch aufeinander auf:
 6. **Ordnung halten**  
    → Struktur langfristig stabilisieren  
 
-Jede Säule erklärt **ihre Rolle**,  
-nicht die konkrete Umsetzung.
+---
 
-## Wichtige Einordnung
+## Zentrale Einordnung
 
 Die Pillar-Seiten beantworten immer nur eine Frage:
 
 > **Warum ist dieser Schritt wichtig?**
 
-Das **Wie** findest du ausschließlich  
-auf den dazugehörigen Seiten.
+Das **Wie** findest du ausschließlich
+auf den dazugehörigen Praxis-Seiten.
 
-## Weiter zur praktischen Umsetzung
+---
 
-Wenn du direkt starten möchtest,  
-wechsle jetzt auf die Seiten-Ebene:
+## Wechsel zur Praxis-Ebene
+
+Wenn du direkt mit der Umsetzung beginnen möchtest,
+wechsel jetzt auf die Seiten-Ebene:
 
 👉 **[Zur Startseite mit allen Übersichten]({{ site.baseurl }}/seiten/index.html)**
 
+---
+
 ## Einordnung im Gesamtkonzept
 
-Diese Seite verbindet alle Pillar-Themen  
+Diese Seite verbindet alle Pillar-Themen
 zu einer **ruhigen Gesamtübersicht**.
 
-Sie dient als Orientierungspunkt,  
-wenn du den Zusammenhang zwischen den Themen verstehen willst.
+Sie dient als Orientierungspunkt,
+wenn du Zusammenhänge verstehen
+oder dich im System neu einordnen willst.
