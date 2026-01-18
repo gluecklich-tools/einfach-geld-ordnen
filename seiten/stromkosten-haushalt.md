@@ -53,7 +53,7 @@ Für einen realistischen Überblick reicht es, wenn du weißt:
 
 - wie hoch dein monatlicher Abschlag ist
 - wie hoch dein jährlicher Verbrauch ungefähr liegt
-- ob es im Jahresverlauf starke Schwankungen gibt
+- ob es im Jahresverlauf stärkere Schwankungen gibt
 
 Es geht nicht darum,
 den Verbrauch ständig zu optimieren,
