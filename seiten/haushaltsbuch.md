@@ -44,7 +44,7 @@ Diese Variante eignet sich, wenn du:
 
 ### 2️⃣ Kostenlose Haushaltsbuch-Vorlage
 
-👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen](/seiten/haushaltsbuch-vorlage-kostenlos.html)**
+👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
 
 ---
 
@@ -53,7 +53,7 @@ Diese Variante eignet sich, wenn du:
 Sobald deine Zahlen sichtbar sind,  
 geht es weiter mit der Einordnung:
 
-👉 **[Fixkosten im Haushalt – Überblick & Ordnung](/seiten/fixkosten-uebersicht.html)**
+👉 **[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
 
 ---
 
@@ -63,7 +63,7 @@ Diese Seite gehört zur **Praxis-Ebene**.
 
 Die theoretische Einordnung findest du hier:
 
-👉 **[Haushaltsbuch – Rolle und Bedeutung im System](/pillar/haushaltsbuch.html)**
+👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
 ---
 

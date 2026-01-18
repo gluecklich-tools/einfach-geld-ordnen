@@ -79,6 +79,3 @@ ohne komplizierte Regeln, ohne Druck.
 
 Diese Seite gehört zur **Praxis-Ebene**.
 Sie zeigt **wie** Fixkosten erfasst werden.
-
-Die theoretische Einordnung findest du auf der Pillar-Seite:  
-👉 [Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/index.html)
