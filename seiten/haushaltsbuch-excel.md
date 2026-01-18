@@ -1,86 +1,84 @@
 ﻿﻿---
 layout: default
-title: "Haushaltsbuch in Excel – einfach & übersichtlich"
+title: "Haushaltsbuch in Excel – optionales Werkzeug"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
 
-Ein Haushaltsbuch hilft dir dabei,
-**Einnahmen und Ausgaben dauerhaft sichtbar zu machen**.
+Ein Haushaltsbuch kann helfen,
+**Zusammenhänge sichtbar zu machen**.
 
-Es geht nicht um Kontrolle oder Perfektion,
-sondern um **Klarheit**:
-Was kommt rein?
-Was geht raus?
-Was bleibt übrig?
+Es ist kein Kontrollinstrument
+und kein Schritt, der erledigt werden muss.
 
----
-
-## Das Excel-Haushaltsbuch
-
-Diese Excel-Vorlage ist bewusst **einfach gehalten**.
-Du brauchst keine Vorkenntnisse
-und keine komplizierten Formeln.
-
-Sie unterstützt dich dabei,
-deine Zahlen **geordnet an einem Ort** zu sammeln
-und ein realistisches Gesamtbild zu entwickeln.
-
-{% include download-button.html file="haushaltsbuch-excel.xlsx" label="Haushaltsbuch herunterladen (Excel .xlsx)" hint="Kostenlose Vorlage" %}
+Diese Seite beschreibt ein Werkzeug,
+das **genutzt werden kann – oder auch nicht**.
 
 ---
 
-## So nutzt du das Haushaltsbuch
+## Worum es hier geht
 
-Für den Einstieg reicht es, wenn du:
+Manche Menschen möchten Zahlen
+nicht nur gedanklich erfassen,
+sondern an einem Ort sammeln.
 
-- deine **monatlichen Einnahmen** einträgst
-- deine **laufenden Ausgaben** ergänzt
-- beobachtest, wie sich das Gesamtbild entwickelt
+Dafür kann ein Haushaltsbuch hilfreich sein.
 
-Mehr musst du am Anfang nicht tun.
+Nicht vollständig.  
+Nicht dauerhaft.  
+Nicht perfekt.
 
-Es ist völlig in Ordnung,
-wenn nicht alles sofort vollständig ist.
-Klarheit entsteht durch **regelmäßiges Eintragen**,
-nicht durch Genauigkeit.
-
----
-
-## Einordnung der Ausgaben
-
-Um deine Einträge besser zu verstehen,
-hilft die Unterscheidung zwischen festen und variablen Kosten:
-
-→ [Monatliche Ausgaben im Blick behalten]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+Sondern so,
+wie es im eigenen Alltag gerade passt.
 
 ---
 
-## Wichtige Einordnung
+## Die Excel-Vorlage
 
-Dieses Haushaltsbuch ersetzt keine Beratung
-und ist kein Sparplan.
+Die bereitgestellte Excel-Datei ist bewusst einfach gehalten.
 
-Es ist ein **Arbeitswerkzeug**,
-das dir hilft,
-deine finanzielle Situation realistisch einzuschätzen.
+Sie dient nur einem Zweck:
+**Zahlen nebeneinander sichtbar machen.**
 
-Entscheidungen folgen **später** –
-auf Basis klarer Zahlen.
+Keine Auswertung.  
+Kein Ziel.  
+Keine Bewertung.
+
+{% include download-button.html file="haushaltsbuch-excel.xlsx" label="Excel-Vorlage ansehen (optional)" hint="kostenlos, unverbindlich" %}
 
 ---
 
-## Kurz zusammengefasst
+## Keine Nutzungspflicht
 
-- Einnahmen und Ausgaben werden gesammelt
-- alles bleibt übersichtlich an einem Ort
-- Entscheidungen werden **erst nach dem Überblick** sinnvoll
+Du musst diese Vorlage nicht herunterladen.  
+Du musst nichts eintragen.  
+Du musst sie nicht regelmäßig verwenden.
+
+Allein zu wissen,
+**dass es dieses Werkzeug gibt**,
+reicht für diesen Schritt aus.
+
+---
+
+## Einordnung im Gesamtsystem
+
+Das Haushaltsbuch steht **zwischen Überblick und Einordnung**.
+
+Es kann helfen,
+Zahlen greifbarer zu machen –
+muss es aber nicht.
+
+Entscheidungen entstehen **nicht hier**,
+sondern erst später,
+wenn Zusammenhänge klar geworden sind.
 
 ---
 
 ## Einordnung im Gesamtkonzept
 
-Diese Seite gehört zur **Praxis-Ebene**
-und zeigt die **konkrete Nutzung** des Haushaltsbuchs.
+Diese Seite gehört zur **Praxis-Ebene**.
 
-Die theoretische Einordnung findest du auf der Pillar-Seite:
-👉 [Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+Die ruhige, theoretische Einordnung findest du hier:
+👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
+
+Du kannst jederzeit zwischen beiden Ebenen wechseln
+oder diese Seite einfach wieder verlassen.

@@ -1,6 +1,6 @@
 ﻿﻿---
 layout: default
-title: "Monatliche Ausgaben im Blick behalten"
+title: "Monatliche Ausgaben – Einordnung ohne Druck"
 permalink: /seiten/monatliche-ausgaben.html
 ---
 
@@ -8,82 +8,84 @@ Monatliche Ausgaben sind alle Kosten,
 die im Alltag entstehen
 und **nicht fest gebunden** sind.
 
-Sie wirken oft kleiner als Fixkosten,
-haben aber zusammen einen großen Einfluss
-auf den tatsächlichen Geldfluss im Monat.
+Diese Seite dient nicht dazu,
+sie zu erfassen,
+zu kontrollieren
+oder zu verändern.
+
+Sie hilft lediglich,
+**ihre Rolle im Haushalt zu verstehen**.
 
 ---
 
-## Warum monatliche Ausgaben oft unterschätzt werden
+## Worum es hier geht
 
-Viele dieser Ausgaben passieren nebenbei:
-Einkaufen, Tanken, Essen außer Haus,
-kleine Anschaffungen, spontane Entscheidungen.
+Viele Ausgaben entstehen beiläufig.
+Sie fühlen sich einzeln klein an,
+wirken aber im Gesamtbild mit.
 
-Einzelne Beträge fallen kaum auf.
-In der Summe können sie jedoch
-deutlich mehr ausmachen als erwartet.
+Das ist kein Fehler
+und kein Zeichen von Unordnung.
 
----
-
-## Typische monatliche Ausgaben
-
-Zu den monatlichen Ausgaben zählen unter anderem:
-
-- Lebensmittel und Drogerie
-- Mobilität (Tanken, ÖPNV, Parken)
-- Freizeit, Hobbys und Ausgehen
-- Kleidung und kleinere Anschaffungen
-- sonstige laufende Alltagskosten
-
-Diese Ausgaben sind nicht „falsch“.
-Sie gehören zum Alltag dazu
-und sind Teil eines realistischen Haushalts.
+Es zeigt nur:
+Der Alltag besteht aus vielen kleinen Bewegungen.
 
 ---
 
-## Wie du einen realistischen Überblick bekommst
+## Teil des normalen Haushalts
 
-Statt zu schätzen,
-hilft **Beobachtung über einen Zeitraum**:
+Monatliche Ausgaben gehören dazu:
 
-- sammle Ausgaben über mehrere Wochen
-- nutze Quittungen, Kontoauszüge oder dein Haushaltsbuch
-- betrachte Durchschnittswerte statt einzelne Monate
+- Einkaufen und Alltag
+- Mobilität
+- Freizeit und kleine Anschaffungen
+- spontane Entscheidungen
 
-Es geht nicht darum,
-jede Ausgabe zu kontrollieren,
-sondern **Zusammenhänge zu erkennen**.
+Sie sind nicht gut oder schlecht.
+Sie sind **beweglich** –
+und genau deshalb schwer greifbar.
 
-→ Zum Erfassen der Ausgaben:  
-[Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+---
+
+## Einordnung statt Kontrolle
+
+Diese Seite fordert nicht dazu auf,
+alles festzuhalten
+oder zu beobachten.
+
+Sie sagt nur:
+*Diese Ausgaben existieren
+und sie beeinflussen das Gesamtbild.*
+
+Mehr muss an dieser Stelle
+nicht getan werden.
 
 ---
 
 ## Wichtige Einordnung
 
-Monatliche Ausgaben sind **beweglich**.
-Das bedeutet nicht,
-dass sie sofort geändert werden müssen.
+Monatliche Ausgaben sind:
 
-Erst wenn klar ist,
-wie hoch sie tatsächlich sind,
-werden sinnvolle Entscheidungen möglich.
+- kein Optimierungsfeld  
+- kein Sparziel  
+- kein Kontrollbereich  
 
----
-
-## Wie es danach weitergeht
-
-Sobald Fixkosten
-und monatliche Ausgaben bekannt sind,
-können alle Zahlen zusammengeführt werden:
-
-→ [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+Sie werden erst dann relevant,
+wenn der Haushalt insgesamt betrachtet wird –
+und auch dann nur als **Teil des Ganzen**.
 
 ---
 
-## Kurz zusammengefasst
+## Einordnung im Gesamtsystem
 
-- monatliche Ausgaben sind flexibel, aber wirkungsvoll
-- Einzelbeträge täuschen leicht
-- Klarheit entsteht durch Beobachtung, nicht durch Druck
+Diese Seite gehört zur **Praxis-Ebene**.
+
+Sie ergänzt die Fixkosten,
+ohne einen nächsten Schritt auszulösen.
+
+Die Zusammenführung aller Bereiche
+wird erst später eingeordnet –
+oder auch gar nicht.
+
+Du kannst diese Seite
+einfach wieder verlassen.

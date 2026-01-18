@@ -1,91 +1,100 @@
 ﻿﻿---
 layout: default
-title: "Stromkosten im Haushalt verstehen"
+title: "Stromkosten im Haushalt – Einordnung ohne Druck"
 permalink: /seiten/stromkosten-haushalt.html
 ---
 
-Stromkosten gehören zu den laufenden **Fixkosten** eines Haushalts.
-Sie fallen regelmäßig an
-und beeinflussen die monatliche Belastung oft stärker,
-als man zunächst denkt.
+Stromkosten gehören zu den **Fixkosten** eines Haushalts.
+
+Das bedeutet:
+Sie fallen regelmäßig an,
+unabhängig davon,
+wie sehr man sich mit ihnen beschäftigt.
+
+Diese Seite erklärt nicht,
+wie Strom gespart,
+kontrolliert
+oder optimiert wird.
+
+Sie ordnet lediglich ein,
+**was Stromkosten sind
+und warum sie Teil des festen Fundaments sind**.
 
 → Einordnung im Gesamtkontext:  
 [Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ---
 
-## Wie Stromkosten entstehen
+## Worum es hier geht
 
-Die Stromkosten setzen sich im Wesentlichen aus zwei Teilen zusammen:
+Stromkosten entstehen aus mehreren Bestandteilen.
+Das ist keine Besonderheit
+und kein Hinweis auf falsches Verhalten.
 
-- dem **tatsächlichen Verbrauch**
-- dem **Strompreis pro Kilowattstunde**
+Diese Seite will nur verständlich machen,
+**warum Stromkosten so wirken,
+wie sie wirken**.
 
-Zusätzlich fallen **Grundpreise** an,
-die unabhängig vom Verbrauch berechnet werden.
-
-Gezahlt wird der Strom meist in **monatlichen Abschlägen**.
+Nicht mehr.
 
 ---
 
-## Warum Abschläge oft verwirren
+## Stromkosten – ohne Bewertung
 
-Abschläge sind **Vorauszahlungen**.
-Sie basieren auf einer Schätzung des jährlichen Stromverbrauchs.
+Stromkosten setzen sich typischerweise zusammen aus:
 
-Erst mit der Jahresabrechnung zeigt sich,
-ob die gezahlten Abschläge
-ausgereicht haben oder nicht.
+- einem Grundpreis
+- einem verbrauchsabhängigen Anteil
+- regelmäßigen Abschlagszahlungen
 
-Dadurch entstehen:
+Diese Struktur ist üblich
+und Teil der Art,
+wie Strom abgerechnet wird.
 
-- Nachzahlungen
-- oder Guthaben
-
-Beides ist normal
+Abweichungen in der Jahresabrechnung
+sind normal
 und kein Zeichen von Fehlern.
 
 ---
 
-## Was sinnvoll ist zu wissen
+## Abschläge und Abrechnung
 
-Für einen realistischen Überblick reicht es, wenn du weißt:
+Abschläge sind Vorauszahlungen.
+Die spätere Abrechnung gleicht diese aus.
 
-- wie hoch dein monatlicher Abschlag ist
-- wie hoch dein jährlicher Verbrauch ungefähr liegt
-- ob es im Jahresverlauf stärkere Schwankungen gibt
+Das führt manchmal zu Nachzahlungen
+oder zu Guthaben.
 
-Es geht nicht darum,
-den Verbrauch ständig zu optimieren,
-sondern **ein Gefühl für die Größenordnung zu entwickeln**.
+Beides gehört zum System
+und muss an dieser Stelle
+nicht weiter bearbeitet werden.
 
 ---
 
 ## Wichtige Einordnung
 
-Stromkosten lassen sich nur begrenzt steuern.
-Ein bewusster Umgang ist sinnvoll,
-Perfektion ist jedoch nicht nötig.
+Stromkosten sind:
 
-Wichtiger ist,
-dass die Kosten **transparent sind und fest eingeplant** werden.
+- kein Optimierungsfeld  
+- kein Kontrollbereich  
+- kein persönliches Versagen  
 
-→ Häufig im Zusammenhang relevant:  
-[Nebenkosten der Miete einfach erklärt]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-
----
-
-## Kurz zusammengefasst
-
-- Stromkosten gehören zu den Fixkosten
-- Abschläge sind Vorauszahlungen
-- Klarheit entsteht durch Verständnis, nicht durch Kontrolle
+Sie sind ein **fester Bestandteil** der monatlichen Kosten
+und werden deshalb
+bei den Fixkosten mitgedacht,
+nicht gesteuert.
 
 ---
 
 ## Einordnung im Gesamtsystem
 
-Diese Seite vertieft einen **zentralen Fixkosten-Bereich**.
+Diese Seite vertieft einen **einzelnen Fixkosten-Bereich**.
 
-Die theoretische Einordnung findest du auf der Pillar-Seite:  
-👉 [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+Sie ergänzt das Verständnis,
+ohne einen nächsten Schritt auszulösen.
+
+Die grundsätzliche Einordnung findest du hier:  
+👉 **[Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)**
+
+Du kannst diese Seite
+einfach wieder verlassen.

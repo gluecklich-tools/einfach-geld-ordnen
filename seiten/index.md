@@ -1,74 +1,77 @@
 ﻿﻿---
 layout: default
-title: "Einfach Geld ordnen – Schritt für Schritt Ordnung in deine Finanzen"
+title: "Einfach Geld ordnen – Praxisübersicht"
 permalink: /seiten/index.html
 ---
 
-Geldprobleme entstehen selten, weil Menschen „nicht rechnen können“.
-Sie entstehen, weil **der Überblick fehlt**.
+Diese Seiten gehören zur **Praxis-Ebene** des Projekts
+„Einfach Geld ordnen“.
 
-„Einfach Geld ordnen“ hilft dir,
-deine Finanzen **ruhig, klar und nachvollziehbar**
-zu sortieren –
-ohne Fachbegriffe, ohne Druck, ohne komplizierte Systeme.
+Sie erklären nicht das System
+und sie geben keine Anleitung,
+die abgearbeitet werden muss.
 
-Du musst nichts optimieren.
-Du musst nichts sparen.
-Du musst nichts vergleichen.
-
-Du beginnst damit,
-**zu verstehen, wo dein Geld bleibt**.
+Sie zeigen lediglich,
+**welche Bereiche ein Haushalt haben kann**
+und wie man sie getrennt betrachten kann.
 
 ---
 
 ## Worum es hier geht
 
-Diese Seiten begleiten dich dabei,
+Manche Menschen möchten
+ihren Haushalt nicht nur gedanklich verstehen,
+sondern einzelne Bereiche
+konkret ansehen.
 
-- deine **Fixkosten** zu erkennen
-- deine **variablen Ausgaben** einzuordnen
-- deine **Einnahmen** vollständig zu erfassen
-- alles in einem **übersichtlichen Haushaltsbild** zusammenzuführen
+Dafür gibt es diese Seiten.
 
-Schritt für Schritt.
-In einer **sinnvollen, bewährten Reihenfolge**.
-
----
-
-## Dein sinnvoller Start
-
-Beginne mit dem Fundament:
-
-👉 **[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
-
-Warum hier?
-Weil Fixkosten jeden Monat laufen –
-egal, ob man sie aktiv im Blick hat oder nicht.
+Nicht als Start,
+nicht als Pflicht
+und nicht als Programm.
 
 ---
 
-## Wie es danach weitergeht
+## Die Praxis-Themen
 
-Nach den Fixkosten führt dich das System weiter über:
+Die folgenden Seiten behandeln jeweils
+**einen Bereich für sich**:
 
+- Fixkosten  
 - Haushaltsbuch  
 - Haushaltsüberblick  
 - Spielraum & Rücklagen  
 - Ordnung halten  
 
-Du musst dir nichts merken.
-Die Seiten führen dich automatisch weiter.
+Du kannst jede Seite einzeln lesen.
+Es gibt **keine vorgeschriebene Reihenfolge**.
+
+---
+
+## Kein Einstieg, kein Fortschritt
+
+Du musst hier nicht anfangen.
+Du musst nichts „durcharbeiten“.
+Du musst nichts abschließen.
+
+Wenn eine Seite für dich gerade passt,
+kannst du sie öffnen.
+Wenn nicht, kannst du diese Ebene wieder verlassen.
 
 ---
 
 ## Einordnung im Gesamtkonzept
 
-Diese Seite ist der **praktische Einstieg** in das Projekt
-„Einfach Geld ordnen“.
+Diese Seite ist eine **ruhige Übersicht**
+über die Praxis-Ebene.
 
-Die theoretische Übersicht,
-die Logik dahinter
-und die Zusammenhänge zwischen den Themen
-findest du auf der Pillar-Seite:
+Die gedankliche Einordnung,
+die Logik
+und die Zusammenhänge
+findest du auf der Pillar-Ebene:
 
 👉 **[Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/index.html)**
+
+Du kannst jederzeit
+zwischen beiden Ebenen wechseln
+oder das Projekt einfach beenden.

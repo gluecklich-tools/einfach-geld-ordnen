@@ -1,152 +1,35 @@
 ﻿﻿---
 layout: default
-title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
-permalink: /seiten/haushaltsbuch.html
+title: Einfach Geld ordnen
+permalink: /index.html
 ---
 
-# Haushaltsbuch für Anfänger – einfach starten ohne App
+## Willkommen
 
-Ein einfaches Haushaltsbuch für Anfänger.  
-Ohne App. Ohne Zwang. Ohne komplizierte Systeme.
+Hier geht es nicht um Zahlen, Optimierung oder Druck.  
+Hier geht es darum, **erst einmal anzukommen**.
 
----
+Viele Menschen haben genug von komplizierten Finanzsystemen.
+Dieses Projekt beginnt bewusst **ohne Rechnen** und **ohne Entscheidungen**.
 
-## Worum geht es hier?
-
-Viele verlieren den Überblick über ihr Geld, weil:
-
-- alles zu kompliziert ist  
-- Apps überfordern  
-- niemand erklärt, **wo man anfängt**
-
-Diese Seite zeigt dir einen **einfachen, realistischen Weg**,  
-dein Geld zu ordnen – Schritt für Schritt.
+Du musst nichts vorbereiten.  
+Du musst nichts verstehen.  
+Du musst nichts ändern.
 
 ---
 
-## Dein empfohlener Start
+## Ein ruhiger Einstieg
 
-👉 **Beginne mit den Grundlagen**
+Der erste Schritt ist ein Überblick, **ohne Zahlen**.  
+Er hilft dir, Ordnung zu sehen, **bevor** irgendetwas bewertet wird.
 
-- [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-
-Hier lernst du:
-- welche Zahlen wirklich wichtig sind  
-- wie ein Haushaltsbuch logisch aufgebaut ist  
-- warum weniger oft mehr ist  
+👉 **Nächster Schritt:**  
+[Überblick ohne Zahlen öffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 
 ---
 
-## Alternativ: direkt loslegen
-
-Wenn du lieber praktisch startest:
-
-- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-
----
-
-## Wie sich dein Haushaltsbuch zusammensetzt
-
-Sobald du gestartet bist, helfen dir diese Bausteine weiter:
-
-### 1️⃣ Fixkosten
-- [Fixkosten übersichtlich erfassen]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-
-### 2️⃣ Monatliche Ausgaben
-- [Monatliche Ausgaben im Blick behalten]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
-### 3️⃣ Wohn- & Stromkosten
-- [Nebenkosten der Miete einfach erklärt]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
-- [Stromkosten im Haushalt verstehen]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-
----
-
-> Du musst nicht perfekt sein.  
-> Es reicht zu wissen:
-> - was reinkommt  
-> - was fest weggeht  
-> - was übrig bleibt
----
-layout: default
-title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
-permalink: /seiten/haushaltsbuch.html
----
-
-# Haushaltsbuch für Anfänger – einfach starten ohne App
-
-Ein einfaches Haushaltsbuch für Anfänger.  
-Ohne App. Ohne Zwang. Ohne komplizierte Systeme.
-
----
-
-## Worum geht es hier?
-
-Viele verlieren den Überblick über ihr Geld, weil:
-
-- alles zu kompliziert ist  
-- Apps überfordern  
-- niemand erklärt, **wo man anfängt**
-
-Diese Seite zeigt dir einen **einfachen, realistischen Weg**,  
-dein Geld zu ordnen – Schritt für Schritt.
-
----
-
-## Dein empfohlener Start
-
-👉 **Beginne mit den Grundlagen**
-
-- [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-
-Hier lernst du:
-- welche Zahlen wirklich wichtig sind  
-- wie ein Haushaltsbuch logisch aufgebaut ist  
-- warum weniger oft mehr ist  
-
----
-
-## Alternativ: direkt loslegen
-
-Wenn du lieber praktisch startest:
-
-- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-
----
-
-## Wie sich dein Haushaltsbuch zusammensetzt
-
-Sobald du gestartet bist, helfen dir diese Bausteine weiter:
-
-### 1️⃣ Fixkosten
-- [Fixkosten übersichtlich erfassen]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-
-### 2️⃣ Monatliche Ausgaben
-- [Monatliche Ausgaben im Blick behalten]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
-### 3️⃣ Wohn- & Stromkosten
-- [Nebenkosten der Miete einfach erklärt]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
-- [Stromkosten im Haushalt verstehen]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-
----
-
-> Du musst nicht perfekt sein.  
-> Es reicht zu wissen:
-> - was reinkommt  
-> - was fest weggeht  
-> - was übrig bleibt
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite gehört zur **Praxis-Ebene**  
-und dient als **zentrale Einstiegs- und Übersichtsseite**  
-für das Thema Haushaltsbuch.
-
-Sie zeigt dir, **wie du beginnst**,  
-und verweist auf die passenden Umsetzungs-Seiten.
-
-Die theoretische Einordnung findest du auf der Pillar-Seite:
-
-👉 [Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)
-
+<nav class="secondary-nav">
+  <a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen</a> ·
+  <a href="{{ site.baseurl }}/pillar/der-weg.html">Der Weg</a> ·
+  <a href="{{ site.baseurl }}/pillar/haushaltsbuch.html">Haushaltsbuch</a>
+</nav>

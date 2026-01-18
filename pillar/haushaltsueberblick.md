@@ -1,94 +1,51 @@
 ﻿﻿---
 layout: default
-title: "Haushaltsüberblick – Rolle und Bedeutung im System"
+title: Haushaltsüberblick – ohne Zahlen
 permalink: /pillar/haushaltsueberblick.html
 ---
 
-## Überblick
+## Ein Überblick – ohne Zahlen
 
-Der Haushaltsüberblick verbindet **Fixkosten**, **variable Ausgaben**
-und **Einnahmen** zu einem **realistischen Gesamtbild**.
+Bevor irgendetwas gerechnet, bewertet oder verändert wird,  
+ist es hilfreich, **den eigenen Haushalt einfach nur zu sehen**.
 
-Diese Pillar-Seite erklärt,
-**wie Zahlen zusammenwirken**,
-bevor Entscheidungen getroffen werden.
-
-Keine Auswertung.  
-Keine Bewertung.  
-Keine Optimierung.
-
-Ziel ist **Orientierung**, nicht Veränderung.
+Nicht im Detail.  
+Nicht korrekt.  
+Sondern als Ganzes.
 
 ---
 
-## Die Rolle des Haushaltsüberblicks im System
+## Worum es hier geht
 
-Der Haushaltsüberblick steht **nach dem Haushaltsbuch**
-und **vor Spielraum & Rücklagen**.
+Ein Haushalt besteht nicht nur aus Geld.  
+Er besteht aus Bereichen, die miteinander verbunden sind:
 
-Er beantwortet eine zentrale Frage:
+- Wohnen  
+- Alltag  
+- Verpflichtungen  
+- Spielraum  
+- Sicherheit  
 
-> **Wie sieht mein Haushalt insgesamt aus?**
-
-Nicht mehr – aber auch nicht weniger.
-
----
-
-## Was der Haushaltsüberblick leistet
-
-Der Überblick hilft dabei,
-
-- alle relevanten Zahlen **zusammenzuführen**
-- Zusammenhänge **sichtbar zu machen**
-- ein stabiles Gesamtbild zu erhalten,
-  bevor Schlussfolgerungen gezogen werden
-
-Er ersetzt Einzelbetrachtungen
-durch **ein gemeinsames Haushaltsbild**.
+Diese Seite will **nichts erklären** und **nichts ordnen**.  
+Sie zeigt nur: *Das alles gehört zusammen.*
 
 ---
 
-## Wichtige Abgrenzung
+## Kein Auftrag, keine Aufgabe
 
-Der Haushaltsüberblick ist:
+Du musst hier nichts tun.  
+Du musst dir nichts merken.  
+Du musst nichts vorbereiten.
 
-- ❌ kein Sparplan
-- ❌ keine Optimierungsstufe
-- ❌ keine Entscheidungsgrundlage für Veränderungen
-
-Er ist **reine Orientierung**.
-
-Er zeigt,
-**wie die aktuelle Situation tatsächlich aussieht** –
-nicht, wie sie aussehen sollte.
+Wenn du magst, lies es einfach wie eine Landkarte,  
+auf der du deinen eigenen Haushalt wiedererkennst.
 
 ---
 
-## Warum der Überblick vor Entscheidungen kommt
+## Wie es weitergeht
 
-Ohne Haushaltsüberblick entstehen typische Fehler:
+Der nächste Schritt macht einen einzelnen Bereich sichtbar,  
+ohne ihn zu bewerten oder zu verändern.
 
-- Entscheidungen auf Basis einzelner Zahlen
-- falsche Einschätzungen von Spielraum
-- unnötiger Druck oder Aktionismus
-
-Der Überblick verhindert das,
-indem er **zuerst Klarheit schafft**.
-
----
-
-## Von der Einordnung zur Praxis
-
-Die konkrete Erstellung des Haushaltsüberblicks
-findest du auf der zugehörigen Praxisseite:
-
-👉 [Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite gehört zur **Pillar-Ebene**.
-
-Sie erklärt **warum** ein Haushaltsüberblick notwendig ist.
-Das **Wie** folgt auf den Praxis-Seiten.
+👉 **Weiter zu den Fixkosten**  
+[Fixkosten im Haushalt – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)

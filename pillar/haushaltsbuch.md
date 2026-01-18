@@ -1,91 +1,50 @@
 ﻿﻿---
 layout: default
-title: "Haushaltsbuch – Rolle und Bedeutung im System"
+title: Haushaltsbuch – wozu es dient
 permalink: /pillar/haushaltsbuch.html
 ---
 
-## Überblick
+## Das Haushaltsbuch – ein Werkzeug, kein Muss
 
-Das Haushaltsbuch ist **kein Kontrollinstrument**
-und kein Mittel zur Selbstdisziplinierung.
+Ein Haushaltsbuch ist kein Kontrollinstrument  
+und kein Beweis dafür, „alles im Griff“ zu haben.
 
-In diesem Projekt dient es ausschließlich als
-**Werkzeug für Klarheit**.
-
-Diese Pillar-Seite erklärt die **Grundprinzipien** des Haushaltsbuchs
-und seine **Rolle im Gesamtsystem** –
-ohne Anleitungen, ohne Tabellen, ohne Handlungsdruck.
-
-Ziel ist **Einordnung**, nicht Umsetzung.
+Es ist lediglich ein **Werkzeug**,  
+das helfen kann, Zusammenhänge sichtbar zu machen –  
+**wenn** man es nutzen möchte.
 
 ---
 
-## Die Rolle des Haushaltsbuchs im System
+## Wozu es hilfreich sein kann
 
-Das Haushaltsbuch steht **zwischen Fixkosten und Gesamtüberblick**.
+Ein Haushaltsbuch kann dabei helfen:
 
-Es verbindet:
-- bekannte feste Ausgaben
-- laufende variable Ausgaben
-- und das tatsächliche Monatsbild
+- Ausgaben nicht zu vergessen
+- Abläufe im Monat besser zu verstehen
+- Unsicherheit zu reduzieren
 
-Dabei erfüllt es drei zentrale Funktionen:
-
-- **Beobachten statt bewerten**
-- **Sichtbar machen statt optimieren**
-- **Grundlage schaffen statt Entscheidungen erzwingen**
-
-Es geht nicht darum, sofort Konsequenzen zu ziehen,
-sondern darum, **reale Daten zu sammeln**.
+Es muss **nicht vollständig** sein.  
+Es muss **nicht korrekt** sein.  
+Und es muss **nicht dauerhaft geführt** werden.
 
 ---
 
-## Warum das Haushaltsbuch unverzichtbar ist
+## Keine Verpflichtung
 
-Ohne Haushaltsbuch bleiben viele Einschätzungen vage:
+Du musst kein Haushaltsbuch anfangen.  
+Du musst nichts eintragen.  
+Du musst nichts auswerten.
 
-- „Ich glaube, ich gebe zu viel aus“
-- „Irgendwo verschwindet Geld“
-- „Am Ende des Monats fehlt etwas“
-
-Das Haushaltsbuch ersetzt Vermutungen
-durch **konkrete, nachvollziehbare Zahlen**.
-
-Erst dadurch werden:
-
-- Haushaltsüberblick
-- Spielraum
-- Rücklagen
-
-überhaupt sinnvoll bewertbar.
+Allein zu wissen, **dass es dieses Werkzeug gibt**,  
+reicht für diesen Schritt vollkommen aus.
 
 ---
 
-## Abgrenzung: Was das Haushaltsbuch nicht ist
+## Wie es weitergeht
 
-Das Haushaltsbuch ist:
+Der nächste Abschnitt zeigt,  
+wie man den eigenen Haushalt **übersichtlich betrachten** kann –  
+ohne Tabellen und ohne Entscheidungen.
 
-- ❌ kein Sparplan
-- ❌ kein Optimierungswerkzeug
-- ❌ keine Disziplinmaßnahme
-
-Es ist ein **neutraler Beobachtungsrahmen**,
-der Klarheit schafft – ohne Druck.
-
----
-
-## Von der Einordnung zur Praxis
-
-Die **konkrete Anwendung** des Haushaltsbuchs
-findest du auf der zugehörigen Praxisseite:
-
-👉 [Haushaltsbuch in Excel – einfach & übersichtlich]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite gehört zur **Pillar-Ebene**.
-
-Sie erklärt **warum** das Haushaltsbuch gebraucht wird.
-Das **Wie** folgt auf den Praxis-Seiten.
+👉 **Weiter zum Haushaltsüberblick**  
+[Der Weg – Überblick behalten]({{ site.baseurl }}/pillar/der-weg.html)

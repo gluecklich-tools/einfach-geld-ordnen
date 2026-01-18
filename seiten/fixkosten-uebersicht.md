@@ -1,81 +1,56 @@
 ﻿﻿---
 layout: default
-title: "Fixkosten im Haushalt – Überblick & Ordnung"
+title: Fixkosten im Haushalt – Überblick
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-Fixkosten sind Ausgaben, die regelmäßig anfallen
-und sich kaum verändern.
-Sie bestimmen, wie viel Geld jeden Monat
-**fest gebunden** ist.
+## Fixkosten – ruhig betrachtet
 
-Wer hier Ordnung schafft,
-gewinnt **Planbarkeit**, **Sicherheit**
-und vor allem ein klares Gefühl dafür,
-**wo das eigene Geld bleibt**.
+Fixkosten sind Ausgaben, die einfach **da sind**.  
+Sie laufen im Hintergrund, unabhängig davon, wie ein Monat sich anfühlt.
 
----
+Auf dieser Seite geht es nicht um Beträge.  
+Nicht um Kontrolle.  
+Nicht um Veränderung.
 
-## Warum Fixkosten immer zuerst kommen
-
-Fixkosten laufen unabhängig vom Alltag weiter.
-Sie werden abgebucht,
-egal ob man sie gerade aktiv im Blick hat oder nicht.
-
-Ohne klare Übersicht entsteht schnell das Gefühl,
-dass Geld fehlt –
-obwohl keine großen Einzelkäufe stattfinden.
-
-Genau deshalb beginnt jede finanzielle Ordnung hier.
+Es geht nur darum, **Fixkosten als Teil des Haushalts wahrzunehmen**.
 
 ---
 
-## Typische Fixkosten im Haushalt
+## Was zu Fixkosten gehört
 
-Zu den Fixkosten zählen unter anderem:
+Typische Fixkosten sind zum Beispiel:
 
-- Miete oder Kreditrate
-- Strom, Gas, Wasser
+- Wohnen (Miete oder Kredit)
+- Energie und Wasser
 - Versicherungen
-- Internet, Telefon, Rundfunkbeitrag
-- Abonnements und Mitgliedschaften
+- Telefon, Internet, Rundfunk
+- Abonnements
 
-Diese Kosten bilden das **feste Gerüst** deines Haushalts.
+Diese Aufzählung ist **nicht vollständig**  
+und sie ist **keine Checkliste**.
 
-→ Einordnung zu einem wichtigen Teilbereich:  
-[Nebenkosten der Miete einfach erklärt]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-
----
-
-## So gehst du jetzt vor
-
-Um deine Fixkosten übersichtlich zu erfassen:
-
-1. Sammle alle Verträge, Rechnungen und Abbuchungen  
-2. Rechne Jahreskosten auf **monatliche Beträge** um  
-3. Fasse alles in **wenige, klare Kategorien** zusammen  
-
-Perfektion ist hier nicht nötig.
-Wichtig ist nur:
-**nichts Wesentliches zu übersehen**.
+Sie soll nur zeigen:  
+Fixkosten sind **wiederkehrend** und **planbar**, nicht gut oder schlecht.
 
 ---
 
-## Nächster Schritt: Zahlen sammeln
+## Kein Auftrag, keine Bewertung
 
-Wenn deine Fixkosten klar sind,
-ist der wichtigste Grundstein gelegt.
+Du musst hier nichts sammeln.  
+Du musst nichts vergleichen.  
+Du musst nichts entscheiden.
 
-Jetzt geht es darum,
-**Einnahmen und Ausgaben einfach zu sammeln** –
-ohne komplizierte Regeln, ohne Druck.
-
-👉 **Weiter zum Haushaltsbuch:**  
-[Haushaltsbuch in Excel nutzen]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+Wenn du beim Lesen merkst:  
+„Ja, das kenne ich“ – dann reicht das vollkommen.
 
 ---
 
-## Einordnung im Gesamtkonzept
+## Wie es weitergeht
 
-Diese Seite gehört zur **Praxis-Ebene**.
-Sie zeigt **wie** Fixkosten erfasst werden.
+Der nächste Schritt macht sichtbar,  
+**wo Fixkosten im Gesamtbild des Haushalts liegen** –  
+ohne Zahlen und ohne Druck.
+
+👉 **Weiter zum Haushaltsbuch**  
+[Haushaltsbuch – wozu es dient]({{ site.baseurl }}/pillar/haushaltsbuch.html)

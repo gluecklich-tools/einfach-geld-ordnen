@@ -1,59 +1,76 @@
 ---
 layout: default
-title: "Einfach Geld ordnen – Haushaltsbuch für Anfänger"
+title: "Haushaltsbuch – Einordnung für Anfänger"
 permalink: /seiten/haushaltsbuch.html
 ---
 
-# Haushaltsbuch für Anfänger – einfach starten ohne App
-
-Ein Haushaltsbuch ist kein Kontrollinstrument  
+Ein Haushaltsbuch ist kein Kontrollinstrument
 und kein Mittel zur Selbstdisziplinierung.
 
-In diesem Projekt ist es ein **ruhiges Werkzeug zur Klarheit**.
+In diesem Projekt ist es lediglich
+ein **mögliches Werkzeug zur Orientierung**.
+
+Diese Seite erklärt nicht,
+wie man ein Haushaltsbuch führt
+und fordert nicht dazu auf,
+eins zu beginnen.
 
 ---
 
-## Worum es beim Haushaltsbuch wirklich geht
+## Worum es hier geht
 
-Viele Menschen scheitern nicht am Rechnen,  
-sondern daran, dass **kein klarer Überblick entsteht**.
+Manche Menschen möchten Zahlen
+nicht nur gedanklich einordnen,
+sondern sie für sich sichtbar machen.
 
-Ein Haushaltsbuch hilft dir dabei:
+Ein Haushaltsbuch kann dabei helfen –
+muss es aber nicht.
 
-- Einnahmen sichtbar zu machen  
-- Ausgaben realistisch zu erfassen  
-- Zusammenhänge zu erkennen  
-
-Nicht perfekt.  
-Nicht lückenlos.  
-Sondern **verständlich und machbar**.
+Diese Seite dient nur dazu,
+**die Rolle eines Haushaltsbuchs im Gesamtsystem zu erklären**.
 
 ---
 
-## Zwei einfache Wege zum Einstieg
+## Ein Werkzeug, kein Einstieg
 
-### 1️⃣ Haushaltsbuch in Excel – einfach & übersichtlich
+Ein Haushaltsbuch ist hier:
 
-Diese Variante eignet sich, wenn du:
+- kein Startpunkt  
+- kein Pflichtschritt  
+- kein Beweis für Ordnung  
 
-- regelmäßig Einträge machen willst  
-- alles an einem Ort sammeln möchtest  
-- langfristig einen Überblick aufbauen willst  
-
----
-
-### 2️⃣ Kostenlose Haushaltsbuch-Vorlage
-
-👉 **[Kostenlose Haushaltsbuch-Vorlage herunterladen]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
+Es ist ein Werkzeug,
+das man **kennen darf**,
+ohne es zu benutzen.
 
 ---
 
-## Wie es danach weitergeht
+## Verschiedene Formen – gleiche Rolle
 
-Sobald deine Zahlen sichtbar sind,  
-geht es weiter mit der Einordnung:
+Ein Haushaltsbuch kann viele Formen haben:
+digital, auf Papier,
+einfach oder detailliert.
 
-👉 **[Fixkosten im Haushalt – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
+Welche Form jemand nutzt
+oder ob überhaupt,
+spielt für dieses Projekt
+keine entscheidende Rolle.
+
+Wichtig ist nur zu verstehen,
+**wofür ein Haushaltsbuch gedacht ist** –
+und wofür nicht.
+
+---
+
+## Wichtige Einordnung
+
+Ein Haushaltsbuch sorgt nicht automatisch für Ordnung.
+Es ersetzt kein Denken
+und keine Entscheidungen.
+
+Es kann lediglich helfen,
+Zusammenhänge greifbarer zu machen,
+wenn man das möchte.
 
 ---
 
@@ -61,13 +78,10 @@ geht es weiter mit der Einordnung:
 
 Diese Seite gehört zur **Praxis-Ebene**.
 
-Die theoretische Einordnung findest du hier:
-
+Die ruhige, theoretische Einordnung
+findest du auf der Pillar-Seite:
 👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
----
-
-> Du musst nichts optimieren.  
-> Du musst nichts vergleichen.  
->  
-> Es reicht, **zu sehen, was ist**.
+Du kannst diese Seite
+einfach wieder verlassen,
+ohne etwas tun zu müssen.

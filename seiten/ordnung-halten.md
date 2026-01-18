@@ -1,79 +1,89 @@
 ﻿﻿---
 layout: default
-title: "Ordnung halten & einfach bleiben"
+title: "Ordnung halten – Einordnung ohne Pflicht"
 permalink: /seiten/ordnung-halten.html
 ---
 
-Finanzielle Ordnung ist kein einmaliges Projekt.
-Sie bleibt nur erhalten,
-wenn sie **einfach, ruhig und alltagstauglich** ist.
+Ordnung muss nicht gehalten werden,
+damit sie richtig ist.
 
-Nicht neue Regeln sorgen für Stabilität,
-sondern **machbare Gewohnheiten**.
+Diese Seite beschreibt keinen Anspruch
+und keine Erwartung.
 
-→ Einordnung im Gesamtprozess:  
-[Der Weg – Einfach Geld ordnen]({{ site.baseurl }}/seiten/der-weg.html)
-
----
-
-## Warum Ordnung oft wieder verloren geht
-
-Viele Systeme scheitern nicht,
-weil sie falsch sind,
-sondern weil sie im Alltag zu komplex werden.
-
-- zu viele Kategorien  
-- zu viele Auswertungen  
-- zu hohe Erwartungen  
-
-Dafür bleibt im Alltag selten Platz.
+Sie ordnet nur ein,
+**was Ordnung im Alltag sein kann –
+und was nicht**.
 
 ---
 
-## Was wirklich funktioniert
+## Worum es hier geht
 
-Dauerhafte Ordnung entsteht,
-wenn du es dir **leicht machst**:
+Finanzielle Ordnung verschwindet oft wieder.
+Nicht, weil etwas falsch gemacht wurde,
+sondern weil sich Alltag verändert.
 
-- ein kurzer Überblick in festen Abständen  
-- wenige, wiederkehrende Routinen  
-- keine ständige Optimierung  
-- Akzeptanz von Unvollständigkeit  
+Das ist normal.
 
-Ordnung bedeutet nicht Kontrolle,
-sondern **Überschaubarkeit**.
+Diese Seite versucht nicht,
+das zu verhindern.
+Sie erklärt nur,
+warum Ordnung **kein Dauerzustand** sein muss,
+um hilfreich zu sein.
+
+---
+
+## Ordnung ohne Verpflichtung
+
+Ordnung bedeutet hier nicht:
+
+- feste Routinen
+- regelmäßige Pflege
+- gleichbleibende Abläufe
+
+Ordnung kann auch heißen:
+*Ich weiß ungefähr, wo ich stehe.*
+
+Mehr braucht es nicht.
+
+---
+
+## Wenn Ordnung da ist – und wenn nicht
+
+Manchmal ist Ordnung hilfreich.
+Manchmal rückt sie in den Hintergrund.
+
+Beides ist in Ordnung.
+
+Diese Seite verlangt nicht,
+dass Ordnung erhalten bleibt.
+Sie erlaubt,
+dass sie kommen und gehen darf.
 
 ---
 
 ## Wichtige Einordnung
 
-Es ist völlig normal,
-dass nicht jeder Monat gleich läuft.
+Ordnung ist:
 
-Finanzielle Ordnung heißt nicht,
-alles im Griff zu haben,
-sondern **zu wissen, wo man steht**.
+- kein Ziel  
+- kein Zustand, der gesichert werden muss  
+- kein Maßstab für „richtiges“ Verhalten  
 
-Das reicht.
-
-→ Praktischer Bezugspunkt:  
-[Haushaltsüberblick & Monatsbudget]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
-
----
-
-## Kurz zusammengefasst
-
-- Einfachheit schlägt Perfektion  
-- Wiederholung schlägt Motivation  
-- Ruhe schlägt Kontrolle  
+Sie ist eine **Orientierung**, mehr nicht.
 
 ---
 
 ## Einordnung im Gesamtsystem
 
-Diese Seite gehört zur **Praxis-Ebene**
-und zeigt,
-wie finanzielle Ordnung **dauerhaft stabil** bleibt.
+Diese Seite gehört zur **Praxis-Ebene**.
 
-Die theoretische Einordnung findest du auf der Pillar-Seite:  
-👉 [Ordnung halten – Stabilität im Alltag]({{ site.baseurl }}/pillar/ordnung-halten.html)
+Sie bildet keinen Abschluss
+und keinen nächsten Schritt.
+
+Die ruhige, grundsätzliche Einordnung
+findest du auf der Pillar-Seite:
+👉 **[Ordnung halten – Stabilität im Alltag]({{ site.baseurl }}/pillar/ordnung-halten.html)**
+
+Du kannst diese Seite
+einfach wieder verlassen,
+ohne etwas tun zu müssen.

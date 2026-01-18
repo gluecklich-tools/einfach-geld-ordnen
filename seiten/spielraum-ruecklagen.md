@@ -1,91 +1,93 @@
 ﻿﻿---
 layout: default
-title: "Finanzieller Spielraum & Rücklagen"
+title: "Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck"
 permalink: /seiten/spielraum-ruecklagen.html
 ---
 
-Finanzieller Spielraum entsteht nicht durch hohe Einnahmen,
-sondern durch **klare Struktur und Überblick**.
+Finanzieller Spielraum und Rücklagen
+werden oft mit Zielen,
+Vorgaben
+oder Erwartungen verbunden.
 
-Er zeigt,
-wie viel Geld nach allen festen
-und variablen Ausgaben
-**real zur Verfügung steht**.
+Diese Seite tut das nicht.
 
----
-
-## Was mit „Spielraum“ gemeint ist
-
-Spielraum ist der Betrag,
-der übrig bleibt,
-nachdem alle regelmäßigen Kosten berücksichtigt sind.
-
-Er ist **kein Ziel**,
-sondern ein **Ergebnis**.
-
-Manchmal ist er groß,
-manchmal klein,
-manchmal kaum vorhanden.
-Alles davon ist zunächst normal
-und Teil der Realität.
+Sie ordnet lediglich ein,
+**was mit Spielraum und Rücklagen gemeint ist
+und warum sie Teil eines Haushalts sein können**.
 
 ---
 
-## Warum Rücklagen wichtig sind
+## Worum es hier geht
 
-Rücklagen sorgen dafür,
-dass unerwartete Ausgaben
-nicht sofort zu Stress oder Problemen führen.
+Spielraum beschreibt,
+dass nach allen festen und beweglichen Kosten
+manchmal etwas übrig bleibt –
+und manchmal nicht.
 
-Sie schaffen **Puffer** –
-nicht für Luxus,
-sondern für Stabilität und Ruhe.
+Beides ist Teil der Realität.
 
-Typische Beispiele sind:
+Diese Seite bewertet nicht,
+wie groß dieser Spielraum sein sollte
+oder ob er „ausreicht“.
 
-- ein Notgroschen für unvorhergesehene Ereignisse
-- Rücklagen für planbare größere Ausgaben
-- finanzielle Entlastung im Alltag
+---
+
+## Spielraum als Ergebnis, nicht als Ziel
+
+Spielraum entsteht,
+wenn Zusammenhänge klar geworden sind.
+
+Er ist kein Vorhaben
+und kein Zustand,
+der erreicht werden muss.
+
+Er zeigt sich,
+wenn Überblick vorhanden ist –
+oder bleibt aus,
+wenn das gerade nicht der Fall ist.
+
+---
+
+## Rücklagen – ohne Erwartung
+
+Rücklagen sind kein Pflichtbestand
+und kein Maßstab für Sicherheit.
+
+Sie sind eine Möglichkeit,
+mit Unvorhergesehenem umzugehen,
+**wenn** es gerade passt.
+
+Manche Monate erlauben Rücklagen.
+Andere nicht.
+
+Beides ist normal
+und kein Hinweis auf richtig oder falsch.
 
 ---
 
 ## Wichtige Einordnung
 
-Rücklagen entstehen nicht durch Druck
-und nicht durch starre Regeln.
+Spielraum und Rücklagen sind:
 
-Sie wachsen,
-wenn Klarheit vorhanden ist
-und Entscheidungen in Ruhe getroffen werden können.
+- kein Sparziel  
+- kein Fortschrittsmaß  
+- kein Stabilitätsversprechen  
 
-Nicht jeder Monat erlaubt Rücklagen.
-Das ist normal
-und kein Zeichen von Scheitern.
-
----
-
-## Wie es danach weitergeht
-
-Sobald Spielraum und Rücklagen eingeordnet sind,
-geht es darum,
-die Struktur **dauerhaft stabil** zu halten:
-
-→ [Ordnung halten & einfach bleiben]({{ site.baseurl }}/seiten/ordnung-halten.html)
-
----
-
-## Kurz zusammengefasst
-
-- Spielraum ist das Ergebnis guter Übersicht
-- Rücklagen schaffen Ruhe und Stabilität
-- Sicherheit entsteht Schritt für Schritt
+Sie sind **Begriffe zur Einordnung**,
+nicht zur Bewertung.
 
 ---
 
 ## Einordnung im Gesamtsystem
 
-Diese Seite gehört zur **Praxis-Ebene**
-und zeigt den **Umgang mit Spielraum und Rücklagen**.
+Diese Seite gehört zur **Praxis-Ebene**.
 
-Die theoretische Einordnung findest du auf der Pillar-Seite:  
-👉 [Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+Sie ergänzt das Verständnis des Haushalts,
+ohne einen nächsten Schritt auszulösen.
+
+Die ruhige, theoretische Einordnung
+findest du auf der Pillar-Seite:
+👉 **[Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)**
+
+Du kannst diese Seite
+einfach wieder verlassen.
