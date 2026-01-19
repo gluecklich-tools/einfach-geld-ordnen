@@ -32,18 +32,15 @@ wie es im eigenen Alltag gerade passt.
 
 ---
 
-## Die Excel-Vorlage
+## Die Excel- und LibreOffice-Vorlagen
 
-Die bereitgestellte Excel-Datei ist bewusst einfach gehalten.
+Die bereitgestellten Dateien sind bewusst einfach gehalten.
 
-Sie dient nur einem Zweck:
-**Zahlen nebeneinander sichtbar machen.**
+- [Haushaltsbuch herunterladen (Excel)]({{ site.baseurl }}/downloads/haushaltsbuch.xlsx)  
+- [Haushaltsbuch herunterladen (LibreOffice)]({{ site.baseurl }}/downloads/haushaltsbuch.ods)
 
-Keine Auswertung.  
-Kein Ziel.  
-Keine Bewertung.
-
-{% include download-button.html file="haushaltsbuch-excel.xlsx" label="Excel-Vorlage ansehen (optional)" hint="kostenlos, unverbindlich" %}
+> Diese Vorlage kann helfen, Einnahmen und Ausgaben sichtbar zu machen.  
+> Du musst sie nicht vollständig ausfüllen – nutze sie, wie es für deinen Alltag passt.
 
 ---
 
@@ -64,7 +61,7 @@ reicht für diesen Schritt aus.
 Das Haushaltsbuch steht **zwischen Überblick und Einordnung**.
 
 Es kann helfen,
-Zahlen greifbarer zu machen –
+Zahlen greifbarer zu machen –  
 muss es aber nicht.
 
 Entscheidungen entstehen **nicht hier**,
