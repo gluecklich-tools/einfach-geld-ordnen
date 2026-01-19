@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Einfach Geld ordnen – Grundlagen finanzieller Ordnung"
 permalink: /pillar/einfach-geld-ordnen.html
@@ -66,11 +66,10 @@ auf der alle weiteren Themen sinnvoll aufbauen.
 
 ## Von der Grundlage zur Praxis
 
-Die **konkrete praktische Umsetzung**
-findest du auf den Themen-Seiten,
-die Schritt für Schritt durch die einzelnen Bereiche führen:
+Der **erste praktische Einstieg**
+beginnt mit den festen Ausgaben im Haushalt.
 
-👉 [Zu den Themen-Seiten – Schritt für Schritt starten]({{ site.baseurl }}/seiten/index.html)
+👉 [Zu den Fixkosten – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ---
 
