@@ -1,7 +1,7 @@
-﻿- title: Start
+- title: Start
   url: "{{ site.baseurl }}/index.html"
 
-- title: Überblick (ohne Zahlen)
+- title: Überblick
   url: "{{ site.baseurl }}/pillar/haushaltsueberblick.html"
 
 - title: Fixkosten
