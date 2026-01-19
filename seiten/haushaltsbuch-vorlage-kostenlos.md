@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Haushaltsbuch Vorlage – optional & kostenlos"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
@@ -27,16 +27,26 @@ Nicht verpflichtend.
 
 ---
 
-## Die Vorlage
+## Die kostenlose Vorlage
 
-Die bereitgestellten Excel- und LibreOffice-Dateien
-sind bewusst schlicht gehalten.
+Diese kostenlose Version ist bewusst schlicht gehalten
+und eignet sich für einen ersten Überblick.
 
-- [Excel-Version herunterladen]({{ site.baseurl }}/downloads/haushaltsbuch-vorlage-kostenlos.xlsx)  
-- [LibreOffice-Version herunterladen]({{ site.baseurl }}/downloads/haushaltsbuch-vorlage-kostenlos.ods)
+- [Kostenlose Excel-Version herunterladen]({{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.xlsx)  
+- [Kostenlose LibreOffice-Version herunterladen]({{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.ods)
 
 > Du kannst diese Vorlage nutzen, musst es aber nicht.  
 > Sie dient der Übersicht, nicht als Pflichtaufgabe.
+
+---
+
+## Hinweis zur Vollversion
+
+Es existiert zusätzlich eine **Vollversion** mit erweitertem Umfang.
+Sie ist **optional** und nicht notwendig,
+um dem Projekt zu folgen.
+
+(Diese Seite beschreibt **ausschließlich** die kostenlose Variante.)
 
 ---
 
@@ -68,6 +78,7 @@ Verstehen kommt vor Benutzen.
 
 Die ruhige, grundsätzliche Einordnung
 des Haushaltsbuchs findest du hier:
+
 👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
 Du kannst diese Seite jederzeit verlassen
