@@ -29,19 +29,14 @@ Nicht verpflichtend.
 
 ## Die Vorlage
 
-Die bereitgestellte Excel-Datei
-ist bewusst schlicht gehalten.
+Die bereitgestellten Excel- und LibreOffice-Dateien
+sind bewusst schlicht gehalten.
 
-Sie ermöglicht,
-Einnahmen und Ausgaben
-**nebeneinander sichtbar zu machen** –
-mehr nicht.
+- [Excel-Version herunterladen]({{ site.baseurl }}/downloads/haushaltsbuch-vorlage-kostenlos.xlsx)  
+- [LibreOffice-Version herunterladen]({{ site.baseurl }}/downloads/haushaltsbuch-vorlage-kostenlos.ods)
 
-Keine Auswertung.  
-Kein Ziel.  
-Keine Bewertung.
-
-{% include download-button.html file="haushaltsbuch-vorlage-kostenlos.xlsx" label="Excel-Vorlage ansehen (optional)" hint="kostenlos, unverbindlich" %}
+> Du kannst diese Vorlage nutzen, musst es aber nicht.  
+> Sie dient der Übersicht, nicht als Pflichtaufgabe.
 
 ---
 
