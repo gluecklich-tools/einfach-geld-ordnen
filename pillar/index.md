@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Einfach Geld ordnen – Überblick & Start"
 permalink: /pillar/index.html
@@ -73,9 +73,9 @@ auf den dazugehörigen Praxis-Seiten.
 ## Wechsel zur Praxis-Ebene
 
 Wenn du direkt mit der Umsetzung beginnen möchtest,
-wechsel jetzt auf die Seiten-Ebene:
+beginne mit den festen Ausgaben im Haushalt:
 
-👉 **[Zur Startseite mit allen Übersichten]({{ site.baseurl }}/seiten/index.html)**
+👉 **[Zu den Fixkosten – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
 
 ---
 
