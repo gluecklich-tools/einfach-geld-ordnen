@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Haushaltsbuch in Excel – optionales Werkzeug"
 permalink: /seiten/haushaltsbuch-excel.html
@@ -32,15 +32,26 @@ wie es im eigenen Alltag gerade passt.
 
 ---
 
-## Die Excel- und LibreOffice-Vorlagen
+## Die kostenlosen Vorlagen
 
-Die bereitgestellten Dateien sind bewusst einfach gehalten.
+Die hier verlinkten Dateien sind bewusst einfach gehalten
+und eignen sich für einen ruhigen Einstieg.
 
-- [Haushaltsbuch herunterladen (Excel)]({{ site.baseurl }}/downloads/haushaltsbuch.xlsx)  
-- [Haushaltsbuch herunterladen (LibreOffice)]({{ site.baseurl }}/downloads/haushaltsbuch.ods)
+- [Kostenlose Excel-Version herunterladen]({{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.xlsx)  
+- [Kostenlose LibreOffice-Version herunterladen]({{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.ods)
 
 > Diese Vorlage kann helfen, Einnahmen und Ausgaben sichtbar zu machen.  
-> Du musst sie nicht vollständig ausfüllen – nutze sie, wie es für deinen Alltag passt.
+> Du musst sie nicht vollständig ausfüllen – nutze sie so, wie es für deinen Alltag passt.
+
+---
+
+## Hinweis zur Vollversion
+
+Es existiert zusätzlich eine **Vollversion** mit erweitertem Umfang.
+Sie ist **optional** und nicht notwendig,
+um dem Projekt zu folgen.
+
+(Diese Seite beschreibt ausschließlich die kostenlose Variante.)
 
 ---
 
