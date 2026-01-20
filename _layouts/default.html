@@ -1,19 +1,23 @@
-﻿---
 ---
-
+---
 <!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ page.title }} – {{ site.title }}</title>
 
     {{ seo }}
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Basis-Styling -->
+    <link rel="stylesheet" href="{{ '/assets/base.css' | relative_url }}">
   </head>
   <body>
-    {{ content }}
+
+    <main class="container content">
+      {{ content }}
+    </main>
+
   </body>
 </html>

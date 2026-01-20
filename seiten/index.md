@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Einfach Geld ordnen – Praxisübersicht"
 permalink: /seiten/index.html
@@ -65,12 +65,11 @@ Wenn nicht, kannst du diese Ebene wieder verlassen.
 Diese Seite ist eine **ruhige Übersicht**
 über die Praxis-Ebene.
 
-Die gedankliche Einordnung,
+Die grundlegende Einordnung,
 die Logik
 und die Zusammenhänge
-findest du auf der Pillar-Ebene:
-
-👉 **[Einfach Geld ordnen – Grundlagen & Überblick]({{ site.baseurl }}/pillar/index.html)**
+finden sich auf den jeweiligen **Pillar-Seiten**
+dieses Projekts.
 
 Du kannst jederzeit
 zwischen beiden Ebenen wechseln
