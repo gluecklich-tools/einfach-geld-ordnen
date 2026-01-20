@@ -1,0 +1,38 @@
+{% comment %}
+Sanfte Abschluss- & Weiterführungslogik
+Governance-konform, ohne Druck, ohne CTA
+{% endcomment %}
+
+<div class="flow-footer">
+  <hr>
+
+  {% if page.permalink contains '/pillar/' %}
+    <p class="flow-text">
+      Du kannst hier aufhören.<br>
+      Manche lesen von hier aus ruhig weiter.
+    </p>
+
+    <ul class="flow-links">
+      <li><a href="{{ site.baseurl }}/pillar/haushaltsueberblick.html">Überblick ohne Zahlen</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/der-weg.html">Der Weg</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/haushaltsbuch.html">Das Haushaltsbuch</a></li>
+    </ul>
+
+  {% elsif page.permalink contains '/seiten/' %}
+    <p class="flow-text">
+      Diese Seite steht für sich.<br>
+      Wenn du magst, kannst du den Zusammenhang sehen.
+    </p>
+
+    <ul class="flow-links">
+      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen verstehen</a></li>
+    </ul>
+
+  {% else %}
+    <p class="flow-text">
+      Du musst hier nichts weiter tun.
+    </p>
+
+  {% endif %}
+</div>

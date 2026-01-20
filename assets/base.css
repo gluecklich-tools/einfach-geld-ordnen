@@ -102,3 +102,34 @@ a:hover{text-decoration:underline}
   :root{--pad: 14px}
   .content h1{font-size: 28px}
 }
+.flow-footer {
+  margin-top: 48px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.flow-footer hr {
+  margin-bottom: 20px;
+}
+
+.flow-text {
+  margin-bottom: 12px;
+}
+
+.flow-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flow-links li {
+  margin: 6px 0;
+}
+
+.flow-links a {
+  text-decoration: none;
+}
+
+.flow-links a:hover {
+  text-decoration: underline;
+}
