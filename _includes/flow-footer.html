@@ -1,6 +1,7 @@
 {% comment %}
 Sanfte Abschluss- & Weiterführungslogik
-Governance-konform, ohne Druck, ohne CTA
+Governance-konform, ohne Druck, ohne harte CTAs.
+Downloads werden bewusst NICHT verlinkt, solange nicht Switch-ready.
 {% endcomment %}
 
 <div class="flow-footer">
@@ -9,68 +10,23 @@ Governance-konform, ohne Druck, ohne CTA
   {% if page.permalink contains '/pillar/' %}
     <p class="flow-text">
       Du kannst hier aufhören.<br>
-      Manche lesen von hier aus ruhig weiter.
+      Wenn du magst, findest du unten drei saubere Wege – ohne Umwege.
     </p>
 
     <ul class="flow-links">
       <li><a href="{{ site.baseurl }}/pillar/haushaltsueberblick.html">Überblick ohne Zahlen</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/der-weg.html">Der Weg</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/haushaltsbuch.html">Das Haushaltsbuch</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/index.html">Pillar-Überblick</a></li>
+      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
     </ul>
+
+    <p class="flow-text" style="margin-top:14px">
+      <strong>Downloads:</strong> derzeit deaktiviert (Templates noch im Feinschliff). Freischaltung erst bei Switch-ready.
+    </p>
 
   {% elsif page.permalink contains '/seiten/' %}
     <p class="flow-text">
       Diese Seite steht für sich.<br>
-      Wenn du magst, kannst du den Zusammenhang sehen.
-    </p>
-
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen verstehen</a></li>
-    </ul>
-
-  {% else %}
-    <p class="flow-text">
-      Du musst hier nichts weiter tun.
-    </p>
-
-  {% endif %}
-</div>
-{% comment %}
-Flow-Footer (repariert):
-- Keine Platzhalter/...
-- Nur reale, existierende Ziele
-- Klarer Abschluss + echte Optionen (Praxis / Downloads / Überblick)
-{% endcomment %}
-
-<div class="flow-footer">
-  <hr>
-
-  {% if page.permalink contains '/pillar/' %}
-    <p class="flow-text">
-      <strong>Weiter geht’s nur, wenn du willst.</strong><br>
-      Hier sind drei saubere Wege – ohne Umwege.
-    </p>
-
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/pillar/index.html">Pillar-Überblick</a></li>
-      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen (Start der Logik)</a></li>
-    </ul>
-
-    <p class="flow-text" style="margin-top:14px">
-      <strong>Downloads</strong> (direkt):
-    </p>
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.xlsx">Kostenlos (Excel)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.ods">Kostenlos (LibreOffice)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Vollversion.xlsx">Vollversion (Excel)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Vollversion.ods">Vollversion (LibreOffice)</a></li>
-    </ul>
-
-  {% elsif page.permalink contains '/seiten/' %}
-    <p class="flow-text">
-      <strong>Wenn du von hier aus weiter willst:</strong>
+      Wenn du magst, findest du unten den Zusammenhang.
     </p>
 
     <ul class="flow-links">
@@ -80,14 +36,8 @@ Flow-Footer (repariert):
     </ul>
 
     <p class="flow-text" style="margin-top:14px">
-      <strong>Downloads</strong> (direkt):
+      <strong>Downloads:</strong> derzeit deaktiviert (Templates noch im Feinschliff). Freischaltung erst bei Switch-ready.
     </p>
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.xlsx">Kostenlos (Excel)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Kostenlos.ods">Kostenlos (LibreOffice)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Vollversion.xlsx">Vollversion (Excel)</a></li>
-      <li><a href="{{ site.baseurl }}/downloads/Haushaltsbuch_Vollversion.ods">Vollversion (LibreOffice)</a></li>
-    </ul>
 
   {% else %}
     <p class="flow-text">
