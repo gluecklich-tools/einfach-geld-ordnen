@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Der Weg
 permalink: /pillar/der-weg.html

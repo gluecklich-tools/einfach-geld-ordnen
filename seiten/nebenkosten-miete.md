@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: "Nebenkosten der Miete – Einordnung ohne Druck"
 permalink: /seiten/nebenkosten-miete.html
