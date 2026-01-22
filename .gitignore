@@ -1,4 +1,4 @@
-# build output
+﻿# build output
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -11,6 +11,8 @@ _export_zips/
 # OS
 .DS_Store
 Thumbs.db
+
+
 
 # Block downloads before switch
 assets/downloads/
