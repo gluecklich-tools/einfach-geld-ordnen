@@ -24,10 +24,10 @@ Nur Orientierung.
 „Einfach Geld ordnen“ besteht aus zwei klar getrennten Ebenen:
 
 - **Pillar-Seiten**  
-  → erklären Zusammenhänge, Logik und Reihenfolge  
+  → erklären Zusammenhänge, Logik und Reihenfolge
 
 - **Seiten**  
-  → zeigen die konkrete Umsetzung im Alltag  
+  → zeigen die konkrete Umsetzung im Alltag
 
 Diese Seite gehört zur **Pillar-Ebene**.
 
@@ -35,27 +35,27 @@ Diese Seite gehört zur **Pillar-Ebene**.
 
 ## Die zentralen Themen im System
 
-Alle Inhalte bauen logisch aufeinander auf.
+Alle Inhalte bauen logisch aufeinander auf.  
 Jede Säule erklärt **ihre Bedeutung**, nicht die Umsetzung:
 
 1. **Der Weg**  
    → warum Reihenfolge entscheidend ist  
-   → wie Klarheit Schritt für Schritt entsteht  
+   → wie Klarheit Schritt für Schritt entsteht
 
 2. **Fixkosten**  
-   → das feste Fundament des Haushalts  
+   → das feste Fundament des Haushalts
 
 3. **Haushaltsbuch**  
-   → Zahlen sammeln, ohne zu bewerten  
+   → Zahlen sammeln, ohne zu bewerten
 
 4. **Haushaltsüberblick**  
-   → alles zu einem Gesamtbild verbinden  
+   → alles zu einem Gesamtbild verbinden
 
 5. **Spielraum & Rücklagen**  
-   → Möglichkeiten realistisch einordnen  
+   → Möglichkeiten realistisch einordnen
 
 6. **Ordnung halten**  
-   → Struktur langfristig stabilisieren  
+   → Struktur langfristig stabilisieren
 
 ---
 
