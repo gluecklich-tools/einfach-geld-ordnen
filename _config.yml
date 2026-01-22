@@ -19,5 +19,5 @@ exclude:
   - freeze
   - archiv
   - _export_zips
+  - downloads
   - README.md
-  - CHECKLISTE_NEUES_REPO_10_MIN.md

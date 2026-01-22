@@ -1,21 +1,9 @@
-{%- assign file = include.file | default: '' -%}
-{%- assign label = include.label | default: 'Download' -%}
-{%- assign hint = include.hint | default: '' -%}
+{% comment %}
+Downloads sind bewusst deaktiviert, bis Switch-ready.
+Dieses Include erzeugt daher keine Download-Links.
+{% endcomment %}
 
-{%- if file != '' -%}
-  {%- assign f = file | remove_first: '/' -%}
-  {%- if f contains 'downloads/' -%}
-    {%- assign href = '/' | append: f -%}
-  {%- else -%}
-    {%- assign href = '/downloads/' | append: f -%}
-  {%- endif -%}
-
-  <div class="download-box">
-    <a class="download-button" href="{{ href | relative_url }}" download>
-      {{ label }}
-    </a>
-    {%- if hint != '' -%}
-      <div class="download-hint">{{ hint }}</div>
-    {%- endif -%}
-  </div>
-{%- endif -%}
+<div class="download-box">
+  <strong>Downloads derzeit deaktiviert.</strong><br>
+  Freischaltung erst bei Switch-ready (Templates im Feinschliff).
+</div>

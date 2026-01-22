@@ -1,29 +1,19 @@
 ---
 layout: default
-title: "Haushaltsbuch Vorlage – optional und kostenlos (noch nicht freigeschaltet)"
+title: "Haushaltsbuch Vorlage – kostenlos (noch nicht freigeschaltet)"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
-## Haushaltsbuch Vorlage – kostenlos (noch nicht freigeschaltet)
+## Kostenlos – aber noch nicht freigeschaltet
 
-Eine Vorlage kann helfen, Dinge festzuhalten.  
-Sie ist kein Test und keine Pflicht.
+Diese Vorlage wird erst veröffentlicht, wenn sie dem finalen Qualitätsstandard entspricht.
+
+**Downloads sind aktuell deaktiviert.**  
+Freischaltung erst bei Switch-ready.
 
 ---
 
-## Die Vorlage
-
-> **Downloads sind aktuell deaktiviert.**  
-> Die Vorlagen werden erst freigeschaltet, wenn sie dem finalen Qualitätsstandard entsprechen (Switch-ready).
-
-Bis dahin kannst du trotzdem schon starten – ohne Datei:
+## Ohne Datei starten
 
 - [Überblick ohne Zahlen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 - [Praxisübersicht]({{ site.baseurl }}/seiten/index.html)
-
----
-
-## Hinweis zur Vollversion
-
-Es existiert zusätzlich eine **Vollversion** mit erweitertem Umfang.  
-Sie ist **optional** und wird erst freigeschaltet, wenn der Switch umgelegt wird.

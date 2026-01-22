@@ -1,47 +1,23 @@
 ---
 layout: default
-title: "Haushaltsbuch in Excel – optional, nicht Pflicht"
+title: "Haushaltsbuch in Excel – optionales Werkzeug"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
 
-## Haushaltsbuch in Excel – optional
+Ein Haushaltsbuch kann helfen, **Zusammenhänge sichtbar zu machen**.
 
-Ein Haushaltsbuch ist kein Muss.  
-Es ist nur ein Werkzeug, um Dinge sichtbar zu machen.
-
-Nicht, um zu kontrollieren.  
-Nicht, um zu optimieren.  
-Sondern um den Kopf zu entlasten.
+Es ist kein Kontrollinstrument und kein Schritt, der erledigt werden muss.
 
 ---
 
-## Die kostenlosen Vorlagen
+## Downloads (noch nicht freigeschaltet)
 
-> **Downloads sind aktuell deaktiviert.**  
-> Die Vorlagen werden erst freigeschaltet, wenn sie dem finalen Qualitätsstandard entsprechen (Switch-ready).
-
-Die Idee bleibt trotzdem gleich:
-
-- lieber **einfach** starten als perfekt
-- lieber **ruhig** als hektisch
-- lieber **sinnvoll** als umfangreich
+**Downloads sind aktuell deaktiviert**, bis die Vorlagen dem finalen Qualitätsstandard entsprechen.  
+Freischaltung erst, wenn **nur noch der Switch umgelegt werden muss**.
 
 ---
 
-## Hinweis zur Vollversion
+## Inhaltlich weiter
 
-Es existiert zusätzlich eine **Vollversion** mit erweitertem Umfang.  
-Sie ist **optional** und nicht notwendig, um dem Projekt zu folgen.
-
-(Die Freischaltung erfolgt erst, wenn alles Switch-ready ist.)
-
----
-
-## Keine Nutzungspflicht
-
-Du musst diese Vorlage nicht herunterladen.  
-Du kannst dem Projekt auch rein durch Lesen folgen.
-
-Wenn du lieber ohne Datei startest:
-- [Überblick ohne Zahlen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Haushaltsbuch – wozu es dient]({{ site.baseurl }}/pillar/haushaltsbuch.html)
 - [Praxisübersicht]({{ site.baseurl }}/seiten/index.html)
