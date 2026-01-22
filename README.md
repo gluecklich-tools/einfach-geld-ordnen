@@ -1,29 +1,43 @@
 # einfach-geld-ordnen
 
-Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte
+Einfaches Haushaltsbuch & Geld ordnen – **statische Inhalte** (GitHub Pages / Jekyll)
+
+**Stand:** 2026-01-22 (Europe/Berlin)
 
 Willkommen beim Projekt **„Einfach Geld ordnen“**.  
-Dieses Projekt bietet dir Vorlagen und Hilfen, um deine Finanzen **einfach, übersichtlich und planbar** zu organisieren.  
+Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-für-Schritt-Anleitungen**, die auch mit wenig Energie nutzbar sind.
+
+---
 
 ## Inhalte
 
 - Schritt-für-Schritt-Anleitungen zum Haushaltsbuch
-- Excel-Vorlagen für Einnahmen, Ausgaben, Fixkosten, variable Kosten
-- Tipps für Ordnung im Haushalt und Finanzplanung
-- Strukturierte Pillar-Seiten für langfristige Nutzung
-
-## Ziel
-
-Das Projekt soll dir helfen, **alle Einnahmen und Ausgaben klar zu erfassen**, Fixkosten zu überblicken und deine Finanzen langfristig zu ordnen – ohne unnötigen Aufwand oder komplizierte Regeln.
-
-## Nutzung
-
-1. Lade die Vorlagen herunter  
-2. Fülle die Tabellen mit deinen Daten aus  
-3. Nutze die Schritt-für-Schritt-Anleitungen  
-4. Behalte den Überblick über Fixkosten, variable Ausgaben und Rücklagen
+- Vorlagen (LibreOffice/Excel) für Einnahmen, Ausgaben, Fixkosten, variable Kosten
+- Tipps für Ordnung im Haushalt & Finanzplanung
+- Strukturierte „Pillar“-Seiten für langfristige Nutzung
 
 ---
 
-*Projekt-Repository:* [gluecklich-tools/einfach-geld-ordnen](https://github.com/gluecklich-tools/einfach-geld-ordnen)
+## Ziel
 
+Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkosten zu überblicken und deine Finanzen langfristig zu ordnen – **ohne unnötigen Aufwand** und ohne komplizierte Regeln.
+
+---
+
+## Nutzung (kurz)
+
+1. Vorlage herunterladen
+2. Tabellen mit eigenen Daten füllen
+3. Schritt-für-Schritt-Anleitungen nutzen
+4. Überblick behalten (Fixkosten, variable Ausgaben, Rücklagen)
+
+---
+
+## Verbindliche technische Leitplanken (Kurzfassung)
+
+- **Zero-Assumption / 100%+ realistisch möglich:** Nichts annehmen, maximal gründlich + Extra-QA.
+- **Komplettcheck-Neustart:** Wenn neue Regeln dazukommen oder Unsicherheit besteht → kompletter Neu-Check.
+- **UTF-8 ohne BOM** für Textdateien.
+- Dateinamen: **ASCII-only** (`a-z0-9-_`), keine Umlaute, keine Leerzeichen.
+- Jekyll Pages: explizite **`.html`-Permalinks**, **Permalink = Dateiname**.
+- Interne Links: konsequent mit `{{ site.baseurl }}` (P
