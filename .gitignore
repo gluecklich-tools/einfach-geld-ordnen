@@ -13,3 +13,6 @@ _export_zips/
 Thumbs.db
 
 _site/
+# Block downloads before switch
+assets/downloads/
+downloads/
