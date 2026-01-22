@@ -12,7 +12,6 @@ _export_zips/
 .DS_Store
 Thumbs.db
 
-_site/
 # Block downloads before switch
 assets/downloads/
 downloads/
