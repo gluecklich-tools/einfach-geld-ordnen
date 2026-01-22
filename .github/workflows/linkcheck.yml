@@ -36,36 +36,37 @@ jobs:
             gem install html-proofer --no-document
           fi
 
-      - name: Build site (Jekyll with baseurl)
+      - name: Build site (Jekyll with baseurl + destination)
         shell: bash
         run: |
           set -euo pipefail
+          DEST="_site/einfach-geld-ordnen"
+          rm -rf "$DEST"
           if [ -f "Gemfile" ]; then
-            bundle exec jekyll build --baseurl "/einfach-geld-ordnen"
+            bundle exec jekyll build --baseurl "/einfach-geld-ordnen" --destination "$DEST"
           else
-            jekyll build --baseurl "/einfach-geld-ordnen"
+            jekyll build --baseurl "/einfach-geld-ordnen" --destination "$DEST"
           fi
 
-      - name: Linkcheck (internal only)
+      - name: Linkcheck (internal only, SHARP)
         shell: bash
         run: |
           set -euo pipefail
+          TARGET="./_site/einfach-geld-ordnen"
           if [ -f "Gemfile" ]; then
-            bundle exec htmlproofer ./_site \
+            bundle exec htmlproofer "$TARGET" \
               --assume-extension \
               --check-html \
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt \
-              --ignore-urls "/^\\/einfach-geld-ordnen\\//"
+              --ignore-missing-alt
           else
-            htmlproofer ./_site \
+            htmlproofer "$TARGET" \
               --assume-extension \
               --check-html \
               --only-4xx \
               --disable-external \
               --ignore-empty-alt \
-              --ignore-missing-alt \
-              --ignore-urls "/^\\/einfach-geld-ordnen\\//"
+              --ignore-missing-alt
           fi

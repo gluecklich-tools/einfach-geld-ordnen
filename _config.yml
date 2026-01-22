@@ -18,6 +18,7 @@ exclude:
   - docs
   - freeze
   - archiv
+  - audit
   - _export_zips
   - downloads
   - README.md
