@@ -40,4 +40,5 @@ Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkos
 - **UTF-8 ohne BOM** für Textdateien.
 - Dateinamen: **ASCII-only** (`a-z0-9-_`), keine Umlaute, keine Leerzeichen.
 - Jekyll Pages: explizite **`.html`-Permalinks**, **Permalink = Dateiname**.
-- Interne Links: konsequent mit `{{ site.baseurl }}` (P
+- Interne Links: konsequent mit `{{ site.baseurl }}` (Project Site), keine Links ohne baseurl.
+
