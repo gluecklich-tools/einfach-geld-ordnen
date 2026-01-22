@@ -4,7 +4,6 @@ url: "https://gluecklich-tools.github.io"
 baseurl: "/einfach-geld-ordnen"
 
 markdown: "kramdown"
-theme: "minima"
 
 plugins:
   - "jekyll-seo-tag"
@@ -15,7 +14,6 @@ defaults:
     values:
       layout: "default"
 
-# Nur Website-Inhalte bauen. Alles andere raus.
 exclude:
   - "tools"
   - "docs"

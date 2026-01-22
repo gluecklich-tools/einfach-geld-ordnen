@@ -1,7 +1,10 @@
 source "https://rubygems.org"
 
-# GitHub-Pages-kompatibler Build (Jekyll + erlaubte Plugins/Themes in passender Version)
+# GitHub Pages kompatibler Stack (Pins für Jekyll/Plugins)
 gem "github-pages", group: :jekyll_plugins
 
-# Linkcheck
+# Für {% seo %} in deinem Layout
+gem "jekyll-seo-tag"
+
+# Für den Linkcheck-Job
 gem "html-proofer"
