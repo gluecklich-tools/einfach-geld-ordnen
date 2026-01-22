@@ -53,8 +53,8 @@ jobs:
           set -euo pipefail
           TARGET="./_site"
 
-          # Mappe /einfach-geld-ordnen/... auf /... damit htmlproofer korrekt auf dem Dateisystem prüft.
-          URL_SWAP="^/einfach-geld-ordnen/:/"
+          # GitHub Pages Project Site: /einfach-geld-ordnen/ soll auf / gemappt werden
+          SWAP="^/einfach-geld-ordnen/:/"
 
           if [ -f "Gemfile" ]; then
             bundle exec htmlproofer "$TARGET" \
@@ -62,7 +62,7 @@ jobs:
               --check-html \
               --only-4xx \
               --disable-external \
-              --url-swap "$URL_SWAP" \
+              --swap-urls "$SWAP" \
               --ignore-empty-alt \
               --ignore-missing-alt
           else
@@ -71,7 +71,7 @@ jobs:
               --check-html \
               --only-4xx \
               --disable-external \
-              --url-swap "$URL_SWAP" \
+              --swap-urls "$SWAP" \
               --ignore-empty-alt \
               --ignore-missing-alt
           fi
