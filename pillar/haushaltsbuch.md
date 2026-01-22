@@ -42,9 +42,9 @@ reicht für diesen Schritt vollkommen aus.
 
 ## Wie es weitergeht
 
-Der nächste Abschnitt zeigt,  
-wie man den eigenen Haushalt **übersichtlich betrachten** kann –  
-ohne Tabellen und ohne Entscheidungen.
+Der nächste Abschnitt erklärt,  
+warum eine feste Reihenfolge beruhigen kann –  
+ohne Druck und ohne Leistungsanspruch.
 
-👉 **Weiter zum Haushaltsüberblick**  
+👉 **Weiter zu „Der Weg“**  
 [Der Weg – Überblick behalten]({{ site.baseurl }}/pillar/der-weg.html)

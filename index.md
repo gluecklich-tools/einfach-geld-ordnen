@@ -9,7 +9,7 @@ permalink: /index.html
 Hier geht es nicht um Zahlen, Optimierung oder Druck.  
 Hier geht es darum, **erst einmal anzukommen**.
 
-Viele Menschen haben genug von komplizierten Finanzsystemen.
+Viele Menschen haben genug von komplizierten Finanzsystemen.  
 Dieses Projekt beginnt bewusst **ohne Rechnen** und **ohne Entscheidungen**.
 
 Du musst nichts vorbereiten.  

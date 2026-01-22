@@ -102,4 +102,4 @@ Diese Seite bildet den **Übergang von Übersicht zu Stabilität**.
 Sie schließt die inhaltliche Logik ab
 und bereitet den letzten Schritt vor:
 
-→ **Ordnung halten**
+→ **[Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)**

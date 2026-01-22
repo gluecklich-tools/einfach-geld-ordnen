@@ -43,15 +43,15 @@ Die folgenden Seiten behandeln jeweils
 - Spielraum & Rücklagen  
 - Ordnung halten  
 
-Du kannst jede Seite einzeln lesen.
+Du kannst jede Seite einzeln lesen.  
 Es gibt **keine vorgeschriebene Reihenfolge**.
 
 ---
 
 ## Kein Einstieg, kein Fortschritt
 
-Du musst hier nicht anfangen.
-Du musst nichts „durcharbeiten“.
+Du musst hier nicht anfangen.  
+Du musst nichts „durcharbeiten“.  
 Du musst nichts abschließen.
 
 Wenn eine Seite für dich gerade passt,

@@ -92,6 +92,32 @@ a:hover{text-decoration:underline}
 .next-link{font-weight:700; text-decoration:none}
 .next-link:hover{text-decoration:underline}
 
+/* Sekundäre Navigation (z.B. auf der Startseite) */
+.secondary-nav{
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  color: var(--muted);
+}
+
+.secondary-nav a{
+  display:inline-block;
+  text-decoration:none;
+  color: var(--muted);
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.secondary-nav a:hover{
+  background:#f3f4f6;
+  color: var(--text);
+  text-decoration:none;
+}
+
 .site-footer{
   border-top: 1px solid var(--border);
   padding: 18px 0;
@@ -102,6 +128,8 @@ a:hover{text-decoration:underline}
   :root{--pad: 14px}
   .content h1{font-size: 28px}
 }
+
+/* Flow-Footer (Include) */
 .flow-footer {
   margin-top: 48px;
   font-size: 0.95rem;

@@ -41,7 +41,7 @@ Diese Grundlagen bilden das Fundament:
 5. **Spielraum & Rücklagen**  
    → realistische Bewertung dessen, was möglich ist  
 
-Diese Bereiche wirken **nicht isoliert**.
+Diese Bereiche wirken **nicht isoliert**.  
 Sie greifen ineinander und bauen logisch aufeinander auf.
 
 ---

@@ -8,12 +8,28 @@
 
     <title>{{ page.title }} – {{ site.title }}</title>
 
-    {{ seo }}
+    {% seo %}
 
     <!-- Basis-Styling -->
     <link rel="stylesheet" href="{{ '/assets/base.css' | relative_url }}">
   </head>
   <body>
+
+    <header class="site-header">
+      <nav class="site-nav__inner" aria-label="Hauptnavigation">
+        <a class="brand" href="{{ '/index.html' | relative_url }}">{{ site.title }}</a>
+
+        {% if site.data.navigation %}
+          <ul class="nav-list">
+            {% for item in site.data.navigation %}
+              <li>
+                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </nav>
+    </header>
 
     <main class="container content">
       {{ content }}
