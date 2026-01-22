@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Haushaltsüberblick – Einordnung ohne Druck"
+title: "Haushaltsüberblick - Einordnung ohne Druck"
 permalink: /seiten/haushaltsueberblick.html
 ---
 

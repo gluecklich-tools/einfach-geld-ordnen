@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ordnung halten – ohne Druck
+title: Ordnung halten - ohne Druck
 permalink: /pillar/ordnung-halten.html
 ---
 

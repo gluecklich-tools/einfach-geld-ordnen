@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Variable Ausgaben – Einordnung ohne Druck"
+title: "Variable Ausgaben - Einordnung ohne Druck"
 permalink: /seiten/variable-ausgaben.html
 ---
 

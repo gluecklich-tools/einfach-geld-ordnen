@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Haushaltsbuch – Einordnung für Anfänger"
+title: "Haushaltsbuch - Einordnung für Anfänger"
 permalink: /seiten/haushaltsbuch.html
 ---
 

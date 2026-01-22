@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fixkosten im Haushalt – Überblick
+title: Fixkosten im Haushalt - Überblick
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 

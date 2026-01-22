@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Ordnung halten – Einordnung ohne Pflicht"
+title: "Ordnung halten - Einordnung ohne Pflicht"
 permalink: /seiten/ordnung-halten.html
 ---
 

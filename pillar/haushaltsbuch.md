@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Haushaltsbuch – wozu es dient
+title: Haushaltsbuch - wozu es dient
 permalink: /pillar/haushaltsbuch.html
 ---
 

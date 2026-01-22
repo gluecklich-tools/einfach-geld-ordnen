@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Haushaltsüberblick – ohne Zahlen
+title: Haushaltsüberblick - ohne Zahlen
 permalink: /pillar/haushaltsueberblick.html
 ---
 

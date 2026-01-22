@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Haushaltsbuch Vorlage – kostenlos (noch nicht freigeschaltet)"
+title: "Haushaltsbuch Vorlage - kostenlos (noch nicht freigeschaltet)"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 

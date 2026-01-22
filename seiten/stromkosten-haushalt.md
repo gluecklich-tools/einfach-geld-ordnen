@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Stromkosten im Haushalt – Einordnung ohne Druck"
+title: "Stromkosten im Haushalt - Einordnung ohne Druck"
 permalink: /seiten/stromkosten-haushalt.html
 ---
 

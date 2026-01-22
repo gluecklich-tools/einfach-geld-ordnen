@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Haushaltsbuch in Excel – optionales Werkzeug"
+title: "Haushaltsbuch in Excel - optionales Werkzeug"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
 

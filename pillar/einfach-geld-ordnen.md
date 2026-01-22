@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Einfach Geld ordnen – Grundlagen finanzieller Ordnung"
+title: "Einfach Geld ordnen - Grundlagen finanzieller Ordnung"
 permalink: /pillar/einfach-geld-ordnen.html
 ---
 
