@@ -1,24 +1,26 @@
-title: Einfach Geld ordnen
-description: Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte
+title: "Einfach Geld ordnen"
+description: "Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte"
 url: "https://gluecklich-tools.github.io"
 baseurl: "/einfach-geld-ordnen"
 
-markdown: kramdown
-theme: minima
+markdown: "kramdown"
+theme: "minima"
+
+plugins:
+  - "jekyll-seo-tag"
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: "default"
 
 # Nur Website-Inhalte bauen. Alles andere raus.
 exclude:
-  - tools
-  - docs
-  - freeze
-  - archiv
-  - audit
-  - _export_zips
-  - downloads
-  - README.md
+  - "tools"
+  - "docs"
+  - "freeze"
+  - "archiv"
+  - "audit"
+  - "_export_zips"
+  - "README.md"

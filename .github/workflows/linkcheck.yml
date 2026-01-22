@@ -1,4 +1,4 @@
-name: Linkcheck (HTMLProofer)
+name: "Linkcheck (HTMLProofer)"
 
 on:
   push:
@@ -15,63 +15,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
+      - name: "Setup Ruby"
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
-          bundler-cache: true
 
-      - name: Install dependencies (GitHub Pages compatible)
+      - name: "Install dependencies (no Gemfile-safe)"
         shell: bash
         run: |
           set -euo pipefail
-          if [ -f "Gemfile" ]; then
-            bundle config set path vendor/bundle
-            bundle install --jobs 4 --retry 3
-          else
-            gem install github-pages --no-document
-            gem install html-proofer --no-document
-          fi
+          gem install jekyll --no-document
+          gem install html-proofer --no-document
 
-      - name: Build site (Jekyll)
+      - name: "Build site (Jekyll)"
         shell: bash
+        env:
+          JEKYLL_ENV: "production"
         run: |
           set -euo pipefail
           rm -rf "_site"
-          if [ -f "Gemfile" ]; then
-            bundle exec jekyll build
-          else
-            jekyll build
-          fi
+          jekyll build
 
-      - name: Linkcheck (internal only, SHARP, baseurl-aware)
+      - name: "Linkcheck (internal only, SHARP, baseurl-aware)"
         shell: bash
         run: |
           set -euo pipefail
           TARGET="./_site"
 
-          # GitHub Pages Project Site: /einfach-geld-ordnen/ soll auf / gemappt werden
-          SWAP="^/einfach-geld-ordnen/:/"
+          # GitHub Pages Project Site: /einfach-geld-ordnen/ -> /
+          SWAP="^/einfach-geld-ordnen$:/,^/einfach-geld-ordnen/:/"
 
-          if [ -f "Gemfile" ]; then
-            bundle exec htmlproofer "$TARGET" \
-              --assume-extension \
-              --check-html \
-              --only-4xx \
-              --disable-external \
-              --swap-urls "$SWAP" \
-              --ignore-empty-alt \
-              --ignore-missing-alt
-          else
-            htmlproofer "$TARGET" \
-              --assume-extension \
-              --check-html \
-              --only-4xx \
-              --disable-external \
-              --swap-urls "$SWAP" \
-              --ignore-empty-alt \
-              --ignore-missing-alt
-          fi
+          htmlproofer "$TARGET" \
+            --assume-extension \
+            --check-html \
+            --only-4xx \
+            --disable-external \
+            --swap-urls "$SWAP" \
+            --ignore-empty-alt \
+            --ignore-missing-alt

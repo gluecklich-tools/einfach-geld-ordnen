@@ -8,12 +8,19 @@ _site/
 _export_zips/
 *.zip
 
+# Office / template binaries (vor Switch: im Repo vermeiden)
+*.xlsx
+*.xlsm
+*.ods
+*.csv
+*.pdf
+
 # OS
 .DS_Store
 Thumbs.db
 
-
-
-# Block downloads before switch
-assets/downloads/
-downloads/
+# Downloads-Struktur NICHT komplett ignorieren:
+# Ordner sollen versioniert bleiben (z. B. Platzhalter/README),
+# nur große/binary Dateien werden über die Patterns oben ausgeschlossen.
+# assets/downloads/
+# downloads/
