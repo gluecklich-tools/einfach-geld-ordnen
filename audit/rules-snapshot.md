@@ -48,10 +48,11 @@ permalink: /audit/rules-snapshot.html
 
 ---
 
-## 3) Output-Regel im Projekt (Arbeitsmodus)
+## 3) Output-Regel im Projekt (Arbeitsmodus) – Klarstellung ZIP
 
-- Änderungen werden als **vollständiger 1:1-Dateiinhalt** geliefert (Copy-Paste Full-Swap).
-- Keine ZIP-Lieferung als Ergebnis (ZIP nur intern zur Analyse).
+- Repo-Änderungen werden als **vollständiger 1:1-Dateiinhalt** geliefert (Copy-Paste Full-Swap).
+- **Keine ZIP-Lieferung als Repo-Austauschmethode** (kein „Repo per ZIP ersetzen“).
+- **Produkt-Downloads** (ODS/XLSX/ZIP) sind echte Endnutzer-Assets und **erlaubt & nötig** (nur solange OFF nicht bewerben).
 
 ---
 
