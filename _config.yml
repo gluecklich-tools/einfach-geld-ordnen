@@ -20,7 +20,6 @@ exclude:
   - "docs"
   - "freeze"
   - "archiv"
-  - "audit"
   - "_export_zips"
   - "README.md"
 
