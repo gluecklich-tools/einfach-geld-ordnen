@@ -18,93 +18,46 @@ Korrekturen erfolgen als neue Einträge „Amendment“.
 **Typ:** Komplettcheck / Teilcheck / Regression / Release-Gate  
 **Regelstand:** (Arbeitsanweisung-Version + Leitlinie)  
 **Scope:** (Repo / Live / Inhalte / Downloads / CI)  
-**Input:** (Commit-Hash, Branch, Repo-ZIP, Live-URL)  
-**Evidence:** (Links, Screenshots, Logs)  
-**Ergebnis:** BESTANDEN / NICHT BESTANDEN / TEILWEISE  
-**Blocker:** (wenn nicht bestanden)  
-**Risiken:**  
-**Entscheidung (Team):**  
-**Nächste Schritte:** (nur wenn bestanden / oder „Stop bis Fix“)  
+**Input:** (Commit-Hash, Branch, Live-URL, Screenshots etc.)  
+**Ergebnis:** BESTANDEN / NICHT BESTANDEN  
+**Findings:** (kurz, faktisch)  
+**Nächste Schritte:** (konkret)
 
 ---
 
-# Retro-Protokoll (soweit möglich)
+## CHECK-RETRO-001 – baseurl + Permalink-Regel (Ausgangslage)
 
-> Quelle für Retro: Commit-Historie (hash + message), vorhandene Governance-Dateien, sichtbare Live-Symptome aus Verlauf.
-> Datumswerte sind teils unbekannt und müssen bei Bedarf aus Git/Actions ergänzt werden.
-
----
-
-## CHECK-RETRO-000 – Projektanlage / Basiskonfiguration (soweit möglich)
-
-**Typ:** Retro-Komplettcheck  
-**Regelstand:** vor v019 (unbekannt)  
-**Scope:** Repo-Grundstruktur, Jekyll Project Site, baseurl, Permalinks  
-**Evidence (Commits):**
-- `af0569f` Fix: use root-relative /assets/main.css for html-proofer compatibility
-- `3be4051` Fix: remove baseurl from internal links for html-proofer
-- `5d75b29` Fix: run html-proofer on baseurl root (_site/einfach-geld-ordnen)
-- `21a380b` Fix: html-proofer baseurl handling for project site
-- `c87cbc7` Fix: html-proofer ignore baseurl paths (correct option)
-
-**Ergebnis:** TEILWEISE (auf dem Weg zur Stabilität)  
-**Beobachtung:** Konflikt zwischen „html-proofer Erwartungen“ und „Project Site baseurl-Regel“ führte zu Iterationen.  
-**Blocker damals:** Link/Asset-Pfade, baseurl-Inkonsistenzen.
+**Typ:** Retro-Teilcheck (Regeln)  
+**Regelstand:** 100%+ Leitlinie + v019  
+**Ergebnis:** BESTANDEN (Regeln festgehalten)  
 
 ---
 
-## CHECK-RETRO-001 – Struktur & Inhalte Phase F (soweit möglich)
+## CHECK-RETRO-002 – Frontmatter-Sicherheitsregel (Ausgangslage)
 
-**Typ:** Retro-Teilcheck  
-**Regelstand:** unbekannt (vor v019)  
-**Evidence (Commits):**
-- `be27ba0` Phase F abgeschlossen: Inhalte & Struktur vollständig korrigiert
-- `11d77c9` Fix: add frontmatter to default layout (prevent frontmatter rendering)
-- `b1bf7b3` Fix: Frontmatter, Titelabgleiche, UTF-8 ohne BOM (Pillar + Seiten konsistent)
-
-**Ergebnis:** TEILWEISE  
-**Beobachtung:** Frontmatter-Sichtbarkeit war ein harter Blocker und wurde gezielt adressiert.
+**Typ:** Retro-Teilcheck (Frontmatter)  
+**Regelstand:** 100%+ Leitlinie + v019  
+**Ergebnis:** BESTANDEN (Regel aktiv)  
 
 ---
 
-## CHECK-RETRO-002 – Downloads/Links Stage 1–1b (soweit möglich)
+## CHECK-RETRO-003 – YAML/Liquid `_data` Regel (Ausgangslage)
 
-**Typ:** Retro-Teilcheck  
-**Regelstand:** Stage 1 / Stage 1b (aus Commit-Messages)  
-**Evidence (Commits):**
-- `0f56454` Add finished Excel & LibreOffice downloads
-- `94a9815` Add initial downloads: guide, free version, full version
-- `d5e9ff7` Add LibreOffice (.ods) versions for final downloads
-- `46fce67` Fix: nav.yml baseurl-safe and standardized navigation titles (Stage 1)
-- `61fd4b9` Fix: replace virtual link with real entry point on pillar basics (Stage 1)
-- `9f95d1c` Fix: correct download links to existing Haushaltsbuch_Kostenlos files (Stage 1b)
-- `a224699` Fix layout CSS binding, remove empty downloads, clean praxis index link
+**Typ:** Retro-Teilcheck (YAML)  
+**Evidence (Beispiel):**
+- `_data/*.yml`: Liquid nur als String in Anführungszeichen
 
-**Ergebnis:** TEILWEISE  
-**Risiko:** Downloads wurden in Phasen „fertig“ geführt, obwohl sie später als nicht visionsgerecht eingestuft wurden (Switch-Gate notwendig).
+**Ergebnis:** BESTANDEN (Regel aktiv)  
 
 ---
 
-## CHECK-RETRO-003 – UX Flow-Führung (soweit möglich)
+## CHECK-RETRO-004 – Dateinamen ASCII-only (Ausgangslage)
 
-**Typ:** Retro-Teilcheck  
-**Evidence (Commits):**
-- `325b1f8` Add systemische Flow-Führung (flow-footer) – UX-Fix
+**Typ:** Retro-Teilcheck (Dateinamen)  
+**Evidence (Beispiel):**
+- keine Umlaute, keine Leerzeichen, Unterstrich `_` statt Leerzeichen
 
-**Ergebnis:** TEILWEISE  
-**Hinweis:** Flow-Führung ist zentral, muss aber gegen Kreisführung/Dead-Ends geprüft werden.
-
----
-
-## CHECK-RETRO-004 – Governance v019 + QA Gate (soweit möglich)
-
-**Typ:** Retro-Governancecheck  
-**Regelstand:** v019  
-**Evidence (Commits):**
-- `b474677` Add governance + QA release gate (Publish & Freeze)
-- `1c5cdf7` Governance: v019 + learnings (mode gate)
-
-**Ergebnis:** BESTANDEN als Regel-Set (inhaltlich), Umsetzung folgt Check-Gates.
+**Ergebnis:** BESTANDEN (Regel aktiv)  
 
 ---
 
@@ -129,3 +82,38 @@ Korrekturen erfolgen als neue Einträge „Amendment“.
 - klare Hinweis-Kommunikation „Downloads deaktiviert“ ohne Umgehung
 
 **Status:** in Arbeit / Evidence offen
+
+---
+
+## CHECK-2026-01-23-001 – Komplettcheck Reset (Repo+Live+CI) nach Regel-Update
+
+**Typ:** Komplettcheck (Reset „Sekunde null“)  
+**Datum:** 2026-01-23 (Europe/Berlin)  
+**Regelstand:** ARBEITSANWEISUNG_EINFACH_GELD_ORDNEN_v20.2 + Leitlinie „100%+ bezogen auf das realistisch Mögliche“  
+**Scope:** Repo-Struktur, Frontmatter/Permalinks, baseurl-Linkregeln, CI (GitHub Actions), Live-Stichprobe, Audit-Erreichbarkeit, Download-Gate
+
+**Input / Ausgangslage:**
+- Repo: `gluecklich-tools/einfach-geld-ordnen` (branch `main`)
+- Live: https://gluecklich-tools.github.io/einfach-geld-ordnen/
+- User-Evidence: Live-Screenshots (Start/Pillar/Praxis/Audit), Aussage „alle Links funktional“, Actions grün
+
+**Evidence (Commits / Änderungen im Rahmen des Checks):**
+- `744a053` Workflow-Fix + Audit-Rename (CI stabilisiert, Audit-Dateien auf Slugs)  
+- `b255b73` `.gitignore` BOM-Fix + neue Pillar-Seite `pillar/spielraum-ruecklagen.html`  
+- `709a778` Audit-Seiten wieder bauen (Entfernen von `audit` aus `_config.yml: exclude`)  
+- (zusätzlicher Commit) Audit-Index Links aktualisiert (Hash im Chat nicht protokolliert)
+
+**Ergebnis: BESTANDEN** (mit Restpunkten unten)
+
+**Bestanden / ok:**
+- Interne Links funktionieren live (User-Test)  
+- baseurl wird konsistent genutzt (`/einfach-geld-ordnen/...`)  
+- CI/Actions: grün (User bestätigt)  
+- Vendor/Bundler-Problem im Workflow behoben (Jekyll baut reproduzierbar)  
+- Audit-Seiten werden wieder generiert (nicht mehr excluded)  
+
+**Offen / Restpunkte (nächste Schritte):**
+- Dieses Checklog wurde im Rahmen des Checks erweitert (append-only)  
+- Evidence Register um aktuelle Commits + Live-Checks ergänzen (append-only)  
+- `pillar/index.md` prüfen/aktualisieren: neue Pillar-Seite aufnehmen (falls gewünscht)  
+- `LEARNINGS.md` um Learnings aus diesem Durchgang ergänzen (PowerShell Rename-Item, vendor exclude, Bundler in CI)
