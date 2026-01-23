@@ -1,26 +1,36 @@
-# build output
+# .gitignore – einfach-geld-ordnen
+# Stand: 2026-01-23
+# Ziel: Jekyll/Repo sauber halten + Downloads (ODS/XLSX/ZIP) explizit erlauben
+
+# --- Jekyll / Ruby ---
 _site/
-.sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+Gemfile.lock
 
-# local exports / temp
-_export_zips/
-*.zip
-
-# Office / template binaries (vor Switch: im Repo vermeiden)
-*.xlsx
-*.xlsm
-*.ods
-*.csv
-*.pdf
-
-# OS
+# --- OS / Editor ---
 .DS_Store
 Thumbs.db
+.vscode/
+*.swp
+*.swo
 
-# Downloads-Struktur NICHT komplett ignorieren:
-# Ordner sollen versioniert bleiben (z. B. Platzhalter/README),
-# nur große/binary Dateien werden über die Patterns oben ausgeschlossen.
-# assets/downloads/
-# downloads/
+# --- Logs / Temp ---
+*.log
+*.tmp
+
+# --- Standard: Binär-/Lieferartefakte generell ignorieren ---
+*.zip
+*.xlsx
+*.ods
+
+# --- Ausnahme: Lieferdateien im Ordner "downloads" sollen versioniert werden ---
+!/downloads/*.zip
+!/downloads/*.xlsx
+!/downloads/*.ods
+
+# Optional: falls du mal nur den Ordner ohne Dateien committen willst
+!/downloads/.gitkeep
