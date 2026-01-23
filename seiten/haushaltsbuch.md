@@ -82,6 +82,28 @@ Die ruhige, theoretische Einordnung
 findest du auf der Pillar-Seite:
 👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
 
+---
+
+## Wenn du tiefer gehen willst (optional)
+
+Wenn du nicht „mehr“ machen willst,
+sondern nur besser verstehst,
+gibt es hier zwei passende Unterseiten:
+
+- 👉 **[Haushaltsbuch-Vorlage (kostenlos) – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
+- 👉 **[Haushaltsbuch in Excel/LibreOffice – technische Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)**
+
+Du kannst beide Seiten ignorieren,
+ohne dass dir etwas fehlt.
+
+---
+
+## Downloads (derzeit deaktiviert)
+
+Templates und Downloads sind aktuell bewusst deaktiviert.
+Freischaltung erst,
+wenn alles „Switch-ready“ geprüft ist.
+
 Du kannst diese Seite
 einfach wieder verlassen,
 ohne etwas tun zu müssen.
