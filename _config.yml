@@ -15,6 +15,7 @@ defaults:
       layout: "default"
 
 exclude:
+  # Projekt-spezifisch
   - "tools"
   - "docs"
   - "freeze"
@@ -22,3 +23,12 @@ exclude:
   - "audit"
   - "_export_zips"
   - "README.md"
+
+  # Build-/Dependency-Ordner (wichtig für GitHub Actions + Bundler)
+  - "vendor"
+  - "vendor/bundle"
+  - "vendor/cache"
+  - "vendor/gems"
+  - "vendor/ruby"
+  - ".bundle"
+  - "node_modules"
