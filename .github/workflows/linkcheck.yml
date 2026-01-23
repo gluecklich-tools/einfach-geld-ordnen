@@ -18,37 +18,33 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "Setup Ruby"
+      # GitHub Pages nutzt aktuell Ruby 3.3.x (und Jekyll 3.10.0) – siehe Versionsliste.
+      # Wir bauen hier bundler-basiert, damit Plugins (z.B. jekyll-seo-tag für {% seo %}) sicher geladen werden.
+      - name: "Setup Ruby (Bundler cache)"
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          ruby-version: "3.3"
+          bundler-cache: true
 
-      - name: "Install dependencies (no Gemfile-safe)"
-        shell: bash
-        run: |
-          set -euo pipefail
-          gem install jekyll --no-document
-          gem install html-proofer --no-document
-
-      - name: "Build site (Jekyll)"
+      - name: "Build site (Jekyll via Bundler)"
         shell: bash
         env:
           JEKYLL_ENV: "production"
         run: |
           set -euo pipefail
           rm -rf "_site"
-          jekyll build
+          bundle exec jekyll build
 
-      - name: "Linkcheck (internal only, SHARP, baseurl-aware)"
+      - name: "Linkcheck (internal only, baseurl-aware)"
         shell: bash
         run: |
           set -euo pipefail
           TARGET="./_site"
 
-          # GitHub Pages Project Site: /einfach-geld-ordnen/ -> /
+          # Project Site baseurl: /einfach-geld-ordnen/  -> server-root /
           SWAP="^/einfach-geld-ordnen$:/,^/einfach-geld-ordnen/:/"
 
-          htmlproofer "$TARGET" \
+          bundle exec htmlproofer "$TARGET" \
             --assume-extension \
             --check-html \
             --only-4xx \
