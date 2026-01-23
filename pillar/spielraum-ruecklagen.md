@@ -1,105 +1,109 @@
 ---
 layout: default
-title: "Spielraum & Rücklagen - Sicherheit ohne Druck"
+title: "Spielraum & Rücklagen – realistisch einordnen"
 permalink: /pillar/spielraum-ruecklagen.html
+nav_group: pillar
+nav_order: 50
 ---
 
-## Überblick
+# Spielraum & Rücklagen – realistisch einordnen
 
-Finanzieller Spielraum und Rücklagen schaffen
-**Sicherheit, Ruhe und Entscheidungsfreiheit**.
+Es gibt im Haushalt Dinge, die **fest** sind (Fixkosten).
+Und es gibt Dinge, die **schwanken** oder **unerwartet** kommen.
 
-Diese Pillar-Seite erklärt die **Grundlogik hinter Spielraum und Rücklagen** –
-ohne konkrete Beträge, ohne Sparziele, ohne Handlungsdruck.
+Diese Seite ist kein Plan.
+Sie ist nur eine Einordnung:
 
-Ziel ist **Einordnung**, nicht Aufforderung.
-
----
-
-## Was mit Spielraum gemeint ist
-
-**Spielraum** ist das Geld,
-das nach allen festen Verpflichtungen
-**real verfügbar** bleibt.
-
-Er entsteht nicht durch Optimierung,
-sondern durch **Übersicht**.
-
-Spielraum bedeutet:
-
-- Luft zum Atmen
-- Entscheidungen ohne Stress
-- weniger Druck zum Monatsende
+**Spielraum** und **Rücklagen** sind der Teil,
+der im Alltag oft am meisten Druck macht – obwohl er genau dafür da ist, Druck zu nehmen.
 
 ---
 
-## Was Rücklagen leisten
+## Worum es hier geht
 
-**Rücklagen** sind kein Sparziel,
-sondern ein **Sicherheitspuffer**.
+Viele Menschen denken bei Rücklagen an Disziplin.
+Oder an „ich muss erst alles richtig machen“.
 
-Sie dienen dazu:
+Hier ist die ruhigere Sicht:
 
-- unerwartete Ausgaben abzufedern
-- Druck aus Entscheidungen zu nehmen
-- finanzielle Stabilität zu schaffen
+- Rücklagen sind **kein Ziel**.
+- Rücklagen sind **ein Puffer**.
+- Ein Puffer ist manchmal klein.
+- Manchmal ist er gar nicht da.
+- Und das sagt nichts über deinen Wert aus.
 
-Rücklagen geben Zeit –
-und Zeit ist finanzielle Ruhe.
+Spielraum bedeutet nicht Luxus.
+Spielraum bedeutet oft nur:
 
----
-
-## Wichtige Unterscheidung
-
-- **Spielraum** betrifft den Alltag
-- **Rücklagen** betreffen Ausnahmen
-
-Beides hat unterschiedliche Aufgaben,
-aber dieselbe Grundlage:
-**Klarheit über die eigenen Zahlen**.
+**„Es reicht, um nicht sofort in Stress zu geraten.“**
 
 ---
 
-## Rolle im Gesamtsystem
+## Was dazu gehört
 
-Spielraum und Rücklagen kommen **erst nach der Übersicht**:
+Typische Bereiche in diesem Feld sind:
 
-1. Fixkosten sind geklärt
-2. Einnahmen und Ausgaben sind sichtbar
-3. Der Haushalt ist verständlich
+- Unregelmäßige Ausgaben (z. B. Reparaturen, Ersatz, Arzt, Schule)
+- Jahres- und Halbjahreskosten (z. B. Versicherungen, Gebühren)
+- Kleine Puffer im Monat (z. B. „ein bisschen Luft“)
+- Rücklagen für absehbare Dinge (z. B. Kleidung, Haushalt, Geräte)
 
-Erst dann ergibt es Sinn,
-über Spielraum oder Rücklagen nachzudenken.
-
----
-
-## Wichtige Einordnung
-
-Diese Seite sagt dir **nicht**:
-
-- wie viel du sparen solltest
-- wie groß Rücklagen sein müssen
-- was „richtig“ oder „falsch“ ist
-
-Sie erklärt ausschließlich,
-**warum Spielraum und Rücklagen überhaupt entstehen können**.
+Wichtig:
+Diese Liste ist nicht vollständig.
+Sie ist nur ein Bild.
 
 ---
 
-## Von der Einordnung zur Praxis
+## Kein Auftrag, keine Aufgabe
 
-Konkrete, alltagstaugliche Beispiele
-findest du auf der zugehörigen Praxisseite:
+Du musst hier nichts ausrechnen.
+Du musst nichts „anlegen“.
+Du musst nichts entscheiden.
 
-👉 **[Spielraum & Rücklagen – praktisch einordnen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)**
+Wenn du beim Lesen nur merkst:
+
+„Ah. Das ist ein eigener Bereich.“
+
+… dann reicht das vollkommen.
 
 ---
 
-## Einordnung im Gesamtkonzept
+## Ein einfacher Gedanke, der oft hilft
 
-Diese Seite bildet den **Übergang von Übersicht zu Stabilität**.
+Wenn Rücklagen fehlen, wirkt es wie ein persönliches Versagen.
 
-Sie schließt die inhaltliche Logik ab
-und bereitet den letzten Schritt vor:
+In Wirklichkeit ist es oft nur Mathe:
 
-→ **[Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)**
+- Fixkosten sind da.
+- Alltag ist da.
+- Und dann bleibt manchmal nichts übrig.
+
+Das ist nicht selten.
+Und es ist nicht „falsch“.
+
+Diese Einordnung kann helfen,
+Druck aus dem Thema zu nehmen,
+bevor man überhaupt etwas verändert.
+
+---
+
+## Wie es weitergeht
+
+Der nächste Schritt zeigt,
+wie man Ordnung **halten** kann,
+ohne ständig nachzuschärfen oder durchzuhalten.
+
+👉 **Weiter zu Ordnung halten**  
+[Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+
+---
+
+Du kannst hier aufhören.
+
+Wenn du magst, findest du unten drei saubere Wege – ohne Umwege.
+
+- [Überblick ohne Zahlen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Pillar-Überblick]({{ site.baseurl }}/pillar/index.html)
+- [Praxisübersicht]({{ site.baseurl }}/seiten/index.html)
+
+**Downloads:** derzeit deaktiviert (Templates noch im Feinschliff. Freischaltung erst bei Switch-ready).
