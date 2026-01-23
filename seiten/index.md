@@ -37,11 +37,11 @@ und nicht als Programm.
 Die folgenden Seiten behandeln jeweils
 **einen Bereich für sich**:
 
-- Fixkosten  
-- Haushaltsbuch  
-- Haushaltsüberblick  
-- Spielraum & Rücklagen  
-- Ordnung halten  
+- 👉 **[Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
+- 👉 **[Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)**
+- 👉 **[Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)**
+- 👉 **[Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)**
+- 👉 **[Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)**
 
 Du kannst jede Seite einzeln lesen.  
 Es gibt **keine vorgeschriebene Reihenfolge**.
