@@ -1,109 +1,48 @@
 ---
 layout: default
-title: "Haushaltsbuch - Einordnung für Anfänger"
+title: "Haushaltsbuch – Überblick"
 permalink: /seiten/haushaltsbuch.html
 ---
 
-Ein Haushaltsbuch ist kein Kontrollinstrument
-und kein Mittel zur Selbstdisziplinierung.
+## Haushaltsbuch – Überblick
 
-In diesem Projekt ist es lediglich
-ein **mögliches Werkzeug zur Orientierung**.
+Hier ist der zentrale Einstieg für alles rund um das Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
 
-Diese Seite erklärt nicht,
-wie man ein Haushaltsbuch führt
-und fordert nicht dazu auf,
-eins zu beginnen.
+**Stand:** 2026-01-23  
+**Hinweis:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
 
 ---
 
-## Worum es hier geht
+## Schnellstart
 
-Manche Menschen möchten Zahlen
-nicht nur gedanklich einordnen,
-sondern sie für sich sichtbar machen.
+- **Vollversion (10 €) – kommt bald (noch ohne Bezahl-Link):**  
+  [Zur Landing Page]( {{ '/seiten/haushaltsbuch-vollversion.html' | relative_url }} )
 
-Ein Haushaltsbuch kann dabei helfen –
-muss es aber nicht.
-
-Diese Seite dient nur dazu,
-**die Rolle eines Haushaltsbuchs im Gesamtsystem zu erklären**.
+- **Kostenlose Light-Vorlage – kommt später (ohne Downloads):**  
+  [Statusseite]( {{ '/seiten/haushaltsbuch-vorlage-kostenlos.html' | relative_url }} )
 
 ---
 
-## Ein Werkzeug, kein Einstieg
+## Inhalte / Grundlagen
 
-Ein Haushaltsbuch ist hier:
+Wenn du erst verstehen willst, wie ein Haushaltsbuch sinnvoll aufgebaut ist:
 
-- kein Startpunkt  
-- kein Pflichtschritt  
-- kein Beweis für Ordnung  
-
-Es ist ein Werkzeug,
-das man **kennen darf**,
-ohne es zu benutzen.
+- [Haushaltsbuch in Excel einfach erklärt]( {{ '/seiten/haushaltsbuch-excel.html' | relative_url }} )
+- [Fixkosten Übersicht]( {{ '/seiten/fixkosten-uebersicht.html' | relative_url }} )
+- [Monatliche Ausgaben]( {{ '/seiten/monatliche-ausgaben.html' | relative_url }} )
+- [Nebenkosten Miete]( {{ '/seiten/nebenkosten-miete.html' | relative_url }} )
+- [Stromkosten Haushalt]( {{ '/seiten/stromkosten-haushalt.html' | relative_url }} )
 
 ---
 
-## Verschiedene Formen – gleiche Rolle
+## Wichtige Projektregeln (kurz)
 
-Ein Haushaltsbuch kann viele Formen haben:
-digital, auf Papier,
-einfach oder detailliert.
-
-Welche Form jemand nutzt
-oder ob überhaupt,
-spielt für dieses Projekt
-keine entscheidende Rolle.
-
-Wichtig ist nur zu verstehen,
-**wofür ein Haushaltsbuch gedacht ist** –
-und wofür nicht.
+- **Noch keine Bezahl-Links, kein Verkauf** (nur „kommt bald“)
+- **ODS ist Master**, XLSX ist **1:1 Export**
+- **Kein Support** – Ziel ist **DAU-sicher**
 
 ---
 
-## Wichtige Einordnung
+## Zur Projekt-Übersicht
 
-Ein Haushaltsbuch sorgt nicht automatisch für Ordnung.
-Es ersetzt kein Denken
-und keine Entscheidungen.
-
-Es kann lediglich helfen,
-Zusammenhänge greifbarer zu machen,
-wenn man das möchte.
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite gehört zur **Praxis-Ebene**.
-
-Die ruhige, theoretische Einordnung
-findest du auf der Pillar-Seite:
-👉 **[Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)**
-
----
-
-## Wenn du tiefer gehen willst (optional)
-
-Wenn du nicht „mehr“ machen willst,
-sondern nur besser verstehst,
-gibt es hier zwei passende Unterseiten:
-
-- 👉 **[Haushaltsbuch-Vorlage (kostenlos) – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)**
-- 👉 **[Haushaltsbuch in Excel/LibreOffice – technische Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)**
-
-Du kannst beide Seiten ignorieren,
-ohne dass dir etwas fehlt.
-
----
-
-## Downloads (derzeit deaktiviert)
-
-Templates und Downloads sind aktuell bewusst deaktiviert.
-Freischaltung erst,
-wenn alles „Switch-ready“ geprüft ist.
-
-Du kannst diese Seite
-einfach wieder verlassen,
-ohne etwas tun zu müssen.
+- [Zur Übersicht]( {{ '/pillar/index.html' | relative_url }} )
