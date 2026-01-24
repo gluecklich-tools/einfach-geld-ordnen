@@ -6,10 +6,12 @@ permalink: /seiten/monatliche-ausgaben.html
 
 # Monatliche Ausgaben – Einordnung ohne Druck
 
-Monatliche Ausgaben sind Kosten, die im Alltag anfallen und **nicht fest gebunden** sind.
+Monatliche Ausgaben sind Kosten, die im Alltag anfallen und **nicht vertraglich fixiert** sind.
 
 Diese Seite dient nicht dazu, sie zu erfassen, zu kontrollieren oder zu verändern.  
 Sie hilft nur, **ihre Rolle im Haushalt zu verstehen**.
+
+Kurz gesagt: **Hier geht es um Einordnung – nicht um Kontrolle.**
 
 ---
 
@@ -45,7 +47,7 @@ Diese Seite fordert nicht dazu auf, alles festzuhalten oder zu beobachten.
 Sie sagt nur:  
 *Diese Ausgaben existieren – und sie beeinflussen das Gesamtbild.*
 
-Mehr muss an dieser Stelle nicht passieren.
+Mehr ist an dieser Stelle nicht nötig.
 
 ---
 
@@ -66,7 +68,7 @@ und auch dann nur als **Teil des Ganzen**.
 
 Wenn du als Nächstes den Alltag noch etwas klarer strukturieren willst:
 
-- [Variable Ausgaben – Überblick]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+- [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 - [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 Wenn du lieber bei Fixkosten weiterliest:
@@ -74,13 +76,10 @@ Wenn du lieber bei Fixkosten weiterliest:
 - [Nebenkosten der Miete – Einordnung]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Stromkosten im Haushalt – Einordnung]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
-Wenn du zurück zum Einstieg willst:
-
-- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
 ---
 
 ## Zur Orientierung
 
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
