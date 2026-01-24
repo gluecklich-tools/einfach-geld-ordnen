@@ -10,7 +10,7 @@ Finanzieller Spielraum und Rücklagen werden oft mit Zielen, Vorgaben oder Erwar
 
 Diese Seite tut das nicht.
 
-Sie ordnet lediglich ein, **was mit Spielraum und Rücklagen gemeint ist**  
+Sie ordnet nur ein, **was mit Spielraum und Rücklagen gemeint ist**  
 und warum beides **Teil eines Haushalts** sein kann.
 
 Kurz gesagt: **Spielraum ist ein Ergebnis** – und **Rücklagen sind eine Möglichkeit**, keine Pflicht.
@@ -25,6 +25,8 @@ Beides ist Teil der Realität.
 
 Diese Seite bewertet nicht, wie groß dieser Spielraum sein sollte  
 oder ob er „ausreicht“.
+
+Hier geht es um **Einordnung**, nicht um Kontrolle.
 
 ---
 
@@ -91,4 +93,5 @@ Wenn du zurück zu den Grundlagen willst:
 ## Zur Orientierung
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
