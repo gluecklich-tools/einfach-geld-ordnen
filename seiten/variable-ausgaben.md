@@ -6,23 +6,23 @@ permalink: /seiten/variable-ausgaben.html
 
 # Variable Ausgaben – Einordnung ohne Druck
 
-Variable Ausgaben sind Kosten, die **schwanken**.  
-Sie sind nicht vertraglich fixiert – und sie sind von Monat zu Monat oft unterschiedlich.
+Variable Ausgaben sind Kosten, die **unregelmäßig** sind oder **stark schwanken**.  
+Sie sind nicht so stabil planbar wie Fixkosten – und von Monat zu Monat oft unterschiedlich.
 
 Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
-Kurz gesagt: **Hier geht es um Einordnung – nicht um Kontrolle.**
+Hier geht es um **Einordnung** – nicht um Kontrolle.
 
 ---
 
 ## Abgrenzung (kurz)
 
 - **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
-  Sie können stabil sein oder schwanken.  
+  Sie können mal höher oder niedriger sein, sind aber oft „ähnlich“.  
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
-- **Variable Ausgaben** sind Ausgaben, die stärker schwanken oder unregelmäßig auftreten.
+- **Variable Ausgaben** sind Ausgaben, die **unregelmäßig** auftreten oder **stärker schwanken**.
 
 Beides gehört zum echten Leben – ohne Bewertung.
 
@@ -35,7 +35,7 @@ Oft unbemerkt, oft nebenbei.
 
 Das ist normal und kein Zeichen von Unordnung.
 
-Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“  
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –  
 oder ob etwas „zu viel“ ist.
 
 ---
