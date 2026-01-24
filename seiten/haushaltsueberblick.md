@@ -13,7 +13,7 @@ Nicht im Detail.
 Nicht als Bewertung.  
 Nicht als Aufgabe.
 
-Kurz gesagt: **Hier geht es um Zusammenhang – nicht um Urteil.**
+Hier geht es um **Zusammenhang** – nicht um Urteil.
 
 ---
 
@@ -24,7 +24,7 @@ Ein Haushalt besteht aus mehreren Bereichen, die zusammenwirken.
 Diese Seite bringt sie **gedanklich zusammen** –  
 ohne etwas zu berechnen und ohne etwas zu entscheiden.
 
-Sie zeigt nur: *So hängt alles miteinander zusammen.*
+Sie zeigt: *So hängt alles miteinander zusammen.*
 
 ---
 
@@ -33,7 +33,7 @@ Sie zeigt nur: *So hängt alles miteinander zusammen.*
 Ein Überblick ist kein Ergebnis.  
 Er ist eine Momentaufnahme.
 
-Er sagt nichts darüber, was richtig oder falsch ist  
+Er sagt nichts darüber, was richtig oder falsch ist –  
 und auch nichts darüber, was geändert werden müsste.
 
 Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
