@@ -7,29 +7,29 @@ permalink: /index.html
 ## Willkommen
 
 Hier geht es nicht um Zahlen, Optimierung oder Druck.  
-Hier geht es darum, **erst einmal anzukommen**.
+Hier geht es darum, erst einmal anzukommen.
 
 Viele Menschen haben genug von komplizierten Finanzsystemen.  
-Dieses Projekt beginnt bewusst **ohne Rechnen** und **ohne Entscheidungen**.
+Dieses Projekt beginnt bewusst ohne Rechnen und ohne Entscheidungen.
 
 Du musst nichts vorbereiten.  
 Du musst nichts verstehen.  
-Du musst nichts ändern.
+Du musst nichts aendern.
 
 ---
 
 ## Ein ruhiger Einstieg
 
-Der erste Schritt ist ein Überblick, **ohne Zahlen**.  
-Er hilft dir, Ordnung zu sehen, **bevor** irgendetwas bewertet wird.
+Der erste Schritt ist ein Ueberblick, ohne Zahlen.  
+Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
 
-👉 **Nächster Schritt:**  
-[Überblick ohne Zahlen öffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+Naechster Schritt:  
+[Ueberblick ohne Zahlen oeffnen]({{ "/pillar/haushaltsueberblick.html" | relative_url }})
 
 ---
 
 <nav class="secondary-nav">
-  <a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen</a> ·
-  <a href="{{ site.baseurl }}/pillar/der-weg.html">Der Weg</a> ·
-  <a href="{{ site.baseurl }}/pillar/haushaltsbuch.html">Haushaltsbuch</a>
+  <a href="{{ "/pillar/einfach-geld-ordnen.html" | relative_url }}">Grundlagen</a> ·
+  <a href="{{ "/seiten/der-weg.html" | relative_url }}">Der Weg</a> ·
+  <a href="{{ "/seiten/haushaltsbuch.html" | relative_url }}">Haushaltsbuch</a>
 </nav>
