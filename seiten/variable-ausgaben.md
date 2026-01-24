@@ -1,93 +1,79 @@
 ---
-layout: default
-title: "Variable Ausgaben - Einordnung ohne Druck"
+layout: page
+title: Variable Ausgaben – Einordnung ohne Druck
 permalink: /seiten/variable-ausgaben.html
 ---
 
-Variable Ausgaben sind Kosten,
-die sich verändern
-und **nicht fest gebunden** sind.
+# Variable Ausgaben – Einordnung ohne Druck
 
-Diese Seite erklärt nicht,
-wie man sie erfasst,
-kontrolliert
-oder beeinflusst.
+Variable Ausgaben sind Kosten, die **schwanken**.  
+Sie sind nicht fest gebunden – und sie sind von Monat zu Monat oft unterschiedlich.
 
-Sie dient ausschließlich dazu,
-**ihre Rolle im Haushalt einzuordnen**.
+Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
+Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
+
+---
+
+## Abgrenzung (kurz)
+
+- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig anfallen.  
+  → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+- **Variable Ausgaben** sind Ausgaben, die stärker schwanken oder unregelmäßig auftreten.
+
+Beides gehört zum echten Leben – ohne Bewertung.
 
 ---
 
 ## Worum es hier geht
 
-Variable Ausgaben entstehen im Alltag.
-Oft unbemerkt,
-oft nebenbei.
+Variable Ausgaben entstehen im Alltag.  
+Oft unbemerkt, oft nebenbei.
 
-Das ist normal
-und kein Zeichen von Unordnung.
+Das ist normal und kein Zeichen von Unordnung.
 
-Diese Seite bewertet nicht,
-wie hoch solche Ausgaben sein sollten
-oder ob sie „zu viel“ sind.
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“  
+oder ob etwas „zu viel“ ist.
 
 ---
 
-## Teil des realen Haushalts
+## Beispiele (ohne Checkliste)
 
 Variable Ausgaben können sein:
 
-- Einkaufen und Alltag
+- Einkaufen und Alltag (wenn es stark schwankt)
 - Freizeit und spontane Entscheidungen
-- kleinere Anschaffungen
-- unregelmäßige Ausgaben
+- Kleinere Anschaffungen
+- Unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
 
-Sie sind nicht gut oder schlecht.
-Sie sind **beweglich** –
-und genau deshalb Teil der Realität.
+Das sind Beispiele – keine Pflichtliste.
 
 ---
 
-## Einordnung statt Überblick
+## Einordnung statt Kontrolle
 
-Diese Seite fordert nicht dazu auf,
-Ausgaben zu sammeln,
-zu beobachten
-oder auszuwerten.
+Diese Seite fordert nicht dazu auf, Ausgaben zu sammeln oder auszuwerten.
 
-Sie sagt nur:
-*Diese Ausgaben existieren
-und sie wirken im Gesamtbild mit.*
+Sie sagt nur:  
+*Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.*
 
-Mehr ist an dieser Stelle
-nicht notwendig.
+Mehr ist an dieser Stelle nicht nötig.
 
 ---
 
-## Wichtige Einordnung
+## Wie es weitergeht (wenn du möchtest)
 
-Variable Ausgaben sind:
+Wenn du danach den „Puffer“ im Haushalt ruhig einordnen willst:
 
-- kein Optimierungsfeld  
-- kein Sparziel  
-- kein Kontrollbereich  
+- [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
-Sie werden erst dann relevant,
-wenn man den Haushalt insgesamt betrachtet –
-und auch dann nur als **Teil des Ganzen**.
+Wenn du zurück zum Einstieg willst:
+
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 ---
 
-## Einordnung im Gesamtsystem
+## Zur Orientierung
 
-Diese Seite gehört zur **Praxis-Ebene**.
-
-Sie ergänzt die Fixkosten,
-ohne einen nächsten Schritt auszulösen.
-
-Die Zusammenführung aller Bereiche
-ist eine spätere Einordnung –
-oder kann auch ganz entfallen.
-
-Du kannst diese Seite
-einfach wieder verlassen.
+- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Startseite]({{ site.baseurl }}/seiten/index.html)
