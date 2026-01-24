@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Spielraum & Rücklagen – realistisch einordnen"
+title: "Spielraum & Rücklagen - realistisch einordnen"
 permalink: /pillar/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
 ---
 
-# Spielraum & Rücklagen – realistisch einordnen
+# Spielraum & Rücklagen - realistisch einordnen
 
 Es gibt im Haushalt Dinge, die **fest** sind (Fixkosten).
 Und es gibt Dinge, die **schwanken** oder **unerwartet** kommen.
@@ -89,21 +89,12 @@ bevor man überhaupt etwas verändert.
 
 ## Wie es weitergeht
 
-Der nächste Schritt zeigt,
-wie man Ordnung **halten** kann,
-ohne ständig nachzuschärfen oder durchzuhalten.
-
 👉 **Weiter zu Ordnung halten**  
-[Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+[Ordnung halten - ohne Druck]({{ "/pillar/ordnung-halten.html" | relative_url }})
 
 ---
 
-Du kannst hier aufhören.
-
-Wenn du magst, findest du unten drei saubere Wege – ohne Umwege.
-
-- [Überblick ohne Zahlen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Pillar-Überblick]({{ site.baseurl }}/pillar/index.html)
-- [Praxisübersicht]({{ site.baseurl }}/seiten/index.html)
-
-**Downloads:** derzeit deaktiviert (Templates noch im Feinschliff. Freischaltung erst bei Switch-ready).
+## Navigation
+- **Zurück:** [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Ordnung halten - ohne Druck]({{ "/pillar/ordnung-halten.html" | relative_url }})

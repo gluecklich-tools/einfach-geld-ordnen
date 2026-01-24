@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ordnung halten - ohne Druck
+title: "Ordnung halten - ohne Druck"
 permalink: /pillar/ordnung-halten.html
 ---
 
@@ -51,5 +51,9 @@ wie dieses Projekt aufgebaut ist.
 Es gibt keinen nächsten zwingenden Schritt.  
 Du kannst bleiben, zurückgehen oder aufhören.
 
-👉 **Zurück zum Einstieg**  
-[Startseite öffnen]({{ site.baseurl }}/index.html)
+---
+
+## Navigation
+- **Zurück:** [Spielraum & Rücklagen]({{ "/pillar/spielraum-ruecklagen.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Überblick]({{ "/pillar/index.html" | relative_url }})

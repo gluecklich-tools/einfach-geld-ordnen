@@ -30,6 +30,20 @@ Starte mit den Grundlagen, damit du weißt, *was wohin gehört*:
 
 ---
 
+## Der Kern-Flow (damit du dich nicht im Kreis drehst)
+
+Wenn du einfach nur Orientierung willst, folge dieser Reihenfolge – ohne Druck:
+
+1) [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
+2) [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)  
+3) [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)  
+4) [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)  
+5) [Haushaltsüberblick – Einordnung]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+Du kannst jederzeit abbrechen. Das System läuft nicht weg.
+
+---
+
 ## Grundlagen (ruhig verstehen, ohne Druck)
 
 Wenn du zuerst verstehen willst, **wofür ein Haushaltsbuch da ist** und wie man es sinnvoll denkt:
@@ -48,8 +62,8 @@ Weitere Themen, wenn du sie brauchst:
 - **ODS ist Master** (LibreOffice-first)
 - **XLSX ist 1:1 Export** (für Excel-Nutzer)
 
-Wenn du Excel nutzt oder unsicher bist:
-- [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+Wenn du Excel nutzt oder unsicher bist:  
+→ [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ---
 
@@ -62,6 +76,9 @@ Wenn du Excel nutzt oder unsicher bist:
 
 ---
 
-## Zur Projekt-Übersicht
+## Zur Orientierung
 
 - [Zur Startseite]({{ site.baseurl }}/seiten/index.html)
+- [Qualität & Prinzipien]({{ site.baseurl }}/seiten/qualitaet.html)
+- [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
+- [Ordnung halten – wenn sie hilft]({{ site.baseurl }}/seiten/ordnung-halten.html)

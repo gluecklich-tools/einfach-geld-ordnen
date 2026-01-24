@@ -1,82 +1,26 @@
 ---
 layout: default
-title: "Einfach Geld ordnen - Grundlagen finanzieller Ordnung"
+title: "Einfach Geld ordnen - Einstieg"
 permalink: /pillar/einfach-geld-ordnen.html
+order: 1
+next: /seiten/der-weg.html
 ---
 
-## Überblick
+## Einfach Geld ordnen
 
-Diese Pillar-Seite erklärt,
-**wie finanzielle Ordnung grundsätzlich entsteht**
-und wie Fixkosten, variable Ausgaben, Einnahmen und Übersicht
-zusammenwirken.
+Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
 
-Sie vermittelt die **Grundlogik finanzieller Ordnung**
-in ruhiger, verständlicher Form –
-ohne Handlungsdruck, ohne Rechnen, ohne Optimieren.
+- **Wenn du starten willst:**  
+  → [Pillar-Start: Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen-haushaltsbuch.html" | relative_url }})
 
-Ziel dieser Seite ist **Verstehen**, nicht sofortiges Tun.
+- **Wenn du den geführten Weg willst:**  
+  → [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
 
----
-
-## Die Grundlagen finanzieller Ordnung
-
-Finanzielle Klarheit entsteht nicht durch viele Regeln,
-sondern durch das Zusammenspiel weniger Bereiche.
-
-Diese Grundlagen bilden das Fundament:
-
-1. **Fixkosten**  
-   → alles, was regelmäßig und fest gebunden ist  
-
-2. **Variable Ausgaben**  
-   → Kosten mit Spielraum und Schwankung  
-
-3. **Einnahmen**  
-   → alles, was real zur Verfügung steht  
-
-4. **Übersicht**  
-   → Zusammenführung aller Zahlen in einem Gesamtbild  
-
-5. **Spielraum & Rücklagen**  
-   → realistische Bewertung dessen, was möglich ist  
-
-Diese Bereiche wirken **nicht isoliert**.  
-Sie greifen ineinander und bauen logisch aufeinander auf.
+- **Zur Übersicht (Hub):**  
+  → [Überblick]({{ "/pillar/index.html" | relative_url }})
 
 ---
 
-## Warum diese Grundlagen wichtig sind
-
-Viele Menschen versuchen zu sparen, zu kürzen oder zu optimieren,
-ohne das Gesamtsystem ihres Haushalts zu verstehen.
-
-Das führt häufig zu:
-
-- Unsicherheit  
-- Frust  
-- widersprüchlichen Entscheidungen  
-
-Ohne klare Grundlagen bleibt jede Maßnahme zufällig.
-
-Diese Seite schafft die **gedankliche Basis**,
-auf der alle weiteren Themen sinnvoll aufbauen.
-
----
-
-## Von der Grundlage zur Praxis
-
-Der **erste praktische Einstieg**
-beginnt mit den festen Ausgaben im Haushalt.
-
-👉 [Zu den Fixkosten – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite gehört zur **Pillar-Ebene**.
-
-Sie erklärt die grundlegenden Zusammenhänge
-und bildet das **theoretische Fundament**
-für alle praktischen Seiten dieses Projekts.
+## Navigation
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})

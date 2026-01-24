@@ -1,64 +1,31 @@
 ---
-layout: page
-title: Haushaltsbuch – kostenlose Vorlage
+layout: default
+title: "Kostenlose Haushaltsbuch Excel Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
-# Haushaltsbuch – kostenlose Vorlage (kommt bald)
+## Kostenlose Haushaltsbuch-Vorlage
 
-Die **kostenlose Light-Version** der Haushaltsbuch-Vorlage ist in Vorbereitung.
+Hier bekommst du die Vorlage kostenlos zum Download.
 
-Aktuell ist diese Seite bewusst **ohne Download**, bis alles sauber getestet ist – damit du später **keine kaputte/halbfertige Vorlage** erwischst und dich nicht ärgerst.
+## Download
 
----
+<div style="margin:1.5rem 0;">
+  <a href="{{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }}"
+     class="button"
+     download
+     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
+    📊 Excel-Haushaltsbuch kostenlos herunterladen
+  </a>
+</div>
 
-## Was du später hier bekommst (Light-Version)
+## Wenn du wissen willst, wie du es nutzt
 
-- **ODS als Master-Datei** (LibreOffice-first)
-- **XLSX als 1:1 Export** (für Excel-Nutzer)
-- **Einfacher Einstieg** (wenige Funktionen, schnell verstanden)
-- **Kurzes Beispiel:** „So nutzt du es in einem Monat“ (optional)
-- **Kurzanleitung**: „So startest du“ (self-serve)
-
-Ziel: Du kannst **ohne Stress** starten – und später bei Bedarf erweitern.
-
----
-
-## Schnellstart (jetzt möglich)
-
-Wenn du heute schon anfangen willst, nutze:
-
-- **Hub / Einstieg:**  
-  [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-- **Grundlagen (ruhig, ohne Druck):**  
-  [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
-  [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+→ [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ---
 
-## Light vs. Vollversion (kurz & fair)
-
-**Light** ist für den Einstieg: weniger Funktionen, sehr klar, schnell verstanden.  
-**Vollversion** ist für dauerhaftes Nutzen: mehr Struktur, mehr Übersicht, langfristig stabil.
-
-Wenn du später prüfen willst, ob die Vollversion besser passt:
-→ [Haushaltsbuch Vollversion – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
----
-
-## Grenzen (wie überall im Projekt)
-
-- Keine Rechts- oder Steuerberatung
-- Kein Einrichtungs-Service, kein individueller Support
-- Das System ist **self-serve**: du bekommst klare Schritte und Vorlagen, du setzt es selbst um
-
----
-
-## Zur Startseite
-
-[Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
-
----
-
-**Stand:** 2026-01-24
+## Navigation
+- **Zurück:** [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})

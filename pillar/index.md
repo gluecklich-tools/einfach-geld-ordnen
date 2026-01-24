@@ -1,89 +1,39 @@
 ---
 layout: default
-title: "Einfach Geld ordnen - Überblick & Start"
+title: "Einfach Geld ordnen - Überblick"
+h1: "Einfach Geld ordnen - Überblick"
 permalink: /pillar/index.html
 ---
 
-## Überblick
+## Start hier (klar & ohne Umwege)
 
-Diese Seite ist der **Startpunkt der Pillar-Ebene**.
+Wenn du gerade anfangen willst, folge diesem Weg:
 
-Sie erklärt,
-**wie die einzelnen Themen zusammenhängen**,
-warum es eine feste Reihenfolge gibt
-und welche Rolle jede Säule im Gesamtsystem spielt.
+1. **Pillar-Start (Kurzüberblick + 10-Minuten-Start)**  
+   → [Einfach Geld ordnen - Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen-haushaltsbuch.html" | relative_url }})
 
-Keine Anleitung.  
-Kein Handlungsdruck.  
-Nur Orientierung.
+2. **Geführter Weg (Schritt für Schritt, ohne Schleifen)**  
+   → [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
 
----
-
-## Aufbau des Projekts
-
-„Einfach Geld ordnen“ besteht aus zwei klar getrennten Ebenen:
-
-- **Pillar-Seiten**  
-  → erklären Zusammenhänge, Logik und Reihenfolge
-
-- **Seiten**  
-  → zeigen die konkrete Umsetzung im Alltag
-
-Diese Seite gehört zur **Pillar-Ebene**.
+3. **Direkt zur Excel-Datei (wenn du schon weißt, was du tust)**  
+   → [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 ---
 
-## Die zentralen Themen im System
+## Themencluster (direkte Einstiege)
 
-Alle Inhalte bauen logisch aufeinander auf.  
-Jede Säule erklärt **ihre Bedeutung**, nicht die Umsetzung:
+### Haushaltsbuch
+- [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- [Kostenlose Haushaltsbuch-Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
+- [Pillar: Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen-haushaltsbuch.html" | relative_url }})
 
-1. **Der Weg**  
-   → warum Reihenfolge entscheidend ist  
-   → wie Klarheit Schritt für Schritt entsteht
-
-2. **Fixkosten**  
-   → das feste Fundament des Haushalts
-
-3. **Haushaltsbuch**  
-   → Zahlen sammeln, ohne zu bewerten
-
-4. **Haushaltsüberblick**  
-   → alles zu einem Gesamtbild verbinden
-
-5. **Spielraum & Rücklagen**  
-   → Möglichkeiten realistisch einordnen
-
-6. **Ordnung halten**  
-   → Struktur langfristig stabilisieren
+### Kosten
+- [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+- [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
+- [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
 
 ---
 
-## Zentrale Einordnung
-
-Die Pillar-Seiten beantworten immer nur eine Frage:
-
-> **Warum ist dieser Schritt wichtig?**
-
-Das **Wie** findest du ausschließlich
-auf den dazugehörigen Praxis-Seiten.
-
----
-
-## Wechsel zur Praxis-Ebene
-
-Wenn du direkt mit der Umsetzung beginnen möchtest,
-beginne mit den festen Ausgaben im Haushalt:
-
-👉 **[Zu den Fixkosten – Überblick & Ordnung]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite verbindet alle Pillar-Themen
-zu einer **ruhigen Gesamtübersicht**.
-
-Sie dient als Orientierungspunkt,
-wenn du Zusammenhänge verstehen
-oder dich im System neu einordnen willst.
+## Navigation
+- **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})

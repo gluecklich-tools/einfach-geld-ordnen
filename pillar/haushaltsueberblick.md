@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Haushaltsüberblick - ohne Zahlen
+title: "Haushaltsüberblick - ohne Zahlen"
 permalink: /pillar/haushaltsueberblick.html
 ---
 
@@ -44,8 +44,12 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Wie es weitergeht
 
-Der nächste Schritt macht einen einzelnen Bereich sichtbar,  
-ohne ihn zu bewerten oder zu verändern.
-
 👉 **Weiter zu den Fixkosten**  
-[Fixkosten im Haushalt – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+[Fixkosten im Haushalt - Überblick]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+
+---
+
+## Navigation
+- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})

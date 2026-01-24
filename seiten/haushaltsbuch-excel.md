@@ -1,47 +1,33 @@
 ---
 layout: default
-title: "Haushaltsbuch in Excel/LibreOffice - optionales Werkzeug"
+title: "Haushaltsbuch in Excel einfach erklärt"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
 
-Ein Haushaltsbuch kann helfen, **Zusammenhänge sichtbar zu machen**.
+## Haushaltsbuch in Excel
 
-Es ist kein Kontrollinstrument
-und kein Schritt, der erledigt werden muss.
+Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.
 
-Diese Seite ist eine **Unterseite** zur Praxis-Seite „Haushaltsbuch“.
-Sie richtet sich an Menschen, die sich für die **technische Umsetzung** interessieren
-(Excel / LibreOffice) – ohne Druck, ohne Pflicht.
+## Download
 
----
+<div style="margin:1.5rem 0;">
+  <a href="{{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }}"
+     class="button"
+     download
+     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
+    📊 Excel-Haushaltsbuch kostenlos herunterladen
+  </a>
+</div>
 
-## Worum es hier geht (kurz)
+## Weiterführende Seiten (ohne Schleifen)
 
-Manche möchten Zahlen nicht nur lesen,
-sondern sie in einer Tabelle so sehen,
-dass sie ruhiger entscheiden können.
-
-Excel/LibreOffice kann dabei helfen,
-wenn man das möchte.
-
-Mehr nicht.
-
----
-
-## Downloads (noch nicht freigeschaltet)
-
-**Downloads sind aktuell deaktiviert**, bis die Vorlagen dem finalen Qualitätsstandard entsprechen.  
-Freischaltung erst, wenn **nur noch der Switch umgelegt werden muss**.
+- Schritt 1: [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- Schritt 2: [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+- Details: [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }}) · [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
 
 ---
 
-## Wie es weitergeht (optional)
-
-- 👉 **Zurück zur Haushaltsbuch-Praxis-Seite (Hub)**  
-  [Haushaltsbuch – Einordnung für Anfänger]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-- 👉 **Ruhige Einordnung (Pillar)**  
-  [Haushaltsbuch – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsbuch.html)
-
-- 👉 **Praxisübersicht**  
-  [Alle Praxis-Themen]({{ site.baseurl }}/seiten/index.html)
+## Navigation
+- **Zurück:** [Der Weg - Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
