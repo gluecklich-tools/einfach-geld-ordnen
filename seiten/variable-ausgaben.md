@@ -7,10 +7,12 @@ permalink: /seiten/variable-ausgaben.html
 # Variable Ausgaben – Einordnung ohne Druck
 
 Variable Ausgaben sind Kosten, die **schwanken**.  
-Sie sind nicht fest gebunden – und sie sind von Monat zu Monat oft unterschiedlich.
+Sie sind nicht vertraglich fixiert – und sie sind von Monat zu Monat oft unterschiedlich.
 
 Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
+
+Kurz gesagt: **Hier geht es um Einordnung – nicht um Kontrolle.**
 
 ---
 
@@ -44,8 +46,8 @@ Variable Ausgaben können sein:
 
 - Einkaufen und Alltag (wenn es stark schwankt)
 - Freizeit und spontane Entscheidungen
-- kleinere Anschaffungen
-- unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
+- Kleinere Anschaffungen
+- Unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
 
 Das sind Beispiele – keine Pflichtliste.
 
@@ -72,13 +74,10 @@ Wenn du einen Nachbarbereich lesen willst:
 
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
-Wenn du zurück zum Einstieg willst:
-
-- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
 ---
 
 ## Zur Orientierung
 
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
