@@ -1,67 +1,51 @@
 ---
-layout: default
-title: "Finanzieller Spielraum & Rücklagen - Einordnung ohne Druck"
+layout: page
+title: Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
 permalink: /seiten/spielraum-ruecklagen.html
 ---
 
-Finanzieller Spielraum und Rücklagen
-werden oft mit Zielen,
-Vorgaben
-oder Erwartungen verbunden.
+# Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
+
+Finanzieller Spielraum und Rücklagen werden oft mit Zielen, Vorgaben oder Erwartungen verbunden.
 
 Diese Seite tut das nicht.
 
-Sie ordnet lediglich ein,
-**was mit Spielraum und Rücklagen gemeint ist
-und warum sie Teil eines Haushalts sein können**.
+Sie ordnet lediglich ein, **was mit Spielraum und Rücklagen gemeint ist**  
+und warum beides **Teil eines Haushalts** sein kann.
 
 ---
 
 ## Worum es hier geht
 
-Spielraum beschreibt,
-dass nach allen festen und beweglichen Kosten
-manchmal etwas übrig bleibt –
-und manchmal nicht.
+Spielraum beschreibt, dass nach allen festen und beweglichen Kosten manchmal etwas übrig bleibt – und manchmal nicht.
 
 Beides ist Teil der Realität.
 
-Diese Seite bewertet nicht,
-wie groß dieser Spielraum sein sollte
+Diese Seite bewertet nicht, wie groß dieser Spielraum sein sollte  
 oder ob er „ausreicht“.
 
 ---
 
 ## Spielraum als Ergebnis, nicht als Ziel
 
-Spielraum entsteht,
-wenn Zusammenhänge klar geworden sind.
+Spielraum entsteht, wenn Zusammenhänge klarer geworden sind.
 
-Er ist kein Vorhaben
-und kein Zustand,
-der erreicht werden muss.
+Er ist kein Vorhaben und kein Zustand, der erreicht werden muss.
 
-Er zeigt sich,
-wenn Überblick vorhanden ist –
-oder bleibt aus,
-wenn das gerade nicht der Fall ist.
+Er zeigt sich, wenn Überblick vorhanden ist –  
+oder bleibt aus, wenn das gerade nicht der Fall ist.
 
 ---
 
 ## Rücklagen – ohne Erwartung
 
-Rücklagen sind kein Pflichtbestand
-und kein Maßstab für Sicherheit.
+Rücklagen sind kein Pflichtbestand und kein Maßstab für Sicherheit.
 
-Sie sind eine Möglichkeit,
-mit Unvorhergesehenem umzugehen,
-**wenn** es gerade passt.
+Sie sind eine Möglichkeit, mit Unvorhergesehenem umzugehen, **wenn** es gerade passt.
 
-Manche Monate erlauben Rücklagen.
-Andere nicht.
+Manche Monate erlauben Rücklagen. Andere nicht.
 
-Beides ist normal
-und kein Hinweis auf richtig oder falsch.
+Beides ist normal und kein Hinweis auf richtig oder falsch.
 
 ---
 
@@ -73,8 +57,7 @@ Spielraum und Rücklagen sind:
 - kein Fortschrittsmaß  
 - kein Stabilitätsversprechen  
 
-Sie sind **Begriffe zur Einordnung**,
-nicht zur Bewertung.
+Sie sind **Begriffe zur Einordnung**, nicht zur Bewertung.
 
 ---
 
@@ -82,12 +65,22 @@ nicht zur Bewertung.
 
 Diese Seite gehört zur **Praxis-Ebene**.
 
-Sie ergänzt das Verständnis des Haushalts,
-ohne einen nächsten Schritt auszulösen.
+Sie ergänzt das Verständnis des Haushalts, ohne einen nächsten Schritt auszulösen.
 
-Die ruhige, theoretische Einordnung
-findest du auf der Pillar-Seite:
-👉 **[Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)**
+Wenn du die ruhige, theoretische Einordnung lesen willst:
+👉 [Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
-Du kannst diese Seite
-einfach wieder verlassen.
+---
+
+## Wie es weitergeht (wenn du möchtest)
+
+Wenn du zurück zu den Grundlagen willst:
+
+- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+
+Wenn du zurück zum Einstieg willst:
+
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Startseite]({{ site.baseurl }}/seiten/index.html)
