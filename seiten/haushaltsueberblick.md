@@ -6,87 +6,41 @@ permalink: /seiten/haushaltsueberblick.html
 
 # Haushaltsüberblick – Einordnung ohne Druck
 
-Der Haushaltsüberblick hat einen einzigen Zweck: **das Gesamtbild zu sehen**.
+Der Haushaltsüberblick ist kein „Controlling“.  
+Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsätzlich aussieht**.
 
-Nicht im Detail.  
-Nicht als Bewertung.  
-Nicht als Aufgabe.
-
-Kurz gesagt: **Zusammenhang statt Urteil.**
+Nicht perfekt. Nicht endgültig.  
+Nur: **sichtbar**.
 
 ---
 
-## Worum es hier geht
+## Worum es wirklich geht
 
-Ein Haushalt besteht aus Bereichen, die zusammenwirken.
+Ein Überblick hilft vor allem bei einem Punkt:
 
-Diese Seite bringt sie **gedanklich zusammen** –  
-ohne etwas zu berechnen und ohne etwas entscheiden zu müssen.
+Du siehst, ob dein Alltag grundsätzlich **tragbar** ist –  
+ohne dich in Details zu verlieren.
 
-Sie zeigt nur: *So hängt das miteinander zusammen.*
+Typisch reicht eine grobe Sicht:
 
----
-
-## Überblick statt Ergebnis
-
-Ein Überblick ist kein Ergebnis.  
-Er ist eine Momentaufnahme.
-
-Er sagt nichts darüber, was richtig oder falsch ist –  
-und auch nichts darüber, was „geändert werden müsste“.
-
-Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
+- Fixkosten (steht fest)
+- Monatliche Ausgaben (Alltag)
+- Variable Ausgaben (schwankt)
+- Spielraum / Rücklagen (Sicherheit)
 
 ---
 
-## Keine Anleitung
+## Das Ziel ist nicht „perfekt“
 
-Diese Seite gibt **keinen Ablauf** vor.  
-Keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
+Wenn etwas nicht passt, ist das kein persönliches Versagen.  
+Dann zeigt der Überblick nur: *Hier ist Druck im System.*
 
-Wenn du Zahlen schon gesammelt hast, kannst du sie hier gedanklich zusammenführen.  
-Wenn nicht, ist das ebenso in Ordnung.
-
----
-
-## Wichtige Einordnung
-
-Der Haushaltsüberblick ist:
-
-- kein Kontrollinstrument  
-- kein Budgetplan  
-- kein Entscheidungshelfer  
-
-Er ist eine **Orientierungshilfe**, die Ruhe schaffen kann,  
-weil sie Zusammenhänge sichtbar macht.
+Das ist wertvoll – weil es **endlich sichtbar** wird.
 
 ---
 
-## Einordnung im Gesamtsystem
+## Navigation
 
-Diese Seite gehört zur **Praxis-Ebene**.
-
-Sie steht zwischen *Einzelbetrachtung* und *Einordnung* –  
-ohne selbst etwas zu verlangen.
-
-Wenn du die theoretische Einordnung lesen willst:  
-[Haushaltsüberblick – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-
----
-
-## Wie es weitergeht (wenn du möchtest)
-
-Wenn du einen Teilbereich ruhig einordnen willst:
-
-- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
-Wenn du zurück zum Einstieg willst:
-
-- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
----
-
-## Zur Orientierung
-
-- [Startseite]({{ site.baseurl }}/seiten/index.html)
+- **Zurück:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)

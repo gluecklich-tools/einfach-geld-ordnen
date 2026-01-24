@@ -1,89 +1,56 @@
 ---
-layout: default
-title: "Ordnung halten - Einordnung ohne Pflicht"
+layout: page
+title: Ordnung halten – wenn sie hilft (ohne Druck)
 permalink: /seiten/ordnung-halten.html
 ---
 
-Ordnung muss nicht gehalten werden,
-damit sie richtig ist.
+# Ordnung halten – wenn sie hilft (ohne Druck)
 
-Diese Seite beschreibt keinen Anspruch
-und keine Erwartung.
+Ordnung ist kein Ziel an sich.  
+Sie ist nur dann gut, wenn sie **entlastet**.
 
-Sie ordnet nur ein,
-**was Ordnung im Alltag sein kann –
-und was nicht**.
+Diese Seite ist bewusst ruhig:  
+kein System, keine Regeln, keine App-Empfehlungen.
 
----
+Nur ein Gedanke:
 
-## Worum es hier geht
-
-Finanzielle Ordnung verschwindet oft wieder.
-Nicht, weil etwas falsch gemacht wurde,
-sondern weil sich Alltag verändert.
-
-Das ist normal.
-
-Diese Seite versucht nicht,
-das zu verhindern.
-Sie erklärt nur,
-warum Ordnung **kein Dauerzustand** sein muss,
-um hilfreich zu sein.
+**Ordnung soll dir dienen – nicht umgekehrt.**
 
 ---
 
-## Ordnung ohne Verpflichtung
+## Wenn Ordnung hilft
 
-Ordnung bedeutet hier nicht:
+Ordnung kann helfen, wenn sie…
 
-- feste Routinen
-- regelmäßige Pflege
-- gleichbleibende Abläufe
-
-Ordnung kann auch heißen:
-*Ich weiß ungefähr, wo ich stehe.*
-
-Mehr braucht es nicht.
+- Entscheidungen vereinfacht
+- Stress reduziert
+- Wiederholungen ersetzt („ich muss nicht jedes Mal neu anfangen“)
+- Sicherheit gibt („ich finde es wieder“)
 
 ---
 
-## Wenn Ordnung da ist – und wenn nicht
+## Wenn Ordnung nicht hilft
 
-Manchmal ist Ordnung hilfreich.
-Manchmal rückt sie in den Hintergrund.
+Ordnung hilft nicht, wenn sie…
 
-Beides ist in Ordnung.
+- Druck macht („ich muss es perfekt machen“)
+- Schuld erzeugt („ich bin schlecht, weil ich es nicht schaffe“)
+- zum Dauerthema wird (statt zum Werkzeug)
 
-Diese Seite verlangt nicht,
-dass Ordnung erhalten bleibt.
-Sie erlaubt,
-dass sie kommen und gehen darf.
+Dann ist weniger oft mehr.
 
 ---
 
-## Wichtige Einordnung
+## Optional: der ruhige Text (Pillar)
 
-Ordnung ist:
+Wenn du dazu einen ruhigen, grundsätzlichen Text willst:
 
-- kein Ziel  
-- kein Zustand, der gesichert werden muss  
-- kein Maßstab für „richtiges“ Verhalten  
-
-Sie ist eine **Orientierung**, mehr nicht.
+👉 [Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
 ---
 
-## Einordnung im Gesamtsystem
+## Navigation
 
-Diese Seite gehört zur **Praxis-Ebene**.
-
-Sie bildet keinen Abschluss
-und keinen nächsten Schritt.
-
-Die ruhige, grundsätzliche Einordnung
-findest du auf der Pillar-Seite:
-👉 **[Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)**
-
-Du kannst diese Seite
-einfach wieder verlassen,
-ohne etwas tun zu müssen.
+- **Zurück:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Startseite]({{ site.baseurl }}/index.html)
