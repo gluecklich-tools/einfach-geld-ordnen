@@ -6,10 +6,10 @@ permalink: /seiten/haushaltsbuch-vollversion.html
 
 # Haushaltsbuch Vollversion – kommt bald
 
-**Status:** Produkt & Landing werden gerade finalisiert.  
-**Noch kein Verkauf, keine Bezahl-Links.**
+**Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert – **noch kein Verkauf, keine Bezahl-Links**  
+**Preis (geplant):** 10 € einmalig
 
-Eine Vollversion für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist – ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
+Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist – ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
 
 ---
 
@@ -25,7 +25,7 @@ Eine **Haushaltsbuch-Datei**, mit der du deine Finanzen so ordnest, dass du **Fi
 - **XLSX als 1:1 Export** (für Excel/andere Tools)
 - **Klare Struktur**: Fixkosten, variable Ausgaben, Rücklagen/Spielraum
 - **Kurzanleitung**: „So nutzt du es“ (kurz, verständlich)
-- **Beispielmonat** (optional): damit du sofort siehst, wie es gedacht ist
+- **Beispielmonat** (optional): damit du sofort siehst, wie es gedacht ist (kannst du einfach löschen)
 - **Versionierung**: Datei-Version + Changelog, damit Updates nachvollziehbar bleiben
 
 Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
@@ -34,8 +34,8 @@ Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
 
 ## So startest du (self-serve)
 
-1) Vorlage öffnen (ODS oder XLSX)  
-2) Fixkosten + 1–2 Alltagsposten eintragen (zum Reinkommen)  
+1) Datei öffnen (ODS oder XLSX)  
+2) Fixkosten eintragen + 1–2 Alltagsposten (zum Reinkommen)  
 3) Am Monatsende kurz prüfen: Was war Fix, was war Alltag, was bleibt als Spielraum?
 
 Mehr ist zum Start nicht nötig.
