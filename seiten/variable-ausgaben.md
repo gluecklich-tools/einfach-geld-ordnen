@@ -6,8 +6,8 @@ permalink: /seiten/variable-ausgaben.html
 
 # Variable Ausgaben – Einordnung ohne Druck
 
-Variable Ausgaben sind Kosten, die **unregelmäßig** sind oder **stark schwanken**.  
-Sie sind nicht so stabil planbar wie Fixkosten – und von Monat zu Monat oft unterschiedlich.
+Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.  
+Sie können in manchen Monaten kaum vorkommen – und in anderen deutlich ins Gewicht fallen.
 
 Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
@@ -19,10 +19,10 @@ Hier geht es um **Einordnung** – nicht um Kontrolle.
 ## Abgrenzung (kurz)
 
 - **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
-  Sie können mal höher oder niedriger sein, sind aber oft „ähnlich“.  
+  Sie sind oft wiederkehrend (aber nicht fest gebunden).  
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
-- **Variable Ausgaben** sind Ausgaben, die **unregelmäßig** auftreten oder **stärker schwanken**.
+- **Variable Ausgaben** sind Ausgaben, die **außerplanmäßig** sind oder **stärker schwanken**.
 
 Beides gehört zum echten Leben – ohne Bewertung.
 
@@ -44,10 +44,10 @@ oder ob etwas „zu viel“ ist.
 
 Variable Ausgaben können sein:
 
-- Einkaufen und Alltag (wenn es stark schwankt)
-- Freizeit und spontane Entscheidungen
-- Kleinere Anschaffungen
-- Unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
+- Unregelmäßige Anschaffungen (Ersatzkäufe, Reparaturen)
+- Schwankende Mobilität (z. B. ungeplante Fahrten)
+- Gesundheit / Apotheke (wenn es unregelmäßig anfällt)
+- Geschenke, besondere Termine, spontane Entscheidungen
 
 Das sind Beispiele – keine Pflichtliste.
 
@@ -70,7 +70,7 @@ Wenn du danach den „Puffer“ im Haushalt ruhig einordnen willst:
 
 - [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
-Wenn du einen Nachbarbereich lesen willst:
+Wenn du zurück zum Alltagsteil willst:
 
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
