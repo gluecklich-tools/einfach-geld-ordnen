@@ -41,8 +41,8 @@ Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
 
 ## Keine Anleitung
 
-Diese Seite gibt **keinen Ablauf** vor:  
-keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
+Diese Seite gibt **keinen Ablauf** vor.  
+Keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
 
 Wenn du Zahlen schon gesammelt hast, kannst du sie hier gedanklich zusammenführen.  
 Wenn nicht, ist das ebenso in Ordnung.
@@ -80,11 +80,13 @@ Wenn du einen Teilbereich ruhig einordnen willst:
 
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+
+Wenn du zurück zum Einstieg willst:
+
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 ---
 
 ## Zur Orientierung
 
-- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
