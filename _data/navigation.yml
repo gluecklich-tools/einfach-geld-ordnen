@@ -1,33 +1,49 @@
 # Navigation (Single Source of Truth)
 # Regel: Alle internen URLs sind .html und werden im Layout mit {{ item.url | relative_url }} gerendert.
-# Premium-UX: Top-Navigation zeigt den Haupt-Flow. Optional-Seiten nicht als Hauptpunkte.
+# Premium-UX: Top-Navigation zeigt nur den Haupt-Flow. Alles Weitere steckt unter "Mehr" (Progressive Disclosure).
 
 - title: "Überblick"
-  url: "/pillar/index.html"
+  url: "/index.html"
+  group: "main"
 
 - title: "Der Weg"
   url: "/seiten/der-weg.html"
+  group: "main"
 
 - title: "Haushaltsbuch"
   url: "/seiten/haushaltsbuch.html"
+  group: "main"
 
-- title: "Fixkosten"
+- title: "Kosten"
   url: "/seiten/fixkosten-uebersicht.html"
-
-- title: "Monatliche Ausgaben"
-  url: "/seiten/monatliche-ausgaben.html"
-
-- title: "Variable Ausgaben"
-  url: "/seiten/variable-ausgaben.html"
-
-- title: "Spielraum & Rücklagen"
-  url: "/seiten/spielraum-ruecklagen.html"
-
-- title: "Haushaltsüberblick"
-  url: "/seiten/haushaltsueberblick.html"
+  group: "main"
 
 - title: "Ordnung halten"
   url: "/seiten/ordnung-halten.html"
+  group: "main"
+
+# --- Mehr (sekundär) ---
+
+- title: "Monatliche Ausgaben"
+  url: "/seiten/monatliche-ausgaben.html"
+  group: "more"
+
+- title: "Variable Ausgaben"
+  url: "/seiten/variable-ausgaben.html"
+  group: "more"
+
+- title: "Spielraum & Rücklagen"
+  url: "/seiten/spielraum-ruecklagen.html"
+  group: "more"
+
+- title: "Haushaltsüberblick"
+  url: "/seiten/haushaltsueberblick.html"
+  group: "more"
 
 - title: "Vorlage kostenlos"
   url: "/seiten/haushaltsbuch-vorlage-kostenlos.html"
+  group: "more"
+
+- title: "Pillar-Übersicht (lesen)"
+  url: "/pillar/index.html"
+  group: "more"

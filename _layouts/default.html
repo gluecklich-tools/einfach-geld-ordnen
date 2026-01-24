@@ -1,41 +1,63 @@
----
----
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>{{ page.title }} – {{ site.title }}</title>
-
-    {% seo %}
-
-    <!-- Basis-Styling -->
-    <link rel="stylesheet" href="{{ '/assets/base.css' | relative_url }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} – {% endif %}Einfach Geld ordnen</title>
+    <link rel="stylesheet" href="{{ "/assets/base.css" | relative_url }}" />
   </head>
   <body>
-
     <header class="site-header">
-      <nav class="site-nav__inner" aria-label="Hauptnavigation">
-        <a class="brand" href="{{ '/index.html' | relative_url }}">{{ site.title }}</a>
+      <div class="container">
+        <a class="site-title" href="{{ "/index.html" | relative_url }}">Einfach Geld ordnen</a>
 
-        {% if site.data.navigation %}
+        {% assign nav_all = site.data.navigation | default: empty %}
+        {% assign nav_main = nav_all | where: "group", "main" %}
+        {% assign nav_more = nav_all | where: "group", "more" %}
+
+        <nav class="site-nav" aria-label="Hauptnavigation">
           <ul class="nav-list">
-            {% for item in site.data.navigation %}
-              <li>
-                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% for item in nav_main %}
+              {% assign is_current = false %}
+              {% if page.url == item.url %}
+                {% assign is_current = true %}
+              {% endif %}
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="{{ item.url | relative_url }}"
+                  {% if is_current %}aria-current="page"{% endif %}
+                >{{ item.title }}</a>
               </li>
             {% endfor %}
           </ul>
-        {% endif %}
-      </nav>
+
+          {% if nav_more and nav_more.size > 0 %}
+            <details class="nav-more">
+              <summary class="nav-more-summary">Mehr</summary>
+              <div class="nav-more-panel" role="menu" aria-label="Mehr Navigation">
+                {% for item in nav_more %}
+                  {% assign is_current = false %}
+                  {% if page.url == item.url %}
+                    {% assign is_current = true %}
+                  {% endif %}
+                  <a
+                    class="nav-more-link"
+                    href="{{ item.url | relative_url }}"
+                    {% if is_current %}aria-current="page"{% endif %}
+                    role="menuitem"
+                  >{{ item.title }}</a>
+                {% endfor %}
+              </div>
+            </details>
+          {% endif %}
+        </nav>
+      </div>
     </header>
 
-    <main class="container content">
+    <main class="container">
       {{ content }}
-
       {% include flow-footer.html %}
     </main>
-
   </body>
 </html>
