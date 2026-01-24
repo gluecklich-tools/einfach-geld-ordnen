@@ -34,3 +34,4 @@ Thumbs.db
 
 # Optional: falls du mal nur den Ordner ohne Dateien committen willst
 !/downloads/.gitkeep
+/audit/
