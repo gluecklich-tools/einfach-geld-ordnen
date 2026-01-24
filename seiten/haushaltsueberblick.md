@@ -13,6 +13,8 @@ Nicht im Detail.
 Nicht als Bewertung.  
 Nicht als Aufgabe.
 
+Kurz gesagt: **Hier geht es um Zusammenhang – nicht um Urteil.**
+
 ---
 
 ## Worum es hier geht
@@ -68,8 +70,8 @@ Diese Seite gehört zur **Praxis-Ebene**.
 Sie steht zwischen *Einzelbetrachtung* und *Einordnung* –  
 ohne selbst etwas zu verlangen.
 
-Wenn du die theoretische Einordnung lesen willst:
-👉 [Haushaltsüberblick – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+Wenn du die theoretische Einordnung lesen willst:  
+[Haushaltsüberblick – Rolle und Bedeutung im System]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 
 ---
 
@@ -80,7 +82,9 @@ Wenn du einen Teilbereich ruhig einordnen willst:
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
-Wenn du zurück zum Einstieg willst:
+---
+
+## Zur Orientierung
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
