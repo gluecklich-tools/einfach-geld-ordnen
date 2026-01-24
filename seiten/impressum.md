@@ -6,10 +6,10 @@ permalink: /seiten/impressum.html
 
 ## Anbieterkennzeichnung
 
-Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
+Angaben gem&auml;&szlig; &sect; 5 DDG (Digitale-Dienste-Gesetz) :contentReference[oaicite:1]{index=1}
 
 **Carsten Czoske**  
-Talstraße 7  
+Talstra&szlig;e 7  
 47445 Moers  
 Deutschland
 
@@ -18,22 +18,22 @@ Deutschland
 Telefon: **015111188796**  
 E-Mail: **czoske.carsten@web.de**
 
-## Verantwortlich für den Inhalt
+## Verantwortlich f&uuml;r den Inhalt
 
-Verantwortlich gemäß § 18 Abs. 2 MStV (Medienstaatsvertrag):  
-**Carsten Czoske**, Talstraße 7, 47445 Moers
+Verantwortlich gem&auml;&szlig; &sect; 18 Abs. 2 MStV (Medienstaatsvertrag):  
+**Carsten Czoske**, Talstra&szlig;e 7, 47445 Moers
 
-## Haftung für Inhalte
+## Haftung f&uuml;r Inhalte
 
-Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt.  
-Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen.
+Die Inhalte dieser Website wurden mit gr&ouml;&szlig;ter Sorgfalt erstellt.  
+F&uuml;r die Richtigkeit, Vollst&auml;ndigkeit und Aktualit&auml;t der Inhalte kann ich jedoch keine Gew&auml;hr &uuml;bernehmen.
 
-## Haftung für Links
+## Haftung f&uuml;r Links
 
-Diese Website enthält Links zu externen Websites Dritter. Auf deren Inhalte habe ich keinen Einfluss.  
-Für diese fremden Inhalte kann ich daher keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
+Diese Website enth&auml;lt Links zu externen Websites Dritter. Auf deren Inhalte habe ich keinen Einfluss.  
+F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
 
 ## Urheberrecht
 
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  
-Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdrücklich anders angegeben.
+Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.

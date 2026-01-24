@@ -1,6 +1,6 @@
 # STARTTEXT – Neuer Arbeitschat (Einfach Geld ordnen)
 
-**Stand:** 2026-01-23 (Europe/Berlin)
+**Stand:** 2026-01-24 (Europe/Berlin)
 
 Kopiere diesen Text als erste Nachricht in einen neuen Arbeitschat:
 
@@ -16,7 +16,7 @@ Verbindliche Regeln:
 - **Dateinamen ASCII-only** (`a-z0-9-_`), Permalink = Dateiname (mit `.html`).
 
 Phase 2 Ziele (noch ohne Scharf-Schalten):
-- **Vollversion zuerst:** ODS Master + XLSX 1:1 Export, DAU-sicher, kein Support.
+- **Vollversion zuerst:** ODS Master + XLSX 1:1 Export, **einsteigerfreundlich**, kein individueller Support.
 - **Noch kein Verkauf:** keine Bezahl-Links, nur „kommt bald“.
 - **Brand-Hub:** `gluecklich.me` (WEB.DE) als Weiterleitung auf einen Hub (keine Bezahl-Links).
 
