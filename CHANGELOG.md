@@ -10,7 +10,8 @@ Changelog-Seite (Web): https://gluecklich-tools.github.io/einfach-geld-ordnen/se
 
 ## 2026-01-24
 - Phantom-Link-Fix: QA-Gate-Link zeigt korrekt auf `{{ site.baseurl }}/seiten/index.html` (Actions wieder grün).
-- Datenschutz-Absicherung: Finanzen/Nachweise werden nicht im öffentlichen Repo geführt (`FINANZEN_README.md` + Betriebshandbuch).
+- Governance fixiert: **immer kompletter Full-Swap** als verbindlicher Standard (LEARNINGS + QA-Gate + Betriebshandbuch).
+- Datenschutz-Absicherung: Finanzen/Nachweise nicht im öffentlichen Repo (`FINANZEN_README.md`).
 
 ## 2026-01-23
 - Phase 2: Vollversion-Landing + Hub (noch ohne Verkauf).
