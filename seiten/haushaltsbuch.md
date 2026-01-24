@@ -1,48 +1,55 @@
 ---
 layout: page
-title: Haushaltsbuch &ndash; &Uuml;berblick
+title: Haushaltsbuch – Überblick
 permalink: /seiten/haushaltsbuch.html
 ---
 
-# Haushaltsbuch &ndash; &Uuml;berblick
+# Haushaltsbuch – Überblick
 
-Hier ist der zentrale Einstieg f&uuml;r alles rund um das Haushaltsbuch im Projekt **&bdquo;Einfach Geld ordnen&ldquo;**.
+Hier ist der zentrale Einstieg für alles rund um das Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
 
 **Stand:** 2026-01-24  
-**Hinweis:** Phase 2 l&auml;uft &ndash; Vollversion ist in Arbeit, noch ohne Verkauf.
+**Hinweis:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
 
 ---
 
-## Schnellstart
+## Schnellstart (30 Sekunden)
 
-- **Vollversion (10 &euro; einmalig) &ndash; kommt bald (noch ohne Bezahl-Link):**  
-  [Zur Landing Page]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+1) **Wenn du direkt starten willst**  
+→ **Vollversion-Status & Landing** (noch ohne Bezahl-Link)  
+[Zur Vollversion-Seite]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-- **Kostenlose Light-Vorlage &ndash; kommt sp&auml;ter (ohne Download, bis alles getestet ist):**  
-  [Statusseite]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+2) **Wenn du erst mal nur schauen willst**  
+→ **Kostenlose Light-Vorlage** (noch ohne Download, bis alles getestet ist)  
+[Zur Statusseite]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 ---
 
-## Inhalte / Grundlagen
+## Grundlagen (ruhig verstehen, ohne Druck)
 
 Wenn du erst verstehen willst, **wie ein Haushaltsbuch sinnvoll aufgebaut ist**, starte hier:
 
-- [Haushaltsbuch: Worum geht es? (einfach erkl&auml;rt)]({{ site.baseurl }}/pillar/haushaltsbuch.html)
-- [Fixkosten &uuml;bersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Haushaltsbuch: Worum geht es? (einfach erklärt)]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+
+Und wenn du einzelne Bereiche einordnen willst:
+
+- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ---
 
-## Wichtige Projektregeln (kurz)
+## Was du hier (nicht) bekommst – damit es fair bleibt
 
-- Noch keine Bezahl-Links, kein Verkauf (nur &bdquo;kommt bald&ldquo;).
-- ODS ist Master, XLSX ist 1:1 Export.
-- Keine Beratung / kein Setup-Service. Ziel: **selbst&auml;ndig nutzbar**.
+- Noch **keine Bezahl-Links**, kein Verkauf (nur „kommt bald“)
+- **ODS ist Master**, **XLSX ist 1:1 Export**
+- Keine Rechts- oder Steuerberatung
+- Kein Einrichtungs-Service, kein individueller Support  
+  Ziel: **selbstständig nutzbar** (self-serve)
 
 ---
 
-## Zur Projekt-&Uuml;bersicht
+## Zur Projekt-Übersicht
 
-- [Zur Start-/&Uuml;bersichtsseite]({{ site.baseurl }}/seiten/index.html)
+- [Zur Startseite]({{ site.baseurl }}/seiten/index.html)
