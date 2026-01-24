@@ -1,76 +1,40 @@
 ---
-layout: default
-title: "Einfach Geld ordnen - Praxisübersicht"
+layout: page
+title: Start
 permalink: /seiten/index.html
 ---
 
-Diese Seiten gehören zur **Praxis-Ebene** des Projekts
-„Einfach Geld ordnen“.
+# Einfach Geld ordnen
 
-Sie erklären nicht das System
-und sie geben keine Anleitung,
-die abgearbeitet werden muss.
+Hier findest du **klare, einfache Inhalte** und eine **Haushaltsbuch-Vorlage**, mit der du deine Finanzen Schritt f&uuml;r Schritt ordnen kannst.
 
-Sie zeigen lediglich,
-**welche Bereiche ein Haushalt haben kann**
-und wie man sie getrennt betrachten kann.
+**Wichtig (aktuell):**
+- Das Projekt ist in Aufbau. Inhalte werden nach und nach erweitert.
+- Es gibt **keine Beratung** und **keinen Einrichtungs-Service**. Das Ziel ist: Du kannst es selbstst&auml;ndig nutzen.
 
 ---
 
-## Worum es hier geht
+## Schnellstart
 
-Manche Menschen möchten
-ihren Haushalt nicht nur gedanklich verstehen,
-sondern einzelne Bereiche
-konkret ansehen.
+1. Geh zum Haushaltsbuch-Hub:
+   - [Haushaltsbuch &uuml;berblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
-Dafür gibt es diese Seiten.
-
-Nicht als Start,
-nicht als Pflicht
-und nicht als Programm.
+2. Wenn du zuerst Grundlagen willst:
+   - [Fixkosten &uuml;bersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+   - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 ---
 
-## Die Praxis-Themen
+## Projekt-Status
 
-Die folgenden Seiten behandeln jeweils
-**einen Bereich für sich**:
+**Stand:** 2026-01-24
 
-- 👉 **[Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)**
-- 👉 **[Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)**
-- 👉 **[Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)**
-- 👉 **[Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)**
-- 👉 **[Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)**
-
-Du kannst jede Seite einzeln lesen.  
-Es gibt **keine vorgeschriebene Reihenfolge**.
+- Phase 2 l&auml;uft (Light + Vollversion in Arbeit)
+- Noch **kein Verkauf** und **keine Bezahl-Links**
 
 ---
 
-## Kein Einstieg, kein Fortschritt
+## Rechtliches
 
-Du musst hier nicht anfangen.  
-Du musst nichts „durcharbeiten“.  
-Du musst nichts abschließen.
-
-Wenn eine Seite für dich gerade passt,
-kannst du sie öffnen.
-Wenn nicht, kannst du diese Ebene wieder verlassen.
-
----
-
-## Einordnung im Gesamtkonzept
-
-Diese Seite ist eine **ruhige Übersicht**
-über die Praxis-Ebene.
-
-Die grundlegende Einordnung,
-die Logik
-und die Zusammenhänge
-finden sich auf den jeweiligen **Pillar-Seiten**
-dieses Projekts.
-
-Du kannst jederzeit
-zwischen beiden Ebenen wechseln
-oder das Projekt einfach beenden.
+- [Impressum]({{ site.baseurl }}/seiten/impressum.html)
+- [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)

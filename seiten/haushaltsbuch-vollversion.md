@@ -1,71 +1,67 @@
 ---
 layout: page
-title: Haushaltsbuch Vollversion – kommt bald
+title: Haushaltsbuch Vollversion (10 &euro;) &ndash; kommt bald
 permalink: /seiten/haushaltsbuch-vollversion.html
 ---
 
-**Preis:** 10 € (einmalig)  
-**Status:** Produkt & Landing werden gerade fertiggestellt. **Noch kein Verkauf, keine Bezahl-Links.**
+# Haushaltsbuch Vollversion &ndash; kommt bald
 
-Wenn du dein Haushaltsbuch klar, stabil und ohne Schnickschnack willst, ist das die Vollversion.
+**Preis:** 10 &euro; (einmalig)
+
+**Status:** Produkt &amp; Landing werden gerade fertiggestellt. **Noch kein Verkauf, keine Bezahl-Links.**
+
+Wenn du dein Haushaltsbuch **stabil**, **klar** und ohne Schnickschnack willst, ist das die Vollversion.
 
 ---
 
 ## Was du bekommst
 
-- **ODS als Master-Datei** (für LibreOffice optimiert)
-- **XLSX Export 1:1** (für Excel / andere Tools)
+- ODS als Master-Datei (f&uuml;r LibreOffice optimiert)
+- XLSX-Export 1:1 (f&uuml;r Excel / andere Tools)
 - Klare Struktur, damit du sofort loslegen kannst
-- Ziel: übersichtlich und stabil – ohne Spielereien
+- Ziel: stabil, &uuml;bersichtlich, ohne &bdquo;Spielereien&ldquo;
+
+**Wichtig:**
+- Kein Support / kein E-Mail-Support / kein Setup-Service
+- Du bekommst ein fertiges Produkt &ndash; kein Coaching
 
 ---
 
-## Wichtig (fair & klar)
+## F&uuml;r wen ist das?
 
-- **Self-serve:** kein individueller Support per E-Mail, kein Setup-Service  
-- Du bekommst ein fertiges Produkt – **keine Beratung**, kein Coaching
-
----
-
-## Für wen ist das?
-
-- Du willst deine Finanzen einfach ordnen – ohne Abo, ohne App-Zwang
+- Du willst deine Finanzen einfach ordnen, ohne Abo, ohne App-Zwang
 - Du willst eine Datei, die du jeden Monat weiter nutzt
-- Du willst Kontrolle statt Durcheinander
+- Du willst Kontrolle statt Chaos
 
 ---
 
-## Für wen ist das nicht?
+## F&uuml;r wen ist das nicht?
 
-- Wenn du erwartest: „Kannst du mir das einrichten?“
+- Wenn du Support erwartest (&bdquo;Kannst du mir das einrichten?&ldquo;)
 - Wenn du eine App mit Sync/Bank-Anbindung suchst
-- Wenn du möchtest, dass sich alles automatisch „magisch“ erledigt
+- Wenn du etwas willst, das sich &bdquo;magisch selbst macht&ldquo;
 
 ---
 
-## Veröffentlichung / Kauf
+## Ver&ouml;ffentlichung / Kauf
 
-Kaufen ist aktuell noch nicht möglich.  
+Kaufen ist aktuell noch nicht m&ouml;glich.  
 Die Reihenfolge ist fix:
 
 1) Landing + Produkt fertig  
 2) Gewerbe anmelden  
 3) Jobcenter informieren  
-4) **Erst dann** Kaufbutton aktivieren
+4) Erst dann Kaufbutton aktivieren
 
 ---
 
 ## Alternativen bis dahin
 
-- Kostenloser Einstieg (kommt später):  
-  [Kostenlose Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Kostenloser Einstieg (kommt sp&auml;ter):**  
+  [Kostenlose Vorlage &ndash; Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-- Erklär-/Hub-Seite:  
-  [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- **Erkl&auml;r-/Hub-Seite:**  
+  [Haushaltsbuch &ndash; &Uuml;berblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-- Projekt-Übersicht:  
-  [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
-
----
-
-> Stand: 2026-01-24
+- **Aktuell vorhandene Inhalte:**  
+  [Start-/&Uuml;bersicht]({{ site.baseurl }}/seiten/index.html)

@@ -1,32 +1,34 @@
 ---
 layout: page
-title: Haushaltsbuch – Überblick
+title: Haushaltsbuch &ndash; &Uuml;berblick
 permalink: /seiten/haushaltsbuch.html
 ---
 
-Hier ist der zentrale Einstieg für alles rund um das Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
+# Haushaltsbuch &ndash; &Uuml;berblick
+
+Hier ist der zentrale Einstieg f&uuml;r alles rund um das Haushaltsbuch im Projekt **&bdquo;Einfach Geld ordnen&ldquo;**.
 
 **Stand:** 2026-01-24  
-**Hinweis:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
+**Hinweis:** Phase 2 l&auml;uft &ndash; Vollversion ist in Arbeit, noch ohne Verkauf.
 
 ---
 
 ## Schnellstart
 
-- **Vollversion (10 €) – kommt bald (noch ohne Bezahl-Link):**  
+- **Vollversion (10 &euro; einmalig) &ndash; kommt bald (noch ohne Bezahl-Link):**  
   [Zur Landing Page]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-- **Kostenlose Light-Vorlage – kommt später (ohne Downloads):**  
+- **Kostenlose Light-Vorlage &ndash; kommt sp&auml;ter (ohne Download, bis alles getestet ist):**  
   [Statusseite]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 ---
 
 ## Inhalte / Grundlagen
 
-Wenn du erst verstehen willst, wie ein Haushaltsbuch sinnvoll aufgebaut ist:
+Wenn du erst verstehen willst, **wie ein Haushaltsbuch sinnvoll aufgebaut ist**, starte hier:
 
-- [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-- [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Haushaltsbuch: Worum geht es? (einfach erkl&auml;rt)]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+- [Fixkosten &uuml;bersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
@@ -35,12 +37,12 @@ Wenn du erst verstehen willst, wie ein Haushaltsbuch sinnvoll aufgebaut ist:
 
 ## Wichtige Projektregeln (kurz)
 
-- **Noch keine Bezahl-Links, kein Verkauf** (nur „kommt bald“)
-- **ODS ist Master**, XLSX ist 1:1 Export
-- **Self-serve:** keine individuelle Beratung / kein Einrichtungs-Service
+- Noch keine Bezahl-Links, kein Verkauf (nur &bdquo;kommt bald&ldquo;).
+- ODS ist Master, XLSX ist 1:1 Export.
+- Keine Beratung / kein Setup-Service. Ziel: **selbst&auml;ndig nutzbar**.
 
 ---
 
-## Zur Projekt-Übersicht
+## Zur Projekt-&Uuml;bersicht
 
-- [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Zur Start-/&Uuml;bersichtsseite]({{ site.baseurl }}/seiten/index.html)
