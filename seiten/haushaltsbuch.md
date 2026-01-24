@@ -6,20 +6,20 @@ permalink: /seiten/haushaltsbuch.html
 
 # Haushaltsbuch – Überblick
 
-Hier ist der zentrale Einstieg für alles rund um das Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
+Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
 
 **Stand:** 2026-01-24  
-**Hinweis:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
+**Status:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
 
 ---
 
 ## Schnellstart (30 Sekunden)
 
-1) **Wenn du direkt starten willst**  
+**1) Ich will direkt starten (wenn es verfügbar ist)**  
 → **Vollversion-Status & Landing** (noch ohne Bezahl-Link)  
 [Zur Vollversion-Seite]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-2) **Wenn du erst mal nur schauen willst**  
+**2) Ich will erst mal nur schauen (Light kommt später)**  
 → **Kostenlose Light-Vorlage** (noch ohne Download, bis alles getestet ist)  
 [Zur Statusseite]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
@@ -27,11 +27,11 @@ Hier ist der zentrale Einstieg für alles rund um das Haushaltsbuch im Projekt *
 
 ## Grundlagen (ruhig verstehen, ohne Druck)
 
-Wenn du erst verstehen willst, **wie ein Haushaltsbuch sinnvoll aufgebaut ist**, starte hier:
+Wenn du zuerst verstehen willst, **wofür ein Haushaltsbuch da ist** und wie man es sinnvoll denkt:
 
 - [Haushaltsbuch: Worum geht es? (einfach erklärt)]({{ site.baseurl }}/pillar/haushaltsbuch.html)
 
-Und wenn du einzelne Bereiche einordnen willst:
+Wenn du einzelne Bereiche einordnen willst:
 
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
@@ -40,10 +40,19 @@ Und wenn du einzelne Bereiche einordnen willst:
 
 ---
 
-## Was du hier (nicht) bekommst – damit es fair bleibt
+## Dateien & Kompatibilität (kurz)
+
+- **ODS ist Master** (LibreOffice-first)
+- **XLSX ist 1:1 Export** (für Excel-Nutzer)
+
+Wenn du Excel nutzt oder unsicher bist:
+- [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+
+---
+
+## Grenzen (damit es fair bleibt)
 
 - Noch **keine Bezahl-Links**, kein Verkauf (nur „kommt bald“)
-- **ODS ist Master**, **XLSX ist 1:1 Export**
 - Keine Rechts- oder Steuerberatung
 - Kein Einrichtungs-Service, kein individueller Support  
   Ziel: **selbstständig nutzbar** (self-serve)
