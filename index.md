@@ -14,17 +14,17 @@ Dieses Projekt beginnt bewusst ohne Rechnen und ohne Entscheidungen.
 
 Du musst nichts vorbereiten.  
 Du musst nichts verstehen.  
-Du musst nichts aendern.
+Du musst nichts ändern.
 
 ---
 
 ## Ein ruhiger Einstieg
 
-Der erste Schritt ist ein Ueberblick, ohne Zahlen.  
+Der erste Schritt ist ein Überblick, ohne Zahlen.  
 Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
 
-Naechster Schritt:  
-[Ueberblick ohne Zahlen oeffnen]({{ "/pillar/haushaltsueberblick.html" | relative_url }})
+**Nächster Schritt:**  
+[Überblick ohne Zahlen öffnen]({{ "/pillar/haushaltsueberblick.html" | relative_url }})
 
 ---
 
