@@ -16,7 +16,8 @@ Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 ## Abgrenzung (kurz)
 
-- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig anfallen.  
+- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
+  Sie können stabil sein oder schwanken.  
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 - **Variable Ausgaben** sind Ausgaben, die stärker schwanken oder unregelmäßig auftreten.
@@ -43,8 +44,8 @@ Variable Ausgaben können sein:
 
 - Einkaufen und Alltag (wenn es stark schwankt)
 - Freizeit und spontane Entscheidungen
-- Kleinere Anschaffungen
-- Unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
+- kleinere Anschaffungen
+- unregelmäßige Ausgaben (z. B. Reparaturen, Ersatzkäufe)
 
 Das sind Beispiele – keine Pflichtliste.
 
@@ -66,6 +67,10 @@ Mehr ist an dieser Stelle nicht nötig.
 Wenn du danach den „Puffer“ im Haushalt ruhig einordnen willst:
 
 - [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+
+Wenn du einen Nachbarbereich lesen willst:
+
+- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 Wenn du zurück zum Einstieg willst:
 
