@@ -1,32 +1,21 @@
 # CHANGELOG – Einfach Geld ordnen
 
-Dieses Changelog ist eine **kurze, menschenlesbare** Übersicht über Änderungen.
-Die **Details** stehen in den Commit-Messages (Git-Historie).
+Diese Datei ist eine **kurze, menschenlesbare** Änderungsübersicht.
+Technischer Nachweis bleibt zusätzlich immer über die **Git-Historie** nachvollziehbar.
 
----
-
-## [Unreleased]
-- (frei)
+Live-Projekt: https://gluecklich-tools.github.io/einfach-geld-ordnen/  
+Changelog-Seite (Web): https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/changelog.html
 
 ---
 
 ## 2026-01-24
-### Changed
-- Content/QA: Linkcheck-Fixes + Sprach-Polish auf den Seiten (verständlicher, freundlicher, konsistenter).
-- Recht: Impressum/Datenschutz bereinigt und korrekt verlinkt (Footer/Navigation).
-### Removed
-- Audit-Ordner aus dem Repo entfernt und künftig ignoriert (Repo schlank, Nachweis über QA/Learnings/Git).
-
----
+- Content-/Didaktik-Polish über zentrale Seiten (klarer, freundlicher, einsteiger-tauglicher).
+- QA/Linkcheck-Fixes und Konsistenz-Checks.
+- Impressum/Datenschutz sauber eingebunden und verlinkt.
 
 ## 2026-01-23
-### Added
-- Phase 2: Downloads (Light + Vollversion, noch ohne Verkauf) – Infrastruktur/Seiten vorbereitet.
-### Changed
-- Governance/QA-Standards geschärft (Repo-SSoT, Regeln, Klarstellungen).
+- Phase 2: Vollversion-Landing + Hub (noch ohne Verkauf).
+- Governance/SSoT-Regeln & QA-Gates weiter gehärtet.
 
----
-
-## 2026-01-22
-### Changed
-- Technische Basis stabilisiert (Encoding/Line-Endings, Build-Disziplin, Regeln).
+## Grundprinzip
+- Keine Monetarisierung live, bevor Release-Gates grün sind (QA + Newsletter-DoD).
