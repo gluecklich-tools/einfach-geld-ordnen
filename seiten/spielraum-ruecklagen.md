@@ -6,20 +6,18 @@ permalink: /seiten/spielraum-ruecklagen.html
 
 # Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
 
-Finanzieller Spielraum und Rücklagen werden oft mit Zielen, Vorgaben oder Erwartungen verbunden.
+Spielraum und Rücklagen werden oft wie Ziele behandelt.
 
-Diese Seite tut das nicht.
+Diese Seite tut das nicht.  
+Sie ordnet nur ein, **was damit gemeint ist** – und warum beides **Teil eines Haushalts** sein kann.
 
-Sie ordnet nur ein, **was mit Spielraum und Rücklagen gemeint ist**  
-und warum beides **Teil eines Haushalts** sein kann.
-
-Kurz gesagt: **Spielraum ist ein Ergebnis** – und **Rücklagen sind eine Möglichkeit**, keine Pflicht.
+Kurz gesagt: **Spielraum ist ein Ergebnis. Rücklagen sind eine Möglichkeit – keine Pflicht.**
 
 ---
 
 ## Worum es hier geht
 
-Spielraum beschreibt, dass nach allen festen und beweglichen Kosten manchmal etwas übrig bleibt – und manchmal nicht.
+**Spielraum** bedeutet: Nach Fixkosten und beweglichen Ausgaben bleibt manchmal etwas übrig – und manchmal nicht.
 
 Beides ist Teil der Realität.
 
@@ -30,7 +28,7 @@ Hier geht es um **Einordnung**, nicht um Kontrolle.
 
 ---
 
-## Spielraum als Ergebnis, nicht als Ziel
+## Spielraum ist ein Ergebnis
 
 Spielraum entsteht, wenn Zusammenhänge klarer geworden sind.
 
@@ -41,7 +39,7 @@ oder bleibt aus, wenn das gerade nicht der Fall ist.
 
 ---
 
-## Rücklagen – ohne Erwartung
+## Rücklagen sind eine Möglichkeit
 
 Rücklagen sind kein Pflichtbestand und kein Maßstab für Sicherheit.
 
@@ -93,5 +91,4 @@ Wenn du zurück zu den Grundlagen willst:
 ## Zur Orientierung
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
