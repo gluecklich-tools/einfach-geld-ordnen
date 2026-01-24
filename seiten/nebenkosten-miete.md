@@ -25,7 +25,8 @@ Wenn du erst die ruhige Basis lesen willst:
 
 Diese Seite erklärt nicht, wie Nebenkosten optimiert, geprüft oder verändert werden.
 
-Sie hilft nur, **einzuordnen, was Nebenkosten sind** und warum sie **Teil des festen Fundaments** sind.
+Sie hilft nur, **einzuordnen, was Nebenkosten sind**  
+und warum sie **Teil des festen Fundaments** sind.
 
 ---
 
@@ -52,7 +53,7 @@ Nebenkosten werden meist als Abschlag gezahlt.
 Die spätere Abrechnung zeigt, wie sich diese Abschläge zum tatsächlichen Verbrauch verhalten.
 
 Das ist kein Fehler und kein Hinweis auf falsches Verhalten.  
-Es ist lediglich ein Teil der Art, wie Nebenkosten organisiert sind.
+Es ist nur die Art, wie Nebenkosten organisiert sind.
 
 ---
 
@@ -65,15 +66,15 @@ Nebenkosten sind:
 - kein Arbeitsbereich  
 
 Sie sind ein **fester Bestandteil** der monatlichen Belastung  
-und werden deshalb bei den Fixkosten mitgedacht – nicht „bearbeitet“.
+und werden deshalb bei den Fixkosten mitgedacht – nicht bearbeitet.
 
 ---
 
 ## Wie es weitergeht (wenn du möchtest)
 
-Wenn du als nächstes einen verwandten Bereich ruhig einordnen willst:
+Wenn du als Nächstes einen verwandten Bereich ruhig einordnen willst:
 
-- [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Stromkosten im Haushalt – Einordnung ohne Druck]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 Wenn du zurück zum Einstieg willst:
 
@@ -83,11 +84,12 @@ Wenn du zurück zum Einstieg willst:
 
 ## Einordnung im Gesamtsystem
 
-Die grundlegende Einordnung findest du hier:  
-👉 [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+Die grundlegende Einordnung findest du hier:
+
+- [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 ---
 
 ## Zur Startseite
 
-- [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Startseite]({{ site.baseurl }}/seiten/index.html)
