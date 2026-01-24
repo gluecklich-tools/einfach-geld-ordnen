@@ -1,6 +1,7 @@
 # .gitignore – einfach-geld-ordnen
-# Stand: 2026-01-23
+# Stand: 2026-01-24
 # Ziel: Jekyll/Repo sauber halten + Downloads (ODS/XLSX/ZIP) explizit erlauben
+# Zusätzlich: lokale Sicherungen/Private Ablagen sicher vom Commit ausschließen
 
 # --- Jekyll / Ruby ---
 _site/
@@ -34,4 +35,8 @@ Thumbs.db
 
 # Optional: falls du mal nur den Ordner ohne Dateien committen willst
 !/downloads/.gitkeep
-/audit/
+
+# --- Local-only / Private (niemals committen) ---
+_lokal_sicherungen/
+_private/
+FINANZEN/

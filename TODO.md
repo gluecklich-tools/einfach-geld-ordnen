@@ -2,6 +2,26 @@
 
 Stand: 2026-01-24
 
+## Premium-UX / Apple-Amazon DoD (Phase 0/1) — Pflicht vor Monetarisierung
+
+[ ] Startseite: ruhiges Premium-Layout (Lesbarkeit, klare Abschnitte, keine Textwand)
+
+[ ] Download-/Produktseite: in 30 Sekunden verstanden (Zielgruppe, Nutzen, Start)
+
+[ ] „In 10 Minuten“-Onboarding-Seite: Schrittfolge + Beispielmonat getestet
+
+[ ] FAQ/Troubleshooting: Top-10 Probleme + glasklare Lösungen (LibreOffice + Excel)
+
+[ ] Template Dual-Format: ODS Master + XLSX Export (Versionierung sichtbar)
+
+[ ] Smoke-Test: LibreOffice bestanden (Eingabe, Auswertung, typische Änderungen)
+
+[ ] Smoke-Test: Excel bestanden (mind. Excel Web)
+
+[ ] Self-serve Grenze überall konsistent (Website + FAQ + Newsletter-Footer)
+
+[ ] QA-Gate aktualisiert und vollständig (keine abgebrochenen Zeilen, append-only)
+
 ## Newsletter-System (Automatisierung) — Pre-Monetarisierung Pflicht
 
 [ ] 12er-Themenrotation (Jan–Dez) final festgelegt und dokumentiert (jährlich wiederholend)
@@ -25,3 +45,4 @@ Stand: 2026-01-24
 ## Release-Gate „Monetarisierung“ (Ergänzung)
 
 [ ] Monetarisierung erst aktivieren, wenn Newsletter-System-DoD erfüllt ist (siehe Block oben)
+[ ] Monetarisierung erst aktivieren, wenn Apple/Amazon-DoD erfüllt ist (siehe Premium-Block oben)

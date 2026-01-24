@@ -2,7 +2,7 @@
 
 Einfaches Haushaltsbuch & Geld ordnen – **statische Inhalte** (GitHub Pages / Jekyll)
 
-**Stand:** 2026-01-22 (Europe/Berlin)
+**Stand:** 2026-01-24 (Europe/Berlin)
 
 Willkommen beim Projekt **„Einfach Geld ordnen“**.  
 Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-für-Schritt-Anleitungen**, die auch mit wenig Energie nutzbar sind.
@@ -26,10 +26,17 @@ Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkos
 
 ## Nutzung (kurz)
 
-1. Vorlage herunterladen
+1. Vorlage herunterladen (Dual-Format: **ODS Master + XLSX Export**)
 2. Tabellen mit eigenen Daten füllen
 3. Schritt-für-Schritt-Anleitungen nutzen
 4. Überblick behalten (Fixkosten, variable Ausgaben, Rücklagen)
+
+---
+
+## Datenschutz (wichtig)
+
+Finanz- und Nachweisunterlagen liegen **nicht im öffentlichen Repo**.  
+Im Repo existiert nur `FINANZEN_README.md` als Hinweistext.
 
 ---
 
@@ -41,4 +48,3 @@ Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkos
 - Dateinamen: **ASCII-only** (`a-z0-9-_`), keine Umlaute, keine Leerzeichen.
 - Jekyll Pages: explizite **`.html`-Permalinks**, **Permalink = Dateiname**.
 - Interne Links: konsequent mit `{{ site.baseurl }}` (Project Site), keine Links ohne baseurl.
-
