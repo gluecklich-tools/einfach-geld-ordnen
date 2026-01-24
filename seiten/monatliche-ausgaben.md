@@ -1,38 +1,41 @@
 ---
-layout: default
-title: "Monatliche Ausgaben"
+layout: page
+title: Monatliche Ausgaben
 permalink: /seiten/monatliche-ausgaben.html
 ---
 
-## Monatliche Ausgaben
+## Monatliche Ausgaben – einfach einordnen
 
-Monatliche Ausgaben sind Kosten, die regelmäßig auftreten, aber schwanken können (z. B. Lebensmittel, Tanken, Drogerie).
+Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest gebunden** sind wie Fixkosten.
 
-**Ziel:** Nicht perfekt schätzen – sondern dauerhaft sichtbar machen.
-
----
-
-## Mini-Regel (damit es ruhig bleibt)
-
-- Lieber grob starten (realistisch), als ewig optimieren.
-- Es ist normal, wenn ein Monat „aus der Reihe“ tanzt.
+Typische Beispiele:
+- Lebensmittel
+- Drogerie
+- Mobilität (Tanken/ÖPNV)
+- Streaming/Apps
+- Freizeit
 
 ---
 
-## Nächster Schritt (Haupt-Flow)
+## So gehst du vor (ohne Stress)
 
-→ [Variable Ausgaben]({{ "/seiten/variable-ausgaben.html" | relative_url }})
-
----
-
-## Optional: Wohnen vertiefen (nur wenn du willst)
-
-- [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
-- [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+1) **Notiere grob** 5–10 Posten, die bei dir fast jeden Monat vorkommen.  
+2) **Schätze lieber zu hoch** als zu niedrig (damit du später Luft hast).  
+3) Wenn etwas schwankt: nimm den **Durchschnitt** oder eine **„schlechte“ Monatsschätzung**.
 
 ---
 
-## Navigation
-- **Zurück:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Variable Ausgaben]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+## Optional: Vertiefungen (wenn du willst)
+
+Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
+
+- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+
+Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
+
+---
+
+- **Zurück:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)

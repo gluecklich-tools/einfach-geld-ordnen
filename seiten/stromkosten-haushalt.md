@@ -1,24 +1,31 @@
 ---
-layout: default
-title: "Stromkosten im Haushalt"
+layout: page
+title: Stromkosten im Haushalt
 permalink: /seiten/stromkosten-haushalt.html
 ---
 
-## Stromkosten im Haushalt
+## Stromkosten – einfach erfassen
 
-Strom ist oft ein separater Posten (Abschlag + Jahresabrechnung).  
-Wenn du ihn sauber trennst, werden Budget und Rücklagen deutlich stabiler.
+Strom ist oft ein großer Posten – und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
 
----
+Für den Start reicht:
+- **Monatlicher Abschlag** (oder)
+- **Jahreskosten / 12**
 
-## Nächster sinnvoller Schritt
-
-- zurück zum Überblick (damit du nicht im Kreis läufst), oder
-- zur Download-/Vorlagen-Seite (wenn du jetzt direkt starten willst).
+Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
 
 ---
 
-## Navigation
-- **Zurück:** [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Kostenlose Haushaltsbuch-Vorlage]({{ "/seiten/haushaltsbuch-vorlage-kostenlos.html" | relative_url }})
+## Zwei typische Fälle
+
+### 1) Du hast einen festen Abschlag
+Trag den Abschlag als Monatswert ein.
+
+### 2) Du hast nur die Jahresabrechnung
+Teile den Jahresbetrag durch 12.
+
+---
+
+- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)

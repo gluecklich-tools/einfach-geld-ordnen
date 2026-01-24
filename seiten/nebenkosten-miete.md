@@ -1,17 +1,41 @@
 ---
-layout: default
-title: "Nebenkosten der Miete"
+layout: page
+title: Nebenkosten der Miete
 permalink: /seiten/nebenkosten-miete.html
 ---
 
-## Nebenkosten der Miete
+## Nebenkosten – kurz und praktisch
 
-Nebenkosten können stark variieren (Heizung, Wasser, Müll, Hausmeister usw.).  
-Wichtig ist, dass du sie nicht doppelt zählst (z. B. wenn Strom separat läuft).
+Nebenkosten sind oft der Teil, der „irgendwie mitläuft“ und deshalb leicht unterschätzt wird.
+
+Hier reicht für den Anfang:
+- **Abschlag** (monatlich)
+- oder **Jahreswert / 12** (wenn du nur die Abrechnung hast)
 
 ---
 
-## Navigation
-- **Zurück:** [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+## Was zählt typischerweise dazu?
+
+Je nach Mietvertrag/Abrechnung z. B.:
+- Wasser/Abwasser
+- Müll
+- Hausreinigung / Hausmeister
+- Heizung (wenn nicht separat)
+- Allgemeinstrom
+- Versicherungen (Gebäude etc.)
+
+Du musst nicht alles perfekt trennen – wichtig ist nur: **es ist drin**.
+
+---
+
+## Optional: Nächste Vertiefung
+
+Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
+
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+
+---
+
+- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
