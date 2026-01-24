@@ -9,40 +9,40 @@ permalink: /seiten/haushaltsbuch-vollversion.html
 **Status:** Produkt & Landing werden gerade fertiggestellt.  
 **Noch kein Verkauf, keine Bezahl-Links.**
 
-Wenn du dein Haushaltsbuch **stabil**, **klar** und ohne Schnickschnack willst, ist das die Vollversion.
+Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist – ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
 
 ---
 
-## Was du bekommst (konkret)
+## Was du bekommst (Lieferumfang)
 
 - **ODS als Master-Datei** (LibreOffice-first, sauber und robust)
 - **XLSX als 1:1 Export** (für Excel/andere Tools)
 - **Klare Struktur**: Fixkosten, variable Ausgaben, Rücklagen/Spielraum
-- **Einfacher Start**: so gebaut, dass du ohne Fachwörter loslegen kannst
+- **Einfacher Start**: verständlich ohne Fachwörter (Schritt-für-Schritt)
 
-Ziel: **übersichtlich**, **alltagstauglich**, **monatlich weiter nutzbar**.
+Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Chaos**.
 
 ---
 
-## Grenzen (damit es fair bleibt)
+## Was das NICHT ist (damit es fair bleibt)
 
 - Keine Rechts- oder Steuerberatung
 - Kein Einrichtungs-Service, kein individueller Support
 - Kein Coaching
 
-Du bekommst ein fertiges Produkt (self-serve): **Vorlage + klare Anleitung**, du setzt es selbst um.
+Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** – du setzt es selbst um.
 
 ---
 
-## Für wen ist das?
+## Für wen passt es?
 
 - Du willst **kein Abo**, keine App-Pflicht, kein Konto-Sync
 - Du willst **eine Datei**, die du langfristig nutzen kannst
-- Du willst **Übersicht statt Chaos** – ohne „magische“ Versprechen
+- Du willst **Überblick statt Bauchgefühl** (ohne Druck, ohne Scham)
 
 ---
 
-## Für wen ist das nicht?
+## Für wen passt es nicht?
 
 - Wenn du erwartest: „Kannst du mir das einrichten?“
 - Wenn du eine App mit Bank-Anbindung & Automatik-Sync suchst
