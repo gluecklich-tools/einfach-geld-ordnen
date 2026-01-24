@@ -17,15 +17,25 @@ Es geht nur darum, Fixkosten als **Teil des Haushalts** wahrzunehmen.
 
 ---
 
+## Abgrenzung (kurz)
+
+- **Fixkosten**: regelmäßig, meist vertraglich oder fest organisiert (laufen „automatisch“)  
+- **Monatliche Ausgaben**: Alltagsposten, regelmäßig, oft ähnlich – aber beweglicher  
+  → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+Diese Begriffe sind nur zur **Einordnung** da – nicht zur Bewertung.
+
+---
+
 ## Was zu Fixkosten gehört
 
 Typische Fixkosten sind zum Beispiel:
 
 - Wohnen (Miete oder Kredit)
-- Energie und Wasser
+- Energie (z. B. Strom/Heizung als Abschläge)
 - Versicherungen
-- Telefon, Internet, Rundfunk
-- Abonnements
+- Telefon / Internet / Rundfunk
+- Abonnements und Mitgliedschaften
 
 Diese Aufzählung ist **nicht vollständig** – und sie ist **keine Checkliste**.
 
@@ -48,6 +58,11 @@ Wenn du beim Lesen merkst: „Ja, das kenne ich“ – dann reicht das vollkomme
 Wenn du als Nächstes den Alltag ergänzen willst – ebenfalls ohne Druck:
 
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+Wenn du einzelne Fixkosten-Bereiche ruhig einordnen willst:
+
+- [Nebenkosten der Miete – Einordnung]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt – Einordnung]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 Wenn du lieber erst verstehen willst, wofür das Haushaltsbuch im Projekt da ist:
 
