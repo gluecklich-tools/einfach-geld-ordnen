@@ -21,14 +21,12 @@ Kurz gesagt: **Spielraum ist ein Ergebnis. Rücklagen sind eine Möglichkeit –
 
 Beides ist Teil der Realität.
 
-Diese Seite bewertet nicht, wie groß dieser Spielraum sein sollte  
-oder ob er „ausreicht“.
-
+Diese Seite bewertet nicht, wie groß dieser Spielraum sein sollte oder ob er „ausreicht“.  
 Hier geht es um **Einordnung**, nicht um Kontrolle.
 
 ---
 
-## Spielraum als Ergebnis
+## Spielraum ist ein Ergebnis
 
 Spielraum entsteht, wenn Zusammenhänge klarer geworden sind.
 
@@ -39,7 +37,7 @@ oder bleibt aus, wenn das gerade nicht der Fall ist.
 
 ---
 
-## Rücklagen als Möglichkeit
+## Rücklagen sind eine Möglichkeit
 
 Rücklagen sind kein Pflichtbestand und kein Maßstab für Sicherheit.
 
