@@ -1,52 +1,56 @@
 ---
 layout: page
-title: Haushaltsbuch Vollversion (10 &euro;) &ndash; kommt bald
+title: Haushaltsbuch Vollversion – kommt bald
 permalink: /seiten/haushaltsbuch-vollversion.html
 ---
 
-# Haushaltsbuch Vollversion &ndash; kommt bald
+# Haushaltsbuch Vollversion – kommt bald
 
-**Preis:** 10 &euro; (einmalig)
-
-**Status:** Produkt &amp; Landing werden gerade fertiggestellt. **Noch kein Verkauf, keine Bezahl-Links.**
+**Status:** Produkt & Landing werden gerade fertiggestellt.  
+**Noch kein Verkauf, keine Bezahl-Links.**
 
 Wenn du dein Haushaltsbuch **stabil**, **klar** und ohne Schnickschnack willst, ist das die Vollversion.
 
 ---
 
-## Was du bekommst
+## Was du bekommst (konkret)
 
-- ODS als Master-Datei (f&uuml;r LibreOffice optimiert)
-- XLSX-Export 1:1 (f&uuml;r Excel / andere Tools)
-- Klare Struktur, damit du sofort loslegen kannst
-- Ziel: stabil, &uuml;bersichtlich, ohne &bdquo;Spielereien&ldquo;
+- **ODS als Master-Datei** (LibreOffice-first, sauber und robust)
+- **XLSX als 1:1 Export** (für Excel/andere Tools)
+- **Klare Struktur**: Fixkosten, variable Ausgaben, Rücklagen/Spielraum
+- **Einfacher Start**: so gebaut, dass du ohne Fachwörter loslegen kannst
 
-**Wichtig:**
-- Kein Support / kein E-Mail-Support / kein Setup-Service
-- Du bekommst ein fertiges Produkt &ndash; kein Coaching
+Ziel: **übersichtlich**, **alltagstauglich**, **monatlich weiter nutzbar**.
 
 ---
 
-## F&uuml;r wen ist das?
+## Grenzen (damit es fair bleibt)
 
-- Du willst deine Finanzen einfach ordnen, ohne Abo, ohne App-Zwang
-- Du willst eine Datei, die du jeden Monat weiter nutzt
-- Du willst Kontrolle statt Chaos
+- Keine Rechts- oder Steuerberatung
+- Kein Einrichtungs-Service, kein individueller Support
+- Kein Coaching
 
----
-
-## F&uuml;r wen ist das nicht?
-
-- Wenn du Support erwartest (&bdquo;Kannst du mir das einrichten?&ldquo;)
-- Wenn du eine App mit Sync/Bank-Anbindung suchst
-- Wenn du etwas willst, das sich &bdquo;magisch selbst macht&ldquo;
+Du bekommst ein fertiges Produkt (self-serve): **Vorlage + klare Anleitung**, du setzt es selbst um.
 
 ---
 
-## Ver&ouml;ffentlichung / Kauf
+## Für wen ist das?
 
-Kaufen ist aktuell noch nicht m&ouml;glich.  
-Die Reihenfolge ist fix:
+- Du willst **kein Abo**, keine App-Pflicht, kein Konto-Sync
+- Du willst **eine Datei**, die du langfristig nutzen kannst
+- Du willst **Übersicht statt Chaos** – ohne „magische“ Versprechen
+
+---
+
+## Für wen ist das nicht?
+
+- Wenn du erwartest: „Kannst du mir das einrichten?“
+- Wenn du eine App mit Bank-Anbindung & Automatik-Sync suchst
+- Wenn du willst, dass es sich „von selbst“ erledigt
+
+---
+
+## Veröffentlichung (Reihenfolge ist fix)
 
 1) Landing + Produkt fertig  
 2) Gewerbe anmelden  
@@ -55,13 +59,13 @@ Die Reihenfolge ist fix:
 
 ---
 
-## Alternativen bis dahin
+## Bis dahin (Alternative Einstiegspunkte)
 
-- **Kostenloser Einstieg (kommt sp&auml;ter):**  
-  [Kostenlose Vorlage &ndash; Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Kostenlose Light-Vorlage (Status, noch ohne Download):**  
+  [Kostenlose Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-- **Erkl&auml;r-/Hub-Seite:**  
-  [Haushaltsbuch &ndash; &Uuml;berblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- **Hub-Seite (Einstieg & Inhalte):**  
+  [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-- **Aktuell vorhandene Inhalte:**  
-  [Start-/&Uuml;bersicht]({{ site.baseurl }}/seiten/index.html)
+- **Startseite:**  
+  [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
