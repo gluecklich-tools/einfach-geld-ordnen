@@ -6,10 +6,10 @@ permalink: /seiten/monatliche-ausgaben.html
 
 # Monatliche Ausgaben – Einordnung ohne Druck
 
-Monatliche Ausgaben sind alle Kosten, die im Alltag entstehen und **nicht fest gebunden** sind.
+Monatliche Ausgaben sind Kosten, die im Alltag anfallen und **nicht fest gebunden** sind.
 
 Diese Seite dient nicht dazu, sie zu erfassen, zu kontrollieren oder zu verändern.  
-Sie hilft lediglich, **ihre Rolle im Haushalt zu verstehen**.
+Sie hilft nur, **ihre Rolle im Haushalt zu verstehen**.
 
 ---
 
@@ -31,7 +31,7 @@ Monatliche Ausgaben gehören dazu:
 - Einkaufen und Alltag
 - Mobilität
 - Freizeit und kleine Anschaffungen
-- spontane Entscheidungen
+- Spontane Entscheidungen
 
 Sie sind nicht gut oder schlecht.  
 Sie sind **beweglich** – und genau deshalb schwer greifbar.
@@ -43,9 +43,9 @@ Sie sind **beweglich** – und genau deshalb schwer greifbar.
 Diese Seite fordert nicht dazu auf, alles festzuhalten oder zu beobachten.
 
 Sie sagt nur:  
-*Diese Ausgaben existieren und sie beeinflussen das Gesamtbild.*
+*Diese Ausgaben existieren – und sie beeinflussen das Gesamtbild.*
 
-Mehr muss an dieser Stelle nicht getan werden.
+Mehr muss an dieser Stelle nicht passieren.
 
 ---
 
@@ -64,12 +64,17 @@ und auch dann nur als **Teil des Ganzen**.
 
 ## Wie es weitergeht (wenn du möchtest)
 
-Wenn du als nächstes einen typischen Bereich ruhig einordnen willst:
+Wenn du als Nächstes den Alltag noch etwas klarer strukturieren willst:
 
-- [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-- [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Variable Ausgaben – Überblick]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+- [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
-Wenn du lieber zurück zum Einstieg willst:
+Wenn du lieber bei Fixkosten weiterliest:
+
+- [Nebenkosten der Miete – Einordnung]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt – Einordnung]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+
+Wenn du zurück zum Einstieg willst:
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
