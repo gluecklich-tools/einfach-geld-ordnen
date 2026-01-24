@@ -8,9 +8,9 @@ permalink: /seiten/stromkosten-haushalt.html
 
 Stromkosten gehören zu den **Fixkosten** eines Haushalts.
 
-Das bedeutet: Sie fallen regelmäßig an – unabhängig davon, wie sehr man sich mit ihnen beschäftigt.
+Das bedeutet: Sie fallen regelmäßig an – unabhängig davon, wie sehr man sich aktiv damit beschäftigt.
 
-Diese Seite erklärt nicht, wie Strom gespart, kontrolliert oder optimiert wird.  
+Diese Seite erklärt nicht, wie man Strom spart, kontrolliert oder optimiert.  
 Sie ordnet nur ein, **was Stromkosten sind** und warum sie **Teil des festen Fundaments** sind.
 
 ---
@@ -25,37 +25,38 @@ Wenn du erst die ruhige Basis lesen willst:
 
 ## Worum es hier geht
 
-Stromkosten bestehen aus mehreren Bestandteilen.  
-Das ist keine Besonderheit und kein Hinweis auf falsches Verhalten.
+Stromkosten wirken manchmal „unlogisch“, weil sie aus mehreren Bestandteilen bestehen.
 
-Diese Seite will nur verständlich machen, **warum Stromkosten so wirken, wie sie wirken**.
-
-Nicht mehr.
+Das ist keine Besonderheit und kein Hinweis auf falsches Verhalten.  
+Diese Seite will nur verständlich machen, **warum Stromkosten so aufgebaut sind**.
 
 ---
 
-## Stromkosten – ohne Bewertung
+## Stromkosten bestehen oft aus mehreren Teilen (Beispiele)
 
-Stromkosten setzen sich typischerweise zusammen aus:
+Typisch sind:
 
-- einem Grundpreis
-- einem verbrauchsabhängigen Anteil
-- regelmäßigen Abschlagszahlungen
+- ein **Grundpreis**
+- ein **verbrauchsabhängiger Anteil**
+- **Abschlagszahlungen** (monatlich)
 
 Diese Struktur ist üblich und Teil der Art, wie Strom abgerechnet wird.
 
-Abweichungen in der Jahresabrechnung sind normal – und kein Zeichen von Fehlern.
-
 ---
 
-## Abschläge und Abrechnung
+## Abschläge und Abrechnung – ohne Bewertung
 
-Abschläge sind Vorauszahlungen.  
+Abschläge sind **Vorauszahlungen**.  
 Die spätere Abrechnung gleicht diese aus.
 
-Das führt manchmal zu Nachzahlungen oder zu Guthaben.
+Dadurch kann es zu:
 
-Beides gehört zum System und muss an dieser Stelle nicht weiter vertieft werden.
+- **Nachzahlungen** oder
+- **Guthaben**
+
+kommen.
+
+Beides gehört zum System und muss an dieser Stelle nicht weiter „bearbeitet“ werden.
 
 ---
 
@@ -68,17 +69,17 @@ Stromkosten sind:
 - kein persönliches Versagen  
 
 Sie sind ein **fester Bestandteil** der monatlichen Kosten  
-und werden deshalb bei den Fixkosten mitgedacht – nicht gesteuert.
+und werden deshalb bei den Fixkosten **mitgedacht** – nicht gesteuert.
 
 ---
 
 ## Wie es weitergeht (wenn du möchtest)
 
-Wenn du als Nächstes einen verwandten Bereich ruhig einordnen willst:
+Ein verwandter Bereich ruhig eingeordnet:
 
-- [Nebenkosten der Miete – Einordnung ohne Druck]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Nebenkosten der Miete – Einordnung]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 
-Wenn du zurück zum Einstieg willst:
+Zurück zum Einstieg:
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
@@ -86,12 +87,12 @@ Wenn du zurück zum Einstieg willst:
 
 ## Einordnung im Gesamtsystem
 
-Die grundlegende Einordnung findest du hier:
+Wenn du die grundlegende Einordnung lesen willst:
 
 - [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 ---
 
-## Zur Startseite
+## Zur Orientierung
 
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
