@@ -28,7 +28,7 @@ Hier geht es um **Einordnung**, nicht um Kontrolle.
 
 ---
 
-## Spielraum ist ein Ergebnis
+## Spielraum als Ergebnis
 
 Spielraum entsteht, wenn Zusammenhänge klarer geworden sind.
 
@@ -39,7 +39,7 @@ oder bleibt aus, wenn das gerade nicht der Fall ist.
 
 ---
 
-## Rücklagen sind eine Möglichkeit
+## Rücklagen als Möglichkeit
 
 Rücklagen sind kein Pflichtbestand und kein Maßstab für Sicherheit.
 
