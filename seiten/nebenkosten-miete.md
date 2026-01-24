@@ -6,10 +6,10 @@ permalink: /seiten/nebenkosten-miete.html
 
 # Nebenkosten der Miete – Einordnung ohne Druck
 
-Nebenkosten sind Kosten, die zusätzlich zur Kaltmiete anfallen und regelmäßig gezahlt werden.
+Nebenkosten sind Kosten, die **zusätzlich zur Kaltmiete** anfallen und regelmäßig gezahlt werden.
 
-Sie gehören zu den **Fixkosten** eines Haushalts.  
-Das bedeutet: Sie sind da – unabhängig davon, ob man sich aktiv mit ihnen beschäftigt oder nicht.
+Sie gehören zu den **Fixkosten**.  
+Das bedeutet: Sie sind da – unabhängig davon, ob man sich aktiv mit ihnen beschäftigt.
 
 ---
 
@@ -25,12 +25,14 @@ Wenn du erst die ruhige Basis lesen willst:
 
 Diese Seite erklärt nicht, wie Nebenkosten optimiert, geprüft oder verändert werden.
 
-Sie hilft nur, **einzuordnen, was Nebenkosten sind**  
-und warum sie **Teil des festen Fundaments** sind.
+Sie hilft nur einzuordnen:
+
+- **was** Nebenkosten sind  
+- **warum** sie zum festen Fundament im Haushalt gehören
 
 ---
 
-## Typische Bestandteile
+## Typische Bestandteile (Beispiele)
 
 Zu den Nebenkosten zählen häufig:
 
@@ -41,18 +43,17 @@ Zu den Nebenkosten zählen häufig:
 - Grundsteuer
 - Allgemeinstrom
 
-Welche Posten enthalten sind, ist vertraglich geregelt.
-
-Diese Aufzählung ist **keine Checkliste**, sondern eine Orientierung.
+Welche Posten enthalten sind, steht im Vertrag bzw. in der Abrechnung.  
+Die Liste hier ist **keine Checkliste**, sondern Orientierung.
 
 ---
 
 ## Abschläge und Abrechnung – ohne Bewertung
 
-Nebenkosten werden meist als Abschlag gezahlt.  
+Nebenkosten werden meist als **Abschlag** gezahlt.  
 Die spätere Abrechnung zeigt, wie sich diese Abschläge zum tatsächlichen Verbrauch verhalten.
 
-Das ist kein Fehler und kein Hinweis auf falsches Verhalten.  
+Nachzahlung oder Guthaben ist dabei **kein Fehler** und kein Hinweis auf „falsches Verhalten“.  
 Es ist nur die Art, wie Nebenkosten organisiert sind.
 
 ---
@@ -66,17 +67,17 @@ Nebenkosten sind:
 - kein Arbeitsbereich  
 
 Sie sind ein **fester Bestandteil** der monatlichen Belastung  
-und werden deshalb bei den Fixkosten mitgedacht – nicht bearbeitet.
+und werden deshalb bei den Fixkosten **mitgedacht** – nicht „bearbeitet“.
 
 ---
 
 ## Wie es weitergeht (wenn du möchtest)
 
-Wenn du als Nächstes einen verwandten Bereich ruhig einordnen willst:
+Ein verwandter Bereich, ebenfalls ruhig eingeordnet:
 
-- [Stromkosten im Haushalt – Einordnung ohne Druck]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Stromkosten im Haushalt – Einordnung]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
-Wenn du zurück zum Einstieg willst:
+Zurück zum Einstieg:
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
@@ -84,12 +85,12 @@ Wenn du zurück zum Einstieg willst:
 
 ## Einordnung im Gesamtsystem
 
-Die grundlegende Einordnung findest du hier:
+Wenn du die grundlegende Einordnung lesen willst:
 
 - [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 ---
 
-## Zur Startseite
+## Zur Orientierung
 
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
