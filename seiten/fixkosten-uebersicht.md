@@ -43,18 +43,15 @@ Wenn du beim Lesen merkst: „Ja, das kenne ich“ – dann reicht das vollkomme
 
 ---
 
-## Wie es weitergeht
+## Wie es weitergeht (wenn du möchtest)
 
-Wenn du möchtest, geh als nächstes zu den **monatlichen Ausgaben** (Alltagsposten).  
-Das ergänzt die Fixkosten – ebenfalls ohne Druck.
+Wenn du als Nächstes den Alltag ergänzen willst – ebenfalls ohne Druck:
 
-→ **Weiter: Monatliche Ausgaben – Einordnung**  
-[Zur Seite]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 Wenn du lieber erst verstehen willst, wofür das Haushaltsbuch im Projekt da ist:
 
-→ **Haushaltsbuch – einfach erklärt**  
-[Zum Überblick]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+- [Haushaltsbuch: Worum geht es? (einfach erklärt)]({{ site.baseurl }}/pillar/haushaltsbuch.html)
 
 ---
 
