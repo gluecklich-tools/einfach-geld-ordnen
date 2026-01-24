@@ -13,6 +13,8 @@ Das bedeutet: Sie fallen regelmäßig an – unabhängig davon, wie sehr man sic
 Diese Seite erklärt nicht, wie man Strom spart, kontrolliert oder optimiert.  
 Sie ordnet nur ein, **was Stromkosten sind** und warum sie **Teil des festen Fundaments** sind.
 
+Kurz gesagt: **Teil des Fundaments – nicht „dein Job“.**
+
 ---
 
 ## Einordnung im Kontext
@@ -64,9 +66,9 @@ Beides gehört zum System und muss an dieser Stelle nicht weiter „bearbeitet�
 
 Stromkosten sind:
 
-- kein Optimierungsfeld  
-- kein Kontrollbereich  
-- kein persönliches Versagen  
+- kein Optimierungsfeld
+- kein Kontrollbereich
+- kein persönliches Versagen
 
 Sie sind ein **fester Bestandteil** der monatlichen Kosten  
 und werden deshalb bei den Fixkosten **mitgedacht** – nicht gesteuert.
