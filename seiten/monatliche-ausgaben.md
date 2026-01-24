@@ -6,12 +6,13 @@ permalink: /seiten/monatliche-ausgaben.html
 
 # Monatliche Ausgaben – Einordnung ohne Druck
 
-Monatliche Ausgaben sind Kosten, die im Alltag anfallen und **nicht vertraglich fixiert** sind.
+Monatliche Ausgaben sind Kosten, die im Alltag regelmäßig vorkommen.  
+Sie sind nicht fest „gebunden“ wie Fixkosten – aber oft **ähnlich** von Monat zu Monat.
 
 Diese Seite dient nicht dazu, sie zu erfassen, zu kontrollieren oder zu verändern.  
 Sie hilft nur, **ihre Rolle im Haushalt zu verstehen**.
 
-Kurz gesagt: **Hier geht es um Einordnung – nicht um Kontrolle.**
+Hier geht es um **Einordnung** – nicht um Kontrolle.
 
 ---
 
@@ -28,7 +29,7 @@ Es zeigt nur: Der Alltag besteht aus vielen kleinen Bewegungen.
 
 ## Teil des normalen Haushalts
 
-Monatliche Ausgaben gehören dazu:
+Monatliche Ausgaben können sein:
 
 - Einkaufen und Alltag
 - Mobilität
@@ -36,7 +37,17 @@ Monatliche Ausgaben gehören dazu:
 - Spontane Entscheidungen
 
 Sie sind nicht gut oder schlecht.  
-Sie sind **beweglich** – und genau deshalb schwer greifbar.
+Sie sind **beweglich** – und genau deshalb manchmal schwer greifbar.
+
+---
+
+## Abgrenzung (kurz)
+
+- **Monatliche Ausgaben**: regelmäßig, oft „ähnlich“ (Alltagsposten)  
+- **Variable Ausgaben**: unregelmäßig oder stark schwankend (z. B. Reparaturen, Ersatzkäufe)  
+  → [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+
+Beides gehört zum echten Leben – ohne Bewertung.
 
 ---
 
