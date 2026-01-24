@@ -8,19 +8,22 @@ permalink: /seiten/haushaltsbuch.html
 
 Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
 
-**Stand:** 2026-01-24  
-**Status:** Phase 2 läuft – Vollversion ist in Arbeit, **noch ohne Verkauf**.
+Ein Haushaltsbuch ist hier kein „Kontrolltool“, sondern eine **ruhige Methode**, um Einnahmen, Fixkosten, Alltag und Rücklagen **übersichtlich** zu sehen.
 
 ---
 
 ## Schnellstart (30 Sekunden)
 
-**1) Ich will direkt starten (wenn es verfügbar ist)**  
-→ **Vollversion-Status & Landing** (noch ohne Bezahl-Link)  
+**1) Ich will heute schon anfangen (ohne Download)**  
+→ Starte mit den Grundlagen, damit du weißt, *was wohin gehört*:  
+- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
+- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+**2) Ich will die Vorlage (kommt bald)**  
+→ **Vollversion (Status, noch ohne Kaufbutton):**  
 [Zur Vollversion-Seite]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-**2) Ich will erst mal nur schauen (Light kommt später)**  
-→ **Kostenlose Light-Vorlage** (noch ohne Download, bis alles getestet ist)  
+→ **Kostenlose Light-Version (Status, noch ohne Download):**  
 [Zur Statusseite]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 ---
@@ -33,8 +36,6 @@ Wenn du zuerst verstehen willst, **wofür ein Haushaltsbuch da ist** und wie man
 
 Wenn du einzelne Bereiche einordnen willst:
 
-- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
@@ -62,3 +63,8 @@ Wenn du Excel nutzt oder unsicher bist:
 ## Zur Projekt-Übersicht
 
 - [Zur Startseite]({{ site.baseurl }}/seiten/index.html)
+
+---
+
+**Stand:** 2026-01-24  
+**Status:** Phase 2 läuft – Vollversion ist in Arbeit, noch ohne Verkauf.
