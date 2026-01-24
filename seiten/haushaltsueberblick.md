@@ -41,8 +41,8 @@ Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
 
 ## Keine Anleitung
 
-Diese Seite gibt **keinen Ablauf** vor.  
-Keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
+Diese Seite gibt **keinen Ablauf** vor:  
+keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
 
 Wenn du Zahlen schon gesammelt hast, kannst du sie hier gedanklich zusammenführen.  
 Wenn nicht, ist das ebenso in Ordnung.
