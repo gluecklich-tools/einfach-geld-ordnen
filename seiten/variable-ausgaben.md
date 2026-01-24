@@ -12,14 +12,14 @@ Sie können in manchen Monaten kaum vorkommen – und in anderen deutlich ins Ge
 Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
-Hier geht es um **Einordnung** – nicht um Kontrolle.
+Kurz gesagt: **Einordnung statt Kontrolle.**
 
 ---
 
 ## Abgrenzung (kurz)
 
 - **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
-  Sie sind oft wiederkehrend (aber nicht fest gebunden).  
+  Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).  
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 - **Variable Ausgaben** sind Ausgaben, die **außerplanmäßig** sind oder **stärker schwanken**.
