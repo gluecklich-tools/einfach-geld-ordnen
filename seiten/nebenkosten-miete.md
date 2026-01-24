@@ -11,6 +11,8 @@ Nebenkosten sind Kosten, die **zusätzlich zur Kaltmiete** anfallen und regelmä
 Sie gehören zu den **Fixkosten**.  
 Das bedeutet: Sie sind da – unabhängig davon, ob man sich aktiv mit ihnen beschäftigt.
 
+Kurz gesagt: **Teil des Fundaments – nicht „dein Job“.**
+
 ---
 
 ## Einordnung im Kontext
@@ -27,7 +29,7 @@ Diese Seite erklärt nicht, wie Nebenkosten optimiert, geprüft oder verändert 
 
 Sie hilft nur einzuordnen:
 
-- **was** Nebenkosten sind  
+- **was** Nebenkosten sind
 - **warum** sie zum festen Fundament im Haushalt gehören
 
 ---
@@ -43,7 +45,7 @@ Zu den Nebenkosten zählen häufig:
 - Grundsteuer
 - Allgemeinstrom
 
-Welche Posten enthalten sind, steht im Vertrag bzw. in der Abrechnung.  
+Welche Posten enthalten sind, steht im Mietvertrag bzw. in der Abrechnung.  
 Die Liste hier ist **keine Checkliste**, sondern Orientierung.
 
 ---
@@ -62,9 +64,9 @@ Es ist nur die Art, wie Nebenkosten organisiert sind.
 
 Nebenkosten sind:
 
-- kein Steuerungsinstrument  
-- kein Optimierungsfeld  
-- kein Arbeitsbereich  
+- kein Steuerungsinstrument
+- kein Optimierungsfeld
+- kein Arbeitsbereich
 
 Sie sind ein **fester Bestandteil** der monatlichen Belastung  
 und werden deshalb bei den Fixkosten **mitgedacht** – nicht „bearbeitet“.
