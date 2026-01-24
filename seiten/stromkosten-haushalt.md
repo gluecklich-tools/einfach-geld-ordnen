@@ -11,7 +11,7 @@ Stromkosten gehören zu den **Fixkosten** eines Haushalts.
 Das bedeutet: Sie fallen regelmäßig an – unabhängig davon, wie sehr man sich mit ihnen beschäftigt.
 
 Diese Seite erklärt nicht, wie Strom gespart, kontrolliert oder optimiert wird.  
-Sie ordnet lediglich ein, **was Stromkosten sind** und warum sie **Teil des festen Fundaments** sind.
+Sie ordnet nur ein, **was Stromkosten sind** und warum sie **Teil des festen Fundaments** sind.
 
 ---
 
@@ -25,7 +25,7 @@ Wenn du erst die ruhige Basis lesen willst:
 
 ## Worum es hier geht
 
-Stromkosten entstehen aus mehreren Bestandteilen.  
+Stromkosten bestehen aus mehreren Bestandteilen.  
 Das ist keine Besonderheit und kein Hinweis auf falsches Verhalten.
 
 Diese Seite will nur verständlich machen, **warum Stromkosten so wirken, wie sie wirken**.
@@ -44,7 +44,7 @@ Stromkosten setzen sich typischerweise zusammen aus:
 
 Diese Struktur ist üblich und Teil der Art, wie Strom abgerechnet wird.
 
-Abweichungen in der Jahresabrechnung sind normal und kein Zeichen von Fehlern.
+Abweichungen in der Jahresabrechnung sind normal – und kein Zeichen von Fehlern.
 
 ---
 
@@ -55,7 +55,7 @@ Die spätere Abrechnung gleicht diese aus.
 
 Das führt manchmal zu Nachzahlungen oder zu Guthaben.
 
-Beides gehört zum System und muss an dieser Stelle nicht weiter bearbeitet werden.
+Beides gehört zum System und muss an dieser Stelle nicht weiter vertieft werden.
 
 ---
 
@@ -74,9 +74,9 @@ und werden deshalb bei den Fixkosten mitgedacht – nicht gesteuert.
 
 ## Wie es weitergeht (wenn du möchtest)
 
-Wenn du als nächstes einen verwandten Bereich ruhig einordnen willst:
+Wenn du als Nächstes einen verwandten Bereich ruhig einordnen willst:
 
-- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Nebenkosten der Miete – Einordnung ohne Druck]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 
 Wenn du zurück zum Einstieg willst:
 
@@ -86,11 +86,12 @@ Wenn du zurück zum Einstieg willst:
 
 ## Einordnung im Gesamtsystem
 
-Die grundsätzliche Einordnung findest du hier:  
-👉 [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+Die grundlegende Einordnung findest du hier:
+
+- [Einfach Geld ordnen – Grundlagen finanzieller Ordnung]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 ---
 
 ## Zur Startseite
 
-- [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Startseite]({{ site.baseurl }}/seiten/index.html)
