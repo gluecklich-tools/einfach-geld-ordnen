@@ -5,33 +5,33 @@ permalink: /seiten/haushaltsbuch-vollversion.html
 ---
 
 **Preis:** 10 € (einmalig)  
-**Status:** Produkt & Landing werden fertiggestellt. **Noch kein Verkauf, keine Bezahl-Links.**
+**Status:** Produkt & Landing werden gerade fertiggestellt. **Noch kein Verkauf, keine Bezahl-Links.**
 
-Wenn du ein Haushaltsbuch willst, das **ohne Vorkenntnisse** sofort funktioniert – **klar, stabil und ohne Schnickschnack** – ist das die Vollversion.
+Wenn du dein Haushaltsbuch klar, stabil und ohne Schnickschnack willst, ist das die Vollversion.
 
 ---
 
 ## Was du bekommst
 
 - **ODS als Master-Datei** (für LibreOffice optimiert)
-- **XLSX-Export 1:1** (für Excel / andere Tools)
-- **Klare Struktur**, damit du sofort loslegen kannst
-- Ziel: **übersichtlich, robust, alltagstauglich**
+- **XLSX Export 1:1** (für Excel / andere Tools)
+- Klare Struktur, damit du sofort loslegen kannst
+- Ziel: übersichtlich und stabil – ohne Spielereien
 
 ---
 
-## Wichtig
+## Wichtig (fair & klar)
 
-- **Self-serve:** Kein individueller Support, kein Einrichtungsservice, kein Coaching.
-- Du bekommst ein **fertiges Produkt** (Datei + Anleitung) – zum selber Nutzen.
+- **Self-serve:** kein individueller Support per E-Mail, kein Setup-Service  
+- Du bekommst ein fertiges Produkt – **keine Beratung**, kein Coaching
 
 ---
 
 ## Für wen ist das?
 
-- Du willst deine Finanzen **einfach ordnen**, ohne Abo, ohne App-Zwang.
-- Du willst eine Datei, die du **jeden Monat weiter nutzt**.
-- Du willst **Kontrolle statt Chaos**.
+- Du willst deine Finanzen einfach ordnen – ohne Abo, ohne App-Zwang
+- Du willst eine Datei, die du jeden Monat weiter nutzt
+- Du willst Kontrolle statt Durcheinander
 
 ---
 
@@ -39,7 +39,7 @@ Wenn du ein Haushaltsbuch willst, das **ohne Vorkenntnisse** sofort funktioniert
 
 - Wenn du erwartest: „Kannst du mir das einrichten?“
 - Wenn du eine App mit Sync/Bank-Anbindung suchst
-- Wenn du etwas willst, das sich „magisch von selbst“ macht
+- Wenn du möchtest, dass sich alles automatisch „magisch“ erledigt
 
 ---
 
@@ -51,19 +51,21 @@ Die Reihenfolge ist fix:
 1) Landing + Produkt fertig  
 2) Gewerbe anmelden  
 3) Jobcenter informieren  
-4) Erst dann Kaufbutton aktivieren
-
-> Kaufen (kommt bald) – bewusst noch deaktiviert.
+4) **Erst dann** Kaufbutton aktivieren
 
 ---
 
 ## Alternativen bis dahin
 
-- **Kostenloser Einstieg (kommt später):**  
+- Kostenloser Einstieg (kommt später):  
   [Kostenlose Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-- **Erklär-/Hub-Seite:**  
+- Erklär-/Hub-Seite:  
   [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-- **Aktuell vorhandene Inhalte (Phase 1):**  
-  [Zur Übersicht]({{ site.baseurl }}/seiten/uebersicht.html)
+- Projekt-Übersicht:  
+  [Zur Übersicht]({{ site.baseurl }}/seiten/index.html)
+
+---
+
+> Stand: 2026-01-24
