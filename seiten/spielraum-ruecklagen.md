@@ -13,6 +13,8 @@ Diese Seite tut das nicht.
 Sie ordnet lediglich ein, **was mit Spielraum und Rücklagen gemeint ist**  
 und warum beides **Teil eines Haushalts** sein kann.
 
+Kurz gesagt: **Spielraum ist ein Ergebnis** – und **Rücklagen sind eine Möglichkeit**, keine Pflicht.
+
 ---
 
 ## Worum es hier geht
@@ -67,12 +69,16 @@ Diese Seite gehört zur **Praxis-Ebene**.
 
 Sie ergänzt das Verständnis des Haushalts, ohne einen nächsten Schritt auszulösen.
 
-Wenn du die ruhige, theoretische Einordnung lesen willst:
-👉 [Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+Wenn du die ruhige, theoretische Einordnung lesen willst:  
+[Spielraum & Rücklagen – Sicherheit ohne Druck]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
 ---
 
 ## Wie es weitergeht (wenn du möchtest)
+
+Wenn du den Haushalt als Ganzes ruhiger einordnen willst:
+
+- [Haushaltsüberblick – Einordnung]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 Wenn du zurück zu den Grundlagen willst:
 
@@ -80,7 +86,9 @@ Wenn du zurück zu den Grundlagen willst:
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 
-Wenn du zurück zum Einstieg willst:
+---
+
+## Zur Orientierung
 
 - [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Startseite]({{ site.baseurl }}/seiten/index.html)
