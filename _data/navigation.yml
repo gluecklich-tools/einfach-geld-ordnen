@@ -1,17 +1,15 @@
 # Navigation (Single Source of Truth)
 # Regel: Alle internen URLs sind .html und werden im Layout mit {{ item.url | relative_url }} gerendert.
+# Premium-UX: Top-Navigation zeigt den Haupt-Flow. Optional-Seiten nicht als Hauptpunkte.
 
 - title: "Überblick"
   url: "/pillar/index.html"
 
-- title: "Pillar-Start"
-  url: "/pillar/einfach-geld-ordnen-haushaltsbuch.html"
-
 - title: "Der Weg"
   url: "/seiten/der-weg.html"
 
-- title: "Haushaltsbuch (Excel)"
-  url: "/seiten/haushaltsbuch-excel.html"
+- title: "Haushaltsbuch"
+  url: "/seiten/haushaltsbuch.html"
 
 - title: "Fixkosten"
   url: "/seiten/fixkosten-uebersicht.html"
@@ -19,11 +17,17 @@
 - title: "Monatliche Ausgaben"
   url: "/seiten/monatliche-ausgaben.html"
 
-- title: "Nebenkosten Miete"
-  url: "/seiten/nebenkosten-miete.html"
+- title: "Variable Ausgaben"
+  url: "/seiten/variable-ausgaben.html"
 
-- title: "Stromkosten"
-  url: "/seiten/stromkosten-haushalt.html"
+- title: "Spielraum & Rücklagen"
+  url: "/seiten/spielraum-ruecklagen.html"
+
+- title: "Haushaltsüberblick"
+  url: "/seiten/haushaltsueberblick.html"
+
+- title: "Ordnung halten"
+  url: "/seiten/ordnung-halten.html"
 
 - title: "Vorlage kostenlos"
   url: "/seiten/haushaltsbuch-vorlage-kostenlos.html"
