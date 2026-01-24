@@ -15,11 +15,13 @@ Nicht um Veränderung.
 
 Es geht nur darum, Fixkosten als **Teil des Haushalts** wahrzunehmen.
 
+Kurz gesagt: **Einordnung statt Bewertung.**
+
 ---
 
 ## Abgrenzung (kurz)
 
-- **Fixkosten**: regelmäßig, meist vertraglich oder fest organisiert (laufen „automatisch“)  
+- **Fixkosten**: regelmäßig, meist vertraglich oder fest organisiert (laufen „automatisch“)
 - **Monatliche Ausgaben**: Alltagsposten, regelmäßig, oft ähnlich – aber beweglicher  
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
