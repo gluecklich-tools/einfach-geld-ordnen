@@ -1,31 +1,20 @@
 ---
 layout: default
-title: "Kostenlose Haushaltsbuch Excel Vorlage"
+title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
 ## Kostenlose Haushaltsbuch-Vorlage
 
-Hier bekommst du die Vorlage kostenlos zum Download.
+**Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
 
-## Download
+Bis dahin: Nutze den Flow über den Hub.
 
-<div style="margin:1.5rem 0;">
-  <a href="{{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }}"
-     class="button"
-     download
-     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
-    📊 Excel-Haushaltsbuch kostenlos herunterladen
-  </a>
-</div>
-
-## Wenn du wissen willst, wie du es nutzt
-
-→ [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+→ [Haushaltsbuch - Überblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **Zurück:** [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+- **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 - **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- **Weiter:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})

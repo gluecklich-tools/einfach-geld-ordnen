@@ -4,30 +4,35 @@ title: "Haushaltsbuch in Excel einfach erklärt"
 permalink: /seiten/haushaltsbuch-excel.html
 ---
 
-## Haushaltsbuch in Excel
+## Haushaltsbuch in Excel einfach erklärt
 
-Ein Haushaltsbuch hilft dir, Einnahmen und Ausgaben dauerhaft im Blick zu behalten.
+Diese Seite erklärt kurz, wie du die Vorlage nutzt – ohne Fachkram.
 
-## Download
+---
 
-<div style="margin:1.5rem 0;">
-  <a href="{{ '/downloads/haushaltsbuch-einfach-geld-ordnen.xlsx' | relative_url }}"
-     class="button"
-     download
-     style="display:inline-block;padding:12px 20px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
-    📊 Excel-Haushaltsbuch kostenlos herunterladen
-  </a>
-</div>
+## Download-Status
 
-## Weiterführende Seiten (ohne Schleifen)
+Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
+Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
 
-- Schritt 1: [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-- Schritt 2: [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-- Details: [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }}) · [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+Bis dahin: Starte über den Hub und folge dem Flow.
+
+→ [Haushaltsbuch - Überblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
+
+---
+
+## Der Flow (ohne Schleifen)
+
+1) [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+2) [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+3) [Variable Ausgaben]({{ "/seiten/variable-ausgaben.html" | relative_url }})
+4) [Spielraum & Rücklagen]({{ "/seiten/spielraum-ruecklagen.html" | relative_url }})
+5) [Haushaltsüberblick]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
+6) [Ordnung halten]({{ "/seiten/ordnung-halten.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **Zurück:** [Der Weg - Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+- **Zurück:** [Haushaltsbuch - Überblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
 - **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
 - **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
