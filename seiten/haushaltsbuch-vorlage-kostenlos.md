@@ -6,8 +6,21 @@ permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 
 # Haushaltsbuch – kostenlose Vorlage (kommt bald)
 
-Die **kostenlose Light-Version** der Haushaltsbuch-Vorlage ist in Vorbereitung.  
-Aktuell ist diese Seite bewusst **ohne Download**, bis alles sauber getestet ist.
+Die **kostenlose Light-Version** der Haushaltsbuch-Vorlage ist in Vorbereitung.
+
+Aktuell ist diese Seite bewusst **ohne Download**, bis alles sauber getestet ist – damit du später **keine kaputte/halbfertige Vorlage** erwischst und dich nicht ärgerst.
+
+---
+
+## Was du später hier bekommst (Light-Version)
+
+- **ODS als Master-Datei** (LibreOffice-first)
+- **XLSX als 1:1 Export** (für Excel-Nutzer)
+- **Einfacher Einstieg** (wenige Funktionen, schnell verstanden)
+- **Kurzes Beispiel:** „So nutzt du es in einem Monat“ (optional)
+- **Kurzanleitung**: „So startest du“ (self-serve)
+
+Ziel: Du kannst **ohne Stress** starten – und später bei Bedarf erweitern.
 
 ---
 
@@ -21,16 +34,6 @@ Wenn du heute schon anfangen willst, nutze:
 - **Grundlagen (ruhig, ohne Druck):**  
   [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)  
   [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
----
-
-## Was du später hier bekommst (Light-Version)
-
-- **Einfacher Einstieg** (wenige Funktionen, leicht verständlich)
-- **Kurzes Beispiel:** „So nutzt du es in einem Monat“
-- **Klare Einordnung**, wann die Vollversion sinnvoll ist (ohne Druck)
-
-Ziel: Du kannst **ohne Stress** starten – und später bei Bedarf erweitern.
 
 ---
 
