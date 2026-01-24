@@ -6,35 +6,34 @@ permalink: /seiten/haushaltsueberblick.html
 
 # Haushaltsüberblick – Einordnung ohne Druck
 
-Der Haushaltsüberblick dient einem einzigen Zweck:  
-**das eigene Gesamtbild zu sehen**.
+Der Haushaltsüberblick hat einen einzigen Zweck: **das Gesamtbild zu sehen**.
 
 Nicht im Detail.  
 Nicht als Bewertung.  
 Nicht als Aufgabe.
 
-Hier geht es um **Zusammenhang** – nicht um Urteil.
+Kurz gesagt: **Zusammenhang statt Urteil.**
 
 ---
 
 ## Worum es hier geht
 
-Ein Haushalt besteht aus mehreren Bereichen, die zusammenwirken.
+Ein Haushalt besteht aus Bereichen, die zusammenwirken.
 
 Diese Seite bringt sie **gedanklich zusammen** –  
-ohne etwas zu berechnen und ohne etwas zu entscheiden.
+ohne etwas zu berechnen und ohne etwas entscheiden zu müssen.
 
-Sie zeigt: *So hängt alles miteinander zusammen.*
+Sie zeigt nur: *So hängt das miteinander zusammen.*
 
 ---
 
-## Überblick statt Urteil
+## Überblick statt Ergebnis
 
 Ein Überblick ist kein Ergebnis.  
 Er ist eine Momentaufnahme.
 
 Er sagt nichts darüber, was richtig oder falsch ist –  
-und auch nichts darüber, was geändert werden müsste.
+und auch nichts darüber, was „geändert werden müsste“.
 
 Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
 
@@ -42,10 +41,10 @@ Er hilft nur, das Ganze **als Ganzes wahrzunehmen**.
 
 ## Keine Anleitung
 
-Diese Seite erklärt **keinen Ablauf**.  
-Es gibt hier keine Schritte, keine Reihenfolge und keinen Arbeitsauftrag.
+Diese Seite gibt **keinen Ablauf** vor.  
+Keine Schritte, keine Reihenfolge, kein Arbeitsauftrag.
 
-Wenn du Zahlen bereits gesammelt hast, kannst du sie hier gedanklich zusammenführen.  
+Wenn du Zahlen schon gesammelt hast, kannst du sie hier gedanklich zusammenführen.  
 Wenn nicht, ist das ebenso in Ordnung.
 
 ---
@@ -81,6 +80,7 @@ Wenn du einen Teilbereich ruhig einordnen willst:
 
 - [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 ---
 
