@@ -1,19 +1,19 @@
 ---
-layout: default
-title: Fixkosten im Haushalt - Überblick
+layout: page
+title: Fixkosten – Überblick
 permalink: /seiten/fixkosten-uebersicht.html
 ---
 
-## Fixkosten – ruhig betrachtet
+# Fixkosten – Überblick
 
 Fixkosten sind Ausgaben, die einfach **da sind**.  
-Sie laufen im Hintergrund, unabhängig davon, wie ein Monat sich anfühlt.
+Sie laufen im Hintergrund – unabhängig davon, wie ein Monat sich anfühlt.
 
-Auf dieser Seite geht es nicht um Beträge.  
+Auf dieser Seite geht es **nicht** um Beträge.  
 Nicht um Kontrolle.  
 Nicht um Veränderung.
 
-Es geht nur darum, **Fixkosten als Teil des Haushalts wahrzunehmen**.
+Es geht nur darum, Fixkosten als **Teil des Haushalts** wahrzunehmen.
 
 ---
 
@@ -27,11 +27,9 @@ Typische Fixkosten sind zum Beispiel:
 - Telefon, Internet, Rundfunk
 - Abonnements
 
-Diese Aufzählung ist **nicht vollständig**  
-und sie ist **keine Checkliste**.
+Diese Aufzählung ist **nicht vollständig** – und sie ist **keine Checkliste**.
 
-Sie soll nur zeigen:  
-Fixkosten sind **wiederkehrend** und **planbar**, nicht gut oder schlecht.
+Sie soll nur zeigen: Fixkosten sind **wiederkehrend** und **planbar** – nicht gut oder schlecht.
 
 ---
 
@@ -41,16 +39,26 @@ Du musst hier nichts sammeln.
 Du musst nichts vergleichen.  
 Du musst nichts entscheiden.
 
-Wenn du beim Lesen merkst:  
-„Ja, das kenne ich“ – dann reicht das vollkommen.
+Wenn du beim Lesen merkst: „Ja, das kenne ich“ – dann reicht das vollkommen.
 
 ---
 
 ## Wie es weitergeht
 
-Der nächste Schritt macht sichtbar,  
-**wo Fixkosten im Gesamtbild des Haushalts liegen** –  
-ohne Zahlen und ohne Druck.
+Wenn du möchtest, geh als nächstes zu den **monatlichen Ausgaben** (Alltagsposten).  
+Das ergänzt die Fixkosten – ebenfalls ohne Druck.
 
-👉 **Weiter zum Haushaltsbuch**  
-[Haushaltsbuch – wozu es dient]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+→ **Weiter: Monatliche Ausgaben – Einordnung**  
+[Zur Seite]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+Wenn du lieber erst verstehen willst, wofür das Haushaltsbuch im Projekt da ist:
+
+→ **Haushaltsbuch – einfach erklärt**  
+[Zum Überblick]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+
+---
+
+## Zur Orientierung
+
+- [Haushaltsbuch – Hub]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Startseite]({{ site.baseurl }}/seiten/index.html)
