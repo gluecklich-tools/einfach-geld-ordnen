@@ -1,48 +1,14 @@
-{% comment %}
-Flow-Footer (aufgeräumt)
-- 1x vorhanden (keine Dopplung)
-- klare Orientierung ohne Druck
-- Downloads bewusst deaktiviert bis Switch-ready
-{% endcomment %}
-
-<div class="flow-footer">
+<footer class="site-footer" role="contentinfo">
   <hr>
+  <p>
+    <a href="{{ site.baseurl }}/seiten/impressum.html">Impressum</a>
+    ·
+    <a href="{{ site.baseurl }}/seiten/datenschutz.html">Datenschutz</a>
+  </p>
 
-  {% if page.permalink contains '/pillar/' %}
-    <p class="flow-text">
-      Du kannst hier aufhören.<br>
-      Wenn du magst, findest du unten drei saubere Wege – ohne Umwege.
-    </p>
-
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/pillar/haushaltsueberblick.html">Überblick ohne Zahlen</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/index.html">Pillar-Überblick</a></li>
-      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
-    </ul>
-
-    <p class="flow-text" style="margin-top:14px">
-      <strong>Downloads:</strong> derzeit deaktiviert (Templates noch im Feinschliff). Freischaltung erst bei Switch-ready.
-    </p>
-
-  {% elsif page.permalink contains '/seiten/' %}
-    <p class="flow-text">
-      Diese Seite steht für sich.<br>
-      Wenn du magst, findest du unten den Zusammenhang.
-    </p>
-
-    <ul class="flow-links">
-      <li><a href="{{ site.baseurl }}/seiten/index.html">Praxisübersicht</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/index.html">Pillar-Überblick</a></li>
-      <li><a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen</a></li>
-    </ul>
-
-    <p class="flow-text" style="margin-top:14px">
-      <strong>Downloads:</strong> derzeit deaktiviert (Templates noch im Feinschliff). Freischaltung erst bei Switch-ready.
-    </p>
-
-  {% else %}
-    <p class="flow-text">
-      Du bist am Ende angekommen. Es ist alles ok.
-    </p>
-  {% endif %}
-</div>
+  <p>
+    <small>
+      © {{ "now" | date: "%Y" }} Einfach Geld ordnen
+    </small>
+  </p>
+</footer>

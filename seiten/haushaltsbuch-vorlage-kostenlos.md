@@ -1,33 +1,24 @@
 ---
-layout: default
-title: "Kostenlose Haushaltsbuch Vorlage – kommt später"
+layout: page
+title: Haushaltsbuch – kostenlose Vorlage
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 ---
 
-## Kostenlose Haushaltsbuch Vorlage – kommt später
+## Kostenlose Vorlage – kommt später
 
-Die kostenlose Light-Vorlage ist **geplant**, aber **noch nicht online**.  
-Wichtig: **Es gibt hier aktuell bewusst keinen Download.**
+Die **kostenlose Version** der Haushaltsbuch-Vorlage ist in Vorbereitung.
 
-Warum? Phase 2 wird zuerst sauber fertiggestellt: **Produkt + Landing**, dann erst die restlichen Varianten.
+Aktuell ist diese Seite bewusst **ohne Download**, damit später keine Verwirrung entsteht und alles sauber getestet ist.
 
----
+### Was du später hier bekommst
+- eine einfache Vorlage zum Start (wenige Funktionen, leicht verständlich)
+- ein kurzes „So benutzt du es“-Beispiel
+- klarer Hinweis, wie du bei Bedarf zur Vollversion wechseln kannst
 
-## Was später hier stehen wird
+### Bis dahin
+Wenn du jetzt starten willst, nutze bitte die Übersicht:
 
-- Eine einfache Light-Vorlage für den Einstieg
-- Klarer, reduzierter Funktionsumfang
-- Ohne Support, ohne Registrierung
+➡️ **Haushaltsbuch (Übersicht)**  
+[Zur Haushaltsbuch-Seite]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
----
-
-## Bis dahin: empfohlener Einstieg
-
-- **Überblick / Hub:**  
-  [Haushaltsbuch – Überblick]( {{ '/seiten/haushaltsbuch.html' | relative_url }} )
-
-- **Vollversion (10 €) – kommt bald (noch ohne Bezahl-Link):**  
-  [Vollversion Landing]( {{ '/seiten/haushaltsbuch-vollversion.html' | relative_url }} )
-
-- **Projekt-Übersicht:**  
-  [Zur Übersicht]( {{ '/pillar/index.html' | relative_url }} )
+> Stand: 2026-01-24
