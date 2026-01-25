@@ -45,3 +45,9 @@ BETRIEBSHANDBUCH*.md
 MANIFEST*.md
 
 00_workblocks/
+# Internal tooling (local only)
+tools/
+tools/*.ps1
+tools/*.psm1
+tools/*.txt
+tools/*.log
