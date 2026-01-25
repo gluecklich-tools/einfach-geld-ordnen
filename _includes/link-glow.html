@@ -1,0 +1,29 @@
+<!-- link-glow v1 -->
+<style>
+/* link-glow v1 */
+
+/* Inhalt-Links: deutlich + ruhig */
+main a,
+.content a,
+.page-content a,
+article a,
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+main a:hover, main a:focus,
+.content a:hover, .content a:focus,
+.page-content a:hover, .page-content a:focus,
+article a:hover, article a:focus,
+.prose a:hover, .prose a:focus {
+  text-shadow: 0 0 12px rgba(0,0,0,0.25);
+}
+
+/* Nav/Footer bewusst NICHT glühen lassen */
+header a, nav a, footer a,
+.site-nav a, .nav a {
+  text-shadow: none !important;
+  text-decoration: none !important;
+}
+</style>
