@@ -119,7 +119,6 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
 <!-- EGO_FOOTER_START -->
 ## Weiter
 
-- Start: Startseite (TODO missing permalink)
 - Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 

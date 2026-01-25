@@ -76,7 +76,6 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 <!-- EGO_FOOTER_START -->
 ## Weiter
 
-- Start: Startseite (TODO missing permalink)
 - Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 

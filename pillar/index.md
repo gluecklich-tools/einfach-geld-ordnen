@@ -47,13 +47,6 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 ---
 <!-- CTA-FOOTER-END -->
 
-<!-- WEITER-START -->
-
-## Weiter
-
-- Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
-<!-- WEITER-END -->
 <!-- FOOTER-START -->
 
 ---
@@ -68,7 +61,6 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 <!-- EGO_FOOTER_START -->
 ## Weiter
 
-- Start: Startseite (TODO missing permalink)
 - Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
