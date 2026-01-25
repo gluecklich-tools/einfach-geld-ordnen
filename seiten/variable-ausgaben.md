@@ -71,12 +71,4 @@ Mehr ist an dieser Stelle nicht nötig.
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
-<!-- CTA-FOOTER-START -->
----
-
-## Naechster Schritt
-
-- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
-- Weiter: [Weiter]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-
-<!-- CTA-FOOTER-END -->
+<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/spielraum-ruecklagen\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->

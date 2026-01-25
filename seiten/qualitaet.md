@@ -50,12 +50,4 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 - Kostenlos: [Vorlage kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-<!-- CTA-FOOTER-START -->
----
-
-## Naechster Schritt
-
-- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
-- Weiter: [Weiter]({{ site.baseurl }}/seiten/governance.html)
-
-<!-- CTA-FOOTER-END -->
+<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->

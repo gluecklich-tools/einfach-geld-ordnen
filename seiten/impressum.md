@@ -49,12 +49,4 @@ F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen.
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
 
-<!-- CTA-FOOTER-START -->
----
-
-## Naechster Schritt
-
-- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
-- Weiter: [Weiter]({{ site.baseurl }}/seiten/index.html)
-
-<!-- CTA-FOOTER-END -->
+<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->

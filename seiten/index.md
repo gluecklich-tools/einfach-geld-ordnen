@@ -97,12 +97,4 @@ Für Menschen, die Ordnung wollen, aber keine Lust auf:
 - [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 - [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 
-<!-- CTA-FOOTER-START -->
----
-
-## Naechster Schritt
-
-- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
-- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-<!-- CTA-FOOTER-END -->
+<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->

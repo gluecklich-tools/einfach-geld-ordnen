@@ -20,12 +20,4 @@ Bis dahin: Nutze den Flow über den Hub.
 - **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
 - **Weiter:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
 
-<!-- CTA-FOOTER-START -->
----
-
-## Naechster Schritt
-
-- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
-- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-
-<!-- CTA-FOOTER-END -->
+<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
