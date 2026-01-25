@@ -7,10 +7,10 @@ nav_order: 80
 ---
 # Ordnung halten – wenn sie hilft (ohne Druck)
 
-Ordnung ist kein Ziel an sich.  
+Ordnung ist kein Ziel an sich.
 Sie ist nur dann gut, wenn sie **entlastet**.
 
-Diese Seite ist bewusst ruhig:  
+Diese Seite ist bewusst ruhig:
 kein System, keine Regeln, keine App-Empfehlungen.
 
 Nur ein Gedanke:
@@ -46,7 +46,20 @@ Dann ist weniger oft mehr.
 
 Wenn du dazu einen ruhigen, grundsätzlichen Text willst:
 
-👉 [Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+→ [Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+
+---
+
+## Nächster sinnvoller Schritt
+
+Wenn du nach dem Überblick weitermachen willst, nimm als nächstes:
+
+- [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+
+Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
+
+- [Haushaltsbuch Vollversion – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Kostenlose Haushaltsbuch-Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 ---
 
@@ -54,5 +67,4 @@ Wenn du dazu einen ruhigen, grundsätzlichen Text willst:
 
 - **Zurück:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Weiter:** [Startseite]({{ site.baseurl }}/index.html)
-
+- **Weiter:** [Start]({{ site.baseurl }}/seiten/index.html)
