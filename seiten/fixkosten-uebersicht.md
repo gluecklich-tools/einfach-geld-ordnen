@@ -1,13 +1,13 @@
 ---
-layout: default
-title: "Fixkosten Übersicht"
+layout: page
+title: Fixkosten Übersicht
 permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
 ---
-## Fixkosten Übersicht
+# Fixkosten Übersicht
 
-Fixkosten sind Ausgaben, die **regelmäßig** anfallen (meist monatlich) und sich **selten** ändern.  
+Fixkosten sind Ausgaben, die **regelmäßig** anfallen (meist monatlich) und sich **selten** ändern.
 Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sind, wird alles andere leichter.
 
 **Ziel:** Einmal sauber erfassen – danach nur noch bei Änderungen anfassen.
@@ -29,8 +29,8 @@ Das sind Beispiele – keine Pflichtliste.
 
 ## So trägst du Fixkosten in die Tabelle ein (ohne Stress)
 
-1) **Posten** eintragen (z. B. „Miete“, „Internet“).  
-2) **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).  
+1) **Posten** eintragen (z. B. „Miete“, „Internet“).
+2) **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
 3) Wenn etwas **jährlich** kommt (z. B. Versicherung): als Monatswert eintragen (Jahresbetrag ÷ 12).  
    *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und später umrechnen.*
 
@@ -56,7 +56,6 @@ Wenn ja: reicht.
 
 ## Navigation
 
-- **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-
+- **Zurück:** [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
