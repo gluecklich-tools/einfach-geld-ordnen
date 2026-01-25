@@ -5,7 +5,7 @@ permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
 ---
-## Monatliche Ausgaben – einfach einordnen
+# Monatliche Ausgaben – einfach einordnen
 
 Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest gebunden** sind wie Fixkosten.
 
@@ -20,8 +20,8 @@ Typische Beispiele:
 
 ## So gehst du vor (ohne Stress)
 
-1) **Notiere grob** 5–10 Posten, die bei dir fast jeden Monat vorkommen.  
-2) **Schätze lieber zu hoch** als zu niedrig (damit du später Luft hast).  
+1) **Notiere grob** 5–10 Posten, die bei dir fast jeden Monat vorkommen.
+2) **Schätze lieber zu hoch** als zu niedrig (damit du später Luft hast).
 3) Wenn etwas schwankt: nimm den **Durchschnitt** oder eine **„schlechte“ Monatsschätzung**.
 
 ---
@@ -37,7 +37,8 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 
 ---
 
+## Navigation
+
 - **Zurück:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-
