@@ -1,0 +1,62 @@
+{% assign u = page.url | downcase %}
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="{{ site.baseurl }}/index.html">Einfach Geld ordnen</a>
+
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{ site.baseurl }}/index.html"
+            {% if u == "/" or u == "/index.html" %}aria-current="page"{% endif %}
+          >Überblick</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{ site.baseurl }}/seiten/der-weg.html"
+            {% if u == "/seiten/der-weg.html" %}aria-current="page"{% endif %}
+          >Der Weg</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{ site.baseurl }}/seiten/haushaltsbuch.html"
+            {% if u == "/seiten/haushaltsbuch.html" %}aria-current="page"{% endif %}
+          >Haushaltsbuch</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{ site.baseurl }}/seiten/fixkosten-uebersicht.html"
+            {% if u == "/seiten/fixkosten-uebersicht.html" %}aria-current="page"{% endif %}
+          >Kosten</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{ site.baseurl }}/seiten/ordnung-halten.html"
+            {% if u == "/seiten/ordnung-halten.html" %}aria-current="page"{% endif %}
+          >Ordnung halten</a>
+        </li>
+      </ul>
+
+      <details class="nav-more">
+        <summary class="nav-more-summary">Mehr</summary>
+        <div class="nav-more-panel" role="menu" aria-label="Mehr Navigation">
+          <a class="nav-more-link" href="{{ site.baseurl }}/seiten/monatliche-ausgaben.html" role="menuitem">Monatliche Ausgaben</a>
+          <a class="nav-more-link" href="{{ site.baseurl }}/seiten/variable-ausgaben.html" role="menuitem">Variable Ausgaben</a>
+          <a class="nav-more-link" href="{{ site.baseurl }}/seiten/spielraum-ruecklagen.html" role="menuitem">Spielraum &amp; Rücklagen</a>
+          <a class="nav-more-link" href="{{ site.baseurl }}/seiten/haushaltsueberblick.html" role="menuitem">Haushaltsüberblick</a>
+          <a class="nav-more-link" href="{{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html" role="menuitem">Vorlage kostenlos</a>
+          <a class="nav-more-link" href="{{ site.baseurl }}/pillar/index.html" role="menuitem">Pillar-Übersicht (lesen)</a>
+        </div>
+      </details>
+    </nav>
+  </div>
+</header>

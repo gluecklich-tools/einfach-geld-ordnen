@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+
     <title>{% if page.title %}{{ page.title }} - {% endif %}Einfach Geld ordnen</title>
+
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/base.css" />
+
     {% include link-glow.html %}
   </head>
+
   <body>
+    {% include header.html %}
 
     <main class="container">
       {{ content }}
