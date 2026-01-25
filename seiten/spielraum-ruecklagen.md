@@ -7,10 +7,10 @@ nav_order: 70
 ---
 # Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
 
-Spielraum und Rücklagen sind **kein Luxus** und kein „Optimierungsziel“.  
+Spielraum und Rücklagen sind **kein Luxus** und kein „Optimierungsziel“.
 Sie sind eine Form von **Sicherheit**, damit kleine Schwankungen nicht sofort Stress auslösen.
 
-Diese Seite ist keine Anleitung zum Sparen.  
+Diese Seite ist keine Anleitung zum Sparen.
 Sie ist eine ruhige Einordnung, **warum Spielraum im Haushalt sinnvoll ist**.
 
 ---
@@ -20,7 +20,7 @@ Sie ist eine ruhige Einordnung, **warum Spielraum im Haushalt sinnvoll ist**.
 - **Spielraum**: Geld, das nicht fest verplant ist (ein Puffer im Monat).
 - **Rücklagen**: Geld, das für später „geparkt“ ist (Reparaturen, Nachzahlungen, Ersatzkäufe).
 
-Beides kann klein sein.  
+Beides kann klein sein.
 Wichtig ist nicht die Höhe – sondern, dass es **überhaupt sichtbar** wird.
 
 ---
@@ -50,4 +50,3 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 - **Zurück:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
-
