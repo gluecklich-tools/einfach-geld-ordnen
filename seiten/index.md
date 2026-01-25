@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Start
-permalink: /seiten/index.html
+permalink: /index.html
 nav_group: seiten
 nav_order: 10
 ---

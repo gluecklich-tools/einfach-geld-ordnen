@@ -2,7 +2,7 @@
 layout: default
 title: "Einfach Geld ordnen - Überblick"
 h1: "Einfach Geld ordnen - Überblick"
-permalink: /pillar/index.html
+permalink: /pillar/
 nav_group: pillar
 nav_order: 10
 ---
