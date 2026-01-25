@@ -38,8 +38,12 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 <!-- EGO_FOOTER_START -->
 ## Weiter
 
-- Start: Startseite (TODO missing permalink)
-- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Startseite]({{ site.baseurl }}/index.html)
+- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ (Top 15)]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
+- [100% Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 
 <!-- EGO_FOOTER_END -->
