@@ -83,7 +83,7 @@ Mehr ist an dieser Stelle nicht nötig.
 
 ## Weiter
 
-- Vertiefung (Pillar): [{{ site.baseurl }}/pillar/]({{ site.baseurl }}/pillar/)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

@@ -102,7 +102,7 @@ Fuer Menschen, die Ordnung wollen, aber keine Lust auf:
 ## Weiter
 
 - Start: [Startseite]({{ site.baseurl }}/index.html)
-- Ueberblick (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
+- Ueberblick (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
 - Haushaltsbuch: [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - Premium: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
