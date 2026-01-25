@@ -42,7 +42,7 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 <!-- CTA-FOOTER-START -->
 ---
 **Naechster Schritt:** [Weiter]({{ "/seiten/haushaltsbuch.html" | relative_url }})
-**Zurueck:** [Start]({{ "/seiten/index.html" | relative_url }})
+**Zurueck:** [Start]({{ "/index.html" | relative_url }})
 **Premium:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
 ---
 <!-- CTA-FOOTER-END -->
