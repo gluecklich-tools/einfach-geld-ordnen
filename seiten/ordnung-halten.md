@@ -67,7 +67,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 
 - **Zurück:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Weiter:** [Start]({{ site.baseurl }}/seiten/index.html)
+- **Weiter:** [Start]({{ site.baseurl }}/index.html)
 
 <!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
 <!-- CTA-FOOTER-START -->
@@ -75,7 +75,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 ---
 
 **Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Start]({{ site.baseurl }}/index.html)
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
@@ -93,7 +93,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 
 ## Naechster Schritt
 
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
 - Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- FOOTER-END -->

@@ -45,7 +45,7 @@ Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 ## Weiter
-- Start: [Startseite]({{ site.baseurl }}/seiten/index.html)
+- Start: [Startseite]({{ site.baseurl }}/index.html)
 - Überblick: [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - Kostenlos: [Vorlage kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
@@ -56,7 +56,7 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 ---
 
 **Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Start]({{ site.baseurl }}/index.html)
 <!-- CTA-FOOTER-END -->
 
 <!-- FOOTER-START -->
@@ -65,7 +65,7 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 ## Naechster Schritt
 
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
 - Governance-Uebersicht: [{{ site.baseurl }}/seiten/governance.html]({{ site.baseurl }}/seiten/governance.html)
 
 <!-- FOOTER-END -->

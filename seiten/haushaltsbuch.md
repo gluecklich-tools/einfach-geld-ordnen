@@ -36,7 +36,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 ---
 
 ## Navigation
-- **Zurück:** [Start]({{ site.baseurl }}/seiten/index.html)
+- **Zurück:** [Start]({{ site.baseurl }}/index.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
@@ -46,7 +46,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 ---
 
 **Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Start]({{ site.baseurl }}/index.html)
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
@@ -64,7 +64,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 
 ## Naechster Schritt
 
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
 - Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- FOOTER-END -->

@@ -47,7 +47,7 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 ---
 
 **Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Start]({{ site.baseurl }}/index.html)
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
@@ -65,7 +65,7 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 ## Naechster Schritt
 
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
 - Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- FOOTER-END -->

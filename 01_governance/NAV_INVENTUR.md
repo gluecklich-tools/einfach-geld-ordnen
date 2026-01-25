@@ -25,7 +25,7 @@ Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group,
 | seiten\haushaltsbuch-vorlage-kostenlos.md | seiten | 100 | /seiten/haushaltsbuch-vorlage-kostenlos.html | Kostenlose Haushaltsbuch-Vorlage | 9 |
 | seiten\haushaltsueberblick.md | seiten | 30 | /seiten/haushaltsueberblick.html | Haushaltsüberblick – Einordnung ohne Druck | 4 |
 | seiten\impressum.md | meta | 900 | /seiten/impressum.html | Impressum | 1 |
-| seiten\index.md | seiten | 10 | /seiten/index.html | Start | 17 |
+| seiten\index.md | seiten | 10 | {{ site.baseurl }}/index.html | Start | 17 |
 | seiten\monatliche-ausgaben.md | seiten | 50 | /seiten/monatliche-ausgaben.html | Monatliche Ausgaben | 6 |
 | seiten\nebenkosten-miete.md | seiten | 46 | /seiten/nebenkosten-miete.html | Nebenkosten der Miete | 5 |
 | seiten\ordnung-halten.md | seiten | 80 | /seiten/ordnung-halten.html | Ordnung halten – wenn sie hilft (ohne Druck) | 5 |

@@ -5,73 +5,74 @@ permalink: /index.html
 nav_group: seiten
 nav_order: 10
 ---
+
 # Einfach Geld ordnen
 
-Eine ruhige, klare Methode, um deine Finanzen **übersichtlich** zu machen – mit **Vorlage** und **einfachen Schritt-für-Schritt-Seiten**.
+Eine ruhige, klare Methode, um deine Finanzen **uebersichtlich** zu machen - mit **Vorlage** und **einfachen Schritt-fuer-Schritt-Seiten**.
 
-**Ziel:** Du kannst das selbstständig nutzen – ohne Stress, ohne Fachwörter, ohne Einrichtungs-Service.
+**Ziel:** Du kannst das selbstaendig nutzen - ohne Stress, ohne Fachwoerter, ohne Einrichtungs-Service.
 
 ---
 
 ## Starte jetzt (2 Minuten)
 
-**1) Der beste Einstieg (Hub)**
-→ [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+**1) Der beste Einstieg (Hub)**  
+-> [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-**2) Wenn du erst „ruhig verstehen“ willst (ohne Vorlage)**
-- [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+**2) Wenn du erst "ruhig verstehen" willst (ohne Vorlage)**  
+- [Fixkosten - Ueberblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Monatliche Ausgaben - Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 ---
 
 ## Der Kern-Flow (damit du dich nicht im Kreis drehst)
 
-Wenn du einfach nur Orientierung willst, folge dieser Reihenfolge – ohne Druck:
+Wenn du einfach nur Orientierung willst, folge dieser Reihenfolge - ohne Druck:
 
-1) [Fixkosten – Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-2) [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-3) [Variable Ausgaben – Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-4) [Spielraum & Rücklagen – Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-5) [Haushaltsüberblick – Einordnung]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+1) [Fixkosten - Ueberblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+2) [Monatliche Ausgaben - Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+3) [Variable Ausgaben - Einordnung]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+4) [Spielraum & Ruecklagen - Einordnung]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+5) [Haushaltsueberblick - Einordnung]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 
 ---
 
 ## Haushaltsbuch-Vorlagen (Status)
 
 - **Vollversion (kommt bald, noch ohne Kaufbutton):**
-  [Haushaltsbuch Vollversion – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+  [Haushaltsbuch Vollversion - Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 - **Kostenlose Light-Version (kommt bald, noch ohne Download):**
-  [Haushaltsbuch – kostenlose Vorlage (Status)]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+  [Haushaltsbuch - kostenlose Vorlage (Status)]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-Wenn du Excel nutzt oder unsicher bist:
-→ [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+Wenn du Excel nutzt oder unsicher bist:  
+-> [Haushaltsbuch in Excel - Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ---
 
 ## Was du hier bekommst
 
-- **Vorlage + klare Struktur:** Fixkosten, Alltag, Spielraum – ohne Chaos
-- **Ruhige Einordnung:** nicht wertend, nicht drückend, sondern verständlich
+- **Vorlage + klare Struktur:** Fixkosten, Alltag, Spielraum - ohne Chaos
+- **Ruhige Einordnung:** nicht wertend, nicht drueckend, sondern verstaendlich
 - **Praxis-Seiten:** kurze Schritte, die du auch mit wenig Energie hinbekommst
-- **Qualitätsprinzipien:** transparent, damit du weißt, worauf du dich verlassen kannst
+- **Qualitaetsprinzipien:** transparent, damit du weisst, worauf du dich verlassen kannst
 
-→ [Qualität & Prinzipien]({{ site.baseurl }}/seiten/qualitaet.html)
+-> [Qualitaet & Prinzipien]({{ site.baseurl }}/seiten/qualitaet.html)
 
 ---
 
 ## Projektseiten (wenn du den Rahmen verstehen willst)
 
 - [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
-- [Ordnung halten – wenn sie hilft]({{ site.baseurl }}/seiten/ordnung-halten.html)
+- [Ordnung halten - wenn sie hilft]({{ site.baseurl }}/seiten/ordnung-halten.html)
 
 ---
 
-## Für wen das gemacht ist
+## Fuer wen das gemacht ist
 
-Für Menschen, die Ordnung wollen, aber keine Lust auf:
-- Fachbegriffe und „Finanz-Influencer“-Sprech
-- komplizierte Apps mit Abo und Konto-Verknüpfung
+Fuer Menschen, die Ordnung wollen, aber keine Lust auf:
+- Fachbegriffe und "Finanz-Influencer"-Sprech
+- komplizierte Apps mit Abo und Konto-Verknuepfung
 - Perfektionismus oder Druck
 
 ---
@@ -86,8 +87,8 @@ Für Menschen, die Ordnung wollen, aber keine Lust auf:
 
 ## Projekt-Status
 
-**Stand:** 2026-01-24
-- Phase 2 läuft (Light + Vollversion in Arbeit)
+**Stand:** 2026-01-25  
+- Phase 2 laeuft (Light + Vollversion in Arbeit)
 - Noch **kein Verkauf** und **keine Bezahl-Links**
 
 ---
@@ -97,40 +98,12 @@ Für Menschen, die Ordnung wollen, aber keine Lust auf:
 - [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 - [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 
-<!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
-<!-- CTA-FOOTER-START -->
-
----
-
-**Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
-- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-<!-- CTA-FOOTER-END -->
-
-<!-- WEITER-START -->
-
-## Weiter
-
-- Vertiefung (Pillar): [{{ site.baseurl }}/pillar/]({{ site.baseurl }}/pillar/)
-- Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
-<!-- WEITER-END -->
-<!-- FOOTER-START -->
-
----
-
-## Naechster Schritt
-
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
-- Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
-<!-- FOOTER-END -->
-
 <!-- EGO_FOOTER_START -->
 ## Weiter
 
-- Start: Startseite (TODO missing permalink)
-- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- Start: [Startseite]({{ site.baseurl }}/index.html)
+- Ueberblick (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
+- Haushaltsbuch: [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- Premium: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- EGO_FOOTER_END -->

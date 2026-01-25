@@ -32,7 +32,7 @@ Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
 ---
 
 **Weiter:**
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Start]({{ site.baseurl }}/index.html)
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
@@ -49,7 +49,7 @@ Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
 
 ## Naechster Schritt
 
-- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
 - Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- FOOTER-END -->
