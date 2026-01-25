@@ -37,3 +37,11 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 - **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 <!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
+<!-- CTA-FOOTER-START -->
+
+---
+
+**Weiter:**
+- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+<!-- CTA-FOOTER-END -->

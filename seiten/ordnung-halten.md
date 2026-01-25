@@ -70,3 +70,11 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - **Weiter:** [Start]({{ site.baseurl }}/seiten/index.html)
 
 <!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
+<!-- CTA-FOOTER-START -->
+
+---
+
+**Weiter:**
+- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+<!-- CTA-FOOTER-END -->

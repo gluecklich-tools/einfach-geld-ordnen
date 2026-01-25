@@ -42,3 +42,11 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 
 <!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
+<!-- CTA-FOOTER-START -->
+
+---
+
+**Weiter:**
+- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+<!-- CTA-FOOTER-END -->

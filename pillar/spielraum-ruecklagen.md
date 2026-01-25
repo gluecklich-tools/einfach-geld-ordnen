@@ -99,3 +99,11 @@ bevor man überhaupt etwas verändert.
 - **Weiter:** [Ordnung halten - ohne Druck]({{ "/pillar/ordnung-halten.html" | relative_url }})
 
 <!--\\ CTA-FOOTER-START\\ -->\\n---\\n\\*\\*Naechster\\ Schritt:\\*\\*\\ \\[Weiter]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsueberblick\\.html\\)\\ \\ \\n\\*\\*Zurueck:\\*\\*\\ \\[Start]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/index\\.html\\)\\ \\ \\n\\*\\*Premium:\\*\\*\\ \\[Haushaltsbuch\\ Vollversion]\\(\\{\\{\\ site\\.baseurl\\ }}/seiten/haushaltsbuch-vollversion\\.html\\)\\n---\\n<!--\\ CTA-FOOTER-END\\ -->
+<!-- CTA-FOOTER-START -->
+
+---
+
+**Weiter:**
+- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+<!-- CTA-FOOTER-END -->
