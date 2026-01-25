@@ -106,3 +106,14 @@ Für Menschen, die Ordnung wollen, aber keine Lust auf:
 - [Start]({{ site.baseurl }}/seiten/index.html)
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
+
+<!-- FOOTER-START -->
+
+---
+
+## Naechster Schritt
+
+- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- FOOTER-END -->

@@ -82,3 +82,13 @@ Stand: 2026-01-24
 **Weiter:**
 - [Start]({{ site.baseurl }}/seiten/index.html)
 <!-- CTA-FOOTER-END -->
+
+<!-- FOOTER-START -->
+
+---
+
+## Naechster Schritt
+
+- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+
+<!-- FOOTER-END -->

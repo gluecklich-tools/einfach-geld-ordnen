@@ -58,3 +58,14 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 **Weiter:**
 - [Start]({{ site.baseurl }}/seiten/index.html)
 <!-- CTA-FOOTER-END -->
+
+<!-- FOOTER-START -->
+
+---
+
+## Naechster Schritt
+
+- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+- Governance-Uebersicht: [{{ site.baseurl }}/seiten/governance.html]({{ site.baseurl }}/seiten/governance.html)
+
+<!-- FOOTER-END -->
