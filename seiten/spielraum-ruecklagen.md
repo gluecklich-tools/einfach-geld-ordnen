@@ -79,3 +79,12 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 - Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- FOOTER-END -->
+
+<!-- EGO_FOOTER_START -->
+## Weiter
+
+- Start: Startseite (TODO missing permalink)
+- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+
+<!-- EGO_FOOTER_END -->
