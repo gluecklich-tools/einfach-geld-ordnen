@@ -51,3 +51,6 @@ tools/*.ps1
 tools/*.psm1
 tools/*.txt
 tools/*.log
+# Local work (never commit)
+_local/
+_inventur/
