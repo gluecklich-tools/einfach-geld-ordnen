@@ -1,15 +1,15 @@
-﻿---
+---
 layout: page
-title: Variable Ausgaben â€“ Einordnung ohne Druck
+title: Variable Ausgaben – Einordnung ohne Druck
 permalink: /seiten/variable-ausgaben.html
 ---
 
-# Variable Ausgaben â€“ Einordnung ohne Druck
+# Variable Ausgaben – Einordnung ohne Druck
 
-Variable Ausgaben sind Kosten, die **unregelmÃ¤ÃŸig** auftreten oder **stark schwanken**.  
-Sie kÃ¶nnen in manchen Monaten kaum vorkommen â€“ und in anderen deutlich ins Gewicht fallen.
+Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.  
+Sie können in manchen Monaten kaum vorkommen – und in anderen deutlich ins Gewicht fallen.
 
-Diese Seite erklÃ¤rt nicht, wie man sie erfasst, kontrolliert oder â€žoptimiertâ€œ.  
+Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 Kurz gesagt: **Einordnung statt Kontrolle.**
@@ -18,13 +18,13 @@ Kurz gesagt: **Einordnung statt Kontrolle.**
 
 ## Abgrenzung (kurz)
 
-- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmÃ¤ÃŸig vorkommen.  
+- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
   Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).  
-  â†’ [Monatliche Ausgaben â€“ Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+  → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
-- **Variable Ausgaben** sind Ausgaben, die auÃŸerplanmÃ¤ÃŸig sind oder stÃ¤rker schwanken.
+- **Variable Ausgaben** sind Ausgaben, die außerplanmäßig sind oder stärker schwanken.
 
-Beides gehÃ¶rt zum echten Leben â€“ **ohne Bewertung**.
+Beides gehört zum echten Leben – **ohne Bewertung**.
 
 ---
 
@@ -35,21 +35,21 @@ Oft unbemerkt, oft nebenbei.
 
 Das ist normal und **kein Zeichen von Unordnung**.
 
-Diese Seite bewertet nicht, wie hoch solche Ausgaben sein â€ždÃ¼rfenâ€œ â€“  
-oder ob etwas â€žzu vielâ€œ ist.
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –  
+oder ob etwas „zu viel“ ist.
 
 ---
 
 ## Beispiele (ohne Checkliste)
 
-Variable Ausgaben kÃ¶nnen sein:
+Variable Ausgaben können sein:
 
-- UnregelmÃ¤ÃŸige Anschaffungen (ErsatzkÃ¤ufe, Reparaturen)
-- Schwankende MobilitÃ¤t (z. B. ungeplante Fahrten)
-- Gesundheit / Apotheke (wenn es unregelmÃ¤ÃŸig anfÃ¤llt)
+- Unregelmäßige Anschaffungen (Ersatzkäufe, Reparaturen)
+- Schwankende Mobilität (z. B. ungeplante Fahrten)
+- Gesundheit / Apotheke (wenn es unregelmäßig anfällt)
 - Geschenke, besondere Termine, spontane Entscheidungen
 
-Das sind Beispiele â€“ **keine Pflichtliste**.
+Das sind Beispiele – **keine Pflichtliste**.
 
 ---
 
@@ -58,15 +58,15 @@ Das sind Beispiele â€“ **keine Pflichtliste**.
 Diese Seite fordert nicht dazu auf, Ausgaben zu sammeln oder auszuwerten.
 
 Sie sagt nur:  
-Diese Ausgaben existieren â€“ und sie wirken im Gesamtbild mit.
+Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
 
-Mehr ist an dieser Stelle nicht nÃ¶tig.
+Mehr ist an dieser Stelle nicht nötig.
 
 ---
 
 ## Navigation
 
-- **ZurÃ¼ck:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Ãœberblick]({{ site.baseurl }}/pillar/index.html)
-- **Weiter:** [Spielraum & RÃ¼cklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 

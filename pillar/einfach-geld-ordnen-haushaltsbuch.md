@@ -1,16 +1,16 @@
-﻿---
+---
 layout: default
-title: "Einfach Geld ordnen - Haushaltsbuch fÃ¼r AnfÃ¤nger"
-h1: "Einfach Geld ordnen - Haushaltsbuch fÃ¼r AnfÃ¤nger"
+title: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
+h1: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
 permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
 ---
 
 ## Ziel
 
-Du willst deine Finanzen so strukturieren, dass du **jeden Monat weiÃŸt**:
+Du willst deine Finanzen so strukturieren, dass du **jeden Monat weißt**:
 - was reinkommt,
 - was rausgeht,
-- was Ã¼brig bleibt.
+- was übrig bleibt.
 
 Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
@@ -18,25 +18,25 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 ## In 10 Minuten startklar
 
-1. Ã–ffne: [Haushaltsbuch in Excel einfach erklÃ¤rt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+1. Öffne: [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 2. Lade die Datei herunter (kostenlos):  
-   â†’ `haushaltsbuch-einfach-geld-ordnen.xlsx`
-3. Trage zuerst **Fixkosten** ein: [Fixkosten Ãœbersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+   → `haushaltsbuch-einfach-geld-ordnen.xlsx`
+3. Trage zuerst **Fixkosten** ein: [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 4. Danach deine **monatlichen Ausgaben**: [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
-5. Dann klÃ¤rst du Details Ã¼ber Zeit:  
+5. Dann klärst du Details über Zeit:  
    - [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
    - [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
 
 ---
 
-## NÃ¤chster Schritt (empfohlen)
+## Nächster Schritt (empfohlen)
 
-â†’ [Der Weg â€“ Schritt fÃ¼r Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+→ [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **ZurÃ¼ck:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Der Weg â€“ Schritt fÃ¼r Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
 

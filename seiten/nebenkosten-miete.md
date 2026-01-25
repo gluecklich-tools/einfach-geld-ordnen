@@ -1,42 +1,42 @@
-﻿---
+---
 layout: page
 title: Nebenkosten der Miete
 permalink: /seiten/nebenkosten-miete.html
 ---
 
-## Nebenkosten â€“ kurz und praktisch
+## Nebenkosten – kurz und praktisch
 
-Nebenkosten sind oft der Teil, der â€žirgendwie mitlÃ¤uftâ€œ und deshalb leicht unterschÃ¤tzt wird.
+Nebenkosten sind oft der Teil, der „irgendwie mitläuft“ und deshalb leicht unterschätzt wird.
 
-Hier reicht fÃ¼r den Anfang:
+Hier reicht für den Anfang:
 - **Abschlag** (monatlich)
 - oder **Jahreswert / 12** (wenn du nur die Abrechnung hast)
 
 ---
 
-## Was zÃ¤hlt typischerweise dazu?
+## Was zählt typischerweise dazu?
 
 Je nach Mietvertrag/Abrechnung z. B.:
 - Wasser/Abwasser
-- MÃ¼ll
+- Müll
 - Hausreinigung / Hausmeister
 - Heizung (wenn nicht separat)
 - Allgemeinstrom
-- Versicherungen (GebÃ¤ude etc.)
+- Versicherungen (Gebäude etc.)
 
-Du musst nicht alles perfekt trennen â€“ wichtig ist nur: **es ist drin**.
+Du musst nicht alles perfekt trennen – wichtig ist nur: **es ist drin**.
 
 ---
 
-## Optional: NÃ¤chste Vertiefung
+## Optional: Nächste Vertiefung
 
-Wenn du willst, kannst du als NÃ¤chstes die Stromkosten separat prÃ¼fen:
+Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ---
 
-- **ZurÃ¼ck:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Ãœberblick]({{ site.baseurl }}/pillar/index.html)
+- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 

@@ -1,30 +1,30 @@
-﻿---
+---
 layout: default
-title: "Der Weg - Schritt fÃ¼r Schritt"
+title: "Der Weg - Schritt für Schritt"
 permalink: /seiten/der-weg.html
 ---
 
-## Der Weg (Schritt fÃ¼r Schritt)
+## Der Weg (Schritt für Schritt)
 
-Dieser Weg fÃ¼hrt dich ohne Umwege durch die wichtigsten Schritte.
+Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
-1. **Haushaltsbuch Ã¶ffnen & Download**  
-   â†’ [Haushaltsbuch in Excel einfach erklÃ¤rt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+1. **Haushaltsbuch öffnen & Download**  
+   → [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
 2. **Fixkosten einmal sauber erfassen**  
-   â†’ [Fixkosten Ãœbersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+   → [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 3. **Monatliche Ausgaben stabil pflegen**  
-   â†’ [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+   → [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
 
-4. **Nebenkosten & Strom verstehen (Details, die Geld sparen kÃ¶nnen)**  
-   â†’ [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})  
-   â†’ [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+4. **Nebenkosten & Strom verstehen (Details, die Geld sparen können)**  
+   → [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})  
+   → [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **ZurÃ¼ck:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Haushaltsbuch in Excel einfach erklÃ¤rt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
