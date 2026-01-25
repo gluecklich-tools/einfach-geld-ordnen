@@ -1,12 +1,12 @@
----
+﻿---
 layout: default
-title: "Haushaltsüberblick - ohne Zahlen"
+title: "HaushaltsÃ¼berblick - ohne Zahlen"
 permalink: /pillar/haushaltsueberblick.html
 ---
 
-## Ein Überblick – ohne Zahlen
+## Ein Ãœberblick â€“ ohne Zahlen
 
-Bevor irgendetwas gerechnet, bewertet oder verändert wird,  
+Bevor irgendetwas gerechnet, bewertet oder verÃ¤ndert wird,  
 ist es hilfreich, **den eigenen Haushalt einfach nur zu sehen**.
 
 Nicht im Detail.  
@@ -26,8 +26,8 @@ Er besteht aus Bereichen, die miteinander verbunden sind:
 - Spielraum  
 - Sicherheit  
 
-Diese Seite will **nichts erklären** und **nichts ordnen**.  
-Sie zeigt nur: *Das alles gehört zusammen.*
+Diese Seite will **nichts erklÃ¤ren** und **nichts ordnen**.  
+Sie zeigt nur: *Das alles gehÃ¶rt zusammen.*
 
 ---
 
@@ -44,12 +44,13 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Wie es weitergeht
 
-👉 **Weiter zu den Fixkosten**  
-[Fixkosten im Haushalt - Überblick]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+ðŸ‘‰ **Weiter zu den Fixkosten**  
+[Fixkosten im Haushalt - Ãœberblick]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- **ZurÃ¼ck:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
+- **Hub:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
+- **Weiter:** [Fixkosten Ãœbersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+

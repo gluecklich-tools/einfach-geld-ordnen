@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
@@ -6,15 +6,16 @@ permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 
 ## Kostenlose Haushaltsbuch-Vorlage
 
-**Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
+**Status:** Seite steht â€“ **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
 
-Bis dahin: Nutze den Flow über den Hub.
+Bis dahin: Nutze den Flow Ã¼ber den Hub.
 
-→ [Haushaltsbuch - Überblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
+â†’ [Haushaltsbuch - Ãœberblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
 
 ---
 
 ## Navigation
-- **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **ZurÃ¼ck:** [Haushaltsbuch in Excel einfach erklÃ¤rt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- **Hub:** [Ãœberblick]({{ "/pillar/index.html" | relative_url }})
 - **Weiter:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+

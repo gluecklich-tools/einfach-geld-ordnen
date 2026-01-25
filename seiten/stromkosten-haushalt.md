@@ -1,22 +1,22 @@
----
+﻿---
 layout: page
 title: Stromkosten im Haushalt
 permalink: /seiten/stromkosten-haushalt.html
 ---
 
-## Stromkosten – einfach erfassen
+## Stromkosten â€“ einfach erfassen
 
-Strom ist oft ein großer Posten – und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
+Strom ist oft ein groÃŸer Posten â€“ und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
 
-Für den Start reicht:
+FÃ¼r den Start reicht:
 - **Monatlicher Abschlag** (oder)
 - **Jahreskosten / 12**
 
-Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
+Wenn du Nachzahlungen hattest, nimm lieber den **hÃ¶heren realistischen Wert**.
 
 ---
 
-## Zwei typische Fälle
+## Zwei typische FÃ¤lle
 
 ### 1) Du hast einen festen Abschlag
 Trag den Abschlag als Monatswert ein.
@@ -26,6 +26,7 @@ Teile den Jahresbetrag durch 12.
 
 ---
 
-- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **ZurÃ¼ck:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- **Hub:** [Ãœberblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+

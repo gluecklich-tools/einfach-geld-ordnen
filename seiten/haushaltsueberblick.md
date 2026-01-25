@@ -1,24 +1,24 @@
----
+﻿---
 layout: page
-title: Haushaltsüberblick – Einordnung ohne Druck
+title: HaushaltsÃ¼berblick â€“ Einordnung ohne Druck
 permalink: /seiten/haushaltsueberblick.html
 ---
 
-# Haushaltsüberblick – Einordnung ohne Druck
+# HaushaltsÃ¼berblick â€“ Einordnung ohne Druck
 
-Der Haushaltsüberblick ist kein „Controlling“.  
-Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsätzlich aussieht**.
+Der HaushaltsÃ¼berblick ist kein â€žControllingâ€œ.  
+Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsÃ¤tzlich aussieht**.
 
-Nicht perfekt. Nicht endgültig.  
+Nicht perfekt. Nicht endgÃ¼ltig.  
 Nur: **sichtbar**.
 
 ---
 
 ## Worum es wirklich geht
 
-Ein Überblick hilft vor allem bei einem Punkt:
+Ein Ãœberblick hilft vor allem bei einem Punkt:
 
-Du siehst, ob dein Alltag grundsätzlich **tragbar** ist –  
+Du siehst, ob dein Alltag grundsÃ¤tzlich **tragbar** ist â€“  
 ohne dich in Details zu verlieren.
 
 Typisch reicht eine grobe Sicht:
@@ -26,21 +26,22 @@ Typisch reicht eine grobe Sicht:
 - Fixkosten (steht fest)
 - Monatliche Ausgaben (Alltag)
 - Variable Ausgaben (schwankt)
-- Spielraum / Rücklagen (Sicherheit)
+- Spielraum / RÃ¼cklagen (Sicherheit)
 
 ---
 
-## Das Ziel ist nicht „perfekt“
+## Das Ziel ist nicht â€žperfektâ€œ
 
-Wenn etwas nicht passt, ist das kein persönliches Versagen.  
-Dann zeigt der Überblick nur: *Hier ist Druck im System.*
+Wenn etwas nicht passt, ist das kein persÃ¶nliches Versagen.  
+Dann zeigt der Ãœberblick nur: *Hier ist Druck im System.*
 
-Das ist wertvoll – weil es **endlich sichtbar** wird.
+Das ist wertvoll â€“ weil es **endlich sichtbar** wird.
 
 ---
 
 ## Navigation
 
-- **Zurück:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **ZurÃ¼ck:** [Spielraum & RÃ¼cklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- **Hub:** [Ãœberblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
+
