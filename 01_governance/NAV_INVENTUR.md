@@ -4,9 +4,7 @@
 
 **Commit:** d9ea372
 
-Diese Datei ist die **Single Source of Truth** für 	itle, permalink, 
-av_group, 
-av_order und eine grobe links-Zählung (nur seiten/pillar).
+Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group, nav_order und eine grobe links-Zählung (nur seiten/pillar).
 
 | Datei | nav_group | nav_order | permalink | title | links |
 |---|---:|---:|---|---|---:|
