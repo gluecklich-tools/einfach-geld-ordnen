@@ -3,6 +3,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
+  workflow_dispatch:
 jobs:
   gate:
     runs-on: ubuntu-latest
@@ -13,23 +14,24 @@ jobs:
         run: |
           set -euo pipefail
           echo "Public-Gate: scanning tracked text files..."
+          EXCL=":(exclude).github/workflows/public-gate.yml"
           # 1) Block internal prompt artifacts (project-internal only)
-          if git grep -nI -E "(ARBEITSANWEISUNG|MASTERPROMPT|PROJEKTGESETZ)" -- . ; then
+          if git grep -nI -E "(ARBEITSANWEISUNG|MASTERPROMPT|PROJEKTGESETZ)" -- . "" ; then
             echo "::error::Found internal prompt artifact marker in repo."
             exit 1
           fi
           # 2) Block private keys
-          if git grep -nI -E "BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|BEGIN PGP PRIVATE KEY BLOCK" -- . ; then
+          if git grep -nI -E "BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|BEGIN PGP PRIVATE KEY BLOCK" -- . "" ; then
             echo "::error::Found private key material in repo."
             exit 1
           fi
           # 3) Scan for likely e-mail addresses in tracked files
-          if git grep -nI -E "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" -- . ; then
+          if git grep -nI -E "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" -- . "" ; then
             echo "::error::Found an email-like string in repo."
             exit 1
           fi
           # 4) Scan for likely phone numbers (rough)
-          if git grep -nI -E "(\+49[ ]?[-(]?[0-9]{2,4}[-) ]?[0-9]{3,}|0[0-9]{2,4}[-/ ]?[0-9]{3,})" -- . ; then
+          if git grep -nI -E "(\+49[ ]?[-(]?[0-9]{2,4}[-) ]?[0-9]{3,}|0[0-9]{2,4}[-/ ]?[0-9]{3,})" -- . "" ; then
             echo "::error::Found a phone-like string in repo."
             exit 1
           fi
