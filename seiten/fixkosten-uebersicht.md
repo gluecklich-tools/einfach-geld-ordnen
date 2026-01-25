@@ -31,7 +31,7 @@ Das sind Beispiele – keine Pflichtliste.
 
 1) **Posten** eintragen (z. B. „Miete“, „Internet“).
 2) **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
-3) Wenn etwas **jährlich** kommt (z. B. Versicherung): als Monatswert eintragen (Jahresbetrag ÷ 12).  
+3) Wenn etwas **jährlich** kommt (z. B. Versicherung): als Monatswert eintragen (Jahresbetrag ÷ 12).
    *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und später umrechnen.*
 
 ---
