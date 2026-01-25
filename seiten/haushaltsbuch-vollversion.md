@@ -100,6 +100,13 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
+<!-- WEITER-START -->
+
+## Weiter
+
+- Zur Startseite: [{{ site.baseurl }}/seiten/index.html]({{ site.baseurl }}/seiten/index.html)
+
+<!-- WEITER-END -->
 <!-- FOOTER-START -->
 
 ---

@@ -46,6 +46,13 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
+<!-- WEITER-START -->
+
+## Weiter
+
+- Zur Vollversion: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- WEITER-END -->
 <!-- FOOTER-START -->
 
 ---

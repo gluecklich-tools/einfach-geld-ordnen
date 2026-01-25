@@ -70,6 +70,14 @@ Wenn ja: reicht.
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
+<!-- WEITER-START -->
+
+## Weiter
+
+- Vertiefung (Pillar): [{{ site.baseurl }}/pillar/]({{ site.baseurl }}/pillar/)
+- Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- WEITER-END -->
 <!-- FOOTER-START -->
 
 ---

@@ -49,6 +49,13 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 - [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-END -->
 
+<!-- WEITER-START -->
+
+## Weiter
+
+- Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- WEITER-END -->
 <!-- FOOTER-START -->
 
 ---
