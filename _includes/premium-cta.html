@@ -1,0 +1,5 @@
+{%- if site.data.premium.buy_enabled and site.data.premium.buy_url and site.data.premium.buy_url != "" -%}
+<p><a class="btn" href="{{ site.data.premium.buy_url }}">{{ site.data.premium.buy_label }}</a></p>
+{%- else -%}
+<p><strong>Premium:</strong> kommt bald. (Noch kein Kauf-Link aktiv.)</p>
+{%- endif -%}

@@ -74,3 +74,5 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 - Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 <!-- EGO_FOOTER_END -->
+
+{% include premium-cta.html %}

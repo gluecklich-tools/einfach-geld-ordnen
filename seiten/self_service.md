@@ -46,4 +46,10 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
 - [100% Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 
-<!-- EGO_FOOTER_END -->
+<!-- EGO_FOOTER_END -->## Navigation
+- Start: {{ site.baseurl }}/index.html
+- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
+- Premium: {{ site.baseurl }}/seiten/premium.html
+- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
+- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
+- Impressum: {{ site.baseurl }}/seiten/impressum.html

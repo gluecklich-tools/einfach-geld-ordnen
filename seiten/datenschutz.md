@@ -97,4 +97,10 @@ Stand: 2026-01-24
 - Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-<!-- EGO_FOOTER_END -->
+<!-- EGO_FOOTER_END -->## Navigation
+- Start: {{ site.baseurl }}/index.html
+- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
+- Premium: {{ site.baseurl }}/seiten/premium.html
+- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
+- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
+- Impressum: {{ site.baseurl }}/seiten/impressum.html

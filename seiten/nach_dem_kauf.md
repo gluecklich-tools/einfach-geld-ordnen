@@ -30,3 +30,11 @@ Kein separater Kontaktkanal fuer Abwicklung oder Fragen.
 - [100% Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 
 <!-- EGO_FOOTER_END -->
+
+{% include premium-cta.html %}## Navigation
+- Start: {{ site.baseurl }}/index.html
+- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
+- Premium: {{ site.baseurl }}/seiten/premium.html
+- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
+- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
+- Impressum: {{ site.baseurl }}/seiten/impressum.html
