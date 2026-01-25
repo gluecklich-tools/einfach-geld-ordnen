@@ -5,7 +5,6 @@ permalink: /pillar/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
 ---
-
 # Spielraum & Rücklagen - realistisch einordnen
 
 Es gibt im Haushalt Dinge, die **fest** sind (Fixkosten).

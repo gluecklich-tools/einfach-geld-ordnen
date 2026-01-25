@@ -2,8 +2,9 @@
 layout: default
 title: "Haushaltsbuch in Excel einfach erklärt"
 permalink: /seiten/haushaltsbuch-excel.html
+nav_group: seiten
+nav_order: 120
 ---
-
 ## Haushaltsbuch in Excel einfach erklärt
 
 Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.

@@ -2,8 +2,9 @@
 layout: default
 title: "Der Weg - Schritt für Schritt"
 permalink: /seiten/der-weg.html
+nav_group: seiten
+nav_order: 20
 ---
-
 ## Der Weg (Schritt für Schritt)
 
 Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.

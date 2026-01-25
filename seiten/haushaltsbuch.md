@@ -2,8 +2,9 @@
 layout: page
 title: Haushaltsbuch - Überblick
 permalink: /seiten/haushaltsbuch.html
+nav_group: seiten
+nav_order: 90
 ---
-
 # Haushaltsbuch - Überblick
 
 Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.

@@ -2,8 +2,9 @@
 layout: page
 title: Stromkosten im Haushalt
 permalink: /seiten/stromkosten-haushalt.html
+nav_group: seiten
+nav_order: 45
 ---
-
 ## Stromkosten – einfach erfassen
 
 Strom ist oft ein großer Posten – und schwankt je nach Abschlag, Nachzahlung und Verbrauch.

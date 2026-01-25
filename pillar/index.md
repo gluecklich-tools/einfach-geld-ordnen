@@ -3,8 +3,9 @@ layout: default
 title: "Einfach Geld ordnen - Überblick"
 h1: "Einfach Geld ordnen - Überblick"
 permalink: /pillar/index.html
+nav_group: pillar
+nav_order: 10
 ---
-
 ## Start hier (klar & ohne Umwege)
 
 Wenn du gerade anfangen willst, folge diesem Weg:

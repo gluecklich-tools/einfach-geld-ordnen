@@ -2,8 +2,9 @@
 layout: page
 title: Nebenkosten der Miete
 permalink: /seiten/nebenkosten-miete.html
+nav_group: seiten
+nav_order: 46
 ---
-
 ## Nebenkosten – kurz und praktisch
 
 Nebenkosten sind oft der Teil, der „irgendwie mitläuft“ und deshalb leicht unterschätzt wird.

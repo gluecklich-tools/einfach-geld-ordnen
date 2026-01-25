@@ -2,8 +2,9 @@
 layout: page
 title: Datenschutz
 permalink: /seiten/datenschutz.html
+nav_group: meta
+nav_order: 910
 ---
-
 # Datenschutz
 
 ## 1. Verantwortlicher

@@ -2,8 +2,9 @@
 layout: page
 title: Start
 permalink: /seiten/index.html
+nav_group: seiten
+nav_order: 10
 ---
-
 # Einfach Geld ordnen
 
 Eine ruhige, klare Methode, um deine Finanzen **übersichtlich** zu machen – mit **Vorlage** und **einfachen Schritt-für-Schritt-Seiten**.

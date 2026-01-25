@@ -2,8 +2,9 @@
 layout: page
 title: Haushaltsbuch Vollversion – kommt bald
 permalink: /seiten/haushaltsbuch-vollversion.html
+nav_group: seiten
+nav_order: 110
 ---
-
 # Haushaltsbuch Vollversion – kommt bald
 
 **Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert – **noch kein Verkauf, keine Bezahl-Links**  

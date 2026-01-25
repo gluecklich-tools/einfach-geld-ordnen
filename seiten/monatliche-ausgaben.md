@@ -2,8 +2,9 @@
 layout: page
 title: Monatliche Ausgaben
 permalink: /seiten/monatliche-ausgaben.html
+nav_group: seiten
+nav_order: 50
 ---
-
 ## Monatliche Ausgaben – einfach einordnen
 
 Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest gebunden** sind wie Fixkosten.

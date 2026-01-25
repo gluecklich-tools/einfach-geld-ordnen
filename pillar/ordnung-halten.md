@@ -2,8 +2,9 @@
 layout: default
 title: "Ordnung halten - ohne Druck"
 permalink: /pillar/ordnung-halten.html
+nav_group: pillar
+nav_order: 60
 ---
-
 ## Ordnung halten – wenn sie hilft
 
 Ordnung muss nicht gehalten werden.  

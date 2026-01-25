@@ -2,8 +2,9 @@
 layout: page
 title: Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
 permalink: /seiten/spielraum-ruecklagen.html
+nav_group: seiten
+nav_order: 70
 ---
-
 # Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
 
 Spielraum und Rücklagen sind **kein Luxus** und kein „Optimierungsziel“.  

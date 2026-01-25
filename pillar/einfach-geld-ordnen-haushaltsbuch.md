@@ -3,8 +3,9 @@ layout: default
 title: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
 h1: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
 permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
+nav_group: pillar
+nav_order: 30
 ---
-
 ## Ziel
 
 Du willst deine Finanzen so strukturieren, dass du **jeden Monat weißt**:

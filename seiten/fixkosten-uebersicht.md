@@ -2,8 +2,9 @@
 layout: default
 title: "Fixkosten Übersicht"
 permalink: /seiten/fixkosten-uebersicht.html
+nav_group: seiten
+nav_order: 40
 ---
-
 ## Fixkosten Übersicht
 
 Fixkosten sind Ausgaben, die **regelmäßig** anfallen (meist monatlich) und sich **selten** ändern.  

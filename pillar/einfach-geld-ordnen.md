@@ -4,8 +4,9 @@ title: "Einfach Geld ordnen - Einstieg"
 permalink: /pillar/einfach-geld-ordnen.html
 order: 1
 next: /seiten/der-weg.html
+nav_group: pillar
+nav_order: 20
 ---
-
 ## Einfach Geld ordnen
 
 Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.

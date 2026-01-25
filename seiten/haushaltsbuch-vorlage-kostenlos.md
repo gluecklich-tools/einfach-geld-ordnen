@@ -2,8 +2,9 @@
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
+nav_group: seiten
+nav_order: 100
 ---
-
 ## Kostenlose Haushaltsbuch-Vorlage
 
 **Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.

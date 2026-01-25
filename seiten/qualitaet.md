@@ -2,8 +2,9 @@
 layout: default
 title: Qualität & Prinzipien
 permalink: /seiten/qualitaet.html
+nav_group: meta
+nav_order: 920
 ---
-
 # Qualität & Prinzipien
 
 Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orientieren kannst** – ohne Fachchinesisch und ohne Marketing-Übertreibung.

@@ -2,8 +2,9 @@
 layout: page
 title: Impressum
 permalink: /seiten/impressum.html
+nav_group: meta
+nav_order: 900
 ---
-
 # Anbieterkennzeichnung
 
 Angaben gem&auml;&szlig; &sect; 5 DDG (Digitale-Dienste-Gesetz)

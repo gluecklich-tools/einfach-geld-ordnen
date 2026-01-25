@@ -2,8 +2,9 @@
 layout: page
 title: Haushaltsüberblick – Einordnung ohne Druck
 permalink: /seiten/haushaltsueberblick.html
+nav_group: seiten
+nav_order: 30
 ---
-
 # Haushaltsüberblick – Einordnung ohne Druck
 
 Der Haushaltsüberblick ist kein „Controlling“.  

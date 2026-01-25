@@ -2,8 +2,9 @@
 layout: page
 title: Ordnung halten – wenn sie hilft (ohne Druck)
 permalink: /seiten/ordnung-halten.html
+nav_group: seiten
+nav_order: 80
 ---
-
 # Ordnung halten – wenn sie hilft (ohne Druck)
 
 Ordnung ist kein Ziel an sich.  

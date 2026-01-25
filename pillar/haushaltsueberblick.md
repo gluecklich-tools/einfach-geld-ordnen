@@ -2,8 +2,9 @@
 layout: default
 title: "Haushaltsüberblick - ohne Zahlen"
 permalink: /pillar/haushaltsueberblick.html
+nav_group: pillar
+nav_order: 40
 ---
-
 ## Ein Überblick – ohne Zahlen
 
 Bevor irgendetwas gerechnet, bewertet oder verändert wird,  
