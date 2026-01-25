@@ -7,10 +7,10 @@ nav_order: 60
 ---
 # Variable Ausgaben – Einordnung ohne Druck
 
-Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.  
+Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.
 Sie können in manchen Monaten kaum vorkommen – und in anderen deutlich ins Gewicht fallen.
 
-Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.  
+Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 Kurz gesagt: **Einordnung statt Kontrolle.**
@@ -19,8 +19,8 @@ Kurz gesagt: **Einordnung statt Kontrolle.**
 
 ## Abgrenzung (kurz)
 
-- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.  
-  Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).  
+- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.
+  Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).
   → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 - **Variable Ausgaben** sind Ausgaben, die außerplanmäßig sind oder stärker schwanken.
@@ -31,12 +31,12 @@ Beides gehört zum echten Leben – **ohne Bewertung**.
 
 ## Worum es hier geht
 
-Variable Ausgaben entstehen im Alltag.  
+Variable Ausgaben entstehen im Alltag.
 Oft unbemerkt, oft nebenbei.
 
 Das ist normal und **kein Zeichen von Unordnung**.
 
-Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –  
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –
 oder ob etwas „zu viel“ ist.
 
 ---
@@ -58,7 +58,7 @@ Das sind Beispiele – **keine Pflichtliste**.
 
 Diese Seite fordert nicht dazu auf, Ausgaben zu sammeln oder auszuwerten.
 
-Sie sagt nur:  
+Sie sagt nur:
 Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht nötig.
@@ -70,4 +70,3 @@ Mehr ist an dieser Stelle nicht nötig.
 - **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-
