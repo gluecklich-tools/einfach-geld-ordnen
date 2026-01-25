@@ -1,8 +1,12 @@
 # NAV Inventur
 
-**Stand:** 2026-01-25
+**Stand:** 2026-01-25 15:10:23 +01:00
 
-**Commit:** 786963e
+**Commit:** d9ea372
+
+Diese Datei ist die **Single Source of Truth** für 	itle, permalink, 
+av_group, 
+av_order und eine grobe links-Zählung (nur seiten/pillar).
 
 | Datei | nav_group | nav_order | permalink | title | links |
 |---|---:|---:|---|---|---:|
