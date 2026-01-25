@@ -41,3 +41,12 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- CTA-FOOTER-END -->

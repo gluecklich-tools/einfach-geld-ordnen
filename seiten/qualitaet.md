@@ -49,3 +49,13 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 - Überblick: [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - Kostenlos: [Vorlage kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/governance.html)
+
+<!-- CTA-FOOTER-END -->

@@ -39,3 +39,12 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 ## Navigation
 - **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
 
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+
+<!-- CTA-FOOTER-END -->

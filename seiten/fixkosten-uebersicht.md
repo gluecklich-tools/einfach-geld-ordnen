@@ -59,3 +59,13 @@ Wenn ja: reicht.
 - **Zurück:** [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+<!-- CTA-FOOTER-END -->

@@ -90,3 +90,12 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
 - **Startseite:**  
   [Zur Ãœbersicht]({{ site.baseurl }}/seiten/index.html)
 
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- CTA-FOOTER-END -->

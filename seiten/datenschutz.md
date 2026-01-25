@@ -73,3 +73,13 @@ Zust&auml;ndig ist in der Regel die Aufsichtsbeh&ouml;rde deines Bundeslandes.
 ## 9. Stand
 
 Stand: 2026-01-24
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/index.html)
+
+<!-- CTA-FOOTER-END -->

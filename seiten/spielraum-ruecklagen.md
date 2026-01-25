@@ -50,3 +50,13 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 - **Zurück:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+<!-- CTA-FOOTER-END -->

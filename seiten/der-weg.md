@@ -29,3 +29,12 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 - **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
 - **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
 
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- CTA-FOOTER-END -->

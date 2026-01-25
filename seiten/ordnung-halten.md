@@ -68,3 +68,13 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - **Zurück:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Start]({{ site.baseurl }}/seiten/index.html)
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
+<!-- CTA-FOOTER-END -->

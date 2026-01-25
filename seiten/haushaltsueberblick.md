@@ -45,3 +45,13 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 - **Zurück:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 - **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 - **Weiter:** [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
+
+<!-- CTA-FOOTER-START -->
+---
+
+## Naechster Schritt
+
+- Zurueck: [Start]({{ site.baseurl }}/seiten/index.html)
+- Weiter: [Weiter]({{ site.baseurl }}/seiten/ordnung-halten.html)
+
+<!-- CTA-FOOTER-END -->
