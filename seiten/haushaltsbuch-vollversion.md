@@ -124,7 +124,8 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
 
 <!-- EGO_FOOTER_END -->
 
-{% include premium-cta.html %}## Navigation
+{% include premium-cta.html %}
+## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
 - Premium: {{ site.baseurl }}/seiten/premium.html
