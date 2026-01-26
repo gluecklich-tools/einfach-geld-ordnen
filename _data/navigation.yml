@@ -2,48 +2,92 @@
 # Regel: Alle internen URLs sind .html; im Layout wird site.baseurl vorangestellt (Project Site).
 # Premium-UX: Top-Navigation zeigt nur den Haupt-Flow. Alles Weitere steckt unter "Mehr" (Progressive Disclosure).
 
-- title: "Überblick"
+- title: "Ueberblick"
   url: "/index.html"
   group: "main"
 
-- title: "Der Weg"
-  url: "/seiten/der-weg.html"
+- title: "Start in 15 Minuten"
+  url: "/seiten/start_in_15_minuten.html"
   group: "main"
 
 - title: "Haushaltsbuch"
   url: "/seiten/haushaltsbuch.html"
   group: "main"
 
-- title: "Kosten"
+- title: "Fixkosten"
   url: "/seiten/fixkosten-uebersicht.html"
+  group: "main"
+
+- title: "Variable Ausgaben"
+  url: "/seiten/variable-ausgaben.html"
+  group: "main"
+
+- title: "Spielraum & Ruecklagen"
+  url: "/seiten/spielraum-ruecklagen.html"
   group: "main"
 
 - title: "Ordnung halten"
   url: "/seiten/ordnung-halten.html"
   group: "main"
 
-# --- Mehr (sekundär) ---
+# --- Mehr (sekundaer) ---
 
 - title: "Monatliche Ausgaben"
   url: "/seiten/monatliche-ausgaben.html"
   group: "more"
 
-- title: "Variable Ausgaben"
-  url: "/seiten/variable-ausgaben.html"
-  group: "more"
-
-- title: "Spielraum & Rücklagen"
-  url: "/seiten/spielraum-ruecklagen.html"
-  group: "more"
-
-- title: "Haushaltsüberblick"
+- title: "Haushaltsueberblick"
   url: "/seiten/haushaltsueberblick.html"
+  group: "more"
+
+- title: "Nebenkosten (Miete)"
+  url: "/seiten/nebenkosten-miete.html"
+  group: "more"
+
+- title: "Stromkosten Haushalt"
+  url: "/seiten/stromkosten-haushalt.html"
+  group: "more"
+
+- title: "Haushaltsbuch Excel"
+  url: "/seiten/haushaltsbuch-excel.html"
   group: "more"
 
 - title: "Vorlage kostenlos"
   url: "/seiten/haushaltsbuch-vorlage-kostenlos.html"
   group: "more"
 
-- title: "Pillar-Übersicht (lesen)"
+- title: "Haushaltsbuch Vollversion"
+  url: "/seiten/haushaltsbuch-vollversion.html"
+  group: "more"
+
+- title: "FAQ / Probleme loesen"
+  url: "/seiten/faq_probleme_loesen.html"
+  group: "more"
+
+- title: "Qualitaet"
+  url: "/seiten/qualitaet.html"
+  group: "more"
+
+- title: "Premium"
+  url: "/seiten/premium.html"
+  group: "more"
+
+- title: "Nach dem Kauf"
+  url: "/seiten/nach_dem_kauf.html"
+  group: "more"
+
+- title: "Pillar-Uebersicht (lesen)"
   url: "/pillar/index.html"
+  group: "more"
+
+- title: "Datenschutz"
+  url: "/seiten/datenschutz.html"
+  group: "more"
+
+- title: "Impressum"
+  url: "/seiten/impressum.html"
+  group: "more"
+
+- title: "Governance"
+  url: "/seiten/governance.html"
   group: "more"
