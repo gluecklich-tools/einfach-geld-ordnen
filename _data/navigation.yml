@@ -1,5 +1,5 @@
 # Navigation (Single Source of Truth)
-# Regel: Alle internen URLs sind .html und werden im Layout mit {{ item.url | relative_url }} gerendert.
+# Regel: Alle internen URLs sind .html; im Layout wird site.baseurl vorangestellt (Project Site).
 # Premium-UX: Top-Navigation zeigt nur den Haupt-Flow. Alles Weitere steckt unter "Mehr" (Progressive Disclosure).
 
 - title: "Überblick"
