@@ -54,3 +54,4 @@ tools/*.log
 # Local work (never commit)
 _local/
 _inventur/
+_internal/
