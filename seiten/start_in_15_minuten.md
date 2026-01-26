@@ -29,17 +29,7 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 Weiter: siehe unten.
 
 <!-- EGO_FOOTER_START -->
-## Weiter
 
-- [Startseite]({{ site.baseurl }}/index.html)
-- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [FAQ (Top 15)]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
-- [100% Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-
-<!-- EGO_FOOTER_END -->
 ## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html

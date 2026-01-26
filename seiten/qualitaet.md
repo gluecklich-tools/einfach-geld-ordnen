@@ -44,37 +44,6 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
-## Weiter
-- Start: [Startseite]({{ site.baseurl }}/index.html)
-- Überblick: [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- Kostenlos: [Vorlage kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-<!-- CTA-FOOTER-START -->
-
----
-
-**Weiter:**
-- [Start]({{ site.baseurl }}/index.html)
-<!-- CTA-FOOTER-END -->
-
-<!-- FOOTER-START -->
-
----
-
-## Naechster Schritt
-
-- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
-- Governance-Uebersicht: [{{ site.baseurl }}/seiten/governance.html]({{ site.baseurl }}/seiten/governance.html)
-
-<!-- FOOTER-END -->
-
-<!-- EGO_FOOTER_START -->
-## Weiter
-
-- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-<!-- EGO_FOOTER_END -->
 ## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html

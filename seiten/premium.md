@@ -12,6 +12,7 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Vollversion der Vorlagen
 - Klare Schritte (Self-Service)
 - Keine Supportpflicht
+
 ## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Haushaltsbuch: {{ site.baseurl }}/seiten/haushaltsbuch.html

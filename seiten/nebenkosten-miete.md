@@ -51,30 +51,6 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 <!-- WEITER-START -->
 
-## Weiter
-
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
-- Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
-<!-- WEITER-END -->
-<!-- FOOTER-START -->
-
----
-
-## Naechster Schritt
-
-- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
-- Premium (Vollversion): [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-
-<!-- FOOTER-END -->
-
-<!-- EGO_FOOTER_START -->
-## Weiter
-
-- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-<!-- EGO_FOOTER_END -->
 ## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html

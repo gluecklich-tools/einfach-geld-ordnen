@@ -92,12 +92,7 @@ Stand: 2026-01-24
 <!-- FOOTER-END -->
 
 <!-- EGO_FOOTER_START -->
-## Weiter
 
-- Ueberblick: [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- Haushaltsbuch: [Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-<!-- EGO_FOOTER_END -->
 ## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
