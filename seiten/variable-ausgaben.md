@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Variable Ausgaben – Einordnung ohne Druck
+title: Variable Ausgaben - Einordnung ohne Druck
 permalink: /seiten/variable-ausgaben.html
 nav_group: seiten
 nav_order: 60

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Haushaltsüberblick – Einordnung ohne Druck
+title: Haushaltsüberblick - Einordnung ohne Druck
 permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
