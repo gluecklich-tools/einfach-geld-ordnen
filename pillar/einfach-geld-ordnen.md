@@ -18,12 +18,12 @@ Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
   → [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 - **Zur Übersicht (Hub):**  
-  → [Überblick]({{ site.baseurl }}/pillar/index.html)
+  → [Überblick]({{ site.baseurl }}/pillar/)
 
 ---
 
 ## Navigation
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 <!-- CTA-FOOTER-START -->

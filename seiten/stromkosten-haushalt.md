@@ -28,7 +28,7 @@ Teile den Jahresbetrag durch 12.
 ---
 
 - **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 <!-- CTA-FOOTER-START -->
 
@@ -43,7 +43,7 @@ Teile den Jahresbetrag durch 12.
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

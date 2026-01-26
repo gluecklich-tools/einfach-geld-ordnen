@@ -48,7 +48,7 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 ## Navigation
 
 - **Zurück:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 <!-- CTA-FOOTER-START -->
 
@@ -63,7 +63,7 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

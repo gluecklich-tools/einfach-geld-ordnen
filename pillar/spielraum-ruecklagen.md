@@ -95,7 +95,7 @@ bevor man überhaupt etwas verändert.
 
 ## Navigation
 - **Zurück:** [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
 <!-- CTA-FOOTER-START -->

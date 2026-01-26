@@ -66,7 +66,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 ## Navigation
 
 - **Zurück:** [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Start]({{ site.baseurl }}/index.html)
 <!-- CTA-FOOTER-START -->
 
@@ -81,7 +81,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

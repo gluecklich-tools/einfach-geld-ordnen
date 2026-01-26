@@ -56,8 +56,8 @@ Du kannst bleiben, zurückgehen oder aufhören.
 
 ## Navigation
 - **Zurück:** [Spielraum & Rücklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Weiter:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
+- **Weiter:** [Überblick]({{ site.baseurl }}/pillar/)
 
 <!-- CTA-FOOTER-START -->
 ---

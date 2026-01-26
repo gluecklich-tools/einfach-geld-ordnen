@@ -40,7 +40,7 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ## Navigation
 
 - **Zurück:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 <!-- CTA-FOOTER-START -->
 
@@ -55,7 +55,7 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

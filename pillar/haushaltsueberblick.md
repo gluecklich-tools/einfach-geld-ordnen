@@ -51,8 +51,8 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 <!-- CTA-FOOTER-START -->

@@ -33,7 +33,7 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 
 ## Navigation
 - **Zurück:** [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 <!-- CTA-FOOTER-START -->
 

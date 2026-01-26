@@ -17,7 +17,7 @@ Bis dahin: Nutze den Flow über den Hub.
 
 ## Navigation
 - **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-START -->
 

@@ -37,8 +37,8 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 <!-- CTA-FOOTER-START -->

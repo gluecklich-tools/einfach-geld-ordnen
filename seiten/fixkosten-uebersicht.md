@@ -57,7 +57,7 @@ Wenn ja: reicht.
 ## Navigation
 
 - **Zurück:** [Haushaltsbuch in Excel – Hinweise]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 <!-- CTA-FOOTER-START -->
 
@@ -72,7 +72,7 @@ Wenn ja: reicht.
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

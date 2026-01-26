@@ -38,7 +38,7 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 ---
 
 - **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 <!-- CTA-FOOTER-START -->
 
@@ -53,7 +53,7 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

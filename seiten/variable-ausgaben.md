@@ -68,7 +68,7 @@ Mehr ist an dieser Stelle nicht nötig.
 ## Navigation
 
 - **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 <!-- CTA-FOOTER-START -->
 
@@ -83,7 +83,7 @@ Mehr ist an dieser Stelle nicht nötig.
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->

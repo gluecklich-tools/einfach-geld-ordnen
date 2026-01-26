@@ -25,8 +25,8 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
 - **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 <!-- CTA-FOOTER-START -->
 
@@ -41,7 +41,7 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
 ## Weiter
 
-- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/index.html)
+- Vertiefung (Pillar): [Pillar-Start]({{ site.baseurl }}/pillar/)
 - Oder direkt Premium: [{{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 <!-- WEITER-END -->
