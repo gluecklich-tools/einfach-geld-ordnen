@@ -19,27 +19,27 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 ## In 10 Minuten startklar
 
-1. Öffne: [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+1. Öffne: [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 2. Lade die Datei herunter (kostenlos):  
    → `haushaltsbuch-einfach-geld-ordnen.xlsx`
-3. Trage zuerst **Fixkosten** ein: [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
-4. Danach deine **monatlichen Ausgaben**: [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+3. Trage zuerst **Fixkosten** ein: [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+4. Danach deine **monatlichen Ausgaben**: [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 5. Dann klärst du Details über Zeit:  
-   - [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})
-   - [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+   - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+   - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ---
 
 ## Nächster Schritt (empfohlen)
 
-→ [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+→ [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 <!-- CTA-FOOTER-START -->
 

@@ -24,14 +24,14 @@ Der erste Schritt ist ein Überblick, ohne Zahlen.
 Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
 
 **Nächster Schritt:**  
-[Überblick ohne Zahlen öffnen]({{ "/pillar/haushaltsueberblick.html" | relative_url }})
+[Überblick ohne Zahlen öffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 
 ---
 
 <nav class="secondary-nav">
-  <a href="{{ "/pillar/einfach-geld-ordnen.html" | relative_url }}">Grundlagen</a> ·
-  <a href="{{ "/seiten/der-weg.html" | relative_url }}">Der Weg</a> ·
-  <a href="{{ "/seiten/haushaltsbuch.html" | relative_url }}">Haushaltsbuch</a>
+  <a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen</a> ·
+  <a href="{{ site.baseurl }}/seiten/der-weg.html">Der Weg</a> ·
+  <a href="{{ site.baseurl }}/seiten/haushaltsbuch.html">Haushaltsbuch</a>
 </nav>
 
 {% include premium-cta.html %}## Navigation

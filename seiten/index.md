@@ -8,8 +8,8 @@ permalink: /seiten/index.html
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
-- Zur Startseite: [Start]({{ "/index.html" | relative_url }})
-- Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ "/seiten/haushaltsbuch.html" | relative_url }})## Navigation
+- Zur Startseite: [Start]({{ site.baseurl }}/index.html)
+- Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)## Navigation
 - Start: {{ site.baseurl }}/index.html
 - Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
 - Premium: {{ site.baseurl }}/seiten/premium.html

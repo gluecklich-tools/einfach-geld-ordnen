@@ -55,15 +55,15 @@ Du kannst bleiben, zurückgehen oder aufhören.
 ---
 
 ## Navigation
-- **Zurück:** [Spielraum & Rücklagen]({{ "/pillar/spielraum-ruecklagen.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Überblick]({{ "/pillar/index.html" | relative_url }})
+- **Zurück:** [Spielraum & Rücklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Überblick]({{ site.baseurl }}/pillar/index.html)
 
 <!-- CTA-FOOTER-START -->
 ---
-**Naechster Schritt:** [Weiter]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
-**Zurueck:** [Start]({{ "/index.html" | relative_url }})
-**Premium:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+**Naechster Schritt:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+**Zurueck:** [Start]({{ site.baseurl }}/index.html)
+**Premium:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 ---
 <!-- CTA-FOOTER-END -->
 

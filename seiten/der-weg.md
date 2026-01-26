@@ -10,24 +10,24 @@ nav_order: 20
 Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
 1. **Haushaltsbuch öffnen & Download**  
-   → [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+   → [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 2. **Fixkosten einmal sauber erfassen**  
-   → [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+   → [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 3. **Monatliche Ausgaben stabil pflegen**  
-   → [Monatliche Ausgaben]({{ "/seiten/monatliche-ausgaben.html" | relative_url }})
+   → [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 4. **Nebenkosten & Strom verstehen (Details, die Geld sparen können)**  
-   → [Nebenkosten der Miete]({{ "/seiten/nebenkosten-miete.html" | relative_url }})  
-   → [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
+   → [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
+   → [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 <!-- CTA-FOOTER-START -->
 
 ---

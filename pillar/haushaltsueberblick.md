@@ -46,20 +46,20 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 ## Wie es weitergeht
 
 👉 **Weiter zu den Fixkosten**  
-[Fixkosten im Haushalt - Überblick]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+[Fixkosten im Haushalt - Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ---
 
 ## Navigation
-- **Zurück:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Fixkosten Übersicht]({{ "/seiten/fixkosten-uebersicht.html" | relative_url }})
+- **Zurück:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 <!-- CTA-FOOTER-START -->
 ---
-**Naechster Schritt:** [Weiter]({{ "/seiten/ordnung-halten.html" | relative_url }})
-**Zurueck:** [Start]({{ "/index.html" | relative_url }})
-**Premium:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+**Naechster Schritt:** [Weiter]({{ site.baseurl }}/seiten/ordnung-halten.html)
+**Zurueck:** [Start]({{ site.baseurl }}/index.html)
+**Premium:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 ---
 <!-- CTA-FOOTER-END -->
 

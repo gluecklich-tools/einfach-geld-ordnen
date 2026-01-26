@@ -11,14 +11,14 @@ nav_order: 100
 
 Bis dahin: Nutze den Flow über den Hub.
 
-→ [Haushaltsbuch - Überblick]({{ "/seiten/haushaltsbuch.html" | relative_url }})
+→ [Haushaltsbuch - Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 ---
 
 ## Navigation
-- **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ "/seiten/haushaltsbuch-excel.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+- **Zurück:** [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 <!-- CTA-FOOTER-START -->
 
 ---

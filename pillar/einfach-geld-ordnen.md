@@ -12,25 +12,25 @@ nav_order: 20
 Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
 
 - **Wenn du starten willst:**  
-  → [Pillar-Start: Haushaltsbuch für Anfänger]({{ "/pillar/einfach-geld-ordnen-haushaltsbuch.html" | relative_url }})
+  → [Pillar-Start: Haushaltsbuch für Anfänger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 
 - **Wenn du den geführten Weg willst:**  
-  → [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+  → [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 - **Zur Übersicht (Hub):**  
-  → [Überblick]({{ "/pillar/index.html" | relative_url }})
+  → [Überblick]({{ site.baseurl }}/pillar/index.html)
 
 ---
 
 ## Navigation
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Der Weg – Schritt für Schritt]({{ "/seiten/der-weg.html" | relative_url }})
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 <!-- CTA-FOOTER-START -->
 ---
-**Naechster Schritt:** [Weiter]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
-**Zurueck:** [Start]({{ "/index.html" | relative_url }})
-**Premium:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+**Naechster Schritt:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+**Zurueck:** [Start]({{ site.baseurl }}/index.html)
+**Premium:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 ---
 <!-- CTA-FOOTER-END -->
 

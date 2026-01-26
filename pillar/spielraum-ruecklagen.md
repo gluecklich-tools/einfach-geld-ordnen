@@ -89,20 +89,20 @@ bevor man überhaupt etwas verändert.
 ## Wie es weitergeht
 
 👉 **Weiter zu Ordnung halten**  
-[Ordnung halten - ohne Druck]({{ "/pillar/ordnung-halten.html" | relative_url }})
+[Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
 ---
 
 ## Navigation
-- **Zurück:** [Stromkosten im Haushalt]({{ "/seiten/stromkosten-haushalt.html" | relative_url }})
-- **Hub:** [Überblick]({{ "/pillar/index.html" | relative_url }})
-- **Weiter:** [Ordnung halten - ohne Druck]({{ "/pillar/ordnung-halten.html" | relative_url }})
+- **Zurück:** [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- **Hub:** [Überblick]({{ site.baseurl }}/pillar/index.html)
+- **Weiter:** [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
 <!-- CTA-FOOTER-START -->
 ---
-**Naechster Schritt:** [Weiter]({{ "/seiten/haushaltsueberblick.html" | relative_url }})
-**Zurueck:** [Start]({{ "/index.html" | relative_url }})
-**Premium:** [Haushaltsbuch Vollversion]({{ "/seiten/haushaltsbuch-vollversion.html" | relative_url }})
+**Naechster Schritt:** [Weiter]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+**Zurueck:** [Start]({{ site.baseurl }}/index.html)
+**Premium:** [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 ---
 <!-- CTA-FOOTER-END -->
 
