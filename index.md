@@ -42,3 +42,16 @@ Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
 - [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
 - [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
 <!-- ORPHAN-INLINKS-END -->
+
+## Schnellstart (EGO)
+
+1) **Orientierung**: [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+2) **Sofort nutzen**: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
+3) **Freebie**: [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
+
+## Einstieg nach Thema
+
+- Schulden: [Schuldenfrei - Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- Fixkosten: [Fixkosten senken - Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+
+{% include no_sackgasse_footer.html %}
