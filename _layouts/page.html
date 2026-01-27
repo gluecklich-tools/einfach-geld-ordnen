@@ -1,16 +1,6 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }}</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-</head>
-<body>
-{% include header.html %}
-<main style="max-width:900px;margin:0 auto;padding:24px 16px;">
+---
+layout: default
+---
+<div class="page">
   {{ content }}
-</main>
-{% include footer.html %}
-</body>
-</html>
+</div>
