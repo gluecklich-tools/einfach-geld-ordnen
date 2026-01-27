@@ -1,51 +1,31 @@
 ---
 layout: page
-title: Pillar - Ueberblick
+title: Projekt-Uebersicht
 permalink: /pillar/index.html
 ---
+
 # Projekt-Uebersicht
-Hier findest du die zentralen Pillar-Seiten (grosse Uebersichtsseiten) und die wichtigsten wichtige Seiten.
-Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetzt.
 
-## Uebersichten
-- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-- [Haushaltsbuch]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+Hier findest du die wichtigsten Einstiege. Ziel: **kein Suchen, keine Sackgassen**.
 
-<!-- ORPHAN-INLINKS-START -->
+## Starte hier
 
-## Wichtige Seiten
-<!-- QASS: no fragiles -->
-- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
-- [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- **Einfach anfangen (ohne Zahlen):** [Ueberblick oeffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- **Haushaltsbuch nutzen:** [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- **Schnellstart:** [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
-<!-- ORPHAN-INLINKS-END -->
+## Themen
 
-## Naechste Schritte (Startpunkte)
+- **Schulden abbauen:** [Schuldenfrei - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
+- **Fixkosten senken:** [Fixkosten - Uebersicht]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- **Spielraum & Ruecklagen:** [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
-- [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Fixkosten - Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
+## Rechner
 
-{% include no_sackgasse_footer.html %}
-
-## Themen (Einstieg)
-
-- [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-
-## Thema Fixkosten
-
-- [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
-
-## Themen-Uebersicht
-
-- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
+- [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
 
 ## Downloads
 
-- [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+{% include no_sackgasse_footer.html %}

@@ -17,7 +17,7 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 
 > Ziel: Du sollst deine Finanzen **übersichtlich ordnen** können – ohne dich durch 100 Menüs zu kämpfen.
 
-## Qualitätsprinzipien (öffentlich)
+## Qualitätsprinzipien
 1) **Einfach vor komplex**  
    Lieber verständlich und robust als überladen.
 

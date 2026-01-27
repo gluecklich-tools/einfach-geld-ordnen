@@ -64,3 +64,6 @@ LEARNINGS.md
 *.bak_*
 
 qass_v2_*.txt
+
+_audit/
+
