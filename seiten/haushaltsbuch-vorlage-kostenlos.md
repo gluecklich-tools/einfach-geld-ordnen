@@ -20,7 +20,7 @@ Bis dahin: Nutze den Flow über den Hub.
 ## Naechste Schritte
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- Kostenlose Haushaltsbuch-Vorlage
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
 
 <!-- NAV-FOOTER-END -->

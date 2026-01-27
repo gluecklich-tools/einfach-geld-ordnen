@@ -30,7 +30,7 @@ Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
 - [Haushaltsueberblick (Pillar)]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 - [Spielraum & Ruecklagen (Pillar)]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
-- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
+- Seiten-Uebersicht
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 - [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
 - [Governance]({{ site.baseurl }}/seiten/governance.html)

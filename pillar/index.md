@@ -42,7 +42,7 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- Du bist hier: Uebersicht
 
 <!-- NAV-FOOTER-END -->
 
