@@ -88,7 +88,7 @@ bevor man überhaupt etwas verändert.
 
 ## Wie es weitergeht
 
-👉 **Weiter zu Ordnung halten**  
+ **Weiter zu Ordnung halten**
 [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
 ---
