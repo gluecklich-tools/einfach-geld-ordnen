@@ -46,7 +46,7 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 
 - [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 - [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
 
 - Du bist hier: Monatliche Ausgaben
 

@@ -1,5 +1,0 @@
-﻿=== QASS UNKNOWN TARGETS ===
-REPO: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
-TIME: 2026-01-27T16:32:26
-
-OK: No unknown /seiten/* or /pillar/* targets found.

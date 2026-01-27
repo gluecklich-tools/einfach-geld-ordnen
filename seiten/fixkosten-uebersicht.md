@@ -63,7 +63,7 @@ Wenn ja: reicht.
 
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
 
 - Du bist hier: Fixkosten
 

@@ -53,8 +53,8 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 ## Naechste Schritte
 
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
-- [Pillar: Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- [Pillar: Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/index.htmlindex.htmlspielraum-ruecklagen.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
 
 - Du bist hier: Spielraum & Ruecklagen
 

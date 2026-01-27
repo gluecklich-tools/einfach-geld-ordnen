@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Spielraum & Rücklagen - realistisch einordnen"
-permalink: /pillar/spielraum-ruecklagen.html
+permalink: /pillar/index.htmlspielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
 flow_systemlinks: true
@@ -90,7 +90,7 @@ bevor man überhaupt etwas verändert.
 ## Wie es weitergeht
 
  **Weiter zu Ordnung halten**
-[Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+[Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/index.htmlindex.htmlordnung-halten.html)
 
 ---
 
@@ -101,8 +101,8 @@ bevor man überhaupt etwas verändert.
 ## Naechste Schritte
 
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- [Ordnung halten]({{ site.baseurl }}/pillar/index.htmlindex.htmlordnung-halten.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
 
 - Du bist hier: Pillar Spielraum
 

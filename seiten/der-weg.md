@@ -33,7 +33,7 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
 
 - Du bist hier: Der Weg
 
