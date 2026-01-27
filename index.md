@@ -28,7 +28,7 @@ Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
 <!-- ORPHAN-INLINKS-START -->
 ## Wichtige Seiten
 
-Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
+Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichbar.
 
 - [Projekt-Uebersicht]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
@@ -36,14 +36,12 @@ Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
 
 - [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
-- [Governance]({{ site.baseurl }}/seiten/governance.html)
 - [Premium]({{ site.baseurl }}/seiten/premium.html)
 - [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
 - [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
 <!-- ORPHAN-INLINKS-END -->
 
-## Schnellstart (EGO)
+## Schnellstart
 
 1) **Orientierung**: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
 2) **Sofort nutzen**: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )

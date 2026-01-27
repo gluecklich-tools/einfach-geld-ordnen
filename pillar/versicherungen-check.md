@@ -11,7 +11,7 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 ## Schritte
 
 1) Liste alle Policen + Beitrag pro Monat
-2) Pruefe Doppelungen (z.B. Rechtsschutz-Bausteine)
+2) Pruefe Doppelungen (z.B. Rechtsschutz-Was hier drin ist)
 3) Vergleiche Selbstbeteiligung vs Beitrag
 
 ## Naechste Schritte

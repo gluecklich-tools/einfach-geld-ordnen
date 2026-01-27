@@ -4,7 +4,7 @@ title: Pillar - Ueberblick
 permalink: /pillar/index.html
 ---
 # Projekt-Uebersicht
-Hier findest du die zentralen Pillar-Seiten (grosse Uebersichtsseiten) und die wichtigsten Systemseiten.
+Hier findest du die zentralen Pillar-Seiten (grosse Uebersichtsseiten) und die wichtigsten wichtige Seiten.
 Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetzt.
 
 ## Uebersichten
