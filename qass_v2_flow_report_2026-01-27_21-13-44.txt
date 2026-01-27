@@ -1,0 +1,45 @@
+﻿=== QASS FLOW REPORT ===
+REPO: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
+TIME: 2026-01-27T21:13:44
+
+FILES_SCANNED: 54
+PERMALINKS_KNOWN(seiten/pillar): 29
+EDGES_FOUND(internal seiten/pillar links): 73
+
+--- FRAGILE (indeg=0 among known permalinks) ---
+
+/pillar/einfach-geld-ordnen.html
+/pillar/haushaltsueberblick.html
+/seiten/faq_probleme_loesen.html
+/seiten/governance.html
+/seiten/index.html
+/seiten/nach_dem_kauf.html
+/seiten/premium.html
+/seiten/qualitaet.html
+
+--- TOP OUTDEG (most linking pages, by permalink) ---
+
+perm                                           outdeg indeg
+----                                           ------ -----
+/pillar/                                           8    11
+/seiten/haushaltsbuch.html                         8     8
+/seiten/der-weg.html                               8     2
+/seiten/monatliche-ausgaben.html                   5     8
+/pillar/einfach-geld-ordnen-haushaltsbuch.html      5     3
+/seiten/ordnung-halten.html                        4     3
+/seiten/variable-ausgaben.html                     4     2
+/seiten/fixkosten-uebersicht.html                  3     6
+/seiten/haushaltsbuch-excel.html                   3     3
+/seiten/spielraum-ruecklagen.html                  3     3
+/pillar/spielraum-ruecklagen.html                  3     2
+/pillar/ordnung-halten.html                        3     2
+/seiten/start_in_15_minuten.html                   3     1
+/seiten/haushaltsbuch-vollversion.html             3     1
+/pillar/haushaltsueberblick.html                   3     0
+/seiten/qualitaet.html                             2     0
+/pillar/einfach-geld-ordnen.html                   2     0
+/seiten/nebenkosten-miete.html                     1     5
+/seiten/haushaltsbuch-vorlage-kostenlos.html       1     4
+/seiten/index.html                                 1     0
+
+SAVED: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\qass_v2_flow_report_2026-01-27_21-13-44.txt

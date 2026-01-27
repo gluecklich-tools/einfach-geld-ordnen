@@ -1,0 +1,18 @@
+﻿=== QASS FLOW REPORT ===
+REPO: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
+TIME: 2026-01-27T21:28:55
+
+FILES_SCANNED: 57
+PERMALINKS_KNOWN(seiten/pillar): 29
+EDGES_FOUND(internal seiten/pillar links): 73
+
+--- FRAGILE (indeg=0 among known permalinks) ---
+
+/pillar/einfach-geld-ordnen.html
+/pillar/haushaltsueberblick.html
+/seiten/faq_probleme_loesen.html
+/seiten/governance.html
+/seiten/index.html
+/seiten/nach_dem_kauf.html
+/seiten/premium.html
+/seiten/qualitaet.html
