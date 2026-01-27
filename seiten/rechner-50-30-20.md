@@ -36,3 +36,9 @@ permalink: /seiten/rechner-50-30-20.html
 </script>
 
 {% include no_sackgasse_footer.html %}
+
+## Naechste Schritte (Rechner)
+
+- [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
+- [Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
