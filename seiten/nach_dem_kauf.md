@@ -17,13 +17,3 @@ Es gibt keinen persoenlichen Support.
 ## Organisatorisches
 Zahlung, Rechnung, Downloadzustellung, Widerruf/Refund: ausschliesslich ueber die Plattform.
 Kein separater Kontaktkanal fuer Abwicklung oder Fragen.
-
-<!-- EGO_FOOTER_START -->
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

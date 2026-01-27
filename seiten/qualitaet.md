@@ -43,11 +43,3 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 
 Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

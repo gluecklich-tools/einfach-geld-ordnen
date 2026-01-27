@@ -73,30 +73,3 @@ Zust&auml;ndig ist in der Regel die Aufsichtsbeh&ouml;rde deines Bundeslandes.
 ## 9. Stand
 
 Stand: 2026-01-24
-<!-- CTA-FOOTER-START -->
-
----
-
-**Weiter:**
-- [Start]({{ site.baseurl }}/index.html)
-<!-- CTA-FOOTER-END -->
-
-<!-- FOOTER-START -->
-
----
-
-## Naechster Schritt
-
-- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
-
-<!-- FOOTER-END -->
-
-<!-- EGO_FOOTER_START -->
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

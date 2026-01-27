@@ -48,30 +48,3 @@ F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen.
 
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
-<!-- CTA-FOOTER-START -->
-
----
-
-**Weiter:**
-- [Start]({{ site.baseurl }}/index.html)
-<!-- CTA-FOOTER-END -->
-
-<!-- FOOTER-START -->
-
----
-
-## Naechster Schritt
-
-- Zur Startseite: [{{ site.baseurl }}/index.html]({{ site.baseurl }}/index.html)
-
-<!-- FOOTER-END -->
-
-<!-- EGO_FOOTER_START -->
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

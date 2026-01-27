@@ -26,25 +26,3 @@ Trag den Abschlag als Monatswert ein.
 Teile den Jahresbetrag durch 12.
 
 ---
-
-- **Zurück:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- **Hub:** [Überblick]({{ site.baseurl }}/pillar/)
-- **Weiter:** [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-<!-- CTA-FOOTER-START -->
-
----
-
-**Weiter:**
-- [Start]({{ site.baseurl }}/index.html)
-- [Premium: Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-<!-- CTA-FOOTER-END -->
-
-<!-- WEITER-START -->
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

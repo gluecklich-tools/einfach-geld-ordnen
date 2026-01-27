@@ -24,13 +24,3 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 - Schrittfolge aus 'Start in 15 Minuten' exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Produkt nicht das richtige.
-
-<!-- EGO_FOOTER_START -->
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Seiten-Uebersicht: {{ site.baseurl }}/seiten/haushaltsbuch.html
-- Premium: {{ site.baseurl }}/seiten/premium.html
-- Nach dem Kauf: {{ site.baseurl }}/seiten/nach_dem_kauf.html
-- Datenschutz: {{ site.baseurl }}/seiten/datenschutz.html
-- Impressum: {{ site.baseurl }}/seiten/impressum.html

@@ -17,9 +17,3 @@ Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekt
 ## Support / Verantwortung
 - Inhalte und Vorlagen sind auf **Self-Service** ausgelegt.
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
-
-## Navigation
-- Start: {{ site.baseurl }}/index.html
-- Pillar-Uebersicht: {{ site.baseurl }}/pillar/
-- Weiter: {{ site.baseurl }}/seiten/qualitaet.html
-- Self-Service: {{ site.baseurl }}/seiten/self_service.html
