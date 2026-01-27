@@ -3,22 +3,14 @@
   <strong style="display:block;margin-bottom:0.35rem;">Naechste Schritte</strong>
   <ul style="margin:0;padding-left:1.1rem;">
     <li><a href="{{ site.baseurl }}/">Startseite</a></li>
-
-    {% assign p_pillar = site.pages | where: "permalink", "/pillar/index.html" | first %}
-    {% if p_pillar %}<li><a href="{{ site.baseurl }}{{ p_pillar.permalink }}">Projekt-Uebersicht</a></li>{% endif %}
-
-    {% assign p_hhb = site.pages | where: "permalink", "/seiten/haushaltsbuch.html" | first %}
-    {% if p_hhb %}<li><a href="{{ site.baseurl }}{{ p_hhb.permalink }}">Haushaltsbuch - Uebersicht</a></li>{% endif %}
-
-    {% assign p_fix = site.pages | where: "permalink", "/seiten/fixkosten.html" | first %}
-    {% if p_fix %}<li><a href="{{ site.baseurl }}{{ p_fix.permalink }}">Fixkosten - Check</a></li>{% endif %}
-
-    {% assign p_dl = site.pages | where: "permalink", "/seiten/downloads.html" | first %}
-    {% if p_dl %}<li><a href="{{ site.baseurl }}{{ p_dl.permalink }}">Downloads</a></li>{% endif %}
+    <li><a href="{{ site.baseurl }}/pillar/index.html">Projekt-Uebersicht</a></li>
+    <li><a href="{{ site.baseurl }}/pillar/cluster.html">Themen-Uebersicht</a></li>
+    <li><a href="{{ site.baseurl }}/seiten/rechner-index.html">Rechner</a></li>
+    <li><a href="{{ site.baseurl }}/seiten/downloads.html">Downloads</a></li>
   </ul>
 
   <p style="margin:0.75rem 0 0 0;font-size:0.95rem;">
-    <em>Self-Serve:</em> Inhalte sind so gebaut, dass du ohne Support durchkommst. Keine Sackgassen - immer Ruecksprung zum Uebersicht.
+    <em>Self-Serve:</em> Inhalte sind so gebaut, dass du ohne Support durchkommst. Keine Sackgassen - du findest immer einen Ruecksprung.
   </p>
 </nav>
 
