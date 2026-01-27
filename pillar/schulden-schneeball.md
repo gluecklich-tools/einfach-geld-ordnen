@@ -17,7 +17,7 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 
 ## Naechste Schritte
 
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 - [Alternative: Lawine]( {{ site.baseurl }}/pillar/schulden-lawine.html )
 - [Mini-Rechner: Schneeball-Extra]( {{ site.baseurl }}/seiten/rechner-schneeball.html )
 

@@ -38,7 +38,7 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 - **Keine Garantie**, dass jede individuelle Konstellation (z. B. Sonderfälle, exotische Systeme, sehr alte Software) ohne Anpassung läuft.
 - **Self-serve**: Das Produkt ist so aufgebaut, dass du es selbstständig nutzen kannst. Es gibt keinen zugesicherten 1:1-Support.
 
-## Datenschutz (Kurzfassung)
+## Datenschutz 
 - Deine Daten bleiben grundsätzlich **bei dir**.
 - Öffentliche Projektdateien enthalten **keine** Kontoauszüge, Auszahlungsnachweise, Behördenkommunikation oder ähnliche Dokumente.
 

@@ -10,11 +10,11 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 
 ## Pillar-Themen
 
-- [Einfach Geld ordnen (Pillar)]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsueberblick (Pillar)]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Ordnung halten (Pillar)]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Spielraum & Ruecklagen (Pillar)]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-- [Haushaltsbuch (Pillar)]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Haushaltsbuch]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 
 <!-- ORPHAN-INLINKS-START -->
 
@@ -40,17 +40,17 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 
 {% include no_sackgasse_footer.html %}
 
-## Cluster (Start)
+## Themen (Einstieg)
 
-- [Schuldenfrei werden - Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
-## Cluster (Fixkosten)
+## Thema Fixkosten
 
-- [Fixkosten senken - Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
 ## Landkarte
 
-- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
 
 ## Downloads
 

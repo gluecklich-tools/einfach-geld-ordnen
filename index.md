@@ -26,13 +26,13 @@ Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
 {% include premium-cta.html %}
 
 <!-- ORPHAN-INLINKS-START -->
-## Navigation (Systemlinks)
+## Wichtige Seiten
 
 Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
 
-- [Projekt-Uebersicht (Pillar)]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsueberblick (Pillar)]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Spielraum & Ruecklagen (Pillar)]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Projekt-Uebersicht]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
 - [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
@@ -45,13 +45,13 @@ Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
 
 ## Schnellstart (EGO)
 
-1) **Orientierung**: [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+1) **Orientierung**: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
 2) **Sofort nutzen**: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
 3) **Freebie**: [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
 
 ## Einstieg nach Thema
 
-- Schulden: [Schuldenfrei - Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-- Fixkosten: [Fixkosten senken - Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- Schulden: [Schuldenfrei - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
 {% include no_sackgasse_footer.html %}

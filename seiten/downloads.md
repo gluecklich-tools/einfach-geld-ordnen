@@ -19,8 +19,8 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 
 ## Naechste Schritte
 
-- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
-- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
+- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
 - [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
 
 {% include no_sackgasse_footer.html %}

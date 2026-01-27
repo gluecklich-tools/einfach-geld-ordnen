@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Schuldenfrei werden - Hub
+title: Schuldenfrei werden - Uebersicht
 permalink: /pillar/schuldenfrei.html
 ---
 
-# Schuldenfrei werden - Hub
+# Schuldenfrei werden - Uebersicht
 
 Kurzer, klarer Einstieg. Keine Sackgassen.
 
@@ -14,7 +14,7 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 2) Waehle Methode: Schneeball oder Lawine
 3) Setze ein fixes Monatsbudget fuer Schulden
 
-## Money Pages im Cluster
+## Themenseiten
 
 - [Schulden-Schneeball]( {{ site.baseurl }}/pillar/schulden-schneeball.html )
 - [Schulden-Lawine]( {{ site.baseurl }}/pillar/schulden-lawine.html )
@@ -32,5 +32,5 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 
 ## Orientierung
 
-- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
-- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
+- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
+- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )

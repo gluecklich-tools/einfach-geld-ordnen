@@ -9,14 +9,14 @@ flow_systemlinks: true
 
 Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 
-## Bausteine
-### 1) Pflichtseite: Start in 15 Minuten
+## So funktioniert es
+### 1) Wichtig: Start in 15 Minuten
 - LibreOffice installieren/oeffnen
 - Datei laden und speichern (eigene Kopie)
 - 3 Pflichtschritte: Kategorien -> Monat -> 1-3 Beispielbuchungen
 - Mini-Check: Summe / Kategorie / Monat
 
-### 2) Pflichtseite: FAQ / Probleme loesen (Top 15)
+### 2) Wichtig: FAQ / Probleme loesen (Top 15)
 - Dropdown geht nicht
 - Formel kaputt / Werte falsch
 - Monatswechsel

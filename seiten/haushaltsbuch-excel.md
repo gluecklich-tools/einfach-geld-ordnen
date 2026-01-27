@@ -14,7 +14,7 @@ Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
 
 ## So startest du (5 Minuten)
 
-1) Öffne den Hub:  
+1) Öffne den Uebersicht:  
 → [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 2) Kläre zuerst die Fixkosten (einmalig sauber):  

@@ -18,7 +18,7 @@ Kurz gesagt: **Einordnung statt Kontrolle.**
 
 ---
 
-## Abgrenzung (kurz)
+## Abgrenzung 
 
 - **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.
   Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).

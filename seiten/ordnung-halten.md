@@ -43,7 +43,7 @@ Dann ist weniger oft mehr.
 
 ---
 
-## Optional: der ruhige Text (Pillar)
+## Optional: der ruhige Text
 
 Wenn du dazu einen ruhigen, grundsätzlichen Text willst:
 

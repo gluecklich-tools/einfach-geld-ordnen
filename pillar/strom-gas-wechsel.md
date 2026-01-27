@@ -16,7 +16,7 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 
 ## Naechste Schritte
 
-- [Zurueck: Fixkosten Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 - [Mobilfunk/Internet senken]( {{ site.baseurl }}/pillar/mobilfunk-internet.html )
 - [Mini-Rechner: 50-30-20]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 

@@ -19,6 +19,6 @@ Fixkosten sind der groesste Hebel. Ziel: senken, kuendigen, wechseln.
 ## Naechste Schritte
 
 - [Abo-Manager]( {{ site.baseurl }}/pillar/abo-manager.html )
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}

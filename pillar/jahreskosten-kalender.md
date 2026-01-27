@@ -18,6 +18,6 @@ Jahreskosten sind planbar: auf 12 Monate runterbrechen.
 
 - [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
 - [Fixkosten-Checkliste]( {{ site.baseurl }}/pillar/fixkosten-checkliste.html )
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}

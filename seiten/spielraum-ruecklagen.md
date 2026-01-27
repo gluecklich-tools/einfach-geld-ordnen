@@ -16,7 +16,7 @@ Sie ist eine ruhige Einordnung, **warum Spielraum im Haushalt sinnvoll ist**.
 
 ---
 
-## Was damit gemeint ist (kurz)
+## Was damit gemeint ist 
 
 - **Spielraum**: Geld, das nicht fest verplant ist (ein Puffer im Monat).
 - **Rücklagen**: Geld, das für später „geparkt“ ist (Reparaturen, Nachzahlungen, Ersatzkäufe).

@@ -16,7 +16,7 @@ Viele zahlen hier zu viel. Ziel: Preis runter oder Vertrag wechseln.
 
 ## Naechste Schritte
 
-- [Zurueck: Fixkosten Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 - [Abos kuendigen]( {{ site.baseurl }}/pillar/abos-kuendigen.html )
 - [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
 

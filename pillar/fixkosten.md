@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Fixkosten senken - Hub
+title: Fixkosten senken - Uebersicht
 permalink: /pillar/fixkosten.html
 ---
 
-# Fixkosten senken - Hub
+# Fixkosten senken - Uebersicht
 
 Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 
@@ -14,14 +14,13 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 2) Markiere "kuendbar" und "wechselbar"
 3) Setze ein Monatsziel (z.B. 25 EUR weniger pro Monat)
 
-## Money Pages im Cluster
+## Themenseiten
 
 - [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
 - [Versicherungen: Check]( {{ site.baseurl }}/pillar/versicherungen-check.html )
 - [Strom/Gas: Wechsel]( {{ site.baseurl }}/pillar/strom-gas-wechsel.html )
 - [Mobilfunk/Internet: senken]( {{ site.baseurl }}/pillar/mobilfunk-internet.html )
 - [Abos kuendigen: konsequent]( {{ site.baseurl }}/pillar/abos-kuendigen.html )
-- [Abos kuendigen: Schrittfolge]( {{ site.baseurl }}/pillar/abos-kuendigen.html )
 - [50-30-20 Regel]( {{ site.baseurl }}/pillar/50-30-20.html )
 
 ## Rechner
@@ -33,5 +32,5 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 
 ## Orientierung
 
-- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
-- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
+- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
+- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )

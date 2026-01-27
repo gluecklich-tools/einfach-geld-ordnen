@@ -46,5 +46,5 @@ permalink: /seiten/rechner-schneeball.html
 ## Naechste Schritte (Rechner)
 
 - [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
-- [Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
+- [Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )

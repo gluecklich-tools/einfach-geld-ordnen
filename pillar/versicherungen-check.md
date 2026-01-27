@@ -16,7 +16,7 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 
 ## Naechste Schritte
 
-- [Zurueck: Fixkosten Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 - [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
 - [Strom/Gas Wechsel]( {{ site.baseurl }}/pillar/strom-gas-wechsel.html )
 

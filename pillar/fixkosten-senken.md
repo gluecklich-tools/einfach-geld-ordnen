@@ -16,7 +16,7 @@ Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abar
 
 ## Naechste Schritte
 
-- [Zurueck: Fixkosten Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
+- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 - [Mini-Rechner: 50-30-20]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 - [Versicherungen Check]( {{ site.baseurl }}/pillar/versicherungen-check.html )
 

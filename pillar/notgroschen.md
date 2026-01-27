@@ -14,7 +14,7 @@ Ein kleiner Puffer verhindert, dass du bei jeder Rechnung neue Schulden machst.
 
 ## Naechste Schritte
 
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 - [Jahreskosten-Kalender]( {{ site.baseurl }}/pillar/jahreskosten-kalender.html )
 - [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
 

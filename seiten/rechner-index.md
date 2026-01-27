@@ -16,8 +16,8 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 
 ## Naechste Schritte
 
-- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
-- [Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
+- [Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}
 

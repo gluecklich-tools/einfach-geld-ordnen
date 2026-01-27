@@ -17,6 +17,6 @@ Ziel: Alles sichtbar machen und konsequent kuerzen.
 ## Naechste Schritte
 
 - [Fixkosten-Checkliste]( {{ site.baseurl }}/pillar/fixkosten-checkliste.html )
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}

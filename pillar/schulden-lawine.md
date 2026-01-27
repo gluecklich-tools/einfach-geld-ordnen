@@ -17,7 +17,7 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 
 ## Naechste Schritte
 
-- [Zurueck: Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 - [Alternative: Schneeball]( {{ site.baseurl }}/pillar/schulden-schneeball.html )
 - [Notgroschen]( {{ site.baseurl }}/pillar/notgroschen.html )
 
