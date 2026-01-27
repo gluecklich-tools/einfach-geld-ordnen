@@ -1,0 +1,6 @@
+﻿=== QASS FLOW REPORT ===
+REPO: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
+TIME: 2026-01-27T16:22:10
+
+--- FRAGILE (incoming sources) ---
+

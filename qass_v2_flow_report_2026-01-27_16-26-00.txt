@@ -1,0 +1,15 @@
+﻿=== QASS FLOW REPORT ===
+REPO: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
+TIME: 2026-01-27T16:26:00
+
+FILES_SCANNED: 47
+PERMALINKS_KNOWN(seiten/pillar): 29
+EDGES_FOUND(internal seiten/pillar links): 174
+
+--- FRAGILE (indeg=0 among known permalinks) ---
+
+
+--- TOP OUTDEG (most linking pages, by permalink) ---
+
+
+SAVED: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\qass_v2_flow_report_2026-01-27_16-26-00.txt

@@ -1,1 +1,60 @@
-<!-- flow-footer disabled (duplicate nav/cta blocks). Navigation is maintained per page. -->
+{% comment %}
+flow-footer: zentrale "Naechste Schritte"-Navigation (gegen Sackgassen).
+Pro Seite steuerbar ueber Frontmatter:
+
+flow_disable: true|false
+flow_next_1_label / flow_next_1_url
+flow_next_2_label / flow_next_2_url
+flow_next_3_label / flow_next_3_url
+flow_systemlinks: true|false
+{% endcomment %}
+
+{% if page.flow_disable %}
+  {%- comment -%} disabled per page {%- endcomment -%}
+{% else %}
+
+<hr>
+
+<h2>Naechste Schritte</h2>
+
+<ul>
+  {% assign n1_label = page.flow_next_1_label | default: "Start in 15 Minuten" %}
+  {% assign n1_url   = page.flow_next_1_url   | default: "/seiten/start_in_15_minuten.html" %}
+
+  {% assign n2_label = page.flow_next_2_label | default: "Kostenlose Haushaltsbuch-Vorlage" %}
+  {% assign n2_url   = page.flow_next_2_url   | default: "/seiten/haushaltsbuch-vorlage-kostenlos.html" %}
+
+  {% assign n3_label = page.flow_next_3_label | default: "Der Weg – Schritt fuer Schritt" %}
+  {% assign n3_url   = page.flow_next_3_url   | default: "/seiten/der-weg.html" %}
+
+  <li><a href="{{ site.baseurl }}{{ n1_url }}">{{ n1_label }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ n2_url }}">{{ n2_label }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ n3_url }}">{{ n3_label }}</a></li>
+</ul>
+
+<p>Du bist hier: <strong>{{ page.h1 | default: page.title }}</strong></p>
+
+{% if page.flow_systemlinks %}
+
+<hr>
+
+<h2>Navigation (Systemlinks)</h2>
+<p>Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.</p>
+
+<ul>
+  <li><a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Projekt-Uebersicht (Pillar)</a></li>
+  <li><a href="{{ site.baseurl }}/pillar/haushaltsueberblick.html">Haushaltsueberblick (Pillar)</a></li>
+  <li><a href="{{ site.baseurl }}/pillar/spielraum-ruecklagen.html">Spielraum &amp; Ruecklagen (Pillar)</a></li>
+
+  <li><a href="{{ site.baseurl }}/seiten/index.html">Seiten-Uebersicht</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/self_service.html">Self-Service</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/qualitaet.html">Qualitaet</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/governance.html">Governance</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/premium.html">Premium</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/nach_dem_kauf.html">Nach dem Kauf</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/faq_probleme_loesen.html">FAQ: Probleme loesen</a></li>
+</ul>
+
+{% endif %}
+
+{% endif %}

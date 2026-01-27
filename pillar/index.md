@@ -1,65 +1,46 @@
 ---
 layout: default
-title: "Einfach Geld ordnen - Überblick"
-h1: "Einfach Geld ordnen - Überblick"
+title: Einfach Geld ordnen - Überblick
+h1: Einfach Geld ordnen - Überblick
 permalink: /pillar/
 nav_group: pillar
 nav_order: 10
+
+flow_systemlinks: true
+flow_next_1_label: Start in 15 Minuten
+flow_next_1_url: /seiten/start_in_15_minuten.html
+flow_next_2_label: Kostenlose Haushaltsbuch-Vorlage
+flow_next_2_url: /seiten/haushaltsbuch-vorlage-kostenlos.html
+flow_next_3_label: Der Weg – Schritt fuer Schritt
+flow_next_3_url: /seiten/der-weg.html
 ---
+
 ## Start hier (klar & ohne Umwege)
 
 Wenn du gerade anfangen willst, folge diesem Weg:
 
-1. **Pillar-Start (Kurzüberblick + 10-Minuten-Start)**  
-   → [Einfach Geld ordnen - Haushaltsbuch für Anfänger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+1. **Pillar-Start (Kurzueberblick + 10-Minuten-Start)**  
+   → [Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 
-2. **Geführter Weg (Schritt für Schritt, ohne Schleifen)**  
-   → [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
+2. **Gefuehrter Weg (Schritt fuer Schritt, ohne Schleifen)**  
+   → [Der Weg – Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
-3. **Direkt zur Excel-Datei (wenn du schon weißt, was du tust)**  
-   → [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+3. **Direkt zur Excel-Datei (wenn du schon weisst, was du tust)**  
+   → [Haushaltsbuch in Excel einfach erklaert]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 
 ---
 
 ## Themencluster (direkte Einstiege)
 
 ### Haushaltsbuch
-- [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+- [Haushaltsbuch in Excel einfach erklaert]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 - [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Pillar: Haushaltsbuch für Anfänger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+- [Pillar: Haushaltsbuch fuer Anfaenger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 
 ### Kosten
-- [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
----
-
-<!-- NAV-FOOTER-START -->
----
-## Naechste Schritte
-
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Du bist hier: Uebersicht
-
-<!-- NAV-FOOTER-END -->
-
-<!-- ORPHAN-INLINKS-START -->
-## Navigation (Systemlinks)
-
-Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
-
-- [Projekt-Uebersicht (Pillar)]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsueberblick (Pillar)]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Spielraum & Ruecklagen (Pillar)]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-
-- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
-- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
-- [Governance]({{ site.baseurl }}/seiten/governance.html)
-- [Premium]({{ site.baseurl }}/seiten/premium.html)
-- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
-- [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-<!-- ORPHAN-INLINKS-END -->
+{% include flow-footer.html %}
