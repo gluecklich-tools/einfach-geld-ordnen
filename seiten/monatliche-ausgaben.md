@@ -43,6 +43,7 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ---
 ## Naechste Schritte
 
+- [Spielraum und Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)

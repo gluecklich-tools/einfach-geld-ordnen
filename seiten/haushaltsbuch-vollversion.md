@@ -88,7 +88,7 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** �
   [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 - **Startseite:**  
-  [Zur Übersicht]({{ site.baseurl }}/)
+  [Zur Übersicht]({{ site.baseurl }}/pillar/)
 
 <!-- NAV-FOOTER-START -->
 ---

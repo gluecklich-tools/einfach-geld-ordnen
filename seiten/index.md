@@ -8,7 +8,7 @@ permalink: /seiten/index.html
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
-- Zur Startseite: [Start]({{ site.baseurl }}/)
+- Zur Startseite: [Start]({{ site.baseurl }}/index.html)
 - Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 <!-- NAV-FOOTER-START -->
