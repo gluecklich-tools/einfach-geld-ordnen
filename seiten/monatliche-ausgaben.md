@@ -36,3 +36,13 @@ Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
 
 ---
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

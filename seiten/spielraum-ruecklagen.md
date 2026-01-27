@@ -44,3 +44,13 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 Du kannst es einfach als „Sicherheitszone“ verstehen.
 
 ---
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

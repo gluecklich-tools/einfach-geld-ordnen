@@ -53,3 +53,13 @@ Es gibt keinen nächsten zwingenden Schritt.
 Du kannst bleiben, zurückgehen oder aufhören.
 
 ---
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

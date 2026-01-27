@@ -73,3 +73,13 @@ Zust&auml;ndig ist in der Regel die Aufsichtsbeh&ouml;rde deines Bundeslandes.
 ## 9. Stand
 
 Stand: 2026-01-24
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

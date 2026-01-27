@@ -34,3 +34,13 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Fuer wen geeignet / fuer wen nicht
 - Keine Einrichtung, kein Coaching, keine individuelle Hilfe
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

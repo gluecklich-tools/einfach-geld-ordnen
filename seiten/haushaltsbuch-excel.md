@@ -30,3 +30,13 @@ Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).
 Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
 
 ---
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

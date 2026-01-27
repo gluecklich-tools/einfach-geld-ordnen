@@ -17,3 +17,13 @@ Es gibt keinen persoenlichen Support.
 ## Organisatorisches
 Zahlung, Rechnung, Downloadzustellung, Widerruf/Refund: ausschliesslich ueber die Plattform.
 Kein separater Kontaktkanal fuer Abwicklung oder Fragen.
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

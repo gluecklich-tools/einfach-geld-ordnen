@@ -43,3 +43,13 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 
 Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

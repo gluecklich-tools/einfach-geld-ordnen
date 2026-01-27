@@ -24,3 +24,13 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 - Schrittfolge aus 'Start in 15 Minuten' exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Produkt nicht das richtige.
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

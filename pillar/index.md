@@ -35,3 +35,13 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ---
+
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->
