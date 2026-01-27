@@ -20,3 +20,7 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [Schuldenfrei Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}
+
+## Downloads
+
+- [Downloads]( {{ site.baseurl }}/seiten/downloads.html )

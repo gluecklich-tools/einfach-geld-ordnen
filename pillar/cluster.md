@@ -26,3 +26,7 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 - [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
 
 {% include no_sackgasse_footer.html %}
+
+## Downloads
+
+- [Downloads]( {{ site.baseurl }}/seiten/downloads.html )

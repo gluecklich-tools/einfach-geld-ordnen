@@ -51,3 +51,7 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 ## Landkarte
 
 - [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+
+## Downloads
+
+- [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
