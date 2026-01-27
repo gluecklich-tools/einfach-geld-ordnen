@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="{{ "/" | relative_url }}">Einfach Geld ordnen</a>
+      <nav class="nav">
+        <a href="{{ "/pillar/" | relative_url }}">Uebersicht</a>
+        <a href="{{ "/seiten/start_in_15_minuten.html" | relative_url }}">Start in 15 Minuten</a>
+        <a href="{{ "/seiten/der-weg.html" | relative_url }}">Der Weg</a>
+        <a href="{{ "/seiten/haushaltsbuch.html" | relative_url }}">Haushaltsbuch</a>
+        <a href="{{ "/seiten/index.html" | relative_url }}">Mehr</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="footer-links">
+        <a href="{{ "/seiten/impressum.html" | relative_url }}">Impressum</a>
+        <span class="sep">·</span>
+        <a href="{{ "/seiten/datenschutz.html" | relative_url }}">Datenschutz</a>
+      </div>
+      <div class="footer-copy">© {{ "now" | date: "%Y" }} Einfach Geld ordnen</div>
+    </div>
+  </footer>
+</body>
+</html>
