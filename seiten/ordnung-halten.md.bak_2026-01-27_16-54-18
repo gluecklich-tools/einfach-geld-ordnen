@@ -4,7 +4,6 @@ title: Ordnung halten - wenn sie hilft (ohne Druck)
 permalink: /seiten/ordnung-halten.html
 nav_group: seiten
 nav_order: 80
-flow_systemlinks: true
 ---
 # Ordnung halten – wenn sie hilft (ohne Druck)
 
@@ -64,4 +63,12 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

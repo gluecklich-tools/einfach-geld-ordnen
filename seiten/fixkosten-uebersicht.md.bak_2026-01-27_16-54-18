@@ -4,7 +4,6 @@ title: Fixkosten Übersicht
 permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
-flow_systemlinks: true
 ---
 # Fixkosten Übersicht
 
@@ -55,4 +54,15 @@ Wenn ja: reicht.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+**Naechster Schritt:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+---
+## Naechste Schritte
+
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

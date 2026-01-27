@@ -4,7 +4,6 @@ title: Premium
 permalink: /seiten/premium.html
 nav_group: seiten
 nav_order: 200
-flow_systemlinks: true
 ---
 # Premium
 Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach dem Kauf.
@@ -14,4 +13,12 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Klare Schritte (Self-Service)
 - Keine Supportpflicht
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

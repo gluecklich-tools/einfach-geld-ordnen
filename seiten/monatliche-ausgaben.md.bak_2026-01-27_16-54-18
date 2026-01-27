@@ -4,7 +4,6 @@ title: Monatliche Ausgaben
 permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
-flow_systemlinks: true
 ---
 # Monatliche Ausgaben – einfach einordnen
 
@@ -38,4 +37,15 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+**Naechster Schritt:** [Spielraum und Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+
+---
+## Naechste Schritte
+
+- [Spielraum und Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

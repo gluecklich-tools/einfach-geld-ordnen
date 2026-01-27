@@ -4,7 +4,6 @@ title: Datenschutz
 permalink: /seiten/datenschutz.html
 nav_group: meta
 nav_order: 910
-flow_systemlinks: true
 ---
 # Datenschutz
 
@@ -75,4 +74,12 @@ Zust&auml;ndig ist in der Regel die Aufsichtsbeh&ouml;rde deines Bundeslandes.
 
 Stand: 2026-01-24
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

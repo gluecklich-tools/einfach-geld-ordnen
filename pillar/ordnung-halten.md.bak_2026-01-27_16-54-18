@@ -4,7 +4,6 @@ title: "Ordnung halten - ohne Druck"
 permalink: /pillar/ordnung-halten.html
 nav_group: pillar
 nav_order: 60
-flow_systemlinks: true
 ---
 ## Ordnung halten – wenn sie hilft
 
@@ -55,4 +54,12 @@ Du kannst bleiben, zurückgehen oder aufhören.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

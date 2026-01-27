@@ -2,7 +2,6 @@
 layout: page
 title: FAQ / Probleme loesen (Top 15)
 permalink: /seiten/faq_probleme_loesen.html
-flow_systemlinks: true
 ---
 
 # FAQ / Probleme loesen (Top 15)
@@ -26,4 +25,12 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 
 Wenn du individuelle Hilfe willst, ist dieses Produkt nicht das richtige.
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

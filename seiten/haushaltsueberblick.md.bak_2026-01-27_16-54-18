@@ -4,7 +4,6 @@ title: Haushaltsüberblick - Einordnung ohne Druck
 permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
-flow_systemlinks: true
 ---
 # Haushaltsüberblick – Einordnung ohne Druck
 
@@ -41,4 +40,12 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

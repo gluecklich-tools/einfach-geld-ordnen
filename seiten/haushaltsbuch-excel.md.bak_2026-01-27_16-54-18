@@ -4,7 +4,6 @@ title: "Haushaltsbuch in Excel einfach erklärt"
 permalink: /seiten/haushaltsbuch-excel.html
 nav_group: seiten
 nav_order: 120
-flow_systemlinks: true
 ---
 ## Haushaltsbuch in Excel einfach erklärt
 
@@ -32,4 +31,12 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

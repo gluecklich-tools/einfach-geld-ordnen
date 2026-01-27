@@ -2,7 +2,6 @@
 layout: page
 title: 100% Self-Service
 permalink: /seiten/self_service.html
-flow_systemlinks: true
 ---
 
 # 100% Self-Service
@@ -36,4 +35,12 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Keine Einrichtung, kein Coaching, keine individuelle Hilfe
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

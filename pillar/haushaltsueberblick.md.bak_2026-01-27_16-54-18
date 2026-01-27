@@ -4,7 +4,6 @@ title: "Haushaltsüberblick - ohne Zahlen"
 permalink: /pillar/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
-flow_systemlinks: true
 ---
 ## Ein Überblick – ohne Zahlen
 
@@ -51,4 +50,12 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

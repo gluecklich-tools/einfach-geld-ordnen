@@ -4,7 +4,6 @@ title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 nav_group: seiten
 nav_order: 100
-flow_systemlinks: true
 ---
 ## Kostenlose Haushaltsbuch-Vorlage
 
@@ -16,4 +15,12 @@ Bis dahin: Nutze den Flow über den Hub.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- Kostenlose Haushaltsbuch-Vorlage
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

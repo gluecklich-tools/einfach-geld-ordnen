@@ -2,7 +2,6 @@
 layout: page
 title: Transparenz & Verantwortung
 permalink: /seiten/governance.html
-flow_systemlinks: true
 ---
 
 # Transparenz & Verantwortung
@@ -19,4 +18,12 @@ Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekt
 - Inhalte und Vorlagen sind auf **Self-Service** ausgelegt.
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

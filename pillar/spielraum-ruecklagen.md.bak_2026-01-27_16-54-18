@@ -4,7 +4,6 @@ title: "Spielraum & Rücklagen - realistisch einordnen"
 permalink: /pillar/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
-flow_systemlinks: true
 ---
 # Spielraum & Rücklagen - realistisch einordnen
 
@@ -94,4 +93,12 @@ bevor man überhaupt etwas verändert.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

@@ -2,7 +2,6 @@
 layout: page
 title: Start in 15 Minuten
 permalink: /seiten/start_in_15_minuten.html
-flow_systemlinks: true
 ---
 
 # Start in 15 Minuten
@@ -27,4 +26,12 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Kategorie?
 - Stimmt Monat?
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- Start in 15 Minuten
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->

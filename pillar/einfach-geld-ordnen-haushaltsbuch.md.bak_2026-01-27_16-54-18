@@ -5,7 +5,6 @@ h1: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
 permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
 nav_group: pillar
 nav_order: 30
-flow_systemlinks: true
 ---
 ## Ziel
 
@@ -31,4 +30,12 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 ---
 
-{% include flow-footer.html %}
+<!-- NAV-FOOTER-START -->
+---
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+<!-- NAV-FOOTER-END -->
