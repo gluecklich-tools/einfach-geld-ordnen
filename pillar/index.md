@@ -3,13 +3,11 @@ layout: page
 title: Pillar - Ueberblick
 permalink: /pillar/index.html
 ---
-# Pillar - Ueberblick
-
+# Projekt-Uebersicht
 Hier findest du die zentralen Pillar-Seiten (grosse Uebersichtsseiten) und die wichtigsten Systemseiten.
 Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetzt.
 
-## Pillar-Themen
-
+## Uebersichten
 - [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
 - [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
@@ -18,14 +16,10 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 
 <!-- ORPHAN-INLINKS-START -->
 
-## Systemseiten
+## Wichtige Seiten
 <!-- QASS: no fragiles -->
 - [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
-- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
-- [Governance]({{ site.baseurl }}/seiten/governance.html)
 - [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-- [Premium]({{ site.baseurl }}/seiten/premium.html)
-- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
 
 <!-- ORPHAN-INLINKS-END -->
 
@@ -48,7 +42,7 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 
 - [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
-## Landkarte
+## Themen-Uebersicht
 
 - [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
 

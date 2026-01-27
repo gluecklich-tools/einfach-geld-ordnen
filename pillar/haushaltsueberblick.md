@@ -39,7 +39,7 @@ Du musst hier nichts tun.
 Du musst dir nichts merken.
 Du musst nichts vorbereiten.
 
-Wenn du magst, lies es einfach wie eine Landkarte,
+Wenn du magst, lies es einfach wie eine Themen-Uebersicht,
 auf der du deinen eigenen Haushalt wiedererkennst.
 
 ---

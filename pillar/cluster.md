@@ -6,7 +6,7 @@ permalink: /pillar/cluster.html
 # Themen-Uebersicht
 Diese Seite ist die Uebersicht, damit du nie festhaengst.
 
-## Cluster
+## Thema
 
 ### 1) Schuldenfrei
 

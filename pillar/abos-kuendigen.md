@@ -17,7 +17,7 @@ Abos sind oft das leiseste Geldleck. Ziel: alles sichtbar, dann radikal kuerzen.
 ## Naechste Schritte
 
 - [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
-- [Abo-Manager (Schuldenfrei-Cluster)]( {{ site.baseurl }}/pillar/abo-manager.html )
+- [Abo-Manager (Schuldenfrei-Thema)]( {{ site.baseurl }}/pillar/abo-manager.html )
 - [Mini-Rechner: 50-30-20]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 
 {% include no_sackgasse_footer.html %}

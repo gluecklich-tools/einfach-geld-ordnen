@@ -5,7 +5,7 @@
     <li><a href="{{ site.baseurl }}/">Startseite</a></li>
 
     {% assign p_pillar = site.pages | where: "permalink", "/pillar/index.html" | first %}
-    {% if p_pillar %}<li><a href="{{ site.baseurl }}{{ p_pillar.permalink }}">Pillar Hub</a></li>{% endif %}
+    {% if p_pillar %}<li><a href="{{ site.baseurl }}{{ p_pillar.permalink }}">Projekt-Uebersicht</a></li>{% endif %}
 
     {% assign p_hhb = site.pages | where: "permalink", "/seiten/haushaltsbuch.html" | first %}
     {% if p_hhb %}<li><a href="{{ site.baseurl }}{{ p_hhb.permalink }}">Haushaltsbuch - Uebersicht</a></li>{% endif %}
@@ -18,7 +18,7 @@
   </ul>
 
   <p style="margin:0.75rem 0 0 0;font-size:0.95rem;">
-    <em>Self-Serve:</em> Inhalte sind so gebaut, dass du ohne Support durchkommst. Keine Sackgassen - immer Ruecksprung zum Hub.
+    <em>Self-Serve:</em> Inhalte sind so gebaut, dass du ohne Support durchkommst. Keine Sackgassen - immer Ruecksprung zum Uebersicht.
   </p>
 </nav>
 
