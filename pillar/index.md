@@ -18,8 +18,8 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 
 <!-- ORPHAN-INLINKS-START -->
 
-## Systemseiten (QASS-Fix: keine Fragiles)
-
+## Systemseiten
+<!-- QASS: no fragiles -->
 - [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
 - [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
 - [Governance]({{ site.baseurl }}/seiten/governance.html)
