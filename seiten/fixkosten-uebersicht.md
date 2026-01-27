@@ -55,6 +55,8 @@ Wenn ja: reicht.
 ---
 
 <!-- NAV-FOOTER-START -->
+**Naechster Schritt:** [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
 ---
 ## Naechste Schritte
 

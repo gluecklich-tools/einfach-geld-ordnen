@@ -38,6 +38,8 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ---
 
 <!-- NAV-FOOTER-START -->
+**Naechster Schritt:** [Spielraum und Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+
 ---
 ## Naechste Schritte
 
