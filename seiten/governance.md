@@ -20,3 +20,5 @@ Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekt
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

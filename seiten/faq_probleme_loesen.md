@@ -27,3 +27,5 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 Wenn du individuelle Hilfe willst, ist dieses Produkt nicht das richtige.
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

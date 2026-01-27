@@ -15,3 +15,5 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Keine Supportpflicht
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

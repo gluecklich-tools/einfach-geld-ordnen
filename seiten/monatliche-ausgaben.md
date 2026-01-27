@@ -51,3 +51,5 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 - Du bist hier: Monatliche Ausgaben
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

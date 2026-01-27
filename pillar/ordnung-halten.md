@@ -68,3 +68,5 @@ Du kannst bleiben, zurückgehen oder aufhören.
 - Du bist hier: Ordnung halten
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

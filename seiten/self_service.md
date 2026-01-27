@@ -37,3 +37,5 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

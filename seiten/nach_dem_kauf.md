@@ -20,3 +20,5 @@ Zahlung, Rechnung, Downloadzustellung, Widerruf/Refund: ausschliesslich ueber di
 Kein separater Kontaktkanal fuer Abwicklung oder Fragen.
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

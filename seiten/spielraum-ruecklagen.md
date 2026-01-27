@@ -59,3 +59,5 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 - Du bist hier: Spielraum & Ruecklagen
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

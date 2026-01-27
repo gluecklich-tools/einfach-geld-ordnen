@@ -38,3 +38,5 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 - Du bist hier: Der Weg
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

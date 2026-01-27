@@ -65,3 +65,5 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

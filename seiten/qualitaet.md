@@ -46,3 +46,5 @@ Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

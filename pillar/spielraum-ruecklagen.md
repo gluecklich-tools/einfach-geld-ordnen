@@ -107,3 +107,5 @@ bevor man überhaupt etwas verändert.
 - Du bist hier: Pillar Spielraum
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

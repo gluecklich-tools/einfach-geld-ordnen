@@ -64,3 +64,5 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 - Du bist hier: Haushaltsueberblick
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

@@ -13,3 +13,5 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 - Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

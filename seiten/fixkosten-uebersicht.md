@@ -68,3 +68,5 @@ Wenn ja: reicht.
 - Du bist hier: Fixkosten
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

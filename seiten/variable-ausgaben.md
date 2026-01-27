@@ -79,3 +79,5 @@ Mehr ist an dieser Stelle nicht nötig.
 - Du bist hier: Variable Ausgaben
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

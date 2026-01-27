@@ -33,3 +33,5 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

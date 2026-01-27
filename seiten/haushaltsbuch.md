@@ -49,3 +49,5 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 - Du bist hier: Haushaltsbuch
 
 <!-- NAV-FOOTER-END -->
+
+{% include no_sackgasse_footer.html %}

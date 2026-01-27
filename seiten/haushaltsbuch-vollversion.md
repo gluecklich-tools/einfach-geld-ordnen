@@ -92,3 +92,5 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
   [Zur Ãœbersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

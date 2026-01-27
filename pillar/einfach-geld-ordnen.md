@@ -19,3 +19,5 @@ Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
   → [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

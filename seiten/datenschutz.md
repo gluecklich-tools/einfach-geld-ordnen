@@ -76,3 +76,5 @@ Zust&auml;ndig ist in der Regel die Aufsichtsbeh&ouml;rde deines Bundeslandes.
 Stand: 2026-01-24
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

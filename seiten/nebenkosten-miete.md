@@ -39,3 +39,5 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

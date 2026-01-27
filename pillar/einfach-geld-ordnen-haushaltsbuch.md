@@ -32,3 +32,5 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

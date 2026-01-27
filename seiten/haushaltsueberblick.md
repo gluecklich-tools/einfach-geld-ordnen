@@ -42,3 +42,5 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

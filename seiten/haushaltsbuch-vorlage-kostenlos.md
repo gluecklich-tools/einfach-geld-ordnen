@@ -17,3 +17,5 @@ Bis dahin: Nutze den Flow über den Hub.
 ---
 
 {% include flow-footer.html %}
+
+{% include no_sackgasse_footer.html %}

@@ -37,3 +37,5 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
+
+{% include no_sackgasse_footer.html %}
