@@ -29,3 +29,8 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
 
 {% include no_sackgasse_footer.html %}
+
+## Orientierung
+
+- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )

@@ -30,3 +30,8 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 - [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
 
 {% include no_sackgasse_footer.html %}
+
+## Orientierung
+
+- [Cluster-Landkarte]( {{ site.baseurl }}/pillar/cluster.html )
+- [Pillar Hub]( {{ site.baseurl }}/pillar/index.html )
