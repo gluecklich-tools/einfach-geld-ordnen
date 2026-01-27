@@ -44,3 +44,15 @@ Wenn du gerade anfangen willst, folge diesem Weg:
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Pillar-Start: Haushaltsbuch fuer Anfaenger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+- [Der Weg – Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
+- [Haushaltsbuch in Excel]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+
+- Du bist hier: Uebersicht
+
+<!-- NAV-FOOTER-END -->

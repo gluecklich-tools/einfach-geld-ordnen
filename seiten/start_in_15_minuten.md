@@ -28,3 +28,15 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Monat?
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Kostenlose Haushaltsbuch-Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Start in 15 Minuten
+
+<!-- NAV-FOOTER-END -->

@@ -52,3 +52,15 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Haushaltsueberblick
+
+<!-- NAV-FOOTER-END -->

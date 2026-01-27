@@ -39,3 +39,15 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Monatliche Ausgaben
+
+<!-- NAV-FOOTER-END -->

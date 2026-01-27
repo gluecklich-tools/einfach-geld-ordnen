@@ -47,3 +47,15 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
+- [Pillar: Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Spielraum & Ruecklagen
+
+<!-- NAV-FOOTER-END -->

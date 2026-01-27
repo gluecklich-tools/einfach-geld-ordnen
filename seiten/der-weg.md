@@ -26,3 +26,15 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Der Weg
+
+<!-- NAV-FOOTER-END -->

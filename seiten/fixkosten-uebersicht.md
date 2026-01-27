@@ -56,3 +56,15 @@ Wenn ja: reicht.
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Fixkosten
+
+<!-- NAV-FOOTER-END -->

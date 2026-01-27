@@ -67,3 +67,15 @@ Mehr ist an dieser Stelle nicht nötig.
 ---
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/)
+
+- Du bist hier: Variable Ausgaben
+
+<!-- NAV-FOOTER-END -->
