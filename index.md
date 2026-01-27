@@ -24,3 +24,21 @@ Er hilft dir, Ordnung zu sehen, bevor irgendetwas bewertet wird.
   <a href="{{ site.baseurl }}/seiten/haushaltsbuch.html">Haushaltsbuch</a>
 </nav>
 {% include premium-cta.html %}
+
+<!-- ORPHAN-INLINKS-START -->
+## Navigation (Systemlinks)
+
+Diese Links verhindern Sackgassen: wichtige Systemseiten sind immer erreichbar.
+
+- [Projekt-Uebersicht (Pillar)]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Haushaltsueberblick (Pillar)]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Spielraum & Ruecklagen (Pillar)]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+
+- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
+- [Governance]({{ site.baseurl }}/seiten/governance.html)
+- [Premium]({{ site.baseurl }}/seiten/premium.html)
+- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
+- [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+<!-- ORPHAN-INLINKS-END -->
