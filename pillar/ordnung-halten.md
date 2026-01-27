@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ordnung halten - ohne Druck"
-permalink: /pillar/index.htmlordnung-halten.html
+permalink: /pillar/ordnung-halten.html
 nav_group: pillar
 nav_order: 60
 flow_systemlinks: true
@@ -63,7 +63,7 @@ Du kannst bleiben, zurückgehen oder aufhören.
 
 - [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Ordnung halten
 

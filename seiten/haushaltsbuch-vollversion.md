@@ -89,6 +89,6 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** �
   [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 - **Startseite:**  
-  [Zur Übersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
+  [Zur Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include flow-footer.html %}

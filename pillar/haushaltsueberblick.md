@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Haushaltsüberblick - ohne Zahlen"
-permalink: /pillar/index.htmlhaushaltsueberblick.html
+permalink: /pillar/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
@@ -58,8 +58,8 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 ## Naechste Schritte
 
 - [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/index.htmlindex.htmlspielraum-ruecklagen.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Haushaltsueberblick
 

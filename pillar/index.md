@@ -3,7 +3,6 @@ layout: page
 title: Pillar - Ueberblick
 permalink: /pillar/index.html
 ---
-
 # Pillar - Ueberblick
 
 Hier findest du die zentralen Pillar-Seiten (grosse Uebersichtsseiten) und die wichtigsten Systemseiten.

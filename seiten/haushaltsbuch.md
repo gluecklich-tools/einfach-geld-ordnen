@@ -21,7 +21,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 2) Wenn du erst ruhig verstehen willst:
-- [Haushaltsbuch: Worum geht es? (einfach erklärt)]({{ site.baseurl }}/pillar/index.htmlindex.htmleinfach-geld-ordnen-haushaltsbuch.html)
+- [Haushaltsbuch: Worum geht es? (einfach erklärt)]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 
 ---
 
@@ -44,7 +44,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 
 - [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Haushaltsbuch
 

@@ -74,7 +74,7 @@ Mehr ist an dieser Stelle nicht nötig.
 
 - [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.htmlindex.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Variable Ausgaben
 
