@@ -43,3 +43,7 @@ Ziel: keine Sackgassen - jede wichtige Seite ist erreichbar und sinnvoll vernetz
 ## Cluster (Start)
 
 - [Schuldenfrei werden - Hub]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+
+## Cluster (Fixkosten)
+
+- [Fixkosten senken - Hub]( {{ site.baseurl }}/pillar/fixkosten.html )
