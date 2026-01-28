@@ -23,6 +23,21 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 - [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
 - [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+
+- Du bist hier: Cluster
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
 
 ## Downloads

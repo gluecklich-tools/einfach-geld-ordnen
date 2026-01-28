@@ -20,4 +20,19 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 - [Mobilfunk/Internet senken]( {{ site.baseurl }}/pillar/mobilfunk-internet.html )
 - [Mini-Rechner: 50-30-20]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+
+- Du bist hier: Strom/Gas wechseln
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

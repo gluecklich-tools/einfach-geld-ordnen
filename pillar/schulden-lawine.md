@@ -21,4 +21,19 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 - [Alternative: Schneeball]( {{ site.baseurl }}/pillar/schulden-schneeball.html )
 - [Notgroschen]( {{ site.baseurl }}/pillar/notgroschen.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Schulden Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
+- [Rechner Schneeball]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Schulden Lawine
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

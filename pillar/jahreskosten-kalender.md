@@ -35,4 +35,19 @@ Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 3) Zurueck zum Kontext (Hub):
    [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Rechner Jahreskosten]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Jahreskosten Kalender
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

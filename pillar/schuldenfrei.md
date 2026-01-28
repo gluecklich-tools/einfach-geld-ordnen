@@ -28,6 +28,21 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Mini-Rechner: Schneeball-Extra]( {{ site.baseurl }}/seiten/rechner-schneeball.html )
 - [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Schulden Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
+- [Schulden Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
+- [Rechner Schneeball]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Schuldenfrei
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
 
 ## Orientierung

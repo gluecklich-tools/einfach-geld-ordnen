@@ -36,4 +36,19 @@ Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist n
 3) Zurueck zum Kontext (Hub):
    [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Mobilfunk & Internet]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
+- [Versicherungen Check]({{ site.baseurl }}/pillar/versicherungen-check.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+
+- Du bist hier: Fixkosten Checkliste
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

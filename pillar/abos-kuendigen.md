@@ -37,4 +37,19 @@ Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschloss
 3) Zurueck zum Kontext (Hub):
    [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
+- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Abos kuendigen
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

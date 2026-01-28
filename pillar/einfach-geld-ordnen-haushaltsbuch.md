@@ -33,4 +33,17 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Haushaltsbuch
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

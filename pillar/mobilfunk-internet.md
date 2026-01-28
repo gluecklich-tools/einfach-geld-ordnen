@@ -36,4 +36,19 @@ Wechsel ist oft der groessere Hebel als lange Diskussionen.
 3) Zurueck zum Kontext (Hub):
    [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+
+- Du bist hier: Mobilfunk & Internet
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

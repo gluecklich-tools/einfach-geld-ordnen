@@ -20,4 +20,19 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 - [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
 - [Strom/Gas Wechsel]( {{ site.baseurl }}/pillar/strom-gas-wechsel.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+
+- Du bist hier: Versicherungen Check
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
