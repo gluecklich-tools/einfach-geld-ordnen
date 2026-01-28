@@ -22,3 +22,5 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

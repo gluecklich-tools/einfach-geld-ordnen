@@ -41,3 +41,5 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+
+<!-- NAV-FOOTER-END -->

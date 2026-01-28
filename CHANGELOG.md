@@ -11,3 +11,7 @@
 
 ## 2026-01-22
 - README und Basisstruktur überarbeitet.
+
+## 2026-01-28
+- Pillar/Flow: Footer/No-Sackgasse konsistent; 3-naechste-Schritte ueberarbeitet.
+- Fix: strom-gas-wechsel.md doppelter Block bereinigt.

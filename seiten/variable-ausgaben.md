@@ -15,18 +15,6 @@ Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert�
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 Kurz gesagt: **Einordnung statt Kontrolle.**
----
-
-## Abgrenzung 
-
-- **Monatliche Ausgaben** sind typische Alltagsposten, die regelmäßig vorkommen.
-  Sie sind oft wiederkehrend (aber nicht vertraglich fixiert).
-  → [Monatliche Ausgaben – Einordnung]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
-- **Variable Ausgaben** sind Ausgaben, die außerplanmäßig sind oder stärker schwanken.
-
-Beides gehört zum echten Leben – **ohne Bewertung**.
----
 
 ## Worum es hier geht
 
@@ -37,19 +25,6 @@ Das ist normal und **kein Zeichen von Unordnung**.
 
 Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –
 oder ob etwas „zu viel“ ist.
----
-
-## Beispiele (ohne Checkliste)
-
-Variable Ausgaben können sein:
-
-- Unregelmäßige Anschaffungen (Ersatzkäufe, Reparaturen)
-- Schwankende Mobilität (z. B. ungeplante Fahrten)
-- Gesundheit / Apotheke (wenn es unregelmäßig anfällt)
-- Geschenke, besondere Termine, spontane Entscheidungen
-
-Das sind Beispiele – **keine Pflichtliste**.
----
 
 ## Einordnung statt Kontrolle
 
@@ -64,3 +39,5 @@ Mehr ist an dieser Stelle nicht nötig.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

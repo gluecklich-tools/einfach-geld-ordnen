@@ -9,19 +9,6 @@ flow_systemlinks: true
 ## Haushaltsbuch in Excel einfach erklärt
 
 Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
----
-
-## So startest du (5 Minuten)
-
-1) Öffne den Uebersicht:  
-→ [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-2) Kläre zuerst die Fixkosten (einmalig sauber):  
-→ [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-
-3) Danach die monatlichen Ausgaben (Alltag):  
-→ [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
----
 
 ## Download-Status
 
@@ -32,3 +19,5 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

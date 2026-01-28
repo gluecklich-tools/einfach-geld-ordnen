@@ -1,56 +1,44 @@
 ---
 layout: default
-title: "Ordnung halten - ohne Druck"
+title: Ordnung halten - ohne Druck
 permalink: /pillar/ordnung-halten.html
 nav_group: pillar
 nav_order: 60
 flow_systemlinks: true
 ---
-## Ordnung halten – wenn sie hilft
 
-Ordnung muss nicht gehalten werden.  
-Sie darf auch wieder verschwinden.
+# Ordnung halten - ohne Druck
 
-Diese Seite geht nicht davon aus,  
-dass Ordnung dauerhaft oder konsequent sein muss.
+Ordnung muss nicht gehalten werden. Sie darf auch wieder verschwinden.
 
-Sie zeigt nur:  
-**Manchmal hilft sie – manchmal nicht.**
----
+Diese Seite geht nicht davon aus, dass Ordnung dauerhaft oder konsequent sein muss. Sie zeigt nur: Manchmal hilft sie - manchmal nicht.
 
 ## Ordnung als Zustand, nicht als Aufgabe
 
-Ordnung entsteht oft von selbst,  
-wenn Dinge verstanden wurden.
+Ordnung entsteht oft von selbst, wenn Dinge verstanden wurden.
 
-Sie braucht keinen Plan.  
-Keine Regel.  
-Keinen festen Rhythmus.
+Sie braucht keinen Plan. Keine Regel. Keinen festen Rhythmus.
 
-Wenn Ordnung sich richtig anfühlt,  
-kann man sie nutzen.  
-Wenn nicht, darf man sie loslassen.
----
+Wenn Ordnung sich richtig anfuehlt, kannst du sie nutzen. Wenn nicht, darfst du sie loslassen.
 
 ## Kein Dranbleiben, kein Durchhalten
 
-Du musst nichts „pflegen“.  
-Du musst nichts regelmäßig überprüfen.  
-Du musst nichts festhalten.
+Du musst nichts pflegen. Du musst nichts regelmaessig ueberpruefen. Du musst nichts festhalten.
 
-Alles, was hier entstanden ist,  
-darf sich verändern.
----
+Alles, was hier entstanden ist, darf sich veraendern.
 
-## Ein ruhiger Abschluss
+## 3 naechste Schritte (Flow + Tool + Hub)
 
-Du hast jetzt gesehen,  
-wie dieses Projekt aufgebaut ist.
+1) Gefuehrter Ablauf:
+   [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
-Es gibt keinen nächsten zwingenden Schritt.  
-Du kannst bleiben, zurückgehen oder aufhören.
----
+2) Tool (Budgetrahmen sofort pruefen):
+   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+3) Zurueck zur Projekt-Uebersicht (Hub):
+   [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

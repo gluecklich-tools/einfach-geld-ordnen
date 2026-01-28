@@ -1,34 +1,52 @@
 ---
 layout: default
-title: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
-h1: "Einfach Geld ordnen - Haushaltsbuch für Anfänger"
+title: Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
+h1: Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
 permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
 nav_group: pillar
 nav_order: 30
 flow_systemlinks: true
 ---
+
+# Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
+
 ## Ziel
 
-Du willst deine Finanzen so strukturieren, dass du **jeden Monat weißt**:
+Du willst deine Finanzen so strukturieren, dass du jeden Monat weisst:
+
 - was reinkommt,
 - was rausgeht,
-- was übrig bleibt.
+- was uebrig bleibt.
 
 Ohne Chaos, ohne Schleifen, ohne tote Enden.
----
 
 ## In 10 Minuten startklar
 
-1. Öffne: [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-2. Lade die Datei herunter (kostenlos):  
-   → `haushaltsbuch-einfach-geld-ordnen.xlsx`
-3. Trage zuerst **Fixkosten** ein: [Fixkosten Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-4. Danach deine **monatlichen Ausgaben**: [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-5. Dann klärst du Details über Zeit:  
-   - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+1) Einstieg: [Haushaltsbuch in Excel einfach erklaert]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+
+2) Download (kostenlos):  
+   `haushaltsbuch-einfach-geld-ordnen.xlsx`
+
+3) Fixkosten zuerst: [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+
+4) Dann die Ausgaben: [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+
+5) Details nachziehen (wenn du Zeit hast):  
+   - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
    - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
----
+
+## 3 naechste Schritte (Flow + Tool + Hub)
+
+1) Naechster Schritt (Fixkosten im Griff):
+   [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+
+2) Tool (50-30-20 als Rahmen):
+   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+3) Zurueck zur Themen-Uebersicht (Hub):
+   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

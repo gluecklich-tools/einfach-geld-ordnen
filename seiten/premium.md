@@ -21,3 +21,5 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+
+<!-- NAV-FOOTER-END -->

@@ -16,14 +16,6 @@ Typische Beispiele:
 - Mobilität (Tanken/ÖPNV)
 - Streaming/Apps
 - Freizeit
----
-
-## So gehst du vor (ohne Stress)
-
-1) **Notiere grob** 5–10 Posten, die bei dir fast jeden Monat vorkommen.
-2) **Schätze lieber zu hoch** als zu niedrig (damit du später Luft hast).
-3) Wenn etwas schwankt: nimm den **Durchschnitt** oder eine **„schlechte“ Monatsschätzung**.
----
 
 ## Optional: Vertiefungen (wenn du willst)
 
@@ -38,3 +30,5 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

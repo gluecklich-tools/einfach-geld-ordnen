@@ -6,19 +6,19 @@ permalink: /pillar/index.html
 
 # Projekt-Uebersicht
 
-Hier findest du die wichtigsten Einstiege. Ziel: **kein Suchen, keine Sackgassen**.
+Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 ## Starte hier
 
-- **Einfach anfangen (ohne Zahlen):** [Ueberblick oeffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- **Haushaltsbuch nutzen:** [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- **Schnellstart:** [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- Einfach anfangen (ohne Zahlen): [Ueberblick oeffnen]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- Haushaltsbuch nutzen: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- Schnellstart: [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 ## Themen
 
-- **Schulden abbauen:** [Schuldenfrei - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
-- **Fixkosten senken:** [Fixkosten - Uebersicht]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-- **Spielraum & Ruecklagen:** [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- Schulden abbauen: [Schuldenfrei - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
+- Fixkosten senken: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
+- Spielraum & Ruecklagen: [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 
 ## Rechner
 
@@ -28,6 +28,18 @@ Hier findest du die wichtigsten Einstiege. Ziel: **kein Suchen, keine Sackgassen
 
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include flow-footer.html %}
+## 3 naechste Schritte (Flow + Tool + Hub)
 
+1) Thema waehlen (Hub):
+   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+
+2) Tool (Budgetrahmen sofort pruefen):
+   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+3) Gefuehrter Ablauf:
+   [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
+
+{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

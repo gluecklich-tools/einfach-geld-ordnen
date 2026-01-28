@@ -27,3 +27,5 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+
+<!-- NAV-FOOTER-END -->

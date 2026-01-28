@@ -1,25 +1,21 @@
 ---
 layout: default
-title: "Haushaltsüberblick - ohne Zahlen"
+title: Haushaltsueberblick - ohne Zahlen
 permalink: /pillar/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
 ---
-## Ein Überblick – ohne Zahlen
 
-Bevor irgendetwas gerechnet, bewertet oder verändert wird,
-ist es hilfreich, **den eigenen Haushalt einfach nur zu sehen**.
+# Haushaltsueberblick - ohne Zahlen
 
-Nicht im Detail.
-Nicht korrekt.
-Sondern als Ganzes.
----
+Bevor irgendetwas gerechnet, bewertet oder veraendert wird, ist es hilfreich, den eigenen Haushalt einfach nur zu sehen.
+
+Nicht im Detail. Nicht korrekt. Sondern als Ganzes.
 
 ## Worum es hier geht
 
-Ein Haushalt besteht nicht nur aus Geld.
-Er besteht aus Bereichen, die miteinander verbunden sind:
+Ein Haushalt besteht nicht nur aus Geld. Er besteht aus Bereichen, die miteinander verbunden sind:
 
 - Wohnen
 - Alltag
@@ -27,26 +23,26 @@ Er besteht aus Bereichen, die miteinander verbunden sind:
 - Spielraum
 - Sicherheit
 
-Diese Seite will **nichts erklären** und **nichts ordnen**.
-Sie zeigt nur: *Das alles gehört zusammen.*
----
+Diese Seite will nichts erklaeren und nichts ordnen. Sie zeigt nur: Das alles gehoert zusammen.
 
 ## Kein Auftrag, keine Aufgabe
 
-Du musst hier nichts tun.
-Du musst dir nichts merken.
-Du musst nichts vorbereiten.
+Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereiten.
 
-Wenn du magst, lies es einfach wie eine Themen-Uebersicht,
-auf der du deinen eigenen Haushalt wiedererkennst.
----
+Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
-## Wie es weitergeht
+## 3 naechste Schritte (Flow + Tool + Hub)
 
- **Weiter zu den Fixkosten**
-[Fixkosten im Haushalt - Überblick]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
----
+1) Naechster Schritt (Fixkosten als erster Hebel):
+   [Fixkosten im Haushalt - Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+
+2) Tool (Budgetrahmen sofort pruefen):
+   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+3) Zurueck zur Themen-Uebersicht (Hub):
+   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

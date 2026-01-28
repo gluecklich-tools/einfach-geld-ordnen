@@ -12,12 +12,6 @@ flow_systemlinks: true
 **Preis (geplant):** 10 € einmalig
 
 Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist – ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
----
-
-## In 10 Sekunden: Was ist das?
-
-Eine **Haushaltsbuch-Datei**, mit der du deine Finanzen so ordnest, dass du **Fixkosten, Alltag und Spielraum** sauber siehst – und jeden Monat **weiterarbeiten** kannst, ohne Chaos.
----
 
 ## Was du bekommst (Lieferumfang)
 
@@ -29,16 +23,6 @@ Eine **Haushaltsbuch-Datei**, mit der du deine Finanzen so ordnest, dass du **Fi
 - **Versionierung**: Datei-Version + Changelog, damit Updates nachvollziehbar bleiben
 
 Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
----
-
-## So startest du (self-serve)
-
-1) Datei öffnen (ODS oder XLSX)  
-2) Fixkosten eintragen + 1–2 Alltagsposten (zum Reinkommen)  
-3) Am Monatsende kurz prüfen: Was war Fix, was war Alltag, was bleibt als Spielraum?
-
-Mehr ist zum Start nicht nötig.
----
 
 ## Was das NICHT ist (damit es fair bleibt)
 
@@ -48,29 +32,12 @@ Mehr ist zum Start nicht nötig.
 - Keine App, kein Konto-Sync, keine Automatisierung
 
 Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** – du setzt es selbst um.
----
-
-## Für wen passt es?
-
-- Du willst **kein Abo**, keine App-Pflicht, kein Konto-Sync
-- Du willst **eine Datei**, die du langfristig nutzen kannst
-- Du willst **Überblick statt Bauchgefühl** (ohne Scham, ohne Stress)
----
 
 ## Für wen passt es nicht?
 
 - Wenn du erwartest: „Kannst du mir das einrichten?“
 - Wenn du eine App mit Bank-Anbindung & Automatik-Sync suchst
 - Wenn du willst, dass es sich „von selbst“ erledigt
----
-
-## Veröffentlichung (Reihenfolge ist fix)
-
-1) Landing + Produkt fertig  
-2) Gewerbe anmelden  
-3) Jobcenter informieren  
-4) Erst dann Kaufbutton aktivieren
----
 
 ## Bis dahin (Alternative Einstiegspunkte)
 
@@ -86,3 +53,5 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** �
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

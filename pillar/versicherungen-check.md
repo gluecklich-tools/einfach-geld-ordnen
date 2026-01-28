@@ -10,17 +10,24 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 
 ## Schritte
 
-1) Liste alle Policen + Beitrag pro Monat
+1) Liste alle Policen und Beitrag pro Monat
+
 2) Pruefe Doppelungen (z.B. Rechtsschutz: welche Bausteine sind wirklich drin?)
+
 3) Vergleiche Selbstbeteiligung vs Beitrag
 
-## Naechste Schritte
+## 3 naechste Schritte (Flow + Tool + Hub)
 
-- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
-- [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
-- [Strom/Gas Wechsel]( {{ site.baseurl }}/pillar/strom-gas-wechsel.html )
+1) Naechster Schritt (Vorgehen als Plan):
+   [Fixkosten senken - Vorgehen]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+
+2) Konkrete Umsetzung (Wechsel):
+   [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
+
+3) Zurueck zur Fixkosten-Uebersicht (Hub):
+   [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
 
 {% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

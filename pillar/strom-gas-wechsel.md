@@ -11,16 +11,23 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 ## Schritte
 
 1) Jahresverbrauch und aktueller Preis bereithalten
-2) Vergleich: neuer Tarif + Bonus logisch bewerten
+
+2) Vergleich: neuer Tarif und Bonus logisch bewerten
+
 3) Kuendigungsfrist und Starttermin sauber setzen
 
-## Naechste Schritte
+## 3 naechste Schritte (Flow + Tool + Hub)
 
-- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
-- [Mobilfunk/Internet senken]( {{ site.baseurl }}/pillar/mobilfunk-internet.html )
-- [Mini-Rechner: 50-30-20]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
+1) Naechster Schritt (Tarife als Hebel):
+   [Mobilfunk/Internet senken - schnellster Hebel]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
+
+2) Tool (Budgetrahmen sofort pruefen):
+   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+3) Zurueck zur Fixkosten-Uebersicht (Hub):
+   [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
 
 {% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+<!-- NAV-FOOTER-END -->

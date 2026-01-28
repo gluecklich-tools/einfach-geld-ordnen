@@ -13,22 +13,6 @@ Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsätzlich aussieht**.
 
 Nicht perfekt. Nicht endgültig.
 Nur: **sichtbar**.
----
-
-## Worum es wirklich geht
-
-Ein Überblick hilft vor allem bei einem Punkt:
-
-Du siehst, ob dein Alltag grundsätzlich **tragbar** ist –
-ohne dich in Details zu verlieren.
-
-Typisch reicht eine grobe Sicht:
-
-- Fixkosten (steht fest)
-- Monatliche Ausgaben (Alltag)
-- Variable Ausgaben (schwankt)
-- Spielraum / Rücklagen (Sicherheit)
----
 
 ## Das Ziel ist nicht „perfekt“
 
@@ -41,3 +25,5 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

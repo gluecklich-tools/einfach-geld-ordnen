@@ -17,17 +17,6 @@ kein System, keine Regeln, keine App-Empfehlungen.
 Nur ein Gedanke:
 
 **Ordnung soll dir dienen – nicht umgekehrt.**
----
-
-## Wenn Ordnung hilft
-
-Ordnung kann helfen, wenn sie…
-
-- Entscheidungen vereinfacht
-- Stress reduziert
-- Wiederholungen ersetzt („ich muss nicht jedes Mal neu anfangen“)
-- Sicherheit gibt („ich finde es wieder“)
----
 
 ## Wenn Ordnung nicht hilft
 
@@ -38,14 +27,6 @@ Ordnung hilft nicht, wenn sie…
 - zum Dauerthema wird (statt zum Werkzeug)
 
 Dann ist weniger oft mehr.
----
-
-## Optional: der ruhige Text
-
-Wenn du dazu einen ruhigen, grundsätzlichen Text willst:
-
-→ [Ordnung halten – ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
----
 
 ## Nächster sinnvoller Schritt
 
@@ -62,3 +43,5 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
+
+<!-- NAV-FOOTER-END -->

@@ -30,3 +30,5 @@ Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
 
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
+
+<!-- NAV-FOOTER-END -->
