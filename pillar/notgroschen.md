@@ -31,4 +31,19 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht "aus Versehen" ausgibst.
 3) Zurueck zum Kontext (Hub):
    [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
+- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
+- Du bist hier: Notgroschen
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
