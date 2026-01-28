@@ -3,6 +3,11 @@ layout: page
 title: Start
 permalink: /seiten/index.html
 flow_systemlinks: true
+permalink: /
+layout: page
+title: Start
+permalink: /seiten/index.html
+flow_systemlinks: true
 ---
 
 # Start
