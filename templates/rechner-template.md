@@ -28,5 +28,8 @@ Zweck: Statischer JS-Mini-Rechner als Self-Serve, klarer Input -> Output.
 - passende Money Page
 - verwandter Rechner
 
-Hinweis: Auf echten Seiten sind interne Links ausschliesslich ueber den Footer-Include erlaubt
-({% include no_sackgasse_footer.html %}), damit "Weiter = exakt 3 Links" immer gilt.
+## Weiter
+
+Hinweis: Auf echten Seiten sind interne Links ausschliesslich ueber den Footer-Include erlaubt:
+{% include no_sackgasse_footer.html %}
+Damit gilt "Weiter = exakt 3 interne Links" garantiert.

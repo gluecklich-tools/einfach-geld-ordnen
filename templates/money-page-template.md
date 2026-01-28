@@ -14,7 +14,7 @@ Zweck: Vorlage fuer eine Money Page (SEO + Self-Serve), ohne Supportversprechen.
 ## 3) Kerninhalt (klar, kurz, umsetzbar)
 - Abschnitt A (Definition / Beispiel)
 - Abschnitt B (Checkliste)
-- Abschnitt C (Hauefige Fehler vermeiden)
+- Abschnitt C (Haeufige Fehler vermeiden)
 
 ## 4) Mini-FAQ (Self-Serve)
 - Frage 1: kurze Antwort
@@ -33,5 +33,8 @@ Zweck: Vorlage fuer eine Money Page (SEO + Self-Serve), ohne Supportversprechen.
 - Rechner: [passender Rechner]
 - 2 verwandte Money Pages
 
-Hinweis: Auf echten Seiten sind interne Links ausschliesslich ueber den Footer-Include erlaubt
-({% include no_sackgasse_footer.html %}), damit "Weiter = exakt 3 Links" immer gilt.
+## Weiter
+
+Hinweis: Auf echten Seiten sind interne Links ausschliesslich ueber den Footer-Include erlaubt:
+{% include no_sackgasse_footer.html %}
+Damit gilt "Weiter = exakt 3 interne Links" garantiert.
