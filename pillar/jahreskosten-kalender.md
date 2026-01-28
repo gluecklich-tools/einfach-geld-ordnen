@@ -6,18 +6,33 @@ permalink: /pillar/jahreskosten-kalender.html
 
 # Jahreskosten-Kalender - planbar machen
 
-Jahreskosten sind planbar: auf 12 Monate runterbrechen.
+Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst.
+Dann sind sie keine Ueberraschung mehr, sondern eine feste Ruecklage.
+
+---
 
 ## Schritte
 
-1) Liste alle Jahreskosten
-2) Teile jede Position durch 12
-3) Lege monatlich zurueck
+### 1) Liste alle Jahreskosten
+Beispiele: Kfz, Versicherungen (jaehrlich), GEZ, Wartung, Mitgliedschaften, Geschenke, Urlaub.
 
-## Naechste Schritte
+### 2) Jede Position durch 12 teilen
+So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 
-- [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
-- [Fixkosten-Checkliste]( {{ site.baseurl }}/pillar/fixkosten-checkliste.html )
-- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
+### 3) Monatlich zuruecklegen
+Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
+
+---
+
+## 3 naechste Schritte (Flow + Tool + Hub)
+
+1) Tool (Betrag sofort ausrechnen):
+   [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
+
+2) Flow (Fixkosten direkt abarbeiten):
+   [Fixkosten-Checkliste - Luft schaffen]( {{ site.baseurl }}/pillar/fixkosten-checkliste.html )
+
+3) Zurueck zum Kontext (Hub):
+   [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}
