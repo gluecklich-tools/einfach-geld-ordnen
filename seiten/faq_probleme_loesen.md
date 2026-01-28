@@ -22,10 +22,23 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 ## Standard-Fix in 60 Sekunden
 - Neu herunterladen
 - Neue Kopie speichern
-- Schrittfolge aus 'Start in 15 Minuten' exakt wiederholen
+- Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
-Wenn du individuelle Hilfe willst, ist dieses Produkt nicht das richtige.
+Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: FAQ / Probleme loesen
+
+<!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}
