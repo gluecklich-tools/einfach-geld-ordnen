@@ -1,6 +1,7 @@
 title: "Einfach Geld ordnen"
 description: "Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte"
-url: "https://gluecklich-tools.github.io"
+url: https://gluecklich-tools.github.io
+baseurl: /einfach-geld-ordnen
 baseurl: "/einfach-geld-ordnen"
 
 markdown: "kramdown"
@@ -31,3 +32,4 @@ exclude:
   - "vendor/ruby"
   - ".bundle"
   - "node_modules"
+
