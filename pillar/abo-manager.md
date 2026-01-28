@@ -35,10 +35,9 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
 
 ## 3 naechste Schritte
-1) Abo-Liste als Datei: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
-
-2) Fixkosten: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-3) Hub: [Schuldenfrei werden - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
+1. **Abo-Liste als Datei**: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+2. **Fixkosten**: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+3. **Hub**: [Schuldenfrei werden - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

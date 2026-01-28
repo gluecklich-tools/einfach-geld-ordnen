@@ -32,11 +32,9 @@ Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereite
 Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## 3 naechste Schritte
-1) Naechster Schritt (Fixkosten als erster Hebel):
-   [Fixkosten im Haushalt - Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-
-2) Budgetrahmen sofort pruefen: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3) Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+1. **Naechster Schritt (Fixkosten als erster Hebel)**: [Fixkosten im Haushalt - Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+2. **Budgetrahmen sofort pruefen**: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+3. **Hub**: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

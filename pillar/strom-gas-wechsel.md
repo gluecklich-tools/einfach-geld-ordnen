@@ -17,13 +17,9 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 3) Kuendigungsfrist und Starttermin sauber setzen
 
 ## 3 naechste Schritte
-1) Naechster Schritt (Tarife als Hebel):
-   [Mobilfunk/Internet senken - schnellster Hebel]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
-
-2) Budgetrahmen sofort pruefen: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-
-3) Zurueck zur Fixkosten-Uebersicht:
-   [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
+1. **Naechster Schritt (Tarife als Hebel)**: [Mobilfunk/Internet senken - schnellster Hebel]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
+2. **Budgetrahmen sofort pruefen**: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+3. **Zurueck zur Fixkosten-Uebersicht**: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->
