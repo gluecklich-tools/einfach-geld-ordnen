@@ -1,10 +1,8 @@
-exclude:
-- templates
-title: "Einfach Geld ordnen"
-description: "Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte"
+
 url: https://gluecklich-tools.github.io
 baseurl: /einfach-geld-ordnen
-baseurl: /einfach-geld-ordnen
+title: "Einfach Geld ordnen"
+description: "Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte"
 
 markdown: "kramdown"
 
@@ -16,23 +14,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+
 exclude:
-- templates
-  # Projekt-spezifisch
-  - "tools"
-  - "docs"
-  - "freeze"
-  - "archiv"
-  - "_export_zips"
-  - "README.md"
-
-  # Build-/Dependency-Ordner (wichtig für GitHub Actions + Bundler)
-  - "vendor"
-  - "vendor/bundle"
-  - "vendor/cache"
-  - "vendor/gems"
-  - "vendor/ruby"
-  - ".bundle"
-  - "node_modules"
-
-
+  - templates
+  - 00_ARCHIV
+  - 01_governance
+  - tools
+  - README.md
