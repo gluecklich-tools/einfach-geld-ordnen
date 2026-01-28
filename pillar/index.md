@@ -28,8 +28,7 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Thema waehlen (Hub):
    [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 

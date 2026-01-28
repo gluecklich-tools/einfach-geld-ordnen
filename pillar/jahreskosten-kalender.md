@@ -22,16 +22,11 @@ So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 
 Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
+## 3 naechste Schritte
+1) Tool - Betrag sofort ausrechnen: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
 
-1) Tool (Betrag sofort ausrechnen):
-   [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
-
-2) Naechster Schritt (Fixkosten direkt abarbeiten):
-   [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-
-3) Zurueck zur Themen-Uebersicht (Hub):
-   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+2) Flow - Fixkosten direkt abarbeiten: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+3) Hub - Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->

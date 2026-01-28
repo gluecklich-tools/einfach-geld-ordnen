@@ -16,8 +16,7 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 
 3) Vergleiche Selbstbeteiligung vs Beitrag
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (Vorgehen als Plan):
    [Fixkosten senken - Vorgehen]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 

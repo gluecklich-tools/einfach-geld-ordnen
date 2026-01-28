@@ -13,8 +13,7 @@ flow_systemlinks: true
 
 Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (Pillar-Start):
    [Haushaltsbuch fuer Anfaenger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 

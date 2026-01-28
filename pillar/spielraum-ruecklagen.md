@@ -58,8 +58,7 @@ Das ist nicht selten. Und es ist nicht falsch.
 
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (ruhig abschliessen):
    [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 

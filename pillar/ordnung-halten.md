@@ -27,8 +27,7 @@ Du musst nichts pflegen. Du musst nichts regelmaessig ueberpruefen. Du musst nic
 
 Alles, was hier entstanden ist, darf sich veraendern.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Gefuehrter Ablauf:
    [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 

@@ -22,16 +22,13 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (konkreten Bereich angehen):
    [Versicherungen Check - zu viel oder doppelt?]({{ site.baseurl }}/pillar/versicherungen-check.html)
 
 2) Tool (Budgetrahmen sofort pruefen):
    [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-
-3) Zurueck zur Themen-Uebersicht (Hub):
-   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+3) Hub - Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->

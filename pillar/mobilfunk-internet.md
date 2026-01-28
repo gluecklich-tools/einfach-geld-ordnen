@@ -22,16 +22,13 @@ Anruf oder Chat: "Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
 
 Wechsel ist oft der groessere Hebel als lange Diskussionen.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (Abos):
    [Abos kuendigen - konsequent]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 2) Naechster grosser Hebel (Energie):
    [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-
-3) Zurueck zur Themen-Uebersicht (Hub):
-   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+3) Hub - Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->

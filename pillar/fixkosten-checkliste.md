@@ -20,16 +20,13 @@ Gehe die Liste in dieser Reihenfolge durch:
 
 Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist nicht noetig.
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster schneller Hebel (Tarife):
    [Mobilfunk/Internet senken - schnellster Hebel]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
 
 2) Konkrete Umsetzung (Wechsel):
    [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-
-3) Zurueck zur Themen-Uebersicht (Hub):
-   [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+3) Hub - Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 
 {% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->

@@ -25,8 +25,7 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Jahreskosten-Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
 - [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (Methode waehlen):
    [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
 

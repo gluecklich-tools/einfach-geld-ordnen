@@ -18,8 +18,7 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 
 4) Nach Tilgung: Extra weiterreichen
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Alternative (wenn Motivation wichtiger ist):
    [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
 

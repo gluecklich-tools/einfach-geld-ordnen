@@ -16,8 +16,7 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 
 3) Kuendigungsfrist und Starttermin sauber setzen
 
-## 3 naechste Schritte (Flow + Tool + Hub)
-
+## 3 naechste Schritte
 1) Naechster Schritt (Tarife als Hebel):
    [Mobilfunk/Internet senken - schnellster Hebel]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
 
