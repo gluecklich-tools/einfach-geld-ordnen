@@ -35,6 +35,10 @@ Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht nötig.
 ---
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

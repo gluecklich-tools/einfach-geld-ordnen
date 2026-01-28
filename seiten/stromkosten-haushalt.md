@@ -15,6 +15,10 @@ Für den Start reicht:
 - **Jahreskosten / 12**
 
 Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

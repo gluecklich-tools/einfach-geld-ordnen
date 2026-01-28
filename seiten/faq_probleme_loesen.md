@@ -24,6 +24,9 @@ flow_systemlinks: true
 - Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 

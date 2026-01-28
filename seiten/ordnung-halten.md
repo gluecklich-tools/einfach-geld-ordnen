@@ -39,6 +39,10 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - [Haushaltsbuch Vollversion – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 - [Kostenlose Haushaltsbuch-Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ---
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

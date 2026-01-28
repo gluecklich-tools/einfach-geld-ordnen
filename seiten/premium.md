@@ -19,6 +19,8 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Klare Schritte (Self-Service)
 - Kein persoenlicher Support
 
+## Weiter
+
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 

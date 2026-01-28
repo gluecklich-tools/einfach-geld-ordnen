@@ -26,6 +26,10 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Summe?
 - Stimmt Kategorie?
 - Stimmt Monat?
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

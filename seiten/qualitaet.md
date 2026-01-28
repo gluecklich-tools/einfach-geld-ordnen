@@ -40,6 +40,10 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 
 Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

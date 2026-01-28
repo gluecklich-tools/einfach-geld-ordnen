@@ -37,6 +37,10 @@ Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
 ## 9. Stand
 
 Stand: 2026-01-24
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

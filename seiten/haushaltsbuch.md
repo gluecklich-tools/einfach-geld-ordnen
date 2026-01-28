@@ -12,6 +12,9 @@ Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ord
 
 Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Einnahmen, Fixkosten, Alltag und Spielraum **übersichtlich** zu sehen.
 
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

@@ -15,6 +15,10 @@ Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
 Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
 Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
 ---
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

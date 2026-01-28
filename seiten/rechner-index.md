@@ -14,10 +14,9 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
 - [50-30-20 Budget]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 
-## Naechste Schritte
+## Weiter
 
-- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
-- [Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

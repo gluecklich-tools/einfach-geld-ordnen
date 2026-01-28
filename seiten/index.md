@@ -16,6 +16,10 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 - Zur Startseite: [Start]({{ site.baseurl }}/index.html)
 - Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

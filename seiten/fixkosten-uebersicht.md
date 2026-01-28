@@ -27,9 +27,10 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 
 Wenn ja: reicht.
 ---
-## Naechste Schritte
 
-- [Wie es weiter geht]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
-- [Wie es weiter geht]({{ site.baseurl }}/seiten/haushaltsueberblick.html)<!-- NAV-FOOTER-START -->
+## Weiter
+
+<!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

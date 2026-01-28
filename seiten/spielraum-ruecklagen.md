@@ -21,6 +21,10 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 - Unregelmäßige Ausgaben fühlen sich weniger „wie ein Fehler“ an.
 - Ein Ausreißer-Monat kippt das System nicht sofort.
 - Entscheidungen werden ruhiger, weil nicht alles sofort „kritisch“ wirkt.
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->

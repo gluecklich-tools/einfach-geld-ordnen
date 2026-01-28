@@ -23,6 +23,10 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
    → [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
    → [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 ---
+
+## Weiter
+
 <!-- NAV-FOOTER-START -->
+{% include no_sackgasse_footer.html %}
 
 <!-- NAV-FOOTER-END -->
