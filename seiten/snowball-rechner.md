@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Snowball Rechner
-permalink: /seiten/snowball-rechner.html
+permalink: {{ site.baseurl }}/seiten/snowball-rechner.html
 ---
 
 # Snowball Rechner

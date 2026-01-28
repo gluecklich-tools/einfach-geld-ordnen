@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sparen automatisch
-permalink: /seiten/sparen-automatisch.html
+permalink: {{ site.baseurl }}/seiten/sparen-automatisch.html
 ---
 
 # Sparen automatisch

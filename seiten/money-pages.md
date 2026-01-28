@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Money Pages
-permalink: /seiten/money-pages.html
+permalink: {{ site.baseurl }}/seiten/money-pages.html
 ---
 
 # Money Pages

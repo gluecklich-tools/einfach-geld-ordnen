@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
-permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
+permalink: {{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html
 nav_group: seiten
 nav_order: 100
 flow_systemlinks: true

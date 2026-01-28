@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nach dem Kauf
-permalink: /seiten/nach_dem_kauf.html
+permalink: {{ site.baseurl }}/seiten/nach_dem_kauf.html
 flow_systemlinks: true
 ---
 

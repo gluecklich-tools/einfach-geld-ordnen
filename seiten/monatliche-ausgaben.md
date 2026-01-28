@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Monatliche Ausgaben
-permalink: /seiten/monatliche-ausgaben.html
+permalink: {{ site.baseurl }}/seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
 flow_systemlinks: true

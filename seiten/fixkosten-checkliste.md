@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fixkosten Checkliste
-permalink: /seiten/fixkosten-checkliste.html
+permalink: {{ site.baseurl }}/seiten/fixkosten-checkliste.html
 ---
 
 # Fixkosten Checkliste

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jahreskosten Kalender
-permalink: /seiten/jahreskosten-kalender.html
+permalink: {{ site.baseurl }}/seiten/jahreskosten-kalender.html
 ---
 
 # Jahreskosten Kalender

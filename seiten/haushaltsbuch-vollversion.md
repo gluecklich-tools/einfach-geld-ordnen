@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haushaltsbuch Vollversion - kommt bald
-permalink: /seiten/haushaltsbuch-vollversion.html
+permalink: {{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html
 nav_group: seiten
 nav_order: 110
 flow_systemlinks: true

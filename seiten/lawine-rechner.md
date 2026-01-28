@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lawine Rechner
-permalink: /seiten/lawine-rechner.html
+permalink: {{ site.baseurl }}/seiten/lawine-rechner.html
 ---
 
 # Lawine Rechner

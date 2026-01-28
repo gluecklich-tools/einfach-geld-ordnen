@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haushaltsbuch - Überblick
-permalink: /seiten/haushaltsbuch.html
+permalink: {{ site.baseurl }}/seiten/haushaltsbuch.html
 nav_group: seiten
 nav_order: 90
 flow_systemlinks: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 100% Self-Service
-permalink: /seiten/self_service.html
+permalink: {{ site.baseurl }}/seiten/self_service.html
 flow_systemlinks: true
 ---
 

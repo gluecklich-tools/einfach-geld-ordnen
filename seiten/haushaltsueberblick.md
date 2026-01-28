@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haushaltsüberblick - Einordnung ohne Druck
-permalink: /seiten/haushaltsueberblick.html
+permalink: {{ site.baseurl }}/seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
 flow_systemlinks: true

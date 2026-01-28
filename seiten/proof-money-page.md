@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Proof Money Page
-permalink: /seiten/proof-money-page.html
+permalink: {{ site.baseurl }}/seiten/proof-money-page.html
 ---
 
 # Proof Money Page

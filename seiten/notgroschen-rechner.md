@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notgroschen Rechner
-permalink: /seiten/notgroschen-rechner.html
+permalink: {{ site.baseurl }}/seiten/notgroschen-rechner.html
 ---
 
 # Notgroschen Rechner

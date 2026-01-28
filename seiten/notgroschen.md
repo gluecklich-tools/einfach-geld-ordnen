@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notgroschen
-permalink: /seiten/notgroschen.html
+permalink: {{ site.baseurl }}/seiten/notgroschen.html
 ---
 
 # Notgroschen

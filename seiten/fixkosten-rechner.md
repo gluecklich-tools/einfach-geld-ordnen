@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fixkosten Rechner
-permalink: /seiten/fixkosten-rechner.html
+permalink: {{ site.baseurl }}/seiten/fixkosten-rechner.html
 ---
 
 # Fixkosten Rechner

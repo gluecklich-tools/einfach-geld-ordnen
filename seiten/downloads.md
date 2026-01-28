@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Downloads
-permalink: /seiten/downloads.html
+permalink: {{ site.baseurl }}/seiten/downloads.html
 ---
 
 # Downloads

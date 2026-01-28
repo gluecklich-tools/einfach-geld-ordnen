@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Start in 15 Minuten
-permalink: /seiten/start_in_15_minuten.html
+permalink: {{ site.baseurl }}/seiten/start_in_15_minuten.html
 flow_systemlinks: true
 ---
 

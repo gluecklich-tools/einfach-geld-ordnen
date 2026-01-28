@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schulden Lawine
-permalink: /seiten/schulden-lawine.html
+permalink: {{ site.baseurl }}/seiten/schulden-lawine.html
 ---
 
 # Schulden Lawine

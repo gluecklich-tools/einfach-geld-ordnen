@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Haushaltsbuch in Excel einfach erklärt"
-permalink: /seiten/haushaltsbuch-excel.html
+permalink: {{ site.baseurl }}/seiten/haushaltsbuch-excel.html
 nav_group: seiten
 nav_order: 120
 flow_systemlinks: true

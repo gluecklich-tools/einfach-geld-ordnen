@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rechner - Jahreskosten pro Monat (Mini)
-permalink: /seiten/rechner-jahreskosten.html
+permalink: {{ site.baseurl }}/seiten/rechner-jahreskosten.html
 ---
 
 # Rechner - Jahreskosten pro Monat (Mini)

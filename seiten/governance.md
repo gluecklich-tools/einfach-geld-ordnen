@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Transparenz & Verantwortung
-permalink: /seiten/governance.html
+permalink: {{ site.baseurl }}/seiten/governance.html
 flow_systemlinks: true
 ---
 

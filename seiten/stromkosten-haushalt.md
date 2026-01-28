@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stromkosten im Haushalt
-permalink: /seiten/stromkosten-haushalt.html
+permalink: {{ site.baseurl }}/seiten/stromkosten-haushalt.html
 nav_group: seiten
 nav_order: 45
 flow_systemlinks: true

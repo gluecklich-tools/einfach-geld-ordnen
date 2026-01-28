@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rechner - Uebersicht
-permalink: /seiten/rechner-index.html
+permalink: {{ site.baseurl }}/seiten/rechner-index.html
 ---
 
 # Rechner - Uebersicht

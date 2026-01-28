@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impressum
-permalink: /seiten/impressum.html
+permalink: {{ site.baseurl }}/seiten/impressum.html
 nav_group: meta
 nav_order: 900
 flow_systemlinks: true

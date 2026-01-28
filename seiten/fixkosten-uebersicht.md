@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fixkosten Übersicht
-permalink: /seiten/fixkosten-uebersicht.html
+permalink: {{ site.baseurl }}/seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
 flow_systemlinks: true

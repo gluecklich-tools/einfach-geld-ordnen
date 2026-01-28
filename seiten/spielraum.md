@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spielraum
-permalink: /seiten/spielraum.html
+permalink: {{ site.baseurl }}/seiten/spielraum.html
 ---
 
 # Spielraum

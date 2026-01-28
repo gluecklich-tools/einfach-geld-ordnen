@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rechner - Schulden-Schneeball (Mini)
-permalink: /seiten/rechner-schneeball.html
+permalink: {{ site.baseurl }}/seiten/rechner-schneeball.html
 ---
 
 # Rechner - Schulden-Schneeball (Mini)

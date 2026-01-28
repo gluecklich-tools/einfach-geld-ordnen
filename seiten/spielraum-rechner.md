@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spielraum Rechner
-permalink: /seiten/spielraum-rechner.html
+permalink: {{ site.baseurl }}/seiten/spielraum-rechner.html
 ---
 
 # Spielraum Rechner

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Qualität & Prinzipien
-permalink: /seiten/qualitaet.html
+permalink: {{ site.baseurl }}/seiten/qualitaet.html
 nav_group: meta
 nav_order: 920
 flow_systemlinks: true

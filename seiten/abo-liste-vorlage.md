@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abo-Liste Vorlage
-permalink: /seiten/abo-liste-vorlage.html
+permalink: {{ site.baseurl }}/seiten/abo-liste-vorlage.html
 nav_group: seiten
 nav_order: 225
 flow_systemlinks: true

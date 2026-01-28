@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Premium
-permalink: /seiten/premium.html
+permalink: {{ site.baseurl }}/seiten/premium.html
 nav_group: seiten
 nav_order: 200
 flow_systemlinks: true

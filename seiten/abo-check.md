@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abo Check
-permalink: /seiten/abo-check.html
+permalink: {{ site.baseurl }}/seiten/abo-check.html
 ---
 
 # Abo Check

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jahreskosten Rechner
-permalink: /seiten/jahreskosten-rechner.html
+permalink: {{ site.baseurl }}/seiten/jahreskosten-rechner.html
 ---
 
 # Jahreskosten Rechner

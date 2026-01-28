@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datenschutz
-permalink: /seiten/datenschutz.html
+permalink: {{ site.baseurl }}/seiten/datenschutz.html
 nav_group: meta
 nav_order: 910
 flow_systemlinks: true

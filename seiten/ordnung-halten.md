@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ordnung halten - wenn sie hilft (ohne Druck)
-permalink: /seiten/ordnung-halten.html
+permalink: {{ site.baseurl }}/seiten/ordnung-halten.html
 nav_group: seiten
 nav_order: 80
 flow_systemlinks: true

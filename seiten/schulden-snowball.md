@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schulden Snowball
-permalink: /seiten/schulden-snowball.html
+permalink: {{ site.baseurl }}/seiten/schulden-snowball.html
 ---
 
 # Schulden Snowball

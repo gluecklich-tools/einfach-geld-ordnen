@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Start
-permalink: /seiten/index.html
+permalink: {{ site.baseurl }}/seiten/index.html
 flow_systemlinks: true
 permalink: /
 layout: page
 title: Start
-permalink: /seiten/index.html
+permalink: {{ site.baseurl }}/seiten/index.html
 flow_systemlinks: true
 ---
 

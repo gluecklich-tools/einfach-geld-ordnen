@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Finanzieller Spielraum & Rücklagen - Einordnung ohne Druck
-permalink: /seiten/spielraum-ruecklagen.html
+permalink: {{ site.baseurl }}/seiten/spielraum-ruecklagen.html
 nav_group: seiten
 nav_order: 70
 flow_systemlinks: true

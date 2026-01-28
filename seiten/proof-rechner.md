@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Proof Rechner
-permalink: /seiten/proof-rechner.html
+permalink: {{ site.baseurl }}/seiten/proof-rechner.html
 ---
 
 # Proof Rechner
