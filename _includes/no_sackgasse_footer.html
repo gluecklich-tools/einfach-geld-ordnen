@@ -1,15 +1,59 @@
 <hr>
-<nav aria-label="Navigation" class="ego-nextsteps" style="margin-top:1.25rem;padding-top:0.75rem;">
-  <strong style="display:block;margin-bottom:0.35rem;">Navigation</strong>
-  <ul style="margin:0;padding-left:1.1rem;">
-    <li><a href="{{ site.baseurl }}/">Startseite</a></li>
-    <li><a href="{{ site.baseurl }}/pillar/index.html">Projekt-Uebersicht</a></li>
-    <li><a href="{{ site.baseurl }}/pillar/cluster.html">Themen-Uebersicht</a></li>
-    <li><a href="{{ site.baseurl }}/seiten/rechner-index.html">Rechner</a></li>
-    <li><a href="{{ site.baseurl }}/seiten/downloads.html">Downloads</a></li>
-  </ul>
 
-  <p style="margin:0.75rem 0 0 0;font-size:0.95rem;">
+<style>
+  .ego_footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+  }
+
+  .ego_footer_nav_left {
+    min-width: 260px;
+  }
+
+  .ego_footer_nav_title {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+  }
+
+  .ego_footer_nav_list {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .ego_footer_nav_note {
+    margin: 0.75rem 0 0 0;
+    font-size: 0.95rem;
+    max-width: 52ch;
+    line-height: 1.35;
+  }
+
+  @media (max-width: 720px) {
+    .ego_footer_nav_note {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<nav aria-label="Navigation" class="ego_footer_nav">
+  <div class="ego_footer_nav_left">
+    <strong class="ego_footer_nav_title">Navigation</strong>
+
+    <ul class="ego_footer_nav_list">
+      <li><a href="{{ site.baseurl }}/">Startseite</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/index.html">Projekt-Uebersicht</a></li>
+      <li><a href="{{ site.baseurl }}/pillar/cluster.html">Themen-Uebersicht</a></li>
+      <li><a href="{{ site.baseurl }}/seiten/rechner-index.html">Rechner</a></li>
+      <li><a href="{{ site.baseurl }}/seiten/downloads.html">Downloads</a></li>
+    </ul>
+  </div>
+
+  <p class="ego_footer_nav_note">
     <em>Self-Serve:</em> Inhalte sind so gebaut, dass du ohne Support durchkommst. Keine Sackgassen - du findest immer einen Ruecksprung.
   </p>
 </nav>
