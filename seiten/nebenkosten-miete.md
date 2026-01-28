@@ -40,4 +40,17 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Nebenkosten Miete
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

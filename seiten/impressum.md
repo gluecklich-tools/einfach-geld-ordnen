@@ -52,4 +52,17 @@ Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerzi
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
+- [Transparenz & Verantwortung]({{ site.baseurl }}/seiten/governance.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Impressum
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

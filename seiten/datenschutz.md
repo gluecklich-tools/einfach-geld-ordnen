@@ -77,4 +77,17 @@ Stand: 2026-01-24
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Impressum]({{ site.baseurl }}/seiten/impressum.html)
+- [Transparenz & Verantwortung]({{ site.baseurl }}/seiten/governance.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Datenschutz
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

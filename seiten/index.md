@@ -14,4 +14,17 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+
+- Du bist hier: Uebersicht
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

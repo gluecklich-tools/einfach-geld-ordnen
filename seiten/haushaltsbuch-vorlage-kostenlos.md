@@ -18,4 +18,17 @@ Bis dahin: Nutze den Flow über den Uebersicht.
 
 {% include flow-footer.html %}
 
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Premium]({{ site.baseurl }}/seiten/premium.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Haushaltsbuch - Vorlage kostenlos
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}

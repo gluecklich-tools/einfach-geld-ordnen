@@ -41,6 +41,21 @@ permalink: /seiten/rechner-schneeball.html
 })();
 </script>
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Rechner Schulden Schneeball
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
 
 ## Naechste Schritte (Rechner)

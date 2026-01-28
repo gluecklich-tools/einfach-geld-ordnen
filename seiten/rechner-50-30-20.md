@@ -35,6 +35,21 @@ permalink: /seiten/rechner-50-30-20.html
 })();
 </script>
 
+{% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: Rechner 50/30/20
+
+<!-- NAV-FOOTER-END -->
+
 {% include no_sackgasse_footer.html %}
 
 ## Naechste Schritte (Rechner)
