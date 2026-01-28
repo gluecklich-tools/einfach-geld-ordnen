@@ -10,22 +10,25 @@ Abos sind oft das leiseste Geldleck. Ziel: erst alles sichtbar machen, dann kons
 
 ## Schritte
 
-### 1) Liste alle Abos + Monatsbetrag
+###
+1. Liste alle Abos + Monatsbetrag
 
 Schreibe pro Abo auf: Preis, Intervall, Zahlungsweg, letzte Nutzung. Addiere den Betrag pro Monat (auch jaehrliche Abos auf den Monat umrechnen).
 
-### 2) Sofort kuendigen (30-Tage-Regel)
+###
+2. Sofort kuendigen (30-Tage-Regel)
 
 Alles, was du in den letzten 30 Tagen nicht genutzt hast, wird gekuendigt. Wenn du unsicher bist: erst pausieren oder auf das kleinste Paket wechseln.
 
-### 3) Abo-Deckel setzen
+###
+3. Abo-Deckel setzen
 
 Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschlossen.
 
-## 3 naechste Schritte
-1. **Abo-Liste als Datei**: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
-2. **Abo-Liste sauber machen**: [Abo-Manager - Geldleck stoppen]({{ site.baseurl }}/pillar/abo-manager.html)
-3. **Hub**: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
+## Weiter
+1. ****Abo-Liste als Datei****: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+2. ****Abo-Liste sauber machen****: [Abo-Manager - Geldleck stoppen]({{ site.baseurl }}/pillar/abo-manager.html)
+3. ****Hub****: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

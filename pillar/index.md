@@ -28,10 +28,10 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-## 3 naechste Schritte
-1. **Thema waehlen**: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
-2. **Budgetrahmen sofort pruefen**: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. **Gefuehrter Ablauf**: [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
+## Weiter
+1. ****Thema waehlen****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+2. ****Budgetrahmen sofort pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+3. ****Gefuehrter Ablauf****: [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

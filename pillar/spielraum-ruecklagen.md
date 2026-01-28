@@ -58,10 +58,10 @@ Das ist nicht selten. Und es ist nicht falsch.
 
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
-## 3 naechste Schritte
-1. **Naechster Schritt (ruhig abschliessen)**: [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
-2. **Jahreskosten planbar machen**: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
-3. **Zurueck zur Projekt-Uebersicht**: [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
+## Weiter
+1. ****Naechster Schritt (ruhig abschliessen)****: [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
+2. ****Jahreskosten planbar machen****: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+3. ****Zurueck zur Projekt-Uebersicht****: [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

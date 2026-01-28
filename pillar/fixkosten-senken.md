@@ -10,22 +10,25 @@ Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abar
 
 ## Schritte
 
-### 1) Liste pro Vertrag (kurz, aber vollstaendig)
+###
+1. Liste pro Vertrag (kurz, aber vollstaendig)
 
 Notiere: Betrag, Anbieter/Vertrag, Kuendigungsfrist, Wechselmoeglichkeit, Zahlungsweg.
 
-### 2) Sortieren (Hebel zuerst)
+###
+2. Sortieren (Hebel zuerst)
 
 Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte sofort.
 
-### 3) Leicht + gross gewinnt
+###
+3. Leicht + gross gewinnt
 
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
 
-## 3 naechste Schritte
-1. **Naechster Schritt (konkreten Bereich angehen)**: [Versicherungen Check - zu viel oder doppelt?]({{ site.baseurl }}/pillar/versicherungen-check.html)
-2. **Budgetrahmen sofort pruefen**: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. **Hub**: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+## Weiter
+1. ****Naechster Schritt (konkreten Bereich angehen)****: [Versicherungen Check - zu viel oder doppelt?]({{ site.baseurl }}/pillar/versicherungen-check.html)
+2. ****Budgetrahmen sofort pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+3. ****Hub****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

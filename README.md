@@ -26,7 +26,7 @@ Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkos
 
 ## Nutzung (kurz)
 
-1. Vorlage herunterladen (Dual-Format: **ODS Master + XLSX Export**)
+1. **Vorlage herunterladen (Dual-Format**: **ODS Master + XLSX Export**)
 2. Tabellen mit eigenen Daten füllen
 3. Schritt-für-Schritt-Anleitungen nutzen
 4. Überblick behalten (Fixkosten, variable Ausgaben, Rücklagen)

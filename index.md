@@ -36,10 +36,9 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 <!-- ORPHAN-INLINKS-END -->
 
 ## Schnellstart
-
-1) **Orientierung**: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
-2) **Sofort nutzen**: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
-3) **Freebie**: [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
+1. ****Orientierung****: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
+2. ****Sofort nutzen****: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
+3. ****Freebie****: [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
 
 ## Einstieg nach Thema
 

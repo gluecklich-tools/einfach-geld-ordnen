@@ -1,23 +1,22 @@
 ---
 layout: page
-title: FAQ / Probleme loesen (Top 15)
-permalink: /seiten/faq_probleme_loesen.html
+title: FAQ / Probleme loesen (Top
+15. **permalink**: /seiten/faq_probleme_loesen.html
 flow_systemlinks: true
 ---
 
-# FAQ / Probleme loesen (Top 15)
-
-Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
+# FAQ / Probleme loesen (Top
+15. Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 
 ## Top-Themen
-1) Dropdown geht nicht
-2) Formel kaputt / Werte falsch
-3) Monatswechsel
-4) Datei ueberschrieben / wiederherstellen
-5) Komma/Punkt / Waehrung / Format
-6) Handy/Tablet (nicht empfohlen)
-7) Updates / neue Version laden
-8) Druck/PDF
+1. Dropdown geht nicht
+2. Formel kaputt / Werte falsch
+3. Monatswechsel
+4. Datei ueberschrieben / wiederherstellen
+5. Komma/Punkt / Waehrung / Format
+6. Handy/Tablet (nicht empfohlen)
+7. Updates / neue Version laden
+8. Druck/PDF
 
 ## Standard-Fix in 60 Sekunden
 - Neu herunterladen

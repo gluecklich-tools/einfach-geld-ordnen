@@ -14,10 +14,9 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 **Ziel:** Einmal sauber erfassen – danach nur noch bei Änderungen anfassen.
 
 ## So trägst du Fixkosten in die Tabelle ein (ohne Stress)
-
-1) **Posten** eintragen (z. B. „Miete“, „Internet“).
-2) **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
-3) Wenn etwas **jährlich** kommt (z. B. Versicherung): als Monatswert eintragen (Jahresbetrag ÷ 12).
+1. **Posten** eintragen (z. B. „Miete“, „Internet“).
+2. **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
+3. **Wenn etwas **jährlich** kommt (z. B. Versicherung)**: als Monatswert eintragen (Jahresbetrag ÷ 12).
    *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und später umrechnen.*
 
 ## Mini-Check (30 Sekunden)

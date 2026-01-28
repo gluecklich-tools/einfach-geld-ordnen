@@ -9,12 +9,9 @@ permalink: /pillar/fixkosten.html
 Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 
 ## Start in 10 Minuten
-
-1) Sammle alle Fixkosten (Vertraege, Versicherungen, Energie, Handy, Abos)
-
-2) Markiere: kuendbar und wechselbar
-
-3) Setze ein Monatsziel (z.B. 25 EUR weniger pro Monat)
+1. Sammle alle Fixkosten (Vertraege, Versicherungen, Energie, Handy, Abos)
+2. **Markiere**: kuendbar und wechselbar
+3. Setze ein Monatsziel (z.B. 25 EUR weniger pro Monat)
 
 ## Themenseiten
 
@@ -25,10 +22,10 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 - [Abos kuendigen: konsequent]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 - [50-30-20 Regel]({{ site.baseurl }}/pillar/50-30-20.html)
 
-## 3 naechste Schritte
-1. **Naechster Schritt (Checkliste)**: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-2. **Budgetrahmen pruefen**: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. **Hub**: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+## Weiter
+1. ****Naechster Schritt (Checkliste)****: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+2. ****Budgetrahmen pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+3. ****Hub****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

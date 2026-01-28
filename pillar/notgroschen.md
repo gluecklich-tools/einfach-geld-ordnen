@@ -15,10 +15,10 @@ Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schu
 
 Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 
-## 3 naechste Schritte
-1. **Naechster Schritt (Ruecklagen planbar machen)**: [Jahreskosten-Kalender - planbar machen]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-2. **Monatsbetrag sofort berechnen**: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
-3. **Hub**: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
+## Weiter
+1. ****Naechster Schritt (Ruecklagen planbar machen)****: [Jahreskosten-Kalender - planbar machen]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
+2. ****Monatsbetrag sofort berechnen****: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+3. ****Hub****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

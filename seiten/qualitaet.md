@@ -18,19 +18,15 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 > Ziel: Du sollst deine Finanzen **übersichtlich ordnen** können – ohne dich durch 100 Menüs zu kämpfen.
 
 ## Qualitätsprinzipien
-1) **Einfach vor komplex**  
+1. **Einfach vor komplex**  
    Lieber verständlich und robust als überladen.
-
-2) **Fehlerarm vor fancy**  
+2. **Fehlerarm vor fancy**  
    Änderungen werden so umgesetzt, dass sie reproduzierbar sind und nicht „zufällig“ funktionieren.
-
-3) **Datenschutz als Standard**  
+3. **Datenschutz als Standard**  
    Keine Veröffentlichung von sensiblen Finanzdaten, Nachweisen oder personenbezogenen Informationen.
-
-4) **Kompatibilität pragmatisch**  
+4. **Kompatibilität pragmatisch**  
    Die Vorlagen sind so gebaut, dass sie in gängigen Office-Umgebungen nutzbar bleiben (ohne Spezialtricks, die schnell brechen).
-
-5) **Transparenz statt Versprechen**  
+5. **Transparenz statt Versprechen**  
    Es gibt klare Grenzen, was das Produkt leisten kann – und was nicht.
 
 ## Wichtige Grenzen (ehrlich & klar)
