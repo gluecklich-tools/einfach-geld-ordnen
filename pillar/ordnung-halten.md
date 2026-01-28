@@ -58,15 +58,14 @@ Du kannst bleiben, zurückgehen oder aufhören.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Ordnung halten
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

@@ -58,15 +58,14 @@ Wenn ja: reicht.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 - Du bist hier: Fixkosten
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

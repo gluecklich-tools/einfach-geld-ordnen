@@ -54,15 +54,14 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Haushaltsueberblick
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

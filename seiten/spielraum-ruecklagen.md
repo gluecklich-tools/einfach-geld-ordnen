@@ -49,15 +49,14 @@ Du kannst es einfach als „Sicherheitszone“ verstehen.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
 - [Pillar: Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 - Du bist hier: Spielraum & Ruecklagen
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

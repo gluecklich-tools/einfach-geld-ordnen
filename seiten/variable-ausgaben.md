@@ -69,15 +69,14 @@ Mehr ist an dieser Stelle nicht nötig.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 - Du bist hier: Variable Ausgaben
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

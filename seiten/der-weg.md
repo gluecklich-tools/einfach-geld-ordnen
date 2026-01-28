@@ -28,15 +28,14 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 - Du bist hier: Der Weg
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}
