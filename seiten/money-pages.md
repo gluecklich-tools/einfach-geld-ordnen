@@ -8,7 +8,7 @@ permalink: /seiten/money-pages.html
 
 Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
-## Cluster
+## Themenbereiche
 
 - **Schulden**
 - **Ruecklagen**
