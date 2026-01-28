@@ -29,9 +29,9 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
-1. ****Thema waehlen****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
-2. ****Budgetrahmen sofort pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. ****Gefuehrter Ablauf****: [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
-<!-- NAV-FOOTER-START -->
+
+- [Themen-Uebersicht]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

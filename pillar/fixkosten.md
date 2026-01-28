@@ -23,9 +23,9 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 - [50-30-20 Regel]({{ site.baseurl }}/pillar/50-30-20.html)
 
 ## Weiter
-1. ****Naechster Schritt (Checkliste)****: [Fixkosten-Checkliste - Luft schaffen]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-2. ****Budgetrahmen pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. ****Hub****: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
-<!-- NAV-FOOTER-START -->
+
+- [Fixkosten-Checkliste - Luft schaffen]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

@@ -15,9 +15,9 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 4. **Nach Tilgung**: Extra weiterreichen
 
 ## Weiter
-1. ****Alternative (wenn Motivation wichtiger ist)****: [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
-2. ****Stabilisieren (Puffer aufbauen)****: [Notgroschen - Schutz vor Rueckfall]({{ site.baseurl }}/pillar/notgroschen.html)
-3. ****Zurueck zur Uebersicht****: [Schuldenfrei werden - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
-<!-- NAV-FOOTER-START -->
+
+- [Schulden-Schneeball]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

@@ -23,9 +23,9 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 
 ## Weiter
-1. ****Naechster Schritt (Methode waehlen)****: [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
-2. ****Schneeball-Extra****: [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
-3. ****Zurueck zur Projekt-Uebersicht****: [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
-<!-- NAV-FOOTER-START -->
+
+- [Schulden-Schneeball]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

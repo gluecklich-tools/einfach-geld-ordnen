@@ -40,7 +40,8 @@ Stand: 2026-01-24
 
 ## Weiter
 
-<!-- NAV-FOOTER-START -->
-{% include no_sackgasse_footer.html %}
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-<!-- NAV-FOOTER-END -->
+{% include no_sackgasse_footer.html %}

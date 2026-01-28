@@ -14,9 +14,9 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 3. Vergleiche Selbstbeteiligung vs Beitrag
 
 ## Weiter
-1. ****Naechster Schritt (Vorgehen als Plan)****: [Fixkosten senken - Vorgehen]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-2. ****Konkrete Umsetzung (Wechsel)****: [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-3. ****Zurueck zur Fixkosten-Uebersicht****: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
-<!-- NAV-FOOTER-START -->
+
+- [Fixkosten senken - Vorgehen]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

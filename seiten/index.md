@@ -19,7 +19,8 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 ## Weiter
 
-<!-- NAV-FOOTER-START -->
-{% include no_sackgasse_footer.html %}
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-<!-- NAV-FOOTER-END -->
+{% include no_sackgasse_footer.html %}

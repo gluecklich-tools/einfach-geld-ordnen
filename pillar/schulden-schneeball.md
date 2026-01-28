@@ -15,9 +15,9 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 4. **Nach Tilgung**: Extra auf die naechste
 
 ## Weiter
-1. ****Extra-Rate sofort berechnen****: [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
-2. ****Alternative (wenn Zinsen wichtiger sind)****: [Schulden-Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
-3. ****Zurueck zur Uebersicht****: [Schuldenfrei werden - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
-<!-- NAV-FOOTER-START -->
+
+- [Mini-Rechner: Schneeball-Extra]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->

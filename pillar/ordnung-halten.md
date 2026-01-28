@@ -28,9 +28,9 @@ Du musst nichts pflegen. Du musst nichts regelmaessig ueberpruefen. Du musst nic
 Alles, was hier entstanden ist, darf sich veraendern.
 
 ## Weiter
-1. ****Gefuehrter Ablauf****: [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
-2. ****Budgetrahmen sofort pruefen****: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-3. ****Zurueck zur Projekt-Uebersicht****: [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
-<!-- NAV-FOOTER-START -->
+
+- [Der Weg - Schritt fuer Schritt]({{)
+- [Start]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
 {% include no_sackgasse_footer.html %}
-<!-- NAV-FOOTER-END -->
