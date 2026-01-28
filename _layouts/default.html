@@ -4,30 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }}</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css"  }}">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pico.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-<meta name="color-scheme" content="light dark">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
 </head>
 <body>
-  <header>
+  <header class="container">
     <nav>
-      <strong>Einfach Geld ordnen</strong>
-      <a href="{{ "/pillar/index.html"  }}">Ueberblick</a>
-      <a href="{{ "/seiten/start_in_15_minuten.html"  }}">Start in 15 Minuten</a>
-      <a href="{{ "/seiten/der-weg.html"  }}">Der Weg</a>
-      <a href="{{ "/seiten/haushaltsbuch.html"  }}">Haushaltsbuch</a>
-      <a href="{{ "/seiten/index.html"  }}">Mehr</a>
+      <ul>
+        <li><strong>Einfach Geld ordnen</strong></li>
+      </ul>
+      <ul>
+        <li><a href="{{ '/pillar/einfach-geld-ordnen.html' | prepend: site.baseurl }}">Ueberblick</a></li>
+        <li><a href="{{ '/seiten/start_in_15_minuten.html' | prepend: site.baseurl }}">Start in 15 Minuten</a></li>
+        <li><a href="{{ '/seiten/der-weg.html' | prepend: site.baseurl }}">Der Weg</a></li>
+        <li><a href="{{ '/seiten/haushaltsbuch.html' | prepend: site.baseurl }}">Haushaltsbuch</a></li>
+        <li><a href="{{ '/seiten/index.html' | prepend: site.baseurl }}">Mehr</a></li>
+      </ul>
     </nav>
   </header>
-
   <main class="container">
     {{ content }}
   </main>
-
-  <footer>
-    <a href="{{ "/seiten/impressum.html"  }}">Impressum</a> ·
-    <a href="{{ "/seiten/datenschutz.html"  }}">Datenschutz</a>
+  <footer class="container">
+    <small>
+      <a href="{{ '/seiten/impressum.html' | prepend: site.baseurl }}">Impressum</a> .
+      <a href="{{ '/seiten/datenschutz.html' | prepend: site.baseurl }}">Datenschutz</a>
+    </small>
     <div style="margin-top:8px;">&copy; {{ site.time | date: "%Y" }} Einfach Geld ordnen</div>
   </footer>
 </body>
