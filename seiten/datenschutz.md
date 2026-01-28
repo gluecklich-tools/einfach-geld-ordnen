@@ -45,3 +45,11 @@ Stand: 2026-01-24
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
 {% include no_sackgasse_footer.html %}
+
+## Web Analytics (Cloudflare)
+
+Wir nutzen **Cloudflare Web Analytics** zur Reichweitenmessung und zur Verbesserung der Performance (z.B. Core Web Vitals).
+Dabei werden technische Informationen (z.B. aufgerufene Seite/URL, Referrer, User-Agent, ungefaehres Land sowie Performance-Messwerte) verarbeitet, um **Besuche und Seitenaufrufe** statistisch auszuwerten.
+
+Anbieter: Cloudflare, Inc. (USA)
+Weitere Informationen: https://www.cloudflare.com/privacypolicy/
