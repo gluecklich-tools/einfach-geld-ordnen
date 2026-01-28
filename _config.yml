@@ -1,3 +1,4 @@
+
 url: https://gluecklich-tools.github.io
 baseurl: /einfach-geld-ordnen
 title: "Einfach Geld ordnen"
@@ -15,21 +16,14 @@ defaults:
       layout: "default"
 
 exclude:
+  - _site
   - vendor
-  - vendor/bundle
-  - vendor/cache
-  - vendor/gems
-  - vendor/ruby
   - .bundle
   - node_modules
-  - _site
-  - .sass-cache
-  - .jekyll-cache
-  - .jekyll-metadata
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+  - templates
+  - tools
   - 00_ARCHIV
   - 01_governance
-  - tools
-  - templates
+  - 00_workblocks
+  - _local
+  - README.md
