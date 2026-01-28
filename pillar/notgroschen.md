@@ -6,16 +6,29 @@ permalink: /pillar/notgroschen.html
 
 # Notgroschen - Schutz vor Rueckfall
 
-Ein kleiner Puffer verhindert, dass du bei jeder Rechnung neue Schulden machst.
+Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schulden machst.
+Der Notgroschen ist kein Luxus - er ist Stabilitaet.
 
-## Mini-Ziel
+---
+
+## Mini-Ziel (Start)
 
 - 500 EUR Startpuffer (oder 1 Monats-Minimum)
+- wichtiger als die Hoehe: regelmaessig nachfuellen
 
-## Naechste Schritte
+Tipp: eigenes Unterkonto/Topf, damit du ihn nicht "aus Versehen" ausgibst.
 
-- [Zurueck: Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-- [Jahreskosten-Kalender]( {{ site.baseurl }}/pillar/jahreskosten-kalender.html )
-- [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
+---
+
+## 3 naechste Schritte (Flow + Tool + Hub)
+
+1) Flow (Ruecklagen planbar machen):
+   [Jahreskosten-Kalender - planbar machen]( {{ site.baseurl }}/pillar/jahreskosten-kalender.html )
+
+2) Tool (Monatsbetrag sofort berechnen):
+   [Mini-Rechner: Jahreskosten pro Monat]( {{ site.baseurl }}/seiten/rechner-jahreskosten.html )
+
+3) Zurueck zum Kontext (Hub):
+   [Schuldenfrei werden - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
 
 {% include no_sackgasse_footer.html %}
