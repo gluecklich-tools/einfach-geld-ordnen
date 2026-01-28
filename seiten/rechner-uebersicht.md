@@ -33,6 +33,8 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 ## Weiter
 
-Nutze die Navigation unten fuer den naechsten Schritt.
+- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 {% include no_sackgasse_footer.html %}

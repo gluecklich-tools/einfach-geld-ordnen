@@ -160,4 +160,8 @@ Ratenkredit; 4200; 120; 6.5
 
 ## Weiter
 
+- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+
 {% include no_sackgasse_footer.html %}
