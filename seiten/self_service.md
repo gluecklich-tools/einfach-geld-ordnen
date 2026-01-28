@@ -10,6 +10,7 @@ flow_systemlinks: true
 Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 
 ## So funktioniert es
+
 ### 1) Wichtig: Start in 15 Minuten
 - LibreOffice installieren/oeffnen
 - Datei laden und speichern (eigene Kopie)
@@ -37,5 +38,18 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 
 {% include flow-footer.html %}
+
+<!-- NAV-FOOTER-START -->
+
+## Naechste Schritte
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [Premium]({{ site.baseurl }}/seiten/premium.html)
+- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
+- Du bist hier: 100% Self-Service
+
+<!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}
