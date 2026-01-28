@@ -16,4 +16,6 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 ## Weiter
 
+Nutze die Navigation unten fuer den naechsten Schritt.
+
 {% include no_sackgasse_footer.html %}

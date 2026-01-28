@@ -17,4 +17,6 @@ Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
 ## Weiter
 
+Nutze die Navigation unten fuer den naechsten Schritt.
+
 {% include no_sackgasse_footer.html %}
