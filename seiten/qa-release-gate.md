@@ -1,7 +1,7 @@
 ---
 layout: page
 title: QA Release Gate
-permalink: /seiten/qa-release-gate.html
+permalink: {{ site.baseurl }}/seiten/qualitaet.html
 ---
 
 # QA Release Gate

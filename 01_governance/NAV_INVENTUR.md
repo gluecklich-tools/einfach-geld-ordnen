@@ -14,7 +14,7 @@ Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group,
 | pillar\index.md | pillar | 10 | {{ site.baseurl }}/pillar/index.html | Einfach Geld ordnen - Überblick | 23 |
 | pillar\ordnung-halten.md | pillar | 60 | {{ site.baseurl }}/pillar/ordnung-halten.html | Ordnung halten - ohne Druck | 7 |
 | pillar\spielraum-ruecklagen.md | pillar | 50 | {{ site.baseurl }}/pillar/spielraum-ruecklagen.html | Spielraum & Rücklagen - realistisch einordnen | 9 |
-| seiten\changelog.md | meta | 950 | {{ site.baseurl }}/seiten/changelog.html | Changelog | 4 |
+| seiten\changelog.md | meta | 950 | {{ site.baseurl }}/seiten/qualitaet.html | Changelog | 4 |
 | seiten\datenschutz.md | meta | 910 | {{ site.baseurl }}/seiten/datenschutz.html | Datenschutz | 1 |
 | seiten\der-weg.md | seiten | 20 | {{ site.baseurl }}/seiten/der-weg.html | Der Weg - Schritt für Schritt | 17 |
 | seiten\fixkosten-uebersicht.md | seiten | 40 | {{ site.baseurl }}/seiten/fixkosten-uebersicht.html | Fixkosten Übersicht | 7 |
@@ -29,7 +29,7 @@ Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group,
 | seiten\monatliche-ausgaben.md | seiten | 50 | {{ site.baseurl }}/seiten/monatliche-ausgaben.html | Monatliche Ausgaben | 6 |
 | seiten\nebenkosten-miete.md | seiten | 46 | {{ site.baseurl }}/seiten/nebenkosten-miete.html | Nebenkosten der Miete | 5 |
 | seiten\ordnung-halten.md | seiten | 80 | {{ site.baseurl }}/seiten/ordnung-halten.html | Ordnung halten – wenn sie hilft (ohne Druck) | 5 |
-| seiten\qa-release-gate.md | meta | 940 | {{ site.baseurl }}/seiten/qa-release-gate.html | QA Release Gate | 6 |
+| seiten\qa-release-gate.md | meta | 940 | {{ site.baseurl }}/seiten/qualitaet.html | QA Release Gate | 6 |
 | seiten\qualitaet.md | meta | 920 | {{ site.baseurl }}/seiten/qualitaet.html | Qualität & Prinzipien | 7 |
 | seiten\spielraum-ruecklagen.md | seiten | 70 | {{ site.baseurl }}/seiten/spielraum-ruecklagen.html | Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck | 4 |
 | seiten\stromkosten-haushalt.md | seiten | 45 | {{ site.baseurl }}/seiten/stromkosten-haushalt.html | Stromkosten im Haushalt | 4 |

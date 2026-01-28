@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Changelog
-permalink: /seiten/changelog.html
+permalink: {{ site.baseurl }}/seiten/qualitaet.html
 ---
 
 # Changelog
