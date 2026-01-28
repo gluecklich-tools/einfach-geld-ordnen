@@ -15,7 +15,6 @@ Du willst deine Finanzen so strukturieren, dass du **jeden Monat weißt**:
 - was übrig bleibt.
 
 Ohne Chaos, ohne Schleifen, ohne tote Enden.
-
 ---
 
 ## In 10 Minuten startklar
@@ -28,20 +27,8 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 5. Dann klärst du Details über Zeit:  
    - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
    - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
-- Du bist hier: Haushaltsbuch
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

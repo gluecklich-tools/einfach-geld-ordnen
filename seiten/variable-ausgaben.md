@@ -15,7 +15,6 @@ Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert�
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 Kurz gesagt: **Einordnung statt Kontrolle.**
-
 ---
 
 ## Abgrenzung 
@@ -27,7 +26,6 @@ Kurz gesagt: **Einordnung statt Kontrolle.**
 - **Variable Ausgaben** sind Ausgaben, die außerplanmäßig sind oder stärker schwanken.
 
 Beides gehört zum echten Leben – **ohne Bewertung**.
-
 ---
 
 ## Worum es hier geht
@@ -39,7 +37,6 @@ Das ist normal und **kein Zeichen von Unordnung**.
 
 Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –
 oder ob etwas „zu viel“ ist.
-
 ---
 
 ## Beispiele (ohne Checkliste)
@@ -52,7 +49,6 @@ Variable Ausgaben können sein:
 - Geschenke, besondere Termine, spontane Entscheidungen
 
 Das sind Beispiele – **keine Pflichtliste**.
-
 ---
 
 ## Einordnung statt Kontrolle
@@ -63,20 +59,8 @@ Sie sagt nur:
 Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht nötig.
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
-
-- Du bist hier: Variable Ausgaben
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

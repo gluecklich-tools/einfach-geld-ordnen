@@ -24,14 +24,4 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner Schneeball]({{ site.baseurl }}/seiten/rechner-schneeball.html)
-- [Schulden Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
-
-- Du bist hier: Schulden Schneeball
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

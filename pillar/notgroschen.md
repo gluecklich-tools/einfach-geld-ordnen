@@ -8,7 +8,6 @@ permalink: /pillar/notgroschen.html
 
 Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schulden machst.
 Der Notgroschen ist kein Luxus - er ist Stabilitaet.
-
 ---
 
 ## Mini-Ziel (Start)
@@ -17,7 +16,6 @@ Der Notgroschen ist kein Luxus - er ist Stabilitaet.
 - wichtiger als die Hoehe: regelmaessig nachfuellen
 
 Tipp: eigenes Unterkonto/Topf, damit du ihn nicht "aus Versehen" ausgibst.
-
 ---
 
 ## 3 naechste Schritte (Flow + Tool + Hub)
@@ -34,14 +32,4 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht "aus Versehen" ausgibst.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-
-- Du bist hier: Notgroschen
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

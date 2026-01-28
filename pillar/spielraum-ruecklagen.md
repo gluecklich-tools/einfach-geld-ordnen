@@ -16,7 +16,6 @@ Sie ist nur eine Einordnung:
 
 **Spielraum** und **Rücklagen** sind der Teil,
 der im Alltag oft am meisten Druck macht – obwohl er genau dafür da ist, Druck zu nehmen.
-
 ---
 
 ## Worum es hier geht
@@ -36,7 +35,6 @@ Spielraum bedeutet nicht Luxus.
 Spielraum bedeutet oft nur:
 
 **„Es reicht, um nicht sofort in Stress zu geraten.“**
-
 ---
 
 ## Was dazu gehört
@@ -51,7 +49,6 @@ Typische Bereiche in diesem Feld sind:
 Wichtig:
 Diese Liste ist nicht vollständig.
 Sie ist nur ein Bild.
-
 ---
 
 ## Kein Auftrag, keine Aufgabe
@@ -65,7 +62,6 @@ Wenn du beim Lesen nur merkst:
 „Ah. Das ist ein eigener Bereich.“
 
 … dann reicht das vollkommen.
-
 ---
 
 ## Ein einfacher Gedanke, der oft hilft
@@ -84,27 +80,14 @@ Und es ist nicht „falsch“.
 Diese Einordnung kann helfen,
 Druck aus dem Thema zu nehmen,
 bevor man überhaupt etwas verändert.
-
 ---
 
 ## Wie es weitergeht
 
  **Weiter zu Ordnung halten**
 [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-
-- Du bist hier: Pillar Spielraum
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

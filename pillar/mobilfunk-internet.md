@@ -8,7 +8,6 @@ permalink: /pillar/mobilfunk-internet.html
 
 Viele zahlen hier zu viel, weil Vertraege still weiterlaufen.
 Ziel: Preis runter oder konsequent wechseln.
-
 ---
 
 ## Schritte
@@ -22,7 +21,6 @@ Anruf oder Chat:
 
 ### 3) Wenn nichts Gutes kommt: wechseln
 Wechsel ist oft der groessere Hebel als lange Diskussionen.
-
 ---
 
 ## 3 naechste Schritte (Flow + Hebel + Hub)
@@ -39,14 +37,4 @@ Wechsel ist oft der groessere Hebel als lange Diskussionen.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-
-- Du bist hier: Mobilfunk & Internet
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

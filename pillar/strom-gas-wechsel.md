@@ -23,14 +23,4 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Stromkosten Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-
-- Du bist hier: Strom/Gas wechseln
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

@@ -8,7 +8,6 @@ permalink: /pillar/fixkosten-checkliste.html
 
 Fixkosten sind der groesste Hebel, weil sie jeden Monat automatisch laufen.
 Ziel: senken, kuendigen oder wechseln, bis wieder Luft entsteht.
-
 ---
 
 ## Hebel (Checkliste)
@@ -22,7 +21,6 @@ Gehe die Liste in dieser Reihenfolge durch:
 5) Kontogebuehren
 
 Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist nicht noetig.
-
 ---
 
 ## 3 naechste Schritte (ohne Sackgasse)
@@ -39,14 +37,4 @@ Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist n
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-- [Mobilfunk & Internet]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
-
-- Du bist hier: Fixkosten Checkliste
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

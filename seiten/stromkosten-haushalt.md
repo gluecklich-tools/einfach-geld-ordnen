@@ -15,7 +15,6 @@ Für den Start reicht:
 - **Jahreskosten / 12**
 
 Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
-
 ---
 
 ## Zwei typische Fälle
@@ -25,20 +24,8 @@ Trag den Abschlag als Monatswert ein.
 
 ### 2) Du hast nur die Jahresabrechnung
 Teile den Jahresbetrag durch 12.
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-
-- Du bist hier: Stromkosten Haushalt
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

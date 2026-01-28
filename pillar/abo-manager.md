@@ -9,7 +9,6 @@ permalink: /pillar/abo-manager.html
 Ein Abo ist nicht das Problem. Viele Abos sind das Problem, weil sie leise Geld abziehen.
 
 Ziel: Alles sichtbar machen und konsequent kuerzen, bis nur noch das uebrig ist, was dir wirklich hilft.
-
 ---
 
 ## Schritte
@@ -33,7 +32,6 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 ### 3) Monatslimit setzen (damit es nicht wieder passiert)
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR).
 Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
-
 ---
 
 ## 3 naechste Schritte (ohne Sackgasse)
@@ -50,14 +48,4 @@ Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Abos kuendigen]({{ site.baseurl }}/pillar/abos-kuendigen.html)
-- [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-
-- Du bist hier: Abo-Manager
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

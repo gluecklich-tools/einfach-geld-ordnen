@@ -16,7 +16,6 @@ dass Ordnung dauerhaft oder konsequent sein muss.
 
 Sie zeigt nur:  
 **Manchmal hilft sie – manchmal nicht.**
-
 ---
 
 ## Ordnung als Zustand, nicht als Aufgabe
@@ -31,7 +30,6 @@ Keinen festen Rhythmus.
 Wenn Ordnung sich richtig anfühlt,  
 kann man sie nutzen.  
 Wenn nicht, darf man sie loslassen.
-
 ---
 
 ## Kein Dranbleiben, kein Durchhalten
@@ -42,7 +40,6 @@ Du musst nichts festhalten.
 
 Alles, was hier entstanden ist,  
 darf sich verändern.
-
 ---
 
 ## Ein ruhiger Abschluss
@@ -52,20 +49,8 @@ wie dieses Projekt aufgebaut ist.
 
 Es gibt keinen nächsten zwingenden Schritt.  
 Du kannst bleiben, zurückgehen oder aufhören.
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-
-- Du bist hier: Ordnung halten
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

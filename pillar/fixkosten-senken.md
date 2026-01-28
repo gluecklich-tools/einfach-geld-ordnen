@@ -8,7 +8,6 @@ permalink: /pillar/fixkosten-senken.html
 
 Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abarbeiten.
 Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.
-
 ---
 
 ## Schritte
@@ -21,7 +20,6 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 
 ### 3) Leicht + gross gewinnt
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
-
 ---
 
 ## 3 naechste Schritte (Flow + Tool + Hub)
@@ -38,14 +36,4 @@ Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher W
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Strom/Gas wechseln]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-- [Mobilfunk & Internet]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
-
-- Du bist hier: Fixkosten senken
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

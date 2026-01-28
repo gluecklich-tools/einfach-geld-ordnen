@@ -9,7 +9,6 @@ flow_systemlinks: true
 ## Haushaltsbuch in Excel einfach erklärt
 
 Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
-
 ---
 
 ## So startest du (5 Minuten)
@@ -22,27 +21,14 @@ Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
 
 3) Danach die monatlichen Ausgaben (Alltag):  
 → [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-
 ---
 
 ## Download-Status
 
 Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
 Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
-- Du bist hier: Haushaltsbuch (Excel)
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

@@ -16,7 +16,6 @@ Typische Beispiele:
 - Mobilität (Tanken/ÖPNV)
 - Streaming/Apps
 - Freizeit
-
 ---
 
 ## So gehst du vor (ohne Stress)
@@ -24,7 +23,6 @@ Typische Beispiele:
 1) **Notiere grob** 5–10 Posten, die bei dir fast jeden Monat vorkommen.
 2) **Schätze lieber zu hoch** als zu niedrig (damit du später Luft hast).
 3) Wenn etwas schwankt: nimm den **Durchschnitt** oder eine **„schlechte“ Monatsschätzung**.
-
 ---
 
 ## Optional: Vertiefungen (wenn du willst)
@@ -35,20 +33,8 @@ Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
-
 ---
 
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-
-- Du bist hier: Monatliche Ausgaben
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

@@ -8,7 +8,6 @@ permalink: /pillar/abos-kuendigen.html
 
 Abos sind oft das leiseste Geldleck.
 Ziel: erst alles sichtbar machen, dann konsequent kuerzen, bis nur noch das uebrig ist, was du wirklich nutzt.
-
 ---
 
 ## Schritte
@@ -23,7 +22,6 @@ Wenn du unsicher bist: erst pausieren oder auf das kleinste Paket wechseln.
 
 ### 3) Abo-Deckel setzen
 Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschlossen.
-
 ---
 
 ## 3 naechste Schritte (Flow + Tool + Hub)
@@ -40,14 +38,4 @@ Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschloss
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-
-- Du bist hier: Abos kuendigen
-<!-- NAV-FOOTER-END -->
-
 {% include no_sackgasse_footer.html %}

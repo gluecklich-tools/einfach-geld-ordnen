@@ -31,19 +31,3 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Schulden Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
-- [Schulden Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
-
-- Du bist hier: Schuldenfrei
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}
-
-## Orientierung
-
-- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
-- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )

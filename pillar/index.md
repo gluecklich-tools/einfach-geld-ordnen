@@ -31,14 +31,3 @@ Hier findest du die wichtigsten Einstiege. Ziel: **kein Suchen, keine Sackgassen
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Einfach Geld ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
-
-- Du bist hier: Pillar Uebersicht
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}

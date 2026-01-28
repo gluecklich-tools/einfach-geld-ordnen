@@ -31,19 +31,3 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-## Naechste Schritte
-
-- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
-- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-
-- Du bist hier: Fixkosten
-<!-- NAV-FOOTER-END -->
-
-{% include no_sackgasse_footer.html %}
-
-## Orientierung
-
-- [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
-- [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
