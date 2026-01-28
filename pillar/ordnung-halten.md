@@ -31,13 +31,10 @@ Alles, was hier entstanden ist, darf sich veraendern.
 1) Gefuehrter Ablauf:
    [Der Weg - Schritt fuer Schritt]({{ site.baseurl }}/seiten/der-weg.html)
 
-2) Tool (Budgetrahmen sofort pruefen):
-   [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+2) Budgetrahmen sofort pruefen: [Mini-Rechner: 50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
 
-3) Zurueck zur Projekt-Uebersicht (Hub):
+3) Zurueck zur Projekt-Uebersicht:
    [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

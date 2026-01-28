@@ -25,9 +25,6 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 - Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 

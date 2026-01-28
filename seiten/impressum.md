@@ -30,9 +30,6 @@ F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen.
 
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

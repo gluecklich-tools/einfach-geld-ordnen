@@ -37,9 +37,6 @@ Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
 ## 9. Stand
 
 Stand: 2026-01-24
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

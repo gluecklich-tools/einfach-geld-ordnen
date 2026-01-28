@@ -44,9 +44,6 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 
 Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

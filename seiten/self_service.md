@@ -36,9 +36,6 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Fuer wen geeignet / fuer wen nicht
 - Keine Einrichtung, kein Coaching, keine individuelle Hilfe
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 

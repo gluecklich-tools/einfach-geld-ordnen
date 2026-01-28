@@ -18,9 +18,6 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 
 - [Pillar Uebersicht]( {{ site.baseurl }}/pillar/index.html )
 - [Schuldenfrei Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

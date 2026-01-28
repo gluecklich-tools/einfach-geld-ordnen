@@ -26,9 +26,6 @@ permalink: /seiten/rechner-jahreskosten.html
   });
 })();
 </script>
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

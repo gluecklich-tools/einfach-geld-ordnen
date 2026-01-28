@@ -23,12 +23,10 @@ Alles, was du in den letzten 30 Tagen nicht genutzt hast, wird gekuendigt. Wenn 
 Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschlossen.
 
 ## 3 naechste Schritte
-1) Tool - Abo-Liste als Datei: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+1) Abo-Liste als Datei: [Abo-Liste - Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
 
-2) Flow - Abo-Liste sauber machen: [Abo-Manager - Geldleck stoppen]({{ site.baseurl }}/pillar/abo-manager.html)
-3) Hub - Hub: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
-
-{% include flow-footer.html %}
+2) Abo-Liste sauber machen: [Abo-Manager - Geldleck stoppen]({{ site.baseurl }}/pillar/abo-manager.html)
+3) Hub: [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

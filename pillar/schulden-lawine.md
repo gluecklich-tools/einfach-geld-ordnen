@@ -25,10 +25,8 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 2) Stabilisieren (Puffer aufbauen):
    [Notgroschen - Schutz vor Rueckfall]({{ site.baseurl }}/pillar/notgroschen.html)
 
-3) Zurueck zur Uebersicht (Hub):
+3) Zurueck zur Uebersicht:
    [Schuldenfrei werden - Uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
-
-{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

@@ -34,9 +34,6 @@ permalink: /seiten/rechner-50-30-20.html
   });
 })();
 </script>
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

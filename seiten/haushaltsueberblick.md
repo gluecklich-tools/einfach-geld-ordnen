@@ -21,9 +21,6 @@ Dann zeigt der Überblick nur: *Hier ist Druck im System.*
 
 Das ist wertvoll – weil es **endlich sichtbar** wird.
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

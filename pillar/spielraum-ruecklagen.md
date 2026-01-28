@@ -62,13 +62,10 @@ Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaup
 1) Naechster Schritt (ruhig abschliessen):
    [Ordnung halten - ohne Druck]({{ site.baseurl }}/pillar/ordnung-halten.html)
 
-2) Tool (Jahreskosten planbar machen):
-   [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+2) Jahreskosten planbar machen: [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
 
-3) Zurueck zur Projekt-Uebersicht (Hub):
+3) Zurueck zur Projekt-Uebersicht:
    [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

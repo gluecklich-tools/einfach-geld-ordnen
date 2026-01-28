@@ -23,10 +23,8 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 2) Konkrete Umsetzung (Wechsel):
    [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
 
-3) Zurueck zur Fixkosten-Uebersicht (Hub):
+3) Zurueck zur Fixkosten-Uebersicht:
    [Fixkosten senken - Uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
-
-{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

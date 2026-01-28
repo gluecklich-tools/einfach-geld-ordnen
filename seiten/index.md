@@ -16,9 +16,6 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 - Zur Startseite: [Start]({{ site.baseurl }}/index.html)
 - Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

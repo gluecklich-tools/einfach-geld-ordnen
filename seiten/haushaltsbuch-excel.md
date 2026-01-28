@@ -15,9 +15,6 @@ Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
 Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
 Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

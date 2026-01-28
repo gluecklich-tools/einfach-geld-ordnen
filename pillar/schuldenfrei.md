@@ -29,13 +29,10 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 1) Naechster Schritt (Methode waehlen):
    [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
 
-2) Tool (Schneeball-Extra):
-   [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+2) Schneeball-Extra: [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
 
-3) Zurueck zur Projekt-Uebersicht (Hub):
+3) Zurueck zur Projekt-Uebersicht:
    [Projekt-Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-{% include flow-footer.html %}
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->

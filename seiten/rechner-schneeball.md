@@ -40,9 +40,6 @@ permalink: /seiten/rechner-schneeball.html
   });
 })();
 </script>
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

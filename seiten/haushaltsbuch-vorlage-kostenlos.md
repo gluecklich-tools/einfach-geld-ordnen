@@ -14,9 +14,6 @@ Bis dahin: Nutze den Flow über den Uebersicht.
 
 → [Haushaltsbuch - Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

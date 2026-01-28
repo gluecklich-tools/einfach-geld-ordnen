@@ -15,9 +15,6 @@ Für den Start reicht:
 - **Jahreskosten / 12**
 
 Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

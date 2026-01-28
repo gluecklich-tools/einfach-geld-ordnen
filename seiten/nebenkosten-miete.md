@@ -20,9 +20,6 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
 - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

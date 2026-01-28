@@ -23,9 +23,6 @@ Wichtig:
 
 - Inhalte und Vorlagen sind auf **Self-Service** ausgelegt.
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 

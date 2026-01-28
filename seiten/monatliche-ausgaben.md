@@ -26,9 +26,6 @@ Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 
 Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

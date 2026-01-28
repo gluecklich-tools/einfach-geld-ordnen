@@ -35,9 +35,6 @@ Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht nötig.
 ---
-
-{% include flow-footer.html %}
-
 <!-- NAV-FOOTER-START -->
 
 <!-- NAV-FOOTER-END -->

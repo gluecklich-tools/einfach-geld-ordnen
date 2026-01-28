@@ -28,9 +28,7 @@ Wechsel ist oft der groessere Hebel als lange Diskussionen.
 
 2) Naechster grosser Hebel (Energie):
    [Strom/Gas wechseln - Kosten senken]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-3) Hub - Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
-
-{% include flow-footer.html %}
+3) Hub: [Themen-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
 <!-- NAV-FOOTER-START -->
 {% include no_sackgasse_footer.html %}
 <!-- NAV-FOOTER-END -->
