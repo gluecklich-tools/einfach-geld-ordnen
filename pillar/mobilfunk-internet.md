@@ -6,18 +6,34 @@ permalink: /pillar/mobilfunk-internet.html
 
 # Mobilfunk/Internet senken - schnellster Hebel
 
-Viele zahlen hier zu viel. Ziel: Preis runter oder Vertrag wechseln.
+Viele zahlen hier zu viel, weil Vertraege still weiterlaufen.
+Ziel: Preis runter oder konsequent wechseln.
+
+---
 
 ## Schritte
 
-1) Pruefe Laufzeit + Kuendigungsdatum
-2) Anruf/Chat: "Ich will kuendigen, welches Angebot geht?"
-3) Wenn nichts kommt: Anbieter wechseln
+### 1) Laufzeit und Kuendigungsdatum pruefen
+Schreibe auf: Vertragsende, Kuendigungsfrist, aktueller Preis, Datenvolumen/Leistung.
 
-## Naechste Schritte
+### 2) Verhandeln (kurz und klar)
+Anruf oder Chat:
+"Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
 
-- [Zurueck: Fixkosten Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
-- [Abos kuendigen]( {{ site.baseurl }}/pillar/abos-kuendigen.html )
-- [Fixkosten senken: Vorgehen]( {{ site.baseurl }}/pillar/fixkosten-senken.html )
+### 3) Wenn nichts Gutes kommt: wechseln
+Wechsel ist oft der groessere Hebel als lange Diskussionen.
+
+---
+
+## 3 naechste Schritte (Flow + Hebel + Hub)
+
+1) Flow (naechstes Geldleck schliessen):
+   [Abos kuendigen - konsequent]( {{ site.baseurl }}/pillar/abos-kuendigen.html )
+
+2) Naechster grosser Hebel (Wechsel):
+   [Strom/Gas wechseln - Kosten senken]( {{ site.baseurl }}/pillar/strom-gas-wechsel.html )
+
+3) Zurueck zum Kontext (Hub):
+   [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
 
 {% include no_sackgasse_footer.html %}
