@@ -8,15 +8,23 @@ nav_group: pillar
 nav_order: 20
 flow_systemlinks: true
 ---
+
 ## Einfach Geld ordnen
 
-Der strukturierte Einstieg in deine Finanzen – ohne Rätselraten.
+Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
 
-- **Wenn du starten willst:**  
-  → [Pillar-Start: Haushaltsbuch für Anfänger]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
+---
 
-- **Wenn du den geführten Weg willst:**  
-  → [Der Weg – Schritt für Schritt]({{ site.baseurl }}/seiten/der-weg.html)
+## 3 naechste Schritte (schnell, klar)
+
+1) Einstieg (Pillar-Start):
+   [Haushaltsbuch fuer Anfaenger]( {{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html )
+
+2) Gefuehrter Ablauf:
+   [Der Weg - Schritt fuer Schritt]( {{ site.baseurl }}/seiten/der-weg.html )
+
+3) Zurueck zur Projekt-Uebersicht (Hub):
+   [Projekt-Uebersicht]( {{ site.baseurl }}/pillar/index.html )
 
 {% include flow-footer.html %}
 
