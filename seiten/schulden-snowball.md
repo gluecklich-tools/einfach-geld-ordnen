@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schulden Snowball
+title: "Schulden Snowball"
 permalink: {{ site.baseurl }}/seiten/schulden-snowball.html
 ---
 

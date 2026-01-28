@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Haushaltsbuch Vollversion - kommt bald
+title: "Haushaltsbuch Vollversion - kommt bald"
 permalink: {{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html
 nav_group: seiten
 nav_order: 110

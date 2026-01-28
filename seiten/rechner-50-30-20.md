@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rechner - 50-30-20 (Mini)
+title: "Rechner - 50-30-20 (Mini)"
 permalink: {{ site.baseurl }}/seiten/rechner-50-30-20.html
 ---
 

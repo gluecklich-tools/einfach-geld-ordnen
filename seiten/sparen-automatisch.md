@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sparen automatisch
+title: "Sparen automatisch"
 permalink: {{ site.baseurl }}/seiten/sparen-automatisch.html
 ---
 

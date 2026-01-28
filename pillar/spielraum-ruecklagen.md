@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Spielraum und Ruecklagen - realistisch einordnen
+title: "Spielraum und Ruecklagen - realistisch einordnen"
 permalink: {{ site.baseurl }}/pillar/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50

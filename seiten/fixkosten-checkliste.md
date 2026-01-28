@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixkosten Checkliste
+title: "Fixkosten Checkliste"
 permalink: {{ site.baseurl }}/seiten/fixkosten-checkliste.html
 ---
 

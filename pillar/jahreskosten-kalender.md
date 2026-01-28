@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jahreskosten-Kalender - planbar machen
+title: "Jahreskosten-Kalender - planbar machen"
 permalink: {{ site.baseurl }}/pillar/jahreskosten-kalender.html
 ---
 

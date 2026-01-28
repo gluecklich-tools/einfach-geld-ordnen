@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Proof Rechner
+title: "Proof Rechner"
 permalink: {{ site.baseurl }}/seiten/proof-rechner.html
 ---
 

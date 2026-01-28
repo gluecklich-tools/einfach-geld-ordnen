@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Proof Money Page
+title: "Proof Money Page"
 permalink: {{ site.baseurl }}/seiten/proof-money-page.html
 ---
 

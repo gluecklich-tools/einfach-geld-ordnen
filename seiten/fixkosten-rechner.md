@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixkosten Rechner
+title: "Fixkosten Rechner"
 permalink: {{ site.baseurl }}/seiten/fixkosten-rechner.html
 ---
 

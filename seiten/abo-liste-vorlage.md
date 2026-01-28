@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Abo-Liste Vorlage
+title: "Abo-Liste Vorlage"
 permalink: {{ site.baseurl }}/seiten/abo-liste-vorlage.html
 nav_group: seiten
 nav_order: 225

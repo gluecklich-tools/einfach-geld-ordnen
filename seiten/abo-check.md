@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Abo Check
+title: "Abo Check"
 permalink: {{ site.baseurl }}/seiten/abo-check.html
 ---
 

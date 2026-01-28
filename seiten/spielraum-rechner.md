@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spielraum Rechner
+title: "Spielraum Rechner"
 permalink: {{ site.baseurl }}/seiten/spielraum-rechner.html
 ---
 

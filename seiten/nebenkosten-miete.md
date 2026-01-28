@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nebenkosten der Miete
+title: "Nebenkosten der Miete"
 permalink: {{ site.baseurl }}/seiten/nebenkosten-miete.html
 nav_group: seiten
 nav_order: 46

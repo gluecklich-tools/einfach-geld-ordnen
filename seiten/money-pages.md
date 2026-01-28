@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Money Pages
+title: "Money Pages"
 permalink: {{ site.baseurl }}/seiten/money-pages.html
 ---
 

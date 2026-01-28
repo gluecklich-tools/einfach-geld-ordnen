@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schulden-Schneeball - Anleitung
+title: "Schulden-Schneeball - Anleitung"
 permalink: {{ site.baseurl }}/pillar/schulden-schneeball.html
 ---
 

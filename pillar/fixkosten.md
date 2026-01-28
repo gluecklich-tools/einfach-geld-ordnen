@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixkosten senken - Uebersicht
+title: "Fixkosten senken - Uebersicht"
 permalink: {{ site.baseurl }}/pillar/fixkosten.html
 ---
 

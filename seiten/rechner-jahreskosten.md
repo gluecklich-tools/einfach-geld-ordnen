@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rechner - Jahreskosten pro Monat (Mini)
+title: "Rechner - Jahreskosten pro Monat (Mini)"
 permalink: {{ site.baseurl }}/seiten/rechner-jahreskosten.html
 ---
 

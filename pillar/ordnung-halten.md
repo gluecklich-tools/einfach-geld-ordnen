@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ordnung halten - ohne Druck
+title: "Ordnung halten - ohne Druck"
 permalink: {{ site.baseurl }}/pillar/ordnung-halten.html
 nav_group: pillar
 nav_order: 60

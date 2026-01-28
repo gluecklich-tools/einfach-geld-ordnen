@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 50/30/20 Rechner
+title: "50/30/20 Rechner"
 permalink: {{ site.baseurl }}/seiten/budget-50-30-20-rechner.html
 ---
 

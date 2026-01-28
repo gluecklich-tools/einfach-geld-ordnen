@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notgroschen
+title: "Notgroschen"
 permalink: {{ site.baseurl }}/seiten/notgroschen.html
 ---
 

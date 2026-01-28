@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stromkosten im Haushalt
+title: "Stromkosten im Haushalt"
 permalink: {{ site.baseurl }}/seiten/stromkosten-haushalt.html
 nav_group: seiten
 nav_order: 45

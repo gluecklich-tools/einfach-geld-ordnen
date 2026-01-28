@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lawine Rechner
+title: "Lawine Rechner"
 permalink: {{ site.baseurl }}/seiten/lawine-rechner.html
 ---
 

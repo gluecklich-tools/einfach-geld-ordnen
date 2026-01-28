@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schulden-Lawine - Anleitung
+title: "Schulden-Lawine - Anleitung"
 permalink: {{ site.baseurl }}/pillar/schulden-lawine.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Datenschutz
+title: "Datenschutz"
 permalink: {{ site.baseurl }}/seiten/datenschutz.html
 nav_group: meta
 nav_order: 910

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ordnung halten - wenn sie hilft (ohne Druck)
+title: "Ordnung halten - wenn sie hilft (ohne Druck)"
 permalink: {{ site.baseurl }}/seiten/ordnung-halten.html
 nav_group: seiten
 nav_order: 80

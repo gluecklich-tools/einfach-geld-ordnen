@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rechner - Schulden-Schneeball (Mini)
+title: "Rechner - Schulden-Schneeball (Mini)"
 permalink: {{ site.baseurl }}/seiten/rechner-schneeball.html
 ---
 

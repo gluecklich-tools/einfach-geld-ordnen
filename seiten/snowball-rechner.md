@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Snowball Rechner
+title: "Snowball Rechner"
 permalink: {{ site.baseurl }}/seiten/snowball-rechner.html
 ---
 

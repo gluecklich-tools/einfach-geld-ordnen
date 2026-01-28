@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixkosten-Checkliste - Luft schaffen
+title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: {{ site.baseurl }}/pillar/fixkosten-checkliste.html
 ---
 

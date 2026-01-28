@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Premium
+title: "Premium"
 permalink: {{ site.baseurl }}/seiten/premium.html
 nav_group: seiten
 nav_order: 200

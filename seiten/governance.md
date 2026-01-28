@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transparenz & Verantwortung
+title: "Transparenz & Verantwortung"
 permalink: {{ site.baseurl }}/seiten/governance.html
 flow_systemlinks: true
 ---

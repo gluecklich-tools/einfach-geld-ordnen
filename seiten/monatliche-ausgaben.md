@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Monatliche Ausgaben
+title: "Monatliche Ausgaben"
 permalink: {{ site.baseurl }}/seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50

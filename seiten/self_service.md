@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 100% Self-Service
+title: "100% Self-Service"
 permalink: {{ site.baseurl }}/seiten/self_service.html
 flow_systemlinks: true
 ---

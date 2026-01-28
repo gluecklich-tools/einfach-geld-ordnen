@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jahreskosten Rechner
+title: "Jahreskosten Rechner"
 permalink: {{ site.baseurl }}/seiten/jahreskosten-rechner.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jahreskosten Kalender
+title: "Jahreskosten Kalender"
 permalink: {{ site.baseurl }}/seiten/jahreskosten-kalender.html
 ---
 

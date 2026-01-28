@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notgroschen Rechner
+title: "Notgroschen Rechner"
 permalink: {{ site.baseurl }}/seiten/notgroschen-rechner.html
 ---
 

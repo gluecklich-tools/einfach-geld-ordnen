@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QA Release Gate
+title: "QA Release Gate"
 permalink: {{ site.baseurl }}/seiten/qualitaet.html
 ---
 

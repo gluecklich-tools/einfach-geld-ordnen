@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nach dem Kauf
+title: "Nach dem Kauf"
 permalink: {{ site.baseurl }}/seiten/nach_dem_kauf.html
 flow_systemlinks: true
 ---

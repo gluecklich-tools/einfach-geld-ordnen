@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Impressum
+title: "Impressum"
 permalink: {{ site.baseurl }}/seiten/impressum.html
 nav_group: meta
 nav_order: 900

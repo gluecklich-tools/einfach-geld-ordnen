@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projekt-Uebersicht
+title: "Projekt-Uebersicht"
 permalink: {{ site.baseurl }}/pillar/index.html
 ---
 

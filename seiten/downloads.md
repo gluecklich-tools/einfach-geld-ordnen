@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Downloads
+title: "Downloads"
 permalink: {{ site.baseurl }}/seiten/downloads.html
 ---
 

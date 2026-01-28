@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixkosten Übersicht
+title: "Fixkosten Übersicht"
 permalink: {{ site.baseurl }}/seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40

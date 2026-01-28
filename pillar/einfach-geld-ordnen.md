@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Einfach Geld ordnen - Einstieg
+title: "Einfach Geld ordnen - Einstieg"
 permalink: {{ site.baseurl }}/pillar/einfach-geld-ordnen.html
 order: 1
 next: {{ site.baseurl }}/seiten/der-weg.html

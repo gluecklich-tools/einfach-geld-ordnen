@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rechner - Uebersicht
+title: "Rechner - Uebersicht"
 permalink: {{ site.baseurl }}/seiten/rechner-index.html
 ---
 

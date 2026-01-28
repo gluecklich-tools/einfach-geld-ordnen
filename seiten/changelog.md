@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Changelog
+title: "Changelog"
 permalink: {{ site.baseurl }}/seiten/qualitaet.html
 ---
 

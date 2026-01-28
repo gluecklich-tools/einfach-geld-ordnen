@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Qualität & Prinzipien
+title: "Qualität & Prinzipien"
 permalink: {{ site.baseurl }}/seiten/qualitaet.html
 nav_group: meta
 nav_order: 920

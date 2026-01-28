@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Haushaltsbuch - Überblick
+title: "Haushaltsbuch - Überblick"
 permalink: {{ site.baseurl }}/seiten/haushaltsbuch.html
 nav_group: seiten
 nav_order: 90

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schulden Lawine
+title: "Schulden Lawine"
 permalink: {{ site.baseurl }}/seiten/schulden-lawine.html
 ---
 

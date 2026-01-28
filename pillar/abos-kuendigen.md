@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Abos kuendigen - konsequent
+title: "Abos kuendigen - konsequent"
 permalink: {{ site.baseurl }}/pillar/abos-kuendigen.html
 ---
 

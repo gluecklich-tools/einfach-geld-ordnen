@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notgroschen - Schutz vor Rueckfall
+title: "Notgroschen - Schutz vor Rueckfall"
 permalink: {{ site.baseurl }}/pillar/notgroschen.html
 ---
 

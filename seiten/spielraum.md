@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spielraum
+title: "Spielraum"
 permalink: {{ site.baseurl }}/seiten/spielraum.html
 ---
 

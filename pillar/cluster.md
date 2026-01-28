@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Themen-Uebersicht
+title: "Themen-Uebersicht"
 permalink: {{ site.baseurl }}/pillar/cluster.html
 ---
 
