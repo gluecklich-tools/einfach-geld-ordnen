@@ -48,10 +48,3 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
 {% include no_sackgasse_footer.html %}
-
-<!-- TOOLS_READONLY_GUARD_v1 -->
-
-## Repo-Schutz vor Tool-Nebenwirkungen (TOOLS_READONLY_GUARD_v1)
-
-Qualitaetsgesetz: **Scan-Tools duerfen keine Inhalte aendern.**
-Ein "Scan" ist nur dann vertrauenswuerdig, wenn danach git status --porcelain leer ist.

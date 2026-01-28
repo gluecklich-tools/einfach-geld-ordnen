@@ -21,17 +21,3 @@ Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 {% include no_sackgasse_footer.html %}
 
 {% include disclaimer_finanzinfo.html %}
-
-<!-- TOOLS_READONLY_GUARD_v1 -->
-
-## Gate: Tools-ReadOnly (TOOLS_READONLY_GUARD_v1)
-
-**Vor jedem Commit:**
-- git status ist **clean**.
-
-**Wenn ein Tool gelaufen ist (alles unter ./tools):**
-- git status --porcelain ist **leer** (Repo blieb unveraendert).
-- Wenn nicht leer: **Commit ist geblockt**. Sofort Notbremse:
-  - git restore .
-  - git clean -fd
-  - Danach Ursache finden (Tool ist nicht read-only) und Regelverstoesse entfernen.
