@@ -1,0 +1,34 @@
+/* EGO minimal polish - no framework, just readable defaults */
+html { font-size: 16px; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.55;
+}
+main, .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header, footer {
+  padding: 12px 20px;
+}
+header {
+  border-bottom: 1px solid #e6e6e6;
+}
+footer {
+  border-top: 1px solid #e6e6e6;
+}
+h1 { margin: 0.4em 0 0.6em; font-size: 2rem; }
+h2 { margin: 1.2em 0 0.6em; font-size: 1.4rem; }
+h3 { margin: 1.0em 0 0.4em; font-size: 1.15rem; }
+p { margin: 0.7em 0; }
+ul, ol { padding-left: 1.4em; }
+li { margin: 0.25em 0; }
+a { text-decoration: underline; }
+hr { border: 0; border-top: 1px solid #e6e6e6; margin: 24px 0; }
+
+/* make the footer nav less ugly even without classes */
+footer ul { list-style: none; padding-left: 0; margin: 0.25em 0; }
+footer li { margin: 0.15em 0; }
