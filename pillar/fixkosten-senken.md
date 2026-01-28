@@ -38,16 +38,14 @@ Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher W
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Strom/Gas wechseln]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
 - [Mobilfunk & Internet]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
-- [Versicherungen Check]({{ site.baseurl }}/pillar/versicherungen-check.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 
 - Du bist hier: Fixkosten senken
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

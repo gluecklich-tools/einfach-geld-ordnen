@@ -12,10 +12,10 @@ Wenn etwas nicht klappt, geh bitte strikt in dieser Reihenfolge vor. Das spart d
 <!-- NAV-FOOTER-START -->
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [FAQ / Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 
 - Du bist hier: Nach dem Kauf
 <!-- NAV-FOOTER-END -->

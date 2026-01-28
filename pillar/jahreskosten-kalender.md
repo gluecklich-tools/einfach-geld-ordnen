@@ -38,16 +38,14 @@ Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner Jahreskosten]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Jahreskosten Kalender
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

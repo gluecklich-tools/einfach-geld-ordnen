@@ -35,16 +35,14 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Haushaltsbuch - Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Premium]({{ site.baseurl }}/seiten/premium.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
 
 - Du bist hier: Haushaltsbuch (Excel)
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

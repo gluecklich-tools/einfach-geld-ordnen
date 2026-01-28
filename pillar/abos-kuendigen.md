@@ -40,16 +40,14 @@ Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschloss
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
 - [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
-- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Abos kuendigen
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

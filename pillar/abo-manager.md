@@ -50,16 +50,14 @@ Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Abos kuendigen]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 - [Jahreskosten Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Pillar Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Abo-Manager
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

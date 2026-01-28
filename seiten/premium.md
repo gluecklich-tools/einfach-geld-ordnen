@@ -20,16 +20,14 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Kein persoenlicher Support
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
 - [FAQ / Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
 
 - Du bist hier: Premium
-
 <!-- NAV-FOOTER-END -->
 
 {% include flow-footer.html %}

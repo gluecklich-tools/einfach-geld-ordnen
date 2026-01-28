@@ -23,16 +23,14 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 - [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 
 - Du bist hier: Versicherungen Check
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

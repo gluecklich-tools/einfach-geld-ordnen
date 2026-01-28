@@ -56,10 +56,10 @@ auf der du deinen eigenen Haushalt wiedererkennst.
 <!-- NAV-FOOTER-START -->
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Haushaltsueberblick
 <!-- NAV-FOOTER-END -->

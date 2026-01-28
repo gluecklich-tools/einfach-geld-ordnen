@@ -31,16 +31,14 @@ Teile den Jahresbetrag durch 12.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Nebenkosten Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-- [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/seiten/index.html)
 
 - Du bist hier: Stromkosten Haushalt
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

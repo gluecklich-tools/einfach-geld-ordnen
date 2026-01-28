@@ -27,16 +27,14 @@ Wichtig:
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Impressum]({{ site.baseurl }}/seiten/impressum.html)
-- [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 
 - Du bist hier: Transparenz & Verantwortung
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

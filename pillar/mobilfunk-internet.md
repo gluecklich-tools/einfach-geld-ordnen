@@ -39,16 +39,14 @@ Wechsel ist oft der groessere Hebel als lange Diskussionen.
 {% include flow-footer.html %}
 
 <!-- NAV-FOOTER-START -->
-
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Fixkosten Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 - [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 
 - Du bist hier: Mobilfunk & Internet
-
 <!-- NAV-FOOTER-END -->
 
 {% include no_sackgasse_footer.html %}

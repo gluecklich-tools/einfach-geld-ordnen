@@ -41,10 +41,10 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 <!-- NAV-FOOTER-START -->
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 - Du bist hier: Haushaltsbuch
 <!-- NAV-FOOTER-END -->

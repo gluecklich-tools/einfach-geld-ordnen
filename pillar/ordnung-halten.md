@@ -60,10 +60,10 @@ Du kannst bleiben, zurückgehen oder aufhören.
 <!-- NAV-FOOTER-START -->
 ## Naechste Schritte
 
+- [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
+- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Haushaltsbuch – Einstieg]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-- [Zurueck zur Uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 - Du bist hier: Ordnung halten
 <!-- NAV-FOOTER-END -->
