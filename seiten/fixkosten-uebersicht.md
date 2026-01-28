@@ -60,6 +60,7 @@ Wenn ja: reicht.
 <!-- NAV-FOOTER-START -->
 ## Naechste Schritte
 
+- [Wie es weiter geht]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 - [Seiten – Übersicht]({{ site.baseurl }}/seiten/index.html)
 - [Pillar – Übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
