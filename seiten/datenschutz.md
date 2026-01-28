@@ -18,9 +18,9 @@ E-Mail: **czoske.carsten@web.de**
 
 ---
 
-## 2. Hosting (GitUebersicht Pages)
+## 2. Hosting (GitHub Pages)
 
-Diese Website wird &uuml;ber **GitUebersicht Pages** bereitgestellt. Beim Aufruf der Website werden durch den Hosting-Anbieter technisch notwendige Informationen verarbeitet (z. B. IP-Adresse, Zeitpunkt des Zugriffs, aufgerufene Seite, User-Agent). Diese Daten sind erforderlich, um die Website auszuliefern und die Sicherheit zu gew&auml;hrleisten.
+Diese Website wird &uuml;ber **GitHub Pages** bereitgestellt. Beim Aufruf der Website werden durch den Hosting-Anbieter technisch notwendige Informationen verarbeitet (z. B. IP-Adresse, Zeitpunkt des Zugriffs, aufgerufene Seite, User-Agent). Diese Daten sind erforderlich, um die Website auszuliefern und die Sicherheit zu gew&auml;hrleisten.
 
 Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse: sichere und stabile Bereitstellung der Website).
 
@@ -35,7 +35,7 @@ Bei der Nutzung dieser Website k&ouml;nnen Logdaten anfallen, die zur technische
 ## 4. Cookies / Tracking
 
 Auf dieser Website werden **keine** Tracking-Tools (z. B. Google Analytics) eingesetzt und **keine** Marketing-Cookies gesetzt.  
-Sofern GitUebersicht Pages technisch notwendige Cookies setzen sollte, geschieht dies ausschlie&szlig;lich zur Bereitstellung der Website.
+Sofern GitHub Pages technisch notwendige Cookies setzen sollte, geschieht dies ausschlie&szlig;lich zur Bereitstellung der Website.
 
 ---
 
