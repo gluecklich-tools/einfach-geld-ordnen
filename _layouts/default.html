@@ -3,23 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }}</title>
-  <meta name="color-scheme" content="light dark">
-  <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}">
+  {% endif %}
 </head>
 <body>
   <header class="container">
     <nav>
       <ul>
-        <li><strong>Einfach Geld ordnen</strong></li>
+        <li><strong>{{ site.title | escape }}</strong></li>
       </ul>
       <ul>
-        <li><a href="{{ '{{ site.baseurl }}/pillar/einfach-geld-ordnen.html' | prepend: site.baseurl }}">Ueberblick</a></li>
-        <li><a href="{{ '{{ site.baseurl }}/seiten/start_in_15_minuten.html' | prepend: site.baseurl }}">Start in 15 Minuten</a></li>
-        <li><a href="{{ '{{ site.baseurl }}/seiten/der-weg.html' | prepend: site.baseurl }}">Der Weg</a></li>
-        <li><a href="{{ '{{ site.baseurl }}/seiten/haushaltsbuch.html' | prepend: site.baseurl }}">Haushaltsbuch</a></li>
-        <li><a href="{{ '{{ site.baseurl }}/seiten/index.html' | prepend: site.baseurl }}">Mehr</a></li>
+        <li><a href="{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}">Ueberblick</a></li>
+        <li><a href="{{ '/seiten/start_in_15_minuten.html' | relative_url }}">Start in 15 Minuten</a></li>
+        <li><a href="{{ '/seiten/der-weg.html' | relative_url }}">Der Weg</a></li>
+        <li><a href="{{ '/seiten/haushaltsbuch.html' | relative_url }}">Haushaltsbuch</a></li>
+        <li><a href="{{ '/seiten/index.html' | relative_url }}">Mehr</a></li>
       </ul>
     </nav>
   </header>
@@ -28,15 +30,9 @@
   </main>
   <footer class="container">
     <small>
-      <a href="{{ '{{ site.baseurl }}/seiten/impressum.html' | prepend: site.baseurl }}">Impressum</a> .
-      <a href="{{ '{{ site.baseurl }}/seiten/datenschutz.html' | prepend: site.baseurl }}">Datenschutz</a>
+      <a href="{{ '/seiten/impressum.html' | relative_url }}">Impressum</a> ·
+      <a href="{{ '/seiten/datenschutz.html' | relative_url }}">Datenschutz</a>
     </small>
-    <div style="margin-top:8px;">&copy; {{ site.time | date: "%Y" }} Einfach Geld ordnen</div>
   </footer>
-
-  <!-- Cloudflare Web Analytics -->
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token":"4d6900322e7847d3b6d61e3380b22aa3"}'></script>
-  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
