@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projekt-Uebersicht
-permalink: /pillar/index.html
+permalink: {{ site.baseurl }}/pillar/index.html
 ---
 
 # Projekt-Uebersicht

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schuldenfrei werden - Uebersicht
-permalink: /pillar/schuldenfrei.html
+permalink: {{ site.baseurl }}/pillar/schuldenfrei.html
 ---
 
 # Schuldenfrei werden - Uebersicht

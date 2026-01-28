@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notgroschen - Schutz vor Rueckfall
-permalink: /pillar/notgroschen.html
+permalink: {{ site.baseurl }}/pillar/notgroschen.html
 ---
 
 # Notgroschen - Schutz vor Rueckfall

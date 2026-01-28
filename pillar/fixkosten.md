@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fixkosten senken - Uebersicht
-permalink: /pillar/fixkosten.html
+permalink: {{ site.baseurl }}/pillar/fixkosten.html
 ---
 
 # Fixkosten senken - Uebersicht

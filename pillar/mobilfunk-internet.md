@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mobilfunk/Internet senken - schnellster Hebel
-permalink: /pillar/mobilfunk-internet.html
+permalink: {{ site.baseurl }}/pillar/mobilfunk-internet.html
 ---
 
 # Mobilfunk/Internet senken - schnellster Hebel

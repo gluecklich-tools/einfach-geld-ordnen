@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schulden-Lawine - Anleitung
-permalink: /pillar/schulden-lawine.html
+permalink: {{ site.baseurl }}/pillar/schulden-lawine.html
 ---
 
 # Schulden-Lawine - Anleitung

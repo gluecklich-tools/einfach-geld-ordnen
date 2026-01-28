@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abos kuendigen - konsequent
-permalink: /pillar/abos-kuendigen.html
+permalink: {{ site.baseurl }}/pillar/abos-kuendigen.html
 ---
 
 # Abos kuendigen - konsequent

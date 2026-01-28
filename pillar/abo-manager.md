@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abo-Manager - Geldleck stoppen
-permalink: /pillar/abo-manager.html
+permalink: {{ site.baseurl }}/pillar/abo-manager.html
 ---
 
 # Abo-Manager - Geldleck stoppen

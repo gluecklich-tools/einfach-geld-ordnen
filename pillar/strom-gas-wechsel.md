@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strom/Gas wechseln - Kosten senken
-permalink: /pillar/strom-gas-wechsel.html
+permalink: {{ site.baseurl }}/pillar/strom-gas-wechsel.html
 ---
 
 # Strom/Gas wechseln - Kosten senken

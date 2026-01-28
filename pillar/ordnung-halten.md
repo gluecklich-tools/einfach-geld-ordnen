@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ordnung halten - ohne Druck
-permalink: /pillar/ordnung-halten.html
+permalink: {{ site.baseurl }}/pillar/ordnung-halten.html
 nav_group: pillar
 nav_order: 60
 flow_systemlinks: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jahreskosten-Kalender - planbar machen
-permalink: /pillar/jahreskosten-kalender.html
+permalink: {{ site.baseurl }}/pillar/jahreskosten-kalender.html
 ---
 
 # Jahreskosten-Kalender - planbar machen

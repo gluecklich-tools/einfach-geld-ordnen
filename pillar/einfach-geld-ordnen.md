@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Einfach Geld ordnen - Einstieg
-permalink: /pillar/einfach-geld-ordnen.html
+permalink: {{ site.baseurl }}/pillar/einfach-geld-ordnen.html
 order: 1
-next: /seiten/der-weg.html
+next: {{ site.baseurl }}/seiten/der-weg.html
 nav_group: pillar
 nav_order: 20
 flow_systemlinks: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Themen-Uebersicht
-permalink: /pillar/cluster.html
+permalink: {{ site.baseurl }}/pillar/cluster.html
 ---
 
 # Themen-Uebersicht

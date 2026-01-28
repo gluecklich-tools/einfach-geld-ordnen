@@ -2,7 +2,7 @@
 layout: default
 title: Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
 h1: Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
-permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
+permalink: {{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html
 nav_group: pillar
 nav_order: 30
 flow_systemlinks: true

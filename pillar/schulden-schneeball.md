@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schulden-Schneeball - Anleitung
-permalink: /pillar/schulden-schneeball.html
+permalink: {{ site.baseurl }}/pillar/schulden-schneeball.html
 ---
 
 # Schulden-Schneeball - Anleitung

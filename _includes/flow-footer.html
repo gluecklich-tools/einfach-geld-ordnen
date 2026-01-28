@@ -19,13 +19,13 @@ flow_systemlinks: true|false
 
 <ul>
   {% assign n1_label = page.flow_next_1_label | default: "Start in 15 Minuten" %}
-  {% assign n1_url   = page.flow_next_1_url   | default: "/seiten/start_in_15_minuten.html" %}
+  {% assign n1_url   = page.flow_next_1_url   | default: "{{ site.baseurl }}/seiten/start_in_15_minuten.html" %}
 
   {% assign n2_label = page.flow_next_2_label | default: "Kostenlose Haushaltsbuch-Vorlage" %}
-  {% assign n2_url   = page.flow_next_2_url   | default: "/seiten/haushaltsbuch-vorlage-kostenlos.html" %}
+  {% assign n2_url   = page.flow_next_2_url   | default: "{{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html" %}
 
   {% assign n3_label = page.flow_next_3_label | default: "Der Weg – Schritt fuer Schritt" %}
-  {% assign n3_url   = page.flow_next_3_url   | default: "/seiten/der-weg.html" %}
+  {% assign n3_url   = page.flow_next_3_url   | default: "{{ site.baseurl }}/seiten/der-weg.html" %}
 
   <li><a href="{{ site.baseurl }}{{ n1_url }}">{{ n1_label }}</a></li>
   <li><a href="{{ site.baseurl }}{{ n2_url }}">{{ n2_label }}</a></li>

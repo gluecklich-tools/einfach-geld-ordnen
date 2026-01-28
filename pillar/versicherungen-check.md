@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Versicherungen Check - zu viel oder doppelt?
-permalink: /pillar/versicherungen-check.html
+permalink: {{ site.baseurl }}/pillar/versicherungen-check.html
 ---
 
 # Versicherungen Check - zu viel oder doppelt?

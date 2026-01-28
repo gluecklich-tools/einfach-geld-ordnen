@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Haushaltsueberblick - ohne Zahlen
-permalink: /pillar/haushaltsueberblick.html
+permalink: {{ site.baseurl }}/pillar/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
