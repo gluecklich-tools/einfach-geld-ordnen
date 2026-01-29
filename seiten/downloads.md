@@ -35,3 +35,4 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 - [Haushaltsbuch: Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 - [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
 
+{% include no_sackgasse_footer.html %}

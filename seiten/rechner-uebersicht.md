@@ -44,6 +44,8 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Weiter:** [Naechster Schritt]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

@@ -1,4 +1,4 @@
-﻿# .gitignore – einfach-geld-ordnen
+# .gitignore – einfach-geld-ordnen
 # Stand: 2026-01-24
 # Ziel: Jekyll/Repo sauber halten + Downloads (ODS/XLSX/ZIP) explizit erlauben
 # Zusätzlich: lokale Sicherungen/Private Ablagen sicher vom Commit ausschließen
@@ -66,4 +66,5 @@ LEARNINGS.md
 qass_v2_*.txt
 
 _audit/
-
+# generated local artifacts (must NOT be committed)
+qass_*.txt

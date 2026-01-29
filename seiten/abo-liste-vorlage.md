@@ -16,4 +16,6 @@ Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann dir
 
 - **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

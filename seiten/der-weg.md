@@ -42,3 +42,4 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
 
+{% include no_sackgasse_footer.html %}

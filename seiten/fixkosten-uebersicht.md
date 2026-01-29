@@ -30,6 +30,8 @@ Wenn ja: reicht.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Weiter:** [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-index.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

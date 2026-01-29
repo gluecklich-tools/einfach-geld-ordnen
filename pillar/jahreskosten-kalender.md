@@ -26,6 +26,8 @@ Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
+- **Weiter:** [Naechster Schritt]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+
+{% include no_sackgasse_footer.html %}

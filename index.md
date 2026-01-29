@@ -52,3 +52,4 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Pillar-Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
+{% include no_sackgasse_footer.html %}
