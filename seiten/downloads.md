@@ -31,6 +31,7 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
-- **Vorlage/Download:** [Haushaltsbuch Vorlage (kostenlos)]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- [Haushaltsbuch: kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch: Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
+

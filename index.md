@@ -48,8 +48,7 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 
 ## Weiter
 
-- [Start]({{ site.baseurl }}/index.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Pillar-Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
-{% include no_sackgasse_footer.html %}

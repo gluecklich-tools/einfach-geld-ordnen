@@ -38,6 +38,7 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
