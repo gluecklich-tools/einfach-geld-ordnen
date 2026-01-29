@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Proof Money Page"
-permalink: {{ site.baseurl }}/seiten/proof-money-page.html
+permalink: /seiten/proof-money-page.html
 ---
-
 # Proof Money Page
 
 Diese Seite ist eine Proof-Implementierung der Money-Page-Vorlage.
@@ -24,8 +23,7 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - Frage 3: Antwort
 
 ## Weiter
-- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

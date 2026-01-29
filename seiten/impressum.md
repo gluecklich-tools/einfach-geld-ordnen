@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Impressum"
-permalink: {{ site.baseurl }}/seiten/impressum.html
+permalink: /seiten/impressum.html
 nav_group: meta
 nav_order: 900
 flow_systemlinks: true
@@ -32,8 +32,7 @@ Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website un
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

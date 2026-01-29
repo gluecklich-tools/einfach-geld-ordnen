@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Schulden-Lawine - Anleitung"
-permalink: {{ site.baseurl }}/pillar/schulden-lawine.html
+permalink: /pillar/schulden-lawine.html
 ---
-
 # Schulden-Lawine - Anleitung
 
 Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
@@ -15,9 +14,7 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 4. **Nach Tilgung**: Extra weiterreichen
 
 ## Weiter
-- [Schulden-Schneeball]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

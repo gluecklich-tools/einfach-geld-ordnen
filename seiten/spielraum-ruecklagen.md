@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Finanzieller Spielraum & Rücklagen - Einordnung ohne Druck"
-permalink: {{ site.baseurl }}/seiten/spielraum-ruecklagen.html
+permalink: /seiten/spielraum-ruecklagen.html
 nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
@@ -23,8 +23,7 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 - Entscheidungen werden ruhiger, weil nicht alles sofort „kritisch“ wirkt.
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

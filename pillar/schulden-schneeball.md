@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Schulden-Schneeball - Anleitung"
-permalink: {{ site.baseurl }}/pillar/schulden-schneeball.html
+permalink: /pillar/schulden-schneeball.html
 ---
-
 # Schulden-Schneeball - Anleitung
 
 Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
@@ -15,8 +14,7 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 4. **Nach Tilgung**: Extra auf die naechste
 
 ## Weiter
-  - [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/snowball-rechner.html)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/snowball-rechner.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

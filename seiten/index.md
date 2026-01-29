@@ -1,15 +1,14 @@
 ---
 layout: page
 title: "Start"
-permalink: {{ site.baseurl }}/seiten/index.html
+permalink: /seiten/index.html
 flow_systemlinks: true
 permalink: /
 layout: page
 title: "Start"
-permalink: {{ site.baseurl }}/seiten/index.html
+permalink: /seiten/index.html
 flow_systemlinks: true
 ---
-
 # Start
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
@@ -31,8 +30,7 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

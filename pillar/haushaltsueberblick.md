@@ -1,12 +1,11 @@
 ---
 layout: default
 title: "Haushaltsueberblick - ohne Zahlen"
-permalink: {{ site.baseurl }}/pillar/haushaltsueberblick.html
+permalink: /pillar/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
 ---
-
 # Haushaltsueberblick - ohne Zahlen
 
 Bevor irgendetwas gerechnet, bewertet oder veraendert wird, ist es hilfreich, den eigenen Haushalt einfach nur zu sehen.
@@ -32,9 +31,7 @@ Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereite
 Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Weiter
-- [Fixkosten im Haushalt - Uebersicht]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "Start in 15 Minuten"
-permalink: {{ site.baseurl }}/seiten/start_in_15_minuten.html
+permalink: /seiten/start_in_15_minuten.html
 flow_systemlinks: true
 ---
-
 # Start in 15 Minuten
 
 Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
@@ -28,8 +27,7 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Monat?
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

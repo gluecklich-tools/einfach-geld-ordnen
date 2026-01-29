@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Versicherungen Check - zu viel oder doppelt?"
-permalink: {{ site.baseurl }}/pillar/versicherungen-check.html
+permalink: /pillar/versicherungen-check.html
 ---
-
 # Versicherungen Check - zu viel oder doppelt?
 
 Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
@@ -14,9 +13,7 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 3. Vergleiche Selbstbeteiligung vs Beitrag
 
 ## Weiter
-- [Fixkosten senken - Vorgehen]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

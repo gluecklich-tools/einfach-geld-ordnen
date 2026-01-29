@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Abo-Manager - Geldleck stoppen"
-permalink: {{ site.baseurl }}/pillar/abo-manager.html
+permalink: /pillar/abo-manager.html
 ---
-
 # Abo-Manager - Geldleck stoppen
 
 Ein Abo ist nicht das Problem. Viele Abos sind das Problem, weil sie leise Geld abziehen.
@@ -38,9 +37,7 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
 
 ## Weiter
-- [Abo-Liste - Vorlage]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

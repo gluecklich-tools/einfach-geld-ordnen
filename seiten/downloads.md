@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Downloads"
-permalink: {{ site.baseurl }}/seiten/downloads.html
+permalink: /seiten/downloads.html
 ---
-
 # Downloads
 
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
@@ -31,8 +30,7 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Haushaltsbuch Vorlage (kostenlos)]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

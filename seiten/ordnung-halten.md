@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ordnung halten - wenn sie hilft (ohne Druck)"
-permalink: {{ site.baseurl }}/seiten/ordnung-halten.html
+permalink: /seiten/ordnung-halten.html
 nav_group: seiten
 nav_order: 80
 flow_systemlinks: true
@@ -41,8 +41,7 @@ Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

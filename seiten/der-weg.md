@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Der Weg - Schritt für Schritt"
-permalink: {{ site.baseurl }}/seiten/der-weg.html
+permalink: /seiten/der-weg.html
 nav_group: seiten
 nav_order: 20
 flow_systemlinks: true
@@ -37,8 +37,7 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

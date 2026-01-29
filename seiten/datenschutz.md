@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Datenschutz"
-permalink: {{ site.baseurl }}/seiten/datenschutz.html
+permalink: /seiten/datenschutz.html
 nav_group: meta
 nav_order: 910
 flow_systemlinks: true
@@ -39,11 +39,10 @@ Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
 Stand: 2026-01-24
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
 
 ## Web Analytics (Cloudflare)
 

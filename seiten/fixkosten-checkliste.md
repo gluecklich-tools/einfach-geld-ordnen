@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Fixkosten Checkliste"
-permalink: {{ site.baseurl }}/seiten/fixkosten-checkliste.html
+permalink: /seiten/fixkosten-checkliste.html
 ---
-
 # Fixkosten Checkliste
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
@@ -27,8 +26,7 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 - Was ist ein guter Fixkosten-Anteil?
 
 ## Weiter
-- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Nebenkosten der Miete"
-permalink: {{ site.baseurl }}/seiten/nebenkosten-miete.html
+permalink: /seiten/nebenkosten-miete.html
 nav_group: seiten
 nav_order: 46
 flow_systemlinks: true
@@ -22,8 +22,7 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

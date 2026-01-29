@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Haushaltsbuch in Excel einfach erklärt"
-permalink: {{ site.baseurl }}/seiten/haushaltsbuch-excel.html
+permalink: /seiten/haushaltsbuch-excel.html
 nav_group: seiten
 nav_order: 120
 flow_systemlinks: true
@@ -17,8 +17,7 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

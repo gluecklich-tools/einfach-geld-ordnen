@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Variable Ausgaben - Einordnung ohne Druck"
-permalink: {{ site.baseurl }}/seiten/variable-ausgaben.html
+permalink: /seiten/variable-ausgaben.html
 nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
@@ -37,8 +37,7 @@ Mehr ist an dieser Stelle nicht nötig.
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

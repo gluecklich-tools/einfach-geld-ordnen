@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Rechner Uebersicht"
-permalink: {{ site.baseurl }}/seiten/rechner-uebersicht.html
+permalink: /seiten/rechner-uebersicht.html
 ---
-
 # Rechner Uebersicht
 
 Uebersicht: einfache Mini-Rechner (Self-Serve).
@@ -44,8 +43,7 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 
 ## Weiter
-- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Notgroschen Rechner"
-permalink: {{ site.baseurl }}/seiten/notgroschen-rechner.html
+permalink: /seiten/notgroschen-rechner.html
 ---
-
 # Notgroschen Rechner
 
 Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen ableiten (Self-Serve).
@@ -130,8 +129,7 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 </script>
 
 ## Weiter
-- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

@@ -1,12 +1,11 @@
 ---
 layout: default
 title: "Spielraum und Ruecklagen - realistisch einordnen"
-permalink: {{ site.baseurl }}/pillar/spielraum-ruecklagen.html
+permalink: /pillar/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
 flow_systemlinks: true
 ---
-
 # Spielraum und Ruecklagen - realistisch einordnen
 
 Es gibt im Haushalt Dinge, die fest sind (Fixkosten). Und es gibt Dinge, die schwanken oder unerwartet kommen.
@@ -59,9 +58,7 @@ Das ist nicht selten. Und es ist nicht falsch.
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
 ## Weiter
-- [Ordnung halten - ohne Druck]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

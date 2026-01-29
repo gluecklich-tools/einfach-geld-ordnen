@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Rechner - Uebersicht"
-permalink: {{ site.baseurl }}/seiten/rechner-index.html
+permalink: /seiten/rechner-index.html
 ---
-
 # Rechner - Uebersicht
 
 Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
@@ -15,8 +14,7 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [50-30-20 Budget]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

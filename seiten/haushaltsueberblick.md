@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Haushaltsüberblick - Einordnung ohne Druck"
-permalink: {{ site.baseurl }}/seiten/haushaltsueberblick.html
+permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
 flow_systemlinks: true
@@ -23,8 +23,7 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

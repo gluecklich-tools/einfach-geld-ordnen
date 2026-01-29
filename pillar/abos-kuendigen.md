@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Abos kuendigen - konsequent"
-permalink: {{ site.baseurl }}/pillar/abos-kuendigen.html
+permalink: /pillar/abos-kuendigen.html
 ---
-
 # Abos kuendigen - konsequent
 
 Abos sind oft das leiseste Geldleck. Ziel: erst alles sichtbar machen, dann konsequent kuerzen, bis nur noch das uebrig ist, was du wirklich nutzt.
@@ -26,9 +25,7 @@ Alles, was du in den letzten 30 Tagen nicht genutzt hast, wird gekuendigt. Wenn 
 Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschlossen.
 
 ## Weiter
-- [Abo-Liste - Vorlage]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

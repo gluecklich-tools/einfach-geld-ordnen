@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Rechner - Schulden-Schneeball (Mini)"
-permalink: {{ site.baseurl }}/seiten/rechner-schneeball.html
+permalink: /seiten/rechner-schneeball.html
 ---
-
 # Rechner - Schulden-Schneeball (Mini)
 
 **Ziel:** Minimum auf alle Schulden, Extra auf die kleinste.
@@ -42,8 +41,7 @@ permalink: {{ site.baseurl }}/seiten/rechner-schneeball.html
 </script>
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

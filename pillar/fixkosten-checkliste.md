@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Fixkosten-Checkliste - Luft schaffen"
-permalink: {{ site.baseurl }}/pillar/fixkosten-checkliste.html
+permalink: /pillar/fixkosten-checkliste.html
 ---
-
 # Fixkosten-Checkliste - Luft schaffen
 
 Fixkosten sind der groesste Hebel, weil sie jeden Monat automatisch laufen. Ziel: senken, kuendigen oder wechseln, bis wieder Luft entsteht.
@@ -20,9 +19,7 @@ Gehe die Liste in dieser Reihenfolge durch:
 Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist nicht noetig.
 
 ## Weiter
-- [Mobilfunk/Internet senken - schnellster Hebel]({{)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

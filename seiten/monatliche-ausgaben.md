@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Monatliche Ausgaben"
-permalink: {{ site.baseurl }}/seiten/monatliche-ausgaben.html
+permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
@@ -28,8 +28,7 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

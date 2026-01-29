@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Jahreskosten-Kalender - planbar machen"
-permalink: {{ site.baseurl }}/pillar/jahreskosten-kalender.html
+permalink: /pillar/jahreskosten-kalender.html
 ---
-
 # Jahreskosten-Kalender - planbar machen
 
 Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst. Dann sind sie keine Ueberraschung mehr, sondern eine feste Ruecklage.
@@ -26,8 +25,7 @@ So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 
 ## Weiter
-  - [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)

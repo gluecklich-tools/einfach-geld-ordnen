@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Qualität & Prinzipien"
-permalink: {{ site.baseurl }}/seiten/qualitaet.html
+permalink: /seiten/qualitaet.html
 nav_group: meta
 nav_order: 920
 flow_systemlinks: true
@@ -42,8 +42,7 @@ Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

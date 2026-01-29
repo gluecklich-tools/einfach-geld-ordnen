@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "100% Self-Service"
-permalink: {{ site.baseurl }}/seiten/self_service.html
+permalink: /seiten/self_service.html
 flow_systemlinks: true
 ---
-
 # 100% Self-Service
 
 Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
@@ -42,8 +41,7 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

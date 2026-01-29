@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Rechner - Jahreskosten pro Monat (Mini)"
-permalink: {{ site.baseurl }}/seiten/rechner-jahreskosten.html
+permalink: /seiten/rechner-jahreskosten.html
 ---
-
 # Rechner - Jahreskosten pro Monat (Mini)
 
 <p>
@@ -28,8 +27,7 @@ permalink: {{ site.baseurl }}/seiten/rechner-jahreskosten.html
 </script>
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

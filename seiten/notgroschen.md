@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Notgroschen"
-permalink: {{ site.baseurl }}/seiten/notgroschen.html
+permalink: /seiten/notgroschen.html
 ---
-
 # Notgroschen
 
 Kurz: Dein Sicherheitsnetz fuer unerwartete Ausgaben (Self-Serve).
@@ -24,8 +23,7 @@ Kurz: Dein Sicherheitsnetz fuer unerwartete Ausgaben (Self-Serve).
 - Was, wenn ich schwankendes Einkommen habe?
 
 ## Weiter
-- Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

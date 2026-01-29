@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
-permalink: {{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 nav_group: seiten
 nav_order: 100
 flow_systemlinks: true
@@ -16,8 +16,7 @@ Bis dahin: Nutze den Flow über den Uebersicht.
 ---
 
 ## Weiter
-- [Start]({{ site.baseurl }}/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
 
-{% include no_sackgasse_footer.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
