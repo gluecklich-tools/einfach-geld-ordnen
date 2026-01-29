@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Spielraum Rechner"
 permalink: /seiten/spielraum-rechner.html
 ---

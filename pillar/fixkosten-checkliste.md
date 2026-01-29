@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: /pillar/fixkosten-checkliste.html
 ---

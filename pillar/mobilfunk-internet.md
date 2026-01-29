@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Mobilfunk/Internet senken - schnellster Hebel"
 permalink: /pillar/mobilfunk-internet.html
 ---

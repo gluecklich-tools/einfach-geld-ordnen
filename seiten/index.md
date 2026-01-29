@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: "Start"
 permalink: /seiten/index.html
 flow_systemlinks: true
-permalink: /
-layout: page
+permalink: /seiten/index.html
+layout: default
 title: "Start"
 permalink: /seiten/index.html
 flow_systemlinks: true

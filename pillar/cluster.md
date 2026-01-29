@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Themen-Uebersicht"
 permalink: /pillar/cluster.html
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Variable Ausgaben - Einordnung ohne Druck"
 permalink: /seiten/variable-ausgaben.html
 nav_group: seiten

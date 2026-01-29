@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Impressum"
 permalink: /seiten/impressum.html
 nav_group: meta

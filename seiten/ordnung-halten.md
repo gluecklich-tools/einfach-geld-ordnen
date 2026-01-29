@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Ordnung halten - wenn sie hilft (ohne Druck)"
 permalink: /seiten/ordnung-halten.html
 nav_group: seiten

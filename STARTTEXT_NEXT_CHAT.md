@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /STARTTEXT_NEXT_CHAT.html
+---
 # STARTTEXT – Neuer Arbeitschat (Einfach Geld ordnen)
 
 **Stand:** 2026-01-24 (Europe/Berlin)

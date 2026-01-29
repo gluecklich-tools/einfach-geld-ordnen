@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Schulden Lawine"
 permalink: /seiten/schulden-lawine.html
 ---

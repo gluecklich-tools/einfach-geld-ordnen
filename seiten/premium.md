@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Premium"
 permalink: /seiten/premium.html
 nav_group: seiten

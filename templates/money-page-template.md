@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /templates/money-page-template.html
+---
 # Money Page Template (EGO)
 
 Zweck: Vorlage fuer eine Money Page (SEO + Self-Serve), ohne Supportversprechen.

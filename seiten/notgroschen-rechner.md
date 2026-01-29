@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Notgroschen Rechner"
 permalink: /seiten/notgroschen-rechner.html
 ---

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "QA Release Gate"
-permalink: /seiten/qualitaet.html
+permalink: /seiten/qa-release-gate.html
 ---
 # QA Release Gate
 

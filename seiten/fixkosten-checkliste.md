@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Fixkosten Checkliste"
 permalink: /seiten/fixkosten-checkliste.html
 ---

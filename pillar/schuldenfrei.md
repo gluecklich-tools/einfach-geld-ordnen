@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Schuldenfrei werden - Uebersicht"
 permalink: /pillar/schuldenfrei.html
 ---

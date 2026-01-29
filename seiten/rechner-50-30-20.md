@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Rechner - 50-30-20 (Mini)"
 permalink: /seiten/rechner-50-30-20.html
 ---

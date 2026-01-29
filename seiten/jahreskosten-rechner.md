@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Jahreskosten Rechner"
 permalink: /seiten/jahreskosten-rechner.html
 ---

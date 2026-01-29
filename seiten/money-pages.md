@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Money Pages"
 permalink: /seiten/money-pages.html
 ---

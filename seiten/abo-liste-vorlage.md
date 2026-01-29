@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Abo-Liste Vorlage"
 permalink: /seiten/abo-liste-vorlage.html
 nav_group: seiten

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Haushaltsbuch - Überblick"
 permalink: /seiten/haushaltsbuch.html
 nav_group: seiten

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Abo-Manager - Geldleck stoppen"
 permalink: /pillar/abo-manager.html
 ---

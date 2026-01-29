@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Proof Rechner"
 permalink: /seiten/proof-rechner.html
 ---

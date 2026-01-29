@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /FINANZEN_README.html
+---
 # Finanzen / Nachweise (Hinweis)
 
 Aus Datenschutzgründen liegen **Finanz- und Nachweisunterlagen** (z. B. Auszahlungen, Reports, Jobcenter/Finanzamt-Kommunikation) **nicht im öffentlichen Repo**.

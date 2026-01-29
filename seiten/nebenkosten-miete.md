@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete.html
 nav_group: seiten

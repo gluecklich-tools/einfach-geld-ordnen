@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "50/30/20 Rechner"
 permalink: /seiten/budget-50-30-20-rechner.html
 ---

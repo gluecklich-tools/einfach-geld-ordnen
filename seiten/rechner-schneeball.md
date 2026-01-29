@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Rechner - Schulden-Schneeball (Mini)"
 permalink: /seiten/rechner-schneeball.html
 ---

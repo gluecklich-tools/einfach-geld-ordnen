@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Projekt-Uebersicht"
 permalink: /pillar/index.html
 ---

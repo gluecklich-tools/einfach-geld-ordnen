@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Strom/Gas wechseln - Kosten senken"
 permalink: /pillar/strom-gas-wechsel.html
 ---

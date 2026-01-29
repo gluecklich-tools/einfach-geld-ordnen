@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Abos kuendigen - konsequent"
 permalink: /pillar/abos-kuendigen.html
 ---

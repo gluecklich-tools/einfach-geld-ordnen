@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Sparen automatisch"
 permalink: /seiten/sparen-automatisch.html
 ---

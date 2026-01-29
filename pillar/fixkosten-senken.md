@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
 ---

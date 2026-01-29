@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Monatliche Ausgaben"
 permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten

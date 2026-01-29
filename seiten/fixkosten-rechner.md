@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Fixkosten Rechner"
 permalink: /seiten/fixkosten-rechner.html
 ---

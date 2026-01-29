@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Notgroschen - Schutz vor Rueckfall"
 permalink: /pillar/notgroschen.html
 ---

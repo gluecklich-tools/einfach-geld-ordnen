@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Proof Money Page"
 permalink: /seiten/proof-money-page.html
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Nach dem Kauf"
 permalink: /seiten/nach_dem_kauf.html
 flow_systemlinks: true

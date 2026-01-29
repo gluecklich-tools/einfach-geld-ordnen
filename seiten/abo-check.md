@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Abo Check"
 permalink: /seiten/abo-check.html
 ---

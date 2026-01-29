@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Lawine Rechner"
 permalink: /seiten/lawine-rechner.html
 ---

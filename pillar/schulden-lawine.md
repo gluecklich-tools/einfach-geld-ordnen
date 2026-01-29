@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Schulden-Lawine - Anleitung"
 permalink: /pillar/schulden-lawine.html
 ---

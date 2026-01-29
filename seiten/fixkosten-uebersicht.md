@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Fixkosten Übersicht"
 permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten

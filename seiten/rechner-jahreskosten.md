@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Rechner - Jahreskosten pro Monat (Mini)"
 permalink: /seiten/rechner-jahreskosten.html
 ---

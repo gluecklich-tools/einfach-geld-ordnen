@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Changelog"
-permalink: /seiten/qualitaet.html
+permalink: /seiten/changelog.html
 ---
 # Changelog
 

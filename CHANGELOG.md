@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /CHANGELOG.html
+---
 # CHANGELOG – Einfach Geld ordnen
 
 ## 2026-01-24

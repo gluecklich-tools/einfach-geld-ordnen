@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Snowball Rechner"
 permalink: /seiten/snowball-rechner.html
 ---

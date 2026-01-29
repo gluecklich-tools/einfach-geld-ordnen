@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Haushaltsbuch Vollversion - kommt bald"
 permalink: /seiten/haushaltsbuch-vollversion.html
 nav_group: seiten

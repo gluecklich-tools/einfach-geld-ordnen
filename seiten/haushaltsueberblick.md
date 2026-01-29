@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Haushaltsüberblick - Einordnung ohne Druck"
 permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten

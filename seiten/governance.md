@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Transparenz & Verantwortung"
 permalink: /seiten/governance.html
 flow_systemlinks: true

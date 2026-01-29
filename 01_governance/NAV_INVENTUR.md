@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /01_governance/NAV_INVENTUR.html
+---
 # NAV Inventur
 
 **Stand:** 2026-01-25 15:10:23 +01:00

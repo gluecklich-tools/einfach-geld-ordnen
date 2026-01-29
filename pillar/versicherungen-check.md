@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Versicherungen Check - zu viel oder doppelt?"
 permalink: /pillar/versicherungen-check.html
 ---

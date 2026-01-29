@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Jahreskosten-Kalender - planbar machen"
 permalink: /pillar/jahreskosten-kalender.html
 ---

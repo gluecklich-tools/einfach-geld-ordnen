@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /README.html
+---
 # einfach-geld-ordnen
 
 Einfaches Haushaltsbuch & Geld ordnen – **statische Inhalte** (GitHub Pages / Jekyll)

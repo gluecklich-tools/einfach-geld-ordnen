@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Jahreskosten Kalender"
 permalink: /seiten/jahreskosten-kalender.html
 ---

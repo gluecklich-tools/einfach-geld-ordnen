@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Datenschutz"
 permalink: /seiten/datenschutz.html
 nav_group: meta
