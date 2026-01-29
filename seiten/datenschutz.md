@@ -38,12 +38,6 @@ Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
 
 Stand: 2026-01-24
 
-## Weiter
-
-- **Weiter:** [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-index.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
-
 ## Web Analytics (Cloudflare)
 
 Wir nutzen **Cloudflare Web Analytics** zur Reichweitenmessung und zur Verbesserung der Performance (z.B. Core Web Vitals).
@@ -51,5 +45,12 @@ Dabei werden technische Informationen (z.B. aufgerufene Seite/URL, Referrer, Use
 
 Anbieter: Cloudflare, Inc. (USA)
 Weitere Informationen: https://www.cloudflare.com/privacypolicy/
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
 
 {% include no_sackgasse_footer.html %}

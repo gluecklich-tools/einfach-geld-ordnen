@@ -28,11 +28,11 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 
 <!-- VISIBILITY_END -->
 
-
 ## Weiter
 
-- [Haushaltsbuch: kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Haushaltsbuch: Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-- [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
 
 {% include no_sackgasse_footer.html %}

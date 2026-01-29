@@ -23,8 +23,9 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 
 ## Weiter
 
-- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+- [Weiter]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
+- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
 
 {% include no_sackgasse_footer.html %}

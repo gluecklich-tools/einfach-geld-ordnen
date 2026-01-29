@@ -26,8 +26,9 @@ Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschloss
 
 ## Weiter
 
-- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+- [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
+
 
 {% include no_sackgasse_footer.html %}

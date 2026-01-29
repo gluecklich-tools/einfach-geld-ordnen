@@ -36,8 +36,9 @@ permalink: /seiten/rechner-50-30-20.html
 
 ## Weiter
 
-- **Weiter:** [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-index.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- [Weiter]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
+
 
 {% include no_sackgasse_footer.html %}
