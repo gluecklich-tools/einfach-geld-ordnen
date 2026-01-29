@@ -23,7 +23,6 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 - Entscheidungen werden ruhiger, weil nicht alles sofort „kritisch“ wirkt.
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

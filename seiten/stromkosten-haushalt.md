@@ -17,7 +17,6 @@ Für den Start reicht:
 Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

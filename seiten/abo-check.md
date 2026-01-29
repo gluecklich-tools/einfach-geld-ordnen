@@ -24,7 +24,6 @@ Kurz: Abos finden, kuendigen, sparen (Self-Serve).
 - Was, wenn ich Kuendigungstermine verpasst habe?
 
 ## Weiter
-
 - Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)

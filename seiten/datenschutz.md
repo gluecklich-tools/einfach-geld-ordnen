@@ -39,7 +39,6 @@ Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
 Stand: 2026-01-24
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

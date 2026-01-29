@@ -14,9 +14,9 @@ Diese Seite ist die Zielseite fuer die Abo-Links aus dem Pillar-Bereich.
 Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann direkt zu den Downloads.
 
 ## Weiter
-
 - [Abo-Manager]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

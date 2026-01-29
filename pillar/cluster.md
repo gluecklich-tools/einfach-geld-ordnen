@@ -28,7 +28,6 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 - [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

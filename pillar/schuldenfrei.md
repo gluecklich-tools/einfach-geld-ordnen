@@ -23,9 +23,9 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 
 ## Weiter
-
 - [Schulden-Schneeball]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

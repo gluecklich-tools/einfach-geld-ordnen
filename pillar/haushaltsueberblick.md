@@ -32,9 +32,9 @@ Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereite
 Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Weiter
-
 - [Fixkosten im Haushalt - Uebersicht]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

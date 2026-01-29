@@ -24,7 +24,6 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - Frage 3: Antwort
 
 ## Weiter
-
 - Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - Downloads (Freebie): [Kostenlose Vorlage]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - Vollversion: [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)

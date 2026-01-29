@@ -28,9 +28,9 @@ Du musst nichts pflegen. Du musst nichts regelmaessig ueberpruefen. Du musst nic
 Alles, was hier entstanden ist, darf sich veraendern.
 
 ## Weiter
-
 - [Der Weg - Schritt fuer Schritt]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

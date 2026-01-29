@@ -17,7 +17,6 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 ---
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

@@ -26,7 +26,6 @@ flow_systemlinks: true
 Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

@@ -59,9 +59,9 @@ Das ist nicht selten. Und es ist nicht falsch.
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
 ## Weiter
-
 - [Ordnung halten - ohne Druck]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

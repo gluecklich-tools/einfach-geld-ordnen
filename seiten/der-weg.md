@@ -25,7 +25,6 @@ Dieser Weg führt dich ohne Umwege durch die wichtigsten Schritte.
 ---
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

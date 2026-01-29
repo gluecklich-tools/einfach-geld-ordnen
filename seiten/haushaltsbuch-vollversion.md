@@ -51,7 +51,6 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** â
   [Zur Ãœbersicht]({{ site.baseurl }}/pillar/index.html)
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

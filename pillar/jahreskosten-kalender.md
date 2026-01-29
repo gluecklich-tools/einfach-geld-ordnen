@@ -26,8 +26,7 @@ So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 
 ## Weiter
-
-- [Mini-Rechner: Jahreskosten pro Monat]({{)
+  - [Mini-Rechner: Jahreskosten pro Monat]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 

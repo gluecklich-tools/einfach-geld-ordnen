@@ -23,7 +23,6 @@ Das ist wertvoll – weil es **endlich sichtbar** wird.
 ---
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

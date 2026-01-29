@@ -16,9 +16,9 @@ Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schu
 Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 
 ## Weiter
-
 - [Jahreskosten-Kalender - planbar machen]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

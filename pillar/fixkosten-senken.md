@@ -26,9 +26,9 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
 
 ## Weiter
-
 - [Versicherungen Check - zu viel oder doppelt?]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

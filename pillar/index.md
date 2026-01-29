@@ -29,9 +29,9 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
-
 - [Themen-Uebersicht]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

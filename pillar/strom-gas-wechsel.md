@@ -14,9 +14,9 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 3. Kuendigungsfrist und Starttermin sauber setzen
 
 ## Weiter
-
 - [Mobilfunk/Internet senken - schnellster Hebel]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

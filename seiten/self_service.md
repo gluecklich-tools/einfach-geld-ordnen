@@ -42,7 +42,6 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

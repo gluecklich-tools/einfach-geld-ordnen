@@ -26,9 +26,9 @@ Alles, was du in den letzten 30 Tagen nicht genutzt hast, wird gekuendigt. Wenn 
 Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschlossen.
 
 ## Weiter
-
 - [Abo-Liste - Vorlage]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

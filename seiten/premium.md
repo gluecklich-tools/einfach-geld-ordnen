@@ -20,7 +20,6 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Kein persoenlicher Support
 
 ## Weiter
-
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)

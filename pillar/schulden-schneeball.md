@@ -15,8 +15,7 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 4. **Nach Tilgung**: Extra auf die naechste
 
 ## Weiter
-
-- [Mini-Rechner: Schneeball-Extra]({{)
+  - [Mini-Rechner: Schneeball-Extra]({{ site.baseurl }}/seiten/snowball-rechner.html)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 

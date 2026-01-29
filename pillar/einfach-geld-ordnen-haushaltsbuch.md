@@ -29,9 +29,9 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
    - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 ## Weiter
-
 - [Fixkosten-Checkliste - Luft schaffen]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

@@ -26,9 +26,9 @@ Anruf oder Chat: "Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
 Wechsel ist oft der groessere Hebel als lange Diskussionen.
 
 ## Weiter
-
 - [Abos kuendigen - konsequent]({{)
 - [Start]({{ site.baseurl }}/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
