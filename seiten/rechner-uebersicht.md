@@ -30,6 +30,18 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 - **Spielraum Rechner**  
   Rechner: [Spielraum Rechner]({{ site.baseurl }}/seiten/spielraum-rechner.html) · Money Page: [Spielraum]({{ site.baseurl }}/seiten/spielraum.html)
+<!-- VISIBILITY_START -->
+
+## Einstieg
+
+- [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
+- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
+- [Money Pages]({{ site.baseurl }}/seiten/money-pages.html)
+
+<!-- VISIBILITY_END -->
+
 
 ## Weiter
 - Rechner: [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
