@@ -28,7 +28,7 @@ Zweck: Vorlage fuer eine Money Page (SEO + Self-Serve), ohne Supportversprechen.
 ## 6) Interlink-Plan (keine Sackgassen)
 - Hub: [Uebersichtsseite]
 - Rechner: [passender Rechner]
-- 2 verwandte Money Pages
+- 2 verwandte Themen-Seiten
 ## Weiter
 - [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
 - [Download]({{ site.baseurl }}/seiten/downloads.html)

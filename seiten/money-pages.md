@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Money Pages"
+title: "Themen-Seiten"
 permalink: /seiten/money-pages.html
 ---
-# Money Pages
+# Themen-Seiten
 
 Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
