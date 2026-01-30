@@ -32,7 +32,7 @@ Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eig
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 

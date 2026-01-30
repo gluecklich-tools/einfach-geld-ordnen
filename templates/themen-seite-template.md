@@ -30,7 +30,7 @@ Zweck: Vorlage fuer eine Themen-Seite (SEO + Self-Serve), ohne Supportverspreche
 - Rechner: [passender Rechner]
 - 2 verwandte Themen-Seiten
 ## Weiter
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Naechster Schritt]({{ site.baseurl }}/pillar/50-30-20.html)
 - [Download]({{ site.baseurl }}/seiten/downloads.html)
 - [Uebersicht]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

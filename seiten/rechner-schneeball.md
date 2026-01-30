@@ -42,7 +42,7 @@ permalink: /seiten/rechner-schneeball.html
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

@@ -14,7 +14,7 @@ Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann dir
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/abo-check.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/abo-check.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

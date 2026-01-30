@@ -15,7 +15,7 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/lawine-rechner.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/lawine-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 

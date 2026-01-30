@@ -24,7 +24,7 @@ Kurz: Jahreskosten sichtbar machen (Versicherung, GEZ, Wartung) und monatlich gl
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 
