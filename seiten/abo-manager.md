@@ -1,18 +1,19 @@
 ---
 layout: default
-title: Abo-Manager einfach
+title: Abo-Manager und Abos kuendigen
 permalink: /seiten/abo-manager.html
 ---
-# Abo-Manager (alles auf einen Blick)
-Abos sind oft kleine Betraege, die sich unbemerkt summieren.
-Wenn du einmal **alles sammelst**, findest du schnell die groessten Hebel.
-## Mini-Plan
-1. Sammle alle Abos (Streaming, Apps, Versicherungen, Cloud, Fitness, etc.).
-2. Rechne **Monat** und **Jahr** aus.
-3. Kuendige zuerst die Abos, die du kaum nutzt oder doppelt hast.
-4. Setze einen Fix-Termin: 1x pro Quartal Abo-Check.
+# Abo-Manager (schnell Geld frei machen)
+Abos sind kleine Betrage, die sich heimlich stapeln: Streaming, Apps, Software, Lieferdienste, Versicherungs-Zusatzkram.
+Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr Luft.
+## Mini-Plan (30 Minuten)
+1. Sammle alle Abos (Kontoauszug, PayPal, App-Store, E-Mail-Suche nach "Abo", "Subscription", "Rechnung").
+2. Notiere Preis und Zahlungsrhythmus (monatlich/jaehrlich).
+3. Markiere: **brauche ich wirklich** vs **nur Gewohnheit**.
+4. Kuendige zuerst: teuer + selten genutzt.
+5. Lege die Ersparnis sofort fest (Notgroschen oder Schulden).
 ## Weiter
-1. [Rechner: Abo-Liste auswerten]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
+1. [Rechner: Abo-Kosten pro Monat/Jahr]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
 2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
 3. [Startseite]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

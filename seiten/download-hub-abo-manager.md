@@ -11,6 +11,6 @@ Hier sammelst du alle Downloads, die zum Abo-Flow gehoeren.
 * (Hier verlinkst du spaeter die Vollversion.)
 ## Weiter
 1. [Themen-Seite: Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
-2. [Rechner: Abo-Auswertung]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
+2. [Rechner: Abo-Kosten pro Monat/Jahr]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
 3. [Startseite]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

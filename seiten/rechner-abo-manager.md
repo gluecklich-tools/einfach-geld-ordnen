@@ -3,71 +3,113 @@ layout: default
 title: Rechner Abo-Manager
 permalink: /seiten/rechner-abo-manager.html
 ---
-# Rechner: Abo-Manager (Summe pro Monat/Jahr)
-Eintrag pro Zeile: <code>Name; Betrag; Intervall</code>
-Intervall: <code>monat</code> oder <code>jahr</code>
-<textarea id="subs" rows="10" style="width:100%;" placeholder="Netflix; 12.99; monat
-Spotify; 10.99; monat
-Gym; 240; jahr"></textarea>
+# Rechner: Abo-Manager (Kosten pro Monat und Jahr)
+Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten Abos.
+<div class="grid">
+  <div>
+    <label for="name">Abo-Name</label>
+    <input id="name" type="text" placeholder="z.B. Streaming" />
+  </div>
+  <div>
+    <label for="betrag">Betrag</label>
+    <input id="betrag" type="number" min="0" step="0.01" inputmode="decimal" placeholder="z.B. 12.99" />
+  </div>
+  <div>
+    <label for="rhythmus">Rhythmus</label>
+    <select id="rhythmus">
+      <option value="month" selected>monatlich</option>
+      <option value="year">jaehrlich</option>
+    </select>
+  </div>
+</div>
 <p>
-  <button id="calcBtn" type="button">Auswerten</button>
+  <button id="addBtn" type="button">Abo hinzufuegen</button>
+  <button id="clearBtn" type="button" class="secondary">Liste leeren</button>
 </p>
+<div id="list"></div>
 <div id="out" aria-live="polite"></div>
 <script>
 (function () {
-  function esc(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-  function num(v){ var n = Number(String(v||'0').replace(',', '.')); return isFinite(n) ? n : NaN; }
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]); }); }
+  function num(v){ var n = Number(String(v||'0').replace(',', '.')); return isFinite(n) ? n : 0; }
   function fmtEUR(n){
     try { return new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR' }).format(n); }
     catch(e){ return (Math.round(n*100)/100).toFixed(2) + ' EUR'; }
   }
-  function parseLine(line){
-    var parts = line.split(';').map(p => p.trim()).filter(Boolean);
-    if (parts.length < 2) return null;
-    var name = parts[0];
-    var amount = num(parts[1]);
-    var interval = (parts[2] || 'monat').toLowerCase();
-    if (!name || !isFinite(amount)) return null;
-    if (interval !== 'monat' && interval !== 'jahr') interval = 'monat';
-    var monthly = (interval === 'monat') ? amount : (amount / 12);
-    var yearly  = monthly * 12;
-    return { name:name, amount:amount, interval:interval, monthly:monthly, yearly:yearly };
+  var nameEl = document.getElementById('name');
+  var betragEl = document.getElementById('betrag');
+  var rhyEl = document.getElementById('rhythmus');
+  var addBtn = document.getElementById('addBtn');
+  var clearBtn = document.getElementById('clearBtn');
+  var listEl = document.getElementById('list');
+  var outEl = document.getElementById('out');
+  var items = [];
+  function toMonthly(it){
+    var v = it.value;
+    if (it.freq === 'year') return v / 12;
+    return v;
   }
-  var ta = document.getElementById('subs');
-  var btn = document.getElementById('calcBtn');
-  var out = document.getElementById('out');
-  btn.addEventListener('click', function(){
-    var lines = ta.value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
-    var rows = [];
-    for (var i=0;i<lines.length;i++){
-      var r = parseLine(lines[i]);
-      if (r) rows.push(r);
-    }
-    if (!rows.length){
-      out.innerHTML = '<p><strong>Keine gueltigen Zeilen gefunden.</strong></p>';
+  function render(){
+    if (!items.length){
+      listEl.innerHTML = '<p><em>Noch keine Abos eingetragen.</em></p>';
+      outEl.innerHTML = '';
       return;
     }
-    rows.sort(function(a,b){ return b.monthly - a.monthly; });
-    var sumM = rows.reduce((s,r)=>s+r.monthly,0);
-    var sumY = rows.reduce((s,r)=>s+r.yearly,0);
-    var top = rows.slice(0,3);
-    var html = '';
-    html += '<p><strong>Summe pro Monat:</strong> ' + esc(fmtEUR(sumM)) + '</p>';
-    html += '<p><strong>Summe pro Jahr:</strong> ' + esc(fmtEUR(sumY)) + '</p>';
-    html += '<h2>Liste (sortiert nach Monatskosten)</h2>';
-    html += '<ol>';
-    rows.forEach(function(r){
-      html += '<li><strong>' + esc(r.name) + '</strong> – ' + esc(fmtEUR(r.monthly)) + '/Monat (Intervall: ' + esc(r.interval) + ')</li>';
+    var rows = items.map(function(it, idx){
+      var m = toMonthly(it);
+      var y = m * 12;
+      return '<tr>' +
+        '<td>' + esc(it.name) + '</td>' +
+        '<td>' + esc(it.freq === "year" ? "jaehrlich" : "monatlich") + '</td>' +
+        '<td style="text-align:right;">' + esc(fmtEUR(m)) + '</td>' +
+        '<td style="text-align:right;">' + esc(fmtEUR(y)) + '</td>' +
+        '<td style="text-align:right;"><button type="button" data-del="' + idx + '">X</button></td>' +
+      '</tr>';
+    }).join('');
+    listEl.innerHTML =
+      '<table role="grid">' +
+      '<thead><tr><th>Abo</th><th>Rhythmus</th><th style="text-align:right;">pro Monat</th><th style="text-align:right;">pro Jahr</th><th></th></tr></thead>' +
+      '<tbody>' + rows + '</tbody></table>';
+    var totalM = items.reduce(function(s,it){ return s + toMonthly(it); }, 0);
+    var totalY = totalM * 12;
+    var sorted = items.slice().sort(function(a,b){ return toMonthly(b) - toMonthly(a); });
+    var top = sorted.slice(0,3).map(function(it){
+      return esc(it.name) + ' (' + esc(fmtEUR(toMonthly(it))) + '/Monat)';
     });
-    html += '</ol>';
-    html += '<h2>Top 3 (schnellster Hebel)</h2>';
-    html += '<ol>';
-    top.forEach(function(r){
-      html += '<li><strong>' + esc(r.name) + '</strong> – ' + esc(fmtEUR(r.monthly)) + '/Monat</li>';
+    var hint = '';
+    if (totalM >= 50) hint = 'Wenn du 1 bis 2 Abos kuendigst, sind 10 bis 30 EUR oft sofort drin.';
+    if (totalM >= 100) hint = 'Hier steckt meist richtig Potenzial: starte mit den teuersten Abos und pruefe doppelte Dienste.';
+    if (totalM < 20) hint = 'Du hast schon wenig Abos. Fokus kann jetzt eher Fixkosten oder Einnahmen sein.';
+    outEl.innerHTML =
+      '<p><strong>Summe:</strong> ' + esc(fmtEUR(totalM)) + ' pro Monat (' + esc(fmtEUR(totalY)) + ' pro Jahr)</p>' +
+      '<p><strong>Top-Abos:</strong> ' + (top.length ? top.join(', ') : '-') + '</p>' +
+      '<p>' + esc(hint) + '</p>';
+    Array.prototype.slice.call(listEl.querySelectorAll('button[data-del]')).forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var i = Number(btn.getAttribute('data-del'));
+        if (isFinite(i)) { items.splice(i,1); render(); }
+      });
     });
-    html += '</ol>';
-    out.innerHTML = html;
+  }
+  addBtn.addEventListener('click', function(){
+    var n = String(nameEl.value || '').trim();
+    var v = num(betragEl.value);
+    var f = String(rhyEl.value || 'month');
+    if (!n || v <= 0){
+      outEl.innerHTML = '<p><strong>Bitte Abo-Name und Betrag eingeben.</strong></p>';
+      return;
+    }
+    items.push({ name: n, value: v, freq: (f === 'year' ? 'year' : 'month') });
+    nameEl.value = '';
+    betragEl.value = '';
+    nameEl.focus();
+    render();
   });
+  clearBtn.addEventListener('click', function(){
+    items = [];
+    render();
+  });
+  render();
 })();
 </script>
 ## Weiter
