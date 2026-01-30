@@ -3,79 +3,107 @@ layout: default
 title: Rechner Schulden Schneeball
 permalink: /seiten/rechner-schulden-schneeball.html
 ---
-# Rechner: Schulden-Schneeball (einfach)
-Dieser Rechner ist bewusst simpel: Du gibst **deine Schuldenliste** ein und bekommst eine **sortierte Reihenfolge** (kleinste Restschuld zuerst) plus ein Monatsbudget-Feld als Orientierung.
-> Hinweis: Die exakte Laufzeit-Berechnung ist absichtlich nicht drin (sonst wird es schnell unuebersichtlich). Ziel von MVP02 ist der **Flow** + **Selbst-Serve**, nicht High-End-Finanzmathe.
-## Eingabe
-<label for="budget">Monatsbudget fuer Schuldentilgung (gesamt, optional)</label>
-<input id="budget" type="number" min="0" step="1" inputmode="numeric" />
-<h2>Schuldenliste</h2>
-<p>Eintrag pro Zeile: <code>Name; Restbetrag; Mindestrate; Zins</code> (Zins optional).</p>
-<textarea id="debts" rows="10" style="width:100%;" placeholder="Kreditkarte; 850; 35; 19.9
-Handy; 240; 20
-Ratenkauf; 1200; 60; 7.5"></textarea>
+# Rechner: Schulden-Schneeball (Plan in Sekunden)
+Eintrag pro Zeile: <code>Name; Restschuld; Mindestrate</code>
+Optional: Du kannst einen **Extra-Betrag** angeben, der jeden Monat zusaetzlich in den Schneeball geht.
+<textarea id="debts" rows="10" style="width:100%;" placeholder="Kredit A; 1200; 60
+Kredit B; 3500; 95
+Kredit C; 600; 30"></textarea>
+<label for="extra">Extra pro Monat (EUR)</label>
+<input id="extra" type="number" min="0" step="1" inputmode="numeric" />
 <p>
-  <button id="calcBtn" type="button">Reihenfolge berechnen</button>
+  <button id="calcBtn" type="button">Plan erstellen</button>
 </p>
-<h2>Ergebnis</h2>
 <div id="out" aria-live="polite"></div>
 <script>
 (function () {
-  function esc(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-  function parseLine(line) {
-    var parts = line.split(';').map(p => p.trim()).filter(Boolean);
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]); }); }
+  function num(v){ var n = Number(String(v||'0').replace(',', '.')); return isFinite(n) ? n : NaN; }
+  function fmtEUR(n){
+    try { return new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR' }).format(n); }
+    catch(e){ return (Math.round(n*100)/100).toFixed(2) + ' EUR'; }
+  }
+  function parseLine(line){
+    var parts = line.split(';').map(function(p){ return p.trim(); }).filter(Boolean);
     if (parts.length < 3) return null;
     var name = parts[0];
-    var rest = Number(String(parts[1]).replace(',', '.'));
-    var min = Number(String(parts[2]).replace(',', '.'));
-    var rate = (parts.length >= 4) ? Number(String(parts[3]).replace(',', '.')) : null;
-    if (!name || !isFinite(rest) || !isFinite(min)) return null;
-    return { name: name, rest: rest, min: min, rate: isFinite(rate) ? rate : null };
+    var rest = num(parts[1]);
+    var minrate = num(parts[2]);
+    if (!name || !isFinite(rest) || !isFinite(minrate) || rest <= 0 || minrate < 0) return null;
+    return { name:name, rest:rest, minrate:minrate };
   }
-  function formatEUR(n){
-    try { return new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR' }).format(n); }
-    catch(e){ return n.toFixed(2) + ' EUR'; }
-  }
+  var ta = document.getElementById('debts');
+  var extraEl = document.getElementById('extra');
   var btn = document.getElementById('calcBtn');
-  var ta  = document.getElementById('debts');
   var out = document.getElementById('out');
-  var budget = document.getElementById('budget');
-  btn.addEventListener('click', function () {
-    var lines = ta.value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  btn.addEventListener('click', function(){
+    var lines = ta.value.split(/\r?\n/).map(function(l){ return l.trim(); }).filter(Boolean);
     var rows = [];
     for (var i=0;i<lines.length;i++){
       var r = parseLine(lines[i]);
       if (r) rows.push(r);
     }
+    var extra = num(extraEl.value);
+    if (!isFinite(extra) || extra < 0) extra = 0;
     if (!rows.length){
       out.innerHTML = '<p><strong>Keine gueltigen Zeilen gefunden.</strong></p>';
       return;
     }
-    rows.sort(function(a,b){
-      if (a.rest !== b.rest) return a.rest - b.rest;
-      return a.min - b.min;
-    });
-    var b = Number(String(budget.value || '0').replace(',', '.'));
-    var sumMin = rows.reduce((s,r)=>s+r.min,0);
-    var extra = isFinite(b) && b>0 ? Math.max(0, b - sumMin) : null;
+    // Schneeball: nach Restschuld aufsteigend
+    rows.sort(function(a,b){ return a.rest - b.rest; });
+    var sumRest = rows.reduce(function(s,r){ return s+r.rest; }, 0);
+    var sumMin  = rows.reduce(function(s,r){ return s+r.minrate; }, 0);
     var html = '';
+    html += '<p><strong>Restschuld gesamt:</strong> ' + esc(fmtEUR(sumRest)) + '</p>';
+    html += '<p><strong>Mindest-Raten gesamt:</strong> ' + esc(fmtEUR(sumMin)) + ' / Monat</p>';
+    html += '<p><strong>Extra:</strong> ' + esc(fmtEUR(extra)) + ' / Monat</p>';
+    html += '<h2>Reihenfolge (Schneeball)</h2>';
     html += '<ol>';
-    rows.forEach(function(r){
-      html += '<li><strong>' + esc(r.name) + '</strong> – Rest: ' + esc(formatEUR(r.rest)) + ', Mindestrate: ' + esc(formatEUR(r.min));
-      if (r.rate !== null) html += ', Zins: ' + esc(String(r.rate)) + '%';
-      html += '</li>';
+    rows.forEach(function(r, idx){
+      html += '<li><strong>' + esc(r.name) + '</strong> – Rest: ' + esc(fmtEUR(r.rest)) + ', Mindestrate: ' + esc(fmtEUR(r.minrate)) + '</li>';
     });
     html += '</ol>';
-    html += '<p><strong>Summe Mindestzahlungen:</strong> ' + esc(formatEUR(sumMin)) + '</p>';
-    if (extra !== null){
-      html += '<p><strong>Zusaetzlich fuer kleinste Schuld:</strong> ' + esc(formatEUR(extra)) + '</p>';
+    // Grobe Zeit-Schaetzung ohne Zinsen: (Restschuld / (Mindest + Extra)) ist nur Orientierung
+    // Wir simulieren: Extra + freiwerdende Rate wird immer auf aktuelle kleinste Schuld gelegt.
+    var sim = rows.map(function(r){ return { name:r.name, rest:r.rest, minrate:r.minrate }; });
+    var month = 0;
+    var maxMonths = 600; // Safety
+    while (month < maxMonths){
+      var active = sim.filter(function(d){ return d.rest > 0.000001; });
+      if (!active.length) break;
+      // Ziel = kleinste Restschuld
+      active.sort(function(a,b){ return a.rest - b.rest; });
+      var target = active[0];
+      // Alle Mindest-Raten zahlen
+      active.forEach(function(d){
+        var pay = Math.min(d.rest, d.minrate);
+        d.rest -= pay;
+      });
+      // Extra + freiwerdende Mindest-Raten (von bereits getilgten) stehen im Schneeball zur Verfuegung
+      var freed = sim.filter(function(d){ return d.rest <= 0.000001; }).reduce(function(s,d){ return s + d.minrate; }, 0);
+      var snow = extra + freed;
+      if (snow > 0 && target.rest > 0.000001){
+        var pay2 = Math.min(target.rest, snow);
+        target.rest -= pay2;
+      }
+      month++;
+      // Wenn wir uns festfahren wuerden (z.B. Mindest=0 und extra=0), abbrechen
+      var still = sim.filter(function(d){ return d.rest > 0.000001; });
+      var totalMinStill = still.reduce(function(s,d){ return s + d.minrate; }, 0);
+      if (totalMinStill <= 0.000001 && extra <= 0.000001) break;
     }
+    if (month >= 600){
+      html += '<p><strong>Hinweis:</strong> Die Simulation wurde bei 600 Monaten abgebrochen (nur Orientierung).</p>';
+    } else {
+      html += '<p><strong>Grobe Dauer-Schaetzung (ohne Zinsen):</strong> ca. ' + esc(String(month)) + ' Monate</p>';
+    }
+    html += '<p>Wichtig: Das ist eine Orientierung. Zinsen, Gebuehren und Sonderregeln deiner Vertraege koennen die Dauer veraendern.</p>';
     out.innerHTML = html;
   });
 })();
 </script>
 ## Weiter
-1. [Themen-Seite: Schneeball erklaert]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
+1. [Themen-Seite: Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
 2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
 3. [Startseite]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
