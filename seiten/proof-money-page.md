@@ -5,7 +5,7 @@ permalink: /seiten/proof-money-page.html
 ---
 # Proof Money Page
 
-Diese Seite ist eine Proof-Implementierung der Money-Page-Vorlage.
+Diese Seite ist eine Proof-Implementierung der Themen-Seite-Vorlage.
 Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur ueber den Include.
 
 ## H1 + Kurzpitch
