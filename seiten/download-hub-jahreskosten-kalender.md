@@ -9,6 +9,11 @@ Hier sammelst du Downloads, die zum Jahreskosten-Flow gehoeren.
 * (Noch nicht verlinkt)
 ## Vollversion
 * (Noch nicht verlinkt)
+
+## Premium
+
+* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+
 ## Weiter
 1. [Themen-Seite: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
 2. [Rechner: Jahreskosten auf Monatsbudget]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)

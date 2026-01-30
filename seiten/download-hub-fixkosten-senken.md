@@ -9,6 +9,11 @@ Hier sammelst du alle Downloads, die zum Fixkosten-Flow gehoeren.
 * (Hier verlinkst du spaeter dein Freebie.)
 ## Vollversion
 * (Hier verlinkst du spaeter die Vollversion.)
+
+## Premium
+
+* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+
 ## Weiter
 1. [Themen-Seite: Fixkosten senken]({{ site.baseurl }}/seiten/fixkosten-senken.html)
 2. [Rechner: Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)

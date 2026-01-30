@@ -9,6 +9,11 @@ Hier sammelst du alle Downloads, die zum Abo-Flow gehoeren.
 * (Hier verlinkst du spaeter dein Freebie.)
 ## Vollversion
 * (Hier verlinkst du spaeter die Vollversion.)
+
+## Premium
+
+* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+
 ## Weiter
 1. [Themen-Seite: Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
 2. [Rechner: Abo-Kosten pro Monat/Jahr]({{ site.baseurl }}/seiten/rechner-abo-manager.html)

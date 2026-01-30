@@ -9,6 +9,11 @@ Hier sammelst du alle Downloads, die zum Schulden-Flow gehoeren.
 * (Hier verlinkst du spaeter dein Freebie.)
 ## Vollversion
 * (Hier verlinkst du spaeter die Vollversion.)
+
+## Premium
+
+* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+
 ## Weiter
 1. [Themen-Seite: Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
 2. [Rechner: Schneeball-Plan]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
