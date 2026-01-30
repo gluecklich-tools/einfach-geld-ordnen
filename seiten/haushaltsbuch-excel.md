@@ -18,7 +18,7 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

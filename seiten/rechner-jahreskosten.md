@@ -28,7 +28,7 @@ permalink: /seiten/rechner-jahreskosten.html
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Weiter]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

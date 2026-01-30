@@ -75,7 +75,7 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Weiter]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

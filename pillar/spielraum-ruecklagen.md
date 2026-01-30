@@ -59,7 +59,7 @@ Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaup
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/spielraum-rechner.html)
+- [Weiter]({{ site.baseurl }}/seiten/spielraum-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 

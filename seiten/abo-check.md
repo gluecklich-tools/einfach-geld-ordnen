@@ -24,7 +24,7 @@ Kurz: Abos finden, kuendigen, sparen (Self-Serve).
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+- [Weiter]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

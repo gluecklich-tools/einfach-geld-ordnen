@@ -24,7 +24,7 @@ Kurz: Dein Sicherheitsnetz fuer unerwartete Ausgaben (Self-Serve).
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/notgroschen-rechner.html)
+- [Weiter]({{ site.baseurl }}/seiten/notgroschen-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

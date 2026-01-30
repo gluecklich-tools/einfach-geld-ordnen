@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /templates/Themen-Seite-template.html
+permalink: /templates/themen-seite-template.html
 ---
 # Themen-Seite Template (EGO)
 Zweck: Vorlage fuer eine Themen-Seite (SEO + Self-Serve), ohne Supportversprechen.

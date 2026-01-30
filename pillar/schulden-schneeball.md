@@ -15,7 +15,7 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+- [Weiter]({{ site.baseurl }}/seiten/rechner-schneeball.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
