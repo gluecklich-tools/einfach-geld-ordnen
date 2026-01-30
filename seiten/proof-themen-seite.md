@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Proof Themen-Seite"
-permalink: /seiten/proof-Themen-Seite.html
+permalink: /seiten/proof-themen-seite.html
 ---
 # Proof Themen-Seite
 
