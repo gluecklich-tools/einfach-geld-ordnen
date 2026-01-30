@@ -27,3 +27,11 @@ Ab jetzt gilt verbindlich:
 - **Verboten als Arbeitsmethode:** Repo per „Austausch-ZIP“ ersetzen/patchen.
 
 Ziel: Keine Verwechslung mehr zwischen **Repo-Änderung** und **Produkt-Download**.
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Download]({{ site.baseurl }}/seiten/downloads.html)
+- [Uebersicht]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

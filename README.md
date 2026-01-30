@@ -52,3 +52,11 @@ Im Repo existiert nur `FINANZEN_README.md` als Hinweistext.
 - Dateinamen: **ASCII-only** (`a-z0-9-_`), keine Umlaute, keine Leerzeichen.
 - Jekyll Pages: explizite **`.html`-Permalinks**, **Permalink = Dateiname**.
 - Interne Links: konsequent mit `{{ site.baseurl }}` (Project Site), keine Links ohne baseurl.
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Download]({{ site.baseurl }}/seiten/downloads.html)
+- [Uebersicht]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

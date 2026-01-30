@@ -11,3 +11,11 @@ Die operative Checkliste sowie alle Belege werden **nur in privater Ablage** gef
 **Regel:** Keine Kontoauszüge, Auszahlungsbelege, Reports, personenbezogene Daten, Summen oder Behördenkommunikation ins Repo committen.
 
 **Arbeitsstandard:** Änderungen im Repo erfolgen **immer als kompletter Full-Swap** (vollständiger Dateiinhalt, kein Stückwerk).
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Download]({{ site.baseurl }}/seiten/downloads.html)
+- [Uebersicht]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

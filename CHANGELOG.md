@@ -19,3 +19,11 @@ permalink: /CHANGELOG.html
 ## 2026-01-28
 - Pillar/Flow: Footer/No-Sackgasse konsistent; 3-naechste-Schritte ueberarbeitet.
 - Fix: strom-gas-wechsel.md doppelter Block bereinigt.
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Download]({{ site.baseurl }}/seiten/downloads.html)
+- [Uebersicht]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}

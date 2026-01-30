@@ -38,3 +38,11 @@ Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group,
 | seiten\spielraum-ruecklagen.md | seiten | 70 | {{ site.baseurl }}/seiten/spielraum-ruecklagen.html | Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck | 4 |
 | seiten\stromkosten-haushalt.md | seiten | 45 | {{ site.baseurl }}/seiten/stromkosten-haushalt.html | Stromkosten im Haushalt | 4 |
 | seiten\variable-ausgaben.md | seiten | 60 | {{ site.baseurl }}/seiten/variable-ausgaben.html | Variable Ausgaben – Einordnung ohne Druck | 5 |
+
+## Weiter
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Download]({{ site.baseurl }}/seiten/downloads.html)
+- [Uebersicht]({{ site.baseurl }}/index.html)
+
+{% include no_sackgasse_footer.html %}
