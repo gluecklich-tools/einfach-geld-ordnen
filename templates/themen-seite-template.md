@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /templates/money-page-template.html
+permalink: /templates/Themen-Seite-template.html
 ---
-# Money Page Template (EGO)
-Zweck: Vorlage fuer eine Money Page (SEO + Self-Serve), ohne Supportversprechen.
+# Themen-Seite Template (EGO)
+Zweck: Vorlage fuer eine Themen-Seite (SEO + Self-Serve), ohne Supportversprechen.
 ## 1) H1 + Kurzpitch
 - H1: [Keyword + Nutzen]
 - 2-3 Saetze: fuer wen, welches Problem, welches Ergebnis

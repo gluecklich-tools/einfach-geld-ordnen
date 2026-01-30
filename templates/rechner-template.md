@@ -22,7 +22,7 @@ Zweck: Statischer JS-Mini-Rechner als Self-Serve, klarer Input -> Output.
 - Disclaimer (keine Beratung)
 ## 6) Interlink-Plan (keine Sackgassen)
 - Hub: [Uebersicht]
-- passende Money Page
+- passende Themen-Seite
 - verwandter Rechner
 ## Weiter
 - [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)

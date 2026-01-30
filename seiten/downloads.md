@@ -23,7 +23,7 @@ Die Vollversion kommt spaeter ueber Digistore24. Bis dahin bleibt alles Self-Ser
 - [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 - [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 - [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Themen-Seiten]({{ site.baseurl }}/seiten/money-pages.html)
+- [Themen-Seiten]({{ site.baseurl }}/seiten/themen-seiten.html)
 - [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- VISIBILITY_END -->

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Proof Money Page"
-permalink: /seiten/proof-money-page.html
+title: "Proof Themen-Seite"
+permalink: /seiten/proof-Themen-Seite.html
 ---
-# Proof Money Page
+# Proof Themen-Seite
 
 Diese Seite ist eine Proof-Implementierung der Themen-Seite-Vorlage.
 Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur ueber den Include.

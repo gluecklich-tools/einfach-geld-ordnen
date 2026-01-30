@@ -28,7 +28,7 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/seiten/money-pages.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/themen-seiten.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
