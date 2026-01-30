@@ -3,12 +3,19 @@ layout: default
 title: Rechner Notgroschen
 permalink: /seiten/rechner-notgroschen.html
 ---
-# Rechner: Notgroschen (Dauer bis Ziel)
-Du gibst dein Ziel und deinen monatlichen Betrag ein, der Rechner zeigt dir die grobe Dauer.
-<label for="ziel">Zielbetrag (EUR)</label>
-<input id="ziel" type="number" min="0" step="1" inputmode="numeric" />
-<label for="rate">Monatlicher Sparbetrag (EUR)</label>
-<input id="rate" type="number" min="0" step="1" inputmode="numeric" />
+# Rechner: Notgroschen-Ziel & Plan
+Du gibst deine monatlichen Ausgaben und deinen Sparbetrag ein.
+Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert.
+<label for="ausgaben">Monatliche Ausgaben (EUR)</label>
+<input id="ausgaben" type="number" min="0" step="1" inputmode="numeric" />
+<label for="sparrate">Sparrate pro Monat (EUR)</label>
+<input id="sparrate" type="number" min="0" step="1" inputmode="numeric" />
+<label for="monate">Ziel in Monatsausgaben</label>
+<select id="monate">
+  <option value="1">1 Monat</option>
+  <option value="2">2 Monate</option>
+  <option value="3" selected>3 Monate</option>
+</select>
 <p>
   <button id="calcBtn" type="button">Berechnen</button>
 </p>
@@ -17,33 +24,36 @@ Du gibst dein Ziel und deinen monatlichen Betrag ein, der Rechner zeigt dir die 
 (function () {
   function esc(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
   function num(v){ var n = Number(String(v||'0').replace(',', '.')); return isFinite(n) ? n : 0; }
-  function formatInt(n){ try { return new Intl.NumberFormat('de-DE').format(n); } catch(e){ return String(n); } }
-  var ziel = document.getElementById('ziel');
-  var rate = document.getElementById('rate');
-  var btn  = document.getElementById('calcBtn');
-  var out  = document.getElementById('out');
+  function fmtEUR(n){
+    try { return new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR' }).format(n); }
+    catch(e){ return (Math.round(n*100)/100).toFixed(2) + ' EUR'; }
+  }
+  var ausgaben = document.getElementById('ausgaben');
+  var sparrate = document.getElementById('sparrate');
+  var monate = document.getElementById('monate');
+  var btn = document.getElementById('calcBtn');
+  var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var z = num(ziel.value);
-    var r = num(rate.value);
-    if (z <= 0 || r <= 0){
-      out.innerHTML = '<p><strong>Bitte Zielbetrag und monatlichen Betrag eingeben.</strong></p>';
+    var a = num(ausgaben.value);
+    var s = num(sparrate.value);
+    var m = num(monate.value);
+    if (a <= 0 || s <= 0 || m <= 0){
+      out.innerHTML = '<p><strong>Bitte gueltige Werte eingeben.</strong></p>';
       return;
     }
-    var months = Math.ceil(z / r);
-    var years = Math.floor(months / 12);
-    var restM = months % 12;
-    var txt = '<p><strong>Grobe Dauer:</strong> ' + esc(formatInt(months)) + ' Monate</p>';
-    if (years > 0){
-      txt += '<p>(=' + esc(formatInt(years)) + ' Jahre';
-      if (restM > 0) txt += ' + ' + esc(formatInt(restM)) + ' Monate';
-      txt += ')</p>';
-    }
-    out.innerHTML = txt;
+    var ziel = a * m;
+    var months = Math.ceil(ziel / s);
+    var html = '';
+    html += '<p><strong>Ziel (Notgroschen):</strong> ' + esc(fmtEUR(ziel)) + ' (' + esc(String(m)) + ' Monatsausgaben)</p>';
+    html += '<p><strong>Sparrate:</strong> ' + esc(fmtEUR(s)) + ' / Monat</p>';
+    html += '<p><strong>Grobe Dauer:</strong> ca. ' + esc(String(months)) + ' Monate</p>';
+    html += '<p>Hinweis: Starte klein (500 bis 1.000 EUR), dann baust du weiter auf.</p>';
+    out.innerHTML = html;
   });
 })();
 </script>
 ## Weiter
-1. [Themen-Seite: Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
+1. [Themen-Seite: Notgroschen]({{ site.baseurl }}/seiten/notgroschen.html)
 2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
 3. [Startseite]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

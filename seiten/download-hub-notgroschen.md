@@ -10,7 +10,7 @@ Hier sammelst du alle Downloads, die zum Notgroschen-Flow gehoeren.
 ## Vollversion
 * (Hier verlinkst du spaeter die Vollversion.)
 ## Weiter
-1. [Themen-Seite: Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
-2. [Rechner: Notgroschen-Dauer]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
+1. [Themen-Seite: Notgroschen]({{ site.baseurl }}/seiten/notgroschen.html)
+2. [Rechner: Notgroschen-Ziel & Plan]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
 3. [Startseite]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
