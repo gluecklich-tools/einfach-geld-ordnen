@@ -19,3 +19,8 @@
 *.zip  binary
 *.ods  binary
 *.xlsx binary
+
+*.md text eol=lf
+*.yml text eol=lf
+*.css text eol=lf
+*.js text eol=lf
