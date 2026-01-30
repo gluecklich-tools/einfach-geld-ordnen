@@ -17,7 +17,7 @@ Bis dahin: Nutze den Flow über den Uebersicht.
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

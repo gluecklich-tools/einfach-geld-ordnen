@@ -27,7 +27,7 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/seiten/index.html)
 

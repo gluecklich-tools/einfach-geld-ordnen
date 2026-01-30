@@ -16,7 +16,7 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/notgroschen-rechner.html)
+- [Naechster Schritt]({{ site.baseurl }}/seiten/notgroschen-rechner.html)
 - [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Uebersicht]({{ site.baseurl }}/pillar/index.html)
 
