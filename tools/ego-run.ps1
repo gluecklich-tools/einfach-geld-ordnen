@@ -1,4 +1,5 @@
 $ErrorActionPreference="Stop"
+& "$PSScriptRoot\gate_no_local_links.ps1"
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
 chcp 65001 > $null
