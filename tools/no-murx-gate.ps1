@@ -1,7 +1,12 @@
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 $repoRoot = (Resolve-Path -LiteralPath ".").Path
-# forbid obvious "renegade" side effects + SSOT leakage + local exports
+$enc = New-Object System.Text.UTF8Encoding($false)
+function Read-Utf8NoBom {
+  param([Parameter(Mandatory=$true)][string]$Path)
+  [System.IO.File]::ReadAllText($Path, $enc)
+}
+# Literal patterns (NO regex). Use IndexOf -> cannot throw on "\" etc.
 $forbid = @(
   'EGO_HUB_EXPORT',
   '\Desktop\',
@@ -20,10 +25,13 @@ $scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'seiten') -Recurse -Fil
 $scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'pillar') -Recurse -File -Filter '*.md'  -ErrorAction SilentlyContinue
 foreach ($f in $scan) {
   $p = $f.FullName
-  $raw = [System.IO.File]::ReadAllText($p, (New-Object System.Text.UTF8Encoding($false)))
+  $raw = Read-Utf8NoBom -Path $p
   foreach ($pat in $forbid) {
-    if ($raw -match $pat) {
-      $hits += ([pscustomobject]@{ file = $p.Replace($repoRoot + '\',''); pattern = $pat })
+    if ($raw.IndexOf($pat, [System.StringComparison]::OrdinalIgnoreCase) -ge 0) {
+      $hits += [pscustomobject]@{
+        file    = $p.Replace($repoRoot + '\','')
+        pattern = $pat
+      }
     }
   }
 }
