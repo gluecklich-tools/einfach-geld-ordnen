@@ -19,21 +19,21 @@ if (Test-Path -LiteralPath '.\tools\no-murx-gate.ps1') { & .\tools\no-murx-gate.
 # --- 1) APPLY (idempotent only): run all tools\apply-*.ps1 if present
 $apply = Get-ChildItem -LiteralPath '.\tools' -File -Filter 'apply-*.ps1' -ErrorAction SilentlyContinue
 foreach ($a in $apply) { & $a.FullName }
-# --- 2) GATES
+# --- 2) GATES (always)
 .\tools\ego-run.ps1
 foreach ($s in @('.\tools\release-gate-0.ps1','.\tools\mvp02-run.ps1','.\tools\stress-baseline.ps1')) {
   if (Test-Path -LiteralPath $s) { & $s }
 }
-# --- 3) COMMIT/PUSH only if changed
+# --- 3) COMMIT/PUSH only if changed (hard rule)
 $porc = git status --porcelain
 if ($porc) {
   git add -A
-  git commit -m 'LawRun: apply + gates (2026-01-31)'
+  git commit -m 'LawRun: apply + gates'
   Invoke-GitPushSafe -Remote 'origin' -Branch 'main'
 } else {
   'NO_COMMIT: worktree clean'
 }
-# --- 4) LIVE HEAD 200 smoke
+# --- 4) LIVE HEAD 200 smoke (always)
 $u = @(
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/index.html',
