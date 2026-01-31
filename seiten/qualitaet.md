@@ -58,3 +58,11 @@ APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - COMMIT/PUSH: nur wenn git status --porcelain nicht leer.
 - LIVE: HEAD-200 Smoke auf Kern-URLs.
 <!-- EGO_LAW_RUNNER_END -->
+
+<!-- EGO_RUNNER_PIN_START -->
+> Gesetz: In diesem Repo wird nur noch so gearbeitet:
+>
+> **.\tools\ego-law-run.ps1**
+>
+> Der Runner macht immer: APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
+<!-- EGO_RUNNER_PIN_END -->
