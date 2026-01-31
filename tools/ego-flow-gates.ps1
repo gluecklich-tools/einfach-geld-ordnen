@@ -1,5 +1,10 @@
 # EGO_SSOT_GUARD_V1
-& "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-guard.ps1" -RequireCleanRepo
+# Optional: SSOT guard (only if EGO_INTERNAL_DIR is set and ssot-guard exists)
+$internalRoot = $env:EGO_INTERNAL_DIR
+if ($internalRoot) {
+  $guard = Join-Path $internalRoot ('tools' + [char]92 + 'ssot-guard.ps1')
+  if (Test-Path -LiteralPath $guard) { & $guard -RequireCleanRepo }
+}
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
