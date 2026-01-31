@@ -7,12 +7,14 @@ permalink: /seiten/audit.html
 Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->
 ### Letzter Audit
-- Datum: (noch keiner)
-- Ergebnis: **n/a**
+
+- Datum: 2026-01-31 23:12:18 +01:00
+- Ergebnis: **PASS**
 - Scope: L2
-- Evidence: (noch keiner)
-- Checksums: (noch keiner)
+- Evidence: {{ site.baseurl }}/assets/audit/2026-01/
+- Checksums: {{ site.baseurl }}/assets/audit/2026-01/checksums.txt
 <!-- AUDIT_L2_STATUS_END -->
+
 ## Evidence
 - Evidence-Ordner liegen unter: `assets/audit/YYYY-MM/`
 - Checksums liegen je Monat unter: `assets/audit/YYYY-MM/checksums.txt`

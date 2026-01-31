@@ -1,3 +1,7 @@
+param(
+  [Parameter(Mandatory=$true)]
+  [string]$OutDir
+)
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -21,15 +25,16 @@ function Get-DownloadFiles {
   foreach ($r in $roots) {
     if (Test-Path -LiteralPath $r) {
       foreach ($e in $ext) {
-        $files.AddRange((Get-ChildItem -LiteralPath $r -Recurse -File -Filter $e -ErrorAction SilentlyContinue))
+        # IMPORTANT: force to array => never $null => AddRange is safe
+        $items = @(
+          Get-ChildItem -LiteralPath $r -Recurse -File -Filter $e -ErrorAction SilentlyContinue
+        )
+        if ($items.Count -gt 0) { $files.AddRange($items) }
       }
     }
   }
   $files | Sort-Object FullName -Unique
 }
-param(
-  [Parameter(Mandatory=$true)][string]$OutDir
-)
 if (-not (Test-Path -LiteralPath $OutDir)) { New-Item -ItemType Directory -Force -Path $OutDir | Out-Null }
 $dl = Get-DownloadFiles
 $lines = New-Object System.Collections.Generic.List[string]

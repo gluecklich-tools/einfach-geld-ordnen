@@ -1,3 +1,11 @@
+param(
+  [Parameter(Mandatory=$true)]
+  [string]$Result,
+  [Parameter(Mandatory=$true)]
+  [string]$Scope,
+  [Parameter(Mandatory=$true)]
+  [string]$MonthDir
+)
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -28,23 +36,16 @@ function Upsert-MarkerBlock {
   if ($newTxt -ne $raw) { [System.IO.File]::WriteAllText($Path, $newTxt, $enc); return $true }
   return $false
 }
-param(
-  [Parameter(Mandatory=$true)][string]$Result,
-  [Parameter(Mandatory=$true)][string]$Scope,
-  [Parameter(Mandatory=$true)][string]$MonthDir
-)
 if (-not (Test-Path -LiteralPath $MonthDir)) { New-Item -ItemType Directory -Force -Path $MonthDir | Out-Null }
 $now = Get-Date
 $dt = $now.ToString("yyyy-MM-dd HH:mm:ss zzz")
 $month = $now.ToString("yyyy-MM")
 $base = "assets/audit/" + $month
-# copy runlog if provided
 $runlog = $env:EGO_RUNLOG_PATH
 if ($runlog -and (Test-Path -LiteralPath $runlog)) {
   $dst = Join-Path $MonthDir ("runlog_" + $now.ToString("yyyy-MM-dd_HHmmss") + ".txt")
   Copy-Item -LiteralPath $runlog -Destination $dst -Force
 }
-# write summary.md
 $sum = @()
 $sum += "# EGO Audit"
 $sum += ""
@@ -57,7 +58,6 @@ $sum += ("- folder: " + $base + "/")
 $sum += ("- checksums: " + $base + "/checksums.txt")
 $sumTxt = ($sum -join "`r`n") + "`r`n"
 Write-TextIfChanged -Path (Join-Path $MonthDir 'summary.md') -Text $sumTxt | Out-Null
-# update public audit page (if exists)
 $auditPage = Join-Path $root 'seiten\audit.md'
 if (Test-Path -LiteralPath $auditPage) {
   $start = '<!-- AUDIT_L2_STATUS_START -->'

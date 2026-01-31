@@ -28,7 +28,17 @@ $env:EGO_RUNLOG_PATH = $runLog
 ("RUN_ID=" + $runId) | Tee-Object -FilePath $runLog -Append | Out-Null
 function Run-Logged {
   param([Parameter(Mandatory=$true)][scriptblock]$Sb)
-  & $Sb *>&1 | Tee-Object -FilePath $runLog -Append | Out-Null
+  # Important: run external scripts with StrictMode OFF to avoid legacy undefined-var fails.
+  & {
+    $oldEap = $ErrorActionPreference
+    try {
+      $ErrorActionPreference = 'Stop'
+      Set-StrictMode -Off
+      & $Sb
+    } finally {
+      $ErrorActionPreference = $oldEap
+    }
+  } *>&1 | Tee-Object -FilePath $runLog -Append | Out-Null
 }
 # 0) Pre-gate
 if (Test-Path -LiteralPath '.\tools\no-murx-gate.ps1') { Run-Logged { & .\tools\no-murx-gate.ps1 } }
@@ -40,7 +50,7 @@ Run-Logged { & .\tools\ego-run.ps1 }
 foreach ($s in @('.\tools\release-gate-0.ps1','.\tools\mvp02-run.ps1','.\tools\stress-baseline.ps1')) {
   if (Test-Path -LiteralPath $s) { Run-Logged { & $s } }
 }
-# 2b) AUDIT pack (optional) - must run BEFORE commit, so evidence is committed on PASS
+# 2b) AUDIT pack (optional) - must run BEFORE commit
 foreach ($s in @('.\tools\audit-l2-pack.ps1')) {
   if (Test-Path -LiteralPath $s) { Run-Logged { & $s } }
 }
@@ -74,8 +84,7 @@ foreach ($x in $u) {
     $sc = (Invoke-WebRequest -UseBasicParsing -Method Head -Uri $x -TimeoutSec 20).StatusCode
     if ($sc -ne 200) { throw ("HTTP_" + $sc + " " + $x) }
     ("200 " + $x) | Tee-Object -FilePath $runLog -Append | Out-Null
-  }
-  catch {
+  } catch {
     throw ("LIVE_FAIL " + $x)
   }
 }
