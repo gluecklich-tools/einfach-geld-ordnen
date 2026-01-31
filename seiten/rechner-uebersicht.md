@@ -29,17 +29,6 @@ Uebersicht: einfache Mini-Rechner (Self-Serve).
 
 - **Spielraum Rechner**  
   Rechner: [Spielraum Rechner]({{ site.baseurl }}/seiten/spielraum-rechner.html) · Themen-Seite: [Spielraum]({{ site.baseurl }}/seiten/spielraum.html)
-<!-- VISIBILITY_START -->
-
-## Einstieg
-
-- [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Themen-Seiten]({{ site.baseurl }}/seiten/themen-seiten.html)
-
-<!-- VISIBILITY_END -->
 
 ## Weiter
 

@@ -41,17 +41,6 @@ Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
 - **Sparen automatisch**  
   Themen-Seite: [Sparen automatisch]({{ site.baseurl }}/seiten/sparen-automatisch.html)
-<!-- VISIBILITY_START -->
-
-## Einstieg
-
-- [Der Weg]({{ site.baseurl }}/seiten/der-weg.html)
-- [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
-- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-- [Ordnung halten]({{ site.baseurl }}/pillar/ordnung-halten.html)
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-
-<!-- VISIBILITY_END -->
 
 ## Weiter
 
