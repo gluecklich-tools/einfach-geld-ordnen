@@ -49,3 +49,12 @@ Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 
 {% include no_sackgasse_footer.html %}
+
+<!-- EGO_LAW_RUNNER_START -->
+## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
+APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
+- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher. Keine Side-Effects.
+- GATES: mindestens .\tools\ego-run.ps1; weitere Runner nur wenn Datei existiert.
+- COMMIT/PUSH: nur wenn git status --porcelain nicht leer.
+- LIVE: HEAD-200 Smoke auf Kern-URLs.
+<!-- EGO_LAW_RUNNER_END -->
