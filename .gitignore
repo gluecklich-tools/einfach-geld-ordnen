@@ -75,3 +75,7 @@ qass_*.txt
 
 # Never publish local backups
 _local/**
+
+# tools: keep scripts tracked; ignore only generated reports
+tools/*.txt
+tools/_*.txt
