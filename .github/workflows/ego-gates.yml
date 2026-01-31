@@ -9,8 +9,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+      - name: Assert required files exist
+        shell: pwsh
+        run: |
+          if (-not (Test-Path -LiteralPath ".\tools\ego-run.ps1")) { throw "Missing .\tools\ego-run.ps1 in checkout" }
+          if (-not (Test-Path -LiteralPath ".\tools\gate_download_hubs_strict.ps1")) { throw "Missing .\tools\gate_download_hubs_strict.ps1 in checkout" }
       - name: Run required gates (tools/ego-run.ps1)
         shell: pwsh
         run: |
-          pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\ego-run.ps1
+          .\tools\ego-run.ps1
