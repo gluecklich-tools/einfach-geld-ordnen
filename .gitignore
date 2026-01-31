@@ -68,3 +68,8 @@ qass_v2_*.txt
 _audit/
 # generated local artifacts (must NOT be committed)
 qass_*.txt
+
+# CI allowlist (required by ego-gates)
+!tools/
+!tools/ego-run.ps1
+!tools/gate_download_hubs_strict.ps1
