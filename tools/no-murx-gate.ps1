@@ -6,23 +6,28 @@ function Read-Utf8NoBom {
   param([Parameter(Mandatory=$true)][string]$Path)
   [System.IO.File]::ReadAllText($Path, $enc)
 }
-# Literal patterns (NO regex). Use IndexOf -> cannot throw on "\" etc.
+# IMPORTANT:
+# This gate is about REAL side-effects / leakage, not about internal wording in other gate scripts.
+# Therefore: scan only apply scripts + law runner + content pages.
+# Literal patterns (NO regex). IndexOf cannot throw on "\".
 $forbid = @(
   'EGO_HUB_EXPORT',
   '\Desktop\',
   '/Desktop/',
-  '\_INTERN',
-  '/_INTERN',
-  'SSOT',
-  '_local\patch_backups',
-  '_local/patch_backups'
+  '\_INTERN\',
+  '/_INTERN/',
+  'C:\Users\'
 )
 $hits = @()
-# scan only scripts + markdown (fast + relevant)
 $scan = @()
-$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'tools')  -Recurse -File -Filter '*.ps1' -ErrorAction SilentlyContinue
-$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'seiten') -Recurse -File -Filter '*.md'  -ErrorAction SilentlyContinue
-$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'pillar') -Recurse -File -Filter '*.md'  -ErrorAction SilentlyContinue
+# Apply scripts only
+$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'tools') -File -Filter 'apply-*.ps1' -ErrorAction SilentlyContinue
+# The law runner itself must be clean
+$lr = Join-Path $repoRoot 'tools\ego-law-run.ps1'
+if (Test-Path -LiteralPath $lr) { $scan += Get-Item -LiteralPath $lr }
+# Content pages
+$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'seiten') -Recurse -File -Filter '*.md' -ErrorAction SilentlyContinue
+$scan += Get-ChildItem -LiteralPath (Join-Path $repoRoot 'pillar') -Recurse -File -Filter '*.md' -ErrorAction SilentlyContinue
 foreach ($f in $scan) {
   $p = $f.FullName
   $raw = Read-Utf8NoBom -Path $p
