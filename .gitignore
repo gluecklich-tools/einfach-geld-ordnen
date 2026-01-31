@@ -73,3 +73,6 @@ qass_*.txt
 !tools/
 !tools/ego-run.ps1
 !tools/gate_download_hubs_strict.ps1
+
+# Never publish local backups
+_local/**
