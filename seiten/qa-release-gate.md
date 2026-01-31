@@ -23,16 +23,20 @@ Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 <!-- EGO_LAW_RUNNER_START -->
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
-- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher. Keine Side-Effects.
+- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.
 - GATES: mindestens .\tools\ego-run.ps1; weitere Runner nur wenn Datei existiert.
-- COMMIT/PUSH: nur wenn git status --porcelain nicht leer.
+- COMMIT/PUSH: nur wenn git status --porcelain nicht leer. Sonst NO_COMMIT.
 - LIVE: HEAD-200 Smoke auf Kern-URLs.
+Wenn ein Task nicht in diesen Ablauf passt: zuerst so umbauen, dass er passt.
+Kein Renegade.
 <!-- EGO_LAW_RUNNER_END -->
 
 <!-- EGO_RUNNER_PIN_START -->
-> Gesetz: In diesem Repo wird nur noch so gearbeitet:
+> Gesetz (Repo): Ab jetzt wird nur noch so gearbeitet:
 >
 > **.\tools\ego-law-run.ps1**
 >
-> Der Runner macht immer: APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
+> Flow ist immer: APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
+>
+> Debug (Ausnahme): nur mit klarer Absicht, danach wieder Runner.
 <!-- EGO_RUNNER_PIN_END -->
