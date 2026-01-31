@@ -14,20 +14,35 @@ function Invoke-GitPushSafe {
   if ($out -match 'Everything up-to-date' -or $out -match 'To ' -or $out -match '->') { 'PUSH_OK'; return }
   throw ("PUSH_FAIL:`n" + $out)
 }
-# Ensure we run from repo root even if called from elsewhere
+# Ensure we run from repo root
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $root = Split-Path -Parent $here
 Set-Location -LiteralPath $root
 if (-not (Test-Path -LiteralPath '.\tools\ego-run.ps1')) { throw 'Missing: tools\ego-run.ps1' }
-# 0) Pre-gate: no-murx gate if present
-if (Test-Path -LiteralPath '.\tools\no-murx-gate.ps1') { & .\tools\no-murx-gate.ps1 }
-# 1) APPLY (idempotent only): run all tools\apply-*.ps1 if present
+# Runlog (evidence)
+$runDir = Join-Path $root 'assets\audit\_runs'
+if (-not (Test-Path -LiteralPath $runDir)) { New-Item -ItemType Directory -Force -Path $runDir | Out-Null }
+$runId = (Get-Date).ToString('yyyy-MM-dd_HHmmss')
+$runLog = Join-Path $runDir ("run_" + $runId + ".txt")
+$env:EGO_RUNLOG_PATH = $runLog
+("RUN_ID=" + $runId) | Tee-Object -FilePath $runLog -Append | Out-Null
+function Run-Logged {
+  param([Parameter(Mandatory=$true)][scriptblock]$Sb)
+  & $Sb *>&1 | Tee-Object -FilePath $runLog -Append | Out-Null
+}
+# 0) Pre-gate
+if (Test-Path -LiteralPath '.\tools\no-murx-gate.ps1') { Run-Logged { & .\tools\no-murx-gate.ps1 } }
+# 1) APPLY (idempotent only)
 $apply = Get-ChildItem -LiteralPath '.\tools' -File -Filter 'apply-*.ps1' -ErrorAction SilentlyContinue
-foreach ($a in $apply) { & $a.FullName }
+foreach ($a in $apply) { Run-Logged { & $a.FullName } }
 # 2) GATES (always)
-.\tools\ego-run.ps1
+Run-Logged { & .\tools\ego-run.ps1 }
 foreach ($s in @('.\tools\release-gate-0.ps1','.\tools\mvp02-run.ps1','.\tools\stress-baseline.ps1')) {
-  if (Test-Path -LiteralPath $s) { & $s }
+  if (Test-Path -LiteralPath $s) { Run-Logged { & $s } }
+}
+# 2b) AUDIT pack (optional) - must run BEFORE commit, so evidence is committed on PASS
+foreach ($s in @('.\tools\audit-l2-pack.ps1')) {
+  if (Test-Path -LiteralPath $s) { Run-Logged { & $s } }
 }
 # 3) COMMIT/PUSH only if changed
 $dirtyBefore = [bool](git status --porcelain)
@@ -39,28 +54,30 @@ if ($dirtyBefore) {
   Invoke-GitPushSafe -Remote 'origin' -Branch 'main'
   $commitDone = $true
 } else {
-  'NO_COMMIT: worktree clean'
+  'NO_COMMIT: worktree clean' | Tee-Object -FilePath $runLog -Append | Out-Null
 }
 $dirtyAfter = [bool](git status --porcelain)
-("REPO_DIRTY_BEFORE=" + $dirtyBefore.ToString().ToUpperInvariant())
-("COMMIT_DONE=" + $commitDone.ToString().ToUpperInvariant())
-("REPO_DIRTY_AFTER=" + $dirtyAfter.ToString().ToUpperInvariant())
+("REPO_DIRTY_BEFORE=" + $dirtyBefore.ToString().ToUpperInvariant()) | Tee-Object -FilePath $runLog -Append | Out-Null
+("COMMIT_DONE=" + $commitDone.ToString().ToUpperInvariant()) | Tee-Object -FilePath $runLog -Append | Out-Null
+("REPO_DIRTY_AFTER=" + $dirtyAfter.ToString().ToUpperInvariant()) | Tee-Object -FilePath $runLog -Append | Out-Null
 if ($dirtyAfter) { throw 'LAW_RUN_FAIL: repo still dirty after run' }
 # 4) LIVE HEAD 200 smoke (always)
 $u = @(
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/index.html',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/downloads.html',
-  'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-index.html'
+  'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-index.html',
+  'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/audit.html'
 )
 foreach ($x in $u) {
   try {
     $sc = (Invoke-WebRequest -UseBasicParsing -Method Head -Uri $x -TimeoutSec 20).StatusCode
     if ($sc -ne 200) { throw ("HTTP_" + $sc + " " + $x) }
-    ("200 " + $x)
+    ("200 " + $x) | Tee-Object -FilePath $runLog -Append | Out-Null
   }
   catch {
     throw ("LIVE_FAIL " + $x)
   }
 }
+"LAW_RUN_OK" | Tee-Object -FilePath $runLog -Append | Out-Null
 "LAW_RUN_OK"
