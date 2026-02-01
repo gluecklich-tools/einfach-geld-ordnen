@@ -96,43 +96,7 @@ foreach ($x in $u) {
     throw ("LIVE_FAIL " + $x)
   }
 }
-"LAW_RUN_OK" | Tee-# --- EOL_NORMALIZE_START ---
-# Normalize generated audit text files to UTF-8 no BOM + LF (prevents CRLF/mixed warnings)
-$RepoRoot = $null
-try {
-  $RepoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
-} catch {
-  $RepoRoot = (Split-Path -Parent $PSScriptRoot)
-}
-function Normalize-TextFileLF {
-  param([Parameter(Mandatory=$true)][string]$Path)
-  if (-not (Test-Path -LiteralPath $Path)) { return }
-  [byte[]]$b = [System.IO.File]::ReadAllBytes($Path)
-  if ($b.Length -ge 3 -and $b[0] -eq 0xEF -and $b[1] -eq 0xBB -and $b[2] -eq 0xBF) {
-    throw ("BOM present (refuse): " + $Path)
-  }
-  $u = New-Object System.Text.UTF8Encoding($false)
-  $s = $u.GetString($b)
-  $cr   = [string][char]13
-  $lf   = [string][char]10
-  $crlf = $cr + $lf
-  $s2 = $s.Replace($crlf, $lf).Replace($cr, $lf)
-  if ($s2 -ne $s) {
-    [System.IO.File]::WriteAllBytes($Path, $u.GetBytes($s2))
-  }
-}
-$targets = @()
-$targets += (Join-Path $RepoRoot 'seiten\audit.md')
-$targets += (Get-ChildItem -LiteralPath (Join-Path $RepoRoot 'assets\audit') -Recurse -File -Filter 'checksums.txt' -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName)
-$targets += (Get-ChildItem -LiteralPath (Join-Path $RepoRoot 'assets\audit') -Recurse -File -Filter 'summary.md'   -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName)
-$targets = $targets | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique
-foreach ($t in $targets) { Normalize-TextFileLF -Path $t }
-# Optional: show eol evidence (non-fatal)
-try {
-  $e = @(git -C $RepoRoot ls-files --eol)
-  $e | Where-Object { $_ -match 'assets/audit/.*/checksums\.txt|assets/audit/.*/summary\.md|seiten/audit\.md' } | ForEach-Object { Write-Host $_ }
-} catch { }
-# --- EOL_NORMALIZE_END ---
+"LAW_RUN_OK" | Tee-
 
 Object -FilePath $runLog -Append | Out-Null
 "LAW_RUN_OK"
