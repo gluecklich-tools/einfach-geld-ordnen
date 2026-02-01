@@ -1,0 +1,13 @@
+name: zz-dispatch-smoke
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "19 3 1 * *"
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo "dispatch-smoke OK"
