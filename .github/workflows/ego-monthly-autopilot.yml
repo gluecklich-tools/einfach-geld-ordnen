@@ -1,5 +1,5 @@
 name: ego-monthly-autopilot
-on:
+"on":
   workflow_dispatch:
   schedule:
     - cron: "17 3 1 * *"
