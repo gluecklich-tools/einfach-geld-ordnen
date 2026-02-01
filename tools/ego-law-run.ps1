@@ -54,6 +54,12 @@ foreach ($s in @('.\tools\release-gate-0.ps1','.\tools\mvp02-run.ps1','.\tools\s
 foreach ($s in @('.\tools\audit-l2-pack.ps1')) {
   if (Test-Path -LiteralPath $s) { Run-Logged { & $s } }
 }
+# --- MVP02_GATE_HOOK_START ---
+# Ensure MVP02 gate always runs inside LawRun
+& (Join-Path $PSScriptRoot 'mvp02-gate.ps1')
+if ($LASTEXITCODE -ne 0) { throw "mvp02-gate FAILED (exit $LASTEXITCODE)" }
+# --- MVP02_GATE_HOOK_END ---
+
 # 3) COMMIT/PUSH only if changed
 $dirtyBefore = [bool](git status --porcelain)
 $commitDone = $false
@@ -90,8 +96,4 @@ foreach ($x in $u) {
 }
 "LAW_RUN_OK" | Tee-Object -FilePath $runLog -Append | Out-Null
 "LAW_RUN_OK"
-# --- MVP02_GATE_HOOK_START ---
-# Ensure MVP02 gate always runs inside LawRun
-& (Join-Path $PSScriptRoot 'mvp02-gate.ps1')
-if ($LASTEXITCODE -ne 0) { throw "mvp02-gate FAILED (exit $LASTEXITCODE)" }
-# --- MVP02_GATE_HOOK_END ---
+
