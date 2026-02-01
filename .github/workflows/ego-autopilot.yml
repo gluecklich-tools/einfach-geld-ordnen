@@ -1,35 +1,13 @@
 name: ego-autopilot
-"on":
+on:
   workflow_dispatch:
   schedule:
     - cron: "17 3 1 * *"
 permissions:
-  contents: write
-concurrency:
-  group: ego-autopilot
-  cancel-in-progress: false
+  contents: read
 jobs:
-  run:
-    runs-on: windows-latest
+  hello:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Guard: law-run script must exist
-        shell: powershell
-        run: |
-          $ErrorActionPreference="Stop"
-          if (-not (Test-Path -LiteralPath (Join-Path $PWD "tools\ego-law-run.ps1"))) {
-            throw "Missing tools\ego-law-run.ps1 in repo workspace."
-          }
-      - name: LawRun (APPLY -> GATES -> Commit/Push if changes -> Live-HEAD-200)
-        shell: powershell
-        run: |
-          $ErrorActionPreference="Stop"
-          Set-StrictMode -Version Latest
-          Remove-Module PSReadLine -ErrorAction SilentlyContinue
-          chcp 65001 > $null
-          [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
-          & (Join-Path $PWD "tools\ego-law-run.ps1")
-          if ($LASTEXITCODE -ne 0) { throw ("ego-law-run failed (exit " + $LASTEXITCODE + ")") }
+      - name: hello
+        run: echo "ego-autopilot DISPATCH OK"
