@@ -2,7 +2,7 @@ name: ego-monthly-autopilot
 on:
   workflow_dispatch:
   schedule:
-    # 1st day each month, 04:17 Europe/Berlin ~ 03:17 UTC in winter (ok if it shifts)
+    # 1st day each month, 04:17 Europe/Berlin ~ 03:17 UTC in winter (timezone shifts ok)
     - cron: "17 3 1 * *"
 permissions:
   contents: write
@@ -23,6 +23,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Guard: law-run script must exist
+        shell: powershell
+        run: |
+          $ErrorActionPreference="Stop"
+          if (-not (Test-Path -LiteralPath (Join-Path $PWD "tools\ego-law-run.ps1"))) {
+            throw "Missing tools\ego-law-run.ps1 in repo workspace. Autopilot cannot run."
+          }
       - name: LawRun (APPLY -> GATES -> Commit/Push if changes -> Live-HEAD-200)
         id: lawrun
         shell: powershell
@@ -32,9 +39,40 @@ jobs:
           Remove-Module PSReadLine -ErrorAction SilentlyContinue
           chcp 65001 > $null
           [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
-          # run the law
           & (Join-Path $PWD "tools\ego-law-run.ps1")
           if ($LASTEXITCODE -ne 0) { throw ("ego-law-run failed (exit " + $LASTEXITCODE + ")") }
+      - name: Collect audit summary snippet (for FAIL issue)
+        if: always()
+        id: summary
+        shell: powershell
+        run: |
+          $ErrorActionPreference="Continue"
+          $root = Join-Path $PWD "assets\audit"
+          $snip = ""
+          if (Test-Path -LiteralPath $root) {
+            $dirs = Get-ChildItem -LiteralPath $root -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match "^\d{4}-\d{2}$" } | Sort-Object Name -Descending
+            if ($dirs -and $dirs.Count -gt 0) {
+              $sum = Join-Path $dirs[0].FullName "summary.md"
+              if (Test-Path -LiteralPath $sum) {
+                try {
+                  $lines = Get-Content -LiteralPath $sum -Encoding UTF8 -ErrorAction Stop | Select-Object -First 120
+                  $snip = ($lines -join "`n")
+                } catch {
+                  $snip = "ERROR: could not read summary.md as UTF8"
+                }
+              } else {
+                $snip = "NOTE: summary.md not found in latest audit folder."
+              }
+            } else {
+              $snip = "NOTE: no audit folders found under assets/audit."
+            }
+          } else {
+            $snip = "NOTE: assets/audit folder not found."
+          }
+          # write as job output (multiline safe)
+          "summary<<EOF" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          $snip | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "EOF" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -49,11 +87,14 @@ jobs:
           script: |
             const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
             const title = `EGO Autopilot FAIL (${new Date().toISOString().slice(0,10)})`;
+            const summary = `${{ steps.summary.outputs.summary }}` || "(no summary output)";
             const body =
               `Autopilot monthly run FAILED.\n\n` +
               `Run: ${runUrl}\n` +
               `Commit: ${context.sha}\n\n` +
-              `Next action: Open the uploaded artifact "ego-audit-artifacts" and inspect logs / summary.\n`;
+              `--- summary.md (snippet) ---\n` +
+              summary + `\n\n` +
+              `Next action: Open the uploaded artifact "ego-audit-artifacts" and inspect logs / reports.\n`;
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
