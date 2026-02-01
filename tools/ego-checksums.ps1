@@ -9,6 +9,14 @@ $root = Split-Path -Parent $here
 Set-Location -LiteralPath $root
 function Write-TextIfChanged {
   param([Parameter(Mandatory=$true)][string]$Path,[Parameter(Mandatory=$true)][string]$Text)
+# --- EOL_NORMALIZE_TEXT_START ---
+# Force LF-only output for all generated text files (prevents CRLF warnings)
+if ($null -ne $Text) {
+  $Text = $Text -replace "`r`n", "`n"
+  $Text = $Text -replace "`r", "`n"
+}
+# --- EOL_NORMALIZE_TEXT_END ---
+
   $enc = New-Object System.Text.UTF8Encoding($false)
   $old = $null
   if (Test-Path -LiteralPath $Path) { $old = [System.IO.File]::ReadAllText($Path, $enc) }
