@@ -5,6 +5,7 @@ on:
     - cron: "17 3 1 * *"
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: ego-monthly-autopilot
   cancel-in-progress: false
@@ -16,14 +17,19 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Guard: law-run script must exist
+      - name: Git identity
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Guard law-run script must exist
         shell: powershell
         run: |
           $ErrorActionPreference="Stop"
-          if (-not (Test-Path -LiteralPath (Join-Path $PWD "tools\ego-law-run.ps1"))) {
-            throw "Missing tools\ego-law-run.ps1 in repo workspace."
-          }
-      - name: LawRun (APPLY -> GATES -> Commit/Push if changes -> Live-HEAD-200)
+          $p = Join-Path $PWD "tools\ego-law-run.ps1"
+          if (-not (Test-Path -LiteralPath $p)) { throw ("Missing: " + $p) }
+          Write-Host ("FOUND: " + $p)
+      - name: LawRun
         shell: powershell
         run: |
           $ErrorActionPreference="Stop"
@@ -31,5 +37,6 @@ jobs:
           Remove-Module PSReadLine -ErrorAction SilentlyContinue
           chcp 65001 > $null
           [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
-          & (Join-Path $PWD "tools\ego-law-run.ps1")
+          $p = Join-Path $PWD "tools\ego-law-run.ps1"
+          & $p
           if ($LASTEXITCODE -ne 0) { throw ("ego-law-run failed (exit " + $LASTEXITCODE + ")") }
