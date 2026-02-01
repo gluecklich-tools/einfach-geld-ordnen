@@ -96,8 +96,7 @@ foreach ($x in $u) {
     throw ("LIVE_FAIL " + $x)
   }
 }
-"LAW_RUN_OK" | Tee-
-
+"LAW_RUN_OK" | Tee-Object -FilePath $runLog -Append | Out-Null
 Object -FilePath $runLog -Append | Out-Null
 "LAW_RUN_OK"
 
