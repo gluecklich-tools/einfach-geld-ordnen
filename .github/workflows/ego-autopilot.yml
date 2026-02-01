@@ -5,9 +5,19 @@ on:
     - cron: "17 3 1 * *"
 permissions:
   contents: read
+concurrency:
+  group: ego-autopilot
+  cancel-in-progress: false
 jobs:
   hello:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - name: hello
-        run: echo "ego-autopilot DISPATCH OK"
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Hello (Windows)
+        shell: pwsh
+        run: |
+          Write-Host "ego-autopilot WINDOWS DISPATCH OK"
+          Write-Host ("Runner: " + $env:RUNNER_OS)
