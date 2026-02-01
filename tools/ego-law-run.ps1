@@ -97,6 +97,6 @@ foreach ($x in $u) {
   }
 }
 "LAW_RUN_OK" | Tee-Object -FilePath $runLog -Append | Out-Null
-Object -FilePath $runLog -Append | Out-Null
+Tee-Object -FilePath $runLog -Append | Out-Null
 "LAW_RUN_OK"
 
