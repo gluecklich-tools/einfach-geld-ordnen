@@ -2,7 +2,7 @@
 
 result: PASS
 scope: L2
-date: 2026-02-01 19:49:04 +01:00
+date: 2026-02-01 20:44:51 +01:00
 
 evidence:
 - folder: assets/audit/2026-02/
