@@ -4,20 +4,40 @@ on:
   schedule:
     - cron: "17 3 1 * *"
 permissions:
-  contents: read
+  contents: write
+  issues: write
 concurrency:
   group: ego-autopilot
   cancel-in-progress: false
 jobs:
-  hello:
+  run:
     runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Hello (Windows)
-        shell: pwsh
+      - name: Git identity (for possible commits)
+        shell: powershell
         run: |
-          Write-Host "ego-autopilot WINDOWS DISPATCH OK"
-          Write-Host ("Runner: " + $env:RUNNER_OS)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Guard: law-run must exist
+        shell: powershell
+        run: |
+          $ErrorActionPreference="Stop"
+          $p = Join-Path $PWD "tools\ego-law-run.ps1"
+          if (-not (Test-Path -LiteralPath $p)) { throw ("Missing: " + $p) }
+          Write-Host ("FOUND: " + $p)
+          powershell -NoProfile -ExecutionPolicy Bypass -Command '$PSVersionTable | Out-String | Write-Host'
+      - name: LawRun (APPLY -> GATES -> Commit/Push if changes -> Live-HEAD-200)
+        shell: powershell
+        run: |
+          $ErrorActionPreference="Stop"
+          Set-StrictMode -Version Latest
+          Remove-Module PSReadLine -ErrorAction SilentlyContinue
+          chcp 65001 > $null
+          [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
+          $p = Join-Path $PWD "tools\ego-law-run.ps1"
+          & $p
+          if ($LASTEXITCODE -ne 0) { throw ("ego-law-run failed (exit " + $LASTEXITCODE + ")") }
