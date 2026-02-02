@@ -14,7 +14,9 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [50-30-20 Budget]( {{ site.baseurl }}/seiten/rechner-50-30-20.html )
 
 ## Weiter
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

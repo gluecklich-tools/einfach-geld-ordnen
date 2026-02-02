@@ -58,7 +58,9 @@ Das ist nicht selten. Und es ist nicht falsch.
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
 ## Weiter
-- [Spielraum Rechner]({{ site.baseurl }}/seiten/spielraum-rechner.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/pillar/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/spielraum-rechner.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+
 {% include no_sackgasse_footer.html %}

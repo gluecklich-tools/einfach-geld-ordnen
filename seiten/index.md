@@ -17,7 +17,9 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 - Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/pillar/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

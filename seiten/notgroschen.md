@@ -14,7 +14,9 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
 
 ## Weiter
-- [Rechner Notgroschen]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-- [Download Hub Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

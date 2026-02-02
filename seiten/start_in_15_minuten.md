@@ -27,7 +27,9 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Monat?
 
 ## Weiter
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

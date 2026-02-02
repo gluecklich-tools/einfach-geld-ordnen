@@ -14,7 +14,9 @@ Wenn du hier 50 bis 150 EUR sparst, ist das wie eine Gehaltserhoehung.
 5. Lege die Ersparnis sofort weg (Notgroschen oder Schulden).
 
 ## Weiter
-- [Rechner Fixkosten Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
-- [Download Hub Fixkosten Senken]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

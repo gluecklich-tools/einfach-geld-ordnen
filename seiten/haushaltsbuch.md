@@ -13,7 +13,9 @@ Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ord
 Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Einnahmen, Fixkosten, Alltag und Spielraum **übersichtlich** zu sehen.
 
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

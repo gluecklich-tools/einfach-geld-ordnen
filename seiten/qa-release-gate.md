@@ -12,10 +12,10 @@ Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 - Live-Check immer mit Projekt-URL (nicht Root-Domain).
 
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
-{% include no_sackgasse_footer.html %}
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
 
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
@@ -43,3 +43,5 @@ Kein Renegade.
 - Evidence: assets/audit/YYYY-MM/
 - Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->
+
+{% include no_sackgasse_footer.html %}

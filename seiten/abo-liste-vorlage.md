@@ -13,7 +13,9 @@ Diese Seite ist die Zielseite fuer die Abo-Links aus dem Pillar-Bereich.
 Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann direkt zu den Downloads.
 
 ## Weiter
-- [Abo Check]({{ site.baseurl }}/seiten/abo-check.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-check.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

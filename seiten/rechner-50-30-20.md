@@ -45,7 +45,9 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
 </script>
 
 ## Weiter
-- [50 30 20]({{ site.baseurl }}/seiten/50-30-20.html)
-- [Download Hub 50 30 20]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/50-30-20.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

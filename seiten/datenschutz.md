@@ -47,7 +47,9 @@ Anbieter: Cloudflare, Inc. (USA)
 Weitere Informationen: https://www.cloudflare.com/privacypolicy/
 
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

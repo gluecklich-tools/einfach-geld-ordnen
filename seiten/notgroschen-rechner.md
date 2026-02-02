@@ -129,7 +129,9 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 </script>
 
 ## Weiter
-- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

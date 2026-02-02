@@ -14,7 +14,9 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 4. **Nach Tilgung**: Extra auf die naechste
 
 ## Weiter
-- [Rechner Schneeball]({{ site.baseurl }}/seiten/rechner-schneeball.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/pillar/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+
 {% include no_sackgasse_footer.html %}

@@ -54,7 +54,7 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 {% include no_sackgasse_footer.html %}
 
 ## Weiter
-- [Index]({{ site.baseurl }}/seiten/index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
-{% include no_sackgasse_footer.html %}
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/index.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)

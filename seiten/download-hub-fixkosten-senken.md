@@ -15,7 +15,9 @@ Hier sammelst du alle Downloads, die zum Fixkosten-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-- [Fixkosten Senken]({{ site.baseurl }}/seiten/fixkosten-senken.html)
-- [Rechner Fixkosten Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/fixkosten-senken.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

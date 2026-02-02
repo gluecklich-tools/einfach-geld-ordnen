@@ -15,7 +15,9 @@ Hier sammelst du alle Downloads, die zum Budget-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-- [50 30 20]({{ site.baseurl }}/seiten/50-30-20.html)
-- [Rechner 50 30 20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/50-30-20.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

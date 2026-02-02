@@ -23,7 +23,9 @@ Kurz: Abos finden, kuendigen, sparen (Self-Serve).
 - Was, wenn ich Kuendigungstermine verpasst habe?
 
 ## Weiter
-- [Abo Liste Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/seiten/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

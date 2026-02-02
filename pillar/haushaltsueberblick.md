@@ -31,7 +31,9 @@ Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereite
 Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Index]({{ site.baseurl }}/pillar/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+
 {% include no_sackgasse_footer.html %}

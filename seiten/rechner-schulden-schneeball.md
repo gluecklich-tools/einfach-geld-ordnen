@@ -104,7 +104,9 @@ Kredit C; 600; 30"></textarea>
 </script>
 
 ## Weiter
-- [Schulden Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
-- [Download Hub Schulden Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/schulden-schneeball.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

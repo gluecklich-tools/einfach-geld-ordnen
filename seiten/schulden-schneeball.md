@@ -15,7 +15,9 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
 
 ## Weiter
-- [Rechner Schulden Schneeball]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-- [Download Hub Schulden Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

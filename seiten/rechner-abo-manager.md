@@ -114,7 +114,9 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
 </script>
 
 ## Weiter
-- [Abo Manager]({{ site.baseurl }}/seiten/abo-manager.html)
-- [Download Hub Abo Manager]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-manager.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

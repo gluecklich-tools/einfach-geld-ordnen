@@ -54,7 +54,9 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
 </script>
 
 ## Weiter
-- [Notgroschen]({{ site.baseurl }}/seiten/notgroschen.html)
-- [Download Hub Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/notgroschen.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

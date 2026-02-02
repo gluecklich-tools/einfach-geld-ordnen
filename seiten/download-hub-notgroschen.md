@@ -15,7 +15,9 @@ Hier sammelst du alle Downloads, die zum Notgroschen-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-- [Notgroschen]({{ site.baseurl }}/seiten/notgroschen.html)
-- [Rechner Notgroschen]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/notgroschen.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}

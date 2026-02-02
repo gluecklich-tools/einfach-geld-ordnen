@@ -15,7 +15,9 @@ Hier sammelst du alle Downloads, die zum Abo-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-- [Abo Manager]({{ site.baseurl }}/seiten/abo-manager.html)
-- [Rechner Abo Manager]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
-- [Index]({{ site.baseurl }}/index.html)
+
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-manager.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}
