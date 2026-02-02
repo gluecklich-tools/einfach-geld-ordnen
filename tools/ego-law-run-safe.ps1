@@ -16,7 +16,7 @@ $Law = Join-Path $PublicRepo 'tools\ego-law-run.ps1'
 $__prev = $env:EGO_LAWRUN_ALLOWED
 $env:EGO_LAWRUN_ALLOWED = '1'
 try {
-  powershell -NoProfile -ExecutionPolicy Bypass -File $Law
+  pwsh -NoProfile -ExecutionPolicy Bypass -File $Law
 } finally {
   if ($null -eq $__prev) {
     Remove-Item Env:EGO_LAWRUN_ALLOWED -ErrorAction SilentlyContinue
