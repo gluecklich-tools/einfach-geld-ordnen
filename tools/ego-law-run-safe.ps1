@@ -12,7 +12,19 @@ function Ensure-CleanOrCommitPush {
 & git -C $PublicRepo rev-parse --is-inside-work-tree | Out-Null
 Write-Host "=== SAFE: run LawRun ==="
 $Law = Join-Path $PublicRepo 'tools\ego-law-run.ps1'
-powershell -NoProfile -ExecutionPolicy Bypass -File $Law
+# EGO_LAWRUN_ENTRY_GUARD_SAFE_V1
+$__prev = $env:EGO_LAWRUN_ALLOWED
+$env:EGO_LAWRUN_ALLOWED = '1'
+try {
+  powershell -NoProfile -ExecutionPolicy Bypass -File $Law
+} finally {
+  if ($null -eq $__prev) {
+    Remove-Item Env:EGO_LAWRUN_ALLOWED -ErrorAction SilentlyContinue
+  } else {
+    $env:EGO_LAWRUN_ALLOWED = $__prev
+  }
+}
+
 Write-Host "=== SAFE: finalize (commit+push remaining changes) ==="
 Ensure-CleanOrCommitPush -RepoPath $PublicRepo -MsgPrefix "LawRun: finalize (safe)"
 $st2 = @(& git -C $PublicRepo status --porcelain)

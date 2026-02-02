@@ -1,5 +1,11 @@
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+
+# EGO_LAWRUN_ENTRY_GUARD_V1
+if ($env:EGO_LAWRUN_ALLOWED -ne '1') {
+  Write-Host 'ABORT: do not run ego-law-run.ps1 directly. Use ego-super-run.ps1 (recommended) or ego-law-run-safe.ps1.'
+  exit 2
+}
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
 chcp 65001 > $null
 [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
