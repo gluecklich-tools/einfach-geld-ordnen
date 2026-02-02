@@ -1,14 +1,19 @@
 * text=auto eol=lf
-*.ps1 text eol=lf
-*.psm1 text eol=lf
-*.yml text eol=lf
+
+*.md   text eol=lf
+*.ps1  text eol=lf
+*.yml  text eol=lf
 *.yaml text eol=lf
-*.md text eol=lf
-*.html text eol=lf
-*.css text eol=lf
-*.js text eol=lf
 *.json text eol=lf
-*.txt text eol=lf
-# Windows scripts stay CRLF if you ever add them
-*.bat text eol=crlf
-*.cmd text eol=crlf
+*.txt  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.js   text eol=lf
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
