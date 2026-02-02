@@ -12,8 +12,9 @@ Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr 
 3. Markiere: **brauche ich wirklich** vs **nur Gewohnheit**.
 4. Kuendige zuerst: teuer + selten genutzt.
 5. Lege die Ersparnis sofort fest (Notgroschen oder Schulden).
+
 ## Weiter
-1. [Rechner: Abo-Kosten pro Monat/Jahr]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Abo Manager]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
+- [Download Hub Abo Manager]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

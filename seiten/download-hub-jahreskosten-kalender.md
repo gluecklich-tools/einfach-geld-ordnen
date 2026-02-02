@@ -15,7 +15,7 @@ Hier sammelst du Downloads, die zum Jahreskosten-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-1. [Themen-Seite: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
-2. [Rechner: Jahreskosten auf Monatsbudget]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Jahreskosten Kalender]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
+- [Rechner Jahreskosten Kalender]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

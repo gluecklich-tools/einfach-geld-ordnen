@@ -102,8 +102,9 @@ Kredit C; 600; 30"></textarea>
   });
 })();
 </script>
+
 ## Weiter
-1. [Themen-Seite: Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Schulden Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
+- [Download Hub Schulden Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

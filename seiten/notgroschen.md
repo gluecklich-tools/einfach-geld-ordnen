@@ -12,8 +12,9 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 3. Richte einen Dauerauftrag ein (auch 25 EUR sind ok).
 4. Nutze Extra-Geld (Rueckzahlung, Verkauf, Bonus) zuerst fuer den Notgroschen.
 5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
+
 ## Weiter
-1. [Rechner: Notgroschen-Ziel & Plan]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Notgroschen]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
+- [Download Hub Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

@@ -72,8 +72,9 @@ Wartung Heizung; 180; jahr"></textarea>
   });
 })();
 </script>
+
 ## Weiter
-1. [Themen-Seite: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Jahreskosten Kalender]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
+- [Download Hub Jahreskosten Kalender]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

@@ -25,10 +25,7 @@ So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Jahreskosten Rechner]({{ site.baseurl }}/seiten/jahreskosten-rechner.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

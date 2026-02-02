@@ -8,7 +8,7 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->
 ### Letzter Audit
 
-- Datum: 2026-02-02 13:49:27 +01:00
+- Datum: 2026-02-02 14:04:46 +01:00
 - Ergebnis: **PASS**
 - Scope: L2
 - Evidence: {{ site.baseurl }}/assets/audit/2026-02/
@@ -46,11 +46,14 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 
 
 
+
 ## Evidence
 - Evidence-Ordner liegen unter: `assets/audit/YYYY-MM/`
 - Checksums liegen je Monat unter: `assets/audit/YYYY-MM/checksums.txt`
 {% include no_sackgasse_footer.html %}
+
 ## Weiter
-- [Start]({{ site.baseurl }}/seiten/index.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
+{% include no_sackgasse_footer.html %}

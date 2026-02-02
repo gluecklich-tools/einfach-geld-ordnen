@@ -27,10 +27,7 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 - [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-index.html)
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

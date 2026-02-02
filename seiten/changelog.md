@@ -11,10 +11,7 @@ Kurz und klar: Was hat sich am Projekt geaendert.
 - TBD (wird nachgezogen, wenn Releases stabil sind)
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}

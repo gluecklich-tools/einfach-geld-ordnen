@@ -18,8 +18,9 @@ Wenn du sie **vorher aufteilst**, wird dein Monat stabil.
 * GEZ (Beitrag)
 * Mitgliedschaften (Verein, Fitness, Apps)
 * Wartung/Inspektion, Schornsteinfeger, Fuehrerscheine/Fees
+
 ## Weiter
-1. [Rechner: Jahreskosten auf Monatsbudget]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Jahreskosten Kalender]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
+- [Download Hub Jahreskosten Kalender]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

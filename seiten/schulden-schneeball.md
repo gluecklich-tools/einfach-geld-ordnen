@@ -13,8 +13,9 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 3. Zahle auf alle Schulden die Mindestrate.
 4. Jede Extra-EUR geht auf die kleinste Schuld.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
+
 ## Weiter
-1. [Rechner: Schneeball-Plan]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Schulden Schneeball]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
+- [Download Hub Schulden Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

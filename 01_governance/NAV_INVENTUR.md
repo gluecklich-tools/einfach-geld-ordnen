@@ -40,9 +40,7 @@ Diese Datei ist die **Single Source of Truth** für title, permalink, nav_group,
 | seiten\variable-ausgaben.md | seiten | 60 | {{ site.baseurl }}/seiten/variable-ausgaben.html | Variable Ausgaben – Einordnung ohne Druck | 5 |
 
 ## Weiter
-
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Download]({{ site.baseurl }}/seiten/downloads.html)
-- [Uebersicht]({{ site.baseurl }}/index.html)
-
+- [50 30 20]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

@@ -14,8 +14,9 @@ Die Schneeball-Methode ist ein einfacher, motivierender Weg, Schulden planbar ab
 * Ein schneller Rechner, der dir den Ablauf strukturiert
 * Ein Download-Hub (Freebie / Vollversion-Links, sobald du es verlinkst)
 * Ein klarer Naechster-Schritt-Flow ohne Sackgassen
+
 ## Weiter
-1. [Rechner: Schneeball-Plan erstellen]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Schulden Schneeball]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
+- [Download Hub Schulden Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

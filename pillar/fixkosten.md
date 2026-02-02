@@ -22,10 +22,7 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 - [50-30-20 Regel]({{ site.baseurl }}/pillar/50-30-20.html)
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Fixkosten Rechner]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

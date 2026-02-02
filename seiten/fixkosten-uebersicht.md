@@ -29,10 +29,7 @@ Wenn ja: reicht.
 ---
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Fixkosten Rechner]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}

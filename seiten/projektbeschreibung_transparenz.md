@@ -13,8 +13,9 @@ Alle Inhalte werden von mir geprueft, ueberarbeitet und inhaltlich verantwortet.
 Die Inhalte ersetzen keine individuelle Rechts-, Steuer- oder Finanzberatung.
 ## Updates
 Ich verbessere Inhalte laufend, sobald ich Fehler finde oder Regeln/Standards sich aendern.
+
 ## Weiter
-- [Downloads]({{ site.baseurl }}/downloads.html)
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Einfach Geld Ordnen]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}

@@ -25,10 +25,7 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

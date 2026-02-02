@@ -20,10 +20,7 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 - Self-Serve, keine Beratung\n- Wenn negativ: Fixkosten senken oder Einnahmen erhoehen
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}

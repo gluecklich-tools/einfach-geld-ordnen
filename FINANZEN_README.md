@@ -13,9 +13,7 @@ Die operative Checkliste sowie alle Belege werden **nur in privater Ablage** gef
 **Arbeitsstandard:** Änderungen im Repo erfolgen **immer als kompletter Full-Swap** (vollständiger Dateiinhalt, kein Stückwerk).
 
 ## Weiter
-
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Download]({{ site.baseurl }}/seiten/downloads.html)
-- [Uebersicht]({{ site.baseurl }}/index.html)
-
+- [50 30 20]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

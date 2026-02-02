@@ -54,24 +54,11 @@ Im Repo existiert nur `FINANZEN_README.md` als Hinweistext.
 - Interne Links: konsequent mit `{{ site.baseurl }}` (Project Site), keine Links ohne baseurl.
 
 ## Weiter
-
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Download]({{ site.baseurl }}/seiten/downloads.html)
-- [Uebersicht]({{ site.baseurl }}/index.html)
-
+- [50 30 20]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
 
-<!-- EGO_RUNNER_PIN_START -->
-> Gesetz (Repo): Ab jetzt wird nur noch so gearbeitet:
->
-> **.\tools\ego-law-run.ps1**
->
-> Flow ist immer: APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
->
-> Debug (Ausnahme): nur mit klarer Absicht, danach wieder Runner.
-<!-- EGO_RUNNER_PIN_END -->
-
-<!-- EGO_LAW_RUNNER_START -->
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.

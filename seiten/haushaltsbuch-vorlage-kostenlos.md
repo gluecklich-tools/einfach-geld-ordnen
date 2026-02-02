@@ -16,10 +16,7 @@ Bis dahin: Nutze den Flow über den Uebersicht.
 ---
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch Excel]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}

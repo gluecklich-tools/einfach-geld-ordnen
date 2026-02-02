@@ -14,10 +14,7 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 4. **Nach Tilgung**: Extra weiterreichen
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/lawine-rechner.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Lawine Rechner]({{ site.baseurl }}/seiten/lawine-rechner.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

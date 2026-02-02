@@ -42,15 +42,11 @@ Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)
 Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}
 
-<!-- EGO_LAW_RUNNER_START -->
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.

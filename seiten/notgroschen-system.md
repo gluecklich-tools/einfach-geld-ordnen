@@ -11,8 +11,9 @@ Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.
 2. Automatisiere einen festen Betrag pro Monat.
 3. Trenne Notgroschen vom Alltag (separates Konto/Unterkonto).
 4. Nutze ihn nur fuer echte Notfaelle und fuelle ihn wieder auf.
+
 ## Weiter
-1. [Rechner: Wie schnell bist du fertig?]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-2. [Download-Hub: Vorlagen & Dateien]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Rechner Notgroschen]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
+- [Download Hub Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

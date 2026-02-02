@@ -15,7 +15,7 @@ Hier sammelst du alle Downloads, die zum Schulden-Flow gehoeren.
 * (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
 
 ## Weiter
-1. [Themen-Seite: Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
-2. [Rechner: Schneeball-Plan]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-3. [Startseite]({{ site.baseurl }}/index.html)
+- [Schulden Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
+- [Rechner Schulden Schneeball]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}

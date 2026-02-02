@@ -58,10 +58,7 @@ Das ist nicht selten. Und es ist nicht falsch.
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaupt etwas veraendert.
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/spielraum-rechner.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/index.html)
-
-
+- [Spielraum Rechner]({{ site.baseurl }}/seiten/spielraum-rechner.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/pillar/index.html)
 {% include no_sackgasse_footer.html %}

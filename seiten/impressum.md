@@ -32,10 +32,7 @@ Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website un
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
 
 ## Weiter
-
-- [Naechster Schritt]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Vorlage/Download]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
-- [Uebersicht]({{ site.baseurl }}/seiten/index.html)
-
-
+- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Haushaltsbuch Vorlage Kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Index]({{ site.baseurl }}/seiten/index.html)
 {% include no_sackgasse_footer.html %}

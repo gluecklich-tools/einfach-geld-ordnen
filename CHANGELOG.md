@@ -21,9 +21,7 @@ permalink: /CHANGELOG.html
 - Fix: strom-gas-wechsel.md doppelter Block bereinigt.
 
 ## Weiter
-
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Download]({{ site.baseurl }}/seiten/downloads.html)
-- [Uebersicht]({{ site.baseurl }}/index.html)
-
+- [50 30 20]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
