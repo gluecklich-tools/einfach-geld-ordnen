@@ -66,6 +66,27 @@ if ($LASTEXITCODE -ne 0) { throw "mvp02-gate FAILED (exit $LASTEXITCODE)" }
 $dirtyBefore = [bool](git status --porcelain)
 $commitDone = $false
 if ($dirtyBefore) {
+
+# EGO_LF_GUARD_AUDITMD_V2
+function Convert-EgoFile-ToLFNoBOM {
+  param([Parameter(Mandatory=$true)][string]$Path)
+  if (-not (Test-Path -LiteralPath $Path)) { return }
+  $u = New-Object System.Text.UTF8Encoding($false)
+  [byte[]]$bb = [System.IO.File]::ReadAllBytes($Path)
+  if ($bb.Length -ge 3 -and $bb[0] -eq 0xEF -and $bb[1] -eq 0xBB -and $bb[2] -eq 0xBF) {
+    $bb = $bb[3..($bb.Length-1)]
+  }
+  $tx = $u.GetString($bb)
+  $cr = [string][char]13
+  $lf = [string][char]10
+  $tx = $tx.Replace(($cr + $lf), $lf).Replace($cr, $lf)
+  [System.IO.File]::WriteAllBytes($Path, $u.GetBytes($tx))
+}
+
+# normalize audit.md BEFORE any git add/commit to avoid CRLF warning
+$__repo  = Split-Path -Parent $PSScriptRoot
+$__audit = Join-Path $__repo 'seiten\audit.md'
+Convert-EgoFile-ToLFNoBOM -Path $__audit
   git add -A
   $d = (Get-Date).ToString('yyyy-MM-dd')
   git commit -m ("LawRun: apply + gates " + $d)
