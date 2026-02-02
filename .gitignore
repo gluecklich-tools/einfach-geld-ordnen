@@ -90,3 +90,7 @@ tools/_*.txt
 /tools/_workflow_concurrency_backup_*/
 /tools/_workflow_concurrency_report_*.txt
 /tools/_weiter_fix.txt
+
+/tools/_workflow_concurrency_backup_*
+/tools/reports/
+/tools/reports_*
