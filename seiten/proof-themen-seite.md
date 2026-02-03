@@ -23,8 +23,8 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - Frage 3: Antwort
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
+- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Downloads]({{site.baseurl}}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

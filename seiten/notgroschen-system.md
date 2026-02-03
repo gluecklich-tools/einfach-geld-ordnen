@@ -13,8 +13,8 @@ Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.
 4. Nutze ihn nur fuer echte Notfaelle und fuelle ihn wieder auf.
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Notgroschen]({{site.baseurl}}/seiten/rechner-notgroschen.html)
+- [Download: Notgroschen]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
+- [Pillar: Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
 
 {% include no_sackgasse_footer.html %}

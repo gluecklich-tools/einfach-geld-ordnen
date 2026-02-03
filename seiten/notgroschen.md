@@ -19,7 +19,8 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 4. Nutze Extra-Geld (Rueckzahlung, Verkauf, Bonus) zuerst fuer den Notgroschen.
 5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
 ## Weiter
-{% include weiter_links.html %}
-
+- [Rechner: Notgroschen]({{site.baseurl}}/seiten/rechner-notgroschen.html)
+- [Download: Notgroschen]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
+- [Pillar: Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
 
 {% include no_sackgasse_footer.html %}
