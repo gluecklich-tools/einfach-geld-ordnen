@@ -1,23 +1,35 @@
 ---
 layout: default
-title: Download-Hub Schulden Schneeball
+title: "Download-Hub: Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
 ---
-# Download-Hub: Schulden-Schneeball (Vorlagen & Dateien)
-Hier sammelst du alle Downloads, die zum Schulden-Flow gehoeren.
+
+# Download-Hub: Schulden-Schneeball
+
+Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Einfach Geld ordnen".
+
 ## Freebie
-* (Hier verlinkst du spaeter dein Freebie.)
+
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
 ## Vollversion
-* (Hier verlinkst du spaeter die Vollversion.)
+
+- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
 
 ## Premium
 
-* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+
+## Hinweise
+
+- Zum inhaltlichen Einstieg: **[Schulden-Schneeball (Pillar)]({{ site.baseurl }}/pillar/schulden-schneeball.html)**
+- Ziel: schnell Klarheit + Plan, ohne Sackgassen.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/schulden-schneeball.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
+- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Schulden:** [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
 
 {% include no_sackgasse_footer.html %}
