@@ -62,3 +62,6 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

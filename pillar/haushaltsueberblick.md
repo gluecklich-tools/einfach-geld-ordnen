@@ -33,3 +33,6 @@ Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eig
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

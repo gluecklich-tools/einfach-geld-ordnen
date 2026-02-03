@@ -31,3 +31,6 @@ Wenn ja: reicht.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

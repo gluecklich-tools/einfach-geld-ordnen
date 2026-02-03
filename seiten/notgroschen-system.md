@@ -15,3 +15,6 @@ Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

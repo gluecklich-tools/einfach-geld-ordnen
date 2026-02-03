@@ -28,3 +28,6 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

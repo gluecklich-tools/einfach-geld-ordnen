@@ -28,3 +28,6 @@ Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -27,3 +27,6 @@ Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher W
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

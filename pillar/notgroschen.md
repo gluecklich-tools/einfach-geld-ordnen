@@ -17,3 +17,6 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

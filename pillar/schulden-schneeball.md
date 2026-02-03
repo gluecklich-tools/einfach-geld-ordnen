@@ -16,3 +16,6 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

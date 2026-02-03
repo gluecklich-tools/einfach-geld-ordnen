@@ -21,3 +21,6 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

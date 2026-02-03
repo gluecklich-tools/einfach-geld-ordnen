@@ -39,3 +39,6 @@ Mehr ist an dieser Stelle nicht nötig.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -20,3 +20,6 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [50-30-20 Budget]( {{ site.baseurl }}/seiten/rechner-50-30-20.html)
 ## Weiter
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

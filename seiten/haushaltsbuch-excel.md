@@ -19,3 +19,6 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

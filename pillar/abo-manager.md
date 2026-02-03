@@ -39,3 +39,6 @@ Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, mus
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

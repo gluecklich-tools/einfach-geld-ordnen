@@ -25,3 +25,6 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

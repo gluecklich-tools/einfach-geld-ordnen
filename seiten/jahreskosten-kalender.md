@@ -22,3 +22,6 @@ Wenn du sie **vorher aufteilst**, wird dein Monat stabil.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

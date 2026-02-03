@@ -56,3 +56,6 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

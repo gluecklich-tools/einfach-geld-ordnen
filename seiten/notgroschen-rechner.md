@@ -131,3 +131,6 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

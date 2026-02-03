@@ -15,3 +15,6 @@ Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann dir
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

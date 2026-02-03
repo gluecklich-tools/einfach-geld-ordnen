@@ -21,3 +21,6 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
 ## Weiter
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

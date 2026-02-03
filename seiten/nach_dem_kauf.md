@@ -11,3 +11,6 @@ Wenn etwas nicht klappt, geh bitte strikt in dieser Reihenfolge vor. Das spart d
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -20,3 +20,6 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
 ## Weiter
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

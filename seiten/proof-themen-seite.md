@@ -25,3 +25,6 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

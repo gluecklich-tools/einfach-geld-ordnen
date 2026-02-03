@@ -24,3 +24,6 @@ Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

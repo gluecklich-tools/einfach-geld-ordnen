@@ -45,3 +45,6 @@ Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -29,3 +29,6 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

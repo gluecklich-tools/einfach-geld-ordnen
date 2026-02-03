@@ -76,3 +76,6 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

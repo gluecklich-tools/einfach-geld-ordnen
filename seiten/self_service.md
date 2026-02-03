@@ -43,3 +43,6 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

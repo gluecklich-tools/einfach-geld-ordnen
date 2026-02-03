@@ -60,3 +60,6 @@ Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man ueberhaup
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

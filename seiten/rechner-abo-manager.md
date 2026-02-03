@@ -116,3 +116,6 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

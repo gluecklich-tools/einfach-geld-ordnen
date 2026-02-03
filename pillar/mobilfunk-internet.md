@@ -27,3 +27,6 @@ Wechsel ist oft der groessere Hebel als lange Diskussionen.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

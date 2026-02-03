@@ -15,3 +15,6 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

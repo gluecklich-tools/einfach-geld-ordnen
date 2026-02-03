@@ -29,3 +29,6 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -29,3 +29,6 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

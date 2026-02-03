@@ -15,3 +15,6 @@ Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

@@ -110,3 +110,6 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}

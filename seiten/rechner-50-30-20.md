@@ -47,3 +47,6 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
 ## Weiter
 
 {% include weiter_links.html %}
+
+
+{% include no_sackgasse_footer.html %}
