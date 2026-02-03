@@ -10,19 +10,20 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
-# EGO_HOOK_SSOT_REFRESH_V1
-$SSOT_REFRESH = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1'
-if (Test-Path -LiteralPath $SSOT_REFRESH) {
+# EGO_HOOK_INTERNAL_REFRESH_V1
+$env:EGO_INTERNAL_REFRESH | Out-Null
+$InternalRefresh = $env:EGO_INTERNAL_REFRESH
+if (-not [string]::IsNullOrWhiteSpace($InternalRefresh) -and (Test-Path -LiteralPath $InternalRefresh)) {
   try {
-    "SSOT_REFRESH: start"
-    & pwsh -NoProfile -File $SSOT_REFRESH
-    "SSOT_REFRESH: ok"
+    "INTERNAL_REFRESH: start"
+    & pwsh -NoProfile -File $InternalRefresh
+    "INTERNAL_REFRESH: ok"
   } catch {
-    "SSOT_REFRESH: fail"
+    "INTERNAL_REFRESH: fail"
     throw
   }
 } else {
-  "SSOT_REFRESH: skip (not found)"
+  "INTERNAL_REFRESH: skip (env not set)"
 }
 
 try { Remove-Module PSReadLine -ErrorAction SilentlyContinue } catch {}

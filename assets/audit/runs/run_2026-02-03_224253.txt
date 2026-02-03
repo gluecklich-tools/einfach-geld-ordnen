@@ -1,0 +1,9 @@
+RUN_ID=2026-02-03_224253
+PASS: no-murx gate OK.
+APPLY_VISIBILITY_CLEANUP_CHANGED=0
+NO_CHANGES
+PASS: No _local/patch_backups links in repo content.
+PASS: tools/*.ps1 contains no forbidden hardpaths/SSOT markers.
+PASS: Download-Hub STRICT Gate ok (3 Stufen + Footer + Weiter=3 + baseurl+.html + targets exist).
+PASS: ego-run completed (required gates OK).
+AUDIT_L2_PACK_OK
