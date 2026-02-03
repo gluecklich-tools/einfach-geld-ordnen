@@ -1,23 +1,35 @@
 ---
 layout: default
-title: Download-Hub Abo-Manager
+title: "Download-Hub: Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html
 ---
-# Download-Hub: Abo-Manager (Vorlagen & Dateien)
-Hier sammelst du alle Downloads, die zum Abo-Flow gehoeren.
+
+# Download-Hub: Abo-Manager
+
+Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Geld ordnen".
+
 ## Freebie
-* (Hier verlinkst du spaeter dein Freebie.)
+
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
 ## Vollversion
-* (Hier verlinkst du spaeter die Vollversion.)
+
+- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
 
 ## Premium
 
-* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+
+## Hinweise
+
+- Zum inhaltlichen Einstieg: **[Abo-Manager (Pillar)]({{ site.baseurl }}/pillar/abo-manager.html)**
+- Ziel: Abos sichtbar machen, kuendigen oder optimieren, ohne Chaos.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-manager.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
+- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Abo-Manager:** [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
 
 {% include no_sackgasse_footer.html %}
