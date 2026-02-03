@@ -18,6 +18,6 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
 
 {% include no_sackgasse_footer.html %}

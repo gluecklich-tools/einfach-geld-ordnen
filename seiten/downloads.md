@@ -19,7 +19,7 @@ Die Vollversion kommt spaeter (z.B. ueber Digistore24). Bis dahin bleibt alles S
 
 ## Weiter
 
-- **Start:** [Startseite]({{ site.baseurl }}/index.html)
+- **Start:** [Startseite]({{ site.baseurl }}/)
 - **Rechner:** [Rechner-Index]({{ site.baseurl }}/seiten/rechner-index.html)
 - **Schulden:** [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
 

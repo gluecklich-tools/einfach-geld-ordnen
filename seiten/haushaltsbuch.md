@@ -16,6 +16,6 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
 
 {% include no_sackgasse_footer.html %}

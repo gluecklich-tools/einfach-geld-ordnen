@@ -35,6 +35,6 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 
 - **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - **Pillar-Cluster:** [Cluster-Uebersicht]({{ site.baseurl }}/pillar/cluster.html)
-- **Start:** [Startseite]({{ site.baseurl }}/index.html)
+- **Start:** [Startseite]({{ site.baseurl }}/)
 
 {% include no_sackgasse_footer.html %}

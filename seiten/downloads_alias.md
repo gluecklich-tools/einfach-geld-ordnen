@@ -11,6 +11,6 @@ Du findest alle Downloads hier:
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/projektbeschreibung_transparenz.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Uebersicht:** [Start]({{ site.baseurl }}/)
 
 {% include no_sackgasse_footer.html %}
