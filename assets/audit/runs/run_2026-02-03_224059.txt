@@ -1,0 +1,23 @@
+RUN_ID=2026-02-03_224059
+PASS: no-murx gate OK.
+APPLY_VISIBILITY_CLEANUP_CHANGED=0
+NO_CHANGES
+PASS: No _local/patch_backups links in repo content.
+FAIL: tools/*.ps1 contains forbidden hardpaths/SSOT markers:
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ego-super-run.ps1
+Line    : 14
+Pattern : _INTERN\
+Text    : $SSOT_REFRESH = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1'
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ego-super-run.ps1
+Line    : 14
+Pattern : \_INTERN\
+Text    : $SSOT_REFRESH = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1'
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ego-super-run.ps1
+Line    : 14
+Pattern : C:\Users\
+Text    : $SSOT_REFRESH = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1'
+
+

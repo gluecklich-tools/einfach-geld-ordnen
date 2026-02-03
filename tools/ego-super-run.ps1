@@ -9,6 +9,22 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+
+# EGO_HOOK_SSOT_REFRESH_V1
+$SSOT_REFRESH = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1'
+if (Test-Path -LiteralPath $SSOT_REFRESH) {
+  try {
+    "SSOT_REFRESH: start"
+    & pwsh -NoProfile -File $SSOT_REFRESH
+    "SSOT_REFRESH: ok"
+  } catch {
+    "SSOT_REFRESH: fail"
+    throw
+  }
+} else {
+  "SSOT_REFRESH: skip (not found)"
+}
+
 try { Remove-Module PSReadLine -ErrorAction SilentlyContinue } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 if ($PSVersionTable.PSVersion.Major -lt 7) { throw "NOT IN PWSH 7+. Current: $($PSVersionTable.PSVersion)" }
