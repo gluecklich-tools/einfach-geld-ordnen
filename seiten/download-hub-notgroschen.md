@@ -10,8 +10,8 @@ Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Gel
 
 ## Freebie
 
-- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
-- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -23,7 +23,7 @@ Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Gel
 
 ## Hinweise
 
-- Zum inhaltlichen Einstieg: **[Notgroschen (Pillar)]({{ site.baseurl }}/pillar/notgroschen.html)**
+- Zum inhaltlichen Einstieg: **[Notgroschen (Pillar)]({{site.baseurl}}/pillar/notgroschen.html)**
 - Ziel: Notgroschen schnell und realistisch aufbauen (ohne Sackgassen).
 
 ## Weiter

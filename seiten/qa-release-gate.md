@@ -7,7 +7,7 @@ permalink: /seiten/qa-release-gate.html
 
 Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 
-- Interne Links nutzen {{ site.baseurl }} und enden auf .html.
+- Interne Links nutzen {{site.baseurl}} und enden auf .html.
 - Keine Sackgassen: Weiter-Block + Footer sind vorhanden.
 - Live-Check immer mit Projekt-URL (nicht Root-Domain).
 
@@ -36,7 +36,7 @@ Kein Renegade.
 
 <!-- EGO_AUDIT_L2_HINT_START -->
 ## Audit L2 (Monatslauf)
-- Audit-Seite: {{ site.baseurl }}/seiten/audit.html
+- Audit-Seite: {{site.baseurl}}/seiten/audit.html
 - Evidence: assets/audit/YYYY-MM/
 - Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->

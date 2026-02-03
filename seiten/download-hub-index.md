@@ -11,8 +11,8 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 ## Freebie
 
 - Kostenlos:
-- **Freebie Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
-- Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Freebie Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
+- Alternative Uebersicht: **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -24,12 +24,12 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 
 ## Uebersicht
 
-- **Schulden-Schneeball:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-- **Notgroschen:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-- **Jahreskosten-Kalender:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
-- **Abo-Manager:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
-- **Fixkosten senken:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
-- **50/30/20:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
+- **Schulden-Schneeball:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
+- **Notgroschen:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
+- **Jahreskosten-Kalender:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
+- **Abo-Manager:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-abo-manager.html)
+- **Fixkosten senken:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
+- **50/30/20:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
 
 ## Weiter
 

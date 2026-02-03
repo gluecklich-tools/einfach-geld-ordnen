@@ -18,7 +18,7 @@ Hier reicht für den Anfang:
 
 Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
 
-- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 ---
 
 ## Weiter

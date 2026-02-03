@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "FAQ / Probleme loesen (Top"
-15. **permalink**: {{ site.baseurl }}/seiten/faq_probleme_loesen.html
+15. **permalink**: {{site.baseurl}}/seiten/faq_probleme_loesen.html
 flow_systemlinks: true
 permalink: /seiten/faq_probleme_loesen.html
 ---

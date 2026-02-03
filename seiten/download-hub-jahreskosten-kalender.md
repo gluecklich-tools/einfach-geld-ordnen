@@ -10,8 +10,8 @@ Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "E
 
 ## Freebie
 
-- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
-- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -23,7 +23,7 @@ Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "E
 
 ## Hinweise
 
-- Zum inhaltlichen Einstieg: **[Jahreskosten-Kalender (Pillar)]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)**
+- Zum inhaltlichen Einstieg: **[Jahreskosten-Kalender (Pillar)]({{site.baseurl}}/pillar/jahreskosten-kalender.html)**
 - Ziel: alle Jahreskosten sichtbar machen (Versicherung, KFZ, GEMA, Vertraege, Abos, Ruecklagen).
 
 ## Weiter

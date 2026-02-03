@@ -4,10 +4,10 @@ title: Notgroschen aufbauen
 permalink: /seiten/notgroschen.html
 weiter_3_text: "Rechner"
 weiter_1_text: "Start"
-weiter_1_url: "{{ site.baseurl }}/"
+weiter_1_url: "{{site.baseurl}}/"
 weiter_2_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/rechner-index.html"
-weiter_2_url: "{{ site.baseurl }}/seiten/downloads.html"
+weiter_3_url: "{{site.baseurl}}/seiten/rechner-index.html"
+weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
 # Notgroschen (damit dich das Leben nicht umhaut)
 Ein Notgroschen ist dein Sicherheitsnetz: Wenn etwas kaputtgeht oder eine Rechnung kommt, musst du keine Schulden machen.

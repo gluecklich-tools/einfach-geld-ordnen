@@ -4,10 +4,10 @@ title: "Downloads"
 permalink: /seiten/downloads.html
 weiter_3_text: "Rechner"
 weiter_1_text: "Start"
-weiter_1_url: "{{ site.baseurl }}/"
+weiter_1_url: "{{site.baseurl}}/"
 weiter_2_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/rechner-index.html"
-weiter_2_url: "{{ site.baseurl }}/seiten/downloads.html"
+weiter_3_url: "{{site.baseurl}}/seiten/rechner-index.html"
+weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
 # Downloads
 
@@ -16,7 +16,7 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 ## Freebie (kostenlos)
 
 - **Freebie Download (Platzhalter):**
-  [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+  [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
 
 ## Vollversion (spaeter)
 

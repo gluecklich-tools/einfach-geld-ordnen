@@ -32,12 +32,12 @@ Dann ist weniger oft mehr.
 
 Wenn du nach dem Überblick weitermachen willst, nimm als nächstes:
 
-- [Haushaltsbuch – Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch – Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 
 Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
 
-- [Haushaltsbuch Vollversion – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-- [Kostenlose Haushaltsbuch-Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch Vollversion – Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html)
+- [Kostenlose Haushaltsbuch-Vorlage – Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ---
 
 ## Weiter

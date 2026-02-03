@@ -5,7 +5,7 @@ permalink: /seiten/downloads.html
 ---
 # Downloads
 Du findest alle Downloads hier:
-- [Zur Download-Seite]({{ site.baseurl }}/downloads.html)
+- [Zur Download-Seite]({{site.baseurl}}/downloads.html)
 
 ## Weiter
 

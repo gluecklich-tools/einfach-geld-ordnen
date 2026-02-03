@@ -38,8 +38,8 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 - Deine Daten bleiben grundsätzlich **bei dir**.
 - Öffentliche Projektdateien enthalten **keine** Kontoauszüge, Auszahlungsnachweise, Behördenkommunikation oder ähnliche Dokumente.
 
-Mehr dazu: [Datenschutz]({{ site.baseurl }}/seiten/datenschutz.html)  
-Impressum: [Impressum]({{ site.baseurl }}/seiten/impressum.html)
+Mehr dazu: [Datenschutz]({{site.baseurl}}/seiten/datenschutz.html)  
+Impressum: [Impressum]({{site.baseurl}}/seiten/impressum.html)
 
 ## Weiter
 
@@ -66,7 +66,7 @@ Kein Renegade.
 
 <!-- EGO_AUDIT_L2_HINT_START -->
 ## Audit L2 (Monatslauf)
-- Audit-Seite: {{ site.baseurl }}/seiten/audit.html
+- Audit-Seite: {{site.baseurl}}/seiten/audit.html
 - Evidence: assets/audit/YYYY-MM/
 - Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->

@@ -48,7 +48,7 @@ Kein Renegade.
 
 <!-- EGO_AUDIT_L2_HINT_START -->
 ## Audit L2 (Monatslauf)
-- Audit-Seite: {{ site.baseurl }}/seiten/audit.html
+- Audit-Seite: {{site.baseurl}}/seiten/audit.html
 - Evidence: assets/audit/YYYY-MM/
 - Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->

@@ -12,7 +12,7 @@ flow_systemlinks: true
 
 Bis dahin: Nutze den Flow über den Uebersicht.
 
-→ [Haushaltsbuch - Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+→ [Haushaltsbuch - Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ---
 
 ## Weiter

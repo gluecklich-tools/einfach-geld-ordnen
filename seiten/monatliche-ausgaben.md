@@ -21,8 +21,8 @@ Typische Beispiele:
 
 Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 
-- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
-- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 
 Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
 ---

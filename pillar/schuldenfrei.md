@@ -14,12 +14,12 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 
 ## Themenseiten
 
-- [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
-- [Schulden-Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
-- [Notgroschen]({{ site.baseurl }}/pillar/notgroschen.html)
-- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Jahreskosten-Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-- [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+- [Schulden-Schneeball]({{site.baseurl}}/pillar/schulden-schneeball.html)
+- [Schulden-Lawine]({{site.baseurl}}/pillar/schulden-lawine.html)
+- [Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
+- [Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
+- [Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
+- [Fixkosten-Checkliste]({{site.baseurl}}/pillar/fixkosten-checkliste.html)
 
 ## Weiter
 

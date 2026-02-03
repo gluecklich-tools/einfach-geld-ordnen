@@ -10,8 +10,8 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 
 ## Freebie
 
-- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
-- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -23,7 +23,7 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 
 ## Hinweise
 
-- Zum inhaltlichen Einstieg: **[Abo-Manager (Pillar)]({{ site.baseurl }}/pillar/abo-manager.html)**
+- Zum inhaltlichen Einstieg: **[Abo-Manager (Pillar)]({{site.baseurl}}/pillar/abo-manager.html)**
 - Ziel: Abos sichtbar machen, kuendigen oder optimieren, ohne Chaos.
 
 ## Weiter

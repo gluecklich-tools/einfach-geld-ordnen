@@ -10,8 +10,8 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 
 ## Freebie
 
-- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
-- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -23,7 +23,7 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 
 ## Hinweise
 
-- Zum inhaltlichen Einstieg: **[50/30/20 (Pillar)]({{ site.baseurl }}/pillar/50-30-20.html)**
+- Zum inhaltlichen Einstieg: **[50/30/20 (Pillar)]({{site.baseurl}}/pillar/50-30-20.html)**
 - Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
 
 ## Weiter

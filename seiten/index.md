@@ -10,17 +10,17 @@ permalink: /seiten/index.html
 flow_systemlinks: true
 weiter_3_text: "Rechner"
 weiter_1_text: "Start"
-weiter_1_url: "{{ site.baseurl }}/"
+weiter_1_url: "{{site.baseurl}}/"
 weiter_2_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/rechner-index.html"
-weiter_2_url: "{{ site.baseurl }}/seiten/downloads.html"
+weiter_3_url: "{{site.baseurl}}/seiten/rechner-index.html"
+weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
 # Start
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
-- Zur Startseite: [Start]({{ site.baseurl }}/index.html)
-- Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- Zur Startseite: [Start]({{site.baseurl}}/index.html)
+- Zum Haushaltsbuch: [Haushaltsbuch - Uebersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ## Weiter
 {% include weiter_links.html %}
 
