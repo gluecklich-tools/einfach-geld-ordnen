@@ -31,6 +31,19 @@ F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen.
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
 
+<!-- EGO_AUDIT_UPDATE_HINT -->
+## Aktualitaet, Audit und Update-Hinweis
+**Stand:** 2026-02-03
+Dieses Projekt ist als Evergreen gebaut. Inhalte werden regelmaessig technisch geprueft (Build/Gates/Linkcheck). Rechtliche Hinweise (z.B. Impressum/Datenschutz/Transparenz) werden bei Bedarf aktualisiert, insbesondere bei Gesetzesaenderungen, Anbieterwechseln oder neuen Funktionen.
+**Letztes Audit (automatisiert):** 2026-02-03 09:14:15 (lokal)  
+**Naechstes geplantes Review:** quartalsweise oder bei Anlass.
+Wenn dir etwas auffaellt, nutze bitte die Kontaktmoeglichkeit im Impressum.
+
+<!-- EGO_AI_HINT -->
+## KI-Hinweis
+Teile der Inhalte (Texte/Struktur/Checklisten) wurden mit Unterstuetzung von KI erstellt und anschliessend von mir geprueft.  
+Die Inhalte sind allgemeine Informationen und **keine Rechts- oder Steuerberatung**.
+
 ## Weiter
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
