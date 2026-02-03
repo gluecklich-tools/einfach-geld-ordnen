@@ -27,8 +27,8 @@ Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfac
 - Ziel: Fixkosten sichtbar machen und dauerhaft senken (ohne Sackgassen).
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Fixkosten-Check]({{site.baseurl}}/seiten/rechner-fixkosten-check.html)
+- [Download: Fixkosten senken]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
+- [Pillar: Fixkosten]({{site.baseurl}}/pillar/fixkosten.html)
 
 {% include no_sackgasse_footer.html %}

@@ -27,8 +27,8 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 - Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: 50/30/20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
+- [Download: 50/30/20]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
+- [Pillar: 50/30/20]({{site.baseurl}}/pillar/50-30-20.html)
 
 {% include no_sackgasse_footer.html %}

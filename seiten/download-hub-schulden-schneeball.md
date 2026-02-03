@@ -27,8 +27,8 @@ Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Ein
 - Ziel: schnell Klarheit + Plan, ohne Sackgassen.
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
+- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
+- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
 
 {% include no_sackgasse_footer.html %}

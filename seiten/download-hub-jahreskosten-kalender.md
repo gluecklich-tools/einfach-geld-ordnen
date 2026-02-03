@@ -27,8 +27,8 @@ Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "E
 - Ziel: alle Jahreskosten sichtbar machen (Versicherung, KFZ, GEMA, Vertraege, Abos, Ruecklagen).
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Jahreskosten]({{site.baseurl}}/seiten/jahreskosten-rechner.html)
+- [Download: Jahreskosten-Kalender]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
+- [Pillar: Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
 
 {% include no_sackgasse_footer.html %}
