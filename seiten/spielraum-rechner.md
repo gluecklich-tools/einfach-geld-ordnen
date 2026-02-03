@@ -21,8 +21,4 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Weiter
 
-- **Weiter:** [Rechner Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

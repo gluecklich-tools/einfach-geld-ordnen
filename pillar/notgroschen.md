@@ -16,8 +16,4 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/notgroschen-rechner.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

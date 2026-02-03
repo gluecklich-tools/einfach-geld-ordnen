@@ -15,8 +15,4 @@ Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr 
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

@@ -28,8 +28,4 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 
 ## Weiter
 
-- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
-- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **50/30/20:** [50/30/20]({{ site.baseurl }}/pillar/50-30-20.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

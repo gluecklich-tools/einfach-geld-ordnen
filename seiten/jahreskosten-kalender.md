@@ -21,8 +21,4 @@ Wenn du sie **vorher aufteilst**, wird dein Monat stabil.
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

@@ -28,8 +28,4 @@ Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "E
 
 ## Weiter
 
-- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
-- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Jahreskosten:** [Jahreskosten-Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

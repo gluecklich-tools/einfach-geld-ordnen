@@ -38,8 +38,4 @@ Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, mus
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

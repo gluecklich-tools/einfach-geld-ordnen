@@ -28,8 +28,4 @@ Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfac
 
 ## Weiter
 
-- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
-- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Fixkosten:** [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

@@ -20,8 +20,4 @@ Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist n
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

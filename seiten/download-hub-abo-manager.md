@@ -28,8 +28,4 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 
 ## Weiter
 
-- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
-- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Abo-Manager:** [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

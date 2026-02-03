@@ -29,8 +29,4 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

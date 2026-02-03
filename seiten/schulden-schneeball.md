@@ -20,8 +20,4 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 4. Jede Extra-EUR geht auf die kleinste Schuld.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
 ## Weiter
-- [Start]({{ site.baseurl }}/)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

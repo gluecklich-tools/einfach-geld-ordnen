@@ -22,8 +22,4 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
 Die Vollversion kommt spaeter (z.B. ueber Digistore24). Bis dahin bleibt alles Self-Serve und kostenlos nutzbar.
 ## Weiter
-- [Start]({{ site.baseurl }}/)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-index.html)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}

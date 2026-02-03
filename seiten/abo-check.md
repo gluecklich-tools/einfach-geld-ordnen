@@ -24,8 +24,4 @@ Kurz: Abos finden, kuendigen, sparen (Self-Serve).
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
+{% include weiter_links.html %}
