@@ -1,23 +1,35 @@
 ---
 layout: default
-title: Download-Hub Jahreskosten Kalender
+title: "Download-Hub: Jahreskosten-Kalender"
 permalink: /seiten/download-hub-jahreskosten-kalender.html
 ---
-# Download-Hub: Jahreskosten-Kalender (Vorlagen & Dateien)
-Hier sammelst du Downloads, die zum Jahreskosten-Flow gehoeren.
+
+# Download-Hub: Jahreskosten-Kalender
+
+Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "Einfach Geld ordnen".
+
 ## Freebie
-* (Noch nicht verlinkt)
+
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
 ## Vollversion
-* (Noch nicht verlinkt)
+
+- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
 
 ## Premium
 
-* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+
+## Hinweise
+
+- Zum inhaltlichen Einstieg: **[Jahreskosten-Kalender (Pillar)]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)**
+- Ziel: alle Jahreskosten sichtbar machen (Versicherung, KFZ, GEMA, Vertraege, Abos, Ruecklagen).
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
+- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Jahreskosten:** [Jahreskosten-Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
 
 {% include no_sackgasse_footer.html %}
