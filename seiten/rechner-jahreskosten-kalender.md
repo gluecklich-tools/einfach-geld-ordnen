@@ -111,6 +111,6 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/jahreskosten-kalender.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}

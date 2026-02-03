@@ -27,7 +27,7 @@ Wichtig:
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200

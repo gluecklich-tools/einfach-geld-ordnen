@@ -15,6 +15,6 @@ Die Vollversion kommt spaeter (z.B. ueber Digistore24). Bis dahin bleibt alles S
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}

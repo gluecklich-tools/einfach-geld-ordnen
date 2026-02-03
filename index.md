@@ -36,14 +36,14 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 <!-- ORPHAN-INLINKS-END -->
 
 ## Schnellstart
-1. ****Orientierung****: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html )
-2. ****Sofort nutzen****: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html )
-3. ****Freebie****: [Downloads]( {{ site.baseurl }}/seiten/downloads.html )
+1. ****Orientierung****: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html)
+2. ****Sofort nutzen****: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-index.html)
+3. ****Freebie****: [Downloads]( {{ site.baseurl }}/seiten/downloads.html)
 
 ## Einstieg nach Thema
 
-- Schulden: [Schuldenfrei - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html )
-- Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html )
+- Schulden: [Schuldenfrei - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html)
+- Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html)
 
 ## Weiter
 - [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)

@@ -17,6 +17,6 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}

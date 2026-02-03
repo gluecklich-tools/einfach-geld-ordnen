@@ -18,6 +18,6 @@ Hier sammelst du alle Downloads, die zum Notgroschen-Flow gehoeren.
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/notgroschen.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}

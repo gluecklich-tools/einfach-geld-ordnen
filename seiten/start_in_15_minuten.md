@@ -30,6 +30,6 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}

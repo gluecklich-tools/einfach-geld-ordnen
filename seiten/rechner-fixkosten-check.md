@@ -63,6 +63,6 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
 
 - **Weiter:** [Weiter]({{ site.baseurl }}/seiten/fixkosten-senken.html)
 - **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
+- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
 
 {% include no_sackgasse_footer.html %}
