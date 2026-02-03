@@ -26,7 +26,7 @@ $root = Split-Path -Parent $here
 Set-Location -LiteralPath $root
 if (-not (Test-Path -LiteralPath '.\tools\ego-run.ps1')) { throw 'Missing: tools\ego-run.ps1' }
 # Runlog (evidence)
-$runDir = Join-Path $root 'assets\audit\_runs'
+$runDir = Join-Path $root 'assets\audit\runs'
 if (-not (Test-Path -LiteralPath $runDir)) { New-Item -ItemType Directory -Force -Path $runDir | Out-Null }
 $runId = (Get-Date).ToString('yyyy-MM-dd_HHmmss')
 $runLog = Join-Path $runDir ("run_" + $runId + ".txt")
