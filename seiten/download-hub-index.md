@@ -10,7 +10,8 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 
 ## Freebie (kostenlos)
 
-- Freebie-Downloads findest du auf der zentralen Seite: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- **Freebie Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+- Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
 
 ## Vollversion
 
