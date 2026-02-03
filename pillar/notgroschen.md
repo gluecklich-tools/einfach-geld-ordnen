@@ -15,8 +15,8 @@ Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schu
 Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Notgroschen]({{site.baseurl}}/seiten/rechner-notgroschen.html)
+- [Download: Notgroschen]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
+- [Pillar: Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
 
 {% include no_sackgasse_footer.html %}

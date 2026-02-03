@@ -14,8 +14,8 @@ Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
 4. **Nach Tilgung**: Extra auf die naechste
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
+- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
+- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
 
 {% include no_sackgasse_footer.html %}
