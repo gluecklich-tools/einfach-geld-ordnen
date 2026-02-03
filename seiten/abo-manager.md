@@ -14,8 +14,8 @@ Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr 
 5. Lege die Ersparnis sofort fest (Notgroschen oder Schulden).
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Abo-Manager]({{site.baseurl}}/seiten/rechner-abo-manager.html)
+- [Download: Abo-Manager]({{site.baseurl}}/seiten/download-hub-abo-manager.html)
+- [Pillar: Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
 
 {% include no_sackgasse_footer.html %}

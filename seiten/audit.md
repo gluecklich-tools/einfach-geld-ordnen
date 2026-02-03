@@ -8,84 +8,12 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->
 ### Letzter Audit
 
-- Datum: 2026-02-03 23:18:03 +01:00
+- Datum: 2026-02-03 23:22:51 +01:00
 - Ergebnis: **PASS**
 - Scope: L2
 - Evidence: {{ site.baseurl }}/assets/audit/2026-02/
 - Checksums: {{ site.baseurl }}/assets/audit/2026-02/checksums.txt
 <!-- AUDIT_L2_STATUS_END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Evidence
@@ -94,5 +22,7 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 {% include no_sackgasse_footer.html %}
 
 ## Weiter
+- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
+- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Downloads]({{site.baseurl}}/seiten/downloads.html)
 
-{% include weiter_links.html %}

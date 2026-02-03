@@ -74,8 +74,8 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
 </script>
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: 50/30/20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
+- [Download: 50/30/20]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
+- [Pillar: 50/30/20]({{site.baseurl}}/pillar/50-30-20.html)
 
 {% include no_sackgasse_footer.html %}
