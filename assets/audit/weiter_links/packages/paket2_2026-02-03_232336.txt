@@ -1,0 +1,36 @@
+EGO Paket 2 (Loop) - Weiter-Block: rules.json + enforce exactly 3 links + footer
+Report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\assets\audit\weiter_links\weiter_links_files_2026-02-03_230547.txt
+Loop: 7/50
+Timestamp: 2026-02-03 23:23:36
+Rules: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\assets\audit\weiter_links\rules.json
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\schulden-lawine.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\schulden-schneeball.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\schulden-snowball.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\schuldenfrei-schneeball.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\self_service.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\snowball-rechner.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\sparen-automatisch.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\spielraum-rechner.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\spielraum-ruecklagen.md
+Changed: True
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\seiten\spielraum.md
+Changed: True
+---

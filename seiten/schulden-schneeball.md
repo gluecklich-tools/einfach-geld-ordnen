@@ -20,7 +20,8 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 4. Jede Extra-EUR geht auf die kleinste Schuld.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
 ## Weiter
-{% include weiter_links.html %}
-
+- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
+- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
+- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
 
 {% include no_sackgasse_footer.html %}
