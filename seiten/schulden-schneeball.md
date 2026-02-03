@@ -2,6 +2,12 @@
 layout: default
 title: Schulden Schneeball Methode einfach
 permalink: /seiten/schulden-schneeball.html
+weiter_3_text: "Rechner"
+weiter_1_text: "Start"
+weiter_1_url: "{{ site.baseurl }}/"
+weiter_2_text: "Downloads"
+weiter_3_url: "{{ site.baseurl }}/seiten/rechner-index.html"
+weiter_2_url: "{{ site.baseurl }}/seiten/downloads.html"
 ---
 # Schulden-Schneeball (schnell Momentum aufbauen)
 Wenn du mehrere Schulden hast, ist der **Schneeball** oft der einfachste Weg:
@@ -13,11 +19,6 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 3. Zahle auf alle Schulden die Mindestrate.
 4. Jede Extra-EUR geht auf die kleinste Schuld.
 5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
-
 ## Weiter
+{% include weiter_links.html %}
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}

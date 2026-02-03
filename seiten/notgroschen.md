@@ -2,6 +2,12 @@
 layout: default
 title: Notgroschen aufbauen
 permalink: /seiten/notgroschen.html
+weiter_3_text: "Rechner"
+weiter_1_text: "Start"
+weiter_1_url: "{{ site.baseurl }}/"
+weiter_2_text: "Downloads"
+weiter_3_url: "{{ site.baseurl }}/seiten/rechner-index.html"
+weiter_2_url: "{{ site.baseurl }}/seiten/downloads.html"
 ---
 # Notgroschen (damit dich das Leben nicht umhaut)
 Ein Notgroschen ist dein Sicherheitsnetz: Wenn etwas kaputtgeht oder eine Rechnung kommt, musst du keine Schulden machen.
@@ -12,11 +18,6 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 3. Richte einen Dauerauftrag ein (auch 25 EUR sind ok).
 4. Nutze Extra-Geld (Rueckzahlung, Verkauf, Bonus) zuerst fuer den Notgroschen.
 5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
-
 ## Weiter
+{% include weiter_links.html %}
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/)
-
-{% include no_sackgasse_footer.html %}
