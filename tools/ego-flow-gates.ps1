@@ -114,3 +114,14 @@ if ($failWeiter.Count -gt 0 -or $failFooter.Count -gt 0) {
 }
 
 "PASS: Weiter-Block (3 links) + Footer-Include"
+
+# EGO_HOOK_WEITER_GATE_V1
+try {
+  $wg = Join-Path $PSScriptRoot 'weiter-gate.ps1'
+  if(Test-Path -LiteralPath $wg){
+    Write-Host 'GATE: weiter-gate' -ForegroundColor Cyan
+    & pwsh -NoProfile -File $wg
+  }
+} catch {
+  throw
+}
