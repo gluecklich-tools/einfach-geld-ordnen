@@ -21,6 +21,7 @@ if ($targets.Count -eq 0) { throw "NO_TARGET_MD_FOUND in .\seiten or .\pillar" }
 $bad = New-Object System.Collections.Generic.List[string]
 function Add-Bad([string]$msg) { $bad.Add($msg) | Out-Null }
 
+# Link format: must be baseurl + .html, no .md, no root-slash /seiten or /pillar, no trailing slash
 $reOk = "^(?:\{\{\s*site\.baseurl\s*\}\}/(?:$|index\.html(?:\#.*)?$|(seiten|pillar)/.+\.html(?:\#.*)?$))$"
 $WeiterIncludeTag = "{% include weiter_links.html %}"
 $FooterIncludeRx  = "\{\%\s*include\s+no_sackgasse_footer\.html\s*\%\}"
@@ -28,26 +29,38 @@ $FooterIncludeRx  = "\{\%\s*include\s+no_sackgasse_footer\.html\s*\%\}"
 foreach ($f in $targets) {
   $raw = [System.IO.File]::ReadAllText($f.FullName, [System.Text.UTF8Encoding]::new($false))
 
+  # Frontmatter start sanity (ASCII --- at top)
   if ($raw.Length -lt 3 -or (-not $raw.StartsWith("---`r`n") -and -not $raw.StartsWith("---`n"))) {
     Add-Bad ("FRONTMATTER_START " + $f.FullName)
   }
 
+  # Footer include must exist
   if ($raw -notmatch $FooterIncludeRx) {
-    Add-Bad ("MISSING_INCLUDE " + $f.FullName)
+    Add-Bad ("MISSING_FOOTER_INCLUDE " + $f.FullName)
   }
 
+  # Must have a ## Weiter section
   if ($raw -notmatch "(?m)^\#\#\s+Weiter\s*$") {
     Add-Bad ("MISSING_WEITER " + $f.FullName)
     continue
   }
 
+  # Extract Weiter section content
   $m = [regex]::Match($raw, "(?ms)^\#\#\s+Weiter\s*$\s*(?<sec>.*?)(^\#\#\s+|\z)")
+  if (-not $m.Success) {
+    Add-Bad ("WEITER_PARSE_FAIL " + $f.FullName)
+    continue
+  }
   $sec = $m.Groups["sec"].Value
 
+  # Dual-mode: allow include-based Weiter block
   $usesWeiterInclude = $false
   try { if ($sec -match [regex]::Escape($WeiterIncludeTag)) { $usesWeiterInclude = $true } } catch { $usesWeiterInclude = $false }
-  if ($usesWeiterInclude) { continue }
+  if ($usesWeiterInclude) {
+    continue
+  }
 
+  # Inline mode: exactly 3 markdown links
   $links = [regex]::Matches($sec, "\[[^\]]+\]\(([^)]+)\)")
   if ($links.Count -ne 3) {
     Add-Bad ("WEITER_LINK_COUNT=" + [string]$links.Count + " " + $f.FullName)
