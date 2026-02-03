@@ -62,8 +62,8 @@ foreach ($f in $targets) {
 
   # Inline mode: exactly 3 markdown links
   $links = [regex]::Matches($sec, "\[[^\]]+\]\(([^)]+)\)")
-  if ($links.Count -ne 3) {
-    Add-Bad ("WEITER_LINK_COUNT=" + [string]$links.Count + " " + $f.FullName)
+  if (@($links).Count -ne 3) {
+    Add-Bad ("WEITER_LINK_COUNT=" + [string]@($links).Count + " " + $f.FullName)
     continue
   }
 

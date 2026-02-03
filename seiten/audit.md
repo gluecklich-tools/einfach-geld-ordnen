@@ -8,12 +8,13 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->
 ### Letzter Audit
 
-- Datum: 2026-02-03 22:57:48 +01:00
+- Datum: 2026-02-03 23:02:52 +01:00
 - Ergebnis: **PASS**
 - Scope: L2
 - Evidence: {{ site.baseurl }}/assets/audit/2026-02/
 - Checksums: {{ site.baseurl }}/assets/audit/2026-02/checksums.txt
 <!-- AUDIT_L2_STATUS_END -->
+
 
 
 
