@@ -26,8 +26,8 @@ Lege ein klares Monatslimit fest. Alles darueber wird nicht (wieder) abgeschloss
 
 ## Weiter
 
-- [Rechner: Abo-Manager]({{ site.baseurl }}seiten/rechner-abo-manager.html)
-- [Download: Abo-Manager]({{ site.baseurl }}seiten/download-hub-abo-manager.html)
-- [Pillar: Abo-Manager]({{ site.baseurl }}pillar/abo-manager.html)
+- [Rechner: Abo-Manager]({{site.baseurl}}seiten/rechner-abo-manager.html)
+- [Download: Abo-Manager]({{site.baseurl}}seiten/download-hub-abo-manager.html)
+- [Pillar: Abo-Manager]({{site.baseurl}}pillar/abo-manager.html)
 
 {% include no_sackgasse_footer.html %}

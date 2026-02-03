@@ -20,17 +20,17 @@ Du willst deine Finanzen so strukturieren, dass du jeden Monat weisst:
 Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 ## In 10 Minuten startklar
-1. **Einstieg**: [Haushaltsbuch in Excel einfach erklaert]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+1. **Einstieg**: [Haushaltsbuch in Excel einfach erklaert]({{site.baseurl}}/seiten/haushaltsbuch-excel.html)
 2. **Download (kostenlos)**: `haushaltsbuch-einfach-geld-ordnen.xlsx`
-3. **Fixkosten zuerst**: [Fixkosten Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
-4. **Dann die Ausgaben**: [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
-5. **Details nachziehen (wenn du Zeit hast)**: - [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
-   - [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+3. **Fixkosten zuerst**: [Fixkosten Uebersicht]({{site.baseurl}}/seiten/fixkosten-uebersicht.html)
+4. **Dann die Ausgaben**: [Monatliche Ausgaben]({{site.baseurl}}/seiten/monatliche-ausgaben.html)
+5. **Details nachziehen (wenn du Zeit hast)**: - [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
+   - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 
 ## Weiter
 
-- [Start: in 15 Minuten]({{ site.baseurl }}seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{ site.baseurl }}seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}seiten/downloads.html)
+- [Start: in 15 Minuten]({{site.baseurl}}seiten/start_in_15_minuten.html)
+- [Rechner: Übersicht]({{site.baseurl}}seiten/rechner-uebersicht.html)
+- [Downloads]({{site.baseurl}}seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

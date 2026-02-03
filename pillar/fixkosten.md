@@ -14,17 +14,17 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 
 ## Themenseiten
 
-- [Fixkosten senken: Vorgehen]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-- [Versicherungen: Check]({{ site.baseurl }}/pillar/versicherungen-check.html)
-- [Strom/Gas: Wechsel]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
-- [Mobilfunk/Internet: senken]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
-- [Abos kuendigen: konsequent]({{ site.baseurl }}/pillar/abos-kuendigen.html)
-- [50-30-20 Regel]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Fixkosten senken: Vorgehen]({{site.baseurl}}/pillar/fixkosten-senken.html)
+- [Versicherungen: Check]({{site.baseurl}}/pillar/versicherungen-check.html)
+- [Strom/Gas: Wechsel]({{site.baseurl}}/pillar/strom-gas-wechsel.html)
+- [Mobilfunk/Internet: senken]({{site.baseurl}}/pillar/mobilfunk-internet.html)
+- [Abos kuendigen: konsequent]({{site.baseurl}}/pillar/abos-kuendigen.html)
+- [50-30-20 Regel]({{site.baseurl}}/pillar/50-30-20.html)
 
 ## Weiter
 
-- [Rechner: Fixkosten-Check]({{ site.baseurl }}seiten/rechner-fixkosten-check.html)
-- [Download: Fixkosten senken]({{ site.baseurl }}seiten/download-hub-fixkosten-senken.html)
-- [Pillar: Fixkosten]({{ site.baseurl }}pillar/fixkosten.html)
+- [Rechner: Fixkosten-Check]({{site.baseurl}}seiten/rechner-fixkosten-check.html)
+- [Download: Fixkosten senken]({{site.baseurl}}seiten/download-hub-fixkosten-senken.html)
+- [Pillar: Fixkosten]({{site.baseurl}}pillar/fixkosten.html)
 
 {% include no_sackgasse_footer.html %}
