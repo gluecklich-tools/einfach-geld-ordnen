@@ -1,23 +1,35 @@
 ---
 layout: default
-title: Download-Hub Fixkosten senken
+title: "Download-Hub: Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
 ---
-# Download-Hub: Fixkosten senken (Vorlagen & Dateien)
-Hier sammelst du alle Downloads, die zum Fixkosten-Flow gehoeren.
+
+# Download-Hub: Fixkosten senken
+
+Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfach Geld ordnen".
+
 ## Freebie
-* (Hier verlinkst du spaeter dein Freebie.)
+
+- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
+- Alternative: kostenlose Downloads auf der Uebersicht **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
 ## Vollversion
-* (Hier verlinkst du spaeter die Vollversion.)
+
+- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
 
 ## Premium
 
-* (Hier verlinkst du spaeter die Premium-Version mit mehr Funktionen.)
+- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+
+## Hinweise
+
+- Zum inhaltlichen Einstieg: **[Fixkosten senken (Pillar)]({ site.baseurl }/pillar/fixkosten-senken.html)**
+- Ziel: Fixkosten sichtbar machen und dauerhaft senken (ohne Sackgassen).
 
 ## Weiter
 
-- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/fixkosten-senken.html)
-- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Uebersicht:** [Start]({{ site.baseurl }}/index.html)
+- **Download-Hubs:** [Index]({{ site.baseurl }}/seiten/download-hub-index.html)
+- **Downloads:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Fixkosten:** [Fixkosten senken]({ site.baseurl }/pillar/fixkosten-senken.html)
 
 {% include no_sackgasse_footer.html %}
