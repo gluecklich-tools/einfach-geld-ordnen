@@ -27,3 +27,6 @@ exclude:
   - 00_workblocks
   - _local
   - README.md
+
+include:
+  - assets/audit/_runs
