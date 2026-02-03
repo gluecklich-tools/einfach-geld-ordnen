@@ -20,8 +20,8 @@ Wenn du sie **vorher aufteilst**, wird dein Monat stabil.
 * Wartung/Inspektion, Schornsteinfeger, Fuehrerscheine/Fees
 
 ## Weiter
-
-{% include weiter_links.html %}
-
+- [Rechner: Jahreskosten]({{site.baseurl}}/seiten/jahreskosten-rechner.html)
+- [Download: Jahreskosten-Kalender]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
+- [Pillar: Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
 
 {% include no_sackgasse_footer.html %}
