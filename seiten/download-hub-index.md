@@ -8,6 +8,18 @@ permalink: /seiten/download-hub-index.html
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
 
+## Freebie (kostenlos)
+
+- Freebie-Downloads findest du auf der zentralen Seite: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
+## Vollversion
+
+- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie hier verlinkt.
+
+## Premium
+
+- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+
 ## Uebersicht
 
 - **Schulden-Schneeball:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
