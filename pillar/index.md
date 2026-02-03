@@ -29,4 +29,8 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 ## Weiter
 
-{% include weiter_links.html %}
+- **Weiter:** [Weiter]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- **Vorlage/Download:** [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- **Uebersicht:** [Cluster]({{ site.baseurl }}/pillar/cluster.html)
+
+{% include no_sackgasse_footer.html %}
