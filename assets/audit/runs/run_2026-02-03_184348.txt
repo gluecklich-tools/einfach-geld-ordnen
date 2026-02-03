@@ -1,0 +1,83 @@
+RUN_ID=2026-02-03_184348
+PASS: no-murx gate OK.
+APPLY_VISIBILITY_CLEANUP_CHANGED=0
+NO_CHANGES
+PASS: No _local/patch_backups links in repo content.
+FAIL: tools/*.ps1 contains forbidden hardpaths/SSOT markers:
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 18
+Pattern : _INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 18
+Pattern : \_INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 18
+Pattern : C:\Users\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 19
+Pattern : _INTERN\
+Text    : (Join-Path (Split-Path -Parent $Repo) "_INTERN\governance"),
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 20
+Pattern : _INTERN\
+Text    : (Join-Path $Repo "_INTERN\governance")
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 24
+Pattern : _INTERN\
+Text    : if(-not $Gov){ throw "STOP: _INTERN\governance not found." }
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 27
+Pattern : _INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\reports",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 27
+Pattern : \_INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\reports",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 27
+Pattern : C:\Users\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\reports",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 29
+Pattern : _INTERN\
+Text    : (Join-Path (Split-Path -Parent $Repo) "_INTERN\reports"),
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 30
+Pattern : _INTERN\
+Text    : (Join-Path $Repo "_INTERN\reports")
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 158
+Pattern : _INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 158
+Pattern : \_INTERN\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 158
+Pattern : C:\Users\
+Text    : "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ssot-refresh.ps1",
+
+File    : C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\tools\ssot-tools-registry.ps1
+Line    : 160
+Pattern : _INTERN\
+Text    : (Join-Path $Repo "_INTERN\tools\ssot-refresh.ps1")
+
+

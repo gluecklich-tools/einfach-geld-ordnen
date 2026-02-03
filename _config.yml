@@ -29,4 +29,4 @@ exclude:
   - README.md
 
 include:
-  - assets/audit/_runs
+  - assets/audit/runs

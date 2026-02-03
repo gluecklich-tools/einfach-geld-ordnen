@@ -21,7 +21,7 @@ $Repo = (Resolve-Path -LiteralPath $Repo).Path
 $ToolsDir = Join-Path $Repo "tools"
 if(-not (Test-Path -LiteralPath $ToolsDir)){ throw "STOP: tools/ not found in repo root." }
 
-# Output goes into public repo (assets/audit/_runs)
+# Output goes into public repo (assets/audit/runs)
 $OutDir = Join-Path (Join-Path (Join-Path $Repo "assets") "audit") "_runs"
 New-Item -ItemType Directory -Path $OutDir -Force | Out-Null
 

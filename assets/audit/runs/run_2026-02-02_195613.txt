@@ -1,0 +1,28 @@
+RUN_ID=2026-02-02_195613
+PASS: no-murx gate OK.
+APPLY_VISIBILITY_CLEANUP_CHANGED=0
+NO_CHANGES
+PASS: No _local/patch_backups links in repo content.
+PASS: tools/*.ps1 contains no forbidden hardpaths/SSOT markers.
+FAIL: Download-Hub STRICT Gate verletzt:
+
+File                                  Freebie Vollversion Premium Footer Weiter Weiter3 WeiterOK WeiterBad
+----                                  ------- ----------- ------- ------ ------ ------- -------- ---------
+download-hub-50-30-20.md                 True        True    True   True   True    True    False trailingSlash:{{ site.…
+download-hub-abo-manager.md              True        True    True   True   True    True    False trailingSlash:{{ site.…
+download-hub-fixkosten-senken.md         True        True    True   True   True    True    False trailingSlash:{{ site.…
+download-hub-jahreskosten-kalender.md    True        True    True   True   True    True    False trailingSlash:{{ site.…
+download-hub-notgroschen.md              True        True    True   True   True    True    False trailingSlash:{{ site.…
+download-hub-schulden-schneeball.md      True        True    True   True   True    True    False trailingSlash:{{ site.…
+
+PASS: ego-run completed (required gates OK).
+AUDIT_L2_PACK_OK
+REPO_DIRTY_BEFORE=TRUE
+COMMIT_DONE=TRUE
+REPO_DIRTY_AFTER=FALSE
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/index.html
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/downloads.html
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-index.html
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/audit.html
+LAW_RUN_OK
