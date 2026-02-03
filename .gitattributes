@@ -1,19 +1,18 @@
-* text=auto eol=lf
+# EGO: line endings + text normalization
+* text=auto
 
-*.md   text eol=lf
-*.ps1  text eol=lf
-*.yml  text eol=lf
-*.yaml text eol=lf
-*.json text eol=lf
-*.txt  text eol=lf
-*.css  text eol=lf
-*.html text eol=lf
-*.js   text eol=lf
+# text formats
+*.md      text eol=lf
+*.markdown text eol=lf
+*.html    text eol=lf
+*.css     text eol=lf
+*.js      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.json    text eol=lf
+*.txt     text eol=lf
 
-*.png  binary
-*.jpg  binary
-*.jpeg binary
-*.webp binary
-*.gif  binary
-*.pdf  binary
-*.zip  binary
+# scripts
+*.ps1     text eol=lf
+*.psm1    text eol=lf
+*.psd1    text eol=lf
