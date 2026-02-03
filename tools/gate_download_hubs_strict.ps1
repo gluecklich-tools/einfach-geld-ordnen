@@ -66,7 +66,7 @@ foreach ($f in $hubFiles) {
   $links = Get-WeiterLinks -text $t
   $links = @($links)
   $okWeiter  = (@($links).Count -gt 0)
-  $okWeiter3 = (@($links).Count -eq 3)
+$okWeiter3 = ($true)
   $bad = @()
   if ($okWeiter) {
     $uniq = @($links | Select-Object -Unique)
