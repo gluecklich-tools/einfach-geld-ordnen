@@ -1,0 +1,64 @@
+EGO Paket 1 - Weiter-Links: Replace weiter_links.html -> 3 manual links
+Report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\assets\audit\weiter_links\weiter_links_files_2026-02-03_230547.txt
+Timestamp: 2026-02-03 23:09:55
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\50-30-20.md
+Changed: True | Note: patched
+  - Rechner: 50/30/20 -> {{ site.baseurl }}seiten/rechner-50-30-20.html
+  - Download: 50/30/20 -> {{ site.baseurl }}seiten/download-hub-50-30-20.html
+  - Pillar: 50/30/20 -> {{ site.baseurl }}pillar/50-30-20.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\abo-manager.md
+Changed: True | Note: patched
+  - Rechner: Abo-Manager -> {{ site.baseurl }}seiten/rechner-abo-manager.html
+  - Download: Abo-Manager -> {{ site.baseurl }}seiten/download-hub-abo-manager.html
+  - Pillar: Abo-Manager -> {{ site.baseurl }}pillar/abo-manager.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\abos-kuendigen.md
+Changed: True | Note: patched
+  - Rechner: Abo-Manager -> {{ site.baseurl }}seiten/rechner-abo-manager.html
+  - Download: Abo-Manager -> {{ site.baseurl }}seiten/download-hub-abo-manager.html
+  - Pillar: Abo-Manager -> {{ site.baseurl }}pillar/abo-manager.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\cluster.md
+Changed: True | Note: patched
+  - Start: in 15 Minuten -> {{ site.baseurl }}seiten/start_in_15_minuten.html
+  - Rechner: Übersicht -> {{ site.baseurl }}seiten/rechner-uebersicht.html
+  - Downloads -> {{ site.baseurl }}seiten/downloads.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\einfach-geld-ordnen-haushaltsbuch.md
+Changed: True | Note: patched
+  - Start: in 15 Minuten -> {{ site.baseurl }}seiten/start_in_15_minuten.html
+  - Rechner: Übersicht -> {{ site.baseurl }}seiten/rechner-uebersicht.html
+  - Downloads -> {{ site.baseurl }}seiten/downloads.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\einfach-geld-ordnen.md
+Changed: True | Note: patched
+  - Start: in 15 Minuten -> {{ site.baseurl }}seiten/start_in_15_minuten.html
+  - Rechner: Übersicht -> {{ site.baseurl }}seiten/rechner-uebersicht.html
+  - Downloads -> {{ site.baseurl }}seiten/downloads.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\fixkosten-checkliste.md
+Changed: True | Note: patched
+  - Rechner: Fixkosten-Check -> {{ site.baseurl }}seiten/rechner-fixkosten-check.html
+  - Download: Fixkosten senken -> {{ site.baseurl }}seiten/download-hub-fixkosten-senken.html
+  - Pillar: Fixkosten -> {{ site.baseurl }}pillar/fixkosten.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\fixkosten-senken.md
+Changed: True | Note: patched
+  - Rechner: Fixkosten-Check -> {{ site.baseurl }}seiten/rechner-fixkosten-check.html
+  - Download: Fixkosten senken -> {{ site.baseurl }}seiten/download-hub-fixkosten-senken.html
+  - Pillar: Fixkosten -> {{ site.baseurl }}pillar/fixkosten.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\fixkosten.md
+Changed: True | Note: patched
+  - Rechner: Fixkosten-Check -> {{ site.baseurl }}seiten/rechner-fixkosten-check.html
+  - Download: Fixkosten senken -> {{ site.baseurl }}seiten/download-hub-fixkosten-senken.html
+  - Pillar: Fixkosten -> {{ site.baseurl }}pillar/fixkosten.html
+---
+C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\pillar\haushaltsueberblick.md
+Changed: True | Note: patched
+  - Start: in 15 Minuten -> {{ site.baseurl }}seiten/start_in_15_minuten.html
+  - Rechner: Übersicht -> {{ site.baseurl }}seiten/rechner-uebersicht.html
+  - Downloads -> {{ site.baseurl }}seiten/downloads.html
+---
