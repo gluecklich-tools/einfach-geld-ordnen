@@ -27,6 +27,7 @@ if (-not (Test-Path -LiteralPath $lawSafe)) { throw "missing: $lawSafe" }
 $gFlow = Join-Path $tools 'ego-flow-gates.ps1'
 $gMvp  = Join-Path $tools 'mvp02-gate.ps1'
 $gMurx = Join-Path $tools 'no-murx-gate.ps1'
+$gLegalMin = Join-Path $tools 'legal-minimum-warn.ps1'
 $gLegal = Join-Path $tools 'legal-hints-gate.ps1'
 # ---- APPLY (optional) ----
 if ($Mode -eq 'Apply') {
@@ -39,6 +40,7 @@ if ($Mode -eq 'Apply') {
 if (Test-Path -LiteralPath $gFlow) { Say "GATE: ego-flow-gates"; & $gFlow }
 if (Test-Path -LiteralPath $gMvp)  { Say "GATE: mvp02-gate"; & $gMvp }
 if (Test-Path -LiteralPath $gMurx) { Say "GATE: no-murx-gate"; & $gMurx }
+if (Test-Path -LiteralPath $gLegalMin) { Say WARN: legal-minimum; & $gLegalMin }
 if (Test-Path -LiteralPath $gLegal) { Say "GATE: legal-hints"; & $gLegal }
 # ---- COMMIT/PUSH (optional) ----
 $porc = (git status --porcelain)
