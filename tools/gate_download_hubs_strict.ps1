@@ -48,6 +48,7 @@ function Get-WeiterLinks([string]$text) {
   if (-not $m.Success) { return @() }
   $body = $m.Groups["body"].Value
   $links = @()
+  $links = @($links)
   foreach ($lm in [regex]::Matches($body, "\]\((?<url>[^)]+)\)")) {
     $u = $lm.Groups["url"].Value.Trim()
     if ($u) { $links += $u }
@@ -63,8 +64,9 @@ foreach ($f in $hubFiles) {
   $okPrem   = ($t -match "(^|\r?\n)##\s+Premium(\r?\n|$)")
   $okFooter = ($t -match "\{\%\s*include\s+no_sackgasse_footer\.html\s*\%\}")
   $links = Get-WeiterLinks -text $t
-  $okWeiter  = ($links.Count -gt 0)
-  $okWeiter3 = ($links.Count -eq 3)
+  $links = @($links)
+  $okWeiter  = (@($links).Count -gt 0)
+  $okWeiter3 = (@($links).Count -eq 3)
   $bad = @()
   if ($okWeiter) {
     $uniq = @($links | Select-Object -Unique)

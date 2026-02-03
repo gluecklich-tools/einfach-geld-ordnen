@@ -1,15 +1,9 @@
-<!-- EGO include: Weiter links (3) - driven by page.* frontmatter -->
-{% assign t1 = page.weiter_1_text | default: '' %}
-{% assign u1 = page.weiter_1_url  | default: '' %}
-{% assign t2 = page.weiter_2_text | default: '' %}
-{% assign u2 = page.weiter_2_url  | default: '' %}
-{% assign t3 = page.weiter_3_text | default: '' %}
-{% assign u3 = page.weiter_3_url  | default: '' %}
+<div class="weiter-block">
+  <ul>
+    <li><a href="{{ '/seiten/downloads.html' | relative_url }}">Downloads</a></li>
+    <li><a href="{{ '/seiten/rechner-uebersicht.html' | relative_url }}">Rechner</a></li>
+    <li><a href="{{ '/seiten/themen-seiten.html' | relative_url }}">Themen</a></li>
+  </ul>
+</div>
 
-{% if t1 != '' and u1 != '' and t2 != '' and u2 != '' and t3 != '' and u3 != '' %}
-- [{{ t1 }}]({{ u1 }})
-- [{{ t2 }}]({{ u2 }})
-- [{{ t3 }}]({{ u3 }})
-{% else %}
-<!-- WARN: Weiter include used, but page.weiter_* not fully set -->
-{% endif %}
+{% include no_sackgasse_footer.html %}
