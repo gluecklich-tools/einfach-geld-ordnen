@@ -8,8 +8,9 @@ permalink: /seiten/download-hub-index.html
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
 
-## Freebie (kostenlos)
+## Freebie
 
+- Kostenlos:
 - **Freebie Download (Platzhalter):** [ego-freebie-placeholder.txt]({{ site.baseurl }}/downloads/ego-freebie-placeholder.txt)
 - Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
 
