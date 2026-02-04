@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Schneeball-Rechner"
-permalink: /seiten/Schneeball-rechner.html
+permalink: /seiten/snowball-rechner.html
 ---
 # Schneeball-Rechner
 Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zuerst).
