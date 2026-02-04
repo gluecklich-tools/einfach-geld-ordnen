@@ -1,6 +1,22 @@
 #requires -Version 7.0
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+# EGO_NO_BIG_PASTE_RUNNER_V1
+# EGO_GATE_NO_BIG_PASTE_CALL_V1
+# EGO_SSOT_REFRESH_PROXY_CALL_V1
+# EGO_GATE_SSOT_PROXY_CALL_V1
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-ssot-proxy.ps1') -RepoRoot $RepoRoot | Out-Null
+# Optional: run SSOT refresh via repo proxy if env:EGO_SSOT_ROOT is set (no hardpaths in repo)
+if (-not [string]::IsNullOrWhiteSpace($env:EGO_SSOT_ROOT)) {
+  $proxy = Join-Path $PSScriptRoot 'ssot-refresh-proxy.ps1'
+  if (-not (Test-Path -LiteralPath $proxy)) { throw ("Missing SSOT proxy tool: " + $proxy) }
+  pwsh -NoProfile -File $proxy | Out-Null
+}
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-big-paste.ps1') -RepoRoot $RepoRoot | Out-Null
+# LAW: Never paste large scripts into the console. Use file-based tools + pwsh -NoProfile -File.
+# If you see truncated input / ParserError: STOP and rerun from a fresh session.
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
 chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)

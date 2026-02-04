@@ -98,3 +98,5 @@ assets/audit/_runs/
 # EGO generated audit artefacts / backups
 assets/audit/**
 _audit/**
+# EGO: local build artifacts / products (do not commit)
+_products/
