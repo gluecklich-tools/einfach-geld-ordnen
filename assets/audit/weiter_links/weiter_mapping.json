@@ -1,0 +1,1323 @@
+{
+  "version": "3.0",
+  "generated": "2026-02-03 23:56:50",
+  "note": "Fill exactly 3 links per file. Each link is {text,url}. url must be {{site.baseurl}}/... .html",
+  "files": {
+    "pillar\\50-30-20.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\abo-manager.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\abos-kuendigen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\cluster.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\einfach-geld-ordnen-haushaltsbuch.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\einfach-geld-ordnen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\fixkosten-checkliste.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\fixkosten-senken.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\fixkosten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\haushaltsueberblick.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\index.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\jahreskosten-kalender.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\mobilfunk-internet.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\notgroschen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\ordnung-halten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\schulden-lawine.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\schulden-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\schuldenfrei.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\spielraum-ruecklagen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\strom-gas-wechsel.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "pillar\\versicherungen-check.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\50-30-20-regel.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\50-30-20.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\abo-check.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\abo-liste-vorlage.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\abo-manager.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\audit.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\budget-50-30-20-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\budget-50-30-20.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\changelog.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\datenschutz.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\der-weg.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-50-30-20.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-abo-manager.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-fixkosten-senken.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-index.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-jahreskosten-kalender.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-notgroschen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\download-hub-schulden-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\downloads_alias.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\downloads.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\faq_probleme_loesen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\fixkosten-checkliste.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\fixkosten-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\fixkosten-senken.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\fixkosten-uebersicht.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\governance.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\haushaltsbuch-excel.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\haushaltsbuch-vollversion.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\haushaltsbuch-vorlage-kostenlos.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\haushaltsbuch.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\haushaltsueberblick.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\impressum.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\index.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\jahreskosten-kalender.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\jahreskosten-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\lawine-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\monatliche-ausgaben.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\nach_dem_kauf.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\nebenkosten-miete.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\notgroschen-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\notgroschen-system.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\notgroschen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\ordnung-halten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\premium.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\projektbeschreibung_transparenz.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\proof-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\proof-themen-seite.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\qa-release-gate.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\qualitaet.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-50-30-20.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-abo-manager.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-fixkosten-check.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-index.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-jahreskosten-kalender.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-jahreskosten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-notgroschen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-schulden-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\rechner-uebersicht.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\schulden-lawine.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\schulden-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\schulden-snowball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\schuldenfrei-schneeball.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\self_service.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\snowball-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\sparen-automatisch.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\spielraum-rechner.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\spielraum-ruecklagen.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\spielraum.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\start_in_15_minuten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\stromkosten-haushalt.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\themen-seiten.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ],
+    "seiten\\variable-ausgaben.md": [
+      {
+        "text": "Downloads",
+        "url": "{{ site.baseurl }}/seiten/downloads.html"
+      },
+      {
+        "text": "Rechner-Übersicht",
+        "url": "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+      },
+      {
+        "text": "Start",
+        "url": "{{ site.baseurl }}/"
+      }
+    ]
+  }
+}
