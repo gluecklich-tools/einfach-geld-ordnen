@@ -100,3 +100,14 @@ assets/audit/**
 _audit/**
 # EGO: local build artifacts / products (do not commit)
 _products/
+# --- EGO: generated backups / patch artifacts (do not commit) ---
+*.bak_*
+*.bak
+*.orig
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
