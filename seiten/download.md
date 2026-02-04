@@ -9,11 +9,10 @@ permalink: /seiten/download.html
 Hier findest du alle Downloads gesammelt.
 
 👉 Weiter: {{ site.baseurl }}/seiten/download-hub-index.html
-
 ## Weiter
 
-- {{ site.baseurl }}/seiten/download-hub-index.html
-- {{ site.baseurl }}/seiten/index.html
-- {{ site.baseurl }}/pillar/index.html
+- [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)
+- [Weiter]({{ site.baseurl }}/seiten/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/seiten/abo-check.html)
 
 {% include no_sackgasse_footer.html %}

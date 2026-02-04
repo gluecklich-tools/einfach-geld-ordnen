@@ -9,11 +9,10 @@ permalink: /seiten/freebie.html
 Hier startest du mit dem kostenlosen Einstieg.
 
 👉 Weiter: {{ site.baseurl }}/seiten/downloads.html
-
 ## Weiter
 
-- {{ site.baseurl }}/seiten/downloads.html
-- {{ site.baseurl }}/seiten/index.html
-- {{ site.baseurl }}/pillar/index.html
+- [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)
+- [Weiter]({{ site.baseurl }}/seiten/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/seiten/abo-check.html)
 
 {% include no_sackgasse_footer.html %}
