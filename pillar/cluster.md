@@ -1,30 +1,30 @@
 ---
 layout: default
-title: "Themen-Uebersicht"
+title: "Themen-Übersicht"
 permalink: /pillar/cluster.html
 ---
-# Themen-Uebersicht
+# Themen-Übersicht
 
-Diese Seite ist die Uebersicht, damit du nie festhaengst.
+Diese Seite ist die Übersicht, damit du nie festhaengst.
 
 ## Thema
 
 ###
 1. Schuldenfrei
 
-- [Schuldenfrei - Uebersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
+- [Schuldenfrei - Übersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
 - Rechner: [Schneeball-Extra]({{site.baseurl}}/seiten/rechner-schneeball.html), [Jahreskosten pro Monat]({{site.baseurl}}/seiten/rechner-jahreskosten.html)
 
 ###
 2. Fixkosten senken
 
-- [Fixkosten senken - Uebersicht]({{site.baseurl}}/pillar/fixkosten.html)
+- [Fixkosten senken - Übersicht]({{site.baseurl}}/pillar/fixkosten.html)
 - Rechner: [50-30-20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
 
 ## Zentrale Einstiege
 
-- [Pillar Uebersicht]({{site.baseurl}}/pillar/index.html)
-- [Rechner-Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Pillar Übersicht]({{site.baseurl}}/pillar/index.html)
+- [Rechner-Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)

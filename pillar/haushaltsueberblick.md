@@ -28,7 +28,7 @@ Diese Seite will nichts erklaeren und nichts ordnen. Sie zeigt nur: Das alles ge
 
 Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereiten.
 
-Wenn du magst, lies es einfach wie eine Themen-Uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
+Wenn du magst, lies es einfach wie eine Themen-Übersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 
 ## Weiter
 

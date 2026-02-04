@@ -12,7 +12,7 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 
 - Kostenlos:
 - **Freebie Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
-- Alternative Uebersicht: **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
+- Alternative Übersicht: **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
 
@@ -22,7 +22,7 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 
 - Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
 
-## Uebersicht
+## Übersicht
 
 - **Schulden-Schneeball:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
 - **Notgroschen:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-notgroschen.html)

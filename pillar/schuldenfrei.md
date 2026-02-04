@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Schuldenfrei werden - Uebersicht"
+title: "Schuldenfrei werden - Übersicht"
 permalink: /pillar/schuldenfrei.html
 ---
-# Schuldenfrei werden - Uebersicht
+# Schuldenfrei werden - Übersicht
 
 Kurzer, klarer Einstieg. Keine Sackgassen.
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Fixkosten senken - Uebersicht"
+title: "Fixkosten senken - Übersicht"
 permalink: /pillar/fixkosten.html
 ---
-# Fixkosten senken - Uebersicht
+# Fixkosten senken - Übersicht
 
 Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 

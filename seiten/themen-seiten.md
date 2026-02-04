@@ -5,7 +5,7 @@ permalink: /seiten/themen-seiten.html
 ---
 # Themen-Seiten
 
-Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
+Übersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
 ## Themenbereiche
 

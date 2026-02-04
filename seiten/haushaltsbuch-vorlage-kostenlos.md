@@ -10,7 +10,7 @@ flow_systemlinks: true
 
 **Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
 
-Bis dahin: Nutze den Flow über den Uebersicht.
+Bis dahin: Nutze den Flow über den Übersicht.
 
 → [Haushaltsbuch - Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ---

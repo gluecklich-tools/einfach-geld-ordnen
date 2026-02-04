@@ -44,7 +44,7 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** �
 - **Kostenlose Light-Vorlage (Status, noch ohne Download):**  
   [Kostenlose Vorlage – Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-- **Uebersicht-Seite (Einstieg & Inhalte):**  
+- **Übersicht-Seite (Einstieg & Inhalte):**  
   [Haushaltsbuch – Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 
 - **Startseite:**  

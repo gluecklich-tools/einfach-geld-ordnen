@@ -7,7 +7,7 @@ permalink: /seiten/rechner-index.html
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 <link rel="canonical" href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">
 
-<p>Weiterleitung… Falls nichts passiert: <a href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">Rechner Uebersicht</a></p>
+<p>Weiterleitung… Falls nichts passiert: <a href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">Rechner Übersicht</a></p>
 
 <script>
 (function(){
@@ -21,7 +21,7 @@ permalink: /seiten/rechner-index.html
 {% include no_sackgasse_footer.html %}
 
 ## Weiter
-- [Rechner: Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 - [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
 - [Downloads]({{site.baseurl}}/seiten/downloads.html)
 

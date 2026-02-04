@@ -144,6 +144,6 @@ Ratenkredit; 4200; 120; 6.5
 ## Weiter
 - [Thema: Schulden Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
 - [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- [Rechner: Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 
 {% include no_sackgasse_footer.html %}

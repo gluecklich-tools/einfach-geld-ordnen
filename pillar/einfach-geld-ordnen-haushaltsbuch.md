@@ -22,7 +22,7 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 ## In 10 Minuten startklar
 1. **Einstieg**: [Haushaltsbuch in Excel einfach erklaert]({{site.baseurl}}/seiten/haushaltsbuch-excel.html)
 2. **Download (kostenlos)**: `haushaltsbuch-einfach-geld-ordnen.xlsx`
-3. **Fixkosten zuerst**: [Fixkosten Uebersicht]({{site.baseurl}}/seiten/fixkosten-uebersicht.html)
+3. **Fixkosten zuerst**: [Fixkosten Übersicht]({{site.baseurl}}/seiten/fixkosten-uebersicht.html)
 4. **Dann die Ausgaben**: [Monatliche Ausgaben]({{site.baseurl}}/seiten/monatliche-ausgaben.html)
 5. **Details nachziehen (wenn du Zeit hast)**: - [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
    - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
