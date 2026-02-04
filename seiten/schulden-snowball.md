@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Schulden Snowball"
-permalink: /seiten/schulden-snowball.html
+title: "Schulden-Schneeball"
+permalink: /seiten/schulden-Schneeball.html
 ---
-# Schulden Snowball
+# Schulden-Schneeball
 
 Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
 
 ## Quick Start
 1) Alle Schulden auflisten (Restbetrag, Rate, Zins).
-2) Kleinste Restschuld zuerst fokussieren (Snowball).
+2) Kleinste Restschuld zuerst fokussieren (Schneeball).
 3) Nach Abzahlung: Rate auf die naechste Schuld rollen.
 
 ## Checkliste
@@ -18,7 +18,7 @@ Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
 - Extra-Budget festgelegt (so klein wie noetig)
 
 ## Mini-FAQ
-- Was ist Snowball?
+- Was ist Schneeball?
 - Wann besser Lawine?
 - Was, wenn das Budget schwankt?
 

@@ -16,7 +16,7 @@ Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 ## Einstieg (mit passendem Rechner)
 
 - **Schulden-Schneeball**  
-  Themen-Seite: [Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html) · Rechner: [Schneeball Rechner]({{site.baseurl}}/seiten/snowball-rechner.html)
+  Themen-Seite: [Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html) · Rechner: [Schneeball Rechner]({{site.baseurl}}/seiten/Schneeball-rechner.html)
 
 - **Schulden Lawine**  
   Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html) · Rechner: [Lawinen-Rechner]({{site.baseurl}}/seiten/lawine-rechner.html)

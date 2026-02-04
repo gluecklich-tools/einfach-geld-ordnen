@@ -22,7 +22,7 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 ## Mini-FAQ
 
 - Was ist Lawine?
-- Wann besser als Snowball?
+- Wann besser als Schneeball?
 - Wie starte ich, wenn es zu viel ist?
 
 ## Weiter
