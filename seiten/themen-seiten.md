@@ -15,11 +15,11 @@ Uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
 ## Einstieg (mit passendem Rechner)
 
-- **Schulden Snowball**  
-  Themen-Seite: [Schulden Snowball]({{site.baseurl}}/seiten/schulden-snowball.html) · Rechner: [Snowball Rechner]({{site.baseurl}}/seiten/snowball-rechner.html)
+- **Schulden-Schneeball**  
+  Themen-Seite: [Schulden-Schneeball]({{site.baseurl}}/seiten/schulden-Schneeball.html) · Rechner: [Schneeball Rechner]({{site.baseurl}}/seiten/Schneeball-rechner.html)
 
 - **Schulden Lawine**  
-  Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html) · Rechner: [Lawine Rechner]({{site.baseurl}}/seiten/lawine-rechner.html)
+  Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html) · Rechner: [Lawinen-Rechner]({{site.baseurl}}/seiten/lawine-rechner.html)
 
 - **Notgroschen**  
   Themen-Seite: [Notgroschen]({{site.baseurl}}/seiten/notgroschen.html) · Rechner: [Notgroschen Rechner]({{site.baseurl}}/seiten/notgroschen-rechner.html)
