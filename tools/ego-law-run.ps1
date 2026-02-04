@@ -7,7 +7,7 @@ if ($env:EGO_LAWRUN_ALLOWED -ne '1') {
   exit 2
 }
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
-chcp 65001 > $null
+if ($IsWindows) { try { chcp 65001 > $null } catch {} }
 [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
 function Invoke-GitPushSafe {
   param([string]$Remote='origin',[string]$Branch='main')

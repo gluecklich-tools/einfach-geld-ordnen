@@ -11,7 +11,7 @@ param(
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
-chcp 65001 | Out-Null
+if ($IsWindows) { try { chcp 65001 | Out-Null } catch {} }
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
