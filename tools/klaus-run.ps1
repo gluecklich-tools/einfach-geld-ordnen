@@ -10,7 +10,6 @@ Remove-Module PSReadLine -ErrorAction SilentlyContinue
 chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
-# Repo root = parent of /tools
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $RepoRoot
 
@@ -30,14 +29,30 @@ function Live-Smoke200 {
   "PASS: Live 200 " + $Url
 }
 
-# 1) VERIFY (gates)
+function Get-CommitCandidates {
+  $lines = @(git status --porcelain)
+  if ($lines.Length -eq 0) { return @() }
+
+  $filtered = @()
+  foreach ($ln in $lines) {
+    $p = $ln.Substring(3)
+    if ($p -match '^(assets/audit/|assets\\audit\\)') { continue }
+    $filtered += $ln
+  }
+  return @($filtered)
+}
+
+# 1) VERIFY
 pwsh -NoProfile -File (Join-Path $PSScriptRoot "ego-run.ps1") | ForEach-Object { $_ }
 
-# 2) Commit+Push only if changes exist
-$porc = git status --porcelain
-if ([string]::IsNullOrWhiteSpace($porc)) {
-  "OK: No changes -> skip commit/push."
+# 2) Commit+Push only if real changes exist (array-safe)
+$cand = @(Get-CommitCandidates)
+if ($cand.Length -eq 0) {
+  "OK: No commit candidates (audit-only or clean) -> skip commit/push."
 } else {
+  "OK: Commit candidates:"
+  $cand | ForEach-Object { "  " + $_ }
+
   $msg = Ensure-CleanCommitMessage -Msg $Message
   git add -A | Out-Null
   git commit -m $msg | ForEach-Object { $_ }
@@ -45,7 +60,7 @@ if ([string]::IsNullOrWhiteSpace($porc)) {
   "OK: Changes pushed."
 }
 
-# 3) Live smoke (full URL)
+# 3) Live smoke
 $u = "https://gluecklich-tools.github.io/einfach-geld-ordnen/"
 Live-Smoke200 -Url $u
 
