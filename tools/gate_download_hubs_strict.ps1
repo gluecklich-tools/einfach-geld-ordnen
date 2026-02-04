@@ -1,7 +1,7 @@
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
-chcp 65001 > $null
+if ($IsWindows) { try { chcp 65001 > $null } catch {} }
 [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
 $repo = Split-Path -Parent $PSScriptRoot
 $seitenDir = Join-Path $repo "seiten"
