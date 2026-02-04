@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Rechner Uebersicht"
+title: "Rechner-Übersicht"
 permalink: /seiten/rechner-uebersicht.html
 ---
-# Rechner Uebersicht
-
+# Rechner-Übersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.
 
 ## Rechner (mit passender Themen-Seite)
