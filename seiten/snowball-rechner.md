@@ -5,11 +5,12 @@ permalink: /seiten/snowball-rechner.html
 ---
 # Snowball Rechner
 
-Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Self-Serve).
+Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Snowball = kleinster Rest zuerst).
 
 ## Eingabe
 
 Format pro Zeile:
+
 Name; Rest; Rate; ZinsProzent(optional)
 
 Beispiel:
@@ -22,12 +23,6 @@ Ratenkredit; 4200; 120; 6.5
 
   <label for="sb-extra">Extra-Budget pro Monat (EUR, optional)</label>
   <input id="sb-extra" name="sb-extra" type="number" inputmode="decimal" min="0" step="0.01" placeholder="z.B. 50" />
-
-  <label for="sb-modus">Modus</label>
-  <select id="sb-modus" name="sb-modus">
-    <option value="snowball" selected>Snowball (kleinster Rest zuerst)</option>
-    <option value="lawine">Lawine (hoechster Zins zuerst)</option>
-  </select>
 
   <button type="button" id="sb-berechnen">Berechnen</button>
   <button type="button" id="sb-demo" class="secondary">Demo fuellen</button>
@@ -82,7 +77,6 @@ Ratenkredit; 4200; 120; 6.5
 
   var listEl = document.getElementById('sb-list');
   var extraEl = document.getElementById('sb-extra');
-  var modeEl = document.getElementById('sb-modus');
 
   var focusEl = document.getElementById('sb-focus');
   var orderEl = document.getElementById('sb-order');
@@ -107,14 +101,7 @@ Ratenkredit; 4200; 120; 6.5
       return;
     }
 
-    var mode = String(modeEl.value || 'snowball');
-
     items.sort(function (a, b) {
-      if (mode === 'lawine') {
-        if (b.zins !== a.zins) return b.zins - a.zins;
-        return a.rest - b.rest;
-      }
-      // snowball
       if (a.rest !== b.rest) return a.rest - b.rest;
       return b.zins - a.zins;
     });
@@ -124,7 +111,7 @@ Ratenkredit; 4200; 120; 6.5
 
     for (var i = 0; i < items.length; i++) {
       var it = items[i];
-      var pay = it.rate + (i === 0 ? extra : 0); // Extra nur auf Fokus-Schuld
+      var pay = it.rate + (i === 0 ? extra : 0);
       var m = monthsToPayoff(it.rest, pay);
       var li = document.createElement('li');
       var z = (it.zins > 0) ? (' | Zins: ' + it.zins.toFixed(2).replace('.', ',') + '%') : '';
@@ -142,14 +129,12 @@ Ratenkredit; 4200; 120; 6.5
       "Ratenkredit; 4200; 120; 6,5\n" +
       "Handy; 300; 25; 0\n";
     extraEl.value = "50";
-    modeEl.value = "snowball";
     calc();
   });
 
   reset.addEventListener('click', function () {
     listEl.value = '';
     extraEl.value = '';
-    modeEl.value = 'snowball';
     focusEl.textContent = '-';
     clearOrder();
     listEl.focus();
@@ -158,8 +143,8 @@ Ratenkredit; 4200; 120; 6.5
 </script>
 
 ## Weiter
-- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
+- [Thema: Schulden Snowball]({{site.baseurl}}/seiten/schulden-snowball.html)
 - [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
+- [Rechner: Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 
 {% include no_sackgasse_footer.html %}
