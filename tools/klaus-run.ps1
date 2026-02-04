@@ -59,26 +59,29 @@ Say "STEP 1/4: running ego-run gates..."
 pwsh -NoProfile -File (Join-Path $PSScriptRoot "ego-run.ps1") | ForEach-Object { $_ }
 Say "STEP 1/4: gates OK."
 
-# 1b) Optional: Live checklist generation + open (audit-only)
+# 2) Optional: Live checklist + explainer + open (audit-only)
 if ($Mode -eq "live-check") {
-  Say "STEP 2/4: generating live checklist (with HTTP checks)..."
+  Say "STEP 2/4: generating live checklist + explainer..."
   $lc = Join-Path $PSScriptRoot "live-checklist.ps1"
   if (-not (Test-Path -LiteralPath $lc)) { throw ("Missing tool: " + $lc) }
 
-  # pass timeout through via env (live-checklist.ps1 uses Invoke-WebRequest internally; we keep it simple: it will run with its defaults)
+  $ex = Join-Path $PSScriptRoot "live-checklist-explainer.ps1"
+  if (-not (Test-Path -LiteralPath $ex)) { throw ("Missing tool: " + $ex) }
+
   pwsh -NoProfile -File $lc -DoHttp200 | ForEach-Object { $_ }
-  Say "STEP 2/4: checklist generated."
+  pwsh -NoProfile -File $ex | ForEach-Object { $_ }
+  Say "STEP 2/4: generated."
 
   $open = Join-Path $PSScriptRoot "live-checklist-open.ps1"
   if (Test-Path -LiteralPath $open) {
-    Say "STEP 2b/4: opening newest checklist..."
+    Say "STEP 2b/4: opening newest checklist + explainer..."
     pwsh -NoProfile -File $open | ForEach-Object { $_ }
   } else {
     Say "WARN: tools/live-checklist-open.ps1 not found -> skip opening."
   }
 }
 
-# 2) Commit+Push only if real changes exist (ignore audit artefacts)
+# 3) Commit+Push only if real changes exist (ignore audit artefacts)
 Say "STEP 3/4: checking git status for real changes..."
 $cand = @(Get-CommitCandidates)
 if ($cand.Length -eq 0) {
@@ -94,7 +97,7 @@ if ($cand.Length -eq 0) {
   Say "OK: Changes pushed."
 }
 
-# 3) Live smoke (full URL)
+# 4) Live smoke (full URL)
 Say "STEP 4/4: live smoke 200..."
 $u = "https://gluecklich-tools.github.io/einfach-geld-ordnen/"
 Live-Smoke200 -Url $u
