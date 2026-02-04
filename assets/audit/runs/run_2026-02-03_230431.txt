@@ -24,6 +24,6 @@ REPO_DIRTY_AFTER=FALSE
 200 https://gluecklich-tools.github.io/einfach-geld-ordnen/
 200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/index.html
 200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/downloads.html
-200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-index.html
+200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-uebersicht.html
 200 https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/audit.html
 LAW_RUN_OK
