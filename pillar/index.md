@@ -21,7 +21,7 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 ## Rechner
 
-- [Rechner-Uebersicht]({{site.baseurl}}/seiten/rechner-index.html)
+- [Rechner-Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 
 ## Downloads
 

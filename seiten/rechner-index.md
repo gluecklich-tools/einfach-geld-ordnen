@@ -1,27 +1,26 @@
 ---
 layout: default
-title: "Rechner - Uebersicht"
+title: "Rechner: Übersicht (Weiterleitung)"
 permalink: /seiten/rechner-index.html
-weiter_3_text: "Rechner"
-weiter_1_text: "Start"
-weiter_1_url: "{{site.baseurl}}/"
-weiter_2_text: "Downloads"
-weiter_3_url: "{{site.baseurl}}/seiten/rechner-index.html"
-weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
+weiter_1_text: "Start: in 15 Minuten"
+weiter_1_url: "{{ site.baseurl }}/seiten/start_in_15_minuten.html"
+weiter_2_text: "Rechner: Übersicht"
+weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
+weiter_3_text: "Downloads"
+weiter_3_url: "{{ site.baseurl }}/seiten/downloads.html"
 ---
-# Rechner - Uebersicht
 
-Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
+<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 
-## Rechner
+# Rechner: Übersicht (Weiterleitung)
 
-- [Schulden-Schneeball (Extra)]( {{site.baseurl}}/seiten/rechner-schneeball.html)
-- [Jahreskosten pro Monat]( {{site.baseurl}}/seiten/rechner-jahreskosten.html)
-- [50-30-20 Budget]( {{site.baseurl}}/seiten/rechner-50-30-20.html)
+Diese Seite ist umgezogen.
+
+➡️ Weiter hier: [Rechner: Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+
 ## Weiter
-
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+- [Start: in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Rechner: Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

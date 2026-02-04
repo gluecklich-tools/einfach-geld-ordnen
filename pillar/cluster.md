@@ -24,7 +24,7 @@ Diese Seite ist die Uebersicht, damit du nie festhaengst.
 ## Zentrale Einstiege
 
 - [Pillar Uebersicht]({{site.baseurl}}/pillar/index.html)
-- [Rechner-Uebersicht]({{site.baseurl}}/seiten/rechner-index.html)
+- [Rechner-Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
