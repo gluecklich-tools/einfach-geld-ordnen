@@ -9,11 +9,11 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 ## Rechner (mit passender Themen-Seite)
 
-- **Snowball Rechner**  
-  Rechner: [Snowball Rechner]({{site.baseurl}}/seiten/snowball-rechner.html) · Themen-Seite: [Schulden Snowball]({{site.baseurl}}/seiten/schulden-snowball.html)
+- **Schneeball-Rechner**  
+  Rechner: [Schneeball-Rechner]({{site.baseurl}}/seiten/snowball-rechner.html) · Themen-Seite: [Schulden Snowball]({{site.baseurl}}/seiten/schulden-snowball.html)
 
-- **Lawine Rechner**  
-  Rechner: [Lawine Rechner]({{site.baseurl}}/seiten/lawine-rechner.html) · Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html)
+- **Lawinen-Rechner**  
+  Rechner: [Lawinen-Rechner]({{site.baseurl}}/seiten/lawine-rechner.html) · Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html)
 
 - **Notgroschen Rechner**  
   Rechner: [Notgroschen Rechner]({{site.baseurl}}/seiten/notgroschen-rechner.html) · Themen-Seite: [Notgroschen]({{site.baseurl}}/seiten/notgroschen.html)

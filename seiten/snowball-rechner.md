@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "Snowball Rechner"
-permalink: /seiten/snowball-rechner.html
+title: "Schneeball-Rechner"
+permalink: /seiten/Schneeball-rechner.html
 ---
-# Snowball Rechner
-
-Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Snowball = kleinster Rest zuerst).
+# Schneeball-Rechner
+Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zuerst).
 
 ## Eingabe
 
@@ -143,7 +142,7 @@ Ratenkredit; 4200; 120; 6.5
 </script>
 
 ## Weiter
-- [Thema: Schulden Snowball]({{site.baseurl}}/seiten/schulden-snowball.html)
+- [Thema: Schulden Schneeball]({{site.baseurl}}/seiten/schulden-Schneeball.html)
 - [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
 - [Rechner: Uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 
