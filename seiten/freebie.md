@@ -8,7 +8,7 @@ permalink: /seiten/freebie.html
 
 Hier startest du mit dem kostenlosen Einstieg.
 
-👉 Weiter: {{ site.baseurl }}/seiten/downloads.html
+ Weiter: {{ site.baseurl }}/seiten/downloads.html
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)

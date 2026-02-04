@@ -8,7 +8,7 @@ permalink: /seiten/download.html
 
 Hier findest du alle Downloads gesammelt.
 
-👉 Weiter: {{ site.baseurl }}/seiten/download-hub-index.html
+ Weiter: {{ site.baseurl }}/seiten/download-hub-index.html
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)

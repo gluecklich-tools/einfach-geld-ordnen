@@ -8,7 +8,7 @@ permalink: /seiten/vollversion.html
 
 Hier geht es zur Vollversion.
 
-👉 Weiter: {{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html
+ Weiter: {{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)
