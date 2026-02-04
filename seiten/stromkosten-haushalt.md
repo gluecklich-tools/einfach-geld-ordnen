@@ -6,9 +6,9 @@ nav_group: seiten
 nav_order: 45
 flow_systemlinks: true
 ---
-## Stromkosten – einfach erfassen
+## Stromkosten - einfach erfassen
 
-Strom ist oft ein großer Posten – und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
+Strom ist oft ein großer Posten - und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
 
 Für den Start reicht:
 - **Monatlicher Abschlag** (oder)

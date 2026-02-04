@@ -9,7 +9,9 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Inputs
 
-- Netto\n- Fixkosten\n- Variabel (Plan)
+- Netto
+- Fixkosten
+- Variabel (Plan)
 
 ## Outputs
 
@@ -17,7 +19,8 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Hinweise
 
-- Self-Serve, keine Beratung\n- Wenn negativ: Fixkosten senken oder Einnahmen erhoehen
+- Self-Serve, keine Beratung
+- Wenn negativ: Fixkosten senken oder Einnahmen erhoehen
 
 ## Weiter
 - [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)

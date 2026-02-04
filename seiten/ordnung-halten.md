@@ -6,7 +6,7 @@ nav_group: seiten
 nav_order: 80
 flow_systemlinks: true
 ---
-# Ordnung halten – wenn sie hilft (ohne Druck)
+# Ordnung halten - wenn sie hilft (ohne Druck)
 
 Ordnung ist kein Ziel an sich.
 Sie ist nur dann gut, wenn sie **entlastet**.
@@ -16,7 +16,7 @@ kein System, keine Regeln, keine App-Empfehlungen.
 
 Nur ein Gedanke:
 
-**Ordnung soll dir dienen – nicht umgekehrt.**
+**Ordnung soll dir dienen - nicht umgekehrt.**
 
 ## Wenn Ordnung nicht hilft
 
@@ -32,12 +32,12 @@ Dann ist weniger oft mehr.
 
 Wenn du nach dem Überblick weitermachen willst, nimm als nächstes:
 
-- [Haushaltsbuch – Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch - Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 
 Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
 
-- [Haushaltsbuch Vollversion – Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html)
-- [Kostenlose Haushaltsbuch-Vorlage – Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch Vollversion - Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html)
+- [Kostenlose Haushaltsbuch-Vorlage - Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ---
 ## Weiter
 

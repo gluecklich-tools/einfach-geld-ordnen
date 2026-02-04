@@ -6,7 +6,7 @@ nav_group: seiten
 nav_order: 46
 flow_systemlinks: true
 ---
-## Nebenkosten – kurz und praktisch
+## Nebenkosten - kurz und praktisch
 
 Nebenkosten sind oft der Teil, der „irgendwie mitläuft“ und deshalb leicht unterschätzt wird.
 

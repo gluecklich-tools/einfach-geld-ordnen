@@ -8,15 +8,18 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Inputs
 
-- Schuldenliste (Name; Rest; Rate; Zins)\n- Extra-Budget (optional)
+- Schuldenliste (Name; Rest; Rate; Zins)
+- Extra-Budget (optional)
 
 ## Outputs
 
-- Reihenfolge (Lawine)\n- Naechster Fokus
+- Reihenfolge (Lawine)
+- Naechster Fokus
 
 ## Hinweise
 
-- Zins-Effekt wird im MVP nicht simuliert\n- Self-Serve, keine Beratung
+- Zins-Effekt wird im MVP nicht simuliert
+- Self-Serve, keine Beratung
 
 ## Weiter
 - [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)

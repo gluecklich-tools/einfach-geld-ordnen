@@ -6,7 +6,7 @@ nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
 ---
-# Monatliche Ausgaben – einfach einordnen
+# Monatliche Ausgaben - einfach einordnen
 
 Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest gebunden** sind wie Fixkosten.
 

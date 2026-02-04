@@ -6,10 +6,10 @@ nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
 ---
-# Variable Ausgaben – Einordnung ohne Druck
+# Variable Ausgaben - Einordnung ohne Druck
 
 Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.
-Sie können in manchen Monaten kaum vorkommen – und in anderen deutlich ins Gewicht fallen.
+Sie können in manchen Monaten kaum vorkommen - und in anderen deutlich ins Gewicht fallen.
 
 Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
@@ -23,7 +23,7 @@ Oft unbemerkt, oft nebenbei.
 
 Das ist normal und **kein Zeichen von Unordnung**.
 
-Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ –
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ -
 oder ob etwas „zu viel“ ist.
 
 ## Einordnung statt Kontrolle
@@ -31,7 +31,7 @@ oder ob etwas „zu viel“ ist.
 Diese Seite fordert nicht dazu auf, Ausgaben zu sammeln oder auszuwerten.
 
 Sie sagt nur:
-Diese Ausgaben existieren – und sie wirken im Gesamtbild mit.
+Diese Ausgaben existieren - und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht nötig.
 ---

@@ -6,7 +6,7 @@ nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
 ---
-# Finanzieller Spielraum & Rücklagen – Einordnung ohne Druck
+# Finanzieller Spielraum & Rücklagen - Einordnung ohne Druck
 
 Spielraum und Rücklagen sind **kein Luxus** und kein „Optimierungsziel“.
 Sie sind eine Form von **Sicherheit**, damit kleine Schwankungen nicht sofort Stress auslösen.

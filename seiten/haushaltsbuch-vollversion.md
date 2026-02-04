@@ -6,12 +6,12 @@ nav_group: seiten
 nav_order: 110
 flow_systemlinks: true
 ---
-# Haushaltsbuch Vollversion – kommt bald
+# Haushaltsbuch Vollversion - kommt bald
 
-**Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert – **noch kein Verkauf, keine Bezahl-Links**  
+**Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert - **noch kein Verkauf, keine Bezahl-Links**  
 **Preis (geplant):** 10 € einmalig
 
-Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist – ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
+Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist - ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
 
 ## Was du bekommst (Lieferumfang)
 
@@ -31,7 +31,7 @@ Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
 - Kein Coaching
 - Keine App, kein Konto-Sync, keine Automatisierung
 
-Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** – du setzt es selbst um.
+Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** - du setzt es selbst um.
 
 ## Für wen passt es nicht?
 
