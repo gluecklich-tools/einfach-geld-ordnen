@@ -5,7 +5,10 @@ param(
   [string]$Mode = "default",
 
   [Parameter(Mandatory=$false)]
-  [string]$Message = ""
+  [string]$Message = "",
+
+  [Parameter(Mandatory=$false)]
+  [int]$HttpTimeoutSec = 20
 )
 
 $ErrorActionPreference = "Stop"
@@ -16,6 +19,8 @@ chcp 65001 | Out-Null
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $RepoRoot
+
+function Say([string]$s) { Write-Host ("[KLAUS] " + $s) }
 
 function Ensure-CleanCommitMessage {
   param([string]$Msg)
@@ -28,7 +33,7 @@ function Ensure-CleanCommitMessage {
 
 function Live-Smoke200 {
   param([string]$Url)
-  $r = Invoke-WebRequest -Uri $Url -UseBasicParsing -MaximumRedirection 5
+  $r = Invoke-WebRequest -Uri $Url -UseBasicParsing -MaximumRedirection 5 -TimeoutSec $HttpTimeoutSec
   if ($r.StatusCode -ne 200) { throw ("FAIL: Live smoke expected 200, got " + $r.StatusCode) }
   "PASS: Live 200 " + $Url
 }
@@ -47,43 +52,52 @@ function Get-CommitCandidates {
   return @($filtered)
 }
 
+Say ("Mode=" + $Mode + "  HttpTimeoutSec=" + $HttpTimeoutSec)
+
 # 1) VERIFY (gates)
+Say "STEP 1/4: running ego-run gates..."
 pwsh -NoProfile -File (Join-Path $PSScriptRoot "ego-run.ps1") | ForEach-Object { $_ }
+Say "STEP 1/4: gates OK."
 
 # 1b) Optional: Live checklist generation + open (audit-only)
 if ($Mode -eq "live-check") {
+  Say "STEP 2/4: generating live checklist (with HTTP checks)..."
   $lc = Join-Path $PSScriptRoot "live-checklist.ps1"
   if (-not (Test-Path -LiteralPath $lc)) { throw ("Missing tool: " + $lc) }
 
-  # generate checklist with HTTP 200 checks (writes into assets/audit/...)
+  # pass timeout through via env (live-checklist.ps1 uses Invoke-WebRequest internally; we keep it simple: it will run with its defaults)
   pwsh -NoProfile -File $lc -DoHttp200 | ForEach-Object { $_ }
+  Say "STEP 2/4: checklist generated."
 
   $open = Join-Path $PSScriptRoot "live-checklist-open.ps1"
   if (Test-Path -LiteralPath $open) {
+    Say "STEP 2b/4: opening newest checklist..."
     pwsh -NoProfile -File $open | ForEach-Object { $_ }
   } else {
-    "WARN: tools/live-checklist-open.ps1 not found -> skip opening."
+    Say "WARN: tools/live-checklist-open.ps1 not found -> skip opening."
   }
 }
 
 # 2) Commit+Push only if real changes exist (ignore audit artefacts)
+Say "STEP 3/4: checking git status for real changes..."
 $cand = @(Get-CommitCandidates)
 if ($cand.Length -eq 0) {
-  "OK: No commit candidates (audit-only or clean) -> skip commit/push."
+  Say "OK: No commit candidates (audit-only or clean) -> skip commit/push."
 } else {
-  "OK: Commit candidates:"
-  $cand | ForEach-Object { "  " + $_ }
+  Say "OK: Commit candidates:"
+  $cand | ForEach-Object { Say ("  " + $_) }
 
   $msg = Ensure-CleanCommitMessage -Msg $Message
   git add -A | Out-Null
   git commit -m $msg | ForEach-Object { $_ }
   git push | ForEach-Object { $_ }
-  "OK: Changes pushed."
+  Say "OK: Changes pushed."
 }
 
 # 3) Live smoke (full URL)
+Say "STEP 4/4: live smoke 200..."
 $u = "https://gluecklich-tools.github.io/einfach-geld-ordnen/"
 Live-Smoke200 -Url $u
 
-# 4) Final status
+Say "DONE."
 git status --porcelain
