@@ -10,7 +10,7 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 ## Rechner (mit passender Themen-Seite)
 
 - **Schneeball-Rechner**  
-  Rechner: [Schneeball-Rechner]({{site.baseurl}}/seiten/Schneeball-rechner.html) · Themen-Seite: [Schulden-Schneeball]({{site.baseurl}}/seiten/schulden-Schneeball.html)
+  Rechner: [Schneeball-Rechner]({{site.baseurl}}/seiten/Schneeball-rechner.html) · Themen-Seite: [Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
 
 - **Lawinen-Rechner**  
   Rechner: [Lawinen-Rechner]({{site.baseurl}}/seiten/lawine-rechner.html) · Themen-Seite: [Schulden Lawine]({{site.baseurl}}/seiten/schulden-lawine.html)
@@ -32,7 +32,7 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 ## Weiter
 - [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Schulden-Schneeball]({{site.baseurl}}/seiten/schulden-Schneeball.html)
+- [Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
 - [Downloads]({{site.baseurl}}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

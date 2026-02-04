@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lawinen-Rechner"
-permalink: /seiten/Lawine-rechner.html
+permalink: /seiten/lawine-rechner.html
 ---
 # Lawinen-Rechner
 Ziel: kurzer Input -> klares Ergebnis (Self-Serve).

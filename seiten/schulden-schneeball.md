@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Schulden Schneeball Methode einfach
+title: "Schulden-Schneeball"
 permalink: /seiten/schulden-schneeball.html
-weiter_3_text: "Rechner"
-weiter_1_text: "Start"
-weiter_1_url: "{{site.baseurl}}/"
-weiter_2_text: "Downloads"
-weiter_3_url: "{{site.baseurl}}/seiten/rechner-uebersicht.html"
-weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
 # Schulden-Schneeball (schnell Momentum aufbauen)
 Wenn du mehrere Schulden hast, ist der **Schneeball** oft der einfachste Weg:
