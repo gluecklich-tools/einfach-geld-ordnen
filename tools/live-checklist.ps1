@@ -11,17 +11,6 @@ param(
   [Parameter(Mandatory=$false)]
   [switch]$DoHttp200
 )
-]
-  [string]$BaseUrl = "https://gluecklich-tools.github.io",
-  [Parameter(Mandatory=$false)]
-  [string]$ProjectBase = "/einfach-geld-ordnen",
-  [Parameter(Mandatory=$false)]
-  [string]$OutPath = "",
-  [Parameter(Mandatory=$false)]
-    [Parameter(Mandatory=$false)]
-
-  [switch]$DoHttp200
-)
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
