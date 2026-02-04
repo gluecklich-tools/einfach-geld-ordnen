@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Rechner: Übersicht (Weiterleitung)"
-permalink: /seiten/rechner-index.html
+permalink: /seiten/rechner-uebersicht.html
 weiter_1_text: "Start: in 15 Minuten"
 weiter_1_url: "{{ site.baseurl }}/seiten/start_in_15_minuten.html"
 weiter_2_text: "Rechner: Übersicht"

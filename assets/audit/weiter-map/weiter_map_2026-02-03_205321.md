@@ -30,7 +30,7 @@ Typ missing: 0
 | seiten/download-hub-notgroschen.md | inline | {{ site.baseurl }}/seiten/download-hub-index.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/pillar/notgroschen.html |
 | seiten/download-hub-schulden-schneeball.md | inline | {{ site.baseurl }}/seiten/download-hub-index.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/pillar/schulden-schneeball.html |
 | seiten/downloads_alias.md | inline | {{ site.baseurl }}/seiten/projektbeschreibung_transparenz.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
-| seiten/downloads.md | inline | {{ site.baseurl }}/ | {{ site.baseurl }}/seiten/rechner-index.html | {{ site.baseurl }}/pillar/schulden-schneeball.html |
+| seiten/downloads.md | inline | {{ site.baseurl }}/ | {{ site.baseurl }}/seiten/rechner-uebersicht.html | {{ site.baseurl }}/pillar/schulden-schneeball.html |
 | seiten/faq_probleme_loesen.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/fixkosten-checkliste.md | inline | {{ site.baseurl }}/seiten/fixkosten-rechner.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/fixkosten-rechner.md | inline | {{ site.baseurl }}/seiten/rechner-uebersicht.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
