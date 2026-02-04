@@ -95,3 +95,6 @@ tools/_*.txt
 /tools/reports/
 /tools/reports_*
 assets/audit/_runs/
+# EGO generated audit artefacts / backups
+assets/audit/**
+_audit/**
