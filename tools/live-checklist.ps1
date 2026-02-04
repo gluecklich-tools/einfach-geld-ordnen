@@ -7,6 +7,9 @@ param(
   [Parameter(Mandatory=$false)]
   [string]$OutPath = "",
   [Parameter(Mandatory=$false)]
+    [Parameter(Mandatory=$false)]
+  [int]$HttpTimeoutSec = 20,
+
   [switch]$DoHttp200
 )
 
@@ -106,7 +109,7 @@ function Make-LiveUrl {
 function Try-Http200 {
   param([string]$Url)
   try {
-    $r = Invoke-WebRequest -Uri $Url -UseBasicParsing -MaximumRedirection 5
+    $r = Invoke-WebRequest -Uri $Url -UseBasicParsing -MaximumRedirection 5 -TimeoutSec $HttpTimeoutSec
     return [pscustomobject]@{ Ok = ($r.StatusCode -eq 200); Status = [int]$r.StatusCode }
   } catch {
     return [pscustomobject]@{ Ok = $false; Status = -1 }

@@ -68,7 +68,7 @@ if ($Mode -eq "live-check") {
   $ex = Join-Path $PSScriptRoot "live-checklist-explainer.ps1"
   if (-not (Test-Path -LiteralPath $ex)) { throw ("Missing tool: " + $ex) }
 
-  pwsh -NoProfile -File $lc -DoHttp200 | ForEach-Object { $_ }
+  pwsh -NoProfile -File $lc -DoHttp200 -HttpTimeoutSec $HttpTimeoutSec | ForEach-Object { $_ }
   pwsh -NoProfile -File $ex | ForEach-Object { $_ }
   Say "STEP 2/4: generated."
 
