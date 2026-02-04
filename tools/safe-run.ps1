@@ -89,13 +89,6 @@ New-Item -ItemType Directory -Force -Path $auditDir | Out-Null
 if ($Task -eq 'weiter-scan') {
 
   $reportPath = Join-Path $auditDir 'weiter_scan_report.md'
-
-  if (!(Test-Path -LiteralPath $report)) {
-    $d = Split-Path -Parent $report
-    if (!(Test-Path -LiteralPath $d)) { New-Item -ItemType Directory -Path $d -Force | Out-Null }
-    [IO.File]::WriteAllText($report, ("# Weiter-Scan Report`n`nGenerated: " + (Get-Date).ToString("s") + "`n`nNOTE: Report was missing; created for CI determinism.`n"), [System.Text.UTF8Encoding]::new($false))
-  }
-
   $mdFiles = @(Get-EligibleMarkdownFiles -RepoRoot $RepoRoot)
 
   $rows = New-Object System.Collections.Generic.List[object]

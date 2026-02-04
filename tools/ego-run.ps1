@@ -40,13 +40,6 @@ if (-not (Test-Path -LiteralPath $safe)) { throw ("Missing required tool: " + $s
 $null = & pwsh -NoProfile -File $safe -Task weiter-scan
 
 $report = Join-Path $repo "assets\audit\weiter_links\weiter_scan_report.md"
-
-if (!(Test-Path -LiteralPath $report)) {
-  $d = Split-Path -Parent $report
-  if (!(Test-Path -LiteralPath $d)) { New-Item -ItemType Directory -Path $d -Force | Out-Null }
-  [IO.File]::WriteAllText($report, ("# Weiter-Scan Report`n`nGenerated: " + (Get-Date).ToString("s") + "`n`nNOTE: Report was missing; created for CI determinism.`n"), [System.Text.UTF8Encoding]::new($false))
-}
-
 if (!(Test-Path -LiteralPath $report)) { Write-Host ("WARN: Missing weiter report (CI ok): " + $report) }
 $txt = [IO.File]::ReadAllText($report, [Text.UTF8Encoding]::new($false))
 
