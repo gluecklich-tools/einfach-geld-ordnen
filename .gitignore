@@ -111,3 +111,4 @@ _products/
 *.swo
 .DS_Store
 Thumbs.db
+_tmp/
