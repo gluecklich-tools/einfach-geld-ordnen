@@ -10,7 +10,16 @@ weiter_3_text: "Downloads"
 weiter_3_url: "{{ site.baseurl }}/seiten/downloads.html"
 ---
 
-<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
+<script>
+  (function () {
+    var url = "{{ site.baseurl }}/seiten/rechner-uebersicht.html";
+    try { window.location.replace(url); } catch(e) { window.location.href = url; }
+  })();
+</script>
+
+<noscript>
+  <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
+</noscript>
 
 # Rechner: Übersicht (Weiterleitung)
 
