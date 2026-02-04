@@ -1,35 +1,21 @@
 ---
 layout: default
-title: "Rechner: Übersicht (Weiterleitung)"
-permalink: /seiten/rechner-uebersicht.html
-weiter_1_text: "Start: in 15 Minuten"
-weiter_1_url: "{{ site.baseurl }}/seiten/start_in_15_minuten.html"
-weiter_2_text: "Rechner: Übersicht"
-weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
-weiter_3_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/downloads.html"
+title: "Rechner (alt)"
+permalink: /seiten/rechner-index.html
 ---
 
+<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
+<link rel="canonical" href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">
+
+<p>Weiterleitung… Falls nichts passiert: <a href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">Rechner Uebersicht</a></p>
+
 <script>
-  (function () {
-    var url = "{{ site.baseurl }}/seiten/rechner-uebersicht.html";
-    try { window.location.replace(url); } catch(e) { window.location.href = url; }
-  })();
+(function(){
+  try{
+    var u = "{{ site.baseurl }}/seiten/rechner-uebersicht.html";
+    if (u && typeof window !== "undefined") { window.location.replace(u); }
+  }catch(e){}
+})();
 </script>
-
-<noscript>
-  <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
-</noscript>
-
-# Rechner: Übersicht (Weiterleitung)
-
-Diese Seite ist umgezogen.
-
-➡️ Weiter hier: [Rechner: Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-
-## Weiter
-- [Start: in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
