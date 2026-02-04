@@ -18,7 +18,7 @@ pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-big-paste.ps1') -RepoRoo
 # LAW: Never paste large scripts into the console. Use file-based tools + pwsh -NoProfile -File.
 # If you see truncated input / ParserError: STOP and rerun from a fresh session.
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
-chcp 65001 | Out-Null
+if ($IsWindows) { try { chcp 65001 | Out-Null } catch {} }
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 # Repo root = parent of /tools
