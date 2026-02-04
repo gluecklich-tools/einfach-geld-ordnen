@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Rechner (alt)"
-permalink: /seiten/rechner-uebersicht.html
+permalink: /seiten/rechner-index.html
 ---
 
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
