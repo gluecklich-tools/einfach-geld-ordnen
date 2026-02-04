@@ -26,11 +26,10 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 4. **Dann die Ausgaben**: [Monatliche Ausgaben]({{site.baseurl}}/seiten/monatliche-ausgaben.html)
 5. **Details nachziehen (wenn du Zeit hast)**: - [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
    - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
-
 ## Weiter
 
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 {% include no_sackgasse_footer.html %}

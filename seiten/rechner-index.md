@@ -19,8 +19,9 @@ Kurze Mini-Rechner, statisch, ohne Tracking. Ziel: schnelle Orientierung.
 - [Jahreskosten pro Monat]( {{site.baseurl}}/seiten/rechner-jahreskosten.html)
 - [50-30-20 Budget]( {{site.baseurl}}/seiten/rechner-50-30-20.html)
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 {% include no_sackgasse_footer.html %}

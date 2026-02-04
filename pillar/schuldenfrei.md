@@ -20,10 +20,10 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
 - [Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
 - [Fixkosten-Checkliste]({{site.baseurl}}/pillar/fixkosten-checkliste.html)
-
 ## Weiter
-- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
-- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 {% include no_sackgasse_footer.html %}

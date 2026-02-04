@@ -7,7 +7,10 @@ permalink: /downloads.html
 Hier findest du die Downloads.
 - [Zur Uebersicht der Downloads]({{ site.baseurl }}/seiten/downloads.html)
 ## Weiter
-- [Projektbeschreibung und Transparenz]({{ site.baseurl }}/seiten/projektbeschreibung_transparenz.html)
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Uebersicht]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+
+{% include no_sackgasse_footer.html %}
 {% include no_sackgasse_footer.html %}

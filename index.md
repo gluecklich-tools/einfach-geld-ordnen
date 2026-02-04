@@ -44,9 +44,10 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 
 - Schulden: [Schuldenfrei - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html)
 - Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html)
-
 ## Weiter
-- [Start In 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Index]({{ site.baseurl }}/pillar/index.html)
+
+- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+
 {% include no_sackgasse_footer.html %}
