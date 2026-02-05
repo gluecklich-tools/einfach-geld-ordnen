@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/todo.md
 
 layout: default
@@ -60,6 +64,7 @@ Stand: 2026-01-24
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
 
 
 

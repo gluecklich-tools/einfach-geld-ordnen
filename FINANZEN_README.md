@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/finanzen_readme.md
 
 layout: default
@@ -21,6 +25,7 @@ Die operative Checkliste sowie alle Belege werden **nur in privater Ablage** gef
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
 
 
 

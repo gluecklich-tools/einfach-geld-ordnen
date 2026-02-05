@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/changelog.md
 
 layout: default
@@ -29,6 +33,7 @@ permalink: /seiten/changelog.md
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
 
 
 

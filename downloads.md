@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/downloads.md
 
 layout: default
@@ -18,6 +22,7 @@ Hier findest du die Downloads.
 
 {% include no_sackgasse_footer.html %}
 {% include no_sackgasse_footer.html %}
+
 
 
 

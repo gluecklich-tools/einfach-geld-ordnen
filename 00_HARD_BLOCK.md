@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/00_hard_block.md
 
 layout: default
@@ -37,6 +41,7 @@ Ziel: Keine Verwechslung mehr zwischen **Repo-aenderung** und **Produkt-Download
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
 
 
 

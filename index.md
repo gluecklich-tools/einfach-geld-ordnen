@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/index.md
 
 layout: default
@@ -55,6 +59,7 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 - [Naechster Schritt]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 {% include no_sackgasse_footer.html %}
+
 
 
 

@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/readme.md
 
 layout: default
@@ -82,6 +86,7 @@ APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 Wenn ein Task nicht in diesen Ablauf passt: zuerst so umbauen, dass er passt.
 Kein Renegade.
 <!-- EGO_LAW_RUNNER_END -->
+
 
 
 

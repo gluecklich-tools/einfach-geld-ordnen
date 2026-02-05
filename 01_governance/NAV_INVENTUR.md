@@ -1,4 +1,8 @@
 ---
+layout: page
+permalink: /
+---
+---
 permalink: /seiten/nav_inventur.md
 
 layout: default
@@ -60,6 +64,7 @@ permalink: /seiten/nav_inventur.md
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
 
 
 
