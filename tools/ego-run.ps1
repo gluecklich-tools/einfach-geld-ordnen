@@ -59,4 +59,5 @@ if ($missing -ne 0 -or $not3 -ne 0 -or $zero -ne 0) {
 }
 
 "PASS: Weiter Allowlist Gate ok (seiten+pilla)."
-"pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')PASS: ego-run completed (required gates OK)."
+"pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
+PASS: ego-run completed (required gates OK)."
