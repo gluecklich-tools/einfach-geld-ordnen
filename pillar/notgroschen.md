@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/notgroschen.md
+
 layout: default
 title: "Notgroschen - Schutz vor Rueckfall"
 permalink: /pillar/notgroschen.html
 ---
+permalink: /seiten/notgroschen.md
+
 # Notgroschen - Schutz vor Rueckfall
 
 Ein kleiner Puffer verhindert, dass du bei jeder unerwarteten Rechnung neue Schulden machst. Der Notgroschen ist kein Luxus - er ist Stabilitaet.

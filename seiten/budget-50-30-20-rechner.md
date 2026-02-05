@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/budget-50-30-20-rechner.md
+
 layout: default
 title: "50/30/20 Rechner"
 permalink: /seiten/budget-50-30-20-rechner.html
 ---
+permalink: /seiten/budget-50-30-20-rechner.md
+
 # 50/30/20 Rechner
 
 Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).

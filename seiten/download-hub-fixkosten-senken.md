@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/download-hub-fixkosten-senken.md
+
 layout: default
 title: "Download-Hub: Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
 ---
+permalink: /seiten/download-hub-fixkosten-senken.md
+
 
 # Download-Hub: Fixkosten senken
 

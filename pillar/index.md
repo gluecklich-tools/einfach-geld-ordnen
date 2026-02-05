@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/index.md
+
 layout: default
 title: "Projekt-uebersicht"
 permalink: /pillar/index.html
 ---
+permalink: /seiten/index.md
+
 # Projekt-uebersicht
 
 Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.

@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/schuldenfrei.md
+
 layout: default
 title: "Schuldenfrei werden - uebersicht"
 permalink: /pillar/schuldenfrei.html
 ---
+permalink: /seiten/schuldenfrei.md
+
 # Schuldenfrei werden - uebersicht
 
 Kurzer, klarer Einstieg. Keine Sackgassen.

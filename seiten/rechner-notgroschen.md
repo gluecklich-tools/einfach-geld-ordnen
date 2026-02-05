@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/rechner-notgroschen.md
+
 layout: default
 title: Rechner Notgroschen
 permalink: /seiten/rechner-notgroschen.html
 ---
+permalink: /seiten/rechner-notgroschen.md
+
 # Rechner: Notgroschen-Ziel & Plan
 Du gibst deine monatlichen Ausgaben und deinen Sparbetrag ein.
 Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert.

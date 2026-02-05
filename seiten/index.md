@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/index.md
+
 layout: default
 title: "Start"
 permalink: /seiten/index.html
@@ -15,6 +17,8 @@ weiter_2_text: "Downloads"
 weiter_3_url: "{{site.baseurl}}/seiten/rechner-uebersicht.html"
 weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
+permalink: /seiten/index.md
+
 # Start
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.

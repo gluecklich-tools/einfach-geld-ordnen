@@ -1,7 +1,11 @@
 ---
+permalink: /seiten/todo.md
+
 layout: default
 permalink: /TODO.html
 ---
+permalink: /seiten/todo.md
+
 # TODO – Einfach Geld ordnen
 
 Stand: 2026-01-24

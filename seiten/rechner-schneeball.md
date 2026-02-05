@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/rechner-schneeball.md
+
 layout: default
 title: "Rechner - Schulden-Schneeball (Mini)"
 permalink: /seiten/rechner-schneeball.html
 ---
+permalink: /seiten/rechner-schneeball.md
+
 # Rechner - Schulden-Schneeball (Mini)
 
 **Ziel:** Minimum auf alle Schulden, Extra auf die kleinste.

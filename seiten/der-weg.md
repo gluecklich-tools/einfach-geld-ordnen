@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/der-weg.md
+
 layout: default
 title: "Der Weg - Schritt fuer Schritt"
 permalink: /seiten/der-weg.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 20
 flow_systemlinks: true
 ---
+permalink: /seiten/der-weg.md
+
 ## Der Weg (Schritt fuer Schritt)
 
 Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
@@ -23,6 +27,8 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
    → [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
    → [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 ---
+permalink: /seiten/der-weg.md
+
 ## Weiter
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)

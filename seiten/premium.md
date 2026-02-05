@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/premium.md
+
 layout: default
 title: "Premium"
 permalink: /seiten/premium.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 200
 flow_systemlinks: true
 ---
+permalink: /seiten/premium.md
+
 # Premium
 
 Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach dem Kauf.

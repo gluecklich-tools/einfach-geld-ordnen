@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/schulden-snowball.md
+
 layout: default
 title: "Schulden-Schneeball"
-permalink: /seiten/schulden-Schneeball.html
+permalink: /seiten/schulden-snowball.html
 ---
+permalink: /seiten/schulden-snowball.md
+
 # Schulden-Schneeball
 
 Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
@@ -25,7 +29,7 @@ Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/neue-ziel-seite.html)
 
 {% include no_sackgasse_footer.html %}
 

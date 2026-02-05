@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/notgroschen-rechner.md
+
 layout: default
 title: "Notgroschen Rechner"
 permalink: /seiten/notgroschen-rechner.html
 ---
+permalink: /seiten/notgroschen-rechner.md
+
 # Notgroschen Rechner
 
 Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen ableiten (Self-Serve).

@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/spielraum-ruecklagen.md
+
 layout: default
 title: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck"
 permalink: /seiten/spielraum-ruecklagen.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
 ---
+permalink: /seiten/spielraum-ruecklagen.md
+
 # Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck
 
 Spielraum und Ruecklagen sind **kein Luxus** und kein „Optimierungsziel“.
@@ -25,7 +29,7 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

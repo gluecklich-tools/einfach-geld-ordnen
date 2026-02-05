@@ -1,14 +1,18 @@
 ---
+permalink: /seiten/downloads.md
+
 layout: default
 title: "Downloads"
-permalink: /seiten/downloads.html
+permalink: /seiten/downloads_alias.html
 weiter_1_text: "Start: in 15 Minuten"
 weiter_1_url: "{{ site.baseurl }}/seiten/start_in_15_minuten.html"
 weiter_2_text: "Rechner: uebersicht"
 weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 weiter_3_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/downloads.html"
+weiter_3_url: "{{ site.baseurl }}/seiten/downloads_alias.html"
 ---
+permalink: /seiten/downloads.md
+
 
 # Downloads
 

@@ -1,7 +1,11 @@
 ---
+permalink: /seiten/00_hard_block.md
+
 layout: default
 permalink: /00_HARD_BLOCK.html
 ---
+permalink: /seiten/00_hard_block.md
+
 # 00 HARD BLOCK – Repo ist die Wahrheit (SSoT)
 
 Ab jetzt gilt verbindlich:

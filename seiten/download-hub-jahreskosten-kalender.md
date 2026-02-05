@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/download-hub-jahreskosten-kalender.md
+
 layout: default
 title: "Download-Hub: Jahreskosten-Kalender"
 permalink: /seiten/download-hub-jahreskosten-kalender.html
 ---
+permalink: /seiten/download-hub-jahreskosten-kalender.md
+
 
 # Download-Hub: Jahreskosten-Kalender
 

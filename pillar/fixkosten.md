@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/fixkosten.md
+
 layout: default
 title: "Fixkosten senken - uebersicht"
 permalink: /pillar/fixkosten.html
 ---
+permalink: /seiten/fixkosten.md
+
 # Fixkosten senken - uebersicht
 
 Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.

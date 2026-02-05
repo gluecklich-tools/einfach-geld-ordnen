@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/ueberblick.md
+
 layout: default
 title: Projekt-ueberblick
 permalink: /seiten/ueberblick.html
 ---
+permalink: /seiten/ueberblick.md
+
 
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/pillar/index.html">
 
@@ -11,7 +15,7 @@ Wenn du nicht automatisch weitergeleitet wirst: [Projekt-ueberblick oeffnen]({{ 
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

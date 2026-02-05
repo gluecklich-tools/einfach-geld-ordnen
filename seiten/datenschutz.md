@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/datenschutz.md
+
 layout: default
 title: "Datenschutz"
 permalink: /seiten/datenschutz.html
@@ -6,6 +8,8 @@ nav_group: meta
 nav_order: 910
 flow_systemlinks: true
 ---
+permalink: /seiten/datenschutz.md
+
 # Datenschutz
 
 ## 1. Verantwortlicher

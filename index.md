@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/index.md
+
 layout: default
 title: "Einfach Geld ordnen"
 permalink: /index.html
 ---
+permalink: /seiten/index.md
+
 ## Willkommen
 Hier geht es nicht um Zahlen, Optimierung oder Druck.
 Hier geht es darum, erst einmal anzukommen.
@@ -46,9 +50,9 @@ Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichba
 - Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html)
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+- [Naechster Schritt]({{ site.baseurl }}/pillar/50-30-20.html)
+- [Naechster Schritt]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Naechster Schritt]({{ site.baseurl }}/pillar/abos-kuendigen.html)
 
 {% include no_sackgasse_footer.html %}
 

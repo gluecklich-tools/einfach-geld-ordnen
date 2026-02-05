@@ -1,11 +1,15 @@
 ---
+permalink: /seiten/downloads.md
+
 layout: default
 title: Downloads
-permalink: /downloads.html
+permalink: /seiten/downloads_alias.html
 ---
+permalink: /seiten/downloads.md
+
 # Downloads
 Hier findest du die Downloads.
-- [Zur Uebersicht der Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Zur Uebersicht der Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 ## Weiter
 
 - [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)

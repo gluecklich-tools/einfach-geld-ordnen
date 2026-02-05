@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/spielraum.md
+
 layout: default
 title: "Spielraum"
 permalink: /seiten/spielraum.html
 ---
+permalink: /seiten/spielraum.md
+
 # Spielraum
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
@@ -28,7 +32,7 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/rechner.md
+
 layout: default
 title: Rechner
 permalink: /seiten/rechner.html
 ---
+permalink: /seiten/rechner.md
+
 
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 

@@ -1,7 +1,11 @@
 ---
+permalink: /seiten/nav_inventur.md
+
 layout: default
 permalink: /01_governance/NAV_INVENTUR.html
 ---
+permalink: /seiten/nav_inventur.md
+
 # NAV Inventur
 
 **Stand:** 2026-01-25 15:10:23 +01:00
@@ -11,7 +15,19 @@ permalink: /01_governance/NAV_INVENTUR.html
 Diese Datei ist die **Single Source of Truth** fuer title, permalink, nav_group, nav_order und eine grobe links-Zaehlung (nur seiten/pillar).
 
 | Datei | nav_group | nav_order | permalink | title | links |
-|---|---:|---:|---|---|---:|
+|---
+permalink: /seiten/nav_inventur.md
+|---
+permalink: /seiten/nav_inventur.md
+:|---
+permalink: /seiten/nav_inventur.md
+:|---
+permalink: /seiten/nav_inventur.md
+|---
+permalink: /seiten/nav_inventur.md
+|---
+permalink: /seiten/nav_inventur.md
+:|
 | pillar\einfach-geld-ordnen.md | pillar | 20 | {{ site.baseurl }}/pillar/einfach-geld-ordnen.html | Einfach Geld ordnen - Einstieg | 12 |
 | pillar\einfach-geld-ordnen-haushaltsbuch.md | pillar | 30 | {{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html | Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger | 19 |
 | pillar\haushaltsueberblick.md | pillar | 40 | {{ site.baseurl }}/pillar/haushaltsueberblick.html | Haushaltsueberblick - ohne Zahlen | 9 |

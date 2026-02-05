@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/qa-release-gate.md
+
 layout: default
 title: "QA Release Gate"
 permalink: /seiten/qa-release-gate.html
 ---
+permalink: /seiten/qa-release-gate.md
+
 # QA Release Gate
 
 Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:

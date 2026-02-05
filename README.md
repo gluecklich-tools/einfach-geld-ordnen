@@ -1,7 +1,11 @@
 ---
+permalink: /seiten/readme.md
+
 layout: default
 permalink: /README.html
 ---
+permalink: /seiten/readme.md
+
 # einfach-geld-ordnen
 
 Einfaches Haushaltsbuch & Geld ordnen – **statische Inhalte** (GitHub Pages / Jekyll)
@@ -12,6 +16,8 @@ Willkommen beim Projekt **„Einfach Geld ordnen“**.
 Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-fuer-Schritt-Anleitungen**, die auch mit wenig Energie nutzbar sind.
 
 ---
+permalink: /seiten/readme.md
+
 
 ## Inhalte
 
@@ -21,12 +27,16 @@ Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-fuer-Sch
 - Strukturierte „Pillar“-Seiten fuer langfristige Nutzung
 
 ---
+permalink: /seiten/readme.md
+
 
 ## Ziel
 
 Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkosten zu ueberblicken und deine Finanzen langfristig zu ordnen – **ohne unnoetigen Aufwand** und ohne komplizierte Regeln.
 
 ---
+permalink: /seiten/readme.md
+
 
 ## Nutzung (kurz)
 
@@ -36,6 +46,8 @@ Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkos
 4. ueberblick behalten (Fixkosten, variable Ausgaben, Ruecklagen)
 
 ---
+permalink: /seiten/readme.md
+
 
 ## Datenschutz (wichtig)
 
@@ -43,6 +55,8 @@ Finanz- und Nachweisunterlagen liegen **nicht im oeffentlichen Repo**.
 Im Repo existiert nur `FINANZEN_README.md` als Hinweistext.
 
 ---
+permalink: /seiten/readme.md
+
 
 ## Verbindliche technische Leitplanken (Kurzfassung)
 

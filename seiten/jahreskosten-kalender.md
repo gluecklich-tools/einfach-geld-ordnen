@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/jahreskosten-kalender.md
+
 layout: default
 title: Jahreskosten Kalender
 permalink: /seiten/jahreskosten-kalender.html
 ---
+permalink: /seiten/jahreskosten-kalender.md
+
 # Jahreskosten-Kalender (damit dich grosse Rechnungen nicht ueberraschen)
 Viele Kosten kommen nicht monatlich, sondern 1x pro Jahr oder quartalsweise (Versicherung, GEZ, Kfz, Mitgliedschaften).
 Wenn du sie **vorher aufteilst**, wird dein Monat stabil.

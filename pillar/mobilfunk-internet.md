@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/mobilfunk-internet.md
+
 layout: default
 title: "Mobilfunk/Internet senken - schnellster Hebel"
 permalink: /pillar/mobilfunk-internet.html
 ---
+permalink: /seiten/mobilfunk-internet.md
+
 # Mobilfunk/Internet senken - schnellster Hebel
 
 Viele zahlen hier zu viel, weil Vertraege still weiterlaufen. Ziel: Preis runter oder konsequent wechseln.

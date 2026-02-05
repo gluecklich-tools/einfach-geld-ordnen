@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/freebie.md
+
 layout: default
 title: Freebie
 permalink: /seiten/freebie.html
 ---
+permalink: /seiten/freebie.md
+
 
 # Freebie
 

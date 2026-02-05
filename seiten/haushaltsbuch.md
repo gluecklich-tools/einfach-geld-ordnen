@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/haushaltsbuch.md
+
 layout: default
 title: "Haushaltsbuch - ueberblick"
 permalink: /seiten/haushaltsbuch.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 90
 flow_systemlinks: true
 ---
+permalink: /seiten/haushaltsbuch.md
+
 # Haushaltsbuch - ueberblick
 
 Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.

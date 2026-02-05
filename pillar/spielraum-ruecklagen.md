@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/spielraum-ruecklagen.md
+
 layout: default
 title: "Spielraum und Ruecklagen - realistisch einordnen"
 permalink: /pillar/spielraum-ruecklagen.html
@@ -6,6 +8,8 @@ nav_group: pillar
 nav_order: 50
 flow_systemlinks: true
 ---
+permalink: /seiten/spielraum-ruecklagen.md
+
 # Spielraum und Ruecklagen - realistisch einordnen
 
 Es gibt im Haushalt Dinge, die fest sind (Fixkosten). Und es gibt Dinge, die schwanken oder unerwartet kommen.

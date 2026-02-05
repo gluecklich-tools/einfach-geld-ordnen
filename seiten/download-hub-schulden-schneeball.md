@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/download-hub-schulden-schneeball.md
+
 layout: default
 title: "Download-Hub: Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
 ---
+permalink: /seiten/download-hub-schulden-schneeball.md
+
 
 # Download-Hub: Schulden-Schneeball
 

@@ -1,7 +1,11 @@
 ---
+permalink: /seiten/rechner-template.md
+
 layout: default
 permalink: /templates/rechner-template.html
 ---
+permalink: /seiten/rechner-template.md
+
 # Rechner Template (EGO)
 Zweck: Statischer JS-Mini-Rechner als Self-Serve, klarer Input -> Output.
 ## 1) Ziel (1 Satz)

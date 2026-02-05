@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/projektbeschreibung_transparenz.md
+
 layout: default
 title: Projektbeschreibung und Transparenz
 permalink: /seiten/projektbeschreibung_transparenz.html
 ---
+permalink: /seiten/projektbeschreibung_transparenz.md
+
 # Projektbeschreibung und Transparenz
 Dieses Projekt hilft dir, deine Finanzen einfach und strukturiert zu ordnen - ohne App-Zwang und ohne unnoetige Komplexitaet.
 ## Wie die Inhalte entstehen

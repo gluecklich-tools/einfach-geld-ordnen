@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/fixkosten-uebersicht.md
+
 layout: default
 title: "Fixkosten uebersicht"
 permalink: /seiten/fixkosten-uebersicht.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 40
 flow_systemlinks: true
 ---
+permalink: /seiten/fixkosten-uebersicht.md
+
 # Fixkosten uebersicht
 
 Fixkosten sind Ausgaben, die **regelmaessig** anfallen (meist monatlich) und sich **selten** aendern.
@@ -27,6 +31,8 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 
 Wenn ja: reicht.
 ---
+permalink: /seiten/fixkosten-uebersicht.md
+
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

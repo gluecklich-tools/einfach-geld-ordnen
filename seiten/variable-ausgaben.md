@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/variable-ausgaben.md
+
 layout: default
 title: "Variable Ausgaben - Einordnung ohne Druck"
 permalink: /seiten/variable-ausgaben.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
 ---
+permalink: /seiten/variable-ausgaben.md
+
 # Variable Ausgaben - Einordnung ohne Druck
 
 Variable Ausgaben sind Kosten, die **unregelmaessig** auftreten oder **stark schwanken**.
@@ -35,11 +39,13 @@ Diese Ausgaben existieren - und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht noetig.
 ---
+permalink: /seiten/variable-ausgaben.md
+
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

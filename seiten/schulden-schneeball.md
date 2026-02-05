@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/schulden-schneeball.md
+
 layout: default
 title: "Schulden-Schneeball"
-permalink: /seiten/schulden-schneeball.html
+permalink: /seiten/schulden-snowball.html
 ---
+permalink: /seiten/schulden-schneeball.md
+
 # Schulden-Schneeball (schnell Momentum aufbauen)
 Wenn du mehrere Schulden hast, ist der **Schneeball** oft der einfachste Weg:
 Du zahlst zuerst die **kleinste Schuld** komplett weg und nimmst den Erfolg als Motor.
@@ -17,7 +21,7 @@ Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

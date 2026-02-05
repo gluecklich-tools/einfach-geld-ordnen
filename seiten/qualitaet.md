@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/qualitaet.md
+
 layout: default
 title: "Qualitaet & Prinzipien"
 permalink: /seiten/qualitaet.html
@@ -6,6 +8,8 @@ nav_group: meta
 nav_order: 920
 flow_systemlinks: true
 ---
+permalink: /seiten/qualitaet.md
+
 # Qualitaet & Prinzipien
 
 Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orientieren kannst** – ohne Fachchinesisch und ohne Marketing-uebertreibung.

@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/schulden-lawine.md
+
 layout: default
 title: "Schulden-Lawine - Anleitung"
 permalink: /pillar/schulden-lawine.html
 ---
+permalink: /seiten/schulden-lawine.md
+
 # Schulden-Lawine - Anleitung
 
 Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.

@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/abos-kuendigen.md
+
 layout: default
 title: "Abos kuendigen - konsequent"
 permalink: /pillar/abos-kuendigen.html
 ---
+permalink: /seiten/abos-kuendigen.md
+
 # Abos kuendigen - konsequent
 
 Abos sind oft das leiseste Geldleck. Ziel: erst alles sichtbar machen, dann konsequent kuerzen, bis nur noch das uebrig ist, was du wirklich nutzt.

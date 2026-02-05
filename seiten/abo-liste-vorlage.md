@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/abo-liste-vorlage.md
+
 layout: default
 title: "Abo-Liste Vorlage"
 permalink: /seiten/abo-liste-vorlage.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 225
 flow_systemlinks: true
 ---
+permalink: /seiten/abo-liste-vorlage.md
+
 # Abo-Liste Vorlage
 
 Diese Seite ist die Zielseite fuer die Abo-Links aus dem Pillar-Bereich.

@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/fixkosten-checkliste.md
+
 layout: default
 title: "Fixkosten Checkliste"
 permalink: /seiten/fixkosten-checkliste.html
 ---
+permalink: /seiten/fixkosten-checkliste.md
+
 # Fixkosten Checkliste
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.

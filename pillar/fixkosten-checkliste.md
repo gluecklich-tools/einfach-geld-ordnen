@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/fixkosten-checkliste.md
+
 layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: /pillar/fixkosten-checkliste.html
 ---
+permalink: /seiten/fixkosten-checkliste.md
+
 # Fixkosten-Checkliste - Luft schaffen
 
 Fixkosten sind der groesste Hebel, weil sie jeden Monat automatisch laufen. Ziel: senken, kuendigen oder wechseln, bis wieder Luft entsteht.

@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/einfach-geld-ordnen.md
+
 layout: default
 title: "Einfach Geld ordnen - Einstieg"
 permalink: /pillar/einfach-geld-ordnen.html
@@ -8,6 +10,8 @@ nav_group: pillar
 nav_order: 20
 flow_systemlinks: true
 ---
+permalink: /seiten/einfach-geld-ordnen.md
+
 # Einfach Geld ordnen
 
 Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.

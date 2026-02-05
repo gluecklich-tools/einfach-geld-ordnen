@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/themen-seiten.md
+
 layout: default
 title: "Themen-Seiten"
 permalink: /seiten/themen-seiten.html
 ---
+permalink: /seiten/themen-seiten.md
+
 # Themen-Seiten
 
 uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
@@ -45,7 +49,7 @@ uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

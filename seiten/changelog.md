@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/changelog.md
+
 layout: default
 title: "Changelog"
 permalink: /seiten/changelog.html
 ---
+permalink: /seiten/changelog.md
+
 # Changelog
 
 Kurz und klar: Was hat sich am Projekt geaendert.

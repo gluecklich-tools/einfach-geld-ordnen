@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.md
+
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 100
 flow_systemlinks: true
 ---
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.md
+
 ## Kostenlose Haushaltsbuch-Vorlage
 
 **Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
@@ -14,6 +18,8 @@ Bis dahin: Nutze den Flow ueber den uebersicht.
 
 → [Haushaltsbuch - ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ---
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.md
+
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

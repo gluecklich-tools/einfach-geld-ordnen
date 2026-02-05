@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/notgroschen-system.md
+
 layout: default
 title: Notgroschen aufbauen in 30 Tagen
 permalink: /seiten/notgroschen-system.html
 ---
+permalink: /seiten/notgroschen-system.md
+
 # Notgroschen aufbauen (simpel und stressfrei)
 Ein Notgroschen ist dein Puffer gegen Chaos: Auto, Waschmaschine, Rechnung, alles trifft dich weniger hart.
 Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.

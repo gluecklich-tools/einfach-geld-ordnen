@@ -1,9 +1,13 @@
 ---
+permalink: /seiten/self_service.md
+
 layout: default
 title: "100% Self-Service"
 permalink: /seiten/self_service.html
 flow_systemlinks: true
 ---
+permalink: /seiten/self_service.md
+
 # 100% Self-Service
 
 Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
@@ -43,7 +47,7 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 
 {% include no_sackgasse_footer.html %}
 

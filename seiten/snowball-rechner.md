@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/snowball-rechner.md
+
 layout: default
 title: "Schneeball-Rechner"
 permalink: /seiten/snowball-rechner.html
 ---
+permalink: /seiten/snowball-rechner.md
+
 # Schneeball-Rechner
 Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zuerst).
 
@@ -142,7 +146,7 @@ Ratenkredit; 4200; 120; 6.5
 </script>
 ## Weiter
 
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 

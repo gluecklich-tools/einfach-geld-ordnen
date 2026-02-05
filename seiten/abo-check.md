@@ -1,8 +1,12 @@
 ---
+permalink: /seiten/abo-check.md
+
 layout: default
 title: "Abo Check"
 permalink: /seiten/abo-check.html
 ---
+permalink: /seiten/abo-check.md
+
 # Abo Check
 
 Kurz: Abos finden, kuendigen, sparen (Self-Serve).

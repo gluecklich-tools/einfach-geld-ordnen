@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/ordnung-halten.md
+
 layout: default
 title: "Ordnung halten - wenn sie hilft (ohne Druck)"
 permalink: /seiten/ordnung-halten.html
@@ -6,6 +8,8 @@ nav_group: seiten
 nav_order: 80
 flow_systemlinks: true
 ---
+permalink: /seiten/ordnung-halten.md
+
 # Ordnung halten - wenn sie hilft (ohne Druck)
 
 Ordnung ist kein Ziel an sich.
@@ -39,6 +43,8 @@ Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - [Haushaltsbuch Vollversion - Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html)
 - [Kostenlose Haushaltsbuch-Vorlage - Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ---
+permalink: /seiten/ordnung-halten.md
+
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

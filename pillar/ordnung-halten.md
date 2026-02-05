@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/ordnung-halten.md
+
 layout: default
 title: "Ordnung halten - ohne Druck"
 permalink: /pillar/ordnung-halten.html
@@ -6,6 +8,8 @@ nav_group: pillar
 nav_order: 60
 flow_systemlinks: true
 ---
+permalink: /seiten/ordnung-halten.md
+
 # Ordnung halten - ohne Druck
 
 Ordnung muss nicht gehalten werden. Sie darf auch wieder verschwinden.

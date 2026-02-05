@@ -1,4 +1,6 @@
 ---
+permalink: /seiten/notgroschen.md
+
 layout: default
 title: Notgroschen aufbauen
 permalink: /seiten/notgroschen.html
@@ -9,6 +11,8 @@ weiter_2_text: "Downloads"
 weiter_3_url: "{{site.baseurl}}/seiten/rechner-uebersicht.html"
 weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 ---
+permalink: /seiten/notgroschen.md
+
 # Notgroschen (damit dich das Leben nicht umhaut)
 Ein Notgroschen ist dein Sicherheitsnetz: Wenn etwas kaputtgeht oder eine Rechnung kommt, musst du keine Schulden machen.
 Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lage).
