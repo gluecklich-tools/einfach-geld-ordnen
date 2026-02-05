@@ -24,8 +24,8 @@ Wichtig:
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
@@ -59,3 +59,9 @@ Kein Renegade.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

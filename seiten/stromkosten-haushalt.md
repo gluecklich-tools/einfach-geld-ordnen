@@ -8,17 +8,23 @@ flow_systemlinks: true
 ---
 ## Stromkosten - einfach erfassen
 
-Strom ist oft ein großer Posten - und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
+Strom ist oft ein grosser Posten - und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
 
-Für den Start reicht:
+Fuer den Start reicht:
 - **Monatlicher Abschlag** (oder)
 - **Jahreskosten / 12**
 
-Wenn du Nachzahlungen hattest, nimm lieber den **höheren realistischen Wert**.
+Wenn du Nachzahlungen hattest, nimm lieber den **hoeheren realistischen Wert**.
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

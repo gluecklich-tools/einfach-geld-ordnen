@@ -25,8 +25,14 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
 ## Weiter
 
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

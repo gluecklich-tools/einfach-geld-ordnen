@@ -20,11 +20,17 @@ weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
 - Zur Startseite: [Start]({{site.baseurl}}/index.html)
-- Zum Haushaltsbuch: [Haushaltsbuch - Übersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- Zum Haushaltsbuch: [Haushaltsbuch - uebersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

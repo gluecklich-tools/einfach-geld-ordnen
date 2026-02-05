@@ -23,8 +23,14 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - Frage 3: Antwort
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

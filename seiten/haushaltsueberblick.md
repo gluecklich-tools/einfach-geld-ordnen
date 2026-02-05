@@ -1,30 +1,36 @@
 ---
 layout: default
-title: "Haushaltsüberblick - Einordnung ohne Druck"
+title: "Haushaltsueberblick - Einordnung ohne Druck"
 permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
 flow_systemlinks: true
 ---
-# Haushaltsüberblick - Einordnung ohne Druck
+# Haushaltsueberblick - Einordnung ohne Druck
 
-Der Haushaltsüberblick ist kein „Controlling“.
-Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsätzlich aussieht**.
+Der Haushaltsueberblick ist kein „Controlling“.
+Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsaetzlich aussieht**.
 
-Nicht perfekt. Nicht endgültig.
+Nicht perfekt. Nicht endgueltig.
 Nur: **sichtbar**.
 
 ## Das Ziel ist nicht „perfekt“
 
-Wenn etwas nicht passt, ist das kein persönliches Versagen.
-Dann zeigt der Überblick nur: *Hier ist Druck im System.*
+Wenn etwas nicht passt, ist das kein persoenliches Versagen.
+Dann zeigt der ueberblick nur: *Hier ist Druck im System.*
 
 Das ist wertvoll - weil es **endlich sichtbar** wird.
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

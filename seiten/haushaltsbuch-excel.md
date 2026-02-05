@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Haushaltsbuch in Excel einfach erklärt"
+title: "Haushaltsbuch in Excel einfach erklaert"
 permalink: /seiten/haushaltsbuch-excel.html
 nav_group: seiten
 nav_order: 120
 flow_systemlinks: true
 ---
-## Haushaltsbuch in Excel einfach erklärt
+## Haushaltsbuch in Excel einfach erklaert
 
-Diese Seite erklärt dir den Start so, dass du ohne Stress loslegen kannst.
+Diese Seite erklaert dir den Start so, dass du ohne Stress loslegen kannst.
 
 ## Download-Status
 
@@ -17,8 +17,14 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

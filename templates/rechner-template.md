@@ -30,3 +30,9 @@ Zweck: Statischer JS-Mini-Rechner als Self-Serve, klarer Input -> Output.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

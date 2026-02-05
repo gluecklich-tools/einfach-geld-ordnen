@@ -8,22 +8,28 @@ flow_systemlinks: true
 ---
 ## Nebenkosten - kurz und praktisch
 
-Nebenkosten sind oft der Teil, der „irgendwie mitläuft“ und deshalb leicht unterschätzt wird.
+Nebenkosten sind oft der Teil, der „irgendwie mitlaeuft“ und deshalb leicht unterschaetzt wird.
 
-Hier reicht für den Anfang:
+Hier reicht fuer den Anfang:
 - **Abschlag** (monatlich)
 - oder **Jahreswert / 12** (wenn du nur die Abrechnung hast)
 
-## Optional: Nächste Vertiefung
+## Optional: Naechste Vertiefung
 
-Wenn du willst, kannst du als Nächstes die Stromkosten separat prüfen:
+Wenn du willst, kannst du als Naechstes die Stromkosten separat pruefen:
 
 - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

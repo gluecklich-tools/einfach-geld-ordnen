@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Rechner-Übersicht"
+title: "Rechner-uebersicht"
 permalink: /seiten/rechner-uebersicht.html
 ---
-# Rechner-Übersicht
+# Rechner-uebersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.
 
 ## Rechner (mit passender Themen-Seite)
@@ -32,6 +32,12 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

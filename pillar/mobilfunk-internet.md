@@ -25,8 +25,14 @@ Anruf oder Chat: "Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
 Wechsel ist oft der groessere Hebel als lange Diskussionen.
 ## Weiter
 
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

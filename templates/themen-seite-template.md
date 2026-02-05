@@ -35,3 +35,9 @@ Zweck: Vorlage fuer eine Themen-Seite (SEO + Self-Serve), ohne Supportverspreche
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

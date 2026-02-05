@@ -84,3 +84,9 @@ Typ missing: 0
 | seiten/stromkosten-haushalt.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/themen-seiten.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/variable-ausgaben.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
+
+
+
+
+
+

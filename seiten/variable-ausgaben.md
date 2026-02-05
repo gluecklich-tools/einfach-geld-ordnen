@@ -8,10 +8,10 @@ flow_systemlinks: true
 ---
 # Variable Ausgaben - Einordnung ohne Druck
 
-Variable Ausgaben sind Kosten, die **unregelmäßig** auftreten oder **stark schwanken**.
-Sie können in manchen Monaten kaum vorkommen - und in anderen deutlich ins Gewicht fallen.
+Variable Ausgaben sind Kosten, die **unregelmaessig** auftreten oder **stark schwanken**.
+Sie koennen in manchen Monaten kaum vorkommen - und in anderen deutlich ins Gewicht fallen.
 
-Diese Seite erklärt nicht, wie man sie erfasst, kontrolliert oder „optimiert“.
+Diese Seite erklaert nicht, wie man sie erfasst, kontrolliert oder „optimiert“.
 Sie dient nur dazu, **ihre Rolle im Haushalt einzuordnen**.
 
 Kurz gesagt: **Einordnung statt Kontrolle.**
@@ -23,7 +23,7 @@ Oft unbemerkt, oft nebenbei.
 
 Das ist normal und **kein Zeichen von Unordnung**.
 
-Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „dürfen“ -
+Diese Seite bewertet nicht, wie hoch solche Ausgaben sein „duerfen“ -
 oder ob etwas „zu viel“ ist.
 
 ## Einordnung statt Kontrolle
@@ -33,12 +33,18 @@ Diese Seite fordert nicht dazu auf, Ausgaben zu sammeln oder auszuwerten.
 Sie sagt nur:
 Diese Ausgaben existieren - und sie wirken im Gesamtbild mit.
 
-Mehr ist an dieser Stelle nicht nötig.
+Mehr ist an dieser Stelle nicht noetig.
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

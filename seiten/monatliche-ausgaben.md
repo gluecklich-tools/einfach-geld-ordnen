@@ -13,7 +13,7 @@ Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest ge
 Typische Beispiele:
 - Lebensmittel
 - Drogerie
-- Mobilität (Tanken/ÖPNV)
+- Mobilitaet (Tanken/oePNV)
 - Streaming/Apps
 - Freizeit
 
@@ -24,12 +24,18 @@ Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 - [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)
 - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 
-Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkommen.
+Wenn du das gerade nicht brauchst: ueberspringen. Du kannst jederzeit zurueckkommen.
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

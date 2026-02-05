@@ -28,11 +28,17 @@ Diese Seite will nichts erklaeren und nichts ordnen. Sie zeigt nur: Das alles ge
 
 Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereiten.
 
-Wenn du magst, lies es einfach wie eine Themen-Übersicht, auf der du deinen eigenen Haushalt wiedererkennst.
+Wenn du magst, lies es einfach wie eine Themen-uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 ## Weiter
 
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

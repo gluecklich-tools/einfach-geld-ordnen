@@ -6,11 +6,17 @@ permalink: /seiten/rechner.html
 
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 
-Wenn du nicht automatisch weitergeleitet wirst: [Rechner-Übersicht öffnen]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+Wenn du nicht automatisch weitergeleitet wirst: [Rechner-uebersicht oeffnen]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 ## Weiter
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

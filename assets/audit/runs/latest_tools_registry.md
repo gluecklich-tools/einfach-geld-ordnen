@@ -55,3 +55,9 @@ Repo: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-g
 - tools/tools-readonly-wrapper.ps1 (997 bytes)  lastwrite: 2026-01-31 16:57:34
 - tools/update-desktop-bootstrap.ps1 (595 bytes)  lastwrite: 2026-01-31 16:57:34
 
+
+
+
+
+
+

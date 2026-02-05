@@ -27,8 +27,14 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Monat?
 ## Weiter
 
-- [Haushaltsbuch - Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

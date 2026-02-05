@@ -28,8 +28,14 @@ Teile der Inhalte (Texte/Struktur/Checklisten) wurden mit Unterstuetzung von KI 
 Die Inhalte sind allgemeine Informationen und **keine Rechts- oder Steuerberatung**.
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

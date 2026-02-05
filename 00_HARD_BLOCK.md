@@ -14,22 +14,28 @@ Ab jetzt gilt verbindlich:
 ##
 2. Projektdateien-ZIPs / Basis-ZIPs
 - Projektdateien-ZIPs (Basis/Archiv) sind **Backup/Referenz**.
-- Sie sind **nicht** der Workflow für Repo-Updates.
+- Sie sind **nicht** der Workflow fuer Repo-Updates.
 
 ##
 3. Repo-Updates (Arbeitsworkflow)
-- Änderungen an Repo-Dateien erfolgen **nur** als:
-  - Datei öffnen → Inhalt **1:1 Full-Swap** (Copy-Paste) → speichern (**UTF-8 ohne BOM**) → `git diff` → QA-Gate → Commit → Push → Actions grün → Live-Check.
+- aenderungen an Repo-Dateien erfolgen **nur** als:
+  - Datei oeffnen → Inhalt **1:1 Full-Swap** (Copy-Paste) → speichern (**UTF-8 ohne BOM**) → `git diff` → QA-Gate → Commit → Push → Actions gruen → Live-Check.
 
 ##
 4. ZIPs sind NICHT verboten – aber sauber getrennt
-- **Erlaubt/gewollt:** ZIP/ODS/XLSX als **Produkt-/Download-Assets** für Endnutzer.
+- **Erlaubt/gewollt:** ZIP/ODS/XLSX als **Produkt-/Download-Assets** fuer Endnutzer.
 - **Verboten als Arbeitsmethode:** Repo per „Austausch-ZIP“ ersetzen/patchen.
 
-Ziel: Keine Verwechslung mehr zwischen **Repo-Änderung** und **Produkt-Download**.
+Ziel: Keine Verwechslung mehr zwischen **Repo-aenderung** und **Produkt-Download**.
 
 ## Weiter
 - [50 30 20]({{ site.baseurl }}/pillar/50-30-20.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

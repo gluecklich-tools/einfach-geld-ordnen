@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "Fixkosten Übersicht"
+title: "Fixkosten uebersicht"
 permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
 flow_systemlinks: true
 ---
-# Fixkosten Übersicht
+# Fixkosten uebersicht
 
-Fixkosten sind Ausgaben, die **regelmäßig** anfallen (meist monatlich) und sich **selten** ändern.
+Fixkosten sind Ausgaben, die **regelmaessig** anfallen (meist monatlich) und sich **selten** aendern.
 Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sind, wird alles andere leichter.
 
-**Ziel:** Einmal sauber erfassen – danach nur noch bei Änderungen anfassen.
+**Ziel:** Einmal sauber erfassen – danach nur noch bei aenderungen anfassen.
 
-## So trägst du Fixkosten in die Tabelle ein (ohne Stress)
+## So traegst du Fixkosten in die Tabelle ein (ohne Stress)
 1. **Posten** eintragen (z. B. „Miete“, „Internet“).
 2. **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
-3. **Wenn etwas **jährlich** kommt (z. B. Versicherung)**: als Monatswert eintragen (Jahresbetrag ÷ 12).
-   *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und später umrechnen.*
+3. **Wenn etwas **jaehrlich** kommt (z. B. Versicherung)**: als Monatswert eintragen (Jahresbetrag ÷ 12).
+   *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und spaeter umrechnen.*
 
 ## Mini-Check (30 Sekunden)
 
@@ -29,8 +29,14 @@ Wenn ja: reicht.
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

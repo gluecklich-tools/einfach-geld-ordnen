@@ -28,21 +28,27 @@ Ordnung hilft nicht, wenn sie…
 
 Dann ist weniger oft mehr.
 
-## Nächster sinnvoller Schritt
+## Naechster sinnvoller Schritt
 
-Wenn du nach dem Überblick weitermachen willst, nimm als nächstes:
+Wenn du nach dem ueberblick weitermachen willst, nimm als naechstes:
 
-- [Haushaltsbuch - Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch - ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 
-Wenn du dich für Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
+Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
 
 - [Haushaltsbuch Vollversion - Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html)
 - [Kostenlose Haushaltsbuch-Vorlage - Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ---
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

@@ -61,7 +61,13 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
 ## Weiter
 
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

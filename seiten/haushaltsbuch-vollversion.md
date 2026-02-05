@@ -11,18 +11,18 @@ flow_systemlinks: true
 **Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert - **noch kein Verkauf, keine Bezahl-Links**  
 **Preis (geplant):** 10 € einmalig
 
-Die Vollversion ist für dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist - ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
+Die Vollversion ist fuer dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist - ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
 
 ## Was du bekommst (Lieferumfang)
 
 - **ODS als Master-Datei** (LibreOffice-first, robust)
-- **XLSX als 1:1 Export** (für Excel/andere Tools)
-- **Klare Struktur**: Fixkosten, variable Ausgaben, Rücklagen/Spielraum
-- **Kurzanleitung**: „So nutzt du es“ (kurz, verständlich)
-- **Beispielmonat** (optional): damit du sofort siehst, wie es gedacht ist (kannst du einfach löschen)
+- **XLSX als 1:1 Export** (fuer Excel/andere Tools)
+- **Klare Struktur**: Fixkosten, variable Ausgaben, Ruecklagen/Spielraum
+- **Kurzanleitung**: „So nutzt du es“ (kurz, verstaendlich)
+- **Beispielmonat** (optional): damit du sofort siehst, wie es gedacht ist (kannst du einfach loeschen)
 - **Versionierung**: Datei-Version + Changelog, damit Updates nachvollziehbar bleiben
 
-Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
+Ziel: **uebersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
 
 ## Was das NICHT ist (damit es fair bleibt)
 
@@ -33,7 +33,7 @@ Ziel: **übersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
 
 Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** - du setzt es selbst um.
 
-## Für wen passt es nicht?
+## Fuer wen passt es nicht?
 
 - Wenn du erwartest: „Kannst du mir das einrichten?“
 - Wenn du eine App mit Bank-Anbindung & Automatik-Sync suchst
@@ -44,15 +44,21 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** -
 - **Kostenlose Light-Vorlage (Status, noch ohne Download):**  
   [Kostenlose Vorlage – Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
-- **Übersicht-Seite (Einstieg & Inhalte):**  
-  [Haushaltsbuch – Überblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- **uebersicht-Seite (Einstieg & Inhalte):**  
+  [Haushaltsbuch – ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
 
 - **Startseite:**  
-  [Zur Übersicht]({{site.baseurl}}/pillar/index.html)
+  [Zur uebersicht]({{site.baseurl}}/pillar/index.html)
 ## Weiter
 
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

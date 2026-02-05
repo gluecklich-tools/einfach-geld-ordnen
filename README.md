@@ -9,46 +9,46 @@ Einfaches Haushaltsbuch & Geld ordnen – **statische Inhalte** (GitHub Pages / 
 **Stand:** 2026-01-24 (Europe/Berlin)
 
 Willkommen beim Projekt **„Einfach Geld ordnen“**.  
-Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-für-Schritt-Anleitungen**, die auch mit wenig Energie nutzbar sind.
+Ziel ist eine **klare, ruhige Finanz-Ordnung** mit **Vorlagen + Schritt-fuer-Schritt-Anleitungen**, die auch mit wenig Energie nutzbar sind.
 
 ---
 
 ## Inhalte
 
-- Schritt-für-Schritt-Anleitungen zum Haushaltsbuch
-- Vorlagen (LibreOffice/Excel) für Einnahmen, Ausgaben, Fixkosten, variable Kosten
-- Tipps für Ordnung im Haushalt & Finanzplanung
-- Strukturierte „Pillar“-Seiten für langfristige Nutzung
+- Schritt-fuer-Schritt-Anleitungen zum Haushaltsbuch
+- Vorlagen (LibreOffice/Excel) fuer Einnahmen, Ausgaben, Fixkosten, variable Kosten
+- Tipps fuer Ordnung im Haushalt & Finanzplanung
+- Strukturierte „Pillar“-Seiten fuer langfristige Nutzung
 
 ---
 
 ## Ziel
 
-Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkosten zu überblicken und deine Finanzen langfristig zu ordnen – **ohne unnötigen Aufwand** und ohne komplizierte Regeln.
+Das Projekt hilft dir dabei, **Einnahmen und Ausgaben klar zu erfassen**, Fixkosten zu ueberblicken und deine Finanzen langfristig zu ordnen – **ohne unnoetigen Aufwand** und ohne komplizierte Regeln.
 
 ---
 
 ## Nutzung (kurz)
 
 1. **Vorlage herunterladen (Dual-Format**: **ODS Master + XLSX Export**)
-2. Tabellen mit eigenen Daten füllen
-3. Schritt-für-Schritt-Anleitungen nutzen
-4. Überblick behalten (Fixkosten, variable Ausgaben, Rücklagen)
+2. Tabellen mit eigenen Daten fuellen
+3. Schritt-fuer-Schritt-Anleitungen nutzen
+4. ueberblick behalten (Fixkosten, variable Ausgaben, Ruecklagen)
 
 ---
 
 ## Datenschutz (wichtig)
 
-Finanz- und Nachweisunterlagen liegen **nicht im öffentlichen Repo**.  
+Finanz- und Nachweisunterlagen liegen **nicht im oeffentlichen Repo**.  
 Im Repo existiert nur `FINANZEN_README.md` als Hinweistext.
 
 ---
 
 ## Verbindliche technische Leitplanken (Kurzfassung)
 
-- **Zero-Assumption / 100%+ realistisch möglich:** Nichts annehmen, maximal gründlich + Extra-QA.
+- **Zero-Assumption / 100%+ realistisch moeglich:** Nichts annehmen, maximal gruendlich + Extra-QA.
 - **Komplettcheck-Neustart:** Wenn neue Regeln dazukommen oder Unsicherheit besteht → kompletter Neu-Check.
-- **UTF-8 ohne BOM** für Textdateien.
+- **UTF-8 ohne BOM** fuer Textdateien.
 - Dateinamen: **ASCII-only** (`a-z0-9-_`), keine Umlaute, keine Leerzeichen.
 - Jekyll Pages: explizite **`.html`-Permalinks**, **Permalink = Dateiname**.
 - Interne Links: konsequent mit `{{ site.baseurl }}` (Project Site), keine Links ohne baseurl.
@@ -68,3 +68,9 @@ APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 Wenn ein Task nicht in diesen Ablauf passt: zuerst so umbauen, dass er passt.
 Kein Renegade.
 <!-- EGO_LAW_RUNNER_END -->
+
+
+
+
+
+

@@ -1,34 +1,40 @@
 ---
 layout: default
-title: "Themen-Übersicht"
+title: "Themen-uebersicht"
 permalink: /pillar/cluster.html
 ---
-# Themen-Übersicht
+# Themen-uebersicht
 
-Diese Seite ist die Übersicht, damit du nie festhaengst.
+Diese Seite ist die uebersicht, damit du nie festhaengst.
 
 ## Thema
 
 ###
 1. Schuldenfrei
 
-- [Schuldenfrei - Übersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
+- [Schuldenfrei - uebersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
 - Rechner: [Schneeball-Extra]({{site.baseurl}}/seiten/rechner-schneeball.html), [Jahreskosten pro Monat]({{site.baseurl}}/seiten/rechner-jahreskosten.html)
 
 ###
 2. Fixkosten senken
 
-- [Fixkosten senken - Übersicht]({{site.baseurl}}/pillar/fixkosten.html)
+- [Fixkosten senken - uebersicht]({{site.baseurl}}/pillar/fixkosten.html)
 - Rechner: [50-30-20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
 
 ## Zentrale Einstiege
 
-- [Pillar Übersicht]({{site.baseurl}}/pillar/index.html)
-- [Rechner-Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
+- [Pillar uebersicht]({{site.baseurl}}/pillar/index.html)
+- [Rechner-uebersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
 ## Weiter
 
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+
