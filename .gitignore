@@ -112,3 +112,4 @@ _products/
 .DS_Store
 Thumbs.db
 _tmp/
+tools/_reports/
