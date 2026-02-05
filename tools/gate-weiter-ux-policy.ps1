@@ -76,3 +76,7 @@ if($bad.Count -gt 0){
 }
 
 "PASS: Weiter UX Policy Gate ok."
+
+# Policy file must exist (repo SSOT)
+$pol = Join-Path $repo 'tools/policy/WEITER_NAV_POLICY.md'
+if(-not (Test-Path -LiteralPath $pol)){ throw 'STOP: Missing tools/policy/WEITER_NAV_POLICY.md' }
