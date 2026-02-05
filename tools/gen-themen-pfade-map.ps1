@@ -59,7 +59,7 @@ foreach($theme in $themeToAliases.Keys){
 foreach($f in $files){
   $rel = $f.FullName.Substring($RepoRoot.Length).TrimStart('\','/')
   $pl  = Get-Permalink $f.FullName
-  $probe = (($rel + " " + ($pl ?? "")) .ToLowerInvariant())
+  $probe = (($rel + " " + ($pl ?? "")).ToLowerInvariant())
   foreach($theme in $themeToAliases.Keys){
     foreach($a in $themeToAliases[$theme]){
       $aa = ([string]$a).ToLowerInvariant()
