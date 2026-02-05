@@ -28,10 +28,10 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 - **Spielraum Rechner**  
   Rechner: [Spielraum Rechner]({{site.baseurl}}/seiten/spielraum-rechner.html) · Themen-Seite: [Spielraum]({{site.baseurl}}/seiten/spielraum.html)
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Schulden-Schneeball]({{ site.baseurl }}/seiten/schulden-schneeball.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

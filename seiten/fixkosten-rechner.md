@@ -98,10 +98,10 @@ Ziel: Fixkosten-Liste -> Monatsgesamt + Anteil am Netto (Self-Serve).
   });
 })();
 </script>
-
 ## Weiter
-- [Rechner: Fixkosten-Check]({{site.baseurl}}/seiten/rechner-fixkosten-check.html)
-- [Download: Fixkosten senken]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
-- [Pillar: Fixkosten]({{site.baseurl}}/pillar/fixkosten.html)
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

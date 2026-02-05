@@ -24,10 +24,10 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 - Wie klein darf ich starten?
 - Wann erhoehen?
 - Wohin sparen (Konto)?
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

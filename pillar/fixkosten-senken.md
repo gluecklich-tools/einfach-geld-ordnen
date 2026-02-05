@@ -23,11 +23,10 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte so
 3. Leicht + gross gewinnt
 
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
-
 ## Weiter
 
-- [Rechner: Fixkosten-Check]({{site.baseurl}}/seiten/rechner-fixkosten-check.html)
-- [Download: Fixkosten senken]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
-- [Pillar: Fixkosten]({{site.baseurl}}/pillar/fixkosten.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

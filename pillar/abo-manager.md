@@ -35,11 +35,10 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 3. Monatslimit setzen (damit es nicht wieder passiert)
 
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
-
 ## Weiter
 
-- [Rechner: Abo-Manager]({{site.baseurl}}/seiten/rechner-abo-manager.html)
-- [Download: Abo-Manager]({{site.baseurl}}/seiten/download-hub-abo-manager.html)
-- [Pillar: Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

@@ -52,10 +52,10 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
   });
 })();
 </script>
-
 ## Weiter
-- [Rechner: Notgroschen]({{site.baseurl}}/seiten/rechner-notgroschen.html)
-- [Download: Notgroschen]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
-- [Pillar: Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

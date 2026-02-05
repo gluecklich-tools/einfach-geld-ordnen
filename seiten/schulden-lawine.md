@@ -24,10 +24,10 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 - Was ist Lawine?
 - Wann besser als Schneeball?
 - Wie starte ich, wenn es zu viel ist?
-
 ## Weiter
-- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
-- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

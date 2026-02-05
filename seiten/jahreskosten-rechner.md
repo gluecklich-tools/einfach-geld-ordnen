@@ -91,10 +91,10 @@ Jahreskosten gesamt (EUR):
   });
 })();
 </script>
-
 ## Weiter
-- [Rechner: Jahreskosten]({{site.baseurl}}/seiten/jahreskosten-rechner.html)
-- [Download: Jahreskosten-Kalender]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
-- [Pillar: Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

@@ -11,10 +11,10 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 1. Liste alle Policen und Beitrag pro Monat
 2. **Pruefe Doppelungen (z.B. Rechtsschutz**: welche Bausteine sind wirklich drin?)
 3. Vergleiche Selbstbeteiligung vs Beitrag
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

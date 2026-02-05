@@ -17,11 +17,10 @@ Gehe die Liste in dieser Reihenfolge durch:
 5. Kontogebuehren
 
 Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist nicht noetig.
-
 ## Weiter
 
-- [Rechner: Fixkosten-Check]({{site.baseurl}}/seiten/rechner-fixkosten-check.html)
-- [Download: Fixkosten senken]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
-- [Pillar: Fixkosten]({{site.baseurl}}/pillar/fixkosten.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

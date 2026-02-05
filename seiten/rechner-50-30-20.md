@@ -43,10 +43,10 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
   });
 })();
 </script>
-
 ## Weiter
-- [Rechner: 50/30/20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
-- [Download: 50/30/20]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
-- [Pillar: 50/30/20]({{site.baseurl}}/pillar/50-30-20.html)
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

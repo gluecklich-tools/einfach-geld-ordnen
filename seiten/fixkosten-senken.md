@@ -12,10 +12,10 @@ Wenn du hier 50 bis 150 EUR sparst, ist das wie eine Gehaltserhoehung.
 3. Streiche Doppeltes und Unnoetiges (Abos/Vertraege).
 4. Verhandle 1 bis 2 grosse Posten (Strom, Internet, Versicherung).
 5. Lege die Ersparnis sofort weg (Notgroschen oder Schulden).
-
 ## Weiter
-- [Rechner: Fixkosten-Check]({{site.baseurl}}/seiten/rechner-fixkosten-check.html)
-- [Download: Fixkosten senken]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
-- [Pillar: Fixkosten]({{site.baseurl}}/pillar/fixkosten.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

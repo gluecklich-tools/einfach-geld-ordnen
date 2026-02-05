@@ -17,10 +17,10 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 - Vollversion der Vorlagen
 - Klare Schritte (Self-Service)
 - Kein persoenlicher Support
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

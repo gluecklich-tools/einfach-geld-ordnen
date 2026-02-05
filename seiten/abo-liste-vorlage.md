@@ -11,10 +11,10 @@ flow_systemlinks: true
 Diese Seite ist die Zielseite fuer die Abo-Links aus dem Pillar-Bereich.
 
 Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann direkt zu den Downloads.
-
 ## Weiter
-- [Rechner: Abo-Manager]({{site.baseurl}}/seiten/rechner-abo-manager.html)
-- [Download: Abo-Manager]({{site.baseurl}}/seiten/download-hub-abo-manager.html)
-- [Pillar: Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

@@ -25,10 +25,10 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 
 - Zum inhaltlichen Einstieg: **[50/30/20 (Pillar)]({{site.baseurl}}/pillar/50-30-20.html)**
 - Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
-
 ## Weiter
-- [Rechner: 50/30/20]({{site.baseurl}}/seiten/rechner-50-30-20.html)
-- [Download: 50/30/20]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
-- [Pillar: 50/30/20]({{site.baseurl}}/pillar/50-30-20.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

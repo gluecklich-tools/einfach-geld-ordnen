@@ -127,10 +127,10 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
   });
 })();
 </script>
-
 ## Weiter
-- [Rechner: Notgroschen]({{site.baseurl}}/seiten/rechner-notgroschen.html)
-- [Download: Notgroschen]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
-- [Pillar: Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
+
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

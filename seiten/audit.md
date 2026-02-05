@@ -28,9 +28,10 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 - Evidence-Ordner liegen unter: `assets/audit/YYYY-MM/`
 - Checksums liegen je Monat unter: `assets/audit/YYYY-MM/checksums.txt`
 {% include no_sackgasse_footer.html %}
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
 
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+{% include no_sackgasse_footer.html %}

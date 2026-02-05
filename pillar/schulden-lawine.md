@@ -12,10 +12,10 @@ Du tilgst zuerst den hoechsten Zinssatz. Das spart meist mehr Geld.
 2. Minimum auf alle
 3. Extra-Geld komplett auf den hoechsten Zins
 4. **Nach Tilgung**: Extra weiterreichen
-
 ## Weiter
-- [Rechner: Schulden-Schneeball]({{site.baseurl}}/seiten/rechner-schneeball.html)
-- [Download: Schulden-Schneeball]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- [Pillar: Schuldenfrei]({{site.baseurl}}/pillar/schuldenfrei.html)
+
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

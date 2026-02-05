@@ -18,10 +18,10 @@ Wenn du sie **vorher aufteilst**, wird dein Monat stabil.
 * GEZ (Beitrag)
 * Mitgliedschaften (Verein, Fitness, Apps)
 * Wartung/Inspektion, Schornsteinfeger, Fuehrerscheine/Fees
-
 ## Weiter
-- [Rechner: Jahreskosten]({{site.baseurl}}/seiten/jahreskosten-rechner.html)
-- [Download: Jahreskosten-Kalender]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
-- [Pillar: Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
+
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

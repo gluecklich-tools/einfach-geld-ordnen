@@ -23,10 +23,10 @@ Anruf oder Chat: "Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
 3. **Wenn nichts Gutes kommt**: wechseln
 
 Wechsel ist oft der groessere Hebel als lange Diskussionen.
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

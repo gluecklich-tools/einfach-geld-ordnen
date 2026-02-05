@@ -25,10 +25,10 @@ Wenn Ordnung sich richtig anfuehlt, kannst du sie nutzen. Wenn nicht, darfst du 
 Du musst nichts pflegen. Du musst nichts regelmaessig ueberpruefen. Du musst nichts festhalten.
 
 Alles, was hier entstanden ist, darf sich veraendern.
-
 ## Weiter
-- [Start: in 15 Minuten]({{site.baseurl}}/seiten/start_in_15_minuten.html)
-- [Rechner: Übersicht]({{site.baseurl}}/seiten/rechner-uebersicht.html)
-- [Downloads]({{site.baseurl}}/seiten/downloads.html)
+
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}

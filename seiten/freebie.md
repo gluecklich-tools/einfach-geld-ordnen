@@ -11,8 +11,8 @@ Hier startest du mit dem kostenlosen Einstieg.
  Weiter: {{ site.baseurl }}/seiten/downloads.html
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/seiten/50-30-20-regel.html)
-- [Weiter]({{ site.baseurl }}/seiten/50-30-20.html)
-- [Weiter]({{ site.baseurl }}/seiten/abo-check.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

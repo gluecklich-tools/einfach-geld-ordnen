@@ -28,8 +28,8 @@ Wenn du das gerade nicht brauchst: überspringen. Du kannst jederzeit zurückkom
 ---
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
