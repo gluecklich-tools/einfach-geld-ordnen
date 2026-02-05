@@ -1,0 +1,11 @@
+{
+  "budget-50-30-20-rechner": "50-30-20",
+  "fixkosten-check": "fixkosten",
+  "fixkosten-rechner": "fixkosten",
+  "jahreskosten": "jahreskosten-kalender",
+  "jahreskosten-rechner": "jahreskosten-kalender",
+  "lawine-rechner": "schulden-lawine",
+  "notgroschen-rechner": "notgroschen",
+  "schneeball": "schulden-schneeball",
+  "snowball-rechner": "schulden-schneeball"
+}
