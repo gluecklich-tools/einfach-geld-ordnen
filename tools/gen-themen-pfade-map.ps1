@@ -21,6 +21,7 @@ $j = $raw | ConvertFrom-Json
 # A) { "thema1": ["aliasA","aliasB"], "thema2": ["..."] }
 # B) { "aliasA": "thema1", "aliasB": "thema1" }
 $themeToAliases = @{}
+# ConvertFrom-Json liefert i.d.R. PSCustomObject (nicht IDictionary). Beides zulassen.
 if($j -is [System.Collections.IDictionary]){
   foreach($k in $j.Keys){
     $v = $j[$k]
@@ -38,7 +39,29 @@ if($j -is [System.Collections.IDictionary]){
       }
     }
   }
-} else {
+}
+elseif($j -is [psobject]){
+  $props = @($j.PSObject.Properties)
+  if($props.Count -eq 0){ throw "STOP: JSON root must be an object." }
+  foreach($p in $props){
+    $k = [string]$p.Name
+    $v = $p.Value
+    if($v -is [string]){
+      if(-not $themeToAliases.ContainsKey([string]$v)){
+        $themeToAliases[[string]$v] = New-Object System.Collections.Generic.List[string]
+      }
+      $themeToAliases[[string]$v].Add($k)
+    } else {
+      if(-not $themeToAliases.ContainsKey($k)){
+        $themeToAliases[$k] = New-Object System.Collections.Generic.List[string]
+      }
+      foreach($a in @($v)){
+        if($a){ $themeToAliases[$k].Add([string]$a) }
+      }
+    }
+  }
+}
+else{
   throw "STOP: JSON root must be an object."
 }
 $files = Get-ChildItem -LiteralPath (Join-Path $RepoRoot 'seiten'),(Join-Path $RepoRoot 'pillar') -Recurse -File -Filter *.md -EA Stop
