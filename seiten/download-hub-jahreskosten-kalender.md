@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-jahreskosten-kalender.html
 ---
 permalink: /seiten/download-hub-jahreskosten-kalender.md
 
-
 # Download-Hub: Jahreskosten-Kalender
 
 Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "E
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

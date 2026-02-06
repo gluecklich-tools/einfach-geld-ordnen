@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-abo-manager.html
 ---
 permalink: /seiten/download-hub-abo-manager.md
 
-
 # Download-Hub: Abo-Manager
 
 Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

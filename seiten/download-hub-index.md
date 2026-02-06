@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-index.html
 ---
 permalink: /seiten/download-hub-index.md
 
-
 # Download-Hubs
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
@@ -41,18 +40,4 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

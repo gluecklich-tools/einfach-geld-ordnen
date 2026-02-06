@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-fixkosten-senken.html
 ---
 permalink: /seiten/download-hub-fixkosten-senken.md
 
-
 # Download-Hub: Fixkosten senken
 
 Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfac
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

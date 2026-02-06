@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-50-30-20.html
 ---
 permalink: /seiten/download-hub-50-30-20.md
 
-
 # Download-Hub: 50/30/20
 
 Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

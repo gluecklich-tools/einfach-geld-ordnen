@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-notgroschen.html
 ---
 permalink: /seiten/download-hub-notgroschen.md
 
-
 # Download-Hub: Notgroschen
 
 Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Gel
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

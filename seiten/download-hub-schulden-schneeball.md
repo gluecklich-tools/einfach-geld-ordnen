@@ -7,7 +7,6 @@ permalink: /seiten/download-hub-schulden-schneeball.html
 ---
 permalink: /seiten/download-hub-schulden-schneeball.md
 
-
 # Download-Hub: Schulden-Schneeball
 
 Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Einfach Geld ordnen".
@@ -36,18 +35,4 @@ Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Ein
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
