@@ -1,11 +1,8 @@
 ---
-permalink: /seiten/schulden-schneeball.html
 layout: default
+permalink: /pillar/schulden-schneeball.html
 title: "Schulden-Schneeball - Anleitung"
-permalink: /seiten/schulden-schneeball.html
 ---
-permalink: /seiten/schulden-schneeball.md
-
 # Schulden-Schneeball - Anleitung
 
 Du tilgst zuerst die kleinste Schuld. Das bringt schnelle Erfolge.
