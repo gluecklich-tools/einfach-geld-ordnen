@@ -1,30 +1,20 @@
 ---
-layout: page
-permalink: /
----
----
-permalink: /seiten/downloads.md
-
 layout: default
-title: Downloads
-permalink: /seiten/downloads_alias.html
+title: "Downloads"
+flow_systemlinks: true
+permalink: /downloads.html
 ---
-permalink: /seiten/downloads.md
 
 # Downloads
-Hier findest du die Downloads.
-- [Zur Uebersicht der Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
+
+Du suchst die Downloads?
+
+- [Downloads oeffnen]({{ site.baseurl }}/seiten/downloads.html)
+
 ## Weiter
 
-- [Weiter]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Weiter]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Weiter]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
