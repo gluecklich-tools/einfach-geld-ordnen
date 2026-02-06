@@ -11,7 +11,7 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 ## Freebie
 
 - Kostenlos:
-- **Freebie Download (Platzhalter):** [ego-freebie-haushaltsbuch-mini-v2.ods]({{site.baseurl}}/downloads/ego-freebie-haushaltsbuch-mini-v2.ods)
+- **Freebie Download (Platzhalter):** [ego-freebie-haushaltsbuch-mini-v2.ods]({{site.baseurl}}/assets/downloads/ego-freebie-haushaltsbuch-mini-v2.ods)
 - Alternative uebersicht: **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
 
 ## Vollversion
