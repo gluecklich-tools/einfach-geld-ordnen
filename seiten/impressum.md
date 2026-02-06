@@ -7,8 +7,6 @@ nav_group: meta
 nav_order: 900
 flow_systemlinks: true
 ---
-permalink: /seiten/impressum.md
-
 # Anbieterkennzeichnung
 
 Angaben gem&auml;&szlig; &sect; 5 DDG (Digitale-Dienste-Gesetz)
@@ -27,10 +25,6 @@ Verantwortlich gem&auml;&szlig; &sect; 18 Abs. 2 MStV (Medienstaatsvertrag):
 
 Diese Website enth&auml;lt Links zu externen Websites Dritter. Auf deren Inhalte habe ich keinen Einfluss.  
 F&uuml;r diese fremden Inhalte kann ich daher keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
----
-permalink: /seiten/impressum.md
-
-
 ## Urheberrecht
 
 Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.  

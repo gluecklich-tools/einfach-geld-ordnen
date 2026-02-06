@@ -4,9 +4,6 @@ layout: default
 title: Projekt-ueberblick
 permalink: /seiten/ueberblick.html
 ---
-permalink: /seiten/ueberblick.md
-
-
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/pillar/index.html">
 
 Wenn du nicht automatisch weitergeleitet wirst: [Projekt-ueberblick oeffnen]({{ site.baseurl }}/pillar/index.html)

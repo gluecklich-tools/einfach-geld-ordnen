@@ -5,8 +5,6 @@ title: "Transparenz & Verantwortung"
 permalink: /seiten/governance.html
 flow_systemlinks: true
 ---
-permalink: /seiten/governance.md
-
 # Transparenz & Verantwortung
 
 Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekts.

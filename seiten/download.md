@@ -4,9 +4,6 @@ layout: default
 title: Download
 permalink: /seiten/download.html
 ---
-permalink: /seiten/download.md
-
-
 # Download
 
 Hier findest du alle Downloads gesammelt.

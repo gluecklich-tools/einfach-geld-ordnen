@@ -2,15 +2,9 @@
 layout: page
 permalink: /
 ---
----
-permalink: /seiten/index.md
-
 layout: default
 title: "Einfach Geld ordnen"
 permalink: /index.html
----
-permalink: /seiten/index.md
-
 ## Willkommen
 Hier geht es nicht um Zahlen, Optimierung oder Druck.
 Hier geht es darum, erst einmal anzukommen.

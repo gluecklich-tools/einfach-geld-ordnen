@@ -4,8 +4,6 @@ layout: default
 title: Rechner Abo-Manager
 permalink: /seiten/rechner-abo-manager.html
 ---
-permalink: /seiten/rechner-abo-manager.md
-
 # Rechner: Abo-Manager (Kosten pro Monat und Jahr)
 Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten Abos.
 <div class="grid">

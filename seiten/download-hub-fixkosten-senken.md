@@ -4,8 +4,6 @@ layout: default
 title: "Download-Hub: Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
 ---
-permalink: /seiten/download-hub-fixkosten-senken.md
-
 # Download-Hub: Fixkosten senken
 
 Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfach Geld ordnen".

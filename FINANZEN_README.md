@@ -2,14 +2,8 @@
 layout: page
 permalink: /
 ---
----
-permalink: /seiten/finanzen_readme.md
-
 layout: default
 permalink: /FINANZEN_README.html
----
-permalink: /seiten/finanzen_readme.md
-
 # Finanzen / Nachweise (Hinweis)
 
 Aus Datenschutzgruenden liegen **Finanz- und Nachweisunterlagen** (z. B. Auszahlungen, Reports, Jobcenter/Finanzamt-Kommunikation) **nicht im oeffentlichen Repo**.

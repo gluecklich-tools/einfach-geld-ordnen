@@ -4,8 +4,6 @@ layout: default
 title: "Download-Hub: Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html
 ---
-permalink: /seiten/download-hub-abo-manager.md
-
 # Download-Hub: Abo-Manager
 
 Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Geld ordnen".

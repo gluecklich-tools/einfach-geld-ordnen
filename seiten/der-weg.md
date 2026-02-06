@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 20
 flow_systemlinks: true
 ---
-permalink: /seiten/der-weg.md
-
 ## Der Weg (Schritt fuer Schritt)
 
 Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
@@ -25,9 +23,6 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 4. **Nebenkosten & Strom verstehen (Details, die Geld sparen koennen)**  
    → [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
    → [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
----
-permalink: /seiten/der-weg.md
-
 ## Weiter
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)

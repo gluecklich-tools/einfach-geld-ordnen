@@ -7,8 +7,6 @@ nav_group: meta
 nav_order: 910
 flow_systemlinks: true
 ---
-permalink: /seiten/datenschutz.md
-
 # Datenschutz
 
 ## 1. Verantwortlicher

@@ -2,14 +2,8 @@
 layout: page
 permalink: /
 ---
----
-permalink: /seiten/changelog.md
-
 layout: default
 permalink: /CHANGELOG.html
----
-permalink: /seiten/changelog.md
-
 # CHANGELOG – Einfach Geld ordnen
 
 ## 2026-01-24

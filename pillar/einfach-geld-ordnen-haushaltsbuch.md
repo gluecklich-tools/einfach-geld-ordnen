@@ -8,8 +8,6 @@ nav_group: pillar
 nav_order: 30
 flow_systemlinks: true
 ---
-permalink: /seiten/einfach-geld-ordnen-haushaltsbuch.md
-
 # Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
 
 ## Ziel

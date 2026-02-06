@@ -4,9 +4,6 @@ layout: default
 title: "Rechner (alt)"
 permalink: /seiten/rechner-index.html
 ---
-permalink: /seiten/rechner-index.md
-
-
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 <link rel="canonical" href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">
 

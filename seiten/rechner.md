@@ -4,9 +4,6 @@ layout: default
 title: Rechner
 permalink: /seiten/rechner.html
 ---
-permalink: /seiten/rechner.md
-
-
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 
 Wenn du nicht automatisch weitergeleitet wirst: [Rechner-uebersicht oeffnen]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

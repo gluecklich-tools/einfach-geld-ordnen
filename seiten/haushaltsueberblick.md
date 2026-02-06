@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 30
 flow_systemlinks: true
 ---
-permalink: /seiten/haushaltsueberblick.md
-
 # Haushaltsueberblick - Einordnung ohne Druck
 
 Der Haushaltsueberblick ist kein „Controlling“.
@@ -23,9 +21,6 @@ Wenn etwas nicht passt, ist das kein persoenliches Versagen.
 Dann zeigt der ueberblick nur: *Hier ist Druck im System.*
 
 Das ist wertvoll - weil es **endlich sichtbar** wird.
----
-permalink: /seiten/haushaltsueberblick.md
-
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

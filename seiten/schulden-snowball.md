@@ -4,8 +4,6 @@ layout: default
 title: "Schulden-Schneeball"
 permalink: /seiten/schulden-snowball.html
 ---
-permalink: /seiten/schulden-snowball.md
-
 # Schulden-Schneeball
 
 Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).

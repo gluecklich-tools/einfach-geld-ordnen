@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
 ---
-permalink: /seiten/monatliche-ausgaben.md
-
 # Monatliche Ausgaben - einfach einordnen
 
 Hier geht es um Ausgaben, die **jeden Monat** wiederkommen, aber **nicht fest gebunden** sind wie Fixkosten.
@@ -28,9 +26,6 @@ Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 
 Wenn du das gerade nicht brauchst: ueberspringen. Du kannst jederzeit zurueckkommen.
----
-permalink: /seiten/monatliche-ausgaben.md
-
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

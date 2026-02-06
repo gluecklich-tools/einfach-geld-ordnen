@@ -4,8 +4,6 @@ layout: default
 title: Rechner Fixkosten-Check
 permalink: /seiten/rechner-fixkosten-check.html
 ---
-permalink: /seiten/rechner-fixkosten-check.md
-
 # Rechner: Fixkosten-Check (Quote + Ampel)
 Du gibst dein Netto-Einkommen und deine Fixkosten ein.
 Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.

@@ -5,8 +5,6 @@ title: "Start in 15 Minuten"
 permalink: /seiten/start_in_15_minuten.html
 flow_systemlinks: true
 ---
-permalink: /seiten/start_in_15_minuten.md
-
 # Start in 15 Minuten
 
 Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.

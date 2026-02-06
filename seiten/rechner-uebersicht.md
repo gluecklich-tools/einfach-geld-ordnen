@@ -4,8 +4,6 @@ layout: default
 title: "Rechner-uebersicht"
 permalink: /seiten/rechner-uebersicht.html
 ---
-permalink: /seiten/rechner-uebersicht.md
-
 # Rechner-uebersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.
 

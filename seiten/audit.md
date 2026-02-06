@@ -4,8 +4,6 @@ layout: default
 title: Audit
 permalink: /seiten/audit.html
 ---
-permalink: /seiten/audit.md
-
 # Audit
 Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->

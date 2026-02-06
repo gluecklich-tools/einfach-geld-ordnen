@@ -4,8 +4,6 @@ layout: default
 title: Abo-Manager und Abos kuendigen
 permalink: /seiten/abo-manager.html
 ---
-permalink: /seiten/abo-manager.md
-
 # Abo-Manager (schnell Geld frei machen)
 Abos sind kleine Betrage, die sich heimlich stapeln: Streaming, Apps, Software, Lieferdienste, Versicherungs-Zusatzkram.
 Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr Luft.

@@ -3,8 +3,6 @@ permalink: /seiten/themen-seite-template.html
 layout: default
 permalink: /templates/themen-seite-template.html
 ---
-permalink: /seiten/themen-seite-template.md
-
 # Themen-Seite Template (EGO)
 Zweck: Vorlage fuer eine Themen-Seite (SEO + Self-Serve), ohne Supportversprechen.
 ## 1) H1 + Kurzpitch

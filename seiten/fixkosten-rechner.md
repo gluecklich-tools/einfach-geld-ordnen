@@ -4,8 +4,6 @@ layout: default
 title: "Fixkosten Rechner"
 permalink: /seiten/fixkosten-rechner.html
 ---
-permalink: /seiten/fixkosten-rechner.md
-
 # Fixkosten Rechner
 
 Ziel: Fixkosten-Liste -> Monatsgesamt + Anteil am Netto (Self-Serve).

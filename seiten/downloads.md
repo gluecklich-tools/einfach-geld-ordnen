@@ -10,9 +10,6 @@ weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 weiter_3_text: "Downloads"
 weiter_3_url: "{{ site.baseurl }}/seiten/downloads_alias.html"
 ---
-permalink: /seiten/downloads.md
-
-
 # Downloads
 
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".

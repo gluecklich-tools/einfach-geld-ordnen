@@ -4,8 +4,6 @@ layout: default
 title: Fixkosten senken ohne Stress
 permalink: /seiten/fixkosten-senken.html
 ---
-permalink: /seiten/fixkosten-senken.md
-
 # Fixkosten senken (schnellster Weg zu mehr Luft)
 Fixkosten sind alles, was jeden Monat laeuft: Miete, Strom, Internet, Versicherungen, Abos, Kredite.
 Wenn du hier 50 bis 150 EUR sparst, ist das wie eine Gehaltserhoehung.

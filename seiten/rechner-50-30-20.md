@@ -4,8 +4,6 @@ layout: default
 title: Rechner 50-30-20
 permalink: /seiten/rechner-50-30-20.html
 ---
-permalink: /seiten/rechner-50-30-20.md
-
 # Rechner: 50/30/20 Budget (Aufteilung in 3 Toepfe)
 Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, Wunsch und Zukunft.
 <label for="netto">Netto-Einkommen pro Monat (EUR)</label>

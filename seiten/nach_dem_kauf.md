@@ -5,8 +5,6 @@ title: "Nach dem Kauf"
 permalink: /seiten/nach_dem_kauf.html
 flow_systemlinks: true
 ---
-permalink: /seiten/nach_dem_kauf.md
-
 # Nach dem Kauf
 
 Wenn etwas nicht klappt, geh bitte strikt in dieser Reihenfolge vor. Das spart dir Zeit und ersetzt Support.

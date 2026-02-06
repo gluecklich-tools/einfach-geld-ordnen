@@ -3,8 +3,6 @@ layout: default
 title: "Strom/Gas wechseln - Kosten senken"
 permalink: /pillar/strom-gas-wechsel.html
 ---
-permalink: /seiten/strom-gas-wechsel.md
-
 # Strom/Gas wechseln - Kosten senken
 
 Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.

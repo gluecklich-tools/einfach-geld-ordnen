@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
 ---
-permalink: /seiten/spielraum-ruecklagen.md
-
 # Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck
 
 Spielraum und Ruecklagen sind **kein Luxus** und kein „Optimierungsziel“.

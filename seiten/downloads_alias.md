@@ -4,8 +4,6 @@ layout: default
 title: Downloads
 permalink: /seiten/downloads_alias.html
 ---
-permalink: /seiten/downloads_alias.md
-
 # Downloads
 Du findest alle Downloads hier:
 - [Zur Download-Seite]({{site.baseurl}}/downloads.html)

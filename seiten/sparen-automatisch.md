@@ -4,8 +4,6 @@ layout: default
 title: "Sparen automatisch"
 permalink: /seiten/sparen-automatisch.html
 ---
-permalink: /seiten/sparen-automatisch.md
-
 # Sparen automatisch
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.

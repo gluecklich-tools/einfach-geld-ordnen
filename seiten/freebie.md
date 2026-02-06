@@ -4,9 +4,6 @@ layout: default
 title: Freebie
 permalink: /seiten/freebie.html
 ---
-permalink: /seiten/freebie.md
-
-
 # Freebie
 
 Hier startest du mit dem kostenlosen Einstieg.

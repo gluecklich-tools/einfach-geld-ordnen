@@ -4,8 +4,6 @@ layout: default
 title: "Spielraum Rechner"
 permalink: /seiten/spielraum-rechner.html
 ---
-permalink: /seiten/spielraum-rechner.md
-
 # Spielraum Rechner
 
 Ziel: kurzer Input -> klares Ergebnis (Self-Serve).

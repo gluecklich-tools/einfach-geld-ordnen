@@ -4,8 +4,6 @@ layout: default
 title: "Proof Rechner"
 permalink: /seiten/proof-rechner.html
 ---
-permalink: /seiten/proof-rechner.md
-
 # Proof Rechner
 
 Diese Seite ist eine Proof-Implementierung der Rechner-Vorlage.

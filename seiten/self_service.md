@@ -5,8 +5,6 @@ title: "100% Self-Service"
 permalink: /seiten/self_service.html
 flow_systemlinks: true
 ---
-permalink: /seiten/self_service.md
-
 # 100% Self-Service
 
 Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.

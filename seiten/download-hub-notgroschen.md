@@ -4,8 +4,6 @@ layout: default
 title: "Download-Hub: Notgroschen"
 permalink: /seiten/download-hub-notgroschen.html
 ---
-permalink: /seiten/download-hub-notgroschen.md
-
 # Download-Hub: Notgroschen
 
 Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Geld ordnen".

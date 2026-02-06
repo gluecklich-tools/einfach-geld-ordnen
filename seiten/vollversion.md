@@ -4,9 +4,6 @@ layout: default
 title: Vollversion
 permalink: /seiten/vollversion.html
 ---
-permalink: /seiten/vollversion.md
-
-
 # Vollversion
 
 Hier geht es zur Vollversion.

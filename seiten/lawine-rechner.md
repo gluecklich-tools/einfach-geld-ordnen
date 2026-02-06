@@ -4,8 +4,6 @@ layout: default
 title: "Lawinen-Rechner"
 permalink: /seiten/lawine-rechner.html
 ---
-permalink: /seiten/lawine-rechner.md
-
 # Lawinen-Rechner
 Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 

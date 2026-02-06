@@ -4,8 +4,6 @@ layout: default
 title: "Themen-Seiten"
 permalink: /seiten/themen-seiten.html
 ---
-permalink: /seiten/themen-seiten.md
-
 # Themen-Seiten
 
 uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).

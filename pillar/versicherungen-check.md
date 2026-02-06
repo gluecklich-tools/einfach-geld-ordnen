@@ -3,8 +3,6 @@ layout: default
 title: "Versicherungen Check - zu viel oder doppelt?"
 permalink: /pillar/versicherungen-check.html
 ---
-permalink: /seiten/versicherungen-check.md
-
 # Versicherungen Check - zu viel oder doppelt?
 
 Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.

@@ -4,8 +4,6 @@ layout: default
 title: "Spielraum"
 permalink: /seiten/spielraum.html
 ---
-permalink: /seiten/spielraum.md
-
 # Spielraum
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.

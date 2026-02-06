@@ -4,8 +4,6 @@ layout: default
 title: "Schulden Lawine"
 permalink: /seiten/schulden-lawine.html
 ---
-permalink: /seiten/schulden-lawine.md
-
 # Schulden Lawine
 
 Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.

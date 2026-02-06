@@ -3,8 +3,6 @@ layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
 ---
-permalink: /seiten/fixkosten-senken.md
-
 # Fixkosten senken - Vorgehen
 
 Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abarbeiten. Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.

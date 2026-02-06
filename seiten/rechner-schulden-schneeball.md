@@ -4,8 +4,6 @@ layout: default
 title: Rechner Schulden Schneeball
 permalink: /seiten/rechner-schulden-schneeball.html
 ---
-permalink: /seiten/rechner-schulden-schneeball.md
-
 # Rechner: Schulden-Schneeball (Plan in Sekunden)
 Eintrag pro Zeile: <code>Name; Restschuld; Mindestrate</code>
 Optional: Du kannst einen **Extra-Betrag** angeben, der jeden Monat zusaetzlich in den Schneeball geht.

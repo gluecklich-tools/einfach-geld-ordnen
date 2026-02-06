@@ -4,8 +4,6 @@ layout: default
 title: Rechner Jahreskosten Kalender
 permalink: /seiten/rechner-jahreskosten-kalender.html
 ---
-permalink: /seiten/rechner-jahreskosten-kalender.md
-
 # Rechner: Jahreskosten auf Monatsbudget (einfach umrechnen)
 Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro Monat** um und zeigt die Summe.
 <div class="grid">

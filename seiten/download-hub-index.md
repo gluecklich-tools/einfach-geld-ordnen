@@ -4,8 +4,6 @@ layout: default
 title: "Download-Hubs"
 permalink: /seiten/download-hub-index.html
 ---
-permalink: /seiten/download-hub-index.md
-
 # Download-Hubs
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".

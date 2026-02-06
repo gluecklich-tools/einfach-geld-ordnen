@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
 ---
-permalink: /seiten/variable-ausgaben.md
-
 # Variable Ausgaben - Einordnung ohne Druck
 
 Variable Ausgaben sind Kosten, die **unregelmaessig** auftreten oder **stark schwanken**.
@@ -37,9 +35,6 @@ Sie sagt nur:
 Diese Ausgaben existieren - und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht noetig.
----
-permalink: /seiten/variable-ausgaben.md
-
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)

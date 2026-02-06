@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 110
 flow_systemlinks: true
 ---
-permalink: /seiten/haushaltsbuch-vollversion.md
-
 # Haushaltsbuch Vollversion - kommt bald
 
 **Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert - **noch kein Verkauf, keine Bezahl-Links**  

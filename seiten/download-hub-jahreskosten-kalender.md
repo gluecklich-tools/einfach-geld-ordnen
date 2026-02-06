@@ -4,8 +4,6 @@ layout: default
 title: "Download-Hub: Jahreskosten-Kalender"
 permalink: /seiten/download-hub-jahreskosten-kalender.html
 ---
-permalink: /seiten/download-hub-jahreskosten-kalender.md
-
 # Download-Hub: Jahreskosten-Kalender
 
 Hier findest du alle Downloads zum Thema **Jahreskosten-Kalender** im Projekt "Einfach Geld ordnen".

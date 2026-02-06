@@ -4,8 +4,6 @@ layout: default
 title: "Jahreskosten Rechner"
 permalink: /seiten/jahreskosten-rechner.html
 ---
-permalink: /seiten/jahreskosten-rechner.md
-
 # Jahreskosten Rechner
 
 Ziel: Jahreskostenliste -> Monatsruecklage (Self-Serve).

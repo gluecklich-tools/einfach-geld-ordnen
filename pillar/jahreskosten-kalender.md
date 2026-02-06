@@ -3,8 +3,6 @@ layout: default
 title: "Jahreskosten-Kalender - planbar machen"
 permalink: /pillar/jahreskosten-kalender.html
 ---
-permalink: /seiten/jahreskosten-kalender.md
-
 # Jahreskosten-Kalender - planbar machen
 
 Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst. Dann sind sie keine Ueberraschung mehr, sondern eine feste Ruecklage.

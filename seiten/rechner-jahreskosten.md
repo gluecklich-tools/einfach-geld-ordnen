@@ -4,8 +4,6 @@ layout: default
 title: Rechner Jahreskosten
 permalink: /seiten/rechner-jahreskosten.html
 ---
-permalink: /seiten/rechner-jahreskosten.md
-
 # Rechner: Jahreskosten -> Monatsruecklage
 Eintrag pro Zeile: <code>Name; Betrag; Intervall</code>
 Intervall: <code>monat</code>, <code>quartal</code>, <code>halbjahr</code>, <code>jahr</code>

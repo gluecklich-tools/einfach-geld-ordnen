@@ -3,8 +3,6 @@ layout: default
 title: "Themen-uebersicht"
 permalink: /pillar/cluster.html
 ---
-permalink: /seiten/cluster.md
-
 # Themen-uebersicht
 
 Diese Seite ist die uebersicht, damit du nie festhaengst.

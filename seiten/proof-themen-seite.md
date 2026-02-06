@@ -4,8 +4,6 @@ layout: default
 title: "Proof Themen-Seite"
 permalink: /seiten/proof-themen-seite.html
 ---
-permalink: /seiten/proof-themen-seite.md
-
 # Proof Themen-Seite
 
 Diese Seite ist eine Proof-Implementierung der Themen-Seite-Vorlage.

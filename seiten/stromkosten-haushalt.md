@@ -7,8 +7,6 @@ nav_group: seiten
 nav_order: 45
 flow_systemlinks: true
 ---
-permalink: /seiten/stromkosten-haushalt.md
-
 ## Stromkosten - einfach erfassen
 
 Strom ist oft ein grosser Posten - und schwankt je nach Abschlag, Nachzahlung und Verbrauch.
