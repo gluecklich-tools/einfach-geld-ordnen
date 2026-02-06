@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/download-hub-notgroschen.md
-
+permalink: /seiten/download-hub-notgroschen.html
 layout: default
 title: "Download-Hub: Notgroschen"
 permalink: /seiten/download-hub-notgroschen.html

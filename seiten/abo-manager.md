@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/abo-manager.md
-
+permalink: /seiten/abo-manager.html
 layout: default
 title: Abo-Manager und Abos kuendigen
 permalink: /seiten/abo-manager.html

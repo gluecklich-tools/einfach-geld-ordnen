@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/jahreskosten-kalender.md
-
+permalink: /seiten/jahreskosten-kalender.html
 layout: default
 title: Jahreskosten Kalender
 permalink: /seiten/jahreskosten-kalender.html

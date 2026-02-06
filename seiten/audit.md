@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/audit.md
-
+permalink: /seiten/audit.html
 layout: default
 title: Audit
 permalink: /seiten/audit.html

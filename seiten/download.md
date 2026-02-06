@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/download.md
-
+permalink: /seiten/download.html
 layout: default
 title: Download
 permalink: /seiten/download.html

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner.md
-
+permalink: /seiten/rechner.html
 layout: default
 title: Rechner
 permalink: /seiten/rechner.html

@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/einfach-geld-ordnen.md
-
+permalink: /seiten/einfach-geld-ordnen.html
 layout: default
 title: "Einfach Geld ordnen - Einstieg"
-permalink: /pillar/einfach-geld-ordnen.html
+permalink: /seiten/einfach-geld-ordnen.html
 order: 1
 next: {{ site.baseurl }}/seiten/der-weg.html
 nav_group: pillar

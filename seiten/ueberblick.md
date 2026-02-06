@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/ueberblick.md
-
+permalink: /seiten/ueberblick.html
 layout: default
 title: Projekt-ueberblick
 permalink: /seiten/ueberblick.html

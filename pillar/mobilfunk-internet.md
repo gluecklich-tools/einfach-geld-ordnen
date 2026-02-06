@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/mobilfunk-internet.md
-
+permalink: /seiten/mobilfunk-internet.html
 layout: default
 title: "Mobilfunk/Internet senken - schnellster Hebel"
-permalink: /pillar/mobilfunk-internet.html
+permalink: /seiten/mobilfunk-internet.html
 ---
 permalink: /seiten/mobilfunk-internet.md
 

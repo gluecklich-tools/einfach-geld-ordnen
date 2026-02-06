@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/cluster.md
-
+permalink: /seiten/cluster.html
 layout: default
 title: "Themen-uebersicht"
-permalink: /pillar/cluster.html
+permalink: /seiten/cluster.html
 ---
 permalink: /seiten/cluster.md
 

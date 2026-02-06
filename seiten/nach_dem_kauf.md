@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/nach_dem_kauf.md
-
+permalink: /seiten/nach_dem_kauf.html
 layout: default
 title: "Nach dem Kauf"
 permalink: /seiten/nach_dem_kauf.html

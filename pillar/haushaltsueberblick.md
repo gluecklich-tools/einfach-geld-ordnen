@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/haushaltsueberblick.md
-
+permalink: /seiten/haushaltsueberblick.html
 layout: default
 title: "Haushaltsueberblick - ohne Zahlen"
-permalink: /pillar/haushaltsueberblick.html
+permalink: /seiten/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/governance.md
-
+permalink: /seiten/governance.html
 layout: default
 title: "Transparenz & Verantwortung"
 permalink: /seiten/governance.html

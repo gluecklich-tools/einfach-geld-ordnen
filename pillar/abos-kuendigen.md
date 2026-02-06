@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/abos-kuendigen.md
-
+permalink: /seiten/abos-kuendigen.html
 layout: default
 title: "Abos kuendigen - konsequent"
-permalink: /pillar/abos-kuendigen.html
+permalink: /seiten/abos-kuendigen.html
 ---
 permalink: /seiten/abos-kuendigen.md
 

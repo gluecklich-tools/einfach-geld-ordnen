@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/ordnung-halten.md
-
+permalink: /seiten/ordnung-halten.html
 layout: default
 title: "Ordnung halten - wenn sie hilft (ohne Druck)"
 permalink: /seiten/ordnung-halten.html

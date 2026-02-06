@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/lawine-rechner.md
-
+permalink: /seiten/lawine-rechner.html
 layout: default
 title: "Lawinen-Rechner"
 permalink: /seiten/lawine-rechner.html

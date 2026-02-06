@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-jahreskosten-kalender.md
-
+permalink: /seiten/rechner-jahreskosten-kalender.html
 layout: default
 title: Rechner Jahreskosten Kalender
 permalink: /seiten/rechner-jahreskosten-kalender.html

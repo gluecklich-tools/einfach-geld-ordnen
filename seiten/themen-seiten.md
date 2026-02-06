@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/themen-seiten.md
-
+permalink: /seiten/themen-seiten.html
 layout: default
 title: "Themen-Seiten"
 permalink: /seiten/themen-seiten.html

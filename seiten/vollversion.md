@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/vollversion.md
-
+permalink: /seiten/vollversion.html
 layout: default
 title: Vollversion
 permalink: /seiten/vollversion.html

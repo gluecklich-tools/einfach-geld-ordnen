@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/stromkosten-haushalt.md
-
+permalink: /seiten/stromkosten-haushalt.html
 layout: default
 title: "Stromkosten im Haushalt"
 permalink: /seiten/stromkosten-haushalt.html

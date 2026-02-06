@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/faq_probleme_loesen.md
-
+permalink: /seiten/faq_probleme_loesen.html
 layout: default
 title: "FAQ / Probleme loesen (Top"
 15. **permalink**: {{site.baseurl}}/seiten/faq_probleme_loesen.html

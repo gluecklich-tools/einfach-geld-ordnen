@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-50-30-20.md
-
+permalink: /seiten/rechner-50-30-20.html
 layout: default
 title: Rechner 50-30-20
 permalink: /seiten/rechner-50-30-20.html

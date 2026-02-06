@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/abo-manager.md
-
+permalink: /seiten/abo-manager.html
 layout: default
 title: "Abo-Manager - Geldleck stoppen"
-permalink: /pillar/abo-manager.html
+permalink: /seiten/abo-manager.html
 ---
 permalink: /seiten/abo-manager.md
 

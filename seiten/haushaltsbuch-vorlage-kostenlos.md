@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/haushaltsbuch-vorlage-kostenlos.md
-
+permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html

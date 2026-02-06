@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-fixkosten-check.md
-
+permalink: /seiten/rechner-fixkosten-check.html
 layout: default
 title: Rechner Fixkosten-Check
 permalink: /seiten/rechner-fixkosten-check.html

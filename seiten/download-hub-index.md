@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/download-hub-index.md
-
+permalink: /seiten/download-hub-index.html
 layout: default
 title: "Download-Hubs"
 permalink: /seiten/download-hub-index.html

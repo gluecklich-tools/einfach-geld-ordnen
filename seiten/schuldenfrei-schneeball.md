@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/schuldenfrei-schneeball.md
-
+permalink: /seiten/schuldenfrei-schneeball.html
 layout: default
 title: Schuldenfrei mit Schneeball-Methode
 permalink: /seiten/schuldenfrei-schneeball.html

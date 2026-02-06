@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/qa-release-gate.md
-
+permalink: /seiten/qa-release-gate.html
 layout: default
 title: "QA Release Gate"
 permalink: /seiten/qa-release-gate.html

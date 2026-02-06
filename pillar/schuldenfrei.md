@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/schuldenfrei.md
-
+permalink: /seiten/schuldenfrei.html
 layout: default
 title: "Schuldenfrei werden - uebersicht"
-permalink: /pillar/schuldenfrei.html
+permalink: /seiten/schuldenfrei.html
 ---
 permalink: /seiten/schuldenfrei.md
 

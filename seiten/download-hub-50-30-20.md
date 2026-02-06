@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/download-hub-50-30-20.md
-
+permalink: /seiten/download-hub-50-30-20.html
 layout: default
 title: "Download-Hub: 50/30/20"
 permalink: /seiten/download-hub-50-30-20.html

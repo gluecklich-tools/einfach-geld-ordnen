@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/self_service.md
-
+permalink: /seiten/self_service.html
 layout: default
 title: "100% Self-Service"
 permalink: /seiten/self_service.html

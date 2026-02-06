@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/changelog.md
-
+permalink: /seiten/changelog.html
 layout: default
 title: "Changelog"
 permalink: /seiten/changelog.html

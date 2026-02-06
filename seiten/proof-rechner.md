@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/proof-rechner.md
-
+permalink: /seiten/proof-rechner.html
 layout: default
 title: "Proof Rechner"
 permalink: /seiten/proof-rechner.html

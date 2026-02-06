@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/datenschutz.md
-
+permalink: /seiten/datenschutz.html
 layout: default
 title: "Datenschutz"
 permalink: /seiten/datenschutz.html

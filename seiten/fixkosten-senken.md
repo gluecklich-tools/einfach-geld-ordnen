@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/fixkosten-senken.md
-
+permalink: /seiten/fixkosten-senken.html
 layout: default
 title: Fixkosten senken ohne Stress
 permalink: /seiten/fixkosten-senken.html

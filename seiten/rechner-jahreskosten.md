@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-jahreskosten.md
-
+permalink: /seiten/rechner-jahreskosten.html
 layout: default
 title: Rechner Jahreskosten
 permalink: /seiten/rechner-jahreskosten.html

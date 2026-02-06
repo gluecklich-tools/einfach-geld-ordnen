@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/premium.md
-
+permalink: /seiten/premium.html
 layout: default
 title: "Premium"
 permalink: /seiten/premium.html

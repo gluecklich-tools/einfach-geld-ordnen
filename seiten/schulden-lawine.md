@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/schulden-lawine.md
-
+permalink: /seiten/schulden-lawine.html
 layout: default
 title: "Schulden Lawine"
 permalink: /seiten/schulden-lawine.html

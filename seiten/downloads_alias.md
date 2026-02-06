@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/downloads_alias.md
-
+permalink: /seiten/downloads_alias.html
 layout: default
 title: Downloads
 permalink: /seiten/downloads_alias.html

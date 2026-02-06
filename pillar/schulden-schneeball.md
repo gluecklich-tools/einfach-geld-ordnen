@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/schulden-schneeball.md
-
+permalink: /seiten/schulden-schneeball.html
 layout: default
 title: "Schulden-Schneeball - Anleitung"
-permalink: /pillar/schulden-schneeball.html
+permalink: /seiten/schulden-schneeball.html
 ---
 permalink: /seiten/schulden-schneeball.md
 

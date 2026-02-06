@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/download-hub-abo-manager.md
-
+permalink: /seiten/download-hub-abo-manager.html
 layout: default
 title: "Download-Hub: Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html

@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/fixkosten.md
-
+permalink: /seiten/fixkosten.html
 layout: default
 title: "Fixkosten senken - uebersicht"
-permalink: /pillar/fixkosten.html
+permalink: /seiten/fixkosten.html
 ---
 permalink: /seiten/fixkosten.md
 

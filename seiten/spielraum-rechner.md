@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/spielraum-rechner.md
-
+permalink: /seiten/spielraum-rechner.html
 layout: default
 title: "Spielraum Rechner"
 permalink: /seiten/spielraum-rechner.html

@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/spielraum-ruecklagen.md
-
+permalink: /seiten/spielraum-ruecklagen.html
 layout: default
 title: "Spielraum und Ruecklagen - realistisch einordnen"
-permalink: /pillar/spielraum-ruecklagen.html
+permalink: /seiten/spielraum-ruecklagen.html
 nav_group: pillar
 nav_order: 50
 flow_systemlinks: true

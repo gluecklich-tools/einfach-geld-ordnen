@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/haushaltsueberblick.md
-
+permalink: /seiten/haushaltsueberblick.html
 layout: default
 title: "Haushaltsueberblick - Einordnung ohne Druck"
 permalink: /seiten/haushaltsueberblick.html

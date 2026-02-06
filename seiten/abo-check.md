@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/abo-check.md
-
+permalink: /seiten/abo-check.html
 layout: default
 title: "Abo Check"
 permalink: /seiten/abo-check.html

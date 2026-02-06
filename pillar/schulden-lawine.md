@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/schulden-lawine.md
-
+permalink: /seiten/schulden-lawine.html
 layout: default
 title: "Schulden-Lawine - Anleitung"
-permalink: /pillar/schulden-lawine.html
+permalink: /seiten/schulden-lawine.html
 ---
 permalink: /seiten/schulden-lawine.md
 

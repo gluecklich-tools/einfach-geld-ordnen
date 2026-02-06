@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/fixkosten-checkliste.md
-
+permalink: /seiten/fixkosten-checkliste.html
 layout: default
 title: "Fixkosten Checkliste"
 permalink: /seiten/fixkosten-checkliste.html

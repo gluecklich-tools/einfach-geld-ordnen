@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/monatliche-ausgaben.md
-
+permalink: /seiten/monatliche-ausgaben.html
 layout: default
 title: "Monatliche Ausgaben"
 permalink: /seiten/monatliche-ausgaben.html

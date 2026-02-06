@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/fixkosten-uebersicht.md
-
+permalink: /seiten/fixkosten-uebersicht.html
 layout: default
 title: "Fixkosten uebersicht"
 permalink: /seiten/fixkosten-uebersicht.html

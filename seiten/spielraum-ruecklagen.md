@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/spielraum-ruecklagen.md
-
+permalink: /seiten/spielraum-ruecklagen.html
 layout: default
 title: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck"
 permalink: /seiten/spielraum-ruecklagen.html

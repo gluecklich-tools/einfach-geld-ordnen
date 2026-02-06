@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/index.md
-
+permalink: /seiten/index.html
 layout: default
 title: "Start"
 permalink: /seiten/index.html

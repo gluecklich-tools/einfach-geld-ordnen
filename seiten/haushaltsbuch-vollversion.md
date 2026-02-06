@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/haushaltsbuch-vollversion.md
-
+permalink: /seiten/haushaltsbuch-vollversion.html
 layout: default
 title: "Haushaltsbuch Vollversion - kommt bald"
 permalink: /seiten/haushaltsbuch-vollversion.html

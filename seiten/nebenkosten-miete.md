@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/nebenkosten-miete.md
-
+permalink: /seiten/nebenkosten-miete.html
 layout: default
 title: "Nebenkosten der Miete"
 permalink: /seiten/nebenkosten-miete.html

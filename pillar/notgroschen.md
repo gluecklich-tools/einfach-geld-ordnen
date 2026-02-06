@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/notgroschen.md
-
+permalink: /seiten/notgroschen.html
 layout: default
 title: "Notgroschen - Schutz vor Rueckfall"
-permalink: /pillar/notgroschen.html
+permalink: /seiten/notgroschen.html
 ---
 permalink: /seiten/notgroschen.md
 

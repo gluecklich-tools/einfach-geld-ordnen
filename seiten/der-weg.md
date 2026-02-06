@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/der-weg.md
-
+permalink: /seiten/der-weg.html
 layout: default
 title: "Der Weg - Schritt fuer Schritt"
 permalink: /seiten/der-weg.html

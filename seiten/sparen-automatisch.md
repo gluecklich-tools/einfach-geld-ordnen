@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/sparen-automatisch.md
-
+permalink: /seiten/sparen-automatisch.html
 layout: default
 title: "Sparen automatisch"
 permalink: /seiten/sparen-automatisch.html

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/qualitaet.md
-
+permalink: /seiten/qualitaet.html
 layout: default
 title: "Qualitaet & Prinzipien"
 permalink: /seiten/qualitaet.html

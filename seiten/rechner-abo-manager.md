@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-abo-manager.md
-
+permalink: /seiten/rechner-abo-manager.html
 layout: default
 title: Rechner Abo-Manager
 permalink: /seiten/rechner-abo-manager.html

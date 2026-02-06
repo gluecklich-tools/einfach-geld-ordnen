@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/notgroschen.md
-
+permalink: /seiten/notgroschen.html
 layout: default
 title: Notgroschen aufbauen
 permalink: /seiten/notgroschen.html

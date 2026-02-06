@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/projektbeschreibung_transparenz.md
-
+permalink: /seiten/projektbeschreibung_transparenz.html
 layout: default
 title: Projektbeschreibung und Transparenz
 permalink: /seiten/projektbeschreibung_transparenz.html

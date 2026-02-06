@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/fixkosten-rechner.md
-
+permalink: /seiten/fixkosten-rechner.html
 layout: default
 title: "Fixkosten Rechner"
 permalink: /seiten/fixkosten-rechner.html

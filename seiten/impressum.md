@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/impressum.md
-
+permalink: /seiten/impressum.html
 layout: default
 title: "Impressum"
 permalink: /seiten/impressum.html

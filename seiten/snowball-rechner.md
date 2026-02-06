@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/snowball-rechner.md
-
+permalink: /seiten/snowball-rechner.html
 layout: default
 title: "Schneeball-Rechner"
 permalink: /seiten/snowball-rechner.html

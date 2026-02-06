@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/haushaltsbuch.md
-
+permalink: /seiten/haushaltsbuch.html
 layout: default
 title: "Haushaltsbuch - ueberblick"
 permalink: /seiten/haushaltsbuch.html

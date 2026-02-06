@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/abo-liste-vorlage.md
-
+permalink: /seiten/abo-liste-vorlage.html
 layout: default
 title: "Abo-Liste Vorlage"
 permalink: /seiten/abo-liste-vorlage.html

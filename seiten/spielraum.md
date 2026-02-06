@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/spielraum.md
-
+permalink: /seiten/spielraum.html
 layout: default
 title: "Spielraum"
 permalink: /seiten/spielraum.html

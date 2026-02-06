@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/notgroschen-system.md
-
+permalink: /seiten/notgroschen-system.html
 layout: default
 title: Notgroschen aufbauen in 30 Tagen
 permalink: /seiten/notgroschen-system.html

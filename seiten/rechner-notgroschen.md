@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-notgroschen.md
-
+permalink: /seiten/rechner-notgroschen.html
 layout: default
 title: Rechner Notgroschen
 permalink: /seiten/rechner-notgroschen.html

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/start_in_15_minuten.md
-
+permalink: /seiten/start_in_15_minuten.html
 layout: default
 title: "Start in 15 Minuten"
 permalink: /seiten/start_in_15_minuten.html

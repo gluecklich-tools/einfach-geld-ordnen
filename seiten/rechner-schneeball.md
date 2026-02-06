@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-schneeball.md
-
+permalink: /seiten/rechner-schneeball.html
 layout: default
 title: "Rechner - Schulden-Schneeball (Mini)"
 permalink: /seiten/rechner-schneeball.html

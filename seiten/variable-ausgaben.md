@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/variable-ausgaben.md
-
+permalink: /seiten/variable-ausgaben.html
 layout: default
 title: "Variable Ausgaben - Einordnung ohne Druck"
 permalink: /seiten/variable-ausgaben.html

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-index.md
-
+permalink: /seiten/rechner-index.html
 layout: default
 title: "Rechner (alt)"
 permalink: /seiten/rechner-index.html

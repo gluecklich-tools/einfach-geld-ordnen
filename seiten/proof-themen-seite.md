@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/proof-themen-seite.md
-
+permalink: /seiten/proof-themen-seite.html
 layout: default
 title: "Proof Themen-Seite"
 permalink: /seiten/proof-themen-seite.html

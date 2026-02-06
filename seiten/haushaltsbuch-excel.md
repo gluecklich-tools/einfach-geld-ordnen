@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/haushaltsbuch-excel.md
-
+permalink: /seiten/haushaltsbuch-excel.html
 layout: default
 title: "Haushaltsbuch in Excel einfach erklaert"
 permalink: /seiten/haushaltsbuch-excel.html

@@ -1,9 +1,8 @@
 ---
-permalink: /seiten/strom-gas-wechsel.md
-
+permalink: /seiten/strom-gas-wechsel.html
 layout: default
 title: "Strom/Gas wechseln - Kosten senken"
-permalink: /pillar/strom-gas-wechsel.html
+permalink: /seiten/strom-gas-wechsel.html
 ---
 permalink: /seiten/strom-gas-wechsel.md
 

@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/schulden-snowball.md
-
+permalink: /seiten/schulden-snowball.html
 layout: default
 title: "Schulden-Schneeball"
 permalink: /seiten/schulden-snowball.html
