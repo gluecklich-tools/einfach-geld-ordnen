@@ -22,6 +22,8 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 ## Vollversion (spaeter)
 
 Die Vollversion kommt spaeter (z. B. ueber Digistore24). Bis dahin bleibt alles Self-Serve und kostenlos nutzbar.
+{% include pricing-table.html %}
+
 ## Weiter
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)

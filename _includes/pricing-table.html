@@ -1,0 +1,61 @@
+<!-- EGO_PRICING_TABLE_V1 -->
+<style>
+.ego-pricing{margin:1.25rem 0}
+.ego-pricing__grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.ego-card{border:1px solid rgba(0,0,0,.12);border-radius:14px;padding:1rem;background:#fff}
+.ego-card--best{border-width:2px}
+.ego-card__head{margin-bottom:.5rem}
+.ego-card__name{margin:0 0 .25rem 0}
+.ego-card__price{font-size:1.6rem;margin:.25rem 0 .5rem 0}
+.ego-card__sub{margin:0 0 .5rem 0;opacity:.85}
+.ego-card__list{margin:.5rem 0 0 1.1rem}
+.ego-btn{display:inline-block;margin-top:.75rem;padding:.6rem .9rem;border-radius:12px;border:1px solid rgba(0,0,0,.15);text-decoration:none}
+.ego-badge{display:inline-block;margin-left:.5rem;padding:.12rem .45rem;border-radius:999px;border:1px solid rgba(0,0,0,.15);font-size:.85rem}
+</style>
+
+<section class="ego-pricing" aria-label="Preise und Versionen">
+  <div class="ego-pricing__grid">
+    <article class="ego-card">
+      <header class="ego-card__head">
+        <h3 class="ego-card__name">Freebie</h3>
+        <p class="ego-card__price">0 &euro;</p>
+        <p class="ego-card__sub">Zum Reinschnuppern - sofort starten</p>
+      </header>
+      <ul class="ego-card__list">
+        <li>Basis-Vorlage</li>
+        <li>Kurze Anleitung</li>
+        <li>Ohne Registrierung</li>
+      </ul>
+      <a class="ego-btn" href="{{ site.baseurl }}/seiten/freebie.html">Freebie holen</a>
+    </article>
+
+    <article class="ego-card">
+      <header class="ego-card__head">
+        <h3 class="ego-card__name">Vollversion</h3>
+        <p class="ego-card__price">14,99 &euro;</p>
+        <p class="ego-card__sub">Alles, was du wirklich brauchst</p>
+      </header>
+      <ul class="ego-card__list">
+        <li>Komplettes System</li>
+        <li>Mehr Auswertung</li>
+        <li>Updates inklusive</li>
+      </ul>
+      <a class="ego-btn" href="#kaufen-vollversion">Zur Vollversion</a>
+    </article>
+
+    <article class="ego-card ego-card--best">
+      <header class="ego-card__head">
+        <h3 class="ego-card__name">Pro</h3>
+        <p class="ego-card__price">23 &euro;</p>
+        <p class="ego-card__sub">Maximale Zeitersparnis + extra Sicherheit</p>
+        <span class="ego-badge">Beste Wahl</span>
+      </header>
+      <ul class="ego-card__list">
+        <li>Zusaetzliche Auswertungen</li>
+        <li>Kleine Tools/Checks</li>
+        <li>Bonus-Downloads</li>
+      </ul>
+      <a class="ego-btn" href="#kaufen-pro">Zur Pro-Version</a>
+    </article>
+  </div>
+</section>
