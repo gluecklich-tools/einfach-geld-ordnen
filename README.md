@@ -1,6 +1,6 @@
 ---
-layout: page
-permalink: /
+layout: default
+permalink: /README.html
 ---
 layout: default
 permalink: /README.html

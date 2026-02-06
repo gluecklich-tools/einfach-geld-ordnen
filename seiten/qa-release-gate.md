@@ -2,7 +2,6 @@
 permalink: /seiten/qa-release-gate.html
 layout: default
 title: "QA Release Gate"
-permalink: /seiten/qa-release-gate.html
 ---
 # QA Release Gate
 
@@ -16,10 +15,6 @@ Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
-{% include no_sackgasse_footer.html %}
-
-
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.
@@ -48,9 +43,3 @@ Kein Renegade.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

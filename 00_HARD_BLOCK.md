@@ -1,6 +1,6 @@
 ---
-layout: page
-permalink: /
+layout: default
+permalink: /00_HARD_BLOCK.html
 ---
 layout: default
 permalink: /00_HARD_BLOCK.html

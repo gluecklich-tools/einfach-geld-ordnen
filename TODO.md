@@ -1,6 +1,6 @@
 ---
-layout: page
-permalink: /
+layout: default
+permalink: /TODO.html
 ---
 layout: default
 permalink: /TODO.html
