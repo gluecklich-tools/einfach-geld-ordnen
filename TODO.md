@@ -1,11 +1,3 @@
----
-layout: default
-permalink: /TODO.html
-published: false
-sitemap: false
----
-layout: default
-permalink: /TODO.html
 # TODO – Einfach Geld ordnen
 
 Stand: 2026-01-24

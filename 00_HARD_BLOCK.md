@@ -1,11 +1,3 @@
----
-layout: default
-permalink: /00_HARD_BLOCK.html
-published: false
-sitemap: false
----
-layout: default
-permalink: /00_HARD_BLOCK.html
 # 00 HARD BLOCK – Repo ist die Wahrheit (SSoT)
 
 Ab jetzt gilt verbindlich:
