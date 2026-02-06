@@ -14,8 +14,8 @@ defaults:
       path: ""
     values:
       layout: "default"
-
 exclude:
+  - assets/audit
   - _site
   - vendor
   - .bundle
