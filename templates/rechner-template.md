@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/rechner-template.md
-
+permalink: /seiten/rechner-template.html
 layout: default
 permalink: /templates/rechner-template.html
 ---

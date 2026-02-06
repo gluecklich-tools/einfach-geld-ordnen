@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/themen-seite-template.md
-
+permalink: /seiten/themen-seite-template.html
 layout: default
 permalink: /templates/themen-seite-template.html
 ---
