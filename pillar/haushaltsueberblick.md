@@ -1,14 +1,11 @@
 ---
-permalink: /seiten/haushaltsueberblick.html
 layout: default
+permalink: /pillar/haushaltsueberblick.html
 title: "Haushaltsueberblick - ohne Zahlen"
-permalink: /seiten/haushaltsueberblick.html
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
 ---
-permalink: /seiten/haushaltsueberblick.md
-
 # Haushaltsueberblick - ohne Zahlen
 
 Bevor irgendetwas gerechnet, bewertet oder veraendert wird, ist es hilfreich, den eigenen Haushalt einfach nur zu sehen.

@@ -28,7 +28,7 @@ Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/neue-ziel-seite.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
 
