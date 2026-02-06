@@ -41,7 +41,7 @@ Ziel: Wohlfuehlerlebnis ohne Sackgassen. Jede Seite hat im Block "## Weiter" exa
    2. Downloads
    3. Projekt-ueberblick
 
-6) seiten/downloads.md (und alle seiten/download*.md)
+6) seiten/downloads.html (und alle seiten/download*.html)
    1. Start in 15 Minuten
    2. Rechner: uebersicht
    3. Projekt-ueberblick
