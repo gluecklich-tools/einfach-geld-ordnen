@@ -1,8 +1,7 @@
 ---
-permalink: /seiten/fixkosten-senken.html
 layout: default
 title: "Fixkosten senken - Vorgehen"
-permalink: /seiten/fixkosten-senken.html
+permalink: /pillar/fixkosten-senken.html
 ---
 permalink: /seiten/fixkosten-senken.md
 

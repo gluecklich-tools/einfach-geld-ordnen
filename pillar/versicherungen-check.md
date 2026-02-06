@@ -1,8 +1,7 @@
 ---
-permalink: /seiten/versicherungen-check.html
 layout: default
 title: "Versicherungen Check - zu viel oder doppelt?"
-permalink: /seiten/versicherungen-check.html
+permalink: /pillar/versicherungen-check.html
 ---
 permalink: /seiten/versicherungen-check.md
 

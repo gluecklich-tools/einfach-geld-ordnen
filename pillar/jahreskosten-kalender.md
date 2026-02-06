@@ -1,8 +1,7 @@
 ---
-permalink: /seiten/jahreskosten-kalender.html
 layout: default
 title: "Jahreskosten-Kalender - planbar machen"
-permalink: /seiten/jahreskosten-kalender.html
+permalink: /pillar/jahreskosten-kalender.html
 ---
 permalink: /seiten/jahreskosten-kalender.md
 

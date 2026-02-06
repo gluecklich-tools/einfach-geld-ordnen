@@ -1,8 +1,7 @@
 ---
-permalink: /seiten/fixkosten-checkliste.html
 layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
-permalink: /seiten/fixkosten-checkliste.html
+permalink: /pillar/fixkosten-checkliste.html
 ---
 permalink: /seiten/fixkosten-checkliste.md
 
