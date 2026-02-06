@@ -1,17 +1,16 @@
 ---
-permalink: /seiten/faq_probleme_loesen.html
 layout: default
-title: "FAQ / Probleme loesen (Top"
-15. **permalink**: {{site.baseurl}}/seiten/faq_probleme_loesen.html
+title: "FAQ / Probleme loesen (Top 15)"
 flow_systemlinks: true
 permalink: /seiten/faq_probleme_loesen.html
 ---
-permalink: /seiten/faq_probleme_loesen.md
 
-# FAQ / Probleme loesen (Top
-15. Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
+# FAQ / Probleme loesen (Top 15)
+
+Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 
 ## Top-Themen
+
 1. Dropdown geht nicht
 2. Formel kaputt / Werte falsch
 3. Monatswechsel
@@ -22,11 +21,13 @@ permalink: /seiten/faq_probleme_loesen.md
 8. Druck/PDF
 
 ## Standard-Fix in 60 Sekunden
+
 - Neu herunterladen
 - Neue Kopie speichern
 - Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
+
 ## Weiter
 
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
@@ -34,9 +35,3 @@ Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

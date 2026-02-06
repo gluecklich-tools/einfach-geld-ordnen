@@ -1,19 +1,16 @@
 ---
-permalink: /seiten/einfach-geld-ordnen.html
 layout: default
-title: "Einfach Geld ordnen - Einstieg"
-permalink: /seiten/einfach-geld-ordnen.html
-order: 1
-next: {{ site.baseurl }}/seiten/der-weg.html
+title: "Einfach Geld ordnen"
 nav_group: pillar
 nav_order: 20
 flow_systemlinks: true
+permalink: /pillar/einfach-geld-ordnen.html
 ---
-permalink: /seiten/einfach-geld-ordnen.md
 
 # Einfach Geld ordnen
 
 Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
+
 ## Weiter
 
 - [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
@@ -21,9 +18,3 @@ Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
 - [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
