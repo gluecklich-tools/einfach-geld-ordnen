@@ -21,27 +21,14 @@ Stand: 2026-01-24
 [ ] Self-serve Grenze ueberall konsistent (Website + FAQ + Newsletter-Footer)
 
 [ ] QA-Gate aktualisiert und vollstaendig (keine abgebrochenen Zeilen, append-only)
+## Angebot (ohne Newsletter) -- Pflicht vor Monetarisierung
 
-## Newsletter-System (Automatisierung) — Pre-Monetarisierung Pflicht
-
-[ ] 12er-Themenrotation (Jan–Dez) final festgelegt und dokumentiert (jaehrlich wiederholend)
-
-[ ] CTA-Regel festgelegt: ungerade Monate = Freebie, gerade Monate = Pro (27–29 €)
-
-[ ] Newsletter-Vorlage fix (Struktur: Einstieg → Prinzip → Mini-uebung → CTA → PS)
-
-[ ] Automation aktiv: jeden 1. um 09:00 (Europe/Berlin) liefert Entwurf (kurz+lang) + 7 Betreffzeilen + Preheader + CTA + PS
-
-[ ] E-Mail-Tool bereit (Liste/Tagging/Segment fuer Freebie & Kaeufer vorhanden)
-
-[ ] Freebie-Pfad steht: Landing/Opt-in/Download/Welcome-Serie verlinkt und getestet
-
-[ ] Pro-Pfad steht: Verkaufsseite/Kauf/Download/Onboarding-Serie verlinkt und getestet
-
-[ ] FAQ/Support-Grenze im Newsletter/Footern konsistent (self-serve, keine Beratung)
-
-[ ] Definition of Done (DoD): 1 Testlauf (Entwurf → Copy-Paste ins Tool → Versand an Testadresse) erfolgreich, Links korrekt
-
+[ ] Freebie ist fertig und prominent verlinkt (Downloads + Download-Hubs)
+[ ] Vollversion: Button/CTA fuehrt zu Digistore24 (kein Login auf der Website)
+[ ] Pro: Zusatz-Auswertungen + kleine Tools (Rechner/Checks) -- ebenfalls Digistore24
+[ ] Onboarding-Seite existiert (10 Minuten Start) und verweist auf Freebie + Kauf-CTA
+[ ] FAQ/Self-serve Grenze ist konsistent (keine Beratung, nur Anleitung)
+[ ] Download-Hub-Index ist in 30 Sekunden verstanden (wo klicken, was bekomme ich)
 ## Release-Gate „Monetarisierung“ (Ergaenzung)
 
 [ ] Monetarisierung erst aktivieren, wenn Newsletter-System-DoD erfuellt ist (siehe Block oben)
