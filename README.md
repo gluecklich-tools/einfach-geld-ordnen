@@ -1,9 +1,3 @@
----
-layout: default
-permalink: /README.html
-published: false
-sitemap: false
----
 layout: default
 permalink: /README.html
 # einfach-geld-ordnen
