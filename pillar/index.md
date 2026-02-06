@@ -1,6 +1,5 @@
 ---
-permalink: /seiten/index.md
-
+permalink: /pillar/index.html
 layout: default
 title: "Projekt-uebersicht"
 permalink: /pillar/index.html
