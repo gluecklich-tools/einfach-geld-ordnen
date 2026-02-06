@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /TODO.html
+published: false
+sitemap: false
 ---
 layout: default
 permalink: /TODO.html

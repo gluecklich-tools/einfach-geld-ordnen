@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /00_HARD_BLOCK.html
+published: false
+sitemap: false
 ---
 layout: default
 permalink: /00_HARD_BLOCK.html
