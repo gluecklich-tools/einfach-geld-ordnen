@@ -27,8 +27,8 @@ exclude:
   - 00_workblocks
   - _local
   - README.md
-- TODO.md
-- 00_HARD_BLOCK.md
+  - TODO.md
+  - 00_HARD_BLOCK.md
 
 include:
   - assets/audit/runs
