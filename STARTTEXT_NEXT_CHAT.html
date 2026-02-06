@@ -1,0 +1,68 @@
+---
+layout: default
+permalink: /STARTTEXT_NEXT_CHAT.html
+---
+
+# STARTTEXT – Neuer Arbeitschat (Einfach Geld ordnen)
+
+**Stand:** 2026-02-06 (Europe/Berlin)
+
+👉 **Diesen Text als ERSTE Nachricht in einen neuen Arbeitschat kopieren.**
+
+---
+
+## PWsh-first (hart)
+- Alles ausschließlich in **PowerShell 7.x (`pwsh`)**
+- Keine Windows PowerShell 5.1
+- Jeder Terminal-Block startet mit Session-Gates
+
+## Projekt
+**Einfach Geld ordnen** – Weiterarbeit ab aktuellem Repo-Stand.
+
+## Status
+- GitHub Actions: **GRÜN**
+- Live-Site: **HEAD 200**
+- Public-Repo bleibt sauber (keine Interna, keine Reports, kein SSOT)
+
+## Verbindlicher Workflow
+**Scan → Plan → Apply → Verify → Report**  
+→ PowerShell-first, faktenbasiert, keine Annahmen.
+
+## Verbindliche Regeln
+- **SSOT intern:**  
+  `C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance\`
+- **Repo-Updates nur als Full-Swap**  
+  → komplette Datei 1:1  
+  → **UTF-8 ohne BOM**
+- **Keine Annahmen**  
+  → genau **1 Datei pro Schritt**
+- **Jekyll Project Site**
+  - interne Links immer `{{ site.baseurl }}` + `.html`
+  - keine `.md`, kein Trailing Slash
+- **Dateinamen ASCII-only**
+  - `a-z0-9-_`
+  - Permalink = Dateiname
+- **MVP02-Gate**
+  - jede Seite enthält:
+    - `## Weiter`
+    - exakt **3 Links**
+    - `{% include no_sackgasse_footer.html %}`
+
+## Aktueller Arbeitsauftrag
+- Premium-UX finalisieren (Startseite + Download/Vollversion)
+- Keine Sackgassen
+- Conversion & Vertrauen optimieren
+
+## Weiter
+- [Startseite]({{ site.baseurl }}/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Projekt-Übersicht]({{ site.baseurl }}/pillar/index.html)
+
+{% include no_sackgasse_footer.html %}
+
+%% EGO_UPDATE_2026-02-06_BEGIN %%
+Update 2026-02-06
+- pwsh-first als hartes Gesetz bestätigt
+- Linkcheck + Live-Smoke vollständig grün
+- Root-Alias /downloads.html stabil
+%% EGO_UPDATE_2026-02-06_END %%
