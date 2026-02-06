@@ -17,7 +17,7 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 ## Freebie (kostenlos)
 
 - **Freebie Download (Platzhalter):**
-  [ego-freebie-haushaltsbuch-mini-v2a.ods]({{ site.baseurl }}/downloads/ego-freebie-haushaltsbuch-mini-v2a.ods)
+  [ego-freebie-haushaltsbuch-mini-v2.ods]({{ site.baseurl }}/downloads/ego-freebie-haushaltsbuch-mini-v2.ods)
 
 ## Vollversion (spaeter)
 
