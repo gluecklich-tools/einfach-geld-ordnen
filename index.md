@@ -13,10 +13,10 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
   [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 - **Schulden loswerden:** Schneeball/Lawine, klarer Plan, schneller Fortschritt.  
-  [Weiter im Thema: Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
+  [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 
 - **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
-  [Weiter im Thema: Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+  [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 
 ## Was du hier bekommst
 
@@ -32,5 +32,5 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 ## Weiter
 
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Weiter im Thema: Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
-- [Weiter im Thema: Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
+- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
