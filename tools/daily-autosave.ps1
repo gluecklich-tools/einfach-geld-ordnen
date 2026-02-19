@@ -139,7 +139,9 @@ $archiveShown = '<none>'
 if(Test-Path -LiteralPath $zipPath){ $archiveShown = $zipPath }
 $lines.Add(('* ArchiveZip: `{0}`' -f $archiveShown))
 $lines.Add(('* SSOT Root: `{0}`' -f $ssotShown))
-$lines.Add(('* SSOT DailyLog: `{0}`' -f (if($ssotOk){$ssotDailyPath}else{'<skip>'})))
+$ssotDailyShown = '<skip>'
+if($ssotOk){ $ssotDailyShown = $ssotDailyPath }
+$lines.Add(('* SSOT DailyLog: `{0}`' -f $ssotDailyShown))
 $lines.Add('')
 $lines.Add('## Notes')
 if($dirty){ $lines.Add('- Repo war **nicht clean**. Kein git-archive erstellt.') } else { $lines.Add('- Repo war **clean**. git-archive erstellt (falls nicht fehlgeschlagen).') }
@@ -175,3 +177,4 @@ if(Test-Path -LiteralPath $zipPath){ ("ArchiveZip: {0}" -f $zipPath) }
 if($ssotOk){ ("SSOT_Daily: {0}" -f $ssotDailyPath) }
 
 if($runnerExit -ne 0){ exit 2 } else { exit 0 }
+
