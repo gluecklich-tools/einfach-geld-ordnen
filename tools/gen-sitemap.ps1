@@ -6,6 +6,14 @@ param(
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 
+
+# SITEMAP_EXCLUDE_LIST (do not include utility/internal pages)
+$Exclude = @(
+  '/seiten/audit.html',
+  '/seiten/changelog.html'
+)
+$ExcludeSet = [System.Collections.Generic.HashSet[string]]::new([string[]]$Exclude)
+
 $enc=[Text.UTF8Encoding]::new($false)
 
 function ReadUtf8([string]$path){
@@ -66,7 +74,9 @@ $norm = $targets.ToArray() | ForEach-Object {
   $p=$_.Trim()
   if([string]::IsNullOrWhiteSpace($p)){ return $null }
   if(!$p.StartsWith('/')){ $p='/' + $p }
-  # canonicalize: ensure .html stays, allow '/' for home
+  
+  if($ExcludeSet.Contains($p)){ return $null }
+# canonicalize: ensure .html stays, allow '/' for home
   return $p
 } | Where-Object { $_ } | Sort-Object -Unique
 
