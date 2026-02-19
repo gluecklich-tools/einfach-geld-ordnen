@@ -1,10 +1,9 @@
 ---
-permalink: /seiten/start_in_15_minuten.html
 layout: default
 title: "Start in 15 Minuten"
 permalink: /seiten/start_in_15_minuten.html
 flow_systemlinks: true
-description: "Start in 15 Minuten – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Start in 15 Minuten - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 # Start in 15 Minuten
 
@@ -27,6 +26,7 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 - Stimmt Summe?
 - Stimmt Kategorie?
 - Stimmt Monat?
+
 ## Weiter
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
