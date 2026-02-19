@@ -68,7 +68,42 @@ function Get-CommitCandidates {
   return @($filtered)
 }
 
+function Run-AutoSitemap {
+  # If tools/gen-sitemap.ps1 exists, regenerate sitemap.xml + robots.txt (UTF-8 no BOM) deterministically.
+  $gen = Join-Path $PSScriptRoot 'gen-sitemap.ps1'
+  if (-not (Test-Path -LiteralPath $gen)) {
+    Say 'INFO: tools/gen-sitemap.ps1 not found -> skip auto-sitemap.'
+    return
+  }
+
+  $enc = [System.Text.UTF8Encoding]::new($false)
+  $site = 'https://gluecklich-tools.github.io/einfach-geld-ordnen'
+  $pMap = Join-Path $RepoRoot 'sitemap.xml'
+  $pRob = Join-Path $RepoRoot 'robots.txt'
+
+  $ts = (Get-Date).ToString('yyyyMMdd_HHmmss')
+  $bk = Join-Path $RepoRoot ("_local\patch_backups\klaus_autositemap_run_" + $ts)
+  New-Item -ItemType Directory -Path $bk -Force | Out-Null
+  if (Test-Path -LiteralPath $pMap) { Copy-Item -LiteralPath $pMap -Destination (Join-Path $bk 'sitemap.xml') -Force }
+  if (Test-Path -LiteralPath $pRob) { Copy-Item -LiteralPath $pRob -Destination (Join-Path $bk 'robots.txt') -Force }
+
+  Say 'Auto-Sitemap: generating sitemap.xml + robots.txt...'
+  $xml = & pwsh -NoProfile -File $gen -Repo $RepoRoot -SiteBase $site
+  if ([string]::IsNullOrWhiteSpace($xml) -or $xml.Length -lt 200) { throw 'STOP: auto-sitemap generated output too small' }
+
+  $robots = "User-agent: *`r`nAllow: /`r`n`r`nSitemap: $site/sitemap.xml`r`n"
+  if ($robots.Length -lt 30) { throw 'STOP: robots output too small' }
+
+  [IO.File]::WriteAllText($pMap, $xml, $enc)
+  [IO.File]::WriteAllText($pRob, $robots, $enc)
+
+  Say ('Auto-Sitemap: updated. Backup=' + $bk)
+}
+
 Say ("Mode=" + $Mode + "  HttpTimeoutSec=" + $HttpTimeoutSec)
+
+# 0) Auto-sitemap (before gates+commit so it is always current)
+Run-AutoSitemap
 
 # 1) VERIFY (gates)
 Say "STEP 1/4: running ego-run gates..."
