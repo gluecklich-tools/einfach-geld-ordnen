@@ -91,7 +91,15 @@ function Run-AutoSitemap {
   $xml = & pwsh -NoProfile -File $gen -Repo $RepoRoot -SiteBase $site
   if ([string]::IsNullOrWhiteSpace($xml) -or $xml.Length -lt 200) { throw 'STOP: auto-sitemap generated output too small' }
 
-  $robots = "User-agent: *`r`nAllow: /`r`n`r`nSitemap: $site/sitemap.xml`r`n"
+    # Guard: sitemap must be valid XML and contain at least 1 url entry
+  try {
+    [xml]$sx = $xml
+  } catch {
+    throw 'STOP: auto-sitemap XML parse failed'
+  }
+  $urlCount = @($sx.urlset.url).Count
+  if ($urlCount -lt 1) { throw 'STOP: auto-sitemap has zero <url> entries' }
+$robots = "User-agent: *`r`nAllow: /`r`n`r`nSitemap: $site/sitemap.xml`r`n"
   if ($robots.Length -lt 30) { throw 'STOP: robots output too small' }
 
   [IO.File]::WriteAllText($pMap, $xml, $enc)
