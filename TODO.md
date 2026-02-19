@@ -40,9 +40,9 @@ Stand: 2026-01-24
 - [Index]({{ site.baseurl }}/index.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
-
+<!-- INBOX_2026-02-19_SITEMAP_SEARCHCONSOLE_V1 -->
+## Inbox 2026-02-19: Indexierung
+- [ ] Google Search Console: Quota-Limit beachten; spaeter URL-Pruefung erneut.
+- [ ] Bing Webmaster Tools: Site verifizieren + sitemap.xml einreichen.
+- [ ] Nach 24-72h: Indexierungsstatus pruefen.
+<!-- /INBOX_2026-02-19_SITEMAP_SEARCHCONSOLE_V1 -->
