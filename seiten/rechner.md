@@ -9,7 +9,7 @@ permalink: /seiten/rechner.html
 Wenn du nicht automatisch weitergeleitet wirst: [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 ## Weiter
 
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 

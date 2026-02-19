@@ -31,7 +31,7 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
   Rechner: [Spielraum Rechner]({{site.baseurl}}/seiten/spielraum-rechner.html) · Themen-Seite: [Spielraum]({{site.baseurl}}/seiten/spielraum.html)
 ## Weiter
 
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
