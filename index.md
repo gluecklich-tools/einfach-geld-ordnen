@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /
-title: "Haushaltsbuch Vorlage & Finanzen ordnen - einfach ohne App"
 description: "Ordne deine Finanzen in 15 Minuten. Kostenlose Haushaltsbuch Vorlage, klare Struktur statt App-Chaos. Fixkosten senken und Schulden systematisch abbauen."
 title: "Haushaltsbuch Vorlage: Finanzen ordnen ohne App"
 ---
