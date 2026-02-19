@@ -2,7 +2,7 @@
 layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
-description: "Fixkosten senken - Vorgehen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Fixkosten senken - Vorgehen - kurzer Einstieg + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten senken - Vorgehen
 
@@ -10,20 +10,18 @@ Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abar
 
 ## Schritte
 
-###
 1. Liste pro Vertrag (kurz, aber vollstaendig)
 
 Notiere: Betrag, Anbieter/Vertrag, Kuendigungsfrist, Wechselmoeglichkeit, Zahlungsweg.
 
-###
 2. Sortieren (Hebel zuerst)
 
 Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte sofort.
 
-###
 3. Leicht + gross gewinnt
 
 Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
+
 ## Weiter
 
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
