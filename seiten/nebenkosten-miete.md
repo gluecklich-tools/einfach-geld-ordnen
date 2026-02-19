@@ -1,14 +1,14 @@
 ---
 permalink: /seiten/nebenkosten-miete.html
-layout: default
-title: "Nebenkosten der Miete"
-permalink: /seiten/nebenkosten-miete.html
 nav_group: seiten
 nav_order: 46
 flow_systemlinks: true
-description: "Nebenkosten der Miete – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Nebenkosten der Miete - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
-## Nebenkosten - kurz und praktisch
+
+
+
+# Nebenkosten der Miete
 
 Nebenkosten sind oft der Teil, der „irgendwie mitlaeuft“ und deshalb leicht unterschaetzt wird.
 
@@ -20,7 +20,8 @@ Hier reicht fuer den Anfang:
 
 Wenn du willst, kannst du als Naechstes die Stromkosten separat pruefen:
 
-- [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
