@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gluecklich-tools.github.io/einfach-geld-ordnen/sitemap.xml
