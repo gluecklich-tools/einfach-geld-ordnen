@@ -2,61 +2,35 @@
 layout: page
 permalink: /
 ---
-layout: default
-title: "Einfach Geld ordnen"
-permalink: /index.html
-## Willkommen
-Hier geht es nicht um Zahlen, Optimierung oder Druck.
-Hier geht es darum, erst einmal anzukommen.
-Viele Menschen haben genug von komplizierten Finanzsystemen.
-Dieses Projekt beginnt bewusst ohne Rechnen und ohne Entscheidungen.
-Du musst nichts vorbereiten.
-Du musst nichts verstehen.
-Du musst nichts aendern.
 
-<nav class="secondary-nav">
-  <a href="{{ site.baseurl }}/pillar/einfach-geld-ordnen.html">Grundlagen</a> |
-  <a href="{{ site.baseurl }}/seiten/der-weg.html">Der Weg</a> |
-  <a href="{{ site.baseurl }}/seiten/haushaltsbuch.html">Haushaltsbuch</a>
-</nav>
-{% include premium-cta.html %}
+# Einfach Geld ordnen
 
-<!-- ORPHAN-INLINKS-START -->
-## Wichtige Seiten
+Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und was uebrig bleibt.
 
-Diese Links verhindern Sackgassen: wichtige wichtige Seiten sind immer erreichbar.
+## Starte jetzt
 
-- [Projekt-Uebersicht]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsueberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
-- [Spielraum & Ruecklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- **Schnellstart (15 Minuten):** In 15 Minuten aufgeraeumt starten.  
+  [Zum Schnellstart: 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
-- [Seiten-Uebersicht]({{ site.baseurl }}/seiten/index.html)
-- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
-- [Premium]({{ site.baseurl }}/seiten/premium.html)
-- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
-- [FAQ: Probleme loesen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-<!-- ORPHAN-INLINKS-END -->
+- **Schulden loswerden:** Schneeball/Lawine, klarer Plan, schneller Fortschritt.  
+  [Weiter im Thema: Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 
-## Schnellstart
-1. ****Orientierung****: [Themen-Uebersicht]( {{ site.baseurl }}/pillar/cluster.html)
-2. ****Sofort nutzen****: [Rechner-Uebersicht]( {{ site.baseurl }}/seiten/rechner-uebersicht.html)
-3. ****Freebie****: [Downloads]( {{ site.baseurl }}/seiten/downloads.html)
+- **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
+  [Weiter im Thema: Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 
-## Einstieg nach Thema
+## Was du hier bekommst
 
-- Schulden: [Schuldenfrei - Uebersicht]( {{ site.baseurl }}/pillar/schuldenfrei.html)
-- Fixkosten: [Fixkosten senken - Uebersicht]( {{ site.baseurl }}/pillar/fixkosten.html)
+- **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
+  [Zu den Rechnern]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+
+- **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
+  [Zu den Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+- **Ueberblick:** So ist das System aufgebaut.  
+  [Zum Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+
 ## Weiter
 
-- [Naechster Schritt]({{ site.baseurl }}/pillar/50-30-20.html)
-- [Naechster Schritt]({{ site.baseurl }}/pillar/abo-manager.html)
-- [Naechster Schritt]({{ site.baseurl }}/pillar/abos-kuendigen.html)
-
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
+- [Zum Schnellstart: 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Weiter im Thema: Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
+- [Weiter im Thema: Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
