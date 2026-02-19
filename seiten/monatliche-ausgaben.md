@@ -6,6 +6,7 @@ permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
+description: "Monatliche Ausgaben – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Monatliche Ausgaben - einfach einordnen
 

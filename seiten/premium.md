@@ -6,6 +6,7 @@ permalink: /seiten/premium.html
 nav_group: seiten
 nav_order: 200
 flow_systemlinks: true
+description: "Premium – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Premium
 

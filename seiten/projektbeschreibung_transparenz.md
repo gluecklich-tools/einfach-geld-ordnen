@@ -3,6 +3,7 @@ permalink: /seiten/projektbeschreibung_transparenz.html
 layout: default
 title: Projektbeschreibung und Transparenz
 permalink: /seiten/projektbeschreibung_transparenz.html
+description: "Projektbeschreibung und Transparenz – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Projektbeschreibung und Transparenz
 Dieses Projekt hilft dir, deine Finanzen einfach und strukturiert zu ordnen - ohne App-Zwang und ohne unnoetige Komplexitaet.

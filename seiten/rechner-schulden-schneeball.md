@@ -3,6 +3,7 @@ permalink: /seiten/rechner-schulden-schneeball.html
 layout: default
 title: Rechner Schulden Schneeball
 permalink: /seiten/rechner-schulden-schneeball.html
+description: "Rechner Schulden Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Schulden-Schneeball (Plan in Sekunden)
 Eintrag pro Zeile: <code>Name; Restschuld; Mindestrate</code>

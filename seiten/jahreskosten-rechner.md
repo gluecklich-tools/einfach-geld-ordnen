@@ -3,6 +3,7 @@ permalink: /seiten/jahreskosten-rechner.html
 layout: default
 title: "Jahreskosten Rechner"
 permalink: /seiten/jahreskosten-rechner.html
+description: "Jahreskosten Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Jahreskosten Rechner
 

@@ -9,6 +9,7 @@ weiter_2_text: "Rechner: uebersicht"
 weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 weiter_3_text: "Downloads"
 weiter_3_url: "{{ site.baseurl }}/seiten/downloads_alias.html"
+description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Downloads
 

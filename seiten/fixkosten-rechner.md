@@ -3,6 +3,7 @@ permalink: /seiten/fixkosten-rechner.html
 layout: default
 title: "Fixkosten Rechner"
 permalink: /seiten/fixkosten-rechner.html
+description: "Fixkosten Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten Rechner
 

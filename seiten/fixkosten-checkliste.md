@@ -3,6 +3,7 @@ permalink: /seiten/fixkosten-checkliste.html
 layout: default
 title: "Fixkosten Checkliste"
 permalink: /seiten/fixkosten-checkliste.html
+description: "Fixkosten Checkliste – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten Checkliste
 

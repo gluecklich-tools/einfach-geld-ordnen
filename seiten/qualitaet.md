@@ -6,6 +6,7 @@ permalink: /seiten/qualitaet.html
 nav_group: meta
 nav_order: 920
 flow_systemlinks: true
+description: "Qualitaet & Prinzipien – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Qualitaet & Prinzipien
 

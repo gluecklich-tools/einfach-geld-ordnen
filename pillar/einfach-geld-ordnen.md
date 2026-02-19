@@ -5,8 +5,8 @@ nav_group: pillar
 nav_order: 20
 flow_systemlinks: true
 permalink: /pillar/einfach-geld-ordnen.html
+description: "Einfach Geld ordnen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-
 # Einfach Geld ordnen
 
 Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.

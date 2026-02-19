@@ -3,6 +3,7 @@ permalink: /seiten/abo-manager.html
 layout: default
 title: Abo-Manager und Abos kuendigen
 permalink: /seiten/abo-manager.html
+description: "Abo-Manager und Abos kuendigen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abo-Manager (schnell Geld frei machen)
 Abos sind kleine Betrage, die sich heimlich stapeln: Streaming, Apps, Software, Lieferdienste, Versicherungs-Zusatzkram.

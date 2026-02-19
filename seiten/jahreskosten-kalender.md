@@ -3,6 +3,7 @@ permalink: /seiten/jahreskosten-kalender.html
 layout: default
 title: Jahreskosten Kalender
 permalink: /seiten/jahreskosten-kalender.html
+description: "Jahreskosten Kalender – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Jahreskosten-Kalender (damit dich grosse Rechnungen nicht ueberraschen)
 Viele Kosten kommen nicht monatlich, sondern 1x pro Jahr oder quartalsweise (Versicherung, GEZ, Kfz, Mitgliedschaften).

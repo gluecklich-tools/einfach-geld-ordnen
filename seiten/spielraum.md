@@ -3,6 +3,7 @@ permalink: /seiten/spielraum.html
 layout: default
 title: "Spielraum"
 permalink: /seiten/spielraum.html
+description: "Spielraum – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Spielraum
 

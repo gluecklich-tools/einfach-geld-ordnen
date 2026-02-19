@@ -3,6 +3,7 @@ permalink: /seiten/rechner-jahreskosten.html
 layout: default
 title: Rechner Jahreskosten
 permalink: /seiten/rechner-jahreskosten.html
+description: "Rechner Jahreskosten – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Jahreskosten -> Monatsruecklage
 Eintrag pro Zeile: <code>Name; Betrag; Intervall</code>

@@ -3,6 +3,7 @@ permalink: /seiten/rechner-notgroschen.html
 layout: default
 title: Rechner Notgroschen
 permalink: /seiten/rechner-notgroschen.html
+description: "Rechner Notgroschen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Notgroschen-Ziel & Plan
 Du gibst deine monatlichen Ausgaben und deinen Sparbetrag ein.

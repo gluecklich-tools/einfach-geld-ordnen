@@ -2,6 +2,7 @@
 layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: /pillar/fixkosten-checkliste.html
+description: "Fixkosten-Checkliste - Luft schaffen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten-Checkliste - Luft schaffen
 

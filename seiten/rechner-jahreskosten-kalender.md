@@ -3,6 +3,7 @@ permalink: /seiten/rechner-jahreskosten-kalender.html
 layout: default
 title: Rechner Jahreskosten Kalender
 permalink: /seiten/rechner-jahreskosten-kalender.html
+description: "Rechner Jahreskosten Kalender – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Jahreskosten auf Monatsbudget (einfach umrechnen)
 Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro Monat** um und zeigt die Summe.

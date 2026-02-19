@@ -2,6 +2,7 @@
 layout: default
 permalink: /pillar/schuldenfrei.html
 title: "Schuldenfrei werden - uebersicht"
+description: "Schuldenfrei werden - uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schuldenfrei werden - uebersicht
 

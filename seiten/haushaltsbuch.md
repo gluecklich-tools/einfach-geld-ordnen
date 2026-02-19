@@ -6,6 +6,7 @@ permalink: /seiten/haushaltsbuch.html
 nav_group: seiten
 nav_order: 90
 flow_systemlinks: true
+description: "Haushaltsbuch - ueberblick – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Haushaltsbuch - ueberblick
 

@@ -2,6 +2,7 @@
 permalink: /seiten/qa-release-gate.html
 layout: default
 title: "QA Release Gate"
+description: "QA Release Gate – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # QA Release Gate
 

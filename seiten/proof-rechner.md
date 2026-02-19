@@ -3,6 +3,7 @@ permalink: /seiten/proof-rechner.html
 layout: default
 title: "Proof Rechner"
 permalink: /seiten/proof-rechner.html
+description: "Proof Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Proof Rechner
 

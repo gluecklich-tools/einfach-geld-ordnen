@@ -6,6 +6,7 @@ permalink: /seiten/stromkosten-haushalt.html
 nav_group: seiten
 nav_order: 45
 flow_systemlinks: true
+description: "Stromkosten im Haushalt – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 ## Stromkosten - einfach erfassen
 

@@ -3,6 +3,7 @@ permalink: /seiten/ueberblick.html
 layout: default
 title: Projekt-ueberblick
 permalink: /seiten/ueberblick.html
+description: "Projekt-ueberblick – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/pillar/index.html">
 

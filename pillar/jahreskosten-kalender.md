@@ -2,6 +2,7 @@
 layout: default
 title: "Jahreskosten-Kalender - planbar machen"
 permalink: /pillar/jahreskosten-kalender.html
+description: "Jahreskosten-Kalender - planbar machen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Jahreskosten-Kalender - planbar machen
 

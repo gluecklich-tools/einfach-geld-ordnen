@@ -15,6 +15,7 @@ weiter_1_url: "{{site.baseurl}}/"
 weiter_2_text: "Downloads"
 weiter_3_url: "{{site.baseurl}}/seiten/rechner-uebersicht.html"
 weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
+description: "Start – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Start
 

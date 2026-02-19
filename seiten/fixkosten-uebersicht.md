@@ -6,6 +6,7 @@ permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
 flow_systemlinks: true
+description: "Fixkosten uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten uebersicht
 

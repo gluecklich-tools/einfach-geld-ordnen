@@ -6,6 +6,7 @@ permalink: /seiten/haushaltsbuch-vollversion.html
 nav_group: seiten
 nav_order: 110
 flow_systemlinks: true
+description: "Haushaltsbuch Vollversion - kommt bald – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Haushaltsbuch Vollversion - kommt bald
 

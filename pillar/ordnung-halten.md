@@ -6,6 +6,7 @@ permalink: /seiten/ordnung-halten.html
 nav_group: pillar
 nav_order: 60
 flow_systemlinks: true
+description: "Ordnung halten - ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Ordnung halten - ohne Druck
 

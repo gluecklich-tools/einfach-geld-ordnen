@@ -5,6 +5,7 @@ title: "Haushaltsueberblick - ohne Zahlen"
 nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
+description: "Haushaltsueberblick - ohne Zahlen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Haushaltsueberblick - ohne Zahlen
 

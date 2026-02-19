@@ -3,6 +3,7 @@ permalink: /seiten/rechner-fixkosten-check.html
 layout: default
 title: Rechner Fixkosten-Check
 permalink: /seiten/rechner-fixkosten-check.html
+description: "Rechner Fixkosten-Check – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Fixkosten-Check (Quote + Ampel)
 Du gibst dein Netto-Einkommen und deine Fixkosten ein.

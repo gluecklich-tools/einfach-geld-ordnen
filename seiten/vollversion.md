@@ -3,6 +3,7 @@ permalink: /seiten/vollversion.html
 layout: default
 title: Vollversion
 permalink: /seiten/vollversion.html
+description: "Vollversion – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Vollversion
 

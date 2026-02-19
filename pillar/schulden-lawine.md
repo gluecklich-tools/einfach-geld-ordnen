@@ -2,6 +2,7 @@
 layout: default
 permalink: /pillar/schulden-lawine.html
 title: "Schulden-Lawine - Anleitung"
+description: "Schulden-Lawine - Anleitung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schulden-Lawine - Anleitung
 

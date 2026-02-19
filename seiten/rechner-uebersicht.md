@@ -3,6 +3,7 @@ permalink: /seiten/rechner-uebersicht.html
 layout: default
 title: "Rechner-uebersicht"
 permalink: /seiten/rechner-uebersicht.html
+description: "Rechner-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner-uebersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.

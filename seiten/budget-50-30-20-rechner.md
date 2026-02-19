@@ -3,6 +3,7 @@ permalink: /seiten/budget-50-30-20-rechner.html
 layout: default
 title: "50/30/20 Rechner"
 permalink: /seiten/budget-50-30-20-rechner.html
+description: "50/30/20 Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # 50/30/20 Rechner
 

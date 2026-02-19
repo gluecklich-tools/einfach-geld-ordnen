@@ -2,6 +2,7 @@
 layout: default
 title: "Abos kuendigen - konsequent"
 permalink: /pillar/abos-kuendigen.html
+description: "Abos kuendigen - konsequent – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abos kuendigen - konsequent
 

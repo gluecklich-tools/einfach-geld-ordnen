@@ -6,6 +6,7 @@ permalink: /seiten/nebenkosten-miete.html
 nav_group: seiten
 nav_order: 46
 flow_systemlinks: true
+description: "Nebenkosten der Miete – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 ## Nebenkosten - kurz und praktisch
 

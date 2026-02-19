@@ -3,6 +3,7 @@ permalink: /seiten/download-hub-abo-manager.html
 layout: default
 title: "Download-Hub: Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html
+description: "Download-Hub: Abo-Manager – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Download-Hub: Abo-Manager
 

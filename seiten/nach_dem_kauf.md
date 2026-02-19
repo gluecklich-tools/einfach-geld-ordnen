@@ -4,6 +4,7 @@ layout: default
 title: "Nach dem Kauf"
 permalink: /seiten/nach_dem_kauf.html
 flow_systemlinks: true
+description: "Nach dem Kauf – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Nach dem Kauf
 

@@ -6,6 +6,7 @@ permalink: /seiten/variable-ausgaben.html
 nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
+description: "Variable Ausgaben - Einordnung ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Variable Ausgaben - Einordnung ohne Druck
 

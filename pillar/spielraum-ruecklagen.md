@@ -5,6 +5,7 @@ title: "Spielraum und Ruecklagen - realistisch einordnen"
 nav_group: pillar
 nav_order: 50
 flow_systemlinks: true
+description: "Spielraum und Ruecklagen - realistisch einordnen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Spielraum und Ruecklagen - realistisch einordnen
 

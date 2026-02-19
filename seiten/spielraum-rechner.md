@@ -3,6 +3,7 @@ permalink: /seiten/spielraum-rechner.html
 layout: default
 title: "Spielraum Rechner"
 permalink: /seiten/spielraum-rechner.html
+description: "Spielraum Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Spielraum Rechner
 

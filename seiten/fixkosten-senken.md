@@ -3,6 +3,7 @@ permalink: /seiten/fixkosten-senken.html
 layout: default
 title: Fixkosten senken ohne Stress
 permalink: /seiten/fixkosten-senken.html
+description: "Fixkosten senken ohne Stress – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten senken (schnellster Weg zu mehr Luft)
 Fixkosten sind alles, was jeden Monat laeuft: Miete, Strom, Internet, Versicherungen, Abos, Kredite.

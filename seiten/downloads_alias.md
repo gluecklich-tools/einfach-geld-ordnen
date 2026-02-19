@@ -3,6 +3,7 @@ permalink: /seiten/downloads_alias.html
 layout: default
 title: Downloads
 permalink: /seiten/downloads_alias.html
+description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Downloads
 Du findest alle Downloads hier:

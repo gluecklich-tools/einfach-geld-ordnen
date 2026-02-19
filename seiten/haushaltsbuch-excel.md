@@ -6,6 +6,7 @@ permalink: /seiten/haushaltsbuch-excel.html
 nav_group: seiten
 nav_order: 120
 flow_systemlinks: true
+description: "Haushaltsbuch in Excel einfach erklaert – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 ## Haushaltsbuch in Excel einfach erklaert
 

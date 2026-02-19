@@ -3,6 +3,7 @@ permalink: /seiten/schulden-schneeball.html
 layout: default
 title: "Schulden-Schneeball"
 permalink: /seiten/schulden-schneeball.html
+description: "Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schulden-Schneeball (schnell Momentum aufbauen)
 Wenn du mehrere Schulden hast, ist der **Schneeball** oft der einfachste Weg:

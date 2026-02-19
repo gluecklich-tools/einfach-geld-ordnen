@@ -3,6 +3,7 @@ permalink: /seiten/themen-seiten.html
 layout: default
 title: "Themen-Seiten"
 permalink: /seiten/themen-seiten.html
+description: "Themen-Seiten – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Themen-Seiten
 

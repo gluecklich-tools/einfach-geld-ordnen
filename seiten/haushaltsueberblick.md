@@ -6,6 +6,7 @@ permalink: /seiten/haushaltsueberblick.html
 nav_group: seiten
 nav_order: 30
 flow_systemlinks: true
+description: "Haushaltsueberblick - Einordnung ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Haushaltsueberblick - Einordnung ohne Druck
 

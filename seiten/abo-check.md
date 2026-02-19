@@ -3,6 +3,7 @@ permalink: /seiten/abo-check.html
 layout: default
 title: "Abo Check"
 permalink: /seiten/abo-check.html
+description: "Abo Check – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abo Check
 

@@ -6,6 +6,7 @@ permalink: /seiten/der-weg.html
 nav_group: seiten
 nav_order: 20
 flow_systemlinks: true
+description: "Der Weg - Schritt fuer Schritt – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 ## Der Weg (Schritt fuer Schritt)
 

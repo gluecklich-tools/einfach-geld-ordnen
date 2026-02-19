@@ -4,6 +4,7 @@ layout: default
 title: "100% Self-Service"
 permalink: /seiten/self_service.html
 flow_systemlinks: true
+description: "100% Self-Service – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # 100% Self-Service
 

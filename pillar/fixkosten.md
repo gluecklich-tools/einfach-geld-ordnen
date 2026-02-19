@@ -2,6 +2,7 @@
 layout: default
 permalink: /pillar/fixkosten.html
 title: "Fixkosten senken - uebersicht"
+description: "Fixkosten senken - uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten senken - uebersicht
 

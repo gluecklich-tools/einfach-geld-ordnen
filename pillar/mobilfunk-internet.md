@@ -2,6 +2,7 @@
 layout: default
 title: "Mobilfunk/Internet senken - schnellster Hebel"
 permalink: /pillar/mobilfunk-internet.html
+description: "Mobilfunk/Internet senken - schnellster Hebel – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Mobilfunk/Internet senken - schnellster Hebel
 

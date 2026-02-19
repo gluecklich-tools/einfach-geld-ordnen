@@ -2,6 +2,7 @@
 layout: default
 permalink: /pillar/schulden-schneeball.html
 title: "Schulden-Schneeball - Anleitung"
+description: "Schulden-Schneeball - Anleitung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schulden-Schneeball - Anleitung
 

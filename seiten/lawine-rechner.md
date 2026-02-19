@@ -3,6 +3,7 @@ permalink: /seiten/lawine-rechner.html
 layout: default
 title: "Lawinen-Rechner"
 permalink: /seiten/lawine-rechner.html
+description: "Lawinen-Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Lawinen-Rechner
 Ziel: kurzer Input -> klares Ergebnis (Self-Serve).

@@ -3,6 +3,7 @@ permalink: /seiten/rechner-abo-manager.html
 layout: default
 title: Rechner Abo-Manager
 permalink: /seiten/rechner-abo-manager.html
+description: "Rechner Abo-Manager – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Abo-Manager (Kosten pro Monat und Jahr)
 Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten Abos.

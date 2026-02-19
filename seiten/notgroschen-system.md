@@ -3,6 +3,7 @@ permalink: /seiten/notgroschen-system.html
 layout: default
 title: Notgroschen aufbauen in 30 Tagen
 permalink: /seiten/notgroschen-system.html
+description: "Notgroschen aufbauen in 30 Tagen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Notgroschen aufbauen (simpel und stressfrei)
 Ein Notgroschen ist dein Puffer gegen Chaos: Auto, Waschmaschine, Rechnung, alles trifft dich weniger hart.

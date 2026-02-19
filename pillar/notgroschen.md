@@ -2,6 +2,7 @@
 layout: default
 title: "Notgroschen - Schutz vor Rueckfall"
 permalink: /pillar/notgroschen.html
+description: "Notgroschen - Schutz vor Rueckfall – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Notgroschen - Schutz vor Rueckfall
 

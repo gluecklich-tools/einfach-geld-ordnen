@@ -3,6 +3,7 @@ permalink: /seiten/notgroschen-rechner.html
 layout: default
 title: "Notgroschen Rechner"
 permalink: /seiten/notgroschen-rechner.html
+description: "Notgroschen Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Notgroschen Rechner
 

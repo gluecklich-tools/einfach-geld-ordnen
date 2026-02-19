@@ -4,6 +4,7 @@ layout: default
 title: "Transparenz & Verantwortung"
 permalink: /seiten/governance.html
 flow_systemlinks: true
+description: "Transparenz & Verantwortung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Transparenz & Verantwortung
 

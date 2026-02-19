@@ -3,6 +3,7 @@ permalink: /seiten/rechner.html
 layout: default
 title: Rechner
 permalink: /seiten/rechner.html
+description: "Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
 

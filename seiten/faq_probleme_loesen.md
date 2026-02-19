@@ -3,8 +3,8 @@ layout: default
 title: "FAQ / Probleme loesen (Top 15)"
 flow_systemlinks: true
 permalink: /seiten/faq_probleme_loesen.html
+description: "FAQ / Probleme loesen (Top 15) – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-
 # FAQ / Probleme loesen (Top 15)
 
 Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.

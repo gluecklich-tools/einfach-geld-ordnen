@@ -3,6 +3,7 @@ permalink: /seiten/rechner-schneeball.html
 layout: default
 title: "Rechner - Schulden-Schneeball (Mini)"
 permalink: /seiten/rechner-schneeball.html
+description: "Rechner - Schulden-Schneeball (Mini) – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner - Schulden-Schneeball (Mini)
 

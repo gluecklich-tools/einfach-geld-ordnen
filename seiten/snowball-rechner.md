@@ -3,6 +3,7 @@ permalink: /seiten/snowball-rechner.html
 layout: default
 title: "Schneeball-Rechner"
 permalink: /seiten/snowball-rechner.html
+description: "Schneeball-Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schneeball-Rechner
 Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zuerst).

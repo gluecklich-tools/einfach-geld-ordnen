@@ -9,6 +9,7 @@ weiter_1_url: "{{site.baseurl}}/"
 weiter_2_text: "Downloads"
 weiter_3_url: "{{site.baseurl}}/seiten/rechner-uebersicht.html"
 weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
+description: "Notgroschen aufbauen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Notgroschen (damit dich das Leben nicht umhaut)
 Ein Notgroschen ist dein Sicherheitsnetz: Wenn etwas kaputtgeht oder eine Rechnung kommt, musst du keine Schulden machen.

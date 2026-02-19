@@ -3,6 +3,7 @@ permalink: /seiten/schuldenfrei-schneeball.html
 layout: default
 title: Schuldenfrei mit Schneeball-Methode
 permalink: /seiten/schuldenfrei-schneeball.html
+description: "Schuldenfrei mit Schneeball-Methode – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schuldenfrei mit der Schneeball-Methode
 Die Schneeball-Methode ist ein einfacher, motivierender Weg, Schulden planbar abzubauen: Du zahlst zuerst die kleinste Schuld komplett ab, dann rollst du die frei gewordene Rate zur naechsten Schuld weiter.

@@ -4,6 +4,7 @@ layout: default
 title: "Start in 15 Minuten"
 permalink: /seiten/start_in_15_minuten.html
 flow_systemlinks: true
+description: "Start in 15 Minuten – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Start in 15 Minuten
 

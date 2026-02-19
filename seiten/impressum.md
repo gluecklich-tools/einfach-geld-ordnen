@@ -6,6 +6,7 @@ permalink: /seiten/impressum.html
 nav_group: meta
 nav_order: 900
 flow_systemlinks: true
+description: "Impressum – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Anbieterkennzeichnung
 

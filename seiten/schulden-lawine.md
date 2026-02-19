@@ -3,6 +3,7 @@ permalink: /seiten/schulden-lawine.html
 layout: default
 title: "Schulden Lawine"
 permalink: /seiten/schulden-lawine.html
+description: "Schulden Lawine – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schulden Lawine
 

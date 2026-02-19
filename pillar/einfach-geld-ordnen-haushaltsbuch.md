@@ -7,6 +7,7 @@ permalink: /seiten/einfach-geld-ordnen-haushaltsbuch.html
 nav_group: pillar
 nav_order: 30
 flow_systemlinks: true
+description: "Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
 

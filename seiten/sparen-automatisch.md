@@ -3,6 +3,7 @@ permalink: /seiten/sparen-automatisch.html
 layout: default
 title: "Sparen automatisch"
 permalink: /seiten/sparen-automatisch.html
+description: "Sparen automatisch – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Sparen automatisch
 

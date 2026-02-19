@@ -3,6 +3,7 @@ permalink: /seiten/download-hub-schulden-schneeball.html
 layout: default
 title: "Download-Hub: Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
+description: "Download-Hub: Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Download-Hub: Schulden-Schneeball
 

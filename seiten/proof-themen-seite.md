@@ -3,6 +3,7 @@ permalink: /seiten/proof-themen-seite.html
 layout: default
 title: "Proof Themen-Seite"
 permalink: /seiten/proof-themen-seite.html
+description: "Proof Themen-Seite – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Proof Themen-Seite
 

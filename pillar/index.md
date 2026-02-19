@@ -3,6 +3,7 @@ permalink: /pillar/index.html
 layout: default
 title: "Projekt-uebersicht"
 permalink: /pillar/index.html
+description: "Projekt-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Projekt-uebersicht
 

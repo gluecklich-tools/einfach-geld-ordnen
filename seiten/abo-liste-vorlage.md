@@ -6,6 +6,7 @@ permalink: /seiten/abo-liste-vorlage.html
 nav_group: seiten
 nav_order: 225
 flow_systemlinks: true
+description: "Abo-Liste Vorlage – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abo-Liste Vorlage
 

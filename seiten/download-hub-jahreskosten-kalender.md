@@ -3,6 +3,7 @@ permalink: /seiten/download-hub-jahreskosten-kalender.html
 layout: default
 title: "Download-Hub: Jahreskosten-Kalender"
 permalink: /seiten/download-hub-jahreskosten-kalender.html
+description: "Download-Hub: Jahreskosten-Kalender – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Download-Hub: Jahreskosten-Kalender
 

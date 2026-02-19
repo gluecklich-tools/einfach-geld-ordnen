@@ -2,6 +2,7 @@
 layout: default
 title: "Abo-Manager - Geldleck stoppen"
 permalink: /pillar/abo-manager.html
+description: "Abo-Manager - Geldleck stoppen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abo-Manager - Geldleck stoppen
 

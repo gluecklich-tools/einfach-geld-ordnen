@@ -3,6 +3,7 @@ permalink: /seiten/download-hub-fixkosten-senken.html
 layout: default
 title: "Download-Hub: Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
+description: "Download-Hub: Fixkosten senken – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Download-Hub: Fixkosten senken
 

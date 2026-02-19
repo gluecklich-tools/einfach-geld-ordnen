@@ -3,6 +3,7 @@ permalink: /seiten/changelog.html
 layout: default
 title: "Changelog"
 permalink: /seiten/changelog.html
+description: "Changelog – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Changelog
 

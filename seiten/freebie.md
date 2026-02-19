@@ -3,6 +3,7 @@ permalink: /seiten/freebie.html
 layout: default
 title: Freebie
 permalink: /seiten/freebie.html
+description: "Freebie – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Freebie
 
