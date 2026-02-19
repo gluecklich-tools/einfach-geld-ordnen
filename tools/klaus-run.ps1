@@ -89,7 +89,8 @@ function Run-AutoSitemap {
 
   Say 'Auto-Sitemap: generating sitemap.xml + robots.txt...'
   $xml = & pwsh -NoProfile -File $gen -Repo $RepoRoot -SiteBase $site
-  if ([string]::IsNullOrWhiteSpace($xml) -or $xml.Length -lt 200) { throw 'STOP: auto-sitemap generated output too small' }
+  if ([string]::IsNullOrWhiteSpace($xml) -or $xml.Length -lt 200) { throw 'STOP: auto-sitemap generated output too small'
+}
 
     # Guard: sitemap must be valid XML and contain at least 1 url entry
   try {
