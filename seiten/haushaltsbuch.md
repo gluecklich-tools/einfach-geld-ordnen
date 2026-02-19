@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Haushaltsbuch: Ueberblick"
+title: "Haushaltsbuch Ueberblick"
 permalink: /seiten/haushaltsbuch.html
 nav_group: seiten
 nav_order: 90
 flow_systemlinks: true
-description: "Haushaltsbuch - Ueberblick - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
+description: "Haushaltsbuch Ueberblick - zentraler Einstieg ins System. Einnahmen, Fixkosten, Alltag: einfach ohne App."
 ---
 # Haushaltsbuch: Ueberblick
 Das ist der zentrale Einstieg ins Haushaltsbuch im Projekt **„Einfach Geld ordnen“**.
