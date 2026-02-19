@@ -15,8 +15,8 @@ Wenn du hier 50 bis 150 EUR sparst, ist das wie eine Gehaltserhoehung.
 5. Lege die Ersparnis sofort weg (Notgroschen oder Schulden).
 ## Weiter
 
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

@@ -33,7 +33,7 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 - [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
 

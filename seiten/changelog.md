@@ -12,8 +12,8 @@ Kurz und klar: Was hat sich am Projekt geaendert.
 - TBD (wird nachgezogen, wenn Releases stabil sind)
 ## Weiter
 
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

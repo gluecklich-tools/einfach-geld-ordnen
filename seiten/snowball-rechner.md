@@ -143,9 +143,9 @@ Ratenkredit; 4200; 120; 6.5
 </script>
 ## Weiter
 
-- [Downloads]({{ site.baseurl }}/seiten/downloads_alias.html)
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
 

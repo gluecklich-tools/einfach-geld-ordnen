@@ -27,8 +27,8 @@ Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Gel
 - Ziel: Notgroschen schnell und realistisch aufbauen (ohne Sackgassen).
 ## Weiter
 
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}

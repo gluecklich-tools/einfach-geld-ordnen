@@ -27,7 +27,7 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
 

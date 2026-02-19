@@ -21,7 +21,7 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 ## Was du hier bekommst
 
 - **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
-  [Zu den Rechnern]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 - **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
   [Zu den Downloads]({{ site.baseurl }}/seiten/downloads.html)

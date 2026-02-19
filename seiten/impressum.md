@@ -44,9 +44,9 @@ Teile der Inhalte (Texte/Struktur/Checklisten) wurden mit Unterstuetzung von KI 
 Die Inhalte sind allgemeine Informationen und **keine Rechts- oder Steuerberatung**.
 ## Weiter
 
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 {% include no_sackgasse_footer.html %}
 

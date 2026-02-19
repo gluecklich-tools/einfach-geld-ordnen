@@ -22,9 +22,9 @@ Fixkosten sind der groesste Hebel fuer dauerhaft mehr Luft.
 - [50-30-20 Regel]({{site.baseurl}}/pillar/50-30-20.html)
 ## Weiter
 
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
 

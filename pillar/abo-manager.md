@@ -37,9 +37,9 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darueber liegt, muss erst durch eine bewusste Entscheidung.
 ## Weiter
 
-- [Rechner-uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Projekt-uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
 
