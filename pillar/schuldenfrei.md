@@ -1,11 +1,10 @@
 ---
 layout: default
 permalink: /pillar/schuldenfrei.html
-title: "Schuldenfrei werden - uebersicht"
-description: "Schuldenfrei werden - uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+title: "Schuldenfrei werden"
+description: "Schuldenfrei werden - kurzer Einstieg + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
-# Schuldenfrei werden - uebersicht
-
+# Schuldenfrei werden
 Kurzer, klarer Einstieg. Keine Sackgassen.
 
 ## Start in 10 Minuten
@@ -15,12 +14,12 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 
 ## Themenseiten
 
-- [Schulden-Schneeball]({{site.baseurl}}/pillar/schulden-schneeball.html)
-- [Schulden-Lawine]({{site.baseurl}}/pillar/schulden-lawine.html)
-- [Notgroschen]({{site.baseurl}}/pillar/notgroschen.html)
-- [Abo-Manager]({{site.baseurl}}/pillar/abo-manager.html)
-- [Jahreskosten-Kalender]({{site.baseurl}}/pillar/jahreskosten-kalender.html)
-- [Fixkosten-Checkliste]({{site.baseurl}}/pillar/fixkosten-checkliste.html)
+- [Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)
+- [Schulden-Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
+- [Notgroschen]({{ site.baseurl }}/pillar/notgroschen.html)
+- [Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)
+- [Jahreskosten-Kalender]({{ site.baseurl }}/pillar/jahreskosten-kalender.html)
+- [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
 ## Weiter
 
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
