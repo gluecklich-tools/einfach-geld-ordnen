@@ -7,6 +7,7 @@ nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
 description: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach"
+title: "Spielraum und Ruecklagen: Einordnung ohne Druck"
 ---
 # Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck
 
