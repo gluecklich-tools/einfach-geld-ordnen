@@ -135,7 +135,9 @@ $lines.Add(('* Runner: `{0}`' -f $runnerShown))
 $lines.Add(('* RunnerExit: `{0}`' -f $runnerExit))
 $lines.Add(('* Transcript: `{0}`' -f $logPath))
 $lines.Add(('* Report: `{0}`' -f $reportPath))
-$lines.Add(('* ArchiveZip: `{0}`' -f (if(Test-Path -LiteralPath $zipPath){$zipPath}else{'<none>'})))
+$archiveShown = '<none>'
+if(Test-Path -LiteralPath $zipPath){ $archiveShown = $zipPath }
+$lines.Add(('* ArchiveZip: `{0}`' -f $archiveShown))
 $lines.Add(('* SSOT Root: `{0}`' -f $ssotShown))
 $lines.Add(('* SSOT DailyLog: `{0}`' -f (if($ssotOk){$ssotDailyPath}else{'<skip>'})))
 $lines.Add('')
