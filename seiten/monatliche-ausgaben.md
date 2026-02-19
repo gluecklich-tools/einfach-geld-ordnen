@@ -1,12 +1,9 @@
 ---
 permalink: /seiten/monatliche-ausgaben.html
-layout: default
-title: "Monatliche Ausgaben"
-permalink: /seiten/monatliche-ausgaben.html
 nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
-description: "Monatliche Ausgaben – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Monatliche Ausgaben - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 # Monatliche Ausgaben - einfach einordnen
 
@@ -23,10 +20,11 @@ Typische Beispiele:
 
 Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 
-- [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)
-- [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
+- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 Wenn du das gerade nicht brauchst: ueberspringen. Du kannst jederzeit zurueckkommen.
+
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
