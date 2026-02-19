@@ -1,14 +1,13 @@
 ---
-permalink: /seiten/downloads.html
 layout: default
 title: "Downloads"
 permalink: /seiten/downloads.html
-weiter_1_text: "Start: in 15 Minuten"
+weiter_1_text: "Schnellstart (15 Minuten)"
 weiter_1_url: "{{ site.baseurl }}/seiten/start_in_15_minuten.html"
-weiter_2_text: "Rechner: uebersicht"
-weiter_2_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
-weiter_3_text: "Downloads"
-weiter_3_url: "{{ site.baseurl }}/seiten/downloads_alias.html"
+weiter_2_text: "Ueberblick"
+weiter_2_url: "{{ site.baseurl }}/pillar/einfach-geld-ordnen.html"
+weiter_3_text: "Rechner: Uebersicht"
+weiter_3_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Downloads
