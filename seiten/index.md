@@ -20,7 +20,7 @@ weiter_2_url: "{{site.baseurl}}/seiten/downloads.html"
 
 Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 
-- Zur Startseite: [Start]({{site.baseurl}}/index.html)
+- Zur Startseite: [Start]({{site.baseurl}}/)
 - Zum Haushaltsbuch: [Haushaltsbuch - uebersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
 ## Weiter
 
