@@ -1,12 +1,9 @@
 ---
 permalink: /seiten/fixkosten-uebersicht.html
-layout: default
-title: "Fixkosten uebersicht"
-permalink: /seiten/fixkosten-uebersicht.html
 nav_group: seiten
 nav_order: 40
 flow_systemlinks: true
-description: "Fixkosten uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Fixkosten uebersicht - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 # Fixkosten uebersicht
 
@@ -18,7 +15,7 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 ## So traegst du Fixkosten in die Tabelle ein (ohne Stress)
 1. **Posten** eintragen (z. B. „Miete“, „Internet“).
 2. **Monatsbetrag** eintragen (den Betrag, der wirklich monatlich abgeht).
-3. **Wenn etwas **jaehrlich** kommt (z. B. Versicherung)**: als Monatswert eintragen (Jahresbetrag ÷ 12).
+3. **Wenn etwas jaehrlich kommt (z. B. Versicherung):** als Monatswert eintragen (Jahresbetrag / 12).
    *Du musst dabei nicht rechnen, wenn du noch nicht willst – du kannst auch erst sammeln und spaeter umrechnen.*
 
 ## Mini-Check (30 Sekunden)
@@ -28,6 +25,7 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 - Ist nichts **doppelt**?
 
 Wenn ja: reicht.
+
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
