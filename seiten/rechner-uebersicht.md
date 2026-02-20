@@ -1,7 +1,7 @@
 ---
 permalink: /seiten/rechner-uebersicht.html
 layout: default
-title: "Rechner-uebersicht"
+title: Rechner Übersicht
 permalink: /seiten/rechner-uebersicht.html
 description: "Rechner-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
