@@ -14,6 +14,7 @@ description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushalt
 
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
+<a id="freebie"></a>
 ## Freebie (kostenlos)
 
 - **Freebie Download (Platzhalter):**
