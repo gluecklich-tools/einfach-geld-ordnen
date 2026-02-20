@@ -8,8 +8,6 @@ description: "Freebie – kurze Einordnung + klare nächste Schritte. Haushaltsb
 # Freebie
 
 Hier startest du mit dem kostenlosen Einstieg.
-
- Weiter: {{ site.baseurl }}/seiten/downloads.html
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
