@@ -16,7 +16,6 @@ if([string]::IsNullOrWhiteSpace($RepoRoot)){
 if(!(Test-Path -LiteralPath $RepoRoot)){ StopBad "STOP: RepoRoot path missing: $RepoRoot" }
 Set-Location -LiteralPath $RepoRoot
 
-# --- ZIP helper (no external deps) ---
 try{ Add-Type -AssemblyName System.IO.Compression.FileSystem | Out-Null }catch{}
 
 function New-BundleReadme([string]$BaseName){
@@ -49,7 +48,7 @@ function Get-Rel([string]$abs){
   return ($rel -replace '\\','/')
 }
 
-# --- Find candidate spreadsheet files (.ods/.xlsx) ---
+# --- inventory ---
 $all = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -EA Stop |
   Where-Object {
     $_.Extension -in @(".ods",".xlsx") -and
@@ -62,72 +61,95 @@ if(@($all).Count -eq 0){
   StopBad "STOP: No .ods/.xlsx found in repo (excluding _local/.git)."
 }
 
-# Pair by base name (same directory + same filename without ext)
-$pairs = @{}
+# Group globally by basename
+$groups = @{}
 foreach($f in $all){
-  $dir = $f.DirectoryName
   $base = [IO.Path]::GetFileNameWithoutExtension($f.Name)
-  $key  = ($dir + "||" + $base)
-  if(-not $pairs.ContainsKey($key)){
-    $pairs[$key] = [ordered]@{
-      Dir = $dir
-      Base = $base
-      ODS = $null
-      XLSX = $null
-    }
+  if(-not $groups.ContainsKey($base)){
+    $groups[$base] = [ordered]@{ Base=$base; ODS=@(); XLSX=@() }
   }
-  if($f.Extension -eq ".ods"){  $pairs[$key].ODS  = $f.FullName }
-  if($f.Extension -eq ".xlsx"){ $pairs[$key].XLSX = $f.FullName }
+  if($f.Extension -eq ".ods"){  $groups[$base].ODS  += $f.FullName }
+  if($f.Extension -eq ".xlsx"){ $groups[$base].XLSX += $f.FullName }
 }
 
-$good = @($pairs.Values | Where-Object { $_.ODS -and $_.XLSX })
-if($good.Count -eq 0){
-  StopBad "STOP: Found spreadsheets, but no matching ODS+XLSX pairs with same base name in same folder."
+$ok = New-Object System.Collections.Generic.List[object]
+$amb = New-Object System.Collections.Generic.List[object]
+$nop = New-Object System.Collections.Generic.List[object]
+
+foreach($g in $groups.Values){
+  $odsN  = @($g.ODS).Count
+  $xlsxN = @($g.XLSX).Count
+
+  if($odsN -eq 1 -and $xlsxN -eq 1){
+    $ok.Add([pscustomobject]@{
+      Base = $g.Base
+      ODS  = $g.ODS[0]
+      XLSX = $g.XLSX[0]
+    }) | Out-Null
+  }
+  elseif($odsN -gt 0 -and $xlsxN -gt 0){
+    $amb.Add([pscustomobject]@{
+      Base = $g.Base
+      ODS_Count  = $odsN
+      XLSX_Count = $xlsxN
+      ODS_List   = ($g.ODS  | ForEach-Object { Get-Rel $_ }) -join " | "
+      XLSX_List  = ($g.XLSX | ForEach-Object { Get-Rel $_ }) -join " | "
+    }) | Out-Null
+  }
+  else{
+    $nop.Add([pscustomobject]@{
+      Base = $g.Base
+      ODS_Count  = $odsN
+      XLSX_Count = $xlsxN
+    }) | Out-Null
+  }
 }
 
-# --- Bundle output dir (inside repo) ---
+"PAIR_OK={0}  PAIR_AMBIG={1}  ONLY_ONE_SIDE={2}" -f $ok.Count, $amb.Count, $nop.Count | Out-Host
+
+if($WhatIf){
+  if($ok.Count -gt 0){
+    "=== OK PAIRS (will bundle) ===" | Out-Host
+    $ok | Sort-Object Base | Select-Object Base, @{n="ODS";e={Get-Rel $_.ODS}}, @{n="XLSX";e={Get-Rel $_.XLSX}} | Format-Table -AutoSize | Out-Host
+  }
+  if($amb.Count -gt 0){
+    "=== AMBIGUOUS (SKIP until you rename/move) ===" | Out-Host
+    $amb | Sort-Object Base | Select-Object Base, ODS_Count, XLSX_Count, ODS_List, XLSX_List | Format-Table -AutoSize | Out-Host
+  }
+  exit 0
+}
+
+if($ok.Count -eq 0){
+  StopBad "STOP: No unambiguous ODS+XLSX pairs found. Run with -WhatIf to see inventory."
+}
+
+# Output dir
 $bundleDirAbs = Join-Path $RepoRoot ($BundleRelDir -replace '/','\')
 New-Item -ItemType Directory -Path $bundleDirAbs -Force | Out-Null
 
-# --- Build ZIPs ---
+# Build ZIPs
 $built = New-Object System.Collections.Generic.List[object]
-foreach($p in $good){
-  $zipName = ($p.Base + ".zip")
-  # ASCII-only filename safety (project law)
+foreach($p in $ok){
+  $zipBase = $p.Base
+  $zipName = ($zipBase + ".zip")
+
   if($zipName -notmatch '^[a-zA-Z0-9][a-zA-Z0-9_\-\.]*\.zip$'){
-    # try to auto-sanitize (conservative)
-    $san = ($p.Base -replace '[^a-zA-Z0-9_\-]','_')
-    $zipName = ($san + ".zip")
+    $zipBase = ($zipBase -replace '[^a-zA-Z0-9_\-]','_')
+    $zipName = ($zipBase + ".zip")
   }
 
   $zipAbs = Join-Path $bundleDirAbs $zipName
-
-  $odsAbs  = $p.ODS
-  $xlsxAbs = $p.XLSX
-
-  $readmeTxt = New-BundleReadme -BaseName $p.Base
-
-  if($WhatIf){
-    [pscustomobject]@{
-      ZIP = Get-Rel $zipAbs
-      ODS = Get-Rel $odsAbs
-      XLSX = Get-Rel $xlsxAbs
-      README = "README_START_HIER.txt"
-    } | Out-Host
-    continue
-  }
-
   if(Test-Path -LiteralPath $zipAbs){ Remove-Item -LiteralPath $zipAbs -Force }
 
   $tmp = Join-Path $env:TEMP ("ego_bundle_" + [guid]::NewGuid().ToString("N"))
   New-Item -ItemType Directory -Path $tmp -Force | Out-Null
 
   try{
-    Copy-Item -LiteralPath $odsAbs  -Destination (Join-Path $tmp ([IO.Path]::GetFileName($odsAbs)))  -Force
-    Copy-Item -LiteralPath $xlsxAbs -Destination (Join-Path $tmp ([IO.Path]::GetFileName($xlsxAbs))) -Force
+    Copy-Item -LiteralPath $p.ODS  -Destination (Join-Path $tmp ([IO.Path]::GetFileName($p.ODS)))  -Force
+    Copy-Item -LiteralPath $p.XLSX -Destination (Join-Path $tmp ([IO.Path]::GetFileName($p.XLSX))) -Force
 
     $readmePath = Join-Path $tmp "README_START_HIER.txt"
-    [IO.File]::WriteAllText($readmePath, $readmeTxt, [Text.UTF8Encoding]::new($false))
+    [IO.File]::WriteAllText($readmePath, (New-BundleReadme -BaseName $p.Base), [Text.UTF8Encoding]::new($false))
 
     [IO.Compression.ZipFile]::CreateFromDirectory($tmp, $zipAbs, [IO.Compression.CompressionLevel]::Optimal, $false) | Out-Null
   }
@@ -136,68 +158,15 @@ foreach($p in $good){
   }
 
   $built.Add([pscustomobject]@{
-    ZIP = Get-Rel $zipAbs
+    ZIP  = Get-Rel $zipAbs
     Base = $p.Base
-    ODS = Get-Rel $odsAbs
-    XLSX = Get-Rel $xlsxAbs
+    ODS  = Get-Rel $p.ODS
+    XLSX = Get-Rel $p.XLSX
   }) | Out-Null
-}
-
-if($WhatIf){
-  "WHATIF_DONE=1" | Out-Host
-  exit 0
-}
-
-if($built.Count -eq 0){
-  StopBad "STOP: No bundles built (unexpected)."
-}
-
-# --- Patch repo links: replace .ods/.xlsx links with .zip bundle links (best-effort, conservative) ---
-# Build mapping by basename only (works even if links were already baseurl-based)
-$map = @{}
-foreach($b in $built){
-  $bn = $b.Base
-  $zipRel = $b.ZIP
-  $map[$bn] = $zipRel
-}
-
-# target files to patch
-$patchFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -EA Stop |
-  Where-Object {
-    $_.Extension -in @(".md",".html",".yml",".yaml") -and
-    $_.FullName -notmatch "\\.git\\" -and
-    $_.FullName -notmatch "\\_local\\"
-  }
-
-$enc = [Text.UTF8Encoding]::new($false)
-$changed = 0
-
-foreach($f in $patchFiles){
-  $old = [IO.File]::ReadAllText($f.FullName, $enc)
-  $new = $old
-
-  foreach($bn in $map.Keys){
-    $zipRel = $map[$bn] # e.g. downloads/bundles/name.zip
-
-    # Replace occurrences of bn.ods / bn.xlsx (also in URLs)
-    # We keep any path prefix intact, only swap the extension target to the bundle path if it looks like a direct file link.
-    $new = $new -replace ([regex]::Escape($bn) + '\.ods\b'),  ($bn + '.zip')
-    $new = $new -replace ([regex]::Escape($bn) + '\.xlsx\b'), ($bn + '.zip')
-
-    # If the content already uses a folder path (e.g. /downloads/.../bn.zip), we also ensure it points to bundles folder (safe, only if exact filename match)
-    # Replace any path ending with /bn.zip or \bn.zip to bundles location (keeps baseurl if present)
-    $new = $new -replace ('([/\w\-\.\{\}\s]+?)' + [regex]::Escape('/' + $bn + '.zip')), ('$1/' + ($BundleRelDir.TrimEnd('/') + '/' + $bn + '.zip'))
-    $new = $new -replace ('([\\\w\-\.\{\}\s]+?)' + [regex]::Escape('\' + $bn + '.zip')), ('$1\' + ($BundleRelDir.TrimEnd('/') -replace '/','\') + '\' + $bn + '.zip')
-  }
-
-  if($new -ne $old){
-    [IO.File]::WriteAllText($f.FullName, $new, $enc)
-    $changed++
-  }
 }
 
 "BUILT_ZIPS={0}" -f $built.Count | Out-Host
 $built | Sort-Object ZIP | Format-Table -AutoSize | Out-Host
-"PATCHED_FILES={0}" -f $changed | Out-Host
 
-# --- Done. Gates/commit/push run in wrapper block. ---
+# NOTE: Link-Patching intentionally NOT done in v2 (too risky without knowing current link patterns).
+# We only generate bundles deterministically; you decide where to point buttons/links.
