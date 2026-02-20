@@ -10,6 +10,8 @@ weiter_3_text: "Rechner: Uebersicht"
 weiter_3_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
+
+<a id="freebie"></a>
 # Downloads
 
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
