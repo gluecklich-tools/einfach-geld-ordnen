@@ -22,10 +22,12 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 ## Was du hier bekommst
 
 - **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
-  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html?utm_source=site&utm_medium=home&utm_campaign=rechner)
 
 - **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
-  [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+  [Downloads]({{ site.baseurl }}/seiten/downloads.html?utm_source=site&utm_medium=home&utm_campaign=downloads)
+
+[Vollversion]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=home&utm_campaign=vollversion)
 
 - **Ueberblick:** So ist das System aufgebaut.  
   [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
