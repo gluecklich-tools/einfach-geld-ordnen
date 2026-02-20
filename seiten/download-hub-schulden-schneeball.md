@@ -16,7 +16,7 @@ Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Ein
 
 ## Vollversion
 
-- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
+- **Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=downloadhub&utm_campaign=vollversion)
 
 ## Premium
 

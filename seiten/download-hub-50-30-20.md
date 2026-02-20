@@ -16,7 +16,7 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 
 ## Vollversion
 
-- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie **hier** verlinkt.
+- **Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=downloadhub&utm_campaign=vollversion)
 
 ## Premium
 
