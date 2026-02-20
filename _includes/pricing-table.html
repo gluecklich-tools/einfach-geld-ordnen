@@ -16,8 +16,8 @@
 {% comment %}EGO_OFFER_FALLBACK_V1: clone-friendly offer links + safe fallback{% endcomment %}
 {% assign ego_voll = site.data.offer.vollversion_url | default: '' %}
 {% assign ego_pro  = site.data.offer.pro_url        | default: '' %}
-{% if ego_voll contains 'REPLACE_WITH_' %}{% assign ego_voll = site.baseurl | append: '/seiten/downloads.html' %}{% endif %}
-{% if ego_pro  contains 'REPLACE_WITH_' %}{% assign ego_pro  = site.baseurl | append: '/seiten/downloads.html' %}{% endif %}
+{% if ego_voll contains 'REPLACE_WITH_' %}{% assign ego_voll = site.baseurl | append: '/seiten/downloads.html#vollversion' %}{% endif %}
+{% if ego_pro  contains 'REPLACE_WITH_' %}{% assign ego_pro  = site.baseurl | append: '/seiten/downloads.html#pro' %}{% endif %}
 <section class="ego-pricing" aria-label="Preise und Versionen">
   <div class="ego-pricing__grid">
     <article class="ego-card">

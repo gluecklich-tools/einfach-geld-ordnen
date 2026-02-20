@@ -19,11 +19,11 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 <a id="freebie"></a>
 ## Freebie (kostenlos)
 - **Freebie Download:** [EGO_Freebie_Bundle.zip (ZIP: XLSX+ODS)]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
+<a id="vollversion"></a>
 ## Vollversion (spaeter)
+- **Vollversion:** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
 
 Die Vollversion kommt spaeter. Bis dahin bleibt alles Self-Serve und kostenlos nutzbar.
-
-- **Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=downloads&utm_campaign=vollversion)
 {% include pricing-table.html %}
 
 ## Weiter
@@ -34,8 +34,7 @@ Die Vollversion kommt spaeter. Bis dahin bleibt alles Self-Serve und kostenlos n
 
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+<a id="pro"></a>
+## Pro (spaeter)
+Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
+- **Pro:** Verkauf/Download ueber Digistore24 (Link folgt hier, sobald gesetzt).
