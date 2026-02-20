@@ -18,8 +18,7 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
 <a id="freebie"></a>
 ## Freebie (kostenlos)
-
-- **Freebie Download (Platzhalter):**
+- **Freebie Download:** [EGO_Freebie_Bundle.zip (ZIP: XLSX+ODS)]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
   [{{ site.baseurl }}/https://gluecklich-tools.github.io{{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip]({{ site.baseurl }}/assets/downloads/{{ site.baseurl }}/https://gluecklich-tools.github.io{{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
 
 ## Vollversion (spaeter)
