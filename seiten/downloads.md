@@ -21,7 +21,9 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
 ## Vollversion (spaeter)
 
-Die Vollversion kommt spaeter (z. B. ueber Digistore24). Bis dahin bleibt alles Self-Serve und kostenlos nutzbar.
+Die Vollversion kommt spaeter. Bis dahin bleibt alles Self-Serve und kostenlos nutzbar.
+
+- **Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=downloads&utm_campaign=vollversion)
 {% include pricing-table.html %}
 
 ## Weiter
