@@ -31,5 +31,6 @@ exclude:
   - 00_HARD_BLOCK.md
 
 include:
+  - downloads
   - google2522890043a202ae.html
   - assets/audit/runs
