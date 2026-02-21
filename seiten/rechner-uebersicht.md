@@ -77,3 +77,13 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 - [50/30/20 Rechner]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
 - [Jahreskosten Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
 - [Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+
+<!-- EGO_FRAGILE_LINKFIX_V4 -->
+## Themen → passender Rechner
+
+- Fixkosten → [Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html) · [Fixkosten senken]({{ site.baseurl }}/seiten/fixkosten-senken.html)
+- Abos → [Abo-Manager Rechner]({{ site.baseurl }}/seiten/rechner-abo-manager.html) · [Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
+- 50/30/20 → [50/30/20 Rechner]({{ site.baseurl }}/seiten/rechner-50-30-20.html) · [50/30/20-Regel]({{ site.baseurl }}/seiten/50-30-20-regel.html)
+- Notgroschen → [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html) · [Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
+- Schulden → [Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schneeball.html) · [Schuldenfrei: Schneeball]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
+- Jahreskosten → [Jahreskosten Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten.html) · [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)

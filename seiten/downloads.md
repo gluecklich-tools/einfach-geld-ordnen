@@ -62,3 +62,23 @@ Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 
 - [Download (Alt)]({{ site.baseurl }}/seiten/download.html)
 - [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads_alias.html)
+
+<!-- EGO_FRAGILE_LINKFIX_V4 -->
+## Themen: Wofür ist was?
+
+- [Überblick (Start)]({{ site.baseurl }}/seiten/ueberblick.html)
+- [Fixkosten senken]({{ site.baseurl }}/seiten/fixkosten-senken.html)
+- [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
+- [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
+
+- [Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
+- [50/30/20-Regel]({{ site.baseurl }}/seiten/50-30-20-regel.html)
+- [50/30/20 (Kurzseite)]({{ site.baseurl }}/seiten/50-30-20.html)
+
+- [Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
+- [Abo-Liste Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
+
+- [Schuldenfrei: Schneeball]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
+- [Schulden: Snowball (Alt)]({{ site.baseurl }}/seiten/schulden-snowball.html)
+
+- [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
