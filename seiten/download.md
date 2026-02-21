@@ -18,5 +18,12 @@ title: Weiterleitung
 <body>
   <p>Weiterleitung… Falls das nicht klappt: <a href="/einfach-geld-ordnen/seiten/downloads.html">/einfach-geld-ordnen/seiten/downloads.html</a></p>
   <script>location.replace("/einfach-geld-ordnen/seiten/downloads.html");</script>
+<!-- EGO_REDIRECT_WEITER_FALLBACK_V1 -->
+<h2>Weiter</h2>
+<ul>
+  <li><a href="/einfach-geld-ordnen/seiten/downloads.html">/einfach-geld-ordnen/seiten/downloads.html</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/themen-seiten.html">{{ site.baseurl }}/seiten/themen-seiten.html</a></li>
+  <li><a href="{{ site.baseurl }}/seiten/rechner-uebersicht.html">{{ site.baseurl }}/seiten/rechner-uebersicht.html</a></li>
+</ul>
 </body>
 </html>
