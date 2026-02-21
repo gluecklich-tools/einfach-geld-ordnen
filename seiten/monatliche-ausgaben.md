@@ -20,15 +20,15 @@ Typische Beispiele:
 
 Diese Seiten helfen, wenn du beim Eintragen merkst: „Da fehlt mir noch was“:
 
-- Nebenkosten der Miete
-- Stromkosten im Haushalt
+- [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 Wenn du das gerade nicht brauchst: ueberspringen. Du kannst jederzeit zurueckkommen.
 
 <!-- EGO_FLOW_BOX_V1:START -->
 ## Schrittfolge im Inhalt
 
-Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer gleich:
+Damit du dich nicht verlaeufst, ist der inhaltliche Schritt-Flow hier immer gleich:
 
 1. [Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 2. [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
@@ -41,9 +41,3 @@ Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer glei
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
