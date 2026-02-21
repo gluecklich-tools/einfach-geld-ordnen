@@ -30,8 +30,8 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 ## Weiter
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Downloads]({{ site.baseurl }}/seiten/der-weg.html)
-- [Rechner]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+- [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Spielraum und Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 {% include no_sackgasse_footer.html %}
 
