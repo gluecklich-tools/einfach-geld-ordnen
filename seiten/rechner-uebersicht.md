@@ -30,6 +30,26 @@ Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es ein
 
 - **Spielraum Rechner**  
   Rechner: [Spielraum Rechner]({{site.baseurl}}/seiten/spielraum-rechner.html) · Themen-Seite: [Spielraum]({{site.baseurl}}/seiten/spielraum.html)
+
+<!-- EGO_RECHNER_LIST_V1:START -->
+## Rechner direkt
+
+Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt):
+
+- [rechner-50-30-20]({ site.baseurl }/seiten/rechner-50-30-20.html)
+- [rechner-abo-manager]({ site.baseurl }/seiten/rechner-abo-manager.html)
+- [rechner-fixkosten-check]({ site.baseurl }/seiten/rechner-fixkosten-check.html)
+- [rechner-index]({ site.baseurl }/seiten/rechner-index.html)
+- [rechner-jahreskosten-kalender]({ site.baseurl }/seiten/rechner-jahreskosten-kalender.html)
+- [rechner-jahreskosten]({ site.baseurl }/seiten/rechner-jahreskosten.html)
+- [rechner-notgroschen]({ site.baseurl }/seiten/rechner-notgroschen.html)
+- [rechner-schneeball]({ site.baseurl }/seiten/rechner-schneeball.html)
+- [rechner-schulden-schneeball]({ site.baseurl }/seiten/rechner-schulden-schneeball.html)
+- [rechner]({ site.baseurl }/seiten/rechner.html)
+
+- [Themen-Seiten]({{ site.baseurl }}/seiten/themen-seiten.html)
+<!-- EGO_RECHNER_LIST_V1:END -->
+
 ## Weiter
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
