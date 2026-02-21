@@ -4,8 +4,8 @@ layout: default
 title: "Download-Hub: Notgroschen"
 permalink: /seiten/download-hub-notgroschen.html
 description: "Download-Hub: Notgroschen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Download-Hub: Notgroschen
+sitemap: false
+---# Download-Hub: Notgroschen
 
 Hier findest du alle Downloads zum Thema **Notgroschen** im Projekt "Einfach Geld ordnen".
 

@@ -4,8 +4,8 @@ layout: default
 title: "Proof Rechner"
 permalink: /seiten/proof-rechner.html
 description: "Proof Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Proof Rechner
+sitemap: false
+---# Proof Rechner
 
 Diese Seite ist eine Proof-Implementierung der Rechner-Vorlage.
 Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur ueber den Include.

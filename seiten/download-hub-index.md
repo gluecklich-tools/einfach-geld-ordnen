@@ -4,8 +4,8 @@ layout: default
 title: "Download-Hubs"
 permalink: /seiten/download-hub-index.html
 description: "Download-Hubs – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Download-Hubs
+sitemap: false
+---# Download-Hubs
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
 

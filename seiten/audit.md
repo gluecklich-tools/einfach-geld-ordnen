@@ -4,8 +4,8 @@ layout: default
 title: Audit
 permalink: /seiten/audit.html
 description: "Audit – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Audit
+sitemap: false
+---# Audit
 Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 <!-- AUDIT_L2_STATUS_START -->
 ### Letzter Audit

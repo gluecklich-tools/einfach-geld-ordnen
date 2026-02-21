@@ -4,8 +4,8 @@ layout: default
 title: "Download-Hub: Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
 description: "Download-Hub: Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Download-Hub: Schulden-Schneeball
+sitemap: false
+---# Download-Hub: Schulden-Schneeball
 
 Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Einfach Geld ordnen".
 
