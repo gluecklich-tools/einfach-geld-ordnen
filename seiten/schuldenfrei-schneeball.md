@@ -23,9 +23,3 @@ Die Schneeball-Methode ist ein einfacher, motivierender Weg, Schulden planbar ab
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

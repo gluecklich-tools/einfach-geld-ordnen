@@ -18,9 +18,3 @@ Kurz und klar: Was hat sich am Projekt geaendert.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

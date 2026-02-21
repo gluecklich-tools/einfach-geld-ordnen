@@ -21,9 +21,3 @@ Wenn du Nachzahlungen hattest, nimm lieber den **hoeheren realistischen Wert**.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

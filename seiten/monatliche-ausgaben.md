@@ -32,9 +32,3 @@ Wenn du das gerade nicht brauchst: ueberspringen. Du kannst jederzeit zurueckkom
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

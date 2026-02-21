@@ -30,9 +30,3 @@ Diese Seite ist ein Alias, damit alte oder falsche Links nicht ins Leere laufen.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

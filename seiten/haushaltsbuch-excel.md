@@ -22,9 +22,3 @@ Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

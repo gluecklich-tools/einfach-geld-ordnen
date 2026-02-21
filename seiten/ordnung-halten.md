@@ -47,9 +47,3 @@ Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

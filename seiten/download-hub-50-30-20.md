@@ -33,4 +33,3 @@ Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld o
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-

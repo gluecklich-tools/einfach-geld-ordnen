@@ -32,7 +32,6 @@ Wichtig:
 
 {% include no_sackgasse_footer.html %}
 
-
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.
@@ -60,7 +59,6 @@ Kein Renegade.
 - Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
-{% include no_sackgasse_footer.html %}
 
 
 

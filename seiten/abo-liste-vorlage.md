@@ -20,9 +20,3 @@ Wenn du eine einfache Abo-Liste als Vorlage willst, starte hier und geh dann dir
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

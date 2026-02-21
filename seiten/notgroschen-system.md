@@ -20,9 +20,3 @@ Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

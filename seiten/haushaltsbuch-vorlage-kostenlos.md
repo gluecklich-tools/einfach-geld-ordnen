@@ -22,9 +22,3 @@ Bis dahin: Nutze den Flow ueber den uebersicht.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
