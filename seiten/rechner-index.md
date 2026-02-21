@@ -35,3 +35,8 @@ description: "Rechner (alt) – kurze Einordnung + klare nächste Schritte. Haus
 - [Schulden-Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
 - [Jahreskosten-Kalender Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
 - [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner.html)
+
+<!-- EGO_ORPHAN_LINKFIX_V2 -->
+### Altlink
+
+- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-index.html)

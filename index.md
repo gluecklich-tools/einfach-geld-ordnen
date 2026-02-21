@@ -44,3 +44,10 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 - [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
 - [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+<!-- EGO_ORPHAN_LINKFIX_V2 -->
+### Transparenz & Hilfe
+
+- [FAQ: Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [Qualität & Checks]({{ site.baseurl }}/seiten/qualitaet.html)
+- [Haushaltsbuch (Hintergrund)]({{ site.baseurl }}/seiten/einfach-geld-ordnen-haushaltsbuch.html)

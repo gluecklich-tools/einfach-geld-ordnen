@@ -56,3 +56,9 @@ Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 ### Angebot
 - [Freebie]({{ site.baseurl }}/seiten/freebie.html)
 - [Premium]({{ site.baseurl }}/seiten/premium.html)
+
+<!-- EGO_ORPHAN_LINKFIX_V2 -->
+### Altlinks (nur falls du sie brauchst)
+
+- [Download (Alt)]({{ site.baseurl }}/seiten/download.html)
+- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads_alias.html)

@@ -78,8 +78,12 @@ Kein Renegade.
 
 {% include no_sackgasse_footer.html %}
 
+<!-- EGO_ORPHAN_LINKFIX_V2 -->
+## Für Nerds (Transparenz)
 
-
-
-
-
+- [Audit]({{ site.baseurl }}/seiten/audit.html)
+- [Changelog]({{ site.baseurl }}/seiten/changelog.html)
+- [Governance]({{ site.baseurl }}/seiten/governance.html)
+- [QA Release Gate]({{ site.baseurl }}/seiten/qa-release-gate.html)
+- [Proof: Rechner]({{ site.baseurl }}/seiten/proof-rechner.html)
+- [Proof: Themen-Seite]({{ site.baseurl }}/seiten/proof-themen-seite.html)
