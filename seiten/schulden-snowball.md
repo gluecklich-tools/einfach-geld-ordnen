@@ -5,6 +5,10 @@ title: "Schulden-Schneeball"
 permalink: /seiten/schuldenfrei-schneeball.html
 description: "Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
+
+<!-- EGO_CANON_NOTICE_V1 -->
+> **Hinweis:** Diese Seite ist eine alternative/ältere Variante (**Snowball (Alt)**).  
+> Die aktuelle, kanonische Seite findest du hier: **[{{ site.baseurl }}/seiten/schuldenfrei-schneeball.html]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)**
 # Schulden-Schneeball
 
 Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).

@@ -1,23 +1,22 @@
 ---
 permalink: /seiten/downloads.html
-layout: default
-title: Download
 permalink: /seiten/downloads.html
 description: "Download – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
----# Download
-
-Hier findest du alle Downloads gesammelt.
-
- Weiter: {{ site.baseurl }}/seiten/download-hub-index.html
-## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
+layout: null
+title: Weiterleitung
+---
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=/einfach-geld-ordnen/seiten/downloads.html">
+  <link rel="canonical" href="/einfach-geld-ordnen/seiten/downloads.html">
+  <meta name="robots" content="noindex, follow">
+  <title>Weiterleitung</title>
+</head>
+<body>
+  <p>Weiterleitung… Falls das nicht klappt: <a href="/einfach-geld-ordnen/seiten/downloads.html">/einfach-geld-ordnen/seiten/downloads.html</a></p>
+  <script>location.replace("/einfach-geld-ordnen/seiten/downloads.html");</script>
+</body>
+</html>
