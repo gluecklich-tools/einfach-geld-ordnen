@@ -26,6 +26,11 @@ Sie sind der „ruhige Sockel“ deines Haushalts: Wenn die Fixkosten sauber sin
 
 Wenn ja: reicht.
 
+
+### Naechster Schritt
+
+- [Monatliche Ausgaben]({ site.baseurl }/seiten/monatliche-ausgaben.html)
+
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
