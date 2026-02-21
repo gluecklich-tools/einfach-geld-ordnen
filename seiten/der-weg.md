@@ -26,7 +26,7 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 ## Weiter
 
 - [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Rechner-Uebersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
 <!-- EGO_DER_WEG_FOOTER_AFTER_WEITER_V1 -->
