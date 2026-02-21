@@ -39,3 +39,5 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 - [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
 - [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+{% include no_sackgasse_footer.html %}
