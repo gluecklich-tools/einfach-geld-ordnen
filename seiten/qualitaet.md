@@ -34,7 +34,7 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 ## Wichtige Grenzen (ehrlich & klar)
 - **Keine Steuerberatung, keine Rechtsberatung.**
 - **Keine Garantie**, dass jede individuelle Konstellation (z. B. Sonderfaelle, exotische Systeme, sehr alte Software) ohne Anpassung laeuft.
-- **Self-serve**: Das Produkt ist so aufgebaut, dass du es selbststaendig nutzen kannst. Es gibt keinen zugesicherten 1:1-Support.
+- **Self-serve**: Das Produkt ist so aufgebaut, dass du es selbststaendig nutzen kannst. Es gibt keinen zugesicherten 1:1-Rueckfragen.
 
 ## Datenschutz 
 - Deine Daten bleiben grundsaetzlich **bei dir**.

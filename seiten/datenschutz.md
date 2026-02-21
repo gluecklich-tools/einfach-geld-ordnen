@@ -49,7 +49,7 @@ Anbieter: Cloudflare, Inc. (USA)
 Weitere Informationen: https://www.cloudflare.com/privacypolicy/
 
 <!-- EGO_AUDIT_UPDATE_HINT -->
-## Aktualitaet, Audit und Update-Hinweis
+## Aktualitaet und Audit-Hinweis
 **Stand:** 2026-02-03
 Dieses Projekt ist als Evergreen gebaut. Inhalte werden regelmaessig technisch geprueft (Build/Gates/Linkcheck). Rechtliche Hinweise (z.B. Impressum/Datenschutz/Transparenz) werden bei Bedarf aktualisiert, insbesondere bei Gesetzesaenderungen, Anbieterwechseln oder neuen Funktionen.
 **Letztes Audit (automatisiert):** 2026-02-03 09:14:15 (lokal)  

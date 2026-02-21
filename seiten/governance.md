@@ -20,9 +20,9 @@ Wichtig:
 - Keine persoenlichen oder sensiblen Daten (Gesundheit, Klarname, private Adressen, Chat-Transkripte).
 - Oeffentlich nur: rechtlich Noetiges (Impressum/Datenschutz) + Projektinhalte.
 
-## Support / Verantwortung
+## Self-Serve und Verantwortung
 
-- Inhalte und Vorlagen sind auf **Self-Service** ausgelegt.
+- Inhalte und Vorlagen sind auf **Self-Serve** ausgelegt.
 - Fuer rechtliche Fragen gilt: keine Rechtsberatung.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)

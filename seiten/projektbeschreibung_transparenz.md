@@ -10,14 +10,14 @@ Dieses Projekt hilft dir, deine Finanzen einfach und strukturiert zu ordnen - oh
 ## Wie die Inhalte entstehen
 Teile der Texte, Beispiele und Formulierungen wurden mit Unterstuetzung von KI-Tools erstellt. KI nutze ich wie ein Schreib- und Strukturwerkzeug (z. B. fuer Gliederungen, Varianten, Checklisten).
 ## Qualitaet und Verantwortung
-Alle Inhalte werden von mir geprueft, ueberarbeitet und inhaltlich verantwortet. Trotzdem koennen Fehler passieren - nutze die Informationen als Orientierung und pruefe wichtige Entscheidungen bei Bedarf mit offiziellen Quellen oder fachkundiger Beratung.
+Alle Inhalte werden von mir geprueft, ueberarbeitet und inhaltlich verantwortet. Trotzdem koennen Fehler passieren - nutze die Informationen als Orientierung und pruefe wichtige Entscheidungen bei Bedarf mit offiziellen Quellen oder fachkundiger individuelle Beratung.
 ## Keine Rechts-/Steuerberatung
 Die Inhalte ersetzen keine individuelle Rechts-, Steuer- oder Finanzberatung.
-## Updates
+## Aenderungen
 Ich verbessere Inhalte laufend, sobald ich Fehler finde oder Regeln/Standards sich aendern.
 
 <!-- EGO_AUDIT_UPDATE_HINT -->
-## Aktualitaet, Audit und Update-Hinweis
+## Aktualitaet und Audit-Hinweis
 **Stand:** 2026-02-03
 Dieses Projekt ist als Evergreen gebaut. Inhalte werden regelmaessig technisch geprueft (Build/Gates/Linkcheck). Rechtliche Hinweise (z.B. Impressum/Datenschutz/Transparenz) werden bei Bedarf aktualisiert, insbesondere bei Gesetzesaenderungen, Anbieterwechseln oder neuen Funktionen.
 **Letztes Audit (automatisiert):** 2026-02-03 09:14:15 (lokal)  

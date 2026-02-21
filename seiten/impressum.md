@@ -32,7 +32,7 @@ Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website un
 Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet, soweit nicht ausdr&uuml;cklich anders angegeben.
 
 <!-- EGO_AUDIT_UPDATE_HINT -->
-## Aktualitaet, Audit und Update-Hinweis
+## Aktualitaet und Audit-Hinweis
 **Stand:** 2026-02-03
 Dieses Projekt ist als Evergreen gebaut. Inhalte werden regelmaessig technisch geprueft (Build/Gates/Linkcheck). Rechtliche Hinweise (z.B. Impressum/Datenschutz/Transparenz) werden bei Bedarf aktualisiert, insbesondere bei Gesetzesaenderungen, Anbieterwechseln oder neuen Funktionen.
 **Letztes Audit (automatisiert):** 2026-02-03 09:14:15 (lokal)  
