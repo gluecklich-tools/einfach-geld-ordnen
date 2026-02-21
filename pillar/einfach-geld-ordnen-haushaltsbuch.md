@@ -29,11 +29,9 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 5. **Details nachziehen (wenn du Zeit hast)**: - [Nebenkosten der Miete]({{site.baseurl}}/seiten/nebenkosten-miete.html)  
    - [Stromkosten im Haushalt]({{site.baseurl}}/seiten/stromkosten-haushalt.html)
 ## Weiter
-
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-
 {% include no_sackgasse_footer.html %}
 
 

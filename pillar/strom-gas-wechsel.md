@@ -13,11 +13,9 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 2. **Vergleich**: neuer Tarif und Bonus logisch bewerten
 3. Kuendigungsfrist und Starttermin sauber setzen
 ## Weiter
-
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-
 {% include no_sackgasse_footer.html %}
 
 

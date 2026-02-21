@@ -25,11 +25,9 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 - Ein Ausreisser-Monat kippt das System nicht sofort.
 - Entscheidungen werden ruhiger, weil nicht alles sofort „kritisch“ wirkt.
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

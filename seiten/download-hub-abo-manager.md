@@ -27,10 +27,8 @@ Hier findest du alle Downloads zum Thema **Abo-Manager** im Projekt "Einfach Gel
 - Zum inhaltlichen Einstieg: **[Abo-Manager (Pillar)]({{site.baseurl}}/pillar/abo-manager.html)**
 - Ziel: Abos sichtbar machen, kuendigen oder optimieren, ohne Chaos.
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 

@@ -29,11 +29,9 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 - [Downloads]({{site.baseurl}}/seiten/downloads.html)
 ## Weiter
-
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

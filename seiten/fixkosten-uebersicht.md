@@ -42,13 +42,10 @@ Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer glei
 4. [Stromkosten]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 <!-- EGO_FLOW_BOX_V1:END -->
-
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

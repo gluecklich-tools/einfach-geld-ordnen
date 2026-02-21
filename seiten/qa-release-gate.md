@@ -12,11 +12,9 @@ Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 - Keine Sackgassen: Weiter-Block + Footer sind vorhanden.
 - Live-Check immer mit Projekt-URL (nicht Root-Domain).
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)

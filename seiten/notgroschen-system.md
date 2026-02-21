@@ -14,11 +14,9 @@ Ziel: **schnell** ein erstes Polster, dann Schritt fuer Schritt vergroessern.
 3. Trenne Notgroschen vom Alltag (separates Konto/Unterkonto).
 4. Nutze ihn nur fuer echte Notfaelle und fuelle ihn wieder auf.
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

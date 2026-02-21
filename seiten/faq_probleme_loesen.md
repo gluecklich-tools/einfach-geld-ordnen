@@ -27,11 +27,8 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 - Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
 Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
-
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}

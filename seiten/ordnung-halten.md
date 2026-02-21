@@ -41,11 +41,9 @@ Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download)
 - [Haushaltsbuch Vollversion - Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html?utm_source=site&utm_medium=content&utm_campaign=haushaltsbuch_vollversion)
 - [Kostenlose Haushaltsbuch-Vorlage - Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

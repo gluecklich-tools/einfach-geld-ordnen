@@ -29,11 +29,9 @@ Wenn dir etwas auffaellt, nutze bitte die Kontaktmoeglichkeit im Impressum.
 Teile der Inhalte (Texte/Struktur/Checklisten) wurden mit Unterstuetzung von KI erstellt und anschliessend von mir geprueft.  
 Die Inhalte sind allgemeine Informationen und **keine Rechts- oder Steuerberatung**.
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

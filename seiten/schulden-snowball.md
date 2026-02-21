@@ -24,11 +24,9 @@ Kurz: Schneeball-Methode, um Schulden strukturiert abzubauen (Self-Serve).
 - Wann besser Lawine?
 - Was, wenn das Budget schwankt?
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

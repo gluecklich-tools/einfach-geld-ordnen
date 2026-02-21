@@ -27,10 +27,8 @@ Hier findest du alle Downloads zum Thema **Schulden-Schneeball** im Projekt "Ein
 - Zum inhaltlichen Einstieg: **[Schulden-Schneeball (Pillar)]({{site.baseurl}}/pillar/schulden-schneeball.html)**
 - Ziel: schnell Klarheit + Plan, ohne Sackgassen.
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 

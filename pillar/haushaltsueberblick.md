@@ -31,11 +31,9 @@ Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereite
 
 Wenn du magst, lies es einfach wie eine Themen-uebersicht, auf der du deinen eigenen Haushalt wiedererkennst.
 ## Weiter
-
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-
 {% include no_sackgasse_footer.html %}
 
 

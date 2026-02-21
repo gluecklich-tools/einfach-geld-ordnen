@@ -31,11 +31,9 @@ Diese Seite zeigt den letzten Audit-Stand und die Evidence.
 - Checksums liegen je Monat unter: `assets/audit/YYYY-MM/checksums.txt`
 {% include no_sackgasse_footer.html %}
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 

@@ -27,11 +27,9 @@ Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
 - Wie oft pruefen?
 - Was ist ein guter Fixkosten-Anteil?
 ## Weiter
-
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
 {% include no_sackgasse_footer.html %}
 
 
