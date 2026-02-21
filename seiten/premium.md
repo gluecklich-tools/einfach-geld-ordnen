@@ -17,8 +17,8 @@ Hier findest du die Premium-Version (wenn freigeschaltet) und den Ablauf nach de
 ## Was du bekommst
 
 - Vollversion der Vorlagen
-- Klare Schritte (Self-Service)
-- Kein persoenlicher Support
+- Klare Schritte (Self-Serve)
+- Kein persoenlicher Rueckfragen
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

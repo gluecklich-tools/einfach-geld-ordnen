@@ -1,14 +1,14 @@
 ---
 permalink: /seiten/self_service.html
 layout: default
-title: "100% Self-Service"
+title: "100% Self-Serve"
 permalink: /seiten/self_service.html
 flow_systemlinks: true
-description: "100% Self-Service – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "100% Self-Serve – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# 100% Self-Service
+# 100% Self-Serve
 
-Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
+Self-Serve-Produkt: Kein Rueckfragen, keine Beratung, keine individuelle Hilfe.
 
 ## So funktioniert es
 
@@ -37,9 +37,9 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - Keine Fragen per Mail/DM (weder inhaltlich noch technisch)
 
 ###
-4. Erwartungsmanagement (Support verhindern)
+4. Erwartungsmanagement (Rueckfragen verhindern)
 - Fuer wen geeignet / fuer wen nicht
-- Keine Einrichtung, kein Coaching, keine individuelle Hilfe
+- Keine Einrichtung, kein Begleitung, keine individuelle Hilfe
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
@@ -48,7 +48,7 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 {% include no_sackgasse_footer.html %}
 
 <!-- EGO_FRAGILE_LINKFIX_V3 -->
-## Transparenz (Self-Service)
+## Transparenz (Self-Serve)
 
 - [Qualität & Checks]({{ site.baseurl }}/seiten/qualitaet.html)
 - [FAQ: Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)

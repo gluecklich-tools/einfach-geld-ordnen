@@ -8,7 +8,7 @@ description: "Nach dem Kauf – kurze Einordnung + klare nächste Schritte. Haus
 sitemap: false
 ---# Nach dem Kauf
 
-Wenn etwas nicht klappt, geh bitte strikt in dieser Reihenfolge vor. Das spart dir Zeit und ersetzt Support.
+Wenn etwas nicht klappt, geh bitte strikt in dieser Reihenfolge vor. Das spart dir Zeit und ersetzt Rueckfragen.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

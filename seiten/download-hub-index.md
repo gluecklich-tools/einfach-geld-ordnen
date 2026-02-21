@@ -50,9 +50,9 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 - [Hub: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
 - [Hub: Schulden-Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
 
-### Nach Kauf / Self-Service
+### Nach dem Kauf / Self-Serve
 - [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
-- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
 ### Angebot
 - [Freebie]({{ site.baseurl }}/seiten/freebie.html)
