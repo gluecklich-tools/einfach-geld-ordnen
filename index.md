@@ -18,6 +18,8 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 
 - **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
   [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+<!-- EGO_INDEX_FIXKOSTEN_STEP_V1 -->
+- **Fixkosten erfassen (Start):** [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Was du hier bekommst
 
