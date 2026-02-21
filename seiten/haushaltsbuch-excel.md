@@ -14,6 +14,8 @@ Diese Seite erklaert dir den Start so, dass du ohne Stress loslegen kannst.
 
 Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
 Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
+**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
+
 ## Weiter
 - [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

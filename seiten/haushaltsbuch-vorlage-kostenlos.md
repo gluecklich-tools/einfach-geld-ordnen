@@ -15,6 +15,8 @@ description: "Kostenlose Haushaltsbuch-Vorlage – kurze Einordnung + klare näc
 Bis dahin: Nutze den Flow ueber den uebersicht.
 
 → [Haushaltsbuch - ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
+
 ## Weiter
 - [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

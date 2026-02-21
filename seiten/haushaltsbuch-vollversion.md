@@ -51,6 +51,8 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** -
 
 - **Startseite:**  
   [Zur uebersicht]({{site.baseurl}}/pillar/index.html)
+**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
+
 ## Weiter
 - [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
