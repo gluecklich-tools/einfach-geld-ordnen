@@ -116,7 +116,15 @@ Run-AutoSitemap
 
 # 1) VERIFY (gates)
 Say "STEP 1/4: running ego-run gates..."
-pwsh -NoProfile -File (Join-Path $PSScriptRoot "ego-run.ps1") | ForEach-Object { $_ }
+# --- EGO_HARD_STOP_ON_GATE_FAIL_V1 ---
+# Run gates, preserve output, but hard-stop on non-zero exitcode
+$global:LASTEXITCODE = 0
+$gateTool = (Join-Path $PSScriptRoot "ego-run.ps1")
+$gateOut = & pwsh -NoProfile -File $gateTool 2>&1
+$gateEc = $LASTEXITCODE
+$gateOut | ForEach-Object { $_ }
+if ($gateEc -ne 0) { throw ("STOP: ego-run gates failed (exitcode=" + $gateEc + ")") }
+# --- EGO_HARD_STOP_ON_GATE_FAIL_V1 ---
 Say "STEP 1/4: gates OK."
 
 # 2) Optional: Live checklist + explainer + open (audit-only)
