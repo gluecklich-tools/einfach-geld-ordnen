@@ -7,7 +7,7 @@ description: "Themen-Seiten – kurze Einordnung + klare nächste Schritte. Haus
 ---
 # Themen-Seiten
 
-uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
+uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Rueckfragen).
 
 ## Themenbereiche
 

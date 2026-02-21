@@ -8,7 +8,7 @@ description: "100% Self-Serve – kurze Einordnung + klare nächste Schritte. Ha
 ---
 # 100% Self-Serve
 
-Self-Serve-Produkt: Kein Rueckfragen, keine Beratung, keine individuelle Hilfe.
+Self-Serve-Produkt: Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte Rueckmeldung oder individuelle Beratung.
 
 ## So funktioniert es
 
@@ -27,7 +27,7 @@ Self-Serve-Produkt: Kein Rueckfragen, keine Beratung, keine individuelle Hilfe.
 - Datei ueberschrieben / wiederherstellen
 - Komma/Punkt / Waehrung / Format
 - Handy/Tablet (nicht empfohlen)
-- Updates / neue Version laden
+- Versionierung / neue Version laden
 - Druck/PDF etc.
 
 ###
@@ -39,7 +39,7 @@ Self-Serve-Produkt: Kein Rueckfragen, keine Beratung, keine individuelle Hilfe.
 ###
 4. Erwartungsmanagement (Rueckfragen verhindern)
 - Fuer wen geeignet / fuer wen nicht
-- Keine Einrichtung, kein Begleitung, keine individuelle Hilfe
+- Keine Einrichtung, kein Begleitung, keine individuelle Unterstuetzung
 - Wenn du Hilfe willst, ist das nicht das richtige Produkt.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)

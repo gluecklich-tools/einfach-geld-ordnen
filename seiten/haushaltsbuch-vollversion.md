@@ -22,15 +22,15 @@ Die Vollversion ist fuer dich, wenn du ein Haushaltsbuch willst, das **ruhig**, 
 - **Klare Struktur**: Fixkosten, variable Ausgaben, Ruecklagen/Spielraum
 - **Kurzanleitung**: „So nutzt du es“ (kurz, verstaendlich)
 - **Beispielmonat** (optional): damit du sofort siehst, wie es gedacht ist (kannst du einfach loeschen)
-- **Versionierung**: Datei-Version + Changelog, damit Updates nachvollziehbar bleiben
+- **Versionierung**: Datei-Version + Changelog, damit Versionierung nachvollziehbar bleiben
 
 Ziel: **uebersichtlich**, **monatlich weiter nutzbar**, **ohne Druck**.
 
 ## Was das NICHT ist (damit es fair bleibt)
 
 - Keine Rechts- oder Steuerberatung
-- Kein Einrichtungs-Service, kein individueller Support
-- Kein Coaching
+- Kein Einrichtungs-Einrichtung, kein individueller Rueckfragen
+- Kein Begleitung
 - Keine App, kein Konto-Sync, keine Automatisierung
 
 Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** - du setzt es selbst um.

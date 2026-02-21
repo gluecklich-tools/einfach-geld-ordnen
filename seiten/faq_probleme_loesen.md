@@ -7,7 +7,7 @@ description: "FAQ / Probleme loesen (Top 15) – kurze Einordnung + klare nächs
 ---
 # FAQ / Probleme loesen (Top 15)
 
-Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
+Diese FAQ sammelt die haeufigsten Probleme und Loesungen. Bitte die Schritte exakt ausfuehren.
 
 ## Top-Themen
 
@@ -17,7 +17,7 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 4. Datei ueberschrieben / wiederherstellen
 5. Komma/Punkt / Waehrung / Format
 6. Handy/Tablet (nicht empfohlen)
-7. Updates / neue Version laden
+7. Versionierung / neue Version laden
 8. Druck/PDF
 
 ## Standard-Fix in 60 Sekunden
@@ -26,7 +26,7 @@ Diese FAQ ersetzt Support. Bitte die Schritte exakt ausfuehren.
 - Neue Kopie speichern
 - Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
-Wenn du individuelle Hilfe willst, ist dieses Projekt nicht das richtige.
+Wenn du mehr Unterstuetzung brauchst, ist dieses Angebot vermutlich nicht passend.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
