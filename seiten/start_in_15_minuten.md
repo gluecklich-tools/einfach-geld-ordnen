@@ -31,4 +31,6 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Spielraum und Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+
+{{% include no_sackgasse_footer.html %}}
