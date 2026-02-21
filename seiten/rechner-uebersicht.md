@@ -56,7 +56,7 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-<!-- EGO_ORPHAN_LINKFIX_V1 -->
+
 ## Rechner (Übersicht)
 
 - [Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
