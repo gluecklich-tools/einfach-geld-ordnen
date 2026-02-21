@@ -29,7 +29,7 @@ Wenn ja: reicht.
 
 ### Naechster Schritt
 
-- [Monatliche Ausgaben]({ site.baseurl }/seiten/monatliche-ausgaben.html)
+- [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
 
 <!-- EGO_FLOW_BOX_V1:START -->
 ## Schrittfolge im Inhalt

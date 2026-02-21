@@ -15,7 +15,7 @@ Ein Haushaltsbuch ist hier kein Kontrolltool, sondern eine ruhige Methode, um Ei
 
 ### Naechster Schritt
 
-- [Fixkosten uebersicht]({ site.baseurl }/seiten/fixkosten-uebersicht.html)
+- [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Weiter
 

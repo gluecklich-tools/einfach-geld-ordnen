@@ -11,15 +11,15 @@ weiter_3_url: "{{ site.baseurl }}/seiten/rechner-uebersicht.html"
 description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 
-<a id="freebie"></a>
+<span id="freebie"></span>
 # Downloads
 
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
-<a id="freebie"></a>
+<span id="freebie"></span>
 ## Freebie (kostenlos)
 - **Freebie Download:** [EGO_Freebie_Bundle.zip (ZIP: XLSX+ODS)]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-<a id="vollversion"></a>
+<span id="vollversion"></span>
 ## Vollversion (spaeter)
 - **Vollversion:** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
 
@@ -34,7 +34,7 @@ Die Vollversion kommt spaeter. Bis dahin bleibt alles Self-Serve und kostenlos n
 
 {% include no_sackgasse_footer.html %}
 
-<a id="pro"></a>
+<span id="pro"></span>
 ## Pro (spaeter)
 Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 - **Pro:** Verkauf/Download ueber Digistore24 (Link folgt hier, sobald gesetzt).
