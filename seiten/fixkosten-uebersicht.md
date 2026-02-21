@@ -34,7 +34,7 @@ Wenn ja: reicht.
 <!-- EGO_FLOW_BOX_V1:START -->
 ## Schrittfolge im Inhalt
 
-Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer gleich:
+Damit du dich nicht verlaeufst, ist der inhaltliche Schritt-Flow hier immer gleich:
 
 1. [Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 2. [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
@@ -47,9 +47,3 @@ Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer glei
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
