@@ -6,8 +6,6 @@ flow_systemlinks: true
 description: "Nebenkosten der Miete - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 
-
-
 # Nebenkosten der Miete
 
 Nebenkosten sind oft der Teil, der „irgendwie mitlaeuft“ und deshalb leicht unterschaetzt wird.
@@ -20,12 +18,12 @@ Hier reicht fuer den Anfang:
 
 Wenn du willst, kannst du als Naechstes die Stromkosten separat pruefen:
 
-- Stromkosten im Haushalt
+- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
 
 <!-- EGO_FLOW_BOX_V1:START -->
 ## Schrittfolge im Inhalt
 
-Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer gleich:
+Damit du dich nicht verlaeufst, ist der inhaltliche Schritt-Flow hier immer gleich:
 
 1. [Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 2. [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
@@ -38,9 +36,3 @@ Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer glei
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
