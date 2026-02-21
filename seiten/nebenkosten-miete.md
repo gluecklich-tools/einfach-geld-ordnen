@@ -20,7 +20,7 @@ Hier reicht fuer den Anfang:
 
 Wenn du willst, kannst du als Naechstes die Stromkosten separat pruefen:
 
-- [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+- Stromkosten im Haushalt
 
 <!-- EGO_FLOW_BOX_V1:START -->
 ## Schrittfolge im Inhalt
