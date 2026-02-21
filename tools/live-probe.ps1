@@ -127,7 +127,7 @@ if($null -ne $Paths){
 $baseClean = Normalize-Base $BaseUrl
 
 if($null -eq $Paths -or @($Paths).Count -eq 0){
-  $Paths = @('/seiten/rechner-index.html','/seiten/rechner-uebersicht.html')
+  $Paths = @('/seiten/rechner-uebersicht.html','/seiten/rechner-uebersicht.html')
 } else {
   $Paths = @($Paths) | ForEach-Object { Clean-Str $_ } | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
 }

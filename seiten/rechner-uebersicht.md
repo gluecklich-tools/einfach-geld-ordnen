@@ -39,13 +39,13 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 - [rechner-50-30-20]({ site.baseurl }/seiten/rechner-50-30-20.html)
 - [rechner-abo-manager]({ site.baseurl }/seiten/rechner-abo-manager.html)
 - [rechner-fixkosten-check]({ site.baseurl }/seiten/rechner-fixkosten-check.html)
-- [rechner-index]({ site.baseurl }/seiten/rechner-index.html)
+- [rechner-index]({ site.baseurl }/seiten/rechner-uebersicht.html)
 - [rechner-jahreskosten-kalender]({ site.baseurl }/seiten/rechner-jahreskosten-kalender.html)
 - [rechner-jahreskosten]({ site.baseurl }/seiten/rechner-jahreskosten.html)
 - [rechner-notgroschen]({ site.baseurl }/seiten/rechner-notgroschen.html)
 - [rechner-schneeball]({ site.baseurl }/seiten/rechner-schneeball.html)
 - [rechner-schulden-schneeball]({ site.baseurl }/seiten/rechner-schulden-schneeball.html)
-- [rechner]({ site.baseurl }/seiten/rechner.html)
+- [rechner]({ site.baseurl }/seiten/rechner-uebersicht.html)
 
 - [Themen-Seiten]({{ site.baseurl }}/seiten/themen-seiten.html)
 <!-- EGO_RECHNER_LIST_V1:END -->
@@ -64,12 +64,12 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 - [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
 - [Schulden-Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
 - [Jahreskosten-Kalender Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner.html)
+- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- EGO_ORPHAN_LINKFIX_V2 -->
 ### Altlink
 
-- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- EGO_FRAGILE_LINKFIX_V3 -->
 ## Weitere Rechner (ergänzt)

@@ -61,5 +61,5 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 <!-- EGO_ORPHAN_LINKFIX_V2 -->
 ### Altlinks (nur falls du sie brauchst)
 
-- [Download (Alt)]({{ site.baseurl }}/seiten/download.html)
-- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads_alias.html)
+- [Download (Alt)]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads.html)

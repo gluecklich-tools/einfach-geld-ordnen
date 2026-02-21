@@ -23,7 +23,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           Set-StrictMode -Version Latest
           $urls = @(
-            'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/download.html',
+            'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/downloads.html',
             'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/freebie.html',
             'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/vollversion.html'
           )

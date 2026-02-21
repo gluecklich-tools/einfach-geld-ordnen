@@ -60,7 +60,7 @@ Typ missing: 0
 | seiten/proof-themen-seite.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/qa-release-gate.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/qualitaet.md | inline | {{ site.baseurl }}/seiten/start_in_15_minuten.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
-| seiten/rechner-50-30-20.md | inline | {{ site.baseurl }}/seiten/50-30-20.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
+| seiten/rechner-50-30-20.md | inline | {{ site.baseurl }}/seiten/50-30-20-regel.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/rechner-abo-manager.md | inline | {{ site.baseurl }}/seiten/abo-manager.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/rechner-fixkosten-check.md | inline | {{ site.baseurl }}/seiten/fixkosten-senken.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |
 | seiten/rechner-index.md | inline | {{ site.baseurl }}/seiten/rechner-uebersicht.html | {{ site.baseurl }}/seiten/downloads.html | {{ site.baseurl }}/ |

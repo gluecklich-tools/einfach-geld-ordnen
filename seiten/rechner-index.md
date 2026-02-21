@@ -1,8 +1,8 @@
 ---
-permalink: /seiten/rechner-index.html
+permalink: /seiten/rechner-uebersicht.html
 layout: default
 title: "Rechner (alt)"
-permalink: /seiten/rechner-index.html
+permalink: /seiten/rechner-uebersicht.html
 description: "Rechner (alt) – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/rechner-uebersicht.html">
@@ -34,12 +34,12 @@ description: "Rechner (alt) – kurze Einordnung + klare nächste Schritte. Haus
 - [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
 - [Schulden-Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
 - [Jahreskosten-Kalender Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner.html)
+- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- EGO_ORPHAN_LINKFIX_V2 -->
 ### Altlink
 
-- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-index.html)
+- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- EGO_FRAGILE_LINKFIX_V3 -->
 ## Weitere Rechner (ergänzt)

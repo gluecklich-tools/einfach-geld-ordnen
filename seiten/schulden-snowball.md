@@ -1,8 +1,8 @@
 ---
-permalink: /seiten/schulden-snowball.html
+permalink: /seiten/schuldenfrei-schneeball.html
 layout: default
 title: "Schulden-Schneeball"
-permalink: /seiten/schulden-snowball.html
+permalink: /seiten/schuldenfrei-schneeball.html
 description: "Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schulden-Schneeball

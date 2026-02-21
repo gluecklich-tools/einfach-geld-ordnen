@@ -111,7 +111,7 @@ $u = @(
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/index.html',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/downloads.html',
-  'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-index.html',
+  'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/rechner-uebersicht.html',
   'https://gluecklich-tools.github.io/einfach-geld-ordnen/seiten/audit.html'
 )
 foreach ($x in $u) {

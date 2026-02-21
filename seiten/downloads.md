@@ -60,8 +60,8 @@ Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 <!-- EGO_ORPHAN_LINKFIX_V2 -->
 ### Altlinks (nur falls du sie brauchst)
 
-- [Download (Alt)]({{ site.baseurl }}/seiten/download.html)
-- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads_alias.html)
+- [Download (Alt)]({{ site.baseurl }}/seiten/downloads.html)
+- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads.html)
 
 <!-- EGO_FRAGILE_LINKFIX_V4 -->
 ## Themen: Wofür ist was?
@@ -73,12 +73,12 @@ Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 
 - [Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
 - [50/30/20-Regel]({{ site.baseurl }}/seiten/50-30-20-regel.html)
-- [50/30/20 (Kurzseite)]({{ site.baseurl }}/seiten/50-30-20.html)
+- [50/30/20 (Kurzseite)]({{ site.baseurl }}/seiten/50-30-20-regel.html)
 
 - [Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
 - [Abo-Liste Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
 
 - [Schuldenfrei: Schneeball]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
-- [Schulden: Snowball (Alt)]({{ site.baseurl }}/seiten/schulden-snowball.html)
+- [Schulden: Snowball (Alt)]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
 
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)

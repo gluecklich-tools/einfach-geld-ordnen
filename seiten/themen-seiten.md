@@ -57,11 +57,11 @@ uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 - [Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
 - [Abo-Liste Vorlage]({{ site.baseurl }}/seiten/abo-liste-vorlage.html)
 - [50/30/20-Regel]({{ site.baseurl }}/seiten/50-30-20-regel.html)
-- [50/30/20 (Kurzseite)]({{ site.baseurl }}/seiten/50-30-20.html)
+- [50/30/20 (Kurzseite)]({{ site.baseurl }}/seiten/50-30-20-regel.html)
 - [Variable Ausgaben]({{ site.baseurl }}/seiten/variable-ausgaben.html)
 - [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
 - [Schulden Schneeball]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
-- [Schulden Snowball (Alias/Alt)]({{ site.baseurl }}/seiten/schulden-snowball.html)
+- [Schulden Snowball (Alias/Alt)]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
 - [Überblick (Start)]({{ site.baseurl }}/seiten/ueberblick.html)
 

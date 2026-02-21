@@ -1,8 +1,8 @@
 ---
-permalink: /seiten/download.html
+permalink: /seiten/downloads.html
 layout: default
 title: Download
-permalink: /seiten/download.html
+permalink: /seiten/downloads.html
 description: "Download – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
 ---# Download
