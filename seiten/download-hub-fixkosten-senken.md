@@ -33,3 +33,4 @@ Hier findest du alle Downloads zum Thema **Fixkosten senken** im Projekt "Einfac
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+

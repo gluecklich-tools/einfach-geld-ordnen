@@ -10,8 +10,14 @@ description: "Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsb
 Wenn du nicht automatisch weitergeleitet wirst: [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 ## Weiter
 
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

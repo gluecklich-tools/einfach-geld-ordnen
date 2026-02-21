@@ -29,3 +29,9 @@ Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher W
 - [Ueberblick]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

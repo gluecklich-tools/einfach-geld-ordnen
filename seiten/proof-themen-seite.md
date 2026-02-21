@@ -30,3 +30,9 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

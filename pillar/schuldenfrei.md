@@ -27,3 +27,9 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 - [Ueberblick]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 {% include no_sackgasse_footer.html %}
+
+
+
+
+
+

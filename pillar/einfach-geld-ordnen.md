@@ -16,5 +16,4 @@ Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 - [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-
 {% include no_sackgasse_footer.html %}

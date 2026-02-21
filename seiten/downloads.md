@@ -28,12 +28,13 @@ Die Vollversion kommt spaeter. Bis dahin bleibt alles Self-Serve und kostenlos n
 
 ## Weiter
 
+- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 {% include no_sackgasse_footer.html %}
 
+<a id="pro"></a>
 ## Pro (spaeter)
 Pro gibt es spaeter. Verkauf/Download laeuft ausschliesslich ueber Digistore24.
 - **Pro:** Verkauf/Download ueber Digistore24 (Link folgt hier, sobald gesetzt).
