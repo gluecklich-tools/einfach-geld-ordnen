@@ -27,3 +27,10 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
+
+<!-- EGO_ORPHAN_LINKFIX_V1 -->
+## Weiter
+
+- [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)

@@ -26,8 +26,12 @@ description: "Rechner (alt) – kurze Einordnung + klare nächste Schritte. Haus
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
+<!-- EGO_ORPHAN_LINKFIX_V1 -->
+## Rechner (Übersicht)
 
-
-
-
-
+- [Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
+- [Abo-Manager Rechner]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
+- [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
+- [Schulden-Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
+- [Jahreskosten-Kalender Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
+- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner.html)

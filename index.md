@@ -37,3 +37,10 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 - [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
+
+<!-- EGO_ORPHAN_LINKFIX_V1 -->
+## Weiter
+
+- [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
+- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)

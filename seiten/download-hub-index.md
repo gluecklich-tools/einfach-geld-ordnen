@@ -37,3 +37,23 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
 
+<!-- EGO_ORPHAN_LINKFIX_V1 -->
+## Downloads & Hubs
+
+- [Download-Hub Übersicht]({{ site.baseurl }}/seiten/download-hub-index.html)
+
+### Hubs
+- [Hub: Fixkosten senken]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
+- [Hub: Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
+- [Hub: 50/30/20]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
+- [Hub: Abo-Manager]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
+- [Hub: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
+- [Hub: Schulden-Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
+
+### Nach Kauf / Self-Service
+- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+
+### Angebot
+- [Freebie]({{ site.baseurl }}/seiten/freebie.html)
+- [Premium]({{ site.baseurl }}/seiten/premium.html)
