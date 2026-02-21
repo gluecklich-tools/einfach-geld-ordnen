@@ -22,22 +22,9 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 4. **Nebenkosten & Strom verstehen (Details, die Geld sparen koennen)**  
    → [Nebenkosten der Miete]({{ site.baseurl }}/seiten/nebenkosten-miete.html)  
    → [Stromkosten im Haushalt]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
-## Weiter
-- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
-
-<!-- EGO_ORPHAN_LINKFIX_V1 -->
+<!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
 ## Weiter
 
 - [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
 - [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
-<!-- EGO_ORPHAN_LINKFIX_V2 -->
-### Transparenz & Hilfe
-
-- [FAQ: Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
-- [Qualität & Checks]({{ site.baseurl }}/seiten/qualitaet.html)
-- [Haushaltsbuch (Hintergrund)]({{ site.baseurl }}/seiten/einfach-geld-ordnen-haushaltsbuch.html)

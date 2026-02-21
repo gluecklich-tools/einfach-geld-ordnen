@@ -1,6 +1,6 @@
 ---
-permalink: /seiten/rechner-uebersicht.html
-permalink: /seiten/rechner-uebersicht.html
+permalink: /seiten/rechner.html
+permalink: /seiten/rechner.html
 description: "Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 layout: page
 title: Rechner (alt)
