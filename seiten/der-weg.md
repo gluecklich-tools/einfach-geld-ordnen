@@ -25,14 +25,6 @@ Dieser Weg fuehrt dich ohne Umwege durch die wichtigsten Schritte.
 
 ## Weiter
 
-- [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
