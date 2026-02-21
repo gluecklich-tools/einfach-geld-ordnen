@@ -31,6 +31,18 @@ Wenn ja: reicht.
 
 - [Monatliche Ausgaben]({ site.baseurl }/seiten/monatliche-ausgaben.html)
 
+<!-- EGO_FLOW_BOX_V1:START -->
+## Schrittfolge im Inhalt
+
+Damit du dich nicht verläufst, ist der inhaltliche Schritt-Flow hier immer gleich:
+
+1. [Fixkosten]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+2. [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
+3. [Nebenkosten]({{ site.baseurl }}/seiten/nebenkosten-miete.html)
+4. [Stromkosten]({{ site.baseurl }}/seiten/stromkosten-haushalt.html)
+
+<!-- EGO_FLOW_BOX_V1:END -->
+
 ## Weiter
 
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
