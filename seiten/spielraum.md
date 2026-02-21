@@ -7,7 +7,7 @@ description: "Spielraum – kurze Einordnung + klare nächste Schritte. Haushalt
 ---
 # Spielraum
 
-Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Beratung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
 
 ## Quick Start
 

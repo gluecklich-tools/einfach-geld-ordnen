@@ -21,7 +21,7 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Hinweise
 
-- Self-Serve, keine Beratung
+- Self-Serve, keine individuelle Einzelfallpruefung
 - Wenn negativ: Fixkosten senken oder Einnahmen erhoehen
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)

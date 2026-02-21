@@ -7,7 +7,7 @@ description: "Fixkosten Checkliste – kurze Einordnung + klare nächste Schritt
 ---
 # Fixkosten Checkliste
 
-Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Beratung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
 
 ## Quick Start
 

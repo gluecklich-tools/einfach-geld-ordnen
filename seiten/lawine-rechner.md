@@ -21,7 +21,7 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 ## Hinweise
 
 - Zins-Effekt wird im MVP nicht simuliert
-- Self-Serve, keine Beratung
+- Self-Serve, keine individuelle Einzelfallpruefung
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

@@ -8,7 +8,7 @@ description: "100% Self-Serve – kurze Einordnung + klare nächste Schritte. Ha
 ---
 # 100% Self-Serve
 
-Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte Rueckmeldung oder individuelle Beratung.
+Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte Rueckmeldung oder individuelle Einzelfallpruefung.
 
 ## So funktioniert es
 
