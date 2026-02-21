@@ -10,7 +10,7 @@ Dieses Projekt hilft dir, deine Finanzen einfach und strukturiert zu ordnen - oh
 ## Wie die Inhalte entstehen
 Teile der Texte, Beispiele und Formulierungen wurden mit Unterstuetzung von KI-Tools erstellt. KI nutze ich wie ein Schreib- und Strukturwerkzeug (z. B. fuer Gliederungen, Varianten, Checklisten).
 ## Qualitaet und Verantwortung
-Alle Inhalte werden von mir geprueft, ueberarbeitet und inhaltlich verantwortet. Trotzdem koennen Fehler passieren - nutze die Informationen als Orientierung und pruefe wichtige Entscheidungen bei Bedarf mit offiziellen Quellen oder fachkundiger individuelle Beratung.
+Alle Inhalte werden von mir geprueft, ueberarbeitet und inhaltlich verantwortet. Trotzdem koennen Fehler passieren - nutze die Informationen als Orientierung und pruefe wichtige Entscheidungen bei Bedarf mit offiziellen Quellen oder einer fachkundigen Stelle.
 ## Keine Rechts-/Steuerberatung
 Die Inhalte ersetzen keine individuelle Rechts-, Steuer- oder Finanzberatung.
 ## Aenderungen

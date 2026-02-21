@@ -8,7 +8,7 @@ description: "100% Self-Serve – kurze Einordnung + klare nächste Schritte. Ha
 ---
 # 100% Self-Serve
 
-Self-Serve-Produkt: Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte Rueckmeldung oder individuelle Beratung.
+Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte Rueckmeldung oder individuelle Beratung.
 
 ## So funktioniert es
 
@@ -40,7 +40,7 @@ Self-Serve-Produkt: Self-Serve-Produkt: eigenstaendig nutzbar, ohne zugesicherte
 4. Erwartungsmanagement (Rueckfragen verhindern)
 - Fuer wen geeignet / fuer wen nicht
 - Keine Einrichtung, kein Begleitung, keine individuelle Unterstuetzung
-- Wenn du Hilfe willst, ist das nicht das richtige Produkt.
+- Wenn du mehr Unterstuetzung brauchst, ist dieses Angebot vermutlich nicht passend.
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

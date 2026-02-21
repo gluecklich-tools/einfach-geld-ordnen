@@ -7,7 +7,7 @@ description: "Schulden Lawine – kurze Einordnung + klare nächste Schritte. Ha
 ---
 # Schulden Lawine
 
-Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Beratung.
 
 ## Quick Start
 

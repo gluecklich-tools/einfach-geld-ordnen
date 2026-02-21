@@ -7,7 +7,7 @@ description: "Sparen automatisch – kurze Einordnung + klare nächste Schritte.
 ---
 # Sparen automatisch
 
-Kurz: Self-Serve, klar, umsetzbar. Keine Beratung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Beratung.
 
 ## Quick Start
 
