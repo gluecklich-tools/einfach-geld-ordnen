@@ -30,7 +30,7 @@ Ziel: In 15 Minuten laeuft dein Haushaltsbuch als eigene Kopie.
 ## Weiter
 
 - [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Spielraum und Ruecklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
 
 {% include no_sackgasse_footer.html %}
