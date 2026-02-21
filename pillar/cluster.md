@@ -8,7 +8,20 @@ description: "Themen-uebersicht – kurze Einordnung + klare nächste Schritte. 
 
 Diese Seite ist die uebersicht, damit du nie festhaengst.
 
-\#\#\ Thema\n\n-\ \*\*Schuldenfrei\*\*\n\ \ -\ \[Schuldenfrei\ -\ uebersicht]\(\{\{\ site\.baseurl\ }}/pillar/schuldenfrei\.html\)\n\ \ -\ Rechner:\n\ \ \ \ -\ \[Schneeball-Extra]\(\{\{\ site\.baseurl\ }}/seiten/rechner-schneeball\.html\)\n\ \ \ \ -\ \[Jahreskosten\ pro\ Monat]\(\{\{\ site\.baseurl\ }}/seiten/rechner-jahreskosten\.html\)\n\n-\ \*\*Fixkosten\ senken\*\*\n\ \ -\ \[Fixkosten\ senken\ -\ uebersicht]\(\{\{\ site\.baseurl\ }}/pillar/fixkosten\.html\)\n\ \ -\ Rechner:\n\ \ \ \ -\ \[50-30-20]\(\{\{\ site\.baseurl\ }}/seiten/rechner-50-30-20\.html\)\n## Zentrale Einstiege
+## Thema
+
+- **Schuldenfrei**
+  - [Schuldenfrei - uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
+  - Rechner:
+    - [Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
+    - [Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+
+- **Fixkosten senken**
+  - [Fixkosten senken - uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
+  - Rechner:
+    - [50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+
+## Zentrale Einstiege
 
 - [Pillar uebersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
@@ -17,7 +30,6 @@ Diese Seite ist die uebersicht, damit du nie festhaengst.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
-
 
 
 
