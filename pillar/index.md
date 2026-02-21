@@ -34,8 +34,14 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
 
+<!-- EGO_FRAGILE_LINKFIX_V3 -->
+## Pillar-Artikel (Übersicht)
 
-
-
-
-
+- [Abos kündigen]({{ site.baseurl }}/pillar/abos-kuendigen.html)
+- [Fixkosten-Checkliste]({{ site.baseurl }}/pillar/fixkosten-checkliste.html)
+- [Haushaltsüberblick]({{ site.baseurl }}/pillar/haushaltsueberblick.html)
+- [Mobilfunk & Internet]({{ site.baseurl }}/pillar/mobilfunk-internet.html)
+- [Schulden-Lawine]({{ site.baseurl }}/pillar/schulden-lawine.html)
+- [Spielraum & Rücklagen]({{ site.baseurl }}/pillar/spielraum-ruecklagen.html)
+- [Strom & Gas wechseln]({{ site.baseurl }}/pillar/strom-gas-wechsel.html)
+- [Versicherungen-Check]({{ site.baseurl }}/pillar/versicherungen-check.html)

@@ -47,8 +47,14 @@ Self-Service-Produkt: Kein Support, keine Beratung, keine individuelle Hilfe.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
 
+<!-- EGO_FRAGILE_LINKFIX_V3 -->
+## Transparenz (Self-Service)
 
-
-
-
-
+- [Qualität & Checks]({{ site.baseurl }}/seiten/qualitaet.html)
+- [FAQ: Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [Audit]({{ site.baseurl }}/seiten/audit.html)
+- [Governance]({{ site.baseurl }}/seiten/governance.html)
+- [QA Release Gate]({{ site.baseurl }}/seiten/qa-release-gate.html)
+- [Changelog]({{ site.baseurl }}/seiten/changelog.html)
+- [Proof: Rechner]({{ site.baseurl }}/seiten/proof-rechner.html)
+- [Proof: Themen-Seite]({{ site.baseurl }}/seiten/proof-themen-seite.html)

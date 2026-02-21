@@ -70,3 +70,10 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 ### Altlink
 
 - [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-index.html)
+
+<!-- EGO_FRAGILE_LINKFIX_V3 -->
+## Weitere Rechner (ergänzt)
+
+- [50/30/20 Rechner]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
+- [Jahreskosten Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
+- [Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schneeball.html)

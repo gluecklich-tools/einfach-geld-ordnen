@@ -64,3 +64,15 @@ uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Support).
 - [Schulden Snowball (Alias/Alt)]({{ site.baseurl }}/seiten/schulden-snowball.html)
 - [Ordnung halten]({{ site.baseurl }}/seiten/ordnung-halten.html)
 - [Überblick (Start)]({{ site.baseurl }}/seiten/ueberblick.html)
+
+<!-- EGO_FRAGILE_LINKFIX_V3 -->
+## Weitere Themen (ergänzt)
+
+- [Abo-Check]({{ site.baseurl }}/seiten/abo-check.html)
+- [Sparen automatisch]({{ site.baseurl }}/seiten/sparen-automatisch.html)
+- [Spielraum & Rücklagen]({{ site.baseurl }}/seiten/spielraum-ruecklagen.html)
+
+### Haushaltsbuch
+- [Haushaltsbuch – kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch – Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Haushaltsbuch – Hintergrund]({{ site.baseurl }}/seiten/einfach-geld-ordnen-haushaltsbuch.html)
