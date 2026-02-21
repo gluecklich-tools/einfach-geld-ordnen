@@ -9,14 +9,10 @@ description: "Themen-uebersicht – kurze Einordnung + klare nächste Schritte. 
 Diese Seite ist die uebersicht, damit du nie festhaengst.
 
 ## Thema
-
-###
 1. Schuldenfrei
 
 - [Schuldenfrei - uebersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
 - Rechner: [Schneeball-Extra]({{site.baseurl}}/seiten/rechner-schneeball.html), [Jahreskosten pro Monat]({{site.baseurl}}/seiten/rechner-jahreskosten.html)
-
-###
 2. Fixkosten senken
 
 - [Fixkosten senken - uebersicht]({{site.baseurl}}/pillar/fixkosten.html)
