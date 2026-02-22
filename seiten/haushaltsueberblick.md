@@ -8,22 +8,22 @@ nav_order: 30
 flow_systemlinks: true
 description: "Haushaltsueberblick - Einordnung ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Haushaltsueberblick - Einordnung ohne Druck
+# Haushaltsüberblick - Einordnung ohne Druck
 
-Der Haushaltsueberblick ist kein „Controlling“.
-Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsaetzlich aussieht**.
+Der Haushaltsüberblick ist kein „Controlling“.
+Er ist ein ruhiges Bild davon, **wie dein Haushalt grundsätzlich aussieht**.
 
-Nicht perfekt. Nicht endgueltig.
+Nicht perfekt. Nicht endgültig.
 Nur: **sichtbar**.
 
 ## Das Ziel ist nicht „perfekt“
 
-Wenn etwas nicht passt, ist das kein persoenliches Versagen.
-Dann zeigt der ueberblick nur: *Hier ist Druck im System.*
+Wenn etwas nicht passt, ist das kein persönliches Versagen.
+Dann zeigt der überblick nur: *Hier ist Druck im System.*
 
 Das ist wertvoll - weil es **endlich sichtbar** wird.
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

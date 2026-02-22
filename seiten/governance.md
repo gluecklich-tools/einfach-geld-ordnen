@@ -7,24 +7,24 @@ flow_systemlinks: true
 description: "Transparenz & Verantwortung - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 sitemap: false
 ---
-Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekts.
+Diese Seite beschreibt nur die öffentlich relevanten Grundsätze dieses Projekts.
 
 Wichtig:
-- **Interne Arbeitsanweisungen, Prompts, Notizen oder persoenliche Daten sind nicht Bestandteil des oeffentlichen Repos.**
-- Oeffentlich sind nur Inhalte, die fuer die Website notwendig sind (z.B. Inhalte, Navigation, rechtliche Seiten).
+- **Interne Arbeitsanweisungen, Prompts, Notizen oder persönliche Daten sind nicht Bestandteil des öffentlichen Repos.**
+- öffentlich sind nur Inhalte, die für die Website notwendig sind (z.B. Inhalte, Navigation, rechtliche Seiten).
 
 ## Public-Gate (oberstes Prinzip)
 
-- Keine internen Prompts/Arbeitsanweisungen/Masterprompts im oeffentlichen Repo.
-- Keine persoenlichen oder sensiblen Daten (Gesundheit, Klarname, private Adressen, Chat-Transkripte).
-- Oeffentlich nur: rechtlich Noetiges (Impressum/Datenschutz) + Projektinhalte.
+- Keine internen Prompts/Arbeitsanweisungen/Masterprompts im öffentlichen Repo.
+- Keine persönlichen oder sensiblen Daten (Gesundheit, Klarname, private Adressen, Chat-Transkripte).
+- öffentlich nur: rechtlich Nötiges (Impressum/Datenschutz) + Projektinhalte.
 
 ## Self-Serve und Verantwortung
 
 - Inhalte und Vorlagen sind auf **Self-Serve** ausgelegt.
-- Fuer rechtliche Fragen gilt: keine Rechtsberatung.
+- Für rechtliche Fragen gilt: keine Rechtsberatung.
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
@@ -32,11 +32,11 @@ Wichtig:
 
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
-- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.
+- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binärsicher, keine Side-Effects.
 - GATES: mindestens .\tools\ego-run.ps1; weitere Runner nur wenn Datei existiert.
 - COMMIT/PUSH: nur wenn git status --porcelain nicht leer. Sonst NO_COMMIT.
 - LIVE: HEAD-200 Smoke auf Kern-URLs.
-Wenn ein Task nicht in diesen Ablauf passt: zuerst so umbauen, dass er passt.
+Wenn ein Task nicht in diesen Ablauf passt: zürst so umbaün, daß er passt.
 Kein Renegade.
 <!-- EGO_LAW_RUNNER_END -->
 
@@ -54,7 +54,7 @@ Kein Renegade.
 ## Audit L2 (Monatslauf)
 - Audit-Seite: {{site.baseurl}}/seiten/audit.html
 - Evidence: assets/audit/YYYY-MM/
-- Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
+- Monatslauf läuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issü erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
 {% include no_sackgasse_footer.html %}

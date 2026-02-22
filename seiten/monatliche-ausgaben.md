@@ -4,6 +4,7 @@ nav_group: seiten
 nav_order: 50
 flow_systemlinks: true
 description: "Monatliche Ausgaben - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
+title: "Monatliche Ausgaben - einfach einordnen"
 ---
 # Monatliche Ausgaben - einfach einordnen
 

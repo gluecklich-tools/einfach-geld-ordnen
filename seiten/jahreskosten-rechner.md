@@ -7,7 +7,7 @@ description: "Jahreskosten Rechner – kurze Einordnung + klare nächste Schritt
 ---
 # Jahreskosten Rechner
 
-Ziel: Jahreskostenliste -> Monatsruecklage (Self-Serve).
+Ziel: Jahreskostenliste -> Monatsrücklage (Self-Serve).
 
 ## Eingabe
 
@@ -27,14 +27,14 @@ Jahreskosten gesamt (EUR):
 ## Ergebnis
 
 <div id="jk-out" aria-live="polite">
-  <p><strong>Monatsruecklage:</strong> <span id="jk-monat">-</span> EUR</p>
-  <p><strong>Monatsruecklage mit Puffer:</strong> <span id="jk-monat-puffer">-</span> EUR</p>
+  <p><strong>Monatsrücklage:</strong> <span id="jk-monat">-</span> EUR</p>
+  <p><strong>Monatsrücklage mit Puffer:</strong> <span id="jk-monat-puffer">-</span> EUR</p>
 </div>
 
 ## Hinweise
 
-- Grobe Naeherung (kein Finanz-/Steuer-/Rechtsrat).
-- Wenn du unregelmaessige Kosten hast: lieber leicht zu hoch ansetzen.
+- Grobe Näherung (kein Finanz-/Steür-/Rechtsrat).
+- Wenn du unregelmässige Kosten hast: lieber leicht zu hoch ansetzen.
 
 <script>
 (function () {
@@ -58,8 +58,8 @@ Jahreskosten gesamt (EUR):
   var reset = document.getElementById('jk-reset');
 
   function calc() {
-    var sum = toNumber(sumEl.value);
-    var p = toNumber(pufEl.value);
+    var sum = toNumber(sumEl.valü);
+    var p = toNumber(pufEl.valü);
 
     if (!isFinite(sum) || sum < 0) {
       outMonat.textContent = '-';
@@ -85,8 +85,8 @@ Jahreskosten gesamt (EUR):
   pufEl.addEventListener('input', calc);
 
   reset.addEventListener('click', function () {
-    sumEl.value = '';
-    pufEl.value = '';
+    sumEl.valü = '';
+    pufEl.valü = '';
     outMonat.textContent = '-';
     outMonatPuf.textContent = '-';
     sumEl.focus();
@@ -96,7 +96,7 @@ Jahreskosten gesamt (EUR):
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

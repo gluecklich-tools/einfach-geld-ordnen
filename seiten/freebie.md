@@ -17,12 +17,12 @@ Kostenlos starten: Lade das Freebie-Bundle herunter und leg in 10 Minuten los.
 ## Start in 3 Schritten
 
 1) ZIP herunterladen und entpacken.
-2) Datei in LibreOffice oder Excel oeffnen.
+2) Datei in LibreOffice oder Excel öffnen.
 3) Fixkosten eintragen – danach erst die monatlichen Ausgaben.
 
-Naechster Schritt: [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+Nächster Schritt: [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

@@ -11,14 +11,14 @@ description: "Kostenlose Haushaltsbuch-Vorlage – kurze Einordnung + klare näc
 
 Hier findest du die kostenlose Haushaltsbuch-Vorlage.
 
-Wenn der Download (noch) nicht verfuegbar ist, starte trotzdem im System:
+Wenn der Download (noch) nicht verfügbar ist, starte trotzdem im System:
 
-- [Haushaltsbuch: Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) (naechster Schritt: feste Kosten eintragen)
+- [Haushaltsbuch: überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Fixkosten-übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) (nächster Schritt: feste Kosten eintragen)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
-- [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Fixkosten-übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

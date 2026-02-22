@@ -14,13 +14,13 @@ Angaben gem&auml;&szlig; &sect; 5 DDG (Digitale-Dienste-Gesetz)
 
 **Carsten Czoske**  
 Talstra&szlig;e 7  
-47445 Moers  
+47445 Mörs  
 Deutschland
 
 ## Verantwortlich f&uuml;r den Inhalt
 
 Verantwortlich gem&auml;&szlig; &sect; 18 Abs. 2 MStV (Medienstaatsvertrag):  
-**Carsten Czoske**, Talstra&szlig;e 7, 47445 Moers
+**Carsten Czoske**, Talstra&szlig;e 7, 47445 Mörs
 
 ## Haftung f&uuml;r Links
 
@@ -33,7 +33,7 @@ Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerzi
 
 <!-- EGO_AUDIT_UPDATE_HINT -->
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}
