@@ -115,7 +115,9 @@ Say ("Mode=" + $Mode + "  HttpTimeoutSec=" + $HttpTimeoutSec)
 Run-AutoSitemap
 
 # 1) VERIFY (gates)
-Say "STEP 1/4: running ego-run gates..."
+Say "# EGO_PROOF_REQUIRED_GATE_V1
+pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-proof-required.ps1') -RepoRoot (Split-Path -Parent $PSScriptRoot)
+STEP 1/4: running ego-run gates..."
 # --- EGO_HARD_STOP_ON_GATE_FAIL_V1 ---
 # Run gates, preserve output, but hard-stop on non-zero exitcode
 $global:LASTEXITCODE = 0
