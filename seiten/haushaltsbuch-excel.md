@@ -12,9 +12,17 @@ Diese Seite erklaert dir den Start so, dass du ohne Stress loslegen kannst.
 
 ## Download-Status
 
-Die Download-Datei ist **noch nicht live** (damit es keine 404 gibt).  
-Sobald die Datei wirklich im Ordner `/downloads/` liegt, schalten wir den Button frei.
-**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
+
+Das Freebie ist live. Du kannst sofort starten:
+
+- **Download:** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
+
+### Start in 3 Schritten
+1) ZIP herunterladen und entpacken.
+2) Datei in Excel oder LibreOffice oeffnen.
+3) Fixkosten zuerst eintragen – danach die monatlichen Ausgaben.
+
+**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trag zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
 
 ## Weiter
 - [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
