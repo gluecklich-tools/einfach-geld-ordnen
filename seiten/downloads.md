@@ -19,7 +19,7 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 <span id="freebie"></span>
 ## Freebie (kostenlos)
 - **Freebie Download:** [EGO_Freebie_Bundle.zip (ZIP: XLSX+ODS)]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Abo-Liste Vorlage: [abo-liste-vorlage.csv]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)
+- **Abo-Liste Vorlage (CSV):** [abo-liste-vorlage.csv]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)
 <span id="vollversion"></span>
 ## Vollversion (spaeter)
 - **Vollversion:** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
