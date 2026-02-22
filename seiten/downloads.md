@@ -16,21 +16,17 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 - **Abo-Liste Vorlage (CSV):** [abo-liste-vorlage.csv]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)
 
 <span id="vollversion"></span>
-## Vollversion (14,99 €)
-- **Vollversion (14,99 €):** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
+## Vollversion (14,99 € inkl. MwSt.)
+- **Vollversion (14,99 € inkl. MwSt.):** Bestellung/Download über Digistore24. Der Bestelllink wird hier eingetragen, sobald er live ist.
 
 <span id="pro"></span>
-## Pro (24,99 €)
-- **Pro (24,99 €):** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
+## Pro (24,99 € inkl. MwSt.)
+- **Pro (24,99 € inkl. MwSt.):** Bestellung/Download über Digistore24. Der Bestelllink wird hier eingetragen, sobald er live ist.
 
 {% include pricing-table.html %}
 
 ## Weiter
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}
