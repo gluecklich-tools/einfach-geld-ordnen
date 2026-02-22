@@ -3,6 +3,7 @@ layout: default
 title: "Downloads (alt)"
 permalink: /seiten/downloads_alias.html
 sitemap: false
+description: "Alias/Weiterleitung zur aktuellen Downloads-Seite. Falls die Weiterleitung nicht klappt: Link zur Downloads-Uebersicht."
 ---
 
 <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/downloads.html">
