@@ -7,16 +7,6 @@ flow_systemlinks: true
 description: "Transparenz & Verantwortung - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 sitemap: false
 ---
----
-permalink: /seiten/governance.html
-layout: default
-title: "Transparenz & Verantwortung"
-permalink: /seiten/governance.html
-flow_systemlinks: true
-description: "Transparenz & Verantwortung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-sitemap: false
----# Transparenz & Verantwortung
-
 Diese Seite beschreibt nur die oeffentlich relevanten Grundsaetze dieses Projekts.
 
 Wichtig:
@@ -68,9 +58,3 @@ Kein Renegade.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
