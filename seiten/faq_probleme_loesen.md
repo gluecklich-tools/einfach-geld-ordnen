@@ -22,11 +22,17 @@ Diese FAQ sammelt die haeufigsten Probleme und Loesungen. Bitte die Schritte exa
 
 ## Standard-Fix in 60 Sekunden
 
-- Neu herunterladen
-- Neue Kopie speichern
-- Schrittfolge aus "Start in 15 Minuten" exakt wiederholen
 
-Wenn du mehr Unterstuetzung brauchst, ist dieses Angebot vermutlich nicht passend.
+Wenn etwas „komisch“ wirkt, liegt es oft an einer Kleinigkeit (Format, Kopie, Monatswechsel).
+Mach diese Schritte der Reihe nach – meistens ist es danach erledigt:
+
+1. **Als neue Kopie speichern** (damit du nie dein Original zerschiesst).
+2. **Monatswechsel einmal pruefen** (oben im Monat/Datum-Feld – nicht in mehreren Blaettern gleichzeitig).
+3. **Komma/Punkt & Waehrung checken** (siehe Punkt „Komma/Punkt / Waehrung / Format“).
+4. Wenn eine Formel wirklich kaputt ist: **saubere Datei neu herunterladen** und deine Werte in die neue Kopie uebertragen.
+5. Dann die Schrittfolge aus **„Start in 15 Minuten“** einmal exakt durchgehen.
+
+Wenn es danach noch hakt: spring direkt zum passenden Top-Thema oben (Dropdown / Formel / Monatswechsel / Datei wiederherstellen).
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
