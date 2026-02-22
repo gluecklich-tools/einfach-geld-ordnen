@@ -21,11 +21,11 @@ Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link
 
 ## Premium
 
-Premium entspricht der **Pro-Version**. Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
+Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
 
 ## Hinweise
 
-- Einstieg/Erklaerung: **[50/30/20 erklaert]({{ site.baseurl }}/pillar/50-30-20.html)**
+- Einstieg: **[50/30/20]({{ site.baseurl }}/pillar/50-30-20.html)**
 - Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
 
 ## Weiter
