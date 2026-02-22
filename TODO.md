@@ -88,3 +88,14 @@ Ergebnis je Seite:
 
 EGO_TODO_PS_REPLACE_GUARDRAIL_V1
 - [2026-02-22] Guardrail: Bei allen Patches/Tools keine `-replace`-Konkatenation. Gruppen-Rewrites nur via `[regex]::Replace`.
+
+EGO_TODO_DIGISTORE_PRO_LINK_V1
+- [2026-02-22] Wenn Pro bei Digistore24 live ist: korrekten Pro-Digistore-Link eintragen (Pro-Seite, Downloads, Pricing-Tabelle, ggf. _data/offer.yml).
+
+EGO_TODO_PRICES_AND_LINKS_V1
+- [2026-02-22] Preise SSOT: Vollversion = 14,99 € | Pro = 24,99 € (ueberall identisch: seiten/, _includes/, _data/).
+- [2026-02-22] pricing-table.html: Freebie = 0 €, Vollversion = 14,99 €, Pro = 24,99 €; keine kaputten HTML-Fragmente im Preis (z.B. "</p>").
+- [2026-02-22] downloads.md: Vollversion/Pro mit Preisen anzeigen; Digistore24-Linktexte neutral ("Link folgt, sobald gesetzt").
+- [2026-02-22] offer.yml (falls genutzt): Preise/Labels konsistent zu 14,99/24,99.
+- [2026-02-22] Wenn Pro bei Digistore24 live ist: korrekten Pro-Link eintragen (Pro-Seite, Downloads, Pricing-Tabelle, offer.yml).
+- [2026-02-22] Nach allen Preisfixes: price_mismatch_report neu erstellen und offene Preisstellen gezielt abarbeiten (keine Blind-Replaces).
