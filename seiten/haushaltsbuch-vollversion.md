@@ -1,12 +1,11 @@
 ---
 permalink: /seiten/haushaltsbuch-vollversion.html
 layout: default
-title: "Haushaltsbuch Vollversion - kommt bald"
-permalink: /seiten/haushaltsbuch-vollversion.html
+title: "Haushaltsbuch Vollversion"
 nav_group: seiten
 nav_order: 110
 flow_systemlinks: true
-description: "Haushaltsbuch Vollversion - kommt bald – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Haushaltsbuch Vollversion - fertige Vorlage ohne App. Vollversion 14,99 EUR. Pro 24,99 EUR. Einfach ohne App."
 ---
 # Haushaltsbuch Vollversion
 
@@ -16,7 +15,7 @@ Bis der Kauf-Link aktiv ist, kannst du sofort mit dem Freebie starten:
 
 - **[EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)**
 
-**Preis (geplant):** 10 € einmalig
+**Preis:** 14,99 € einmalig
 
 Die Vollversion ist fuer dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist - ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
 

@@ -85,3 +85,6 @@ Ergebnis je Seite:
 ## Re-Check Plan
 - Wenn Review der 98 sitemap-Seiten fertig ist:
   - Re-Check Seiten #1 bis #54 mit obiger Checkliste (zweiter Pass), um Altlasten zu catchen.
+
+EGO_TODO_PS_REPLACE_GUARDRAIL_V1
+- [2026-02-22] Guardrail: Bei allen Patches/Tools keine `-replace`-Konkatenation. Gruppen-Rewrites nur via `[regex]::Replace`.
