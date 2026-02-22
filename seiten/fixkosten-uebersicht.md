@@ -4,6 +4,7 @@ nav_group: seiten
 nav_order: 40
 flow_systemlinks: true
 description: "Fixkosten uebersicht - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
+title: "Fixkosten uebersicht"
 ---
 # Fixkosten uebersicht
 

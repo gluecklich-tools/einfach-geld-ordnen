@@ -17,20 +17,20 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
 <span id="vollversion"></span>
 ## Vollversion (14,99 €)
-- **Vollversion (14,99 €):** Verkauf/Download ueber Digistore24 (Link folgt hier, sobald gesetzt).
+- **Vollversion (14,99 €):** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
 
-Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
+Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
 
 <span id="pro"></span>
 ## Pro (24,99 €)
-- **Pro (24,99 €):** Verkauf/Download ueber Digistore24 (Link folgt hier, sobald gesetzt).
+- **Pro (24,99 €):** Verkauf/Download über Digistore24 (Link folgt hier, sobald gesetzt).
 
-Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
+Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er hier klar gesetzt.
 
 {% include pricing-table.html %}
 
 ## Weiter
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}

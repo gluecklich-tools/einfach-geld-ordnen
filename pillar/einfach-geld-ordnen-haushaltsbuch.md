@@ -31,7 +31,7 @@ description: "Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger – kurze Einor
 ---
 
 
-# Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
+# Einfach Geld ordnen - Haushaltsbuch für Anfänger
 
 
 
@@ -43,7 +43,7 @@ description: "Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger – kurze Einor
 
 
 
-Du willst deine Finanzen so strukturieren, dass du jeden Monat weisst:
+Du willst deine Finanzen so strukturieren, daß du jeden Monat weisst:
 
 
 
@@ -55,7 +55,7 @@ Du willst deine Finanzen so strukturieren, dass du jeden Monat weisst:
 - was rausgeht,
 
 
-- was uebrig bleibt.
+- was übrig bleibt.
 
 
 
@@ -70,11 +70,11 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 ## In 10 Minuten startklar
 
 
-1. **Einstieg**: [Haushaltsbuch in Excel einfach erklaert]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
+1. **Einstieg**: [Haushaltsbuch in Excel einfach erklärt]({{ site.baseurl }}/seiten/haushaltsbuch-excel.html)
 2. **Download (kostenlos)**: [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
 
 
-3. **Fixkosten zuerst**: [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+3. **Fixkosten zürst**: [Fixkosten übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 
 4. **Dann die Ausgaben**: [Monatliche Ausgaben]({{ site.baseurl }}/seiten/monatliche-ausgaben.html)
@@ -95,7 +95,7 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 
 
 {% include no_sackgasse_footer.html %}

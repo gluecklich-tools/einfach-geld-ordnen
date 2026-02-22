@@ -7,54 +7,54 @@ description: "Fixkosten Checkliste – kurze Einordnung + klare nächste Schritt
 ---
 # Fixkosten Checkliste
 
-Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individülle Einzelfallprüfung.
 
 ## Quick Start
 
 
-1) **Letzte 2–3 Monate Kontoauszuege** nehmen (Banking/CSV reicht).
-2) **Alle wiederkehrenden Abbuchungen** markieren (monatlich/vierteljaehrlich/jaehrlich).
-3) **Vertraege kurz checken**: Preis, Kuendigungsfrist, naechster Termin.
-4) Alles in **Fixkosten-Uebersicht** eintragen und als Monatsfixkosten-Summe festhalten.
+1) **Letzte 2–3 Monate Kontoauszüge** nehmen (Banking/CSV reicht).
+2) **Alle wiederkehrenden Abbuchungen** markieren (monatlich/vierteljährlich/jährlich).
+3) **Verträge kurz checken**: Preis, Kündigungsfrist, nächster Termin.
+4) Alles in **Fixkosten-übersicht** eintragen und als Monatsfixkosten-Summe festhalten.
 
-Wenn du nur einen Schritt machst: **Fixkosten zuerst**. Danach werden Ausgaben, Spielraum und Ruecklagen viel klarer.
+Wenn du nur einen Schritt machst: **Fixkosten zürst**. Danach werden Ausgaben, Spielraum und Rücklagen viel klarer.
 
-- Naechster Schritt: [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- Nächster Schritt: [Fixkosten übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Checkliste
 
 
 **A) Sammeln (10 Minuten)**
 - Miete/Wohnkosten, Strom, Internet/Handy, Versicherungen
-- Rundfunkbeitrag, Abos, Kredite/Raten, OPNV/Auto (Versicherung/Steuer)
+- Rundfunkbeitrag, Abos, Kredite/Raten, OPNV/Auto (Versicherung/Steür)
 
-**B) Pruefen (10 Minuten)**
+**B) Prüfen (10 Minuten)**
 - Passt der Preis? Gibt es einen besseren Tarif?
-- Kuendigungsfrist + naechster Kuendigungstermin notieren
-- Zahlungsrhythmus klar machen (monatlich/jaehrlich → auf Monat umrechnen)
+- Kündigungsfrist + nächster Kündigungstermin notieren
+- Zahlungsrhythmus klar machen (monatlich/jährlich → auf Monat umrechnen)
 
 **C) Eintragen (10 Minuten)**
-- Alles in eine Liste / Fixkosten-Uebersicht
+- Alles in eine Liste / Fixkosten-übersicht
 - Jahresposten auf Monat umrechnen (z.B. 120 EUR/Jahr = 10 EUR/Monat)
 - Am Ende: **Fixkosten-Summe pro Monat**
 
 **D) Routine (2 Minuten/Monat)**
-- Einmal monatlich: neue Vertraege/Preissteigerungen nachtragen
+- Einmal monatlich: neü Verträge/Preissteigerungen nachtragen
 - Einmal pro Quartal: 1 Vertrag gezielt optimieren (klein anfangen)
 
 ## Mini-FAQ
 
 
-**Was zaehlt als Fixkosten?**
-- Alles, was regelmaessig wiederkommt und schwer kurzfristig zu stoppen ist: Miete, Energie, Versicherungen, Abos, Kredite.
+**Was zählt als Fixkosten?**
+- Alles, was regelmässig wiederkommt und schwer kurzfristig zu stoppen ist: Miete, Energie, Versicherungen, Abos, Kredite.
 
-**Wie oft pruefen?**
-- Klein anfangen: **quartalsweise** 1 Vertrag anschauen. Das reicht, um langsam besser zu werden.
+**Wie oft prüfen?**
+- Klein anfangen: **quartalsweise** 1 Vertrag anschaün. Das reicht, um langsam besser zu werden.
 
 **Was ist ein guter Fixkosten-Anteil?**
-- Als grobe Orientierung: **je niedriger, desto mehr Spielraum**. Wichtiger als eine Zahl ist: du kennst deine Fixkosten-Summe und kannst sie erklaeren.
+- Als grobe Orientierung: **je niedriger, desto mehr Spielraum**. Wichtiger als eine Zahl ist: du kennst deine Fixkosten-Summe und kannst sie erklären.
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
