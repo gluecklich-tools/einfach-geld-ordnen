@@ -2,7 +2,6 @@
 permalink: /seiten/variable-ausgaben.html
 layout: default
 title: "Variable Ausgaben - Einordnung ohne Druck"
-permalink: /seiten/variable-ausgaben.html
 nav_group: seiten
 nav_order: 60
 flow_systemlinks: true
@@ -36,14 +35,9 @@ Sie sagt nur:
 Diese Ausgaben existieren - und sie wirken im Gesamtbild mit.
 
 Mehr ist an dieser Stelle nicht noetig.
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
