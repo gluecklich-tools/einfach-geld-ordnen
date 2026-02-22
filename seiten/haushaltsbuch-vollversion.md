@@ -16,7 +16,6 @@ Bis der Kauf-Link aktiv ist, kannst du sofort mit dem Freebie starten:
 
 - **[EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)**
 
-**Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert - **noch kein Verkauf, keine Bezahl-Links**  
 **Preis (geplant):** 10 € einmalig
 
 Die Vollversion ist fuer dich, wenn du ein Haushaltsbuch willst, das **ruhig**, **klar** und **alltagstauglich** ist - ohne App-Zwang, ohne Abo, ohne „magische“ Versprechen.
