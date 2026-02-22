@@ -1,18 +1,16 @@
 ---
+layout: default
+title: "Downloads (alt)"
 permalink: /seiten/downloads_alias.html
-permalink: /seiten/downloads_alias.html
-description: "Downloads – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
-layout: page
-title: Downloads (alt)
 ---
 
-> **Hinweis:** Diese Seite ist eine alte Adresse.  
-> **Hier geht’s zur aktuellen Seite:** [/seiten/downloads.html]({{ site.baseurl }}/seiten/downloads.html)
+<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/downloads.html">
 
-<!-- EGO_WEITER_UX_NORMALIZE_V3 -->
+Falls du nicht automatisch weitergeleitet wirst: **[hier klicken]({{ site.baseurl }}/seiten/downloads.html)**.
+
 ## Weiter
-- [Zur aktuellen Seite]({{ site.baseurl }}/seiten/downloads.html)
-- [/seiten/themen-seiten.html]({{ site.baseurl }}/seiten/themen-seiten.html)
-- [/seiten/rechner-uebersicht.html]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}
