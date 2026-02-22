@@ -2,10 +2,9 @@
 permalink: /seiten/rechner-uebersicht.html
 layout: default
 title: Rechner Übersicht
-permalink: /seiten/rechner-uebersicht.html
 description: "Rechner-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Rechner-übersicht
+# Rechner Übersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.
 
 ## Rechner (mit passender Themen-Seite)
@@ -53,37 +52,5 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 ## Weiter
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
-
-
-## Rechner (Übersicht)
-
-- [Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html)
-- [Abo-Manager Rechner]({{ site.baseurl }}/seiten/rechner-abo-manager.html)
-- [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html)
-- [Schulden-Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schulden-schneeball.html)
-- [Jahreskosten-Kalender Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten-kalender.html)
-- [Rechner (Alt/Index)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-
-<!-- EGO_ORPHAN_LINKFIX_V2 -->
-### Altlink
-
-- [Rechner Index (Alt)]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-
-<!-- EGO_FRAGILE_LINKFIX_V3 -->
-## Weitere Rechner (ergänzt)
-
-- [50/30/20 Rechner]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
-- [Jahreskosten Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
-- [Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schneeball.html)
-
-<!-- EGO_FRAGILE_LINKFIX_V4 -->
-## Themen → passender Rechner
-
-- Fixkosten → [Fixkosten-Check]({{ site.baseurl }}/seiten/rechner-fixkosten-check.html) · [Fixkosten senken]({{ site.baseurl }}/seiten/fixkosten-senken.html)
-- Abos → [Abo-Manager Rechner]({{ site.baseurl }}/seiten/rechner-abo-manager.html) · [Abo-Manager]({{ site.baseurl }}/seiten/abo-manager.html)
-- 50/30/20 → [50/30/20 Rechner]({{ site.baseurl }}/seiten/rechner-50-30-20.html) · [50/30/20-Regel]({{ site.baseurl }}/seiten/50-30-20-regel.html)
-- Notgroschen → [Notgroschen Rechner]({{ site.baseurl }}/seiten/rechner-notgroschen.html) · [Notgroschen-System]({{ site.baseurl }}/seiten/notgroschen-system.html)
-- Schulden → [Schneeball Rechner]({{ site.baseurl }}/seiten/rechner-schneeball.html) · [Schuldenfrei: Schneeball]({{ site.baseurl }}/seiten/schuldenfrei-schneeball.html)
-- Jahreskosten → [Jahreskosten Rechner]({{ site.baseurl }}/seiten/rechner-jahreskosten.html) · [Haushaltsüberblick]({{ site.baseurl }}/seiten/haushaltsueberblick.html)
