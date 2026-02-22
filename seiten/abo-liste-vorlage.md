@@ -18,12 +18,11 @@ Hier bekommst du eine einfache Vorlage, um **alle Abos sichtbar** zu machen: Kos
 - Du notierst **Fristen**, damit du nichts verpasst.
 
 ## So nutzt du die Vorlage in 3 Minuten
-1) Download: [Abo-Liste Vorlage (CSV)]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)
-(Oeffnet in Excel/LibreOffice; du kannst sie danach als ODS/XLSX speichern.)
-2) Trage alle Abos ein: **Anbieter, Betrag, monatlich/jahrlich, Frist/Datum**.  
-3) Setze einen Reminder (z.B. **7–14 Tage vor Verlaengerung**).  
-4) Danach: unnoetige Abos kuendigen oder downgraden.
 
+1. Download: [Abo-Liste Vorlage (CSV)]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)<br>(Oeffnet in Excel/LibreOffice; du kannst sie danach als ODS/XLSX speichern.)
+2. Trage alle Abos ein: **Anbieter, Betrag, monatlich/jahrlich, Frist/Datum**.
+3. Setze einen Reminder (z.B. **7–14 Tage vor Verlaengerung**).
+4. Danach: unnoetige Abos kuendigen oder downgraden.
 ## Was soll in die Liste rein?
 
 - Anbieter / Produkt
