@@ -21,6 +21,8 @@ Ordne dein Geld so, daß du jeden Monat weisst, was reinkommt, was rausgeht und 
 <!-- EGO_INDEX_FIXKOSTEN_STEP_V1 -->
 - **Fixkosten erfassen (Start):** [Fixkosten übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
+
+<!-- EGO_LIST_BREAK -->
 ## Was du hier bekommst
 
 - **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
@@ -34,6 +36,7 @@ Ordne dein Geld so, daß du jeden Monat weisst, was reinkommt, was rausgeht und 
 - **Überblick:** So ist das System aufgebaut.  
   [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 <!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
+
 ## Weiter
 
 - [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)

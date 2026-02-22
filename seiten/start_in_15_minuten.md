@@ -15,11 +15,11 @@ Ziel: In 15 Minuten läuft dein Haushaltsbuch als eigene Kopie.
 
 ## Schritt 2: Datei laden und eigene Kopie speichern
 - Download-Datei öffnen
-- Sofort als eigene Kopie speichern (neür Dateiname)
+- Sofort als eigene Kopie speichern (neuer Dateiname)
 
 ## Schritt 3: Drei Pflichtschritte
 1. Kategorien wählen (oder Standard lassen)
-2. Monat starten (aktüllen Monat setzen)
+2. Monat starten (aktuellen Monat setzen)
 3. 1-3 Beispielbuchungen erfassen
 
 ## Mini-Check (30 Sekunden)
