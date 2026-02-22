@@ -10,6 +10,10 @@ description: "Abo-Liste Vorlage – in 3 Minuten alle Abos sichtbar machen (Kost
 
 # Abo-Liste Vorlage
 
+
+Download: [Abo-Liste Vorlage (CSV)]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)  
+(Oeffnet in Excel/LibreOffice; du kannst sie danach als ODS/XLSX speichern.)
+
 Hier bekommst du eine einfache Vorlage, um **alle Abos sichtbar** zu machen: Kosten, Intervall, Kuendigungsfrist.
 
 ## Wofuer ist das?
