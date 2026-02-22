@@ -17,11 +17,11 @@ Ziel: **erst 500 bis 1.000 EUR**, danach **1 bis 3 Monatsausgaben** (je nach Lag
 ## Mini-Plan (Start heute)
 1. Starte mit einem kleinen Ziel (z.B. 500 EUR).
 2. Lege ein separates Unterkonto oder ein zweites Konto an.
-3. Richte einen Dauerauftrag ein (auch 25 EUR sind ok).
-4. Nutze Extra-Geld (Rueckzahlung, Verkauf, Bonus) zuerst fuer den Notgroschen.
-5. Wenn du den Notgroschen nutzt: danach wieder auffuellen (Pflicht).
+3. Richte einen Daürauftrag ein (auch 25 EUR sind ok).
+4. Nutze Extra-Geld (Rückzahlung, Verkauf, Bonus) zürst für den Notgroschen.
+5. Wenn du den Notgroschen nutzt: danach wieder auffüllen (Pflicht).
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

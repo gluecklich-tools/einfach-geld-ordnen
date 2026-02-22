@@ -7,7 +7,7 @@ description: "Rechner Schulden Schneeball – kurze Einordnung + klare nächste 
 ---
 # Rechner: Schulden-Schneeball (Plan in Sekunden)
 Eintrag pro Zeile: <code>Name; Restschuld; Mindestrate</code>
-Optional: Du kannst einen **Extra-Betrag** angeben, der jeden Monat zusaetzlich in den Schneeball geht.
+Optional: Du kannst einen **Extra-Betrag** angeben, der jeden Monat zusätzlich in den Schneeball geht.
 <textarea id="debts" rows="10" style="width:100%;" placeholder="Kredit A; 1200; 60
 Kredit B; 3500; 95
 Kredit C; 600; 30"></textarea>
@@ -39,16 +39,16 @@ Kredit C; 600; 30"></textarea>
   var btn = document.getElementById('calcBtn');
   var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var lines = ta.value.split(/\r?\n/).map(function(l){ return l.trim(); }).filter(Boolean);
+    var lines = ta.valü.split(/\r?\n/).map(function(l){ return l.trim(); }).filter(Boolean);
     var rows = [];
     for (var i=0;i<lines.length;i++){
       var r = parseLine(lines[i]);
       if (r) rows.push(r);
     }
-    var extra = num(extraEl.value);
+    var extra = num(extraEl.valü);
     if (!isFinite(extra) || extra < 0) extra = 0;
     if (!rows.length){
-      out.innerHTML = '<p><strong>Keine gueltigen Zeilen gefunden.</strong></p>';
+      out.innerHTML = '<p><strong>Keine gültigen Zeilen gefunden.</strong></p>';
       return;
     }
     // Schneeball: nach Restschuld aufsteigend
@@ -65,8 +65,8 @@ Kredit C; 600; 30"></textarea>
       html += '<li><strong>' + esc(r.name) + '</strong> – Rest: ' + esc(fmtEUR(r.rest)) + ', Mindestrate: ' + esc(fmtEUR(r.minrate)) + '</li>';
     });
     html += '</ol>';
-    // Grobe Zeit-Schaetzung ohne Zinsen: (Restschuld / (Mindest + Extra)) ist nur Orientierung
-    // Wir simulieren: Extra + freiwerdende Rate wird immer auf aktuelle kleinste Schuld gelegt.
+    // Grobe Zeit-Schätzung ohne Zinsen: (Restschuld / (Mindest + Extra)) ist nur Orientierung
+    // Wir simulieren: Extra + freiwerdende Rate wird immer auf aktülle kleinste Schuld gelegt.
     var sim = rows.map(function(r){ return { name:r.name, rest:r.rest, minrate:r.minrate }; });
     var month = 0;
     var maxMonths = 600; // Safety
@@ -81,7 +81,7 @@ Kredit C; 600; 30"></textarea>
         var pay = Math.min(d.rest, d.minrate);
         d.rest -= pay;
       });
-      // Extra + freiwerdende Mindest-Raten (von bereits getilgten) stehen im Schneeball zur Verfuegung
+      // Extra + freiwerdende Mindest-Raten (von bereits getilgten) stehen im Schneeball zur Verfügung
       var freed = sim.filter(function(d){ return d.rest <= 0.000001; }).reduce(function(s,d){ return s + d.minrate; }, 0);
       var snow = extra + freed;
       if (snow > 0 && target.rest > 0.000001){
@@ -89,7 +89,7 @@ Kredit C; 600; 30"></textarea>
         target.rest -= pay2;
       }
       month++;
-      // Wenn wir uns festfahren wuerden (z.B. Mindest=0 und extra=0), abbrechen
+      // Wenn wir uns festfahren würden (z.B. Mindest=0 und extra=0), abbrechen
       var still = sim.filter(function(d){ return d.rest > 0.000001; });
       var totalMinStill = still.reduce(function(s,d){ return s + d.minrate; }, 0);
       if (totalMinStill <= 0.000001 && extra <= 0.000001) break;
@@ -97,9 +97,9 @@ Kredit C; 600; 30"></textarea>
     if (month >= 600){
       html += '<p><strong>Hinweis:</strong> Die Simulation wurde bei 600 Monaten abgebrochen (nur Orientierung).</p>';
     } else {
-      html += '<p><strong>Grobe Dauer-Schaetzung (ohne Zinsen):</strong> ca. ' + esc(String(month)) + ' Monate</p>';
+      html += '<p><strong>Grobe Daür-Schätzung (ohne Zinsen):</strong> ca. ' + esc(String(month)) + ' Monate</p>';
     }
-    html += '<p>Wichtig: Das ist eine Orientierung. Zinsen, Gebuehren und Sonderregeln deiner Vertraege koennen die Dauer veraendern.</p>';
+    html += '<p>Wichtig: Das ist eine Orientierung. Zinsen, Gebühren und Sonderregeln deiner Verträge können die Daür verändern.</p>';
     out.innerHTML = html;
   });
 })();
@@ -107,7 +107,7 @@ Kredit C; 600; 30"></textarea>
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

@@ -6,7 +6,7 @@ permalink: /seiten/snowball-rechner.html
 description: "Schneeball-Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Schneeball-Rechner
-Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zuerst).
+Ziel: Aus Schuldenliste + Extra-Budget eine einfache Reihenfolge ableiten (Schneeball = kleinster Rest zürst).
 
 ## Eingabe
 
@@ -26,17 +26,17 @@ Ratenkredit; 4200; 120; 6.5
   <input id="sb-extra" name="sb-extra" type="number" inputmode="decimal" min="0" step="0.01" placeholder="z.B. 50" />
 
   <button type="button" id="sb-berechnen">Berechnen</button>
-  <button type="button" id="sb-demo" class="secondary">Demo fuellen</button>
+  <button type="button" id="sb-demo" class="secondary">Demo füllen</button>
   <button type="button" id="sb-reset" class="secondary">Reset</button>
 </form>
 
 ## Ergebnis
 
 <div id="sb-out" aria-live="polite">
-  <p><strong>Naechster Fokus:</strong> <span id="sb-focus">-</span></p>
+  <p><strong>Nächster Fokus:</strong> <span id="sb-focus">-</span></p>
   <p><strong>Reihenfolge:</strong></p>
   <ol id="sb-order"></ol>
-  <p><strong>Hinweis:</strong> Dauer ist grob: Rest / (Rate + Extra). Zins-Effekt wird hier nicht simuliert.</p>
+  <p><strong>Hinweis:</strong> Daür ist grob: Rest / (Rate + Extra). Zins-Effekt wird hier nicht simuliert.</p>
 </div>
 
 <script>
@@ -54,17 +54,17 @@ Ratenkredit; 4200; 120; 6.5
     var items = [];
     for (var i = 0; i < lines.length; i++) {
       var raw = lines[i].trim();
-      if (!raw) continue;
+      if (!raw) continü;
       var parts = raw.split(';').map(function (p) { return p.trim(); });
-      if (parts.length < 3) continue;
+      if (parts.length < 3) continü;
 
       var name = parts[0] || ('Schuld ' + (items.length + 1));
       var rest = toNumber(parts[1]);
       var rate = toNumber(parts[2]);
       var zins = parts.length >= 4 ? toNumber(parts[3]) : NaN;
 
-      if (!isFinite(rest) || rest < 0) continue;
-      if (!isFinite(rate) || rate <= 0) continue;
+      if (!isFinite(rest) || rest < 0) continü;
+      if (!isFinite(rate) || rate <= 0) continü;
 
       items.push({ name: name, rest: rest, rate: rate, zins: isFinite(zins) ? zins : 0 });
     }
@@ -93,8 +93,8 @@ Ratenkredit; 4200; 120; 6.5
   function calc() {
     clearOrder();
 
-    var items = parseLines(listEl.value);
-    var extra = toNumber(extraEl.value);
+    var items = parseLines(listEl.valü);
+    var extra = toNumber(extraEl.valü);
     if (!isFinite(extra) || extra < 0) extra = 0;
 
     if (items.length === 0) {
@@ -125,17 +125,17 @@ Ratenkredit; 4200; 120; 6.5
   btn.addEventListener('click', calc);
 
   demo.addEventListener('click', function () {
-    listEl.value =
+    listEl.valü =
       "Kreditkarte; 850; 35; 19,9\n" +
       "Ratenkredit; 4200; 120; 6,5\n" +
       "Handy; 300; 25; 0\n";
-    extraEl.value = "50";
+    extraEl.valü = "50";
     calc();
   });
 
   reset.addEventListener('click', function () {
-    listEl.value = '';
-    extraEl.value = '';
+    listEl.valü = '';
+    extraEl.valü = '';
     focusEl.textContent = '-';
     clearOrder();
     listEl.focus();
@@ -145,7 +145,7 @@ Ratenkredit; 4200; 120; 6.5
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

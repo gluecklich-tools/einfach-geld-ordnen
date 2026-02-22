@@ -2,13 +2,14 @@
 permalink: /seiten/proof-rechner.html
 layout: default
 title: "Proof Rechner"
-permalink: /seiten/proof-rechner.html
 description: "Proof Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
----# Proof Rechner
+---
+
+# Proof Rechner
 
 Diese Seite ist eine Proof-Implementierung der Rechner-Vorlage.
-Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur ueber den Include.
+Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur über den Include.
 
 ## Ziel
 Ein Satz, was der Rechner macht.
@@ -28,7 +29,7 @@ Ein Satz, was der Rechner macht.
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

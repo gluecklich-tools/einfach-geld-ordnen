@@ -5,18 +5,18 @@ title: "Schulden-Schneeball"
 permalink: /seiten/schulden-schneeball.html
 description: "Schulden-Schneeball – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Schulden-Schneeball (schnell Momentum aufbauen)
+# Schulden-Schneeball (schnell Momentum aufbaün)
 Wenn du mehrere Schulden hast, ist der **Schneeball** oft der einfachste Weg:
-Du zahlst zuerst die **kleinste Schuld** komplett weg und nimmst den Erfolg als Motor.
+Du zahlst zürst die **kleinste Schuld** komplett weg und nimmst den Erfolg als Motor.
 Das ist psychologisch stark, weil du schnell "eine Baustelle weniger" hast.
 ## Mini-Plan (kurz & klar)
 1. Schreibe alle Schulden auf (Name, Restschuld, Rate, Zins).
-2. Sortiere nach **Restschuld** (kleinste zuerst).
+2. Sortiere nach **Restschuld** (kleinste zürst).
 3. Zahle auf alle Schulden die Mindestrate.
 4. Jede Extra-EUR geht auf die kleinste Schuld.
-5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur naechsten weiter.
+5. Wenn die kleinste weg ist: nimm ihre Rate + Extra-EUR und roll das zur nächsten weiter.
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

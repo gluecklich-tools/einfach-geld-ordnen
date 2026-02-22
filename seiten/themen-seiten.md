@@ -7,12 +7,12 @@ description: "Themen-Seiten – kurze Einordnung + klare nächste Schritte. Haus
 ---
 # Themen-Seiten
 
-uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Rueckfragen).
+übersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Rückfragen).
 
 ## Themenbereiche
 
 - **Schulden**
-- **Ruecklagen**
+- **Rücklagen**
 - **Fixkosten**
 
 ## Einstieg (mit passendem Rechner)
@@ -44,7 +44,7 @@ uebersicht: kurze, umsetzbare Self-Serve-Seiten (ohne Rueckfragen).
 - **Sparen automatisch**  
   Themen-Seite: [Sparen automatisch]({{site.baseurl}}/seiten/sparen-automatisch.html)
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

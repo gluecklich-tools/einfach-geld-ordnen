@@ -7,16 +7,16 @@ description: "Rechner Notgroschen – kurze Einordnung + klare nächste Schritte
 ---
 # Rechner: Notgroschen-Ziel & Plan
 Du gibst deine monatlichen Ausgaben und deinen Sparbetrag ein.
-Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert.
+Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob daürt.
 <label for="ausgaben">Monatliche Ausgaben (EUR)</label>
 <input id="ausgaben" type="number" min="0" step="1" inputmode="numeric" />
 <label for="sparrate">Sparrate pro Monat (EUR)</label>
 <input id="sparrate" type="number" min="0" step="1" inputmode="numeric" />
 <label for="monate">Ziel in Monatsausgaben</label>
 <select id="monate">
-  <option value="1">1 Monat</option>
-  <option value="2">2 Monate</option>
-  <option value="3" selected>3 Monate</option>
+  <option valü="1">1 Monat</option>
+  <option valü="2">2 Monate</option>
+  <option valü="3" selected>3 Monate</option>
 </select>
 <p>
   <button id="calcBtn" type="button">Berechnen</button>
@@ -36,11 +36,11 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
   var btn = document.getElementById('calcBtn');
   var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var a = num(ausgaben.value);
-    var s = num(sparrate.value);
-    var m = num(monate.value);
+    var a = num(ausgaben.valü);
+    var s = num(sparrate.valü);
+    var m = num(monate.valü);
     if (a <= 0 || s <= 0 || m <= 0){
-      out.innerHTML = '<p><strong>Bitte gueltige Werte eingeben.</strong></p>';
+      out.innerHTML = '<p><strong>Bitte gültige Werte eingeben.</strong></p>';
       return;
     }
     var ziel = a * m;
@@ -48,7 +48,7 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
     var html = '';
     html += '<p><strong>Ziel (Notgroschen):</strong> ' + esc(fmtEUR(ziel)) + ' (' + esc(String(m)) + ' Monatsausgaben)</p>';
     html += '<p><strong>Sparrate:</strong> ' + esc(fmtEUR(s)) + ' / Monat</p>';
-    html += '<p><strong>Grobe Dauer:</strong> ca. ' + esc(String(months)) + ' Monate</p>';
+    html += '<p><strong>Grobe Daür:</strong> ca. ' + esc(String(months)) + ' Monate</p>';
     html += '<p>Hinweis: Starte klein (500 bis 1.000 EUR), dann baust du weiter auf.</p>';
     out.innerHTML = html;
   });
@@ -57,7 +57,7 @@ Der Rechner zeigt dir ein Ziel (1, 2 oder 3 Monate) und wie lange es grob dauert
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

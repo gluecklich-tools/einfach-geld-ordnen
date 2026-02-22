@@ -2,13 +2,14 @@
 permalink: /seiten/proof-themen-seite.html
 layout: default
 title: "Proof Themen-Seite"
-permalink: /seiten/proof-themen-seite.html
 description: "Proof Themen-Seite – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
----# Proof Themen-Seite
+---
+
+# Proof Themen-Seite
 
 Diese Seite ist eine Proof-Implementierung der Themen-Seite-Vorlage.
-Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur ueber den Include.
+Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur über den Include.
 
 ## H1 + Kurzpitch
 - Zielgruppe: Beispiel
@@ -24,7 +25,7 @@ Ziel: Struktur steht, keine internen Links im Body. Der Weiter-Block kommt nur u
 - Frage 2: Antwort
 - Frage 3: Antwort
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

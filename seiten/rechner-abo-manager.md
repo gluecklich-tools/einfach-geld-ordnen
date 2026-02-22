@@ -6,7 +6,7 @@ permalink: /seiten/rechner-abo-manager.html
 description: "Rechner Abo-Manager – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Rechner: Abo-Manager (Kosten pro Monat und Jahr)
-Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten Abos.
+Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teürsten Abos.
 <div class="grid">
   <div>
     <label for="name">Abo-Name</label>
@@ -19,13 +19,13 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
   <div>
     <label for="rhythmus">Rhythmus</label>
     <select id="rhythmus">
-      <option value="month" selected>monatlich</option>
-      <option value="year">jaehrlich</option>
+      <option valü="month" selected>monatlich</option>
+      <option valü="year">jährlich</option>
     </select>
   </div>
 </div>
 <p>
-  <button id="addBtn" type="button">Abo hinzufuegen</button>
+  <button id="addBtn" type="button">Abo hinzufügen</button>
   <button id="clearBtn" type="button" class="secondary">Liste leeren</button>
 </p>
 <div id="list"></div>
@@ -47,7 +47,7 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
   var outEl = document.getElementById('out');
   var items = [];
   function toMonthly(it){
-    var v = it.value;
+    var v = it.valü;
     if (it.freq === 'year') return v / 12;
     return v;
   }
@@ -62,7 +62,7 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
       var y = m * 12;
       return '<tr>' +
         '<td>' + esc(it.name) + '</td>' +
-        '<td>' + esc(it.freq === "year" ? "jaehrlich" : "monatlich") + '</td>' +
+        '<td>' + esc(it.freq === "year" ? "jährlich" : "monatlich") + '</td>' +
         '<td style="text-align:right;">' + esc(fmtEUR(m)) + '</td>' +
         '<td style="text-align:right;">' + esc(fmtEUR(y)) + '</td>' +
         '<td style="text-align:right;"><button type="button" data-del="' + idx + '">X</button></td>' +
@@ -79,14 +79,14 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
       return esc(it.name) + ' (' + esc(fmtEUR(toMonthly(it))) + '/Monat)';
     });
     var hint = '';
-    if (totalM >= 50) hint = 'Wenn du 1 bis 2 Abos kuendigst, sind 10 bis 30 EUR oft sofort drin.';
-    if (totalM >= 100) hint = 'Hier steckt meist richtig Potenzial: starte mit den teuersten Abos und pruefe doppelte Dienste.';
+    if (totalM >= 50) hint = 'Wenn du 1 bis 2 Abos kündigst, sind 10 bis 30 EUR oft sofort drin.';
+    if (totalM >= 100) hint = 'Hier steckt meist richtig Potenzial: starte mit den teürsten Abos und prüfe doppelte Dienste.';
     if (totalM < 20) hint = 'Du hast schon wenig Abos. Fokus kann jetzt eher Fixkosten oder Einnahmen sein.';
     outEl.innerHTML =
       '<p><strong>Summe:</strong> ' + esc(fmtEUR(totalM)) + ' pro Monat (' + esc(fmtEUR(totalY)) + ' pro Jahr)</p>' +
       '<p><strong>Top-Abos:</strong> ' + (top.length ? top.join(', ') : '-') + '</p>' +
       '<p>' + esc(hint) + '</p>';
-    Array.prototype.slice.call(listEl.querySelectorAll('button[data-del]')).forEach(function(btn){
+    Array.prototype.slice.call(listEl.qürySelectorAll('button[data-del]')).forEach(function(btn){
       btn.addEventListener('click', function(){
         var i = Number(btn.getAttribute('data-del'));
         if (isFinite(i)) { items.splice(i,1); render(); }
@@ -94,16 +94,16 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
     });
   }
   addBtn.addEventListener('click', function(){
-    var n = String(nameEl.value || '').trim();
-    var v = num(betragEl.value);
-    var f = String(rhyEl.value || 'month');
+    var n = String(nameEl.valü || '').trim();
+    var v = num(betragEl.valü);
+    var f = String(rhyEl.valü || 'month');
     if (!n || v <= 0){
       outEl.innerHTML = '<p><strong>Bitte Abo-Name und Betrag eingeben.</strong></p>';
       return;
     }
-    items.push({ name: n, value: v, freq: (f === 'year' ? 'year' : 'month') });
-    nameEl.value = '';
-    betragEl.value = '';
+    items.push({ name: n, valü: v, freq: (f === 'year' ? 'year' : 'month') });
+    nameEl.valü = '';
+    betragEl.valü = '';
     nameEl.focus();
     render();
   });
@@ -117,7 +117,7 @@ Trage deine Abos ein. Der Rechner zeigt dir die Gesamtkosten und deine teuersten
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

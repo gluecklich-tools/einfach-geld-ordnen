@@ -21,12 +21,12 @@ Ziel: kurzer Input -> klares Ergebnis (Self-Serve).
 
 ## Hinweise
 
-- Self-Serve, keine individuelle Einzelfallpruefung
-- Wenn negativ: Fixkosten senken oder Einnahmen erhoehen
+- Self-Serve, keine individülle Einzelfallprüfung
+- Wenn negativ: Fixkosten senken oder Einnahmen erhöhen
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

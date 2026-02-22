@@ -32,18 +32,18 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
   var btn = document.getElementById('calcBtn');
   var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var n = num(netto.value);
-    var f = num(fix.value);
+    var n = num(netto.valü);
+    var f = num(fix.valü);
     if (n <= 0 || f < 0){
-      out.innerHTML = '<p><strong>Bitte gueltige Werte eingeben.</strong></p>';
+      out.innerHTML = '<p><strong>Bitte gültige Werte eingeben.</strong></p>';
       return;
     }
     var q = (f / n) * 100;
     var qRound = Math.round(q * 10) / 10;
-    var amp = 'Gruen';
+    var amp = 'Grün';
     var hint = 'Du hast gute Luft. Halte die Fixkosten stabil.';
-    if (q >= 35) { amp = 'Gelb'; hint = 'Ok, aber hier steckt oft Sparpotenzial (Vertraege, Abos, Versicherungen).'; }
-    if (q >= 50) { amp = 'Rot';  hint = 'Kritisch: Fixkosten sind sehr hoch. Fokus auf groesste Posten und schnelle Kuendigungen.'; }
+    if (q >= 35) { amp = 'Gelb'; hint = 'Ok, aber hier steckt oft Sparpotenzial (Verträge, Abos, Versicherungen).'; }
+    if (q >= 50) { amp = 'Rot';  hint = 'Kritisch: Fixkosten sind sehr hoch. Fokus auf grösste Posten und schnelle Kündigungen.'; }
     var ziel = 0;
     if (q >= 35 && q < 50) ziel = Math.max(0, Math.round((f - (n*0.35))/1));
     if (q >= 50) ziel = Math.max(0, Math.round((f - (n*0.35))/1));
@@ -52,10 +52,10 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
     html += '<p><strong>Ampel:</strong> ' + esc(amp) + '</p>';
     html += '<p>' + esc(hint) + '</p>';
     if (ziel > 0){
-      html += '<p><strong>Orientierung:</strong> Wenn du Richtung 35% willst, muesstest du grob ' + esc(fmtEUR(ziel)) + ' pro Monat senken.</p>';
+      html += '<p><strong>Orientierung:</strong> Wenn du Richtung 35% willst, müsstest du grob ' + esc(fmtEUR(ziel)) + ' pro Monat senken.</p>';
     }
     var frei = Math.max(0, n - f);
-    html += '<p><strong>Frei verfuegbar (nach Fixkosten):</strong> ' + esc(fmtEUR(frei)) + '</p>';
+    html += '<p><strong>Frei verfügbar (nach Fixkosten):</strong> ' + esc(fmtEUR(frei)) + '</p>';
     out.innerHTML = html;
   });
 })();
@@ -63,7 +63,7 @@ Der Rechner zeigt dir deine **Fixkostenquote** und eine einfache Ampel.
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

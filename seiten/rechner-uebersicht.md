@@ -5,7 +5,7 @@ title: Rechner Übersicht
 permalink: /seiten/rechner-uebersicht.html
 description: "Rechner-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Rechner-uebersicht
+# Rechner-übersicht
 Hier findest du einfache Mini-Rechner (Self-Serve). Zu jedem Rechner gibt es eine passende Themen-Seite mit kurzer Anleitung.
 
 ## Rechner (mit passender Themen-Seite)
@@ -53,7 +53,7 @@ Hier findest du alle Rechner-Seiten direkt (damit nichts „versteckt“ bleibt)
 ## Weiter
 - [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

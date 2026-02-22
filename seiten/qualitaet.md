@@ -8,42 +8,42 @@ nav_order: 920
 flow_systemlinks: true
 description: "Qualitaet & Prinzipien – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Qualitaet & Prinzipien
+# Qualität & Prinzipien
 
-Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orientieren kannst** – ohne Fachchinesisch und ohne Marketing-uebertreibung.
+Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orientieren kannst** – ohne Fachchinesisch und ohne Marketing-übertreibung.
 
 ## Was du hier bekommst
 - **Klare Vorlagen** (Haushaltsbuch) zum Download
-- **Einfache Schritt-fuer-Schritt-Anleitung**, damit du zuegig starten kannst
-- **Datensparsame Nutzung**: Du arbeitest lokal in deiner Datei, nicht in einer Cloud-Zwangsloesung
+- **Einfache Schritt-für-Schritt-Anleitung**, damit du zügig starten kannst
+- **Datensparsame Nutzung**: Du arbeitest lokal in deiner Datei, nicht in einer Cloud-Zwangslösung
 
-> Ziel: Du sollst deine Finanzen **uebersichtlich ordnen** koennen – ohne dich durch 100 Menues zu kaempfen.
+> Ziel: Du sollst deine Finanzen **übersichtlich ordnen** können – ohne dich durch 100 Menüs zu kämpfen.
 
-## Qualitaetsprinzipien
+## Qualitätsprinzipien
 1. **Einfach vor komplex**  
-   Lieber verstaendlich und robust als ueberladen.
+   Lieber verständlich und robust als überladen.
 2. **Fehlerarm vor fancy**  
-   aenderungen werden so umgesetzt, dass sie reproduzierbar sind und nicht „zufaellig“ funktionieren.
+   änderungen werden so umgesetzt, daß sie reproduzierbar sind und nicht „zufällig“ funktionieren.
 3. **Datenschutz als Standard**  
-   Keine Veroeffentlichung von sensiblen Finanzdaten, Nachweisen oder personenbezogenen Informationen.
-4. **Kompatibilitaet pragmatisch**  
-   Die Vorlagen sind so gebaut, dass sie in gaengigen Office-Umgebungen nutzbar bleiben (ohne Spezialtricks, die schnell brechen).
+   Keine Veröffentlichung von sensiblen Finanzdaten, Nachweisen oder personenbezogenen Informationen.
+4. **Kompatibilität pragmatisch**  
+   Die Vorlagen sind so gebaut, daß sie in gängigen Office-Umgebungen nutzbar bleiben (ohne Spezialtricks, die schnell brechen).
 5. **Transparenz statt Versprechen**  
    Es gibt klare Grenzen, was das Produkt leisten kann – und was nicht.
 
 ## Wichtige Grenzen (ehrlich & klar)
-- **Keine Steuerberatung, keine Rechtsberatung.**
-- **Keine Garantie**, dass jede individuelle Konstellation (z. B. Sonderfaelle, exotische Systeme, sehr alte Software) ohne Anpassung laeuft.
-- **Self-serve**: Das Produkt ist so aufgebaut, dass du es selbststaendig nutzen kannst. Es gibt keinen zugesicherten 1:1-Rueckfragen.
+- **Keine Steürberatung, keine Rechtsberatung.**
+- **Keine Garantie**, daß jede individülle Konstellation (z. B. Sonderfälle, exotische Systeme, sehr alte Software) ohne Anpassung läuft.
+- **Self-serve**: Das Produkt ist so aufgebaut, daß du es selbstständig nutzen kannst. Es gibt keinen zugesicherten 1:1-Rückfragen.
 
 ## Datenschutz 
-- Deine Daten bleiben grundsaetzlich **bei dir**.
-- oeffentliche Projektdateien enthalten **keine** Kontoauszuege, Auszahlungsnachweise, Behoerdenkommunikation oder aehnliche Dokumente.
+- Deine Daten bleiben grundsätzlich **bei dir**.
+- öffentliche Projektdateien enthalten **keine** Kontoauszüge, Auszahlungsnachweise, Behördenkommunikation oder ähnliche Dokumente.
 
 Mehr dazu: [Datenschutz]({{site.baseurl}}/seiten/datenschutz.html)  
 Impressum: [Impressum]({{site.baseurl}}/seiten/impressum.html)
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
@@ -51,11 +51,11 @@ Impressum: [Impressum]({{site.baseurl}}/seiten/impressum.html)
 
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
-- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binaersicher, keine Side-Effects.
+- APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binärsicher, keine Side-Effects.
 - GATES: mindestens .\tools\ego-run.ps1; weitere Runner nur wenn Datei existiert.
 - COMMIT/PUSH: nur wenn git status --porcelain nicht leer. Sonst NO_COMMIT.
 - LIVE: HEAD-200 Smoke auf Kern-URLs.
-Wenn ein Task nicht in diesen Ablauf passt: zuerst so umbauen, dass er passt.
+Wenn ein Task nicht in diesen Ablauf passt: zürst so umbaün, daß er passt.
 Kein Renegade.
 <!-- EGO_LAW_RUNNER_END -->
 
@@ -73,7 +73,7 @@ Kein Renegade.
 ## Audit L2 (Monatslauf)
 - Audit-Seite: {{site.baseurl}}/seiten/audit.html
 - Evidence: assets/audit/YYYY-MM/
-- Monatslauf laeuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issue erstellt.
+- Monatslauf läuft per GitHub Actions (monthly-audit). Bei FAIL wird ein Issü erstellt.
 <!-- EGO_AUDIT_L2_HINT_END -->
 
 {% include no_sackgasse_footer.html %}

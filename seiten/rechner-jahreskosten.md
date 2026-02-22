@@ -5,7 +5,7 @@ title: Rechner Jahreskosten
 permalink: /seiten/rechner-jahreskosten.html
 description: "Rechner Jahreskosten – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Rechner: Jahreskosten -> Monatsruecklage
+# Rechner: Jahreskosten -> Monatsrücklage
 Eintrag pro Zeile: <code>Name; Betrag; Intervall</code>
 Intervall: <code>monat</code>, <code>quartal</code>, <code>halbjahr</code>, <code>jahr</code>
 <textarea id="items" rows="10" style="width:100%;" placeholder="Kfz-Versicherung; 780; jahr
@@ -48,21 +48,21 @@ Wartung Heizung; 180; jahr"></textarea>
   var btn = document.getElementById('calcBtn');
   var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var lines = ta.value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+    var lines = ta.valü.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
     var rows = [];
     for (var i=0;i<lines.length;i++){
       var r = parseLine(lines[i]);
       if (r) rows.push(r);
     }
     if (!rows.length){
-      out.innerHTML = '<p><strong>Keine gueltigen Zeilen gefunden.</strong></p>';
+      out.innerHTML = '<p><strong>Keine gültigen Zeilen gefunden.</strong></p>';
       return;
     }
     rows.sort(function(a,b){ return b.monthly - a.monthly; });
     var sumM = rows.reduce((s,r)=>s+r.monthly,0);
     var sumY = rows.reduce((s,r)=>s+r.yearly,0);
     var html = '';
-    html += '<p><strong>Monatsruecklage gesamt:</strong> ' + esc(fmtEUR(sumM)) + '</p>';
+    html += '<p><strong>Monatsrücklage gesamt:</strong> ' + esc(fmtEUR(sumM)) + '</p>';
     html += '<p><strong>Jahressumme (hochgerechnet):</strong> ' + esc(fmtEUR(sumY)) + '</p>';
     html += '<h2>Liste (sortiert nach Monatslast)</h2>';
     html += '<ol>';
@@ -77,7 +77,7 @@ Wartung Heizung; 180; jahr"></textarea>
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

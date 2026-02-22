@@ -5,8 +5,8 @@ title: Rechner 50-30-20
 permalink: /seiten/rechner-50-30-20.html
 description: "Rechner 50-30-20 – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Rechner: 50/30/20 Budget (Aufteilung in 3 Toepfe)
-Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, Wunsch und Zukunft.
+# Rechner: 50/30/20 Budget (Aufteilung in 3 Töpfe)
+Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte für Bedarf, Wunsch und Zukunft.
 <label for="netto">Netto-Einkommen pro Monat (EUR)</label>
 <input id="netto" type="number" min="0" step="1" inputmode="numeric" />
 <p>
@@ -25,9 +25,9 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
   var btn = document.getElementById('calcBtn');
   var out = document.getElementById('out');
   btn.addEventListener('click', function(){
-    var n = num(netto.value);
+    var n = num(netto.valü);
     if (n <= 0){
-      out.innerHTML = '<p><strong>Bitte ein gueltiges Netto-Einkommen eingeben.</strong></p>';
+      out.innerHTML = '<p><strong>Bitte ein gültiges Netto-Einkommen eingeben.</strong></p>';
       return;
     }
     var need = n * 0.50;
@@ -40,7 +40,7 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
     html += '<tr><td>Wunsch (30%)</td><td style="text-align:right;">' + esc(fmtEUR(want)) + '</td></tr>';
     html += '<tr><td>Zukunft (20%)</td><td style="text-align:right;">' + esc(fmtEUR(future)) + '</td></tr>';
     html += '</tbody></table>';
-    html += '<p>Tipp: Wenn du Schulden oder keinen Notgroschen hast, senke "Wunsch" und erhoehe "Zukunft" voruebergehend.</p>';
+    html += '<p>Tipp: Wenn du Schulden oder keinen Notgroschen hast, senke "Wunsch" und erhöhe "Zukunft" vorübergehend.</p>';
     out.innerHTML = html;
   });
 })();
@@ -48,7 +48,7 @@ Gib dein Netto-Einkommen ein. Der Rechner zeigt dir die Richtwerte fuer Bedarf, 
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

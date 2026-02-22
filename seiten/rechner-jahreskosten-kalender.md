@@ -19,15 +19,15 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
   <div>
     <label for="rhythmus">Rhythmus</label>
     <select id="rhythmus">
-      <option value="12" selected>jaehrlich (12 Monate)</option>
-      <option value="6">halbjaehrlich (6 Monate)</option>
-      <option value="3">quartalsweise (3 Monate)</option>
-      <option value="1">monatlich (1 Monat)</option>
+      <option valü="12" selected>jährlich (12 Monate)</option>
+      <option valü="6">halbjährlich (6 Monate)</option>
+      <option valü="3">quartalsweise (3 Monate)</option>
+      <option valü="1">monatlich (1 Monat)</option>
     </select>
   </div>
 </div>
 <p>
-  <button id="addBtn" type="button">Posten hinzufuegen</button>
+  <button id="addBtn" type="button">Posten hinzufügen</button>
   <button id="clearBtn" type="button" class="secondary">Liste leeren</button>
 </p>
 <div id="list"></div>
@@ -51,7 +51,7 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
   function monthly(it){
     var m = it.months;
     if (m <= 0) m = 12;
-    return it.value / m;
+    return it.valü / m;
   }
   function render(){
     if (!items.length){
@@ -64,7 +64,7 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
       var py = pm * 12;
       return '<tr>' +
         '<td>' + esc(it.name) + '</td>' +
-        '<td style="text-align:right;">' + esc(fmtEUR(it.value)) + '</td>' +
+        '<td style="text-align:right;">' + esc(fmtEUR(it.valü)) + '</td>' +
         '<td style="text-align:right;">' + esc(String(it.months)) + '</td>' +
         '<td style="text-align:right;">' + esc(fmtEUR(pm)) + '</td>' +
         '<td style="text-align:right;">' + esc(fmtEUR(py)) + '</td>' +
@@ -80,7 +80,7 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
     outEl.innerHTML =
       '<p><strong>Summe:</strong> ' + esc(fmtEUR(totalM)) + ' pro Monat (' + esc(fmtEUR(totalY)) + ' pro Jahr)</p>' +
       '<p>Tipp: Lege genau diese Monats-Summe automatisch zur Seite (Unterkonto), dann sind grosse Rechnungen "bezahlt, bevor sie kommen".</p>';
-    Array.prototype.slice.call(listEl.querySelectorAll('button[data-del]')).forEach(function(btn){
+    Array.prototype.slice.call(listEl.qürySelectorAll('button[data-del]')).forEach(function(btn){
       btn.addEventListener('click', function(){
         var i = Number(btn.getAttribute('data-del'));
         if (isFinite(i)) { items.splice(i,1); render(); }
@@ -88,16 +88,16 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
     });
   }
   addBtn.addEventListener('click', function(){
-    var n = String(nameEl.value || '').trim();
-    var v = num(betragEl.value);
-    var m = num(rhyEl.value);
+    var n = String(nameEl.valü || '').trim();
+    var v = num(betragEl.valü);
+    var m = num(rhyEl.valü);
     if (!n || v <= 0 || m <= 0){
       outEl.innerHTML = '<p><strong>Bitte Posten, Betrag und Rhythmus eingeben.</strong></p>';
       return;
     }
-    items.push({ name: n, value: v, months: m });
-    nameEl.value = '';
-    betragEl.value = '';
+    items.push({ name: n, valü: v, months: m });
+    nameEl.valü = '';
+    betragEl.valü = '';
     nameEl.focus();
     render();
   });
@@ -111,7 +111,7 @@ Trage Kosten ein, die nicht monatlich sind. Der Rechner rechnet alles auf **pro 
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

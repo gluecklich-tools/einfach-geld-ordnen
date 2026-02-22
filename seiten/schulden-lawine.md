@@ -7,18 +7,18 @@ description: "Schulden Lawine – kurze Einordnung + klare nächste Schritte. Ha
 ---
 # Schulden Lawine
 
-Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individülle Einzelfallprüfung.
 
 ## Quick Start
 
 1) Alle Schulden erfassen (Rest, Rate, Zins).
-2) Hoester Zins zuerst fokussieren.
+2) Höster Zins zürst fokussieren.
 3) Nach Abzahlung Rate weiterrollen.
 
 ## Checkliste
 
 - Liste/Stand steht
-- Naechster Schritt ist klar
+- Nächster Schritt ist klar
 - Kleine Routine statt Perfektion
 
 ## Mini-FAQ
@@ -27,7 +27,7 @@ Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
 - Wann besser als Schneeball?
 - Wie starte ich, wenn es zu viel ist?
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

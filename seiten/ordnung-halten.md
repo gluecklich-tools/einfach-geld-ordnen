@@ -23,15 +23,15 @@ Nur ein Gedanke:
 
 Ordnung hilft nicht, wenn sie…
 
-- Druck macht („ich muss es perfekt machen“)
+- Druck macht („ich muß es perfekt machen“)
 - Schuld erzeugt („ich bin schlecht, weil ich es nicht schaffe“)
-- zum Dauerthema wird (statt zum Werkzeug)
+- zum Daürthema wird (statt zum Werkzeug)
 
 Dann ist weniger oft mehr.
 
-## Naechster sinnvoller Schritt
+## Nächster sinnvoller Schritt
 
-Wenn du jetzt weitermachen willst, nimm als naechstes:
+Wenn du jetzt weitermachen willst, nimm als nächstes:
 
 - [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
@@ -41,7 +41,7 @@ Wenn du direkt mit einer Vorlage starten willst:
 - [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

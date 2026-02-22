@@ -7,7 +7,7 @@ description: "Spielraum – kurze Einordnung + klare nächste Schritte. Haushalt
 ---
 # Spielraum
 
-Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
+Kurz: Self-Serve. Klar und umsetzbar. Keine individülle Einzelfallprüfung.
 
 ## Quick Start
 
@@ -18,7 +18,7 @@ Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
 ## Checkliste
 
 - Liste/Stand steht
-- Naechster Schritt ist klar
+- Nächster Schritt ist klar
 - Kleine Routine statt Perfektion
 
 ## Mini-FAQ
@@ -27,7 +27,7 @@ Kurz: Self-Serve. Klar und umsetzbar. Keine individuelle Einzelfallpruefung.
 - Wie plane ich variabel?
 - Was wenn Spielraum negativ ist?
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

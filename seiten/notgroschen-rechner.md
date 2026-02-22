@@ -7,7 +7,7 @@ description: "Notgroschen Rechner – kurze Einordnung + klare nächste Schritte
 ---
 # Notgroschen Rechner
 
-Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen ableiten (Self-Serve).
+Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich für den Notgroschen ableiten (Self-Serve).
 
 ## Eingabe
 
@@ -20,12 +20,12 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 
   <label for="ng-risiko">Risiko-Level</label>
   <select id="ng-risiko" name="ng-risiko">
-    <option value="niedrig">niedrig (1-3 Monate)</option>
-    <option value="mittel" selected>mittel (3-6 Monate)</option>
-    <option value="hoch">hoch (6-9 Monate)</option>
+    <option valü="niedrig">niedrig (1-3 Monate)</option>
+    <option valü="mittel" selected>mittel (3-6 Monate)</option>
+    <option valü="hoch">hoch (6-9 Monate)</option>
   </select>
 
-  <label for="ng-monate">Sparziel-Dauer (optional, Monate)</label>
+  <label for="ng-monate">Sparziel-Daür (optional, Monate)</label>
   <input id="ng-monate" name="ng-monate" type="number" inputmode="numeric" min="1" step="1" placeholder="z.B. 12" />
 
   <button type="button" id="ng-berechnen">Berechnen</button>
@@ -42,9 +42,9 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 
 ## Hinweise
 
-- Grobe Naeherung (kein Finanz-/Steuer-/Rechtsrat).
+- Grobe Näherung (kein Finanz-/Steür-/Rechtsrat).
 - Wenn Einkommen schwankt oder Risiko hoch ist: eher oberen Bereich nutzen.
-- Wenn du gerade startest: zuerst 300-1.000 EUR Mini-Notgroschen aufbauen, dann Bandbreite.
+- Wenn du gerade startest: zürst 300-1.000 EUR Mini-Notgroschen aufbaün, dann Bandbreite.
 
 <script>
 (function () {
@@ -79,10 +79,10 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
   var reset = document.getElementById('ng-reset');
 
   function calc() {
-    var fix = toNumber(fixEl.value);
-    var vari = toNumber(varEl.value);
-    var lvl = String(lvlEl.value || 'mittel');
-    var m = toNumber(monEl.value);
+    var fix = toNumber(fixEl.valü);
+    var vari = toNumber(varEl.valü);
+    var lvl = String(lvlEl.valü || 'mittel');
+    var m = toNumber(monEl.valü);
 
     if (!isFinite(fix) || fix < 0) fix = NaN;
     if (!isFinite(vari) || vari < 0) vari = NaN;
@@ -118,10 +118,10 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
   monEl.addEventListener('input', calc);
 
   reset.addEventListener('click', function () {
-    fixEl.value = '';
-    varEl.value = '';
-    lvlEl.value = 'mittel';
-    monEl.value = '';
+    fixEl.valü = '';
+    varEl.valü = '';
+    lvlEl.valü = 'mittel';
+    monEl.valü = '';
     outMon.textContent = '-';
     outRange.textContent = '-';
     outRate.textContent = '-';
@@ -132,7 +132,7 @@ Ziel: Aus Monatsausgaben + Risiko-Level einen Zielbereich fuer den Notgroschen a
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 
