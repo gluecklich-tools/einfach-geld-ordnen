@@ -2,12 +2,10 @@
 permalink: /seiten/spielraum-ruecklagen.html
 layout: default
 title: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck"
-permalink: /seiten/spielraum-ruecklagen.html
 nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
-description: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach"
-title: "Spielraum und Ruecklagen: Einordnung ohne Druck"
+description: "Finanzieller Spielraum und Ruecklagen - Einordnung ohne Druck - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
 ---
 # Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck
 
@@ -24,14 +22,9 @@ Wenn Spielraum existiert (auch nur ein wenig), passiert etwas Wichtiges:
 - Unregelmaessige Ausgaben fuehlen sich weniger „wie ein Fehler“ an.
 - Ein Ausreisser-Monat kippt das System nicht sofort.
 - Entscheidungen werden ruhiger, weil nicht alles sofort „kritisch“ wirkt.
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
