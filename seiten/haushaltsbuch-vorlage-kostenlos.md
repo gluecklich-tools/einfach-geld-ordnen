@@ -2,7 +2,6 @@
 permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 layout: default
 title: "Kostenlose Haushaltsbuch-Vorlage"
-permalink: /seiten/haushaltsbuch-vorlage-kostenlos.html
 nav_group: seiten
 nav_order: 100
 flow_systemlinks: true
@@ -10,12 +9,13 @@ description: "Kostenlose Haushaltsbuch-Vorlage – kurze Einordnung + klare näc
 ---
 ## Kostenlose Haushaltsbuch-Vorlage
 
-**Status:** Seite steht – **Download folgt**, sobald die Datei wirklich im Ordner `/downloads/` liegt.
+Hier findest du die kostenlose Haushaltsbuch-Vorlage.
 
-Bis dahin: Nutze den Flow ueber den uebersicht.
+Wenn der Download (noch) nicht verfuegbar ist, starte trotzdem im System:
 
-→ [Haushaltsbuch - ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
-**Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
+- [Haushaltsbuch: Ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) (naechster Schritt: feste Kosten eintragen)
+- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
 - [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
