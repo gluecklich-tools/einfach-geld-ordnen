@@ -30,9 +30,8 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 
 - **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
   [Downloads]({{ site.baseurl }}/seiten/downloads.html?utm_source=site&utm_medium=home&utm_campaign=downloads)
-
-[Vollversion]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=home&utm_campaign=vollversion)
-
+- **Vollversion:** Alle Vorlagen im Paket.
+  [Vollversion]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=home&utm_campaign=vollversion)
 - **Überblick:** So ist das System aufgebaut.  
   [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 <!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
