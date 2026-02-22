@@ -4,9 +4,8 @@ permalink: /
 description: "Ordne deine Finanzen in 15 Minuten. Kostenlose Haushaltsbuch Vorlage, klare Struktur statt App-Chaos. Fixkosten senken und Schulden systematisch abbauen."
 title: "Haushaltsbuch Vorlage: Finanzen ordnen ohne App"
 ---
-# Einfach Geld ordnen
-
-Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und was übrig bleibt.
+# Haushaltsbuch Vorlage: Finanzen ordnen ohne App
+Ordne dein Geld so, dass du jeden Monat weißt, was reinkommt, was rausgeht und was übrig bleibt.
 
 ## Starte jetzt
 
@@ -26,12 +25,12 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 ## Was du hier bekommst
 
 - **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
-  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html?utm_source=site&utm_medium=home&utm_campaign=rechner)
+  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 - **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
-  [Downloads]({{ site.baseurl }}/seiten/downloads.html?utm_source=site&utm_medium=home&utm_campaign=downloads)
+  [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - **Vollversion:** Alle Vorlagen im Paket.
-  [Vollversion]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=home&utm_campaign=vollversion)
+  [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - **Überblick:** So ist das System aufgebaut.  
   [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 <!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
