@@ -46,3 +46,7 @@ Stand: 2026-01-24
 - [ ] Bing Webmaster Tools: Site verifizieren + sitemap.xml einreichen.
 - [ ] Nach 24-72h: Indexierungsstatus pruefen.
 <!-- /INBOX_2026-02-19_SITEMAP_SEARCHCONSOLE_V1 -->
+
+EGO_TODO_SITEMAP_REVIEW_PIPELINE_V1
+- [2026-02-22] Review-Pipeline: Indexierbare Seiten immer aus sitemap.xml ableiten (SITEMAP_URL_COUNT==MAPPED_COUNT, MISSING==0).
+- [2026-02-22] PS-Guardrail: Inline-if nicht als Ausdruck nutzen; Textblaecke nur als @' '@ (kein @" "@) wegen StrictMode.
