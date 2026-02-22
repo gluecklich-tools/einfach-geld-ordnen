@@ -6,11 +6,11 @@ title: "Haushaltsbuch Vorlage: Finanzen ordnen ohne App"
 ---
 # Einfach Geld ordnen
 
-Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und was uebrig bleibt.
+Ordne dein Geld so, daß du jeden Monat weisst, was reinkommt, was rausgeht und was übrig bleibt.
 
 ## Starte jetzt
 
-- **Schnellstart (15 Minuten):** In 15 Minuten aufgeraeumt starten.  
+- **Schnellstart (15 Minuten):** In 15 Minuten aufgeräumt starten.  
   [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
 
 - **Schulden loswerden:** Schneeball/Lawine, klarer Plan, schneller Fortschritt.  
@@ -19,7 +19,7 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 - **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
   [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 <!-- EGO_INDEX_FIXKOSTEN_STEP_V1 -->
-- **Fixkosten erfassen (Start):** [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- **Fixkosten erfassen (Start):** [Fixkosten übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 ## Was du hier bekommst
 
@@ -31,8 +31,8 @@ Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und 
 
 [Vollversion]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=home&utm_campaign=vollversion)
 
-- **Ueberblick:** So ist das System aufgebaut.  
-  [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- **Überblick:** So ist das System aufgebaut.  
+  [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 <!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
 ## Weiter
 
