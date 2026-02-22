@@ -2,7 +2,6 @@
 permalink: /seiten/ordnung-halten.html
 layout: default
 title: "Ordnung halten - wenn sie hilft (ohne Druck)"
-permalink: /seiten/ordnung-halten.html
 nav_group: seiten
 nav_order: 80
 flow_systemlinks: true
@@ -34,20 +33,15 @@ Dann ist weniger oft mehr.
 
 Wenn du nach dem ueberblick weitermachen willst, nimm als naechstes:
 
-- [Haushaltsbuch - ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
 
-- [Haushaltsbuch Vollversion - Status]({{site.baseurl}}/seiten/haushaltsbuch-vollversion.html?utm_source=site&utm_medium=content&utm_campaign=haushaltsbuch_vollversion)
-- [Kostenlose Haushaltsbuch-Vorlage - Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch Vollversion - Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Kostenlose Haushaltsbuch-Vorlage - Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
