@@ -14,6 +14,17 @@ Wenn du hier 50 bis 150 EUR sparst, ist das wie eine Gehaltserhoehung.
 3. Streiche Doppeltes und Unnoetiges (Abos/Vertraege).
 4. Verhandle 1 bis 2 grosse Posten (Strom, Internet, Versicherung).
 5. Lege die Ersparnis sofort weg (Notgroschen oder Schulden).
+
+## Naechster Schritt (5 Minuten)
+
+1) **Fixkosten einmal sauber erfassen** (damit du weisst, wo der Hebel wirklich ist):
+- [Fixkosten uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+
+2) Dann **schnell rechnen**, wie viel Luft du sofort gewinnst:
+- [Fixkosten Rechner]({{ site.baseurl }}/seiten/fixkosten-rechner.html)
+
+3) Und entscheide: **Notgroschen** aufbauen oder **Schulden** schneller abbauen.
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
