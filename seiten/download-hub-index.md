@@ -1,65 +1,39 @@
 ---
-permalink: /seiten/download-hub-index.html
 layout: default
 title: "Download-Hubs"
 permalink: /seiten/download-hub-index.html
-description: "Download-Hubs – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Uebersicht aller Download-Hubs (Themen-Downloads) im Projekt Einfach Geld ordnen."
 sitemap: false
----# Download-Hubs
+---
+
+# Download-Hubs
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
 
 ## Freebie
 
-- Kostenlos:
-- **Freebie Download:** [EGO_Freebie_Bundle.zip (ZIP: XLSX+ODS)]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative uebersicht: **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
+- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
+- Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
 
 ## Vollversion
 
-- Die Vollversion ist aktuell noch nicht veroeffentlicht. Sobald sie da ist, wird sie hier verlinkt.
+Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
 
 ## Premium
 
-- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
 
-## uebersicht
+## Uebersicht
 
-- **Schulden-Schneeball:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-schulden-schneeball.html)
-- **Notgroschen:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-notgroschen.html)
-- **Jahreskosten-Kalender:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-jahreskosten-kalender.html)
-- **Abo-Manager:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-abo-manager.html)
-- **Fixkosten senken:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-fixkosten-senken.html)
-- **50/30/20:** [Download-Hub]({{site.baseurl}}/seiten/download-hub-50-30-20.html)
+- **Schulden-Schneeball:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
+- **Notgroschen:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
+- **Jahreskosten-Kalender:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
+- **Abo-Manager:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
+- **Fixkosten senken:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
+- **50/30/20:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-<!-- EGO_ORPHAN_LINKFIX_V1 -->
-## Downloads & Hubs
-
-- [Download-Hub Übersicht]({{ site.baseurl }}/seiten/download-hub-index.html)
-
-### Hubs
-- [Hub: Fixkosten senken]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
-- [Hub: Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-- [Hub: 50/30/20]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
-- [Hub: Abo-Manager]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
-- [Hub: Jahreskosten-Kalender]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
-- [Hub: Schulden-Schneeball]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-
-### Nach dem Kauf / Self-Serve
-- [Nach dem Kauf]({{ site.baseurl }}/seiten/nach_dem_kauf.html)
-- [Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
-
-### Angebot
-- [Freebie]({{ site.baseurl }}/seiten/freebie.html)
-- [Premium]({{ site.baseurl }}/seiten/premium.html)
-
-<!-- EGO_ORPHAN_LINKFIX_V2 -->
-### Altlinks (nur falls du sie brauchst)
-
-- [Download (Alt)]({{ site.baseurl }}/seiten/downloads.html)
-- [Downloads Alias (Alt)]({{ site.baseurl }}/seiten/downloads.html)
