@@ -5,7 +5,9 @@ title: "Changelog"
 permalink: /seiten/changelog.html
 description: "Changelog – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 sitemap: false
----# Changelog
+---
+
+# Changelog
 
 Kurz und klar: Was hat sich am Projekt geaendert.
 
