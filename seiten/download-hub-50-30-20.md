@@ -1,34 +1,35 @@
 ---
-permalink: /seiten/download-hub-50-30-20.html
 layout: default
 title: "Download-Hub: 50/30/20"
 permalink: /seiten/download-hub-50-30-20.html
-description: "Download-Hub: 50/30/20 – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+description: "Downloads zum Thema 50/30/20: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----# Download-Hub: 50/30/20
+---
 
-Hier findest du alle Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
+# Download-Hub: 50/30/20
 
-## Freebie
+Hier findest du die Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
 
-- **Kostenloser Download (Platzhalter):** [ego-freebie-placeholder.txt]({{site.baseurl}}/downloads/ego-freebie-placeholder.txt)
-- Alternative: kostenlose Downloads auf der uebersicht **[Downloads]({{site.baseurl}}/seiten/downloads.html)**
+## Freebie (kostenlos)
+
+- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
+- Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+
+## Pro
+
+Pro ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
 
 ## Vollversion
 
-- **Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/vollversion.html?utm_source=site&utm_medium=downloadhub&utm_campaign=vollversion)
-
-## Premium
-
-- Premium ist aktuell nicht geplant bzw. noch nicht veroeffentlicht. Falls spaeter, wird es hier klar getrennt verlinkt.
+Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
 
 ## Hinweise
 
-- Zum inhaltlichen Einstieg: **[50/30/20 (Pillar)]({{site.baseurl}}/pillar/50-30-20.html)**
+- Einstieg/Erklaerung: **[50/30/20 erklaert]({{ site.baseurl }}/pillar/50-30-20.html)**
 - Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
+
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
