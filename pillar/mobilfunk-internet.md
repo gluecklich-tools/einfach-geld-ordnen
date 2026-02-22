@@ -6,28 +6,28 @@ description: "Mobilfunk/Internet senken - schnellster Hebel – kurze Einordnung
 ---
 # Mobilfunk/Internet senken - schnellster Hebel
 
-Viele zahlen hier zu viel, weil Vertraege still weiterlaufen. Ziel: Preis runter oder konsequent wechseln.
+Viele zahlen hier zu viel, weil Verträge still weiterlaufen. Ziel: Preis runter oder konseqünt wechseln.
 
 ## Schritte
 
 ###
-1. Laufzeit und Kuendigungsdatum pruefen
+1. Laufzeit und Kündigungsdatum prüfen
 
-Schreibe auf: Vertragsende, Kuendigungsfrist, aktueller Preis, Datenvolumen/Leistung.
+Schreibe auf: Vertragsende, Kündigungsfrist, aktüller Preis, Datenvolumen/Leistung.
 
 ###
 2. Verhandeln (kurz und klar)
 
-Anruf oder Chat: "Ich will kuendigen. Was ist euer bestes Angebot - sofort?"
+Anruf oder Chat: "Ich will kündigen. Was ist eür bestes Angebot - sofort?"
 
 ###
 3. **Wenn nichts Gutes kommt**: wechseln
 
-Wechsel ist oft der groessere Hebel als lange Diskussionen.
+Wechsel ist oft der grössere Hebel als lange Diskussionen.
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

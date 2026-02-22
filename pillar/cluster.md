@@ -4,31 +4,31 @@ title: "Themen-uebersicht"
 permalink: /pillar/cluster.html
 description: "Themen-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Themen-uebersicht
+# Themen-übersicht
 
-Diese Seite ist die uebersicht, damit du nie festhaengst.
+Diese Seite ist die übersicht, damit du nie festhängst.
 
 ## Thema
 
 - **Schuldenfrei**
-  - [Schuldenfrei - uebersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
+  - [Schuldenfrei - übersicht]({{ site.baseurl }}/pillar/schuldenfrei.html)
   - Rechner:
     - [Schneeball-Extra]({{ site.baseurl }}/seiten/rechner-schneeball.html)
     - [Jahreskosten pro Monat]({{ site.baseurl }}/seiten/rechner-jahreskosten.html)
 
 - **Fixkosten senken**
-  - [Fixkosten senken - uebersicht]({{ site.baseurl }}/pillar/fixkosten.html)
+  - [Fixkosten senken - übersicht]({{ site.baseurl }}/pillar/fixkosten.html)
   - Rechner:
     - [50-30-20]({{ site.baseurl }}/seiten/rechner-50-30-20.html)
 
 ## Zentrale Einstiege
 
-- [Pillar uebersicht]({{ site.baseurl }}/pillar/index.html)
+- [Pillar übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

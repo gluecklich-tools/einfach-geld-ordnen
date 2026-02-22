@@ -9,9 +9,9 @@ description: "Abo-Liste Vorlage – in 3 Minuten alle Abos sichtbar machen (Kost
 ---
 
 # Abo-Liste Vorlage
-Hier bekommst du eine einfache Vorlage, um **alle Abos sichtbar** zu machen: Kosten, Intervall, Kuendigungsfrist.
+Hier bekommst du eine einfache Vorlage, um **alle Abos sichtbar** zu machen: Kosten, Intervall, Kündigungsfrist.
 
-## Wofuer ist das?
+## Wofür ist das?
 
 - Du siehst sofort, **was pro Monat/Jahr wirklich weggeht**.
 - Du findest Abos, die du kaum nutzt (Sparpotenzial).
@@ -19,21 +19,21 @@ Hier bekommst du eine einfache Vorlage, um **alle Abos sichtbar** zu machen: Kos
 
 ## So nutzt du die Vorlage in 3 Minuten
 
-1. Download: [Abo-Liste Vorlage (CSV)]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)<br>(Oeffnet in Excel/LibreOffice; du kannst sie danach als ODS/XLSX speichern.)
+1. Download: [Abo-Liste Vorlage (CSV)]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)<br>(öffnet in Excel/LibreOffice; du kannst sie danach als ODS/XLSX speichern.)
 2. Trage alle Abos ein: **Anbieter, Betrag, monatlich/jahrlich, Frist/Datum**.
-3. Setze einen Reminder (z.B. **7–14 Tage vor Verlaengerung**).
-4. Danach: unnoetige Abos kuendigen oder downgraden.
+3. Setze einen Reminder (z.B. **7–14 Tage vor Verlängerung**).
+4. Danach: unnötige Abos kündigen oder downgraden.
 ## Was soll in die Liste rein?
 
 - Anbieter / Produkt
 - Betrag
 - Intervall (monatlich/jahrlich)
 - Zahlungsweg (Karte/PayPal/Lastschrift)
-- Kuendigungsfrist + naechstes Verlaengerungsdatum
+- Kündigungsfrist + nächstes Verlängerungsdatum
 - Notiz (z.B. "brauche ich wirklich?")
 
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

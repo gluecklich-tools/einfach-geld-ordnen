@@ -9,7 +9,7 @@ description: "Einfach Geld ordnen – kurze Einordnung + klare nächste Schritte
 ---
 # Einfach Geld ordnen
 
-Der strukturierte Einstieg in deine Finanzen - ohne Raetselraten.
+Der strukturierte Einstieg in deine Finanzen - ohne Rätselraten.
 
 ## Weiter
 

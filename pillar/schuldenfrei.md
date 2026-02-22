@@ -9,8 +9,8 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 
 ## Start in 10 Minuten
 1. Liste alle Schulden (Restbetrag, Zins, Mindest-Rate)
-2. **Waehle Methode**: Schneeball oder Lawine
-3. Setze ein fixes Monatsbudget fuer Schulden
+2. **Wähle Methode**: Schneeball oder Lawine
+3. Setze ein fixes Monatsbudget für Schulden
 
 ## Themenseiten
 
@@ -23,7 +23,7 @@ Kurzer, klarer Einstieg. Keine Sackgassen.
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

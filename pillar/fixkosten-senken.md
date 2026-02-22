@@ -6,25 +6,25 @@ description: "Fixkosten senken - Vorgehen - kurzer Einstieg + klare naechste Sch
 ---
 # Fixkosten senken - Vorgehen
 
-Ziel: in 30-60 Minuten die groessten Hebel finden und dann Woche fuer Woche abarbeiten. Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.
+Ziel: in 30-60 Minuten die grössten Hebel finden und dann Woche für Woche abarbeiten. Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.
 
 ## Schritte
 
-1. Liste pro Vertrag (kurz, aber vollstaendig)
+1. Liste pro Vertrag (kurz, aber vollständig)
 
-Notiere: Betrag, Anbieter/Vertrag, Kuendigungsfrist, Wechselmoeglichkeit, Zahlungsweg.
+Notiere: Betrag, Anbieter/Vertrag, Kündigungsfrist, Wechselmöglichkeit, Zahlungsweg.
 
-2. Sortieren (Hebel zuerst)
+2. Sortieren (Hebel zürst)
 
-Sortiere nach Betrag (hoch nach niedrig). So findest du die groessten Effekte sofort.
+Sortiere nach Betrag (hoch nach niedrig). So findest du die grössten Effekte sofort.
 
-3. Leicht + gross gewinnt
+3. Leicht + groß gewinnt
 
-Beginne mit dem groessten Betrag, der am leichtesten zu aendern ist (einfacher Wechsel vor komplizierter Verhandlung).
+Beginne mit dem grössten Betrag, der am leichtesten zu ändern ist (einfacher Wechsel vor komplizierter Verhandlung).
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

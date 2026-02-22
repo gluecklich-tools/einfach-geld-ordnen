@@ -6,14 +6,14 @@ description: "Jahreskosten-Kalender - planbar machen – kurze Einordnung + klar
 ---
 # Jahreskosten-Kalender - planbar machen
 
-Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst. Dann sind sie keine Ueberraschung mehr, sondern eine feste Ruecklage.
+Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst. Dann sind sie keine überraschung mehr, sondern eine feste Rücklage.
 
 ## Schritte
 
 ###
 1. Liste alle Jahreskosten
 
-Beispiele: Kfz, Versicherungen (jaehrlich), GEZ, Wartung, Mitgliedschaften, Geschenke, Urlaub.
+Beispiele: Kfz, Versicherungen (jährlich), GEZ, Wartung, Mitgliedschaften, Geschenke, Urlaub.
 
 ###
 2. Jede Position durch 12 teilen
@@ -21,13 +21,13 @@ Beispiele: Kfz, Versicherungen (jaehrlich), GEZ, Wartung, Mitgliedschaften, Gesc
 So entsteht dein Monatsbetrag pro Jahreskosten-Topf.
 
 ###
-3. Monatlich zuruecklegen
+3. Monatlich zurücklegen
 
-Lege den Betrag jeden Monat beiseite - automatisch, wenn moeglich.
+Lege den Betrag jeden Monat beiseite - automatisch, wenn möglich.
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

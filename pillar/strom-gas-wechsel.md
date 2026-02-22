@@ -9,13 +9,13 @@ description: "Strom/Gas wechseln - Kosten senken – kurze Einordnung + klare n�
 Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 
 ## Schritte
-1. Jahresverbrauch und aktueller Preis bereithalten
-2. **Vergleich**: neuer Tarif und Bonus logisch bewerten
-3. Kuendigungsfrist und Starttermin sauber setzen
+1. Jahresverbrauch und aktüller Preis bereithalten
+2. **Vergleich**: neür Tarif und Bonus logisch bewerten
+3. Kündigungsfrist und Starttermin sauber setzen
 ## Weiter
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

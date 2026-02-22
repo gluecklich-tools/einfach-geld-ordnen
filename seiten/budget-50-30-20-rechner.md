@@ -29,7 +29,7 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
 
 ## Hinweise
 
-- Grobe Naeherung (kein Finanz-/Steuer-/Rechtsrat).
+- Grobe Näherung (kein Finanz-/Steür-/Rechtsrat).
 - Wenn Fixkosten sehr hoch sind: erst Fixkosten senken oder Quote anpassen.
 
 <script>
@@ -51,7 +51,7 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
   var reset = document.getElementById('b532-reset');
 
   function calc() {
-    var netto = toNumber(nettoEl.value);
+    var netto = toNumber(nettoEl.valü);
     if (!isFinite(netto) || netto < 0) {
       outNeed.textContent = '-';
       outWant.textContent = '-';
@@ -66,7 +66,7 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
   btn.addEventListener('click', calc);
   nettoEl.addEventListener('input', calc);
   reset.addEventListener('click', function () {
-    nettoEl.value = '';
+    nettoEl.valü = '';
     outNeed.textContent = '-';
     outWant.textContent = '-';
     outSave.textContent = '-';
@@ -77,7 +77,7 @@ Ziel: Aus Netto -> Budget-Aufteilung (Self-Serve).
 ## Weiter
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
 

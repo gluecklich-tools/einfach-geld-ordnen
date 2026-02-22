@@ -14,13 +14,13 @@ description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Hausha
 
 **Carsten Czoske**  
 Talstra&szlig;e 7  
-47445 Moers  
+47445 Mörs  
 Deutschland  
 E-Mail: **czoske.carsten@web.de**
 
 ## 3. Server-Logfiles
 
-Bei der Nutzung dieser Website k&ouml;nnen Logdaten anfallen, die zur technischen Bereitstellung und zur Abwehr von Angriffen notwendig sind. Eine Zusammenf&uuml;hrung dieser Daten mit anderen Datenquellen erfolgt nicht.
+Bei der Nutzung dieser Website k&ouml;nnen Logdaten anfallen, die zur technischen Bereitstellung und zur Abwehr von Angriffen notwendig sind. Eine Zusammenf&uuml;hrung dieser Daten mit anderen Datenqüllen erfolgt nicht.
 
 ## 5. Downloads
 
@@ -43,14 +43,14 @@ Stand: 2026-01-24
 ## Web Analytics (Cloudflare)
 
 Wir nutzen **Cloudflare Web Analytics** zur Reichweitenmessung und zur Verbesserung der Performance (z.B. Core Web Vitals).
-Dabei werden technische Informationen (z.B. aufgerufene Seite/URL, Referrer, User-Agent, ungefaehres Land sowie Performance-Messwerte) verarbeitet, um **Besuche und Seitenaufrufe** statistisch auszuwerten.
+Dabei werden technische Informationen (z.B. aufgerufene Seite/URL, Referrer, User-Agent, ungefähres Land sowie Performance-Messwerte) verarbeitet, um **Besuche und Seitenaufrufe** statistisch auszuwerten.
 
 Anbieter: Cloudflare, Inc. (USA)
 Weitere Informationen: https://www.cloudflare.com/privacypolicy/
 
 <!-- EGO_AUDIT_UPDATE_HINT -->
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}

@@ -5,21 +5,21 @@ title: Projekt Übersicht
 permalink: /pillar/index.html
 description: "Projekt-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Projekt-uebersicht
+# Projekt-übersicht
 
 Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 
 ## Starte hier
 
-- Einfach anfangen (ohne Zahlen): [Ueberblick oeffnen]({{site.baseurl}}/pillar/haushaltsueberblick.html)
-- Haushaltsbuch nutzen: [Haushaltsbuch - uebersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
+- Einfach anfangen (ohne Zahlen): [überblick öffnen]({{site.baseurl}}/pillar/haushaltsueberblick.html)
+- Haushaltsbuch nutzen: [Haushaltsbuch - übersicht]({{site.baseurl}}/seiten/haushaltsbuch.html)
 - Schnellstart: [Schnellstart (15 Minuten)]({{site.baseurl}}/seiten/start_in_15_minuten.html)
 
 ## Themen
 
-- Schulden abbauen: [Schuldenfrei - uebersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
-- Fixkosten senken: [Fixkosten senken - uebersicht]({{site.baseurl}}/pillar/fixkosten.html)
-- Spielraum & Ruecklagen: [Spielraum & Ruecklagen]({{site.baseurl}}/pillar/spielraum-ruecklagen.html)
+- Schulden abbaün: [Schuldenfrei - übersicht]({{site.baseurl}}/pillar/schuldenfrei.html)
+- Fixkosten senken: [Fixkosten senken - übersicht]({{site.baseurl}}/pillar/fixkosten.html)
+- Spielraum & Rücklagen: [Spielraum & Rücklagen]({{site.baseurl}}/pillar/spielraum-ruecklagen.html)
 
 ## Rechner
 

@@ -53,7 +53,7 @@ if($parts.FmEnd -lt 0){ [void]$issues.Add('ISSUE:FRONTMATTER_MISSING') }
 else{
   if($fm -notmatch '(?m)^\s*title:\s*\S'){ [void]$issues.Add('ISSUE:TITLE_MISSING') }
   if($fm -notmatch '(?m)^\s*description:\s*\S'){ [void]$issues.Add('ISSUE:DESCRIPTION_MISSING') }
-  if($fm -match '(?m)^\s*permalink:\s*(/[^ ]+)\s*$'){ } else { [void]$issues.Add('ISSUE:PERMALINK_MISSING') }
+  if($fm -match '(?m)^\s*permalink:\s*(/[^ ]*)\s*$'){ } else { [void]$issues.Add('ISSUE:PERMALINK_MISSING') }
 }
 
 # crude link hygiene: trailing slash to pages (exclude http(s), mailto)
