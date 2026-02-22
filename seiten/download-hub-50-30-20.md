@@ -10,18 +10,18 @@ sitemap: false
 
 Hier findest du die Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
 
-## Freebie (kostenlos)
+## Freebie
 
 - **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
 - Alternative Uebersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
 
-## Pro
-
-Pro ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
 ## Vollversion
 
 Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
+
+## Premium
+
+Premium entspricht der **Pro-Version**. Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Uebersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
 
 ## Hinweise
 
