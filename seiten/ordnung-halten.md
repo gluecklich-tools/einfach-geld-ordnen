@@ -31,14 +31,14 @@ Dann ist weniger oft mehr.
 
 ## Naechster sinnvoller Schritt
 
-Wenn du nach dem ueberblick weitermachen willst, nimm als naechstes:
+Wenn du jetzt weitermachen willst, nimm als naechstes:
 
-- [Haushaltsbuch - ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Haushaltsbuch]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
-Wenn du dich fuer Vorlagen interessierst (Statusseiten, noch ohne Kauf/Download):
+Wenn du direkt mit einer Vorlage starten willst:
 
-- [Haushaltsbuch Vollversion - Status]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-- [Kostenlose Haushaltsbuch-Vorlage - Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch Vorlage kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
 
 ## Weiter
 - [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)

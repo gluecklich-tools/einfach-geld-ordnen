@@ -50,3 +50,38 @@ Stand: 2026-01-24
 EGO_TODO_SITEMAP_REVIEW_PIPELINE_V1
 - [2026-02-22] Review-Pipeline: Indexierbare Seiten immer aus sitemap.xml ableiten (SITEMAP_URL_COUNT==MAPPED_COUNT, MISSING==0).
 - [2026-02-22] PS-Guardrail: Inline-if nicht als Ausdruck nutzen; Textblaecke nur als @' '@ (kein @" "@) wegen StrictMode.
+
+EGO_TODO_REVIEW_CHECKLIST_AND_RECHECK_V1
+## 2026-02-22 - Operative Review-Checkliste (Sitemap 98)
+
+Arbeitsset:
+- Nur sitemap.xml Seiten (98 URLs) = Bing/Google Set.
+
+Pro Seite: Pflicht-Pruefpunkte (Herz-und-Nieren)
+A) Frontmatter
+- ab Zeile 1, ASCII --- / keine stray FM im Body
+- permalink/title/description/nav_* nicht doppelt
+- permalink .html, passt zum Dateinamen/Slug (ASCII-only Dateiname-Regel bleibt)
+B) Interne Links
+- nur {{ site.baseurl }} + .html
+- keine trailing slashes / keine .md
+- baseurl token spacing normalisieren (keine {{site.baseurl}})
+- keine Tracking-Queries (?utm_...) in internen Links
+C) Navigation
+- "## Weiter" vorhanden, exakt 3 interne Links
+- {% include no_sackgasse_footer.html %} vorhanden
+- Leerzeile vor ## Weiter (Format-Hygiene)
+D) Inhalt/Didaktik
+- Linktext entspricht Ziel (keine falschen Labels wie "Ueberblick" wenn Ziel nicht Ueberblick)
+- "Naechster Schritt" logisch (Funnel/Der Weg/Haushaltsbuch->Fixkosten usw.)
+E) Sprache
+- Rechtschreibung/Lesbarkeit
+- konsistente Schreibweise (ue/ae/oe, keine Misch-Mojibake-Fallen)
+
+Ergebnis je Seite:
+- OK – so lassen
+- oder Patch (klein, SSOT-konform) + Gates + Live
+
+## Re-Check Plan
+- Wenn Review der 98 sitemap-Seiten fertig ist:
+  - Re-Check Seiten #1 bis #54 mit obiger Checkliste (zweiter Pass), um Altlasten zu catchen.
