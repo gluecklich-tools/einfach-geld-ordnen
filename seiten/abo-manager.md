@@ -6,7 +6,7 @@ permalink: /seiten/abo-manager.html
 description: "Abo-Manager und Abos kuendigen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 # Abo-Manager (schnell Geld frei machen)
-Abos sind kleine Betrage, die sich heimlich stapeln: Streaming, Apps, Software, Lieferdienste, Versicherungs-Zusatzkram.
+Abos sind kleine Betraege, die sich heimlich stapeln: Streaming, Apps, Software, Lieferdienste, Versicherungs-Zusatzkram.
 Wenn du 3 bis 5 Abos kuendigst, hast du oft sofort 20 bis 80 EUR pro Monat mehr Luft.
 ## Mini-Plan (30 Minuten)
 1. Sammle alle Abos (Kontoauszug, PayPal, App-Store, E-Mail-Suche nach "Abo", "Subscription", "Rechnung").
