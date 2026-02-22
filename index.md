@@ -6,7 +6,7 @@ title: "Haushaltsbuch Vorlage: Finanzen ordnen ohne App"
 ---
 # Einfach Geld ordnen
 
-Ordne dein Geld so, daß du jeden Monat weisst, was reinkommt, was rausgeht und was übrig bleibt.
+Ordne dein Geld so, dass du jeden Monat weisst, was reinkommt, was rausgeht und was übrig bleibt.
 
 ## Starte jetzt
 
@@ -19,7 +19,7 @@ Ordne dein Geld so, daß du jeden Monat weisst, was reinkommt, was rausgeht und 
 - **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
   [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 <!-- EGO_INDEX_FIXKOSTEN_STEP_V1 -->
-- **Fixkosten erfassen (Start):** [Fixkosten übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- **Fixkosten erfassen (Start):** [Fixkosten-Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 
 
 <!-- EGO_LIST_BREAK -->
