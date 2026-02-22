@@ -8,7 +8,13 @@ nav_order: 110
 flow_systemlinks: true
 description: "Haushaltsbuch Vollversion - kommt bald – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
-# Haushaltsbuch Vollversion - kommt bald
+# Haushaltsbuch Vollversion
+
+Kurz, klar, alltagstauglich: Die Vollversion ist das komplette Haushaltsbuch als fertige Vorlage (ohne App, ohne Abo).
+
+Bis der Kauf-Link aktiv ist, kannst du sofort mit dem Freebie starten:
+
+- **[EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)**
 
 **Stand:** 2026-01-24 · **Status:** Produkt & Landing werden finalisiert - **noch kein Verkauf, keine Bezahl-Links**  
 **Preis (geplant):** 10 € einmalig
@@ -43,14 +49,14 @@ Du bekommst ein fertiges **self-serve** Produkt: **Vorlage + klare Anleitung** -
 
 ## Bis dahin (Alternative Einstiegspunkte)
 
-- **Kostenlose Light-Vorlage (Status, noch ohne Download):**  
-  [Kostenlose Vorlage – Status]({{site.baseurl}}/seiten/haushaltsbuch-vorlage-kostenlos.html)
+- **Kostenlose Light-Vorlage (kostenloser Einstieg):**  
+  [Kostenlose Vorlage – Status]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 
 - **uebersicht-Seite (Einstieg & Inhalte):**  
-  [Haushaltsbuch – ueberblick]({{site.baseurl}}/seiten/haushaltsbuch.html)
+  [Haushaltsbuch – ueberblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 
 - **Startseite:**  
-  [Zur uebersicht]({{site.baseurl}}/pillar/index.html)
+  [Zur uebersicht]({{ site.baseurl }}/pillar/index.html)
 **Naechster Schritt:** Geh zur [Fixkosten-Uebersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) und trage zuerst deine festen Kosten ein (Miete, Strom, Versicherungen).
 
 ## Weiter
