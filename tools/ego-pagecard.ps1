@@ -15,30 +15,35 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } } catch {}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
 $enc=[Text.UTF8Encoding]::new($false)
 
+function ReadUtf8([string]$p){
+  return [IO.File]::ReadAllText($p,$enc)
+}
+
+function Has([string]$html,[string]$pattern){
+  return [bool]([regex]::IsMatch($html,$pattern,'IgnoreCase,Singleline'))
+}
+
+# RepoRoot resolve: prefer explicit, else git, else script root
 if([string]::IsNullOrWhiteSpace($RepoRoot)){
-  # 1) Try git (optional)
-  $tmp = $null
-  try { $tmp = (git rev-parse --show-toplevel 2>$null) } catch { $tmp = $null }
-  if($tmp -is [array]){ $tmp = ($tmp -join "`n") }
-  $tmp = [string]$tmp
+  $tmp=$null
+  try { $tmp = (git rev-parse --show-toplevel 2>$null) } catch { $tmp=$null }
+  $tmp=[string]$tmp
   if(-not [string]::IsNullOrWhiteSpace($tmp)){
-    $RepoRoot = $tmp.Trim()
-  }
-  # 2) Fallback: script location -> repo root (tools\..)
-  if([string]::IsNullOrWhiteSpace($RepoRoot)){
-    $RepoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
+    $RepoRoot=$tmp.Trim()
   }
 }
-if([string]::IsNullOrWhiteSpace($RepoRoot) -or !(Test-Path -LiteralPath $RepoRoot)){
-  throw "STOP: RepoRoot not found"
+if([string]::IsNullOrWhiteSpace($RepoRoot)){
+  $RepoRoot=(Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 }
-Set-Location -LiteralPath $RepoRoot
+if(!(Test-Path -LiteralPath $RepoRoot)){
+  throw "STOP: RepoRoot invalid: $RepoRoot"
+}
 
 if(!(Test-Path -LiteralPath $InventoryTsv)){
   throw "STOP: InventoryTsv missing: $InventoryTsv"
 }
 
-# --- Parse inventory row (tsv) ---
+# Parse TSV row by idx
 $lines=[IO.File]::ReadAllLines($InventoryTsv,$enc)
 if($lines.Count -lt 2){ throw "STOP: inventory empty" }
 
@@ -48,18 +53,17 @@ foreach($ln in ($lines | Select-Object -Skip 1)){
   $c=$ln -split "`t"
   if($c.Count -lt 3){ continue }
   if($c[0].Trim() -eq $Idx.ToString()){
-    $row=$c
-    break
+    $row=$c; break
   }
 }
-if($null -eq $row){ throw "STOP: idx not found in inventory: $Idx" }
+if($null -eq $row){ throw "STOP: idx not found: $Idx" }
 
 $path=$row[1].Trim()
 $url =$row[2].Trim()
 $invStatus= if($row.Count -ge 4){ $row[3].Trim() } else { "" }
 $srcRel  = if($row.Count -ge 5){ $row[4].Trim() } else { "" }
 
-# --- Resolve source file (prefer explicit source column; else heuristic) ---
+# Resolve source file
 $srcFile=""
 if($srcRel){
   $cand=Join-Path $RepoRoot $srcRel
@@ -68,125 +72,109 @@ if($srcRel){
   if($path -eq "/"){
     $cand=Join-Path $RepoRoot "index.md"
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match '^/seiten/(.+)\.html$'){
+  } elseif($path -match "^/seiten/(.+)\.html$"){
     $cand=Join-Path $RepoRoot ("seiten\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match '^/pillar/(.+)\.html$'){
+  } elseif($path -match "^/pillar/(.+)\.html$"){
     $cand=Join-Path $RepoRoot ("pillar\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
   }
 }
 
-# --- Output header (Chat-Contract: LIVE URL first) ---
-"LIVE: {0}" -f $url
-"IDX: {0}" -f $Idx
-"PATH: {0}" -f $path
-"INV_STATUS: {0}" -f $invStatus
-"SOURCE: {0}" -f (if($srcFile){ $srcFile.Substring($RepoRoot.Length).TrimStart('\') } else { "MISSING_SOURCE_LOCAL" })
-""
+# Chat-Contract: LIVE URL first
+Write-Output ("LIVE: {0}" -f $url)
+Write-Output ("IDX: {0}" -f $Idx)
+Write-Output ("PATH: {0}" -f $path)
+Write-Output ("INV_STATUS: {0}" -f $invStatus)
+Write-Output ("SOURCE: {0}" -f (if($srcFile){ $srcFile.Substring($RepoRoot.Length).TrimStart('\') } else { "MISSING_SOURCE_LOCAL" }))
+Write-Output ""
 
-# --- TECH (local checks) ---
-$techIssues=@()
+# TECH checks (local)
+$tech=@()
 
 if($srcFile){
-  $txt=[IO.File]::ReadAllText($srcFile,$enc)
+  $txt=ReadUtf8 $srcFile
 
-  if($txt -notmatch '(?s)\A---\s*.*?\s*---\s*'){ $techIssues += "NO_FRONTMATTER" }
+  if($txt -notmatch "(?s)\A---\s*.*?\s*---\s*"){ $tech += "NO_FRONTMATTER" }
 
-  # permalink: must end .html for non-home; home must be /
   if($path -eq "/"){
-    if($txt -notmatch '(?m)^\s*permalink:\s*/\s*$'){ $techIssues += "PERMALINK_NOT_ROOT" }
+    if($txt -notmatch "(?m)^\s*permalink:\s*/\s*$"){ $tech += "PERMALINK_NOT_ROOT" }
   } else {
     $expected=$path
-    if($expected -notmatch '\.html$'){ $expected = ($expected.TrimEnd('/') + ".html") }
+    if($expected -notmatch "\.html$"){ $expected=($expected.TrimEnd('/') + ".html") }
     $rx="(?m)^\s*permalink:\s*{0}\s*$" -f [regex]::Escape($expected)
-    if($txt -notmatch $rx){ $techIssues += ("PERMALINK_MISMATCH expected " + $expected) }
+    if($txt -notmatch $rx){ $tech += ("PERMALINK_MISMATCH expected " + $expected) }
   }
 
-  # Weiter block: must exist and have 3 allowed internal html links
-  if($txt -match '(?sm)^\s*##\s+Weiter\s*(.*?)(?:\n##\s|\z)'){
+  if($txt -match "(?sm)^\s*##\s+Weiter\s*(.*?)(?:\n##\s|\z)"){
     $block=$Matches[0]
     $links=[regex]::Matches($block,'\[[^\]]+\]\(([^)]+)\)') | ForEach-Object { $_.Groups[1].Value.Trim() }
-    if($links.Count -ne 3){ $techIssues += ("WEITER_LINKS_COUNT=" + $links.Count) }
+    if($links.Count -ne 3){ $tech += ("WEITER_LINKS_COUNT=" + $links.Count) }
     $bad=0
     foreach($u2 in $links){
-      if($u2 -match '^(https?:)?//'){ $bad++ }
-      elseif($u2 -notmatch '^(\{\{\s*site\.baseurl\s*\}\}|)/(seiten|pillar)/.+\.html$'){ $bad++ }
+      if($u2 -match "^(https?:)?//"){ $bad++ }
+      elseif($u2 -notmatch "^(\{\{\s*site\.baseurl\s*\}\}|)/(seiten|pillar)/.+\.html$"){ $bad++ }
     }
-    if($bad -gt 0){ $techIssues += ("WEITER_BAD_LINKS=" + $bad) }
+    if($bad -gt 0){ $tech += ("WEITER_BAD_LINKS=" + $bad) }
   } else {
-    $techIssues += "NO_WEITER_BLOCK"
+    $tech += "NO_WEITER_BLOCK"
   }
 
-  # Quick hygiene
-  if($txt -match '\.md\)'){ $techIssues += "FOUND_MD_LINK" }
-  if($txt -match '(?i)\{\{\s*.*relative_url.*\}\}'){ $techIssues += "FOUND_relative_url_TOKEN" }
+  if($txt -match "\.md\)"){ $tech += "FOUND_MD_LINK" }
+  if($txt -match "(?i)\{\{\s*.*relative_url.*\}\}"){ $tech += "FOUND_relative_url_TOKEN" }
 
 } else {
-  $techIssues += "MISSING_SOURCE_LOCAL"
+  $tech += "MISSING_SOURCE_LOCAL"
 }
 
-# --- Rendered Pflichtteile (LIVE HTML checks) ---
-$renderIssues=@()
-$spellingIssues=@()
-
-function Has([string]$html,[string]$pattern){
-  return [bool]([regex]::IsMatch($html,$pattern,'IgnoreCase,Singleline'))
-}
+# Rendered checks (LIVE)
+$render=@()
+$spelling=@()
 
 try{
   $r=Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 30
   $html=$r.Content
 
-  if(-not (Has $html '<h1[^>]*>.*?</h1>')){ $renderIssues += "NO_H1_RENDERED" }
-  if(-not (Has $html '<link[^>]+rel="canonical"')){ $renderIssues += "NO_CANONICAL" }
-  if(-not (Has $html 'href="[^"]*impressum')){ $renderIssues += "NO_IMPRESSUM_LINK" }
-  if(-not (Has $html 'href="[^"]*datenschutz')){ $renderIssues += "NO_DATENSCHUTZ_LINK" }
+  if(-not (Has $html "<h1[^>]*>.*?</h1>")){ $render += "NO_H1_RENDERED" }
+  if(-not (Has $html "<link[^>]+rel=""canonical""")){ $render += "NO_CANONICAL" }
+  if(-not (Has $html "href=""[^""]*impressum")){ $render += "NO_IMPRESSUM_LINK" }
+  if(-not (Has $html "href=""[^""]*datenschutz")){ $render += "NO_DATENSCHUTZ_LINK" }
+  if(-not (Has $html "Hinweis\s*\(wichtig\)")){ $render += "NO_HINWEIS_WICHTIG" }
+  if(-not (Has $html "KI[- ]Hinweis")){ $render += "NO_KI_HINWEIS" }
 
-  # Pflicht-Blocks (robust; spelling separate)
-  if(-not (Has $html 'Hinweis\s*\(wichtig\)')){ $renderIssues += "NO_HINWEIS_WICHTIG" }
-  if(-not (Has $html 'KI[- ]Hinweis')){ $renderIssues += "NO_KI_HINWEIS" }
-
-  # Audit heading: must be correct spelling "Aktualität" (flag Aktualitaet)
-  if(Has $html 'Aktualitaet\s+und\s+Audit[-– ]Hinweis'){
-    $spellingIssues += "SPELLING: 'Aktualitaet' -> must be 'Aktualität'"
+  if(Has $html "Aktualitaet\s+und\s+Audit[-– ]Hinweis"){
+    $spelling += "SPELLING: Aktualitaet -> Aktualität"
   }
-  if(-not (Has $html 'Aktualit[aä]t\s+und\s+Audit[-– ]Hinweis')){
-    $renderIssues += "NO_AKTUALITAET_AUDIT_HINWEIS"
+  if(-not (Has $html "Aktualit(aet|[aä]t)\s+und\s+Audit[-– ]Hinweis")){
+    $render += "NO_AKTUALITAET_AUDIT_HINWEIS"
   }
 
-  # Weiter rendered (optional on some pages, but usually expected)
-  if(-not (Has $html '>\s*Weiter\s*<')){ $renderIssues += "NO_WEITER_RENDERED" }
-
+  if(-not (Has $html ">\s*Weiter\s*<")){ $render += "NO_WEITER_RENDERED" }
 } catch {
-  $renderIssues += ("LIVE_FETCH_ERR: " + $_.Exception.Message)
+  $render += ("LIVE_FETCH_ERR: " + $_.Exception.Message)
 }
 
-# --- Print checklist ---
-"CHECKLIST:"
-"- TECH: " + (if($techIssues.Count -eq 0){ "PASS" } else { "FAIL" })
-"- Rendered Pflichtteile: " + (if($renderIssues.Count -eq 0){ "PASS" } else { "FAIL" })
-"- Rechtschreibung (kritisch): " + (if($spellingIssues.Count -eq 0){ "PASS" } else { "WARN" })
-""
+Write-Output "CHECKLIST:"
+Write-Output ("- TECH: " + (if($tech.Count -eq 0){ "PASS" } else { "FAIL" }))
+Write-Output ("- Rendered Pflichtteile: " + (if($render.Count -eq 0){ "PASS" } else { "FAIL" }))
+Write-Output ("- Rechtschreibung (kritisch): " + (if($spelling.Count -eq 0){ "PASS" } else { "WARN" }))
+Write-Output ""
 
-if($techIssues.Count -gt 0){
-  "TECH_ISSUES:"
-  $techIssues | ForEach-Object { " - " + $_ }
-  ""
+if($tech.Count -gt 0){
+  Write-Output "TECH_ISSUES:"
+  $tech | ForEach-Object { Write-Output (" - " + $_) }
+  Write-Output ""
 }
-if($renderIssues.Count -gt 0){
-  "RENDER_ISSUES:"
-  $renderIssues | ForEach-Object { " - " + $_ }
-  ""
+if($render.Count -gt 0){
+  Write-Output "RENDER_ISSUES:"
+  $render | ForEach-Object { Write-Output (" - " + $_) }
+  Write-Output ""
 }
-if($spellingIssues.Count -gt 0){
-  "SPELLING:"
-  $spellingIssues | ForEach-Object { " - " + $_ }
-  ""
+if($spelling.Count -gt 0){
+  Write-Output "SPELLING:"
+  $spelling | ForEach-Object { Write-Output (" - " + $_) }
+  Write-Output ""
 }
 
-# Exit code: 0 only if TECH+Rendered PASS (spelling warns don't fail build, but are actionable)
-if($techIssues.Count -gt 0 -or $renderIssues.Count -gt 0){
-  exit 2
-}
+if($tech.Count -gt 0 -or $render.Count -gt 0){ exit 2 }
 exit 0
