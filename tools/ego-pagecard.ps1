@@ -16,7 +16,18 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } } catch {}
 $enc=[Text.UTF8Encoding]::new($false)
 
 if([string]::IsNullOrWhiteSpace($RepoRoot)){
-  $RepoRoot=(git rev-parse --show-toplevel 2>$null).Trim()
+  # 1) Try git (optional)
+  $tmp = $null
+  try { $tmp = (git rev-parse --show-toplevel 2>$null) } catch { $tmp = $null }
+  if($tmp -is [array]){ $tmp = ($tmp -join "`n") }
+  $tmp = [string]$tmp
+  if(-not [string]::IsNullOrWhiteSpace($tmp)){
+    $RepoRoot = $tmp.Trim()
+  }
+  # 2) Fallback: script location -> repo root (tools\..)
+  if([string]::IsNullOrWhiteSpace($RepoRoot)){
+    $RepoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
+  }
 }
 if([string]::IsNullOrWhiteSpace($RepoRoot) -or !(Test-Path -LiteralPath $RepoRoot)){
   throw "STOP: RepoRoot not found"
