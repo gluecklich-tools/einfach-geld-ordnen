@@ -86,7 +86,8 @@ Write-Output ("LIVE: {0}" -f $url)
 Write-Output ("IDX: {0}" -f $Idx)
 Write-Output ("PATH: {0}" -f $path)
 Write-Output ("INV_STATUS: {0}" -f $invStatus)
-Write-Output ("SOURCE: {0}" -f (if($srcFile){ $srcFile.Substring($RepoRoot.Length).TrimStart('\') } else { "MISSING_SOURCE_LOCAL" }))
+$sourceDisplay = if($srcFile){ $srcFile.Substring($RepoRoot.Length).TrimStart('\') } else { 'MISSING_SOURCE_LOCAL' }
+Write-Output ("SOURCE: {0}" -f $sourceDisplay)
 Write-Output ""
 
 # TECH checks (local)
@@ -154,10 +155,14 @@ try{
   $render += ("LIVE_FETCH_ERR: " + $_.Exception.Message)
 }
 
+$techStatus   = if($tech.Count   -eq 0){ "PASS" } else { "FAIL" }
+$renderStatus = if($render.Count -eq 0){ "PASS" } else { "FAIL" }
+$spellStatus  = if($spelling.Count -eq 0){ "PASS" } else { "WARN" }
+
 Write-Output "CHECKLIST:"
-Write-Output ("- TECH: " + (if($tech.Count -eq 0){ "PASS" } else { "FAIL" }))
-Write-Output ("- Rendered Pflichtteile: " + (if($render.Count -eq 0){ "PASS" } else { "FAIL" }))
-Write-Output ("- Rechtschreibung (kritisch): " + (if($spelling.Count -eq 0){ "PASS" } else { "WARN" }))
+Write-Output ("- TECH: " + $techStatus)
+Write-Output ("- Rendered Pflichtteile: " + $renderStatus)
+Write-Output ("- Rechtschreibung (kritisch): " + $spellStatus)
 Write-Output ""
 
 if($tech.Count -gt 0){
