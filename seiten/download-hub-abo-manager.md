@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hub: Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html
+policy_blocks: show
 description: "Downloads zum Thema Abo-Manager: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----
-
-# Download-Hub: Abo-Manager
+---# Download-Hub: Abo-Manager
 
 Hier findest du die Downloads zum Thema **Abo-Manager** im Projekt "Einfach Geld ordnen".
 

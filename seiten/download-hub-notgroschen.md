@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hub: Notgroschen"
 permalink: /seiten/download-hub-notgroschen.html
+policy_blocks: show
 description: "Downloads zum Thema Notgroschen: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----
-
-# Download-Hub: Notgroschen
+---# Download-Hub: Notgroschen
 
 Hier findest du die Downloads zum Thema **Notgroschen** im Projekt "Einfach Geld ordnen".
 

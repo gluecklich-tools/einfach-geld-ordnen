@@ -1,5 +1,6 @@
 ---
 permalink: /seiten/datenschutz.html
+policy_blocks: show
 layout: default
 title: "Datenschutz"
 permalink: /seiten/datenschutz.html
@@ -7,8 +8,7 @@ nav_group: meta
 nav_order: 910
 flow_systemlinks: true
 description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Datenschutz
+---# Datenschutz
 
 ## 1. Verantwortlicher
 

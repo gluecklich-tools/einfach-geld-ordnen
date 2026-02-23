@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hub: Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
+policy_blocks: show
 description: "Downloads zum Thema Fixkosten senken: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----
-
-# Download-Hub: Fixkosten senken
+---# Download-Hub: Fixkosten senken
 
 Hier findest du die Downloads zum Thema **Fixkosten senken** im Projekt "Einfach Geld ordnen".
 

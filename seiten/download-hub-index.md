@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hubs"
 permalink: /seiten/download-hub-index.html
+policy_blocks: show
 description: "Uebersicht aller Download-Hubs (Themen-Downloads) im Projekt Einfach Geld ordnen."
 sitemap: false
----
-
-# Download-Hubs
+---# Download-Hubs
 
 Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
 

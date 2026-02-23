@@ -9,10 +9,9 @@ $enc=[Text.UTF8Encoding]::new($false)
 function ReadUtf8([string]$p){ [IO.File]::ReadAllText($p,$enc) }
 function WriteUtf8([string]$p,[string]$t){ [IO.File]::WriteAllText($p,$t,$enc) }
 
-$repo=(git rev-parse --show-toplevel 2>$null)
-$repo=[string]$repo
-if([string]::IsNullOrWhiteSpace($repo)){ throw "STOP: repo root not found (git rev-parse failed)" }
-$repo=$repo.Trim()
+# RepoRoot robust: tools\..
+$repo = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+if([string]::IsNullOrWhiteSpace($repo) -or !(Test-Path -LiteralPath $repo)){ throw "STOP: repo root not found via PSScriptRoot" }
 Set-Location -LiteralPath $repo
 
 $ts=(Get-Date).ToString("yyyyMMdd_HHmmss")
@@ -22,11 +21,11 @@ New-Item -ItemType Directory -Path $bk -Force | Out-Null
 function BackupFile([string]$p){
   if(!(Test-Path -LiteralPath $p)){ return }
   $rel=$p.Substring($repo.Length).TrimStart("\")
-  $dst=Join-Path $bk ($rel -replace '[\\/:*?"<>|]','_')
+  $dst=Join-Path $bk ($rel -replace '[\\/:*?""<>|]','_')
   Copy-Item -LiteralPath $p -Destination $dst -Force
 }
 
-# 1) Include spelling + source of blocks
+# 1) Include spelling fix + source of blocks
 $inc=Join-Path $repo "_includes\disclaimer_finanzinfo.html"
 if(!(Test-Path -LiteralPath $inc)){ throw "STOP: missing include: $inc" }
 BackupFile $inc

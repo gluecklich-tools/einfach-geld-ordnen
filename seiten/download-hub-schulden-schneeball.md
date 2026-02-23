@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hub: Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
+policy_blocks: show
 description: "Downloads zum Thema Schulden-Schneeball: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----
-
-# Download-Hub: Schulden-Schneeball
+---# Download-Hub: Schulden-Schneeball
 
 Hier findest du die Downloads zum Thema **Schulden-Schneeball** im Projekt "Einfach Geld ordnen".
 

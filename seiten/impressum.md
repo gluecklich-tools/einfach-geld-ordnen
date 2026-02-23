@@ -1,5 +1,6 @@
 ---
 permalink: /seiten/impressum.html
+policy_blocks: show
 layout: default
 title: "Impressum"
 permalink: /seiten/impressum.html
@@ -7,8 +8,7 @@ nav_group: meta
 nav_order: 900
 flow_systemlinks: true
 description: "Impressum – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-# Anbieterkennzeichnung
+---# Anbieterkennzeichnung
 
 Angaben gem&auml;&szlig; &sect; 5 DDG (Digitale-Dienste-Gesetz)
 

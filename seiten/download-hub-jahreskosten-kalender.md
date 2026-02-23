@@ -2,11 +2,10 @@
 layout: default
 title: "Download-Hub: Jahreskosten-Kalender"
 permalink: /seiten/download-hub-jahreskosten-kalender.html
+policy_blocks: show
 description: "Downloads zum Thema Jahreskosten-Kalender: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----
-
-# Download-Hub: Jahreskosten-Kalender
+---# Download-Hub: Jahreskosten-Kalender
 
 Hier findest du die Downloads zum Thema **Jahreskosten-Kalender** im Projekt "Einfach Geld ordnen".
 
