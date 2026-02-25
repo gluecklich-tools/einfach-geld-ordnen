@@ -1,14 +1,16 @@
 # EGO_SSOT_GUARD_V1
 # Optional: SSOT guard (only if EGO_INTERNAL_DIR is set and ssot-guard exists)
+
+param(
+  [string]$OutFile = ".\tools\link-scan-report.txt"
+)
+
 $internalRoot = $env:EGO_INTERNAL_DIR
 if ($internalRoot) {
   $guard = Join-Path $internalRoot ('tools' + [char]92 + 'ssot-guard.ps1')
   if (Test-Path -LiteralPath $guard) { & $guard -RequireCleanRepo }
 }
 
-param(
-  [string]$OutFile = ".\tools\link-scan-report.txt"
-)
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
