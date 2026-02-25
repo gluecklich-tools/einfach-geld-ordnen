@@ -3,7 +3,7 @@ layout: default
 title: "Abos kuendigen - konsequent"
 permalink: /pillar/abos-kuendigen.html
 description: "Abos kuendigen - konsequent – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/fixkosten-senken.html---
 # Abos kündigen - konseqünt
 
 Abos sind oft das leiseste Geldleck. Ziel: erst alles sichtbar machen, dann konseqünt kürzen, bis nur noch das übrig ist, was du wirklich nutzt.
@@ -30,8 +30,4 @@ Lege ein klares Monatslimit fest. Alles darüber wird nicht (wieder) abgeschloss
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/schuldenfrei.html

@@ -6,8 +6,7 @@ nav_order: 20
 flow_systemlinks: true
 permalink: /pillar/einfach-geld-ordnen.html
 description: "Einfach Geld ordnen – kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
----
-
+next: /seiten/haushaltsbuch.html---
 # Einfach Geld ordnen
 
 Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.
@@ -26,3 +25,5 @@ Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.
 - [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 - [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
 {% include no_sackgasse_footer.html %}
+
+Weiter: {{ site.baseurl }}/pillar/ordnung-halten.html

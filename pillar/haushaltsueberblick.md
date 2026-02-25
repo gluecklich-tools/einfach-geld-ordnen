@@ -6,7 +6,7 @@ nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
 description: "Haushaltsueberblick - ohne Zahlen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/haushaltsbuch-vorlage.html---
 # Haushaltsüberblick - ohne Zahlen
 
 Bevor irgendetwas gerechnet, bewertet oder verändert wird, ist es hilfreich, den eigenen Haushalt einfach nur zu sehen.
@@ -36,8 +36,4 @@ Wenn du magst, lies es einfach wie eine Themen-übersicht, auf der du deinen eig
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/spielraum-ruecklagen.html

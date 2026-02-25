@@ -3,7 +3,7 @@ layout: default
 title: "Abo-Manager - Geldleck stoppen"
 permalink: /pillar/abo-manager.html
 description: "Abo-Manager - Geldleck stoppen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/ueberblick.html---
 # Abo-Manager - Geldleck stoppen
 
 Ein Abo ist nicht das Problem. Viele Abos sind das Problem, weil sie leise Geld abziehen.
@@ -36,8 +36,4 @@ Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darüber liegt, mus
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/abos-kuendigen.html

@@ -3,7 +3,7 @@ layout: default
 title: "Strom/Gas wechseln - Kosten senken"
 permalink: /pillar/strom-gas-wechsel.html
 description: "Strom/Gas wechseln - Kosten senken – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/ueberblick.html---
 # Strom/Gas wechseln - Kosten senken
 
 Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
@@ -18,8 +18,4 @@ Ziel: Tarif senken oder Abschlag optimieren, ohne Chaos.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/mobilfunk-internet.html

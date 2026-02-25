@@ -75,4 +75,4 @@ description: "Themen-Seiten – kurze Einordnung + klare nächste Schritte. Haus
 ### Haushaltsbuch
 - [Haushaltsbuch – kostenlos]({{ site.baseurl }}/seiten/haushaltsbuch-vorlage-kostenlos.html)
 - [Haushaltsbuch – Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-- [Haushaltsbuch – Hintergrund]({{ site.baseurl }}/seiten/einfach-geld-ordnen-haushaltsbuch.html)
+- [Haushaltsbuch – Hintergrund]({{ site.baseurl }}/seiten/haushaltsbuch.html)

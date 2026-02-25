@@ -3,7 +3,7 @@ layout: default
 title: "Versicherungen Check - zu viel oder doppelt?"
 permalink: /pillar/versicherungen-check.html
 description: "Versicherungen Check - zu viel oder doppelt? – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/abo-manager.html---
 # Versicherungen Check - zu viel oder doppelt?
 
 Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
@@ -18,8 +18,4 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/abo-manager.html

@@ -1,26 +1,25 @@
 ---
 permalink: /seiten/changelog.html
-layout: default
-title: "Changelog"
-permalink: /seiten/changelog.html
-description: "Changelog – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-sitemap: false
+nav_group: seiten
+nav_order: 981
+title: Changelog
+description: Aenderungen und Releases fuer Einfach Geld ordnen.
 ---
 
 # Changelog
 
-Kurz und klar: Was hat sich am Projekt geaendert.
+Hier dokumentieren wir die wichtigsten Aenderungen am Projekt in kurzen Stichpunkten.
 
-## Eintraege
-- TBD (wird nachgezogen, wenn Releases stabil sind)
+## Format
+
+- Datum
+- Kurzbeschreibung
+- Optional: betroffene Seiten/Tools
+
 ## Weiter
-- [Ueberblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+
+- [Qualitaet]({{ site.baseurl }}/seiten/qualitaet.html)
+- [Self-Service]({{ site.baseurl }}/seiten/self_service.html)
+- [Startseite]({{ site.baseurl }}/)
+
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

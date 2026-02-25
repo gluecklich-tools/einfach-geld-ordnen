@@ -6,8 +6,7 @@ nav_group: pillar
 nav_order: 60
 flow_systemlinks: true
 description: "Ordnung halten - ohne Druck – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
-
+next: /seiten/haushaltsbuch-vorlage.html---
 # Ordnung halten - ohne Druck
 
 Ordnung muß nicht gehalten werden. Sie darf auch wieder verschwinden.
@@ -33,3 +32,5 @@ Alles, was hier entstanden ist, darf sich verändern.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
+
+Weiter: {{ site.baseurl }}/pillar/fixkosten.html

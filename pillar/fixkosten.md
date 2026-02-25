@@ -3,7 +3,7 @@ layout: default
 permalink: /pillar/fixkosten.html
 title: "Fixkosten senken - uebersicht"
 description: "Fixkosten senken - uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/spielraum-ruecklagen.html---
 # Fixkosten senken - übersicht
 
 Fixkosten sind der grösste Hebel für daürhaft mehr Luft.
@@ -27,8 +27,4 @@ Fixkosten sind der grösste Hebel für daürhaft mehr Luft.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/fixkosten-checkliste.html

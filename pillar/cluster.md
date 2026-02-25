@@ -3,7 +3,7 @@ layout: default
 title: "Themen-uebersicht"
 permalink: /pillar/cluster.html
 description: "Themen-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/haushaltsueberblick.html---
 # Themen-übersicht
 
 Diese Seite ist die übersicht, damit du nie festhängst.

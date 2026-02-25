@@ -3,7 +3,7 @@ layout: default
 title: "Notgroschen - Schutz vor Rueckfall"
 permalink: /pillar/notgroschen.html
 description: "Notgroschen - Schutz vor Rueckfall – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/ueberblick.html---
 # Notgroschen - Schutz vor Rückfall
 
 Ein kleiner Puffer verhindert, daß du bei jeder unerwarteten Rechnung neü Schulden machst. Der Notgroschen ist kein Luxus - er ist Stabilität.
@@ -20,8 +20,4 @@ Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/strom-gas-wechsel.html

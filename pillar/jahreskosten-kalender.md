@@ -3,7 +3,7 @@ layout: default
 title: "Jahreskosten-Kalender - planbar machen"
 permalink: /pillar/jahreskosten-kalender.html
 description: "Jahreskosten-Kalender - planbar machen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/fixkosten-checkliste.html---
 # Jahreskosten-Kalender - planbar machen
 
 Jahreskosten sind planbar, wenn du sie auf 12 Monate runterbrichst. Dann sind sie keine überraschung mehr, sondern eine feste Rücklage.
@@ -30,8 +30,4 @@ Lege den Betrag jeden Monat beiseite - automatisch, wenn möglich.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/cluster.html

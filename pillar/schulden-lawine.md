@@ -3,7 +3,7 @@ layout: default
 permalink: /pillar/schulden-lawine.html
 title: "Schulden-Lawine - Anleitung"
 description: "Schulden-Lawine - Anleitung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/schulden-schneeball.html---
 # Schulden-Lawine - Anleitung
 
 Du tilgst zürst den höchsten Zinssatz. Das spart meist mehr Geld.
@@ -19,8 +19,4 @@ Du tilgst zürst den höchsten Zinssatz. Das spart meist mehr Geld.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/jahreskosten-kalender.html

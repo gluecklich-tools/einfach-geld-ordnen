@@ -3,7 +3,7 @@ layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: /pillar/fixkosten-checkliste.html
 description: "Fixkosten-Checkliste - Luft schaffen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/fixkosten-senken.html---
 # Fixkosten-Checkliste - Luft schaffen
 
 Fixkosten sind der grösste Hebel, weil sie jeden Monat automatisch laufen. Ziel: senken, kündigen oder wechseln, bis wieder Luft entsteht.
@@ -24,8 +24,4 @@ Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist n
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/fixkosten-senken.html
