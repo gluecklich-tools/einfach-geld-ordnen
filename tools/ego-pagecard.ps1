@@ -20,7 +20,7 @@ function ReadUtf8([string]$p){
 }
 
 function Has([string]$html,[string]$pattern){
-  return [bool]([regex]::IsMatch($html,$pattern,'IgnoreCase,Singleline'))
+  return [bool]([regex]::IsMatch($html,$pattern,([Text.RegularExpressions.RegexOptions]::IgnoreCase -bor [Text.RegularExpressions.RegexOptions]::Singleline)))
 }
 
 # RepoRoot resolve: prefer explicit, else git, else script root
@@ -47,24 +47,33 @@ if(!(Test-Path -LiteralPath $InventoryTsv)){
 $lines=[IO.File]::ReadAllLines($InventoryTsv,$enc)
 if($lines.Count -lt 2){ throw "STOP: inventory empty" }
 
+$startIndex = 0
+if($lines.Length -gt 0 -and -not ($lines[0] -match '^\s*\d+\t')){
+  $startIndex = 1
+}
+
 $row=$null
-foreach($ln in ($lines | Select-Object -Skip 1)){
+for($i=$startIndex; $i -lt $lines.Length; $i++){
+  $ln = $lines[$i]
   if([string]::IsNullOrWhiteSpace($ln)){ continue }
-  $c=$ln -split "`t"
-  if($c.Count -lt 3){ continue }
+  $c=$ln -split "`t", 4
+  if($c.Count -lt 4){ continue }
   if($c[0].Trim() -eq $Idx.ToString()){
     $row=$c; break
   }
 }
 if($null -eq $row){ throw "STOP: idx not found: $Idx" }
 
-$path=$row[1].Trim()
-$url =$row[2].Trim()
-$invStatus= if($row.Count -ge 4){ $row[3].Trim() } else { "" }
-$srcRel  = if($row.Count -ge 5){ $row[4].Trim() } else { "" }
+$url=$row[1].Trim()     # ABS live URL (for fetch)
+$path=$row[2].Trim()    # REL path (/... for local mapping)
+$invStatus = $row[3].Trim()  # ABS local source path (preferred)
+$srcRel  = ""  # TSV is 4 cols; no repo-relative source here
 
 # Resolve source file
 $srcFile=""
+if($invStatus -and (Test-Path -LiteralPath $invStatus)){
+  $srcFile = $invStatus
+}
 if($srcRel){
   $cand=Join-Path $RepoRoot $srcRel
   if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
@@ -129,7 +138,21 @@ if($srcFile){
 }
 
 # Rendered checks (LIVE)
+# policy_blocks gating (default=hide)
+$policyShow = $false
+try{
+  $fmAll = [IO.File]::ReadAllText($srcFile,$enc)
+  if($fmAll -match "(?s)\A---\s*.*?\s*---\s*"){
+    $front = $Matches[0]
+    if($front -match "(?im)^\s*policy_blocks\s*:\s*show\s*$"){ $policyShow = $true }
+  }
+}catch{}
+
 $render=@()
+$hasHint = $false
+$hasKi = $false
+$hasAudit = $false
+
 $spelling=@()
 
 try{
@@ -140,14 +163,32 @@ try{
   if(-not (Has $html "<link[^>]+rel=""canonical""")){ $render += "NO_CANONICAL" }
   if(-not (Has $html "href=""[^""]*impressum")){ $render += "NO_IMPRESSUM_LINK" }
   if(-not (Has $html "href=""[^""]*datenschutz")){ $render += "NO_DATENSCHUTZ_LINK" }
-  if(-not (Has $html "Hinweis\s*\(wichtig\)")){ $render += "NO_HINWEIS_WICHTIG" }
-  if(-not (Has $html "KI[- ]Hinweis")){ $render += "NO_KI_HINWEIS" }
+  $hasHintReq = Has $html "(Hinweis|Wichtig)"
+  $hasHintLeak = Has $html "Hinweis\s*\(wichtig\)"
+  if($policyShow){
+    if($policyShow){  if(-not $hasHintReq){ $render += "NO_HINWEIS_WICHTIG" }} else {  if($hasHintLeak){ $render += "LEAK_HINWEIS_WICHTIG" }}
+  } else {
+    if($hasHint){ $render += "LEAK_HINWEIS_WICHTIG" }
+  }
+  $hasKiReq = Has $html "\bKI\b|Künstliche Intelligenz|Kuenstliche Intelligenz"
+  $hasKiLeak = Has $html "KI[- ]Hinweis"
+  if($policyShow){
+    if($policyShow){  if(-not $hasKiReq){ $render += "NO_KI_HINWEIS" }} else {  if($hasKiLeak){ $render += "LEAK_KI_HINWEIS" }}
+  } else {
+    if($hasKi){ $render += "LEAK_KI_HINWEIS" }
+  }
 
   if(Has $html "Aktualitaet\s+und\s+Audit[-– ]Hinweis"){
     $spelling += "SPELLING: Aktualitaet -> Aktualität"
   }
   if(-not (Has $html "Aktualit(aet|[aä]t)\s+und\s+Audit[-– ]Hinweis")){
-    $render += "NO_AKTUALITAET_AUDIT_HINWEIS"
+    $hasAuditReq = Has $html "Aktualit(aet|[aä]t)\s+und\s+Audit"
+    $hasAuditLeak = Has $html "Aktualit(aet|[aä]t)\s+und\s+Audit[-– ]Hinweis"
+    if($policyShow){
+      if($policyShow){  if(-not $hasAuditReq){ $render += "NO_AKTUALITAET_AUDIT_HINWEIS" }} else {  if($hasAuditLeak){ $render += "LEAK_AKTUALITAET_AUDIT_HINWEIS" }}
+    } else {
+      if($hasAudit){ $render += "LEAK_AKTUALITAET_AUDIT_HINWEIS" }
+    }
   }
 
   if(-not (Has $html ">\s*Weiter\s*<")){ $render += "NO_WEITER_RENDERED" }

@@ -64,3 +64,21 @@ pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-frontmatter-nav.ps1')
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-thema-alias-map.ps1') -WithAsciiCheck -WithDupCheck
 "pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
 PASS: ego-run completed (required gates OK)."
+
+
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===
+# AUTO: Findings -> SSOT Docs (mandatory)
+$ssot=$env:EGO_SSOT_ROOT
+if([string]::IsNullOrWhiteSpace($ssot)){ $ssot='C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance' }
+$internRoot = Split-Path -Parent $ssot
+$tool = Join-Path -Path (Join-Path -Path $internRoot -ChildPath 'tools') -ChildPath 'ego-findings-upsert.ps1'
+if(!(Test-Path -LiteralPath $tool)){ throw "STOP: findings tool missing: $tool" }
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $tool -SsotRoot $ssot
+
+# Marker-Gate
+$marker='<!-- EGO_FINDINGS_FLOWPLAN_TSV_V1 BEGIN -->'
+$learn = Join-Path -Path $ssot -ChildPath 'LEARNINGS_INTERNAL.md'
+if(!(Select-String -LiteralPath $learn -SimpleMatch -Pattern $marker -Quiet)){
+  throw "STOP: findings marker missing in LEARNINGS_INTERNAL.md after upsert"
+}
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 END ===

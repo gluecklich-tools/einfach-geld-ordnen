@@ -19,25 +19,21 @@ Set-Location -LiteralPath $RepoRoot
 try{ Add-Type -AssemblyName System.IO.Compression.FileSystem | Out-Null }catch{}
 
 function New-BundleReadme([string]$BaseName){
-@"
-README_START_HIER.txt
-
-Paket: $BaseName
-
-Inhalt:
-- XLSX (Excel)
-- ODS (LibreOffice)
-
-Hinweise:
-- Self-Serve: offline nutzbar, einmaliger Download.
-- Keine Updates/kein Support/kein Service-Versprechen.
-- Dateien lokal speichern und in deinem Programm oeffnen.
-
-Zeilenlimits (Orientierung):
-- Freebie: 5.000
-- Pro:    10.000
-- Voll:   20.000
-"@
+  $readmeLines = @(
+    'README_START_HIER.txt',
+    '',
+    'Paket: {{BASENAME}}',
+    '',
+    'Inhalt:',
+    '- XLSX (Excel)',
+    '- ODS (LibreOffice)',
+    '',
+    'Hinweise:',
+    '- Self-Serve: offline nutzbar, einmaliger Download'
+  )
+  $readme = ($readmeLines -join "`r`n")
+  $readme = $readme -replace '\{\{BASENAME\}\}', $BaseName
+  return $readme
 }
 
 function Get-Rel([string]$abs){
