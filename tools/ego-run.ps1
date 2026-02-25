@@ -69,7 +69,15 @@ PASS: ego-run completed (required gates OK)."
 # === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===
 # AUTO: Findings -> SSOT Docs (mandatory)
 $ssot=$env:EGO_SSOT_ROOT
-if([string]::IsNullOrWhiteSpace($ssot)){ $ssot='C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance' }
+if([string]::IsNullOrWhiteSpace($ssot)){
+  $ssot=$env:EGO_SSOT_ROOT
+}
+if([string]::IsNullOrWhiteSpace($ssot)){
+  throw "STOP: EGO_SSOT_ROOT not set. Set env var to SSOT root (example: <PROJECT>/_INTERN/governance)."
+}
+if(!(Test-Path -LiteralPath $ssot)){
+  throw ("STOP: SSOT root missing: " + $ssot)
+}
 $internRoot = Split-Path -Parent $ssot
 $tool = Join-Path -Path (Join-Path -Path $internRoot -ChildPath 'tools') -ChildPath 'ego-findings-upsert.ps1'
 if(!(Test-Path -LiteralPath $tool)){ throw "STOP: findings tool missing: $tool" }
