@@ -40,8 +40,7 @@ $repo = Resolve-RepoRoot $RepoRoot
 Set-Location -LiteralPath $repo
 
 $today = (Get-Date).ToString("yyyy-MM-dd")
-$ts    = (Get-Date).ToString("yyyyMMdd_HHmmss")
-
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
 $dailyDir = Join-Path $repo "_local\daily"
 $runDir   = Join-Path $dailyDir ("run_{0}_{1}" -f $today, $ts)
 New-Item -ItemType Directory -Path $runDir -Force | Out-Null

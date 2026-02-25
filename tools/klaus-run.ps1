@@ -105,8 +105,7 @@ return
   $site = 'https://gluecklich-tools.github.io/einfach-geld-ordnen'
   $pMap = Join-Path $RepoRoot 'sitemap.xml'
   $pRob = Join-Path $RepoRoot 'robots.txt'
-
-  $ts = (Get-Date).ToString('yyyyMMdd_HHmmss')
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
   $bk = Join-Path $RepoRoot ("_local\patch_backups\klaus_autositemap_run_" + $ts)
   New-Item -ItemType Directory -Path $bk -Force | Out-Null
   if (Test-Path -LiteralPath $pMap) { Copy-Item -LiteralPath $pMap -Destination (Join-Path $bk 'sitemap.xml') -Force }

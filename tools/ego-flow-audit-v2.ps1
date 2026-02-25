@@ -1,11 +1,14 @@
 #requires -Version 7.0
-[CmdletBinding()]
 param(
   [Parameter()][string]$RepoRoot = '',
   [Parameter()][string]$BaseUrl  = 'https://gluecklich-tools.github.io/einfach-geld-ordnen',
   [Parameter()][string]$InventoryTsv = '',
   [Parameter()][string]$OutDir = ''
 )
+# --- MOVED BELOW param(...) by fix_paramfirst (20260225_201919) ---
+[CmdletBinding()]
+# --- END MOVED BLOCK ---
+
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest

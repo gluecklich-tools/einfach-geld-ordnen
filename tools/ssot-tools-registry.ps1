@@ -24,8 +24,7 @@ if(-not (Test-Path -LiteralPath $ToolsDir)){ throw "STOP: tools/ not found in re
 # Output goes into public repo (assets/audit/runs)
 $OutDir = Join-Path (Join-Path (Join-Path $Repo "assets") "audit") "runs"
 New-Item -ItemType Directory -Path $OutDir -Force | Out-Null
-
-$ts = (Get-Date).ToString("yyyyMMdd_HHmmss")
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
 $reportPath = Join-Path $OutDir ("TOOLS_REGISTRY_{0}.md" -f $ts)
 
 function Get-ToolCategory {

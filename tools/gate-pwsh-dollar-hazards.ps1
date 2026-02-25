@@ -98,7 +98,7 @@ foreach($p in $scan){ if($p -ieq $self){ continue }
 if(@($hits).Count -gt 0){
   "FAIL: PowerShell $-Interpolation Hazards detected."
   ""
-  $csvOut = Join-Path $RepoRoot ("_local\reports\gate_pwsh_dollar_hazards_hits_{0}.csv" -f (Get-Date).ToString('yyyyMMdd_HHmmss'))
+  $csvOut = Join-Path $RepoRoot ("_local\reports\gate_pwsh_dollar_hazards_hits_{0}.csv" -f ("{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)))
   $dir = Split-Path -Parent $csvOut
   if($dir -and !(Test-Path -LiteralPath $dir)){ New-Item -ItemType Directory -Path $dir -Force | Out-Null }
   $hits | Sort-Object file, rule | Export-Csv -LiteralPath $csvOut -NoTypeInformation -Encoding UTF8
