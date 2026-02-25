@@ -198,3 +198,21 @@ Live-Smoke200 -Url $u
 
 Say "DONE."
 git status --porcelain
+
+# --- EGO_ARTIFACTS_INDEX_HOOK_V1 ---
+# Write a single SSOT-side index of repo _local artifacts for this run (if SSOT is available).
+try {
+  $runStart = $script:KlausRunStart
+  if(-not $runStart){ $runStart = (Get-Date).AddHours(-2) }
+
+  if($env:EGO_INTERNAL_DIR){
+    $env:EGO_REPO_DIR = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+    $idx = Join-Path $env:EGO_INTERNAL_DIR 'tools\ego-artifacts-index.ps1'
+    if(Test-Path -LiteralPath $idx){
+      & pwsh -NoProfile -File $idx -Since $runStart -Title 'KLAUS Artifacts Index' | Out-Null
+    }
+  }
+} catch {
+  # never fail Klaus because of indexing
+}
+# --- /EGO_ARTIFACTS_INDEX_HOOK_V1 ---
