@@ -1,4 +1,8 @@
 #requires -Version 7.0
+# EGO_CANON:ENTERPRISE_PREFLIGHT_BEGIN
+& pwsh -NoProfile -File 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\enterprise-preflight.ps1'
+# EGO_CANON:ENTERPRISE_PREFLIGHT_END
+
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 # EGO_NO_BIG_PASTE_RUNNER_V1
