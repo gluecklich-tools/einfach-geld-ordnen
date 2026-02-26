@@ -13,6 +13,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+
 # --- KLAUS_COMMIT_PUSH_GUARD_V1 ---
 $script:KlausDoCommitPush = ($env:KLAUS_DO_COMMIT_PUSH -eq '1')
 # --- /KLAUS_COMMIT_PUSH_GUARD_V1 ---
@@ -189,10 +190,13 @@ if ($cand.Length -eq 0) {
   $cand | ForEach-Object { Say ("  " + $_) }
 
   $msg = Ensure-CleanCommitMessage -Msg $Message
-  git add -A | Out-Null
-  git commit -m $msg | ForEach-Object { $_ }
-  git push | ForEach-Object { $_ }
-  Say "OK: Changes pushed."
+  if($script:KlausDoCommitPush){ git add -A | Out-Null
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git add"; } }
+  if($script:KlausDoCommitPush){ git commit -m $msg | ForEach-Object { $_ }
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git commit"; } }
+  if($script:KlausDoCommitPush){ git push | ForEach-Object { $_ }
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git push"; } }
+  if($script:KlausDoCommitPush){ Say "OK: Changes pushed." } else { Say "OK: Push skipped (commit/push disabled)." }
 }
 
 # 4) Live smoke (full URL)
@@ -238,3 +242,4 @@ try {
   # never fail Klaus because of indexing
 }
 # --- /EGO_ARTIFACTS_INDEX_HOOK_V1 ---
+# --- EGO_GIT_GUARD_LINES_V1 ---
