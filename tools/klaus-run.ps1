@@ -10,6 +10,10 @@ param(
   [Parameter(Mandatory=$false)]
   [int]$HttpTimeoutSec = 20
 )
+# EGO_CANON:ENTERPRISE_PREFLIGHT_BEGIN
+& pwsh -NoProfile -File 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\enterprise-preflight.ps1'
+# EGO_CANON:ENTERPRISE_PREFLIGHT_END
+
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
