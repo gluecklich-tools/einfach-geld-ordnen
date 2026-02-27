@@ -29,17 +29,17 @@ jobs:
           $ErrorActionPreference='Stop'
           Set-StrictMode -Version Latest
           # marker: tools/smoke-checks.json
-- name: Make autopilot step in scratch
-  shell: pwsh
-  run: |
-    pwsh -NoProfile -File tools/ci-make-autopilot-step.ps1 | Tee-Object -FilePath step_out.txt
+      - name: Make autopilot step in scratch
+        shell: pwsh
+        run: |
+          pwsh -NoProfile -File tools/ci-make-autopilot-step.ps1 | Tee-Object -FilePath step_out.txt
 
-- name: enterprise autopilot (preflight + smoke)
-  shell: pwsh
-  run: |
-    $line = (Get-Content step_out.txt | Select-String -Pattern '^STEP_OUT:\s+' | Select-Object -Last 1).Line
-    $step = ($line -replace '^STEP_OUT:\s*','').Trim()
-    pwsh -NoProfile -File tools/enterprise-run.ps1 -StepPath $step
+      - name: enterprise autopilot (preflight + smoke)
+        shell: pwsh
+        run: |
+          $line = (Get-Content step_out.txt | Select-String -Pattern '^STEP_OUT:\s+' | Select-Object -Last 1).Line
+          $step = ($line -replace '^STEP_OUT:\s*','').Trim()
+          pwsh -NoProfile -File tools/enterprise-run.ps1 -StepPath $step
 
 
       - name: upload reports (always)
