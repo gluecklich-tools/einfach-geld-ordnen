@@ -1,7 +1,9 @@
 param(
   [Parameter(Mandatory)][string]$SiteUrl,
   [Parameter(Mandatory)][object[]]$Checks,
-  [int]$TimeoutSec = 20
+  [int]$TimeoutSec = 20,
+  [int]$MaxUrls = 0,
+  [string[]]$IgnorePatterns = @()
 )
 
 $ErrorActionPreference='Stop'
@@ -17,6 +19,14 @@ function NormalizeUrl([string]$base,[string]$path){
   return ($b + $p)
 }
 
+function ShouldIgnore([string]$url,[string[]]$patterns){
+  foreach($pat in $patterns){
+    if([string]::IsNullOrWhiteSpace($pat)){ continue }
+    if($url -like $pat){ return $true }
+  }
+  return $false
+}
+
 $fail = New-Object System.Collections.Generic.List[string]
 
 foreach($c in $Checks){
@@ -24,11 +34,12 @@ foreach($c in $Checks){
   $expect = @($c.Expect) | ForEach-Object { [int]$_ }
   $url = NormalizeUrl $SiteUrl $path
 
+  if(ShouldIgnore $url $IgnorePatterns){ continue }
+
   try{
     $resp = Invoke-WebRequest -Uri $url -Method GET -MaximumRedirection 0 -TimeoutSec $TimeoutSec -UseBasicParsing
     $code = [int]$resp.StatusCode
   } catch {
-    # WebException: StatusCode often in Response
     $code = $null
     try{
       $r = $_.Exception.Response

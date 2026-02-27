@@ -8,39 +8,14 @@ on:
       - recovery/**
 
 jobs:
-  gates:
+  autopilot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: gates
+      - name: enterprise autopilot (preflight + smoke)
         shell: pwsh
         run: |
           $ErrorActionPreference='Stop'
           Set-StrictMode -Version Latest
+          # hard marker: tools/smoke-checks.json
           pwsh -NoProfile -File tools/enterprise-run.ps1 -StepPath tools/enterprise-autopilot-step.ps1
-
-  smoke:
-    runs-on: ubuntu-latest
-    needs: gates
-    steps:
-      - uses: actions/checkout@v4
-      - name: smoke http
-        shell: pwsh
-        env:
-          SITE_URL: https://gluecklich-tools.github.io/einfach-geld-ordnen
-        run: |
-          $ErrorActionPreference='Stop'
-          Set-StrictMode -Version Latest
-
-          $checks = @(
-            @{ Path='/';                         Expect=@(200) },
-            @{ Path='/index.html';               Expect=@(200) },
-
-            # 300er-Beispiel (falls du absichtlich Redirects hast; sonst entfernen)
-            # @{ Path='/alt';                    Expect=@(301,302,308) },
-
-            # 400er-Beispiel: absichtlich nicht vorhandene Seite -> 404 erwartet
-            @{ Path='/__smoke_not_found__';       Expect=@(404) }
-          )
-
-          pwsh -NoProfile -File tools/smoke-http.ps1 -SiteUrl $env:SITE_URL -Checks $checks
