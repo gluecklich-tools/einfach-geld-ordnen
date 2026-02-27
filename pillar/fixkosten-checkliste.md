@@ -1,4 +1,15 @@
 ---
+title: Pillar/fixkosten Checkliste
+permalink: /pillar/fixkosten-checkliste.html
+---
+
+
+
+
+
+# Pillar/fixkosten Checkliste
+
+---
 layout: default
 title: "Fixkosten-Checkliste - Luft schaffen"
 permalink: /pillar/fixkosten-checkliste.html
@@ -18,10 +29,8 @@ Gehe die Liste in dieser Reihenfolge durch:
 5. Kontogebühren
 
 Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist nicht nötig.
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/fixkosten-senken.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

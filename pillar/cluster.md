@@ -1,4 +1,15 @@
 ---
+title: Pillar/cluster
+permalink: /pillar/cluster.html
+---
+
+
+
+
+
+# Pillar/cluster
+
+---
 layout: default
 title: "Themen-uebersicht"
 permalink: /pillar/cluster.html
@@ -25,13 +36,8 @@ Diese Seite ist die übersicht, damit du nie festhängst.
 
 - [Pillar übersicht]({{ site.baseurl }}/pillar/index.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

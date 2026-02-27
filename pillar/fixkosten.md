@@ -1,4 +1,15 @@
 ---
+title: Pillar/fixkosten
+permalink: /pillar/fixkosten.html
+---
+
+
+
+
+
+# Pillar/fixkosten
+
+---
 layout: default
 permalink: /pillar/fixkosten.html
 title: "Fixkosten senken - uebersicht"
@@ -21,10 +32,8 @@ Fixkosten sind der grösste Hebel für daürhaft mehr Luft.
 - [Mobilfunk/Internet: senken]({{site.baseurl}}/pillar/mobilfunk-internet.html)
 - [Abos kündigen: konseqünt]({{site.baseurl}}/pillar/abos-kuendigen.html)
 - [50-30-20 Regel]({{site.baseurl}}/pillar/50-30-20.html)
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/fixkosten-checkliste.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

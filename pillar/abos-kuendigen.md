@@ -1,4 +1,15 @@
 ---
+title: Pillar/abos Kuendigen
+permalink: /pillar/abos-kuendigen.html
+---
+
+
+
+
+
+# Pillar/abos Kuendigen
+
+---
 layout: default
 title: "Abos kuendigen - konsequent"
 permalink: /pillar/abos-kuendigen.html
@@ -24,10 +35,8 @@ Alles, was du in den letzten 30 Tagen nicht genutzt hast, wird gekündigt. Wenn 
 3. Abo-Deckel setzen
 
 Lege ein klares Monatslimit fest. Alles darüber wird nicht (wieder) abgeschlossen.
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/schuldenfrei.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

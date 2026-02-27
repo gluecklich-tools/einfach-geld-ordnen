@@ -1,4 +1,12 @@
 ---
+title: Pillar/index
+permalink: /pillar/index.html
+---
+
+
+# Pillar/index
+
+---
 permalink: /pillar/index.html
 layout: default
 title: Projekt Übersicht
@@ -28,13 +36,12 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 ## Downloads
 
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-## Weiter
-- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-{% include no_sackgasse_footer.html %}
 
-<!-- EGO_FRAGILE_LINKFIX_V3 -->
+## Weiter
+- [/pillar/index.html](/pillar/index.html)
+- [/pillar/einfach-geld-ordnen.html](/pillar/einfach-geld-ordnen.html)
+- [/rechner/index.html](/rechner/index.html)
+
 ## Pillar-Artikel (Übersicht)
 
 - [Abos kündigen]({{ site.baseurl }}/pillar/abos-kuendigen.html)
@@ -47,3 +54,5 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Versicherungen-Check]({{ site.baseurl }}/pillar/versicherungen-check.html)
 
 Weiter: {{ site.baseurl }}/pillar/einfach-geld-ordnen.html
+
+{% include no_sackgasse_footer.html %}

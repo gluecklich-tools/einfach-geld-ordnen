@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 

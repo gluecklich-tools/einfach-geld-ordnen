@@ -1,4 +1,15 @@
 ---
+title: Pillar/abo Manager
+permalink: /pillar/abo-manager.html
+---
+
+
+
+
+
+# Pillar/abo Manager
+
+---
 layout: default
 title: "Abo-Manager - Geldleck stoppen"
 permalink: /pillar/abo-manager.html
@@ -30,10 +41,8 @@ Wenn du unsicher bist: pausieren oder auf das billigste Paket wechseln.
 3. Monatslimit setzen (damit es nicht wieder passiert)
 
 Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darüber liegt, muss erst durch eine bewusste Entscheidung.
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/abos-kuendigen.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

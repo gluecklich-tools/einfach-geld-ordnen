@@ -1,4 +1,15 @@
 ---
+title: Pillar/fixkosten Senken
+permalink: /pillar/fixkosten-senken.html
+---
+
+
+
+
+
+# Pillar/fixkosten Senken
+
+---
 layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
@@ -21,10 +32,8 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die grössten Effekte so
 3. Leicht + groß gewinnt
 
 Beginne mit dem grössten Betrag, der am leichtesten zu ändern ist (einfacher Wechsel vor komplizierter Verhandlung).
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/50-30-20.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param(
   [string]$RepoRoot = (git rev-parse --show-toplevel).Trim()
 )

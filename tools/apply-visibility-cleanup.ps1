@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param(
   [Parameter(Mandatory=$false)][string]$Root = (Get-Location).Path
 )

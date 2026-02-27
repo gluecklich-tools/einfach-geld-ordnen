@@ -1,4 +1,15 @@
 ---
+title: Pillar/haushaltsueberblick
+permalink: /pillar/haushaltsueberblick.html
+---
+
+
+
+
+
+# Pillar/haushaltsueberblick
+
+---
 layout: default
 permalink: /pillar/haushaltsueberblick.html
 title: "Haushaltsueberblick - ohne Zahlen"
@@ -30,10 +41,8 @@ Diese Seite will nichts erklären und nichts ordnen. Sie zeigt nur: Das alles ge
 Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereiten.
 
 Wenn du magst, lies es einfach wie eine Themen-übersicht, auf der du deinen eigenen Haushalt wiedererkennst.
-## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
 
-Weiter: {{ site.baseurl }}/pillar/spielraum-ruecklagen.html
+## Weiter
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

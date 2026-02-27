@@ -1,4 +1,5 @@
 #requires -Version 7.0
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param(
   [Parameter()][string]$RepoRoot = '',
   [Parameter()][string]$BaseUrl  = 'https://gluecklich-tools.github.io/einfach-geld-ordnen',
