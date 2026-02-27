@@ -97,5 +97,8 @@ if($mode -eq "sitemap_all"){
 & $smokeTool -SiteUrl $site -Checks $checks -MaxUrls $max -IgnorePatterns $ignore
 if($LASTEXITCODE -ne 0){ Fail "STOP: smoke-http failed (exit=$LASTEXITCODE)" }
 
+# AUTOGATE_REPORTS_NO_ERRORS
+& (Join-Path (Join-Path $RepoRoot 'tools') 'gate-reports-no-errors.ps1') -RepoRoot $RepoRoot
+if($LASTEXITCODE -ne 0){ Fail "STOP: reports gate failed (exit=$LASTEXITCODE)" }
 "PASS: ENTERPRISE_AUTOPILOT_STEP"
 exit 0
