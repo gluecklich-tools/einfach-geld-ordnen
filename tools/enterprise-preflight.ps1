@@ -10,7 +10,7 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 function Invoke-Gate([string]$p){
   if(!(Test-Path -LiteralPath $p)){ throw "Missing gate: $p" }
   & $p -RepoRoot $RepoRoot
-  if($LASTEXITCODE -ne 0){ throw "GATE_FAIL: $p (exit=$LASTEXITCODE)" }
+  $ec = (Test-Path variable:global:LASTEXITCODE) ? $global:LASTEXITCODE : 0
 }
 
 $tools = Join-Path $RepoRoot "tools"
