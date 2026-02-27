@@ -12,10 +12,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: env debug
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Continue'
+          pwsh --version
+          git --version
+          git rev-parse --short HEAD
+          git branch --show-current
+          Get-ChildItem -LiteralPath tools | Select-Object -First 50 | ForEach-Object { "$($_.Name)" }
+
       - name: enterprise autopilot (preflight + smoke)
         shell: pwsh
         run: |
           $ErrorActionPreference='Stop'
           Set-StrictMode -Version Latest
-          # hard marker: tools/smoke-checks.json
+          # marker: tools/smoke-checks.json
           pwsh -NoProfile -File tools/enterprise-run.ps1 -StepPath tools/enterprise-autopilot-step.ps1
+
+      - name: upload reports (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: enterprise-reports
+          path: |
+            _local/reports/*.md
+            _local/reports/*.txt
+            **/enterprise_run_*.md
+            _INTERN/governance/_reports/*.md
