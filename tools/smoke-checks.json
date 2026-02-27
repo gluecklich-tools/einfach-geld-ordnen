@@ -1,0 +1,89 @@
+{
+  "SiteUrl": "https://gluecklich-tools.github.io/einfach-geld-ordnen",
+  "Checks": [
+    {
+      "Path": "/",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/index.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/index.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/downloads.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/rechner-uebersicht.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/datenschutz.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/impressum.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/download-hub-index.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/freebie.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/seiten/faq_probleme_loesen.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/pillar/schuldenfrei.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/pillar/notgroschen.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/pillar/fixkosten.html",
+      "Expect": [
+        200
+      ]
+    },
+    {
+      "Path": "/__smoke_not_found__",
+      "Expect": [
+        404
+      ]
+    }
+  ]
+}
