@@ -16,6 +16,7 @@ function Invoke-Gate([string]$p){
 $tools = Join-Path $RepoRoot "tools"
 Invoke-Gate (Join-Path $tools "gate-no-regex-patch-v1.ps1")
 Invoke-Gate (Join-Path $tools "gate-ps-parser-all-tools.ps1")
+Invoke-Gate (Join-Path $tools "gate-no-absolute-paths-in-tools.ps1")
 Invoke-Gate (Join-Path $tools "gate-actions-trigger-policy.ps1")
 Invoke-Gate (Join-Path $tools "gate-actions-smoke-policy.ps1")
 Invoke-Gate (Join-Path $tools "gate-actions-autopilot-policy.ps1")
