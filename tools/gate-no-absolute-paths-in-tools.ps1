@@ -21,6 +21,10 @@ $hits = New-Object System.Collections.Generic.List[object]
 
 foreach($rel in $files){
   if([string]::IsNullOrWhiteSpace($rel)){ continue }
+
+  # skip gate scripts themselves to avoid false positives from pattern docs
+  if($rel -like "tools/gate-*"){ continue }
+
   $p = Join-Path $RepoRoot $rel
   if(!(Test-Path -LiteralPath $p)){ continue }
 
@@ -31,7 +35,9 @@ foreach($rel in $files){
     $ln = $lines[$i]
     if($null -eq $ln){ continue }
 
-    # hard blocks (local-only paths)
+    # ignore comment-only lines (incl. leading whitespace)
+    if($ln.TrimStart().StartsWith("#")){ continue }
+
     if($ln -like "*C:\Users\*" -or
        $ln -like "*\_INTERN\*" -or
        $ln -like "*/home/runner/*"){
