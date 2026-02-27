@@ -6,30 +6,81 @@ $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+$enc=[Text.UTF8Encoding]::new($false)
 
-function Fail([string]$m){ Write-Error $m; exit 3 }
+function WriteRunReport([string]$Status,[string]$Message,[string]$RepoRoot,[string]$StepArg,[string]$StepResolved){
+  $ts = Get-Date -Format 'yyyyMMdd_HHmmss'
+  $dir = Join-Path $RepoRoot "_local\reports"
+  if(!(Test-Path -LiteralPath $dir)){ New-Item -ItemType Directory -Force -Path $dir | Out-Null }
+  $rep = Join-Path $dir ("enterprise_run_{0}.md" -f $ts)
+  $lines = @()
+  $lines += "# ENTERPRISE RUN"
+  $lines += ""
+  $lines += "* Timestamp: $ts"
+  $lines += "* Status: $Status"
+  $lines += "* RepoRoot: $RepoRoot"
+  $lines += "* StepArg: $StepArg"
+  $lines += "* StepResolved: $StepResolved"
+  $lines += "* PSVersion: $($PSVersionTable.PSVersion)"
+  $lines += ""
+  $lines += "## Message"
+  $lines += ""
+  $lines += $Message
+  [IO.File]::WriteAllText($rep, ($lines -join "`n"), $enc)
+}
+
+function Fail([string]$m){
+  try{ WriteRunReport -Status 'FAIL' -Message $m -RepoRoot $repoRoot -StepArg $stepArg -StepResolved $stepResolved }catch{}
+  Write-Error $m
+  exit 3
+}
 
 $toolsRoot = $PSScriptRoot
 $repoRoot  = Split-Path -Parent $toolsRoot
+if(!(Test-Path -LiteralPath (Join-Path $repoRoot ".git"))){ Fail "STOP: not in repo root. RepoRoot=$repoRoot" }
 
 $preflight = Join-Path $toolsRoot "enterprise-preflight.ps1"
 $stepRun   = Join-Path $toolsRoot "step-run.ps1"
-
 if(!(Test-Path -LiteralPath $preflight)){ Fail "STOP: missing preflight: $preflight" }
-if(!(Test-Path -LiteralPath $stepRun)){   Fail "STOP: missing step-run:  $stepRun" }
+if(!(Test-Path -LiteralPath $stepRun)){   Fail "STOP: missing step-run: $stepRun" }
 
-if([string]::IsNullOrWhiteSpace($StepPath)){ Fail "STOP: StepPath empty" }
-$sp = $StepPath
-try{ $sp = (Resolve-Path -LiteralPath $StepPath).Path } catch { Fail "STOP: StepPath not found: $StepPath" }
+$stepArg = $StepPath
+if([string]::IsNullOrWhiteSpace($stepArg)){ Fail "STOP: StepPath empty" }
 
-# Preflight FIRST
-& $preflight -RepoRoot $repoRoot
-if($LASTEXITCODE -ne 0){ Fail "STOP: enterprise-preflight failed (exit=$LASTEXITCODE)" }
+# Normalize: trim + strip quotes + absolutize relative to repoRoot
+$p = $stepArg.Trim().Trim('"').Trim("'")
+if(-not [IO.Path]::IsPathRooted($p)){ $p = Join-Path $repoRoot $p }
+$p = [IO.Path]::GetFullPath($p)
 
-# Step-run
-& $stepRun -StepPath $sp
+# Existence check (robust)
+if(-not [IO.File]::Exists($p)){
+  $msg = @()
+  $msg += "STOP: StepPath not found."
+  $msg += "GivenArg: [$stepArg]"
+  $msg += "Normalized: [$p]"
+  $msg += "ArgLength: $($stepArg.Length)"
+  $msg += "Hint: check trailing spaces/newlines/quotes."
+  Fail ($msg -join "`n")
+}
+
+# Enforce NO_STUECKWERK: step must be under _local\_scratch
+$scratch = Join-Path $repoRoot "_local\_scratch"
+if(!(Test-Path -LiteralPath $scratch)){ New-Item -ItemType Directory -Force -Path $scratch | Out-Null }
+$scratchFull = (Resolve-Path -LiteralPath $scratch).Path
+if(-not $p.StartsWith($scratchFull,[StringComparison]::OrdinalIgnoreCase)){
+  Fail ("STOP: StepPath must be under _local\_scratch. Given: {0}`nAllowedRoot: {1}" -f $p,$scratchFull)
+}
+
+$stepResolved = $p
+
+# Preflight then Step-run
+& pwsh -NoProfile -File $preflight -RepoRoot $repoRoot
+if($LASTEXITCODE -ne 0){ Fail "STOP: preflight failed (exit=$LASTEXITCODE)" }
+
+& pwsh -NoProfile -File $stepRun -StepPath $stepResolved
 $code = $LASTEXITCODE
-if($code -ne 0){ Fail "STOP: step-run failed (exit=$code) Step=$sp" }
+if($code -ne 0){ Fail "STOP: step-run failed (exit=$code) Step=$stepResolved" }
 
+WriteRunReport -Status 'PASS' -Message 'PASS: enterprise-run' -RepoRoot $repoRoot -StepArg $stepArg -StepResolved $stepResolved
 "PASS: enterprise-run"
 exit 0

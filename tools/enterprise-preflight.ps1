@@ -25,6 +25,7 @@ Invoke-Gate (Join-Path $tools "gate-no-inner-single-quotes-in-command.ps1")
 Invoke-Gate (Join-Path $tools "gate-no-console-transcripts.ps1")
 Invoke-Gate (Join-Path $tools "gate-no-format-brace-traps.ps1")
 Invoke-Gate (Join-Path $tools "gate-param-must-be-first.ps1")
+Invoke-Gate (Join-Path $tools "gate-reports-no-errors.ps1")
 
 "PASS: ENTERPRISE_PREFLIGHT"
 exit 0
