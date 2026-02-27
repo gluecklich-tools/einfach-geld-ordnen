@@ -66,7 +66,13 @@ foreach($p in $files){
     if($null -eq $ln){ continue }
 
     # Heuristik: echte PS-Prompts / Continuation
-    if($ln.StartsWith("PS ", [StringComparison]::Ordinal) -or
+          # NO_STUECKWERK_FRAGMENTS
+      $t = $ln.Trim()
+      if($t -eq "=" -or $t.StartsWith("=:", [StringComparison]::Ordinal)){
+        $hits.Add([pscustomobject]@{ Path=$p; Line=($i+1); Text=$ln })
+        continue
+      }
+if($ln.StartsWith("PS ", [StringComparison]::Ordinal) -or
        $ln.StartsWith(">>", [StringComparison]::Ordinal)){
       $hits.Add([pscustomobject]@{ Path=$p; Line=($i+1); Text=$ln })
     }
