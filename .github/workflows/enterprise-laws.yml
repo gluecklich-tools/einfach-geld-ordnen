@@ -1,0 +1,16 @@
+name: enterprise-laws
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gate enterprise laws
+        shell: pwsh
+        run: |
+          $repo = (Get-Location).Path
+          & (Join-Path $repo "tools/gate-no-regex-patch-v1.ps1") -RepoRoot $repo
