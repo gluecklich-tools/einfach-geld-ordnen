@@ -1,3 +1,2 @@
 #!/bin/sh
-set -e
-pwsh -NoProfile -Command "& { $repo=(Get-Location).Path; & (Join-Path $repo  tools/gate-enterprise-laws-v2.ps1) -RepoRoot $repo }"
+exec cmd.exe /c ""%~dp0pre-commit.cmd""
