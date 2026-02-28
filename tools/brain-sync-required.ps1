@@ -1,5 +1,6 @@
 param(
-  [string]$RepoRoot = (Get-Location).Path
+  [string]$RepoRoot = (Get-Location).Path,
+  [switch]$NoTouch
 )
 
 $ErrorActionPreference='Stop'
@@ -12,49 +13,58 @@ function EnsureDir([string]$p){ if(!(Test-Path -LiteralPath $p)){ New-Item -Item
 function WriteUtf8NoBom([string]$p,[string]$s){ [IO.File]::WriteAllText($p,$s,$enc) }
 function Fail([string]$m){ throw $m }
 
-# HARD LAW (local only):
-# - This tool MUST run before enterprise-run continues.
-# - No absolute paths in repo. All locations come from env vars.
-
-# REQUIRED env vars (local):
-# EGO_SSOT_GOV_DIR  -> full path to your governance folder (no examples here)
-# EGO_BRAIN_DIR     -> full path to your Brain_EGO_Dateien folder (no examples here)
 $gov   = [string]$env:EGO_SSOT_GOV_DIR
 $brain = [string]$env:EGO_BRAIN_DIR
 
 if([string]::IsNullOrWhiteSpace($gov) -or [string]::IsNullOrWhiteSpace($brain)){
   Fail "STOP: BRAIN_SYNC_REQUIRED. Set env vars: EGO_SSOT_GOV_DIR and EGO_BRAIN_DIR."
 }
-
 if(!(Test-Path -LiteralPath $gov)){ Fail ("STOP: missing EGO_SSOT_GOV_DIR: " + $gov) }
+
 EnsureDir $brain
 
 $srcFiles = @(
-  Join-Path $gov "SSOT_MANIFEST_INTERNAL.json",
-  Join-Path $gov "SSOT_SYSTEM_MAP_INTERNAL.md",
-  Join-Path $gov "TODO.md",
-  Join-Path $gov "BOOTSTRAP_INTERNAL.md",
-  Join-Path $gov "GOVERNANCE_INTERNAL.md",
-  Join-Path $gov "LEARNINGS_INTERNAL.md",
-  Join-Path $gov "QA_GATE_INTERNAL.md",
-  Join-Path $gov "ROADMAP_INTERNAL.md",
-  Join-Path $gov "EVERGREEN_PIPELINE_INTERNAL.md"
+  "SSOT_MANIFEST_INTERNAL.json",
+  "SSOT_SYSTEM_MAP_INTERNAL.md",
+  "TODO.md",
+  "BOOTSTRAP_INTERNAL.md",
+  "GOVERNANCE_INTERNAL.md",
+  "LEARNINGS_INTERNAL.md",
+  "QA_GATE_INTERNAL.md",
+  "ROADMAP_INTERNAL.md",
+  "EVERGREEN_PIPELINE_INTERNAL.md",
+  "EVERGREEN_CANDIDATES_INTERNAL.tsv"
 )
 
+$now = Get-Date
 $copied = 0
-foreach($s in $srcFiles){
-  if(Test-Path -LiteralPath $s){
-    Copy-Item -LiteralPath $s -Destination (Join-Path $brain (Split-Path -Leaf $s)) -Force
+$names = @()
+
+foreach($name in $srcFiles){
+  $src = Join-Path $gov $name
+  if(Test-Path -LiteralPath $src){
+    $dst = Join-Path $brain $name
+    Copy-Item -LiteralPath $src -Destination $dst -Force
     $copied++
+    $names += $name
+
+    if(-not $NoTouch){
+      (Get-Item -LiteralPath $dst).LastWriteTime = $now
+    }
   }
 }
 
 if($copied -lt 3){
-  Fail ("STOP: BRAIN_SYNC_INCOMPLETE. Copied only " + $copied + " files.")
+  Fail ("STOP: BRAIN_SYNC_INCOMPLETE. Copied only " + $copied + " files. Check EGO_SSOT_GOV_DIR contents.")
 }
 
 $marker = Join-Path $brain "BRAIN_SYNC_LAST.txt"
-WriteUtf8NoBom $marker ("OK " + (Get-Date -Format "yyyy-MM-dd HH:mm:ss") + " | copied=" + $copied)
+$body = @()
+$body += ("OK " + ($now.ToString("yyyy-MM-dd HH:mm:ss")))
+$body += ("copied=" + $copied)
+$body += ("files=" + ($names -join ", "))
+WriteUtf8NoBom $marker ($body -join "`n")
+(Get-Item -LiteralPath $marker).LastWriteTime = $now
 
 "OK: BRAIN_SYNC_REQUIRED (copied=$copied)"
 return
