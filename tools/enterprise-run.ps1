@@ -1,3 +1,6 @@
+# P0 Hard Rail: Step must be a real file in _local/_scratch (prevents inline execution)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-stepfile-required.ps1') -RepoRoot $RepoRoot -StepPath $StepPath
+if($LASTEXITCODE -ne 0){ throw "STOP: gate-stepfile-required failed (exit=$LASTEXITCODE)" }
 # === HARD GATE: RESEARCH_PROOF_REQUIRED (local) ===
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-research-proof-required.ps1') -RepoRoot $RepoRoot
 if($LASTEXITCODE -ne 0){ throw "STOP: gate-research-proof-required failed (exit=$LASTEXITCODE)" }
