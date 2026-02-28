@@ -100,7 +100,7 @@ foreach ($f in $files | Sort-Object FullName) {
   if (-not $p) { continue }
   $checked++
   $isPillar = $false
-  if ($f.FullName -match '\\pillar\\') { $isPillar = $true }
+if ((($f.FullName -replace '\','/') -like '*/pillar/*')) { $isPillar = $true }
   $existingTargets = Get-WeiterSectionLinks -Body $fm.Body
   $norm = @()
   foreach ($t in $existingTargets) {

@@ -38,7 +38,7 @@ $needle="{% include disclaimer_finanzinfo.html %}"
 $scan=@()
 $scan += Get-ChildItem -LiteralPath (Join-Path $repo "_layouts") -File -Recurse -ErrorAction SilentlyContinue
 $scan += Get-ChildItem -LiteralPath (Join-Path $repo "_includes") -File -Recurse -ErrorAction SilentlyContinue
-$scan=$scan | Where-Object { $_ -and $_.FullName -notmatch "\\_local\\patch_backups\\" }
+$_ -and (($_.FullName -replace '\','/') -notlike '*/_local/patch_backups/*')
 $hitFiles = Select-String -Path $scan.FullName -SimpleMatch -Pattern $needle -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Path -Unique
 if(!$hitFiles){ throw "STOP: include injection not found: $needle" }
 foreach($f in $hitFiles){
