@@ -9,6 +9,9 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 
 function Fail([string]$m){ throw ("STOP: " + $m) }
 
+
+
+function AsString([object]$v){ if($null -eq $v){ return '' } return [string]$v }
 Set-Location -LiteralPath $RepoRoot
 if(!(Test-Path -LiteralPath (Join-Path $RepoRoot '.git'))){ Fail "not a git repo root: $RepoRoot" }
 
@@ -38,8 +41,7 @@ foreach($rel in $files){
   if(IsSkip $rel){ continue }
   $full = Join-Path $RepoRoot $rel
   if(!(Test-Path -LiteralPath $full)){ continue }
-
-  $txt = $null
+  $txt = ''
   try{
     $txt = Get-Content -LiteralPath $full -Encoding UTF8 -Raw -ErrorAction Stop
   } catch {
@@ -47,7 +49,7 @@ foreach($rel in $files){
   }
 
   foreach($p in $patterns){
-    $m = [regex]::Match($txt, $p.Rx)
+    $m = [regex]::Match($txt, (AsString $p.Rx))
     if($m.Success){
       $prefix = $txt.Substring(0, $m.Index)
       $line = 1 + ([regex]::Matches($prefix, "`n")).Count
