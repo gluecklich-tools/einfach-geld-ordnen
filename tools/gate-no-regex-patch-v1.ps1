@@ -5,8 +5,8 @@ Set-StrictMode -Version Latest
 if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw 'STOP: RepoRoot empty' }
 if(!(Test-Path -LiteralPath $RepoRoot)){ throw ('STOP: RepoRoot not found: '+$RepoRoot) }
 $viol=New-Object System.Collections.Generic.List[string]
-$items=Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {`n  $p = ($_.FullName -replace '\','/')
-  $p = ($_.FullName -replace '\\','/')
+$items=Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {
+  $p = $_.FullName.Replace('\','/')
   ($p -notlike '*/.git/*') -and
   ($p -notlike '*/_local/*') -and
   ($p -like '*/tools/*') -and
