@@ -9,7 +9,7 @@ $viol = New-Object System.Collections.Generic.List[string]
 
 $items = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {
   $_.FullName -notmatch '*\.git\*' -and
-  $_.FullName -notmatch '*\_local\*' -and
+(($_.FullName -replace '\','/') -notlike '*/_local/*') -and
   $_.Extension -in @('.ps1','.psm1','.psd1','.yml','.yaml','.md','.txt')
 }
 
@@ -27,7 +27,7 @@ foreach($f in $items){
   }
 
   # NO_HARDPATHS in automation files
-  if(($t -match '(?i)\bC:\\\\Users\\\\' -or $t -match '(?i)\b/Users/') -and ($f.FullName -match '*\tools\*' -or $f.FullName -match '\\\.githooks\\' -or $f.FullName -match '\\\.github\\workflows\\')){
+  if(($t -match '(?i)\bC:\\\\Users\\\\' -or $t -match '(?i)\b/Users/') -and ((($f.FullName -replace '\','/') -like '*/tools/*') -or $f.FullName -match '\\\.githooks\\' -or $f.FullName -match '\\\.github\\workflows\\')){
     $viol.Add(('NO_HARDPATHS_IN_AUTOMATION: '+$f.FullName))
   }
 
@@ -41,7 +41,7 @@ foreach($f in $items){
   }
 
   # NO_INTERACTIVE_PROMPTS in tools
-  if(($f.FullName -match '*\tools\*') -and ($t -match '(?i)\bRead-Host\b')){
+  if(((($f.FullName -replace '\','/') -like '*/tools/*')) -and ($t -match '(?i)\bRead-Host\b')){
     $viol.Add(('NO_INTERACTIVE_PROMPTS(Read-Host): '+$f.FullName))
   }
 }

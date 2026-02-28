@@ -89,10 +89,10 @@ $files = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force |
   Where-Object {
     ($_.Extension -in @('.md','.markdown')) -and
     ((($_.FullName -replace '\\\\','/') -notlike '*/_site/*')) -and
-    ($_.FullName -notmatch '*\assets\audit\*') -and
+(($_.FullName -replace '\','/') -notlike '*/assets/audit/*') -and
     ((($_.FullName -replace '\\\\','/') -notlike '*/_audit/*')) -and
-    ($_.FullName -notmatch '*\_local\*') -and
-    ($_.FullName -match '\\(seiten|pillar)\\')
+(($_.FullName -replace '\','/') -notlike '*/_local/*') -and
+(($_.FullName -replace '\','/') -like '*/seiten/*' -or (($_.FullName -replace '\','/') -like '*/pillar/*'))
   }
 
 $rows = New-Object System.Collections.Generic.List[object]

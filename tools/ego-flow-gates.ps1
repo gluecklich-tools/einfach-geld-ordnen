@@ -29,7 +29,7 @@ if (Test-Path ".\pillar") {
 
 $rxExcludePath = '(?i)\\_(site|local|audit)\\'
 
-$scanFiles = $mdFiles | Where-Object { $_.FullName -notmatch $rxExcludePath }
+$scanFiles = $mdFiles | Where-Object { (($_.FullName -replace "\","/") -notlike "*/_local/*") -and (($_.FullName -replace "\","/") -notlike "*/.git/*") -and (($_.FullName -replace "\","/") -notlike "*/node_modules/*") }
 
 $rxWeiterHead = '(?im)^\s*##\s*Weiter\s*$'
 $rxHeadingAny = '(?m)^\s*#'
