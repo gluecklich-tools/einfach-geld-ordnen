@@ -3,11 +3,12 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 $needle = "_local/patch_backups/"
 $targets = Get-ChildItem -Recurse -File -Include *.md,*.html,*.yml,*.js,*.css |
-  Where-Object {
-    $_.FullName -notmatch "\\_site\\" -and
-    $_.FullName -notmatch '*\.git\*' -and
-(($_.FullName -replace '\','/') -notlike '*/node_modules/*') -and
-(($_.FullName -replace '\','/') -notlike '*/_local/*')
+  Where-Object {`n    $p = ($_.FullName -replace '\','/')
+    ($p -notlike '*/_site/*') -and
+    ($p -notlike '*/.git/*') -and
+    ($p -notlike '*/.git/*') -and
+    ($p -notlike '*/node_modules/*') -and
+    ($p -notlike '*/_local/*')
   }
 $hits = @()
 foreach ($f in $targets) {

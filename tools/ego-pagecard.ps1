@@ -81,10 +81,10 @@ if($srcRel){
   if($path -eq "/"){
     $cand=Join-Path $RepoRoot "index.md"
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match '^/seiten/(.+)\.html){){
+  } elseif(($path -like '/seiten/*.html') -and ($path.Length -gt 13))(.+)\.html){){
     $cand=Join-Path $RepoRoot ("seiten\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match '^/pillar/(.+)\.html){){
+  } elseif(($path -like '/pillar/*.html') -and ($path.Length -gt 13))(.+)\.html){){
     $cand=Join-Path $RepoRoot ("pillar\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
   }

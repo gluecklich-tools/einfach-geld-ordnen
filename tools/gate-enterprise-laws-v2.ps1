@@ -7,9 +7,10 @@ if(!(Test-Path -LiteralPath $RepoRoot)){ throw ('STOP: RepoRoot not found: '+$Re
 
 $viol = New-Object System.Collections.Generic.List[string]
 
-$items = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {
-  $_.FullName -notmatch '*\.git\*' -and
-(($_.FullName -replace '\','/') -notlike '*/_local/*') -and
+$items = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {`n  $p = ($_.FullName -replace '\','/')
+  ($p -notlike '*/.git/*') -and
+  ($p -notlike '*/.git/*') -and
+  ($p -notlike '*/_local/*') -and
   $_.Extension -in @('.ps1','.psm1','.psd1','.yml','.yaml','.md','.txt')
 }
 
@@ -27,12 +28,17 @@ foreach($f in $items){
   }
 
   # NO_HARDPATHS in automation files
-  if(($t -match '(?i)\bC:\\\\Users\\\\' -or $t -match '(?i)\b/Users/') -and ((($f.FullName -replace '\','/') -like '*/tools/*') -or $f.FullName -match '\\\.githooks\\' -or $f.FullName -match '\\\.github\\workflows\\')){
+  if(($t -match '(?i)\bC:\\\\Users\\\\' -or $t -match '(?i)\b/Users/') -and (
+      ((($f.FullName -replace '\','/') -like '*/tools/*')) -or
+      ((($f.FullName -replace '\','/') -like '*/.githooks/*')) -or
+      ((($f.FullName -replace '\','/') -like '*/.github/workflows/*'))
+    )){
     $viol.Add(('NO_HARDPATHS_IN_AUTOMATION: '+$f.FullName))
   }
 
   # NO_BIG_INLINE_COMMAND (stable heuristic: any -Command line > 220 chars OR contains multiple semicolons)
-  foreach($ln in ($t -split '?
+  foreach($ln in ($t -split '
+?
 ')){
     if($ln -match '(?i)\b(pwsh|powershell)\b.*\s-\s*command\b'){
       if($ln.Length -gt 220){ $viol.Add(('NO_BIG_INLINE_COMMAND(longline): '+$f.FullName)); break }

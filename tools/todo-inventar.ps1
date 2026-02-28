@@ -14,10 +14,11 @@ $out = Join-Path $outDir ("TODO_INVENTAR_{0}.md" -f $ts)
 # Matches TODO/FIXME/... but ignores frontmatter keys next:/prev:/hub:
 $rx = '(?im)^\s*(?!\s*(?:next|prev|hub)\s*:)\s*(?:[-*]\s*)?(TODO|FIXME|HACK|XXX|OFFEN|NEXT|WIP)\b.*$'
 $exts = @('.md','.ps1','.yml','.yaml','.json')
-$skipRx = '[\\/]_ARCHIVE[\\/]|[\\/]tools[\\/]_reports[\\/]'
+$skipLike = @('*/_ARCHIVE/*','*/tools/_reports/*')
 function Get-Hits([string]$Root,[string]$Tag){
-  $files = Get-ChildItem -LiteralPath $Root -Recurse -File -EA SilentlyContinue | Where-Object {
-    ($exts -contains $_.Extension) -and ($_.FullName -notmatch $skipRx)
+  $files = Get-ChildItem -LiteralPath $Root -Recurse -File -EA SilentlyContinue | Where-Object {`n    $p = ($_.FullName -replace '\','/')
+    $p = ($_.FullName -replace '\','/')
+    ($exts -contains $_.Extension) -and ($p -notlike $skipLike[0]) -and ($p -notlike $skipLike[1])
   }
   $m = $files | Select-String -Pattern $rx -EA SilentlyContinue
   foreach($h in @($m)){

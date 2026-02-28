@@ -48,10 +48,11 @@ function Get-Rel([string]$abs){
 # --- inventory ---
 $all = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -EA Stop |
   Where-Object {
-    $_.Extension -in @(".ods",".xlsx") -and
-    (($_.FullName -replace '\\\\','/') -notlike '*/.git/*') -and
-    $_.FullName -notmatch '*\_local\*' -and
-    $_.FullName -notmatch '*\node_modules\*'
+    $p = ($_.FullName -replace '\\','/')
+    $p = ($_.FullName -replace '\','/')`n    $_.Extension -in @(".ods",".xlsx") -and
+    ($p -notlike '*/_local/*') -and
+    ($p -notlike '*/node_modules/*')
+    ($p -notlike '*/node_modules/*')
   }
 
 if(@($all).Count -eq 0){
