@@ -16,7 +16,7 @@ description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Hausha
 Talstra&szlig;e 7  
 47445 Mörs  
 Deutschland  
-E-Mail: **czoske.carsten@web.de**
+E-Mail: **info@deinedomain.tld**
 
 ## 3. Server-Logfiles
 
