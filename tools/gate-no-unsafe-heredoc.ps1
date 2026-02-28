@@ -16,10 +16,11 @@ Set-Location -LiteralPath $RepoRoot
 
 $ps1 = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Filter *.ps1 |
   Where-Object {
-    (($_.FullName -replace '\\\\','/') -notlike '*/.git/*') -and
-(($_.FullName -replace '\','/') -notlike '*/node_modules/*') -and
-(($_.FullName -replace '\','/') -notlike '*/_local/*') -and
-(($_.FullName -replace '\','/') -notlike '*/INTERN_REDACTED/*')
+    $p = $_.FullName.Replace('\','/')
+    ($p -notlike '*/.git/*') -and
+    ($p -notlike '*/node_modules/*') -and
+    ($p -notlike '*/_local/*') -and
+    ($p -notlike '*/INTERN_REDACTED/*')
   }
 
 $bad = New-Object System.Collections.Generic.List[string]
