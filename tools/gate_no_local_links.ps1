@@ -5,9 +5,9 @@ $needle = "_local/patch_backups/"
 $targets = Get-ChildItem -Recurse -File -Include *.md,*.html,*.yml,*.js,*.css |
   Where-Object {
     $_.FullName -notmatch "\\_site\\" -and
-    $_.FullName -notmatch "\\\.git\\" -and
-    $_.FullName -notmatch "\\node_modules\\" -and
-    $_.FullName -notmatch "\\_local\\"
+    $_.FullName -notmatch '*\.git\*' -and
+    $_.FullName -notmatch '*\node_modules\*' -and
+    $_.FullName -notmatch '*\_local\*'
   }
 $hits = @()
 foreach ($f in $targets) {

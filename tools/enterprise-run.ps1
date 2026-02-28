@@ -1,3 +1,6 @@
+# === HARD GATE: RESEARCH_PROOF_REQUIRED (local) ===
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-research-proof-required.ps1') -RepoRoot $RepoRoot
+if($LASTEXITCODE -ne 0){ throw "STOP: gate-research-proof-required failed (exit=$LASTEXITCODE)" }
 # === HARD GATE: BRAIN/SSOT must be synced EVERY run (local) ===
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'brain-sync-required.ps1') -RepoRoot $RepoRoot
 if($LASTEXITCODE -ne 0){ throw "STOP: brain-sync-required failed (exit=$LASTEXITCODE)" }

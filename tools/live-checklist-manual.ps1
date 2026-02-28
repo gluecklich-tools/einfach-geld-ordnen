@@ -89,9 +89,9 @@ $files = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force |
   Where-Object {
     ($_.Extension -in @('.md','.markdown')) -and
     ($_.FullName -notmatch '\\_site\\') -and
-    ($_.FullName -notmatch '\\assets\\audit\\') -and
+    ($_.FullName -notmatch '*\assets\audit\*') -and
     ($_.FullName -notmatch '\\_audit\\') -and
-    ($_.FullName -notmatch '\\_local\\') -and
+    ($_.FullName -notmatch '*\_local\*') -and
     ($_.FullName -match '\\(seiten|pillar)\\')
   }
 

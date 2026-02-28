@@ -50,8 +50,8 @@ $all = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -EA Stop |
   Where-Object {
     $_.Extension -in @(".ods",".xlsx") -and
     $_.FullName -notmatch "\\.git\\" -and
-    $_.FullName -notmatch "\\_local\\" -and
-    $_.FullName -notmatch "\\node_modules\\"
+    $_.FullName -notmatch '*\_local\*' -and
+    $_.FullName -notmatch '*\node_modules\*'
   }
 
 if(@($all).Count -eq 0){

@@ -6,7 +6,7 @@ if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw 'STOP: RepoRoot empty' }
 if(!(Test-Path -LiteralPath $RepoRoot)){ throw ('STOP: RepoRoot not found: '+$RepoRoot) }
 $viol=New-Object System.Collections.Generic.List[string]
 $items=Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {
-  $_.FullName -notmatch '\\\.git\\' -and $_.FullName -notmatch '\\_local\\' -and $_.FullName -match '\\tools\\' -and $_.Extension -in @('.ps1','.psm1')
+  $_.FullName -notmatch '*\.git\*' -and $_.FullName -notmatch '*\_local\*' -and $_.FullName -match '*\tools\*' -and $_.Extension -in @('.ps1','.psm1')
 }
 foreach($f in $items){
   $t=[IO.File]::ReadAllText($f.FullName,[Text.UTF8Encoding]::new($false))
