@@ -81,10 +81,10 @@ if($srcRel){
   if($path -eq "/"){
     $cand=Join-Path $RepoRoot "index.md"
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match "^/seiten/(.+)\.html$"){
+  } elseif($path -match '^/seiten/(.+)\.html){){
     $cand=Join-Path $RepoRoot ("seiten\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
-  } elseif($path -match "^/pillar/(.+)\.html$"){
+  } elseif($path -match '^/pillar/(.+)\.html){){
     $cand=Join-Path $RepoRoot ("pillar\{0}.md" -f $Matches[1])
     if(Test-Path -LiteralPath $cand){ $srcFile=$cand }
   }
@@ -144,7 +144,7 @@ try{
   $fmAll = [IO.File]::ReadAllText($srcFile,$enc)
   if($fmAll -match "(?s)\A---\s*.*?\s*---\s*"){
     $front = $Matches[0]
-    if($front -match "(?im)^\s*policy_blocks\s*:\s*show\s*$"){ $policyShow = $true }
+    if($front -match '(?im)^\s*policy_blocks\s*:\s*show\s*){ $policyShow = $true }){ $policyShow = $true }
   }
 }catch{}
 

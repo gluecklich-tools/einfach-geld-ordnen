@@ -30,8 +30,8 @@ $reportPath = Join-Path $OutDir ("TOOLS_REGISTRY_{0}.md" -f $ts)
 function Get-ToolCategory {
   param([string]$Name)
   $n = $Name.ToLowerInvariant()
-  if($n -match "^(ego-.*run|ego-run|ego-super-run|ego-law-run|ego-law-run-safe)\.ps1$"){ return "01_RUNNERS" }
-  if($n -match "^(gate_|.*-gate)\.ps1$"){ return "02_GATES" }
+  if($n -match '^(ego-.*run|ego-run|ego-super-run|ego-law-run|ego-law-run-safe)\.ps1){ return "01_RUNNERS" }){ return "01_RUNNERS" }
+  if($n -match '^(gate_|.*-gate)\.ps1){ return "02_GATES" }){ return "02_GATES" }
   if($n -match "(scan|audit|report|htmlproofer|linkcheck)"){ return "03_SCANS_AUDITS" }
   if($n -match "(fix|apply|patch|repair|normalize|refresh)"){ return "04_FIX_APPLY" }
   if($n -match "(pack|export|bundle|zip|release)"){ return "05_PACKS" }

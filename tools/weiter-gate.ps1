@@ -11,7 +11,7 @@ function Rel([string]$full){ $full.Substring($Repo.Length).TrimStart('\').Replac
 function Get-Frontmatter([string]$text){
   $t = $text -replace "`r`n","`n"
   if($t -notmatch "(?ms)^---\s*$.*?^---\s*$"){ return $null }
-  $m = [regex]::Match($t, "(?ms)^---\s*$\s*(?<fm>.*?)\s*^---\s*$")
+  $m = [regex]::Match($t, '(?ms)^---\s*$\s*(?<fm>.*?)\s*^---\s*$')
   if(-not $m.Success){ return $null }
   return $m.Groups["fm"].Value
 }
@@ -33,7 +33,7 @@ function Is-OkWeiterUrl([string]$u){
   if([string]::IsNullOrWhiteSpace($u)){ return $false }
   $u2 = $u.Trim()
   # allow home: {{ site.baseurl }}/
-  if($u2 -match "^\{\{\s*site\.baseurl\s*\}\}/\s*$"){ return $true }
+  if($u2 -match '^\{\{\s*site\.baseurl\s*\}\}/\s*){ return $true }){ return $true }
   # otherwise require baseurl + .html
   if($u2 -notmatch "^\{\{\s*site\.baseurl\s*\}\}/"){ return $false }
   if($u2 -notmatch "\.html(\#.*)?\s*$"){ return $false }

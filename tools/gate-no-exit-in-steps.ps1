@@ -36,7 +36,7 @@ foreach($file in $targets){
 "
   for($i=0; $i -lt $lines.Count; $i++){
     $line = $lines[$i]
-    if($line -match "(?i)^\s*exit(\s+[-]?\d+)?\s*$"){
+    if($line -match '(?i)^\s*exit(\s+[-]?\d+)?\s*){){
       $hits += ("{0}:{1} :: {2}" -f $file, ($i+1), $line.Trim())
     }
   }

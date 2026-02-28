@@ -70,7 +70,7 @@ function Get-Permalink([string]$p){
   $t = [IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)
   if($t -match "(?s)\A---\s*(.*?)\s*---"){
     $fm = $Matches[1]
-    if($fm -match "(?m)^\s*permalink:\s*(.+)\s*$"){
+    if($fm -match '(?m)^\s*permalink:\s*(.+)\s*){){
       return ($Matches[1].Trim() -replace '["'']','')
     }
   }

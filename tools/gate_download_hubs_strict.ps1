@@ -16,7 +16,7 @@ function Get-FrontmatterPermalink([string]$path) {
   $m = [regex]::Match($t, "(?ms)\A---\s*(?<fm>.*?)\s*---")
   if (-not $m.Success) { return $null }
   $fm = $m.Groups["fm"].Value
-  $pm = [regex]::Match($fm, "(?mi)^\s*permalink:\s*(?<p>\S+)\s*$")
+  $pm = [regex]::Match($fm, '(?mi)^\s*permalink:\s*(?<p>\S+)\s*$')
   if (-not $pm.Success) { return $null }
   return $pm.Groups["p"].Value.Trim()
 }
@@ -45,7 +45,7 @@ function Build-PermalinkIndex {
 }
 $permalinkIndex = Build-PermalinkIndex
 function Get-WeiterLinks([string]$text) {
-  $m = [regex]::Match($text, "(?ms)^\#\#\s+Weiter\s*$\s*(?<body>.*?)(^\#\#\s+|\z)")
+  $m = [regex]::Match($text, '(?ms)^\#\#\s+Weiter\s*$\s*(?<body>.*?)(^\#\#\s+|\z)')
   if (-not $m.Success) { return @() }
   $body = $m.Groups["body"].Value
   $links = @()
@@ -60,9 +60,9 @@ $allowlist = $null
 $fail = @()
 foreach ($f in $hubFiles) {
   $t = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
-  $okFree   = ($t -match "(^|\r?\n)##\s+Freebie(\r?\n|$)")
-  $okVoll   = ($t -match "(^|\r?\n)##\s+Vollversion(\r?\n|$)")
-  $okPrem   = ($t -match "(^|\r?\n)##\s+Premium(\r?\n|$)")
+  $okFree   = ($t -match '(^|\r?\n)##\s+Freebie(\r?\n|$)')
+  $okVoll   = ($t -match '(^|\r?\n)##\s+Vollversion(\r?\n|$)')
+  $okPrem   = ($t -match '(^|\r?\n)##\s+Premium(\r?\n|$)')
   $okFooter = ($t -match "\{\%\s*include\s+no_sackgasse_footer\.html\s*\%\}")
   $links = Get-WeiterLinks -text $t
   $links = @($links)
@@ -74,8 +74,8 @@ $okWeiter3 = ($true)
     if ($uniq.Count -ne 3) { $bad += "duplicateLinks" }
     foreach ($u in $links) {
       if ($u -match "^\s*https?://") { $bad += "external:$u"; continue }
-      if ($u -match "\.md(\#.*)?$")  { $bad += "md:$u"; continue }
-      if ($u -match "/\s*$")         { $bad += "trailingSlash:$u"; continue }
+      if ($u -match '\.md(\#.*)?)  { $bad += "md:$u"; continue })  { $bad += "md:$u"; continue }
+      if ($u -match '/\s*)         { $bad += "trailingSlash:$u"; continue })         { $bad += "trailingSlash:$u"; continue }
       if ($u -notmatch "^\{\{\s*site\.baseurl\s*\}\}/") { $bad += "noBaseurl:$u"; continue }
       if ($u -notmatch "\.html(\#.*)?$") { $bad += "noHtml:$u"; continue }
       $uNoHash = ($u -split "#")[0].Trim()
