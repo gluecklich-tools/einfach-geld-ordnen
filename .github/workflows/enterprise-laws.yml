@@ -23,13 +23,17 @@ jobs:
           git branch --show-current
           Get-ChildItem -LiteralPath tools | Select-Object -First 50 | ForEach-Object { "$($_.Name)" }
 
-      - name: enterprise autopilot (preflight + smoke)
+      - name: gate public leaks
         shell: pwsh
         run: |
-          $ErrorActionPreference='Stop'
-          Set-StrictMode -Version Latest
-          # marker: tools/smoke-checks.json
-      - name: Make autopilot step in scratch
+          pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-public-leaks.ps1
+
+      - name: gate unsafe heredoc
+        shell: pwsh
+        run: |
+          pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-unsafe-heredoc.ps1
+
+      - name: make autopilot step in scratch
         shell: pwsh
         run: |
           pwsh -NoProfile -File tools/ci-make-autopilot-step.ps1 | Tee-Object -FilePath step_out.txt
@@ -37,15 +41,13 @@ jobs:
       - name: enterprise autopilot (preflight + smoke)
         shell: pwsh
         run: |
-          $line = (Get-Content step_out.txt | Select-String -Pattern '^STEP_OUT:\s+' | Select-Object -Last 1).Line
+          $ErrorActionPreference='Stop'
+          Set-StrictMode -Version Latest
+          $line = (Get-Content step_out.txt -ErrorAction Stop | Select-String -Pattern '^STEP_OUT:\s+' | Select-Object -Last 1).Line
+          if([string]::IsNullOrWhiteSpace($line)){ throw 'STOP: STEP_OUT line not found in step_out.txt' }
           $step = ($line -replace '^STEP_OUT:\s*','').Trim()
-      - name: gate public leaks
-        shell: pwsh
-        run: |
-          pwsh -NoProfile -File tools/gate-public-leaks.ps1
-
+          if(!(Test-Path -LiteralPath $step)){ throw "STOP: StepPath not found: $step" }
           pwsh -NoProfile -File tools/enterprise-run.ps1 -StepPath $step
-
 
       - name: upload reports (always)
         if: always()
@@ -56,4 +58,3 @@ jobs:
             _local/reports/*.md
             _local/reports/*.txt
             **/enterprise_run_*.md
-            _INTERN/governance/_reports/*.md
