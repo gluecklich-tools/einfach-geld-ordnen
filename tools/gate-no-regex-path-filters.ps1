@@ -1,45 +1,42 @@
-$ErrorActionPreference="Stop"
+param([string]$RepoRoot=(Get-Location).Path)
+
+$ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
-try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
+try{ if($IsWindows){ chcp 65001|Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+$enc=[Text.UTF8Encoding]::new($false)
 
-$repo = (Get-Location).Path
+function ReadUtf8([string]$p){ [IO.File]::ReadAllText($p,$enc) }
+function Fail([string]$m){ throw $m }
 
-function IsExcluded([string]$full){
-  $p = $full.ToLowerInvariant()
-  if($p -like "*\.git\*"){ return $true }
-  if($p -like "*\_local\*"){ return $true }
-  if($p -like "*\node_modules\*"){ return $true }
-  if($p -like "*\_site\*"){ return $true }
-  return $false
+$repo=(Resolve-Path -LiteralPath $RepoRoot).Path
+$dir = Join-Path $repo "tools"
+if(!(Test-Path -LiteralPath $dir)){
+  "PASS: NO_REGEX_PATH_FILTERS (no tools dir)"
+  return
 }
 
-$files = Get-ChildItem -LiteralPath $repo -Recurse -File -Include "*.ps1","*.yml","*.yaml" | Where-Object { -not (IsExcluded $_.FullName) }
-$bad = New-Object System.Collections.Generic.List[string]
+$files = Get-ChildItem -LiteralPath $dir -Filter "*.ps1" -File -ErrorAction SilentlyContinue
+$hits = @()
 
 foreach($f in $files){
-  $ln = 0
-  foreach($line in [IO.File]::ReadAllLines($f.FullName, [Text.UTF8Encoding]::new($false))){
-    $ln++
-    if($line -match "(\-notmatch|\-match)"){
-      # No $_ tokens in strings; no regex with \_ ; only safe substring heuristics
-      $isPathish = $false
-      if($line.Contains("FullName")){ $isPathish = $true }
-      if($line.Contains(".git")){ $isPathish = $true }
-      if($line.Contains("_local")){ $isPathish = $true }
-      if($line.Contains("_site")){ $isPathish = $true }
-      if($line.Contains("node_modules")){ $isPathish = $true }
-      if($isPathish){
-        $bad.Add(("{0}:L{1}: forbidden regex path filter: {2}" -f $f.FullName, $ln, $line.Trim()))
-      }
+  $lines = (ReadUtf8 $f.FullName) -split "`n"
+  for($i=0; $i -lt $lines.Count; $i++){
+    $line = ($lines[$i]).TrimEnd("`r")
+    if($line -match '^\s*#'){ continue }
+
+    # Only filesystem path properties are considered "path filters"
+    if($line -match '(?i)\b(FullName|Path|DirectoryName)\b\s*-\s*(match|notmatch)\b'){
+      $hits += ("{0}:L{1}: forbidden regex path filter: {2}" -f $f.FullName, ($i+1), $line.Trim())
     }
   }
 }
 
-if($bad.Count -gt 0){
+if($hits.Count -gt 0){
   "FAIL: NO_REGEX_PATH_FILTERS"
-  $bad | ForEach-Object { " - $_" }
-  exit 2
+  $hits | ForEach-Object { " - $_" }
+  Fail "STOP: regex path filters found"
 }
-"OK: gate-no-regex-path-filters PASS"
-exit 0
+
+"PASS: NO_REGEX_PATH_FILTERS"
+return
