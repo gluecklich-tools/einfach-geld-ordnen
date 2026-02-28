@@ -15,6 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+
+
+      - name: gate-no-dq-regex-with-dollar
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-dq-regex-with-dollar.ps1 -RepoRoot . -StepPath tools/enterprise-autopilot-step.ps1
+      - name: gate-no-command-glue
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-command-glue.ps1 -StepPath tools/enterprise-autopilot-step.ps1
       - name: env debug
         shell: pwsh
         run: |

@@ -1,3 +1,9 @@
+# P0 Gate: NO_DQ_REGEX_WITH_DOLLAR (StrictMode-safe regex hygiene)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-no-dq-regex-with-dollar.ps1') -RepoRoot $RepoRoot -StepPath $StepPath
+if($LASTEXITCODE -ne 0){ throw "STOP: gate-no-dq-regex-with-dollar failed (exit=$LASTEXITCODE)" }
+# P0 Gate: NO_COMMAND_GLUE (prevents ""REPORT: ...""pwsh ... class)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-no-command-glue.ps1') -StepPath $StepPath
+if($LASTEXITCODE -ne 0){ throw "STOP: gate-no-command-glue failed (exit=$LASTEXITCODE)" }
 param(
   [Parameter(Mandatory)][string]$StepPath
 )
