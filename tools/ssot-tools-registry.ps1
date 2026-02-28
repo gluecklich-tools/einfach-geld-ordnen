@@ -9,7 +9,7 @@ try { chcp 65001 > $null } catch {}
 
 # PUBLIC-SAFE tool: generates a registry report for Repo/tools only.
 # - No hardpaths
-# - No _INTERN references
+# - No INTERN_REDACTED references
 # - No SSOT marker strings
 
 # Resolve repo root

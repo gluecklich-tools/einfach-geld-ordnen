@@ -37,8 +37,8 @@ function IsSkip([string]$p){
 $patterns = @(
   @{ Name = 'ABS_WIN_USER_PATH';   Rx = '(?i)[A-Z]:\\Users\\[^\\]+\\' },
   @{ Name = 'ABS_WIN_DOCSETTINGS'; Rx = '(?i)[A-Z]:\\Dokumente und Einstellungen\\[^\\]+\\' },
-  @{ Name = 'ABS_MAC_USERS';       Rx = '(?i)/Users/[^/]+/' },
-  @{ Name = 'ABS_LINUX_HOME';      Rx = '(?i)/home/[^/]+/' },
+  @{ Name = 'ABS_MAC_USERS';       Rx = '(?i)/Users/USER/]+/' },
+  @{ Name = 'ABS_LINUX_HOME';      Rx = '(?i)/home/USER/]+/' },
   @{ Name = 'INTERN_TOKEN';        Rx = '(?i)\b_INTERN\b' },
   @{ Name = 'INTERNALTOOLSROOT_HARDCODE'; Rx = '(?i)InternalToolsRoot\s*=\s*[''"][A-Z]:\\Users\\' },
   @{ Name = 'EMAIL'; Rx = '(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b' },

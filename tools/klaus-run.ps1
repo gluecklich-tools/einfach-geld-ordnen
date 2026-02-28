@@ -89,7 +89,7 @@ if([string]::IsNullOrWhiteSpace($ssot)){
   $ssot=$env:EGO_SSOT_ROOT
 }
 if([string]::IsNullOrWhiteSpace($ssot)){
-  throw "STOP: EGO_SSOT_ROOT not set. Set env var to SSOT root (example: <PROJECT>/_INTERN/governance)."
+  throw "STOP: EGO_SSOT_ROOT not set. Set env var to SSOT root (example: <PROJECT>/INTERN_REDACTED/governance)."
 }
 if(!(Test-Path -LiteralPath $ssot)){
   throw ("STOP: SSOT root missing: " + $ssot)

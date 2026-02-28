@@ -29,7 +29,7 @@ $RepoRoot = GetRootOrThrow $RepoRoot 'RepoRoot'
 
 $self = (Resolve-Path -LiteralPath $PSCommandPath).Path
 if([string]::IsNullOrWhiteSpace($InternRoot)){
-  # expect InternRoot passed as ...\_INTERN
+  # expect InternRoot passed as ...\INTERN_REDACTED
   $InternRoot = ''
 }
 if(-not [string]::IsNullOrWhiteSpace($InternRoot)){

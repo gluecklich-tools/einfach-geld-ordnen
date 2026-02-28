@@ -32,10 +32,10 @@ function Get-EgoInternalRoot {
   }
 
   $repo=Get-EgoRepoRoot
-  $guess=Join-Path (Split-Path -Parent $repo) '_INTERN'
+  $guess=Join-Path (Split-Path -Parent $repo) 'INTERN_REDACTED'
   if(Test-Path -LiteralPath $guess){ return (Resolve-Path $guess).Path }
 
-  throw "EGO: InternalRoot not found. Set env:EGO_INTERNAL_DIR to the _INTERN folder."
+  throw "EGO: InternalRoot not found. Set env:EGO_INTERNAL_DIR to the INTERN_REDACTED folder."
 }
 
 function Get-EgoLocalDir { Join-Path (Get-EgoRepoRoot) '_local' }
