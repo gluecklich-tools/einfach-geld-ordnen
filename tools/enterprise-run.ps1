@@ -1,3 +1,6 @@
+# === HARD GATE: BRAIN/SSOT must be synced EVERY run (local) ===
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'brain-sync-required.ps1') -RepoRoot $RepoRoot
+if($LASTEXITCODE -ne 0){ throw "STOP: brain-sync-required failed (exit=$LASTEXITCODE)" }
 # P0 Gate: NO_DQ_REGEX_WITH_DOLLAR (StrictMode-safe regex hygiene)
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-no-dq-regex-with-dollar.ps1') -RepoRoot $RepoRoot -StepPath $StepPath
 if($LASTEXITCODE -ne 0){ throw "STOP: gate-no-dq-regex-with-dollar failed (exit=$LASTEXITCODE)" }
