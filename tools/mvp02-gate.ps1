@@ -46,7 +46,7 @@ foreach ($f in $targets) {
   }
 
   # Extract Weiter section content
-  $m = [regex]::Match($raw, "(?ms)^\#\#\s+Weiter\s*$\s*(?<sec>.*?)(^\#\#\s+|\z)")
+  $m = [regex]::Match($raw, '(?ms)^\#\#\s+Weiter\s*$\s*(?<sec>.*?)(^\#\#\s+|\z)')
   if (-not $m.Success) {
     Add-Bad ("WEITER_PARSE_FAIL " + $f.FullName)
     continue
@@ -69,9 +69,9 @@ foreach ($f in $targets) {
 
   foreach ($lm in $links) {
     $u = $lm.Groups[1].Value.Trim()
-    if ($u -match "\.md(\#|$)") { Add-Bad ("BAD_LINK_MD " + $f.FullName + " -> " + $u) }
+    if ($u -match '\.md(\#|$)') { Add-Bad ("BAD_LINK_MD " + $f.FullName + " -> " + $u) }
     if ($u -match "^/seiten/" -or $u -match "^/pillar/") { Add-Bad ("BAD_LINK_ROOTSLASH " + $f.FullName + " -> " + $u) }
-    if ($u -match "/seiten/[^)]+/$" -or $u -match "/pillar/[^)]+/$") { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) }
+    if ($u -match '/seiten/[^)]+/ -or $u -match '/pillar/[^)]+/$') { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) } -or $u -match '/seiten/[^)]+/) { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) }) { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) }
     if ($u -notmatch $reOk) { Add-Bad ("BAD_LINK_FORMAT " + $f.FullName + " -> " + $u) }
   }
 }
