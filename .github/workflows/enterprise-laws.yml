@@ -1,3 +1,5 @@
+# autopilot-ref: tools/smoke-checks.json
+# marker: smoke-checks.json
 name: enterprise-laws
 
 on:
@@ -27,6 +29,26 @@ jobs:
         shell: pwsh
         run: |
           pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-public-leaks.ps1
+      - name: gate-no-heresting-nesting
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-heresting-nesting.ps1
+      - name: gate-no-regex-path-filters
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-regex-path-filters.ps1
+      - name: gate-no-dollar-underscore-in-dq
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-dollar-underscore-in-dq.ps1
+      - name: gate-no-two-line-file-in-yaml
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-two-line-file-in-yaml.ps1
+      - name: gate-no-missing-stepfiles
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-missing-stepfiles.ps1
+      - name: gate-no-literal-n-newlines
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-literal-n-newlines.ps1
+      - name: gate-no-invalid-var-colon
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-invalid-var-colon.ps1
+      - name: gate-no-missing-workflow-script
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-missing-workflow-script.ps1
+      - name: gate-no-prompt-paste
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-prompt-paste.ps1
+      - name: gate-no-fake-ok
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-fake-ok.ps1
 
       - name: gate unsafe heredoc
         shell: pwsh
@@ -37,6 +59,12 @@ jobs:
         shell: pwsh
         run: |
           pwsh -NoProfile -File tools/ci-make-autopilot-step.ps1 | Tee-Object -FilePath step_out.txt
+
+      - name: enterprise autopilot step
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/enterprise-autopilot-step.ps1
+
+      - name: enterprise autopilot step
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/enterprise-autopilot-step.ps1
 
       - name: enterprise autopilot (preflight + smoke)
         shell: pwsh
@@ -57,4 +85,4 @@ jobs:
           path: |
             _local/reports/*.md
             _local/reports/*.txt
-            **/enterprise_run_*.md
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-two-line-file-in-yaml.ps1

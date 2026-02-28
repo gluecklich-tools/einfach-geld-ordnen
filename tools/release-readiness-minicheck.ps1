@@ -18,7 +18,14 @@ if(@($dirty).Count -ne 0){
 Write-Host '[OK] Git clean'
 
 # 2) Preflight (intern)
-$preflight = 'C:\PATH\USER\USER\USER\USER\Projekte\Einfach-Geld-Ordnen\INTERN_REDACTED\tools\ego-preflight-gates-run.ps1'
+# NO_ABSOLUTE_PATHS_IN_TOOLS: preflight must come from param/env
+$preflight = $PreflightPath
+if([string]::IsNullOrWhiteSpace($preflight) -and -not [string]::IsNullOrWhiteSpace([string]$env:EGO_PREFLIGHT_GATES_RUN)){
+  $preflight = [string]$env:EGO_PREFLIGHT_GATES_RUN
+}
+if([string]::IsNullOrWhiteSpace($preflight)){
+  throw "PreflightPath not set. Use -PreflightPath <fullpath> or set env EGO_PREFLIGHT_GATES_RUN"
+}
 if(!(Test-Path -LiteralPath $preflight)){ Fail ("Missing preflight: $preflight") }
 & pwsh -NoProfile -File $preflight
 if($LASTEXITCODE -ne 0){ Fail ("Preflight failed (exit=$LASTEXITCODE)") }

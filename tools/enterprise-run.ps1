@@ -3,9 +3,17 @@ param(
 )
 
 $ErrorActionPreference='Stop'
+# EGO_GUARD_PLACEHOLDER_STEP
+if($StepPath -match "[<>]" -or $StepPath -like "*...*"){
+  Fail ("STOP: StepPath looks like a placeholder. Use a real file path. GivenArg: [{0}]" -f $StepPath)
+}
 Set-StrictMode -Version Latest
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+
+# P0 Gate: steps must not contain 'exit' (prevents terminal/session kill)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'gate-no-exit-in-steps.ps1') -StepPath $StepPath
+if($LASTEXITCODE -ne 0){ throw "STOP: gate-no-exit-in-steps failed (exit=$LASTEXITCODE)" }
 $enc=[Text.UTF8Encoding]::new($false)
 
 function WriteRunReport([string]$Status,[string]$Message,[string]$RepoRoot,[string]$StepArg,[string]$StepResolved){
