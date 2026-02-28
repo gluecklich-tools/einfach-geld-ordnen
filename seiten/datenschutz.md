@@ -16,7 +16,7 @@ description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Hausha
 Talstra&szlig;e 7  
 47445 Mörs  
 Deutschland  
-E-Mail: **info@deinedomain.tld**
+E-Mail: **Kontaktformular**
 
 ## 3. Server-Logfiles
 
