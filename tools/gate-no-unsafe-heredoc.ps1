@@ -16,7 +16,7 @@ Set-Location -LiteralPath $RepoRoot
 
 $ps1 = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Filter *.ps1 |
   Where-Object {
-    $_.FullName -notmatch '\\.git\\' -and
+    (($_.FullName -replace '\\\\','/') -notlike '*/.git/*') -and
     $_.FullName -notmatch '*\node_modules\*' -and
     $_.FullName -notmatch '*\_local\*' -and
     $_.FullName -notmatch '\\INTERN_REDACTED\\'
