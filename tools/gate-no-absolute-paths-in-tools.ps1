@@ -38,9 +38,9 @@ foreach($rel in $files){
     # ignore comment-only lines (incl. leading whitespace)
     if($ln.TrimStart().StartsWith("#")){ continue }
 
-    if($ln -like "*C:\Users\*" -or
+    if($ln -like "*C:\Users\USER\USER\*" -or
        $ln -like "*\_INTERN\*" -or
-       $ln -like "*/home/runner/*"){
+       $ln -like "*/home/USER/*"){
       $hits.Add([pscustomobject]@{ Path=$p; Line=($i+1); Text=$ln })
     }
   }

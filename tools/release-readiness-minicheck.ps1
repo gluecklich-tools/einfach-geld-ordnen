@@ -18,7 +18,7 @@ if(@($dirty).Count -ne 0){
 Write-Host '[OK] Git clean'
 
 # 2) Preflight (intern)
-$preflight = 'C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ego-preflight-gates-run.ps1'
+$preflight = 'C:\Users\USER\USER\USER\Projekte\Einfach-Geld-Ordnen\_INTERN\tools\ego-preflight-gates-run.ps1'
 if(!(Test-Path -LiteralPath $preflight)){ Fail ("Missing preflight: $preflight") }
 & pwsh -NoProfile -File $preflight
 if($LASTEXITCODE -ne 0){ Fail ("Preflight failed (exit=$LASTEXITCODE)") }
