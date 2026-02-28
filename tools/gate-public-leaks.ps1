@@ -7,13 +7,23 @@ Set-StrictMode -Version Latest
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
 
-function Fail([string]$m){ throw ("STOP: " + $m) }
+function AsString([object]$v){
+  if($null -eq $v){ return '' }
+  return [string]$v
+}
 
+function Fail([string]$m){
+  Write-Error ("STOP: " + $m)
+  exit 1
+}
 
+function GateError([string]$m){
+  Write-Error ("GATE_ERROR: " + $m)
+  exit 2
+}
 
-function AsString([object]$v){ if($null -eq $v){ return '' } return [string]$v }
 Set-Location -LiteralPath $RepoRoot
-if(!(Test-Path -LiteralPath (Join-Path $RepoRoot '.git'))){ Fail "not a git repo root: $RepoRoot" }
+if(!(Test-Path -LiteralPath (Join-Path $RepoRoot '.git'))){ GateError "not a git repo root: $RepoRoot" }
 
 $files = @(git ls-files)
 if(@($files).Count -eq 0){ Fail "no tracked files found" }
@@ -41,6 +51,7 @@ foreach($rel in $files){
   if(IsSkip $rel){ continue }
   $full = Join-Path $RepoRoot $rel
   if(!(Test-Path -LiteralPath $full)){ continue }
+
   $txt = ''
   try{
     $txt = Get-Content -LiteralPath $full -Encoding UTF8 -Raw -ErrorAction Stop
@@ -48,8 +59,12 @@ foreach($rel in $files){
     continue
   }
 
+  $txt = AsString $txt
+
   foreach($p in $patterns){
-    $m = [regex]::Match($txt, (AsString $p.Rx))
+    $rx = AsString $p.Rx
+    if([string]::IsNullOrWhiteSpace($rx)){ continue }
+    $m = [regex]::Match((AsString $txt), $rx)
     if($m.Success){
       $prefix = $txt.Substring(0, $m.Index)
       $line = 1 + ([regex]::Matches($prefix, "`n")).Count
