@@ -10,25 +10,24 @@ $enc=[Text.UTF8Encoding]::new($false)
 
 function EnsureDir([string]$p){ if(!(Test-Path -LiteralPath $p)){ New-Item -ItemType Directory -Path $p | Out-Null } }
 function WriteUtf8NoBom([string]$p,[string]$s){ [IO.File]::WriteAllText($p,$s,$enc) }
-function ReadUtf8([string]$p){ [IO.File]::ReadAllText($p,$enc) }
 function Fail([string]$m){ throw $m }
 
-# REQUIRED envs (NO absolute paths in repo)
-# EGO_SSOT_ROOT: e.g. C:\Users\carst\Projekte\Einfach-Geld-Ordnen
-# EGO_BRAIN_DIR: e.g. C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien
-$ssot = [string]$env:EGO_SSOT_ROOT
+# HARD LAW (local only):
+# - This tool MUST run before enterprise-run continues.
+# - No absolute paths in repo. All locations come from env vars.
+
+# REQUIRED env vars (local):
+# EGO_SSOT_GOV_DIR  -> full path to your governance folder (no examples here)
+# EGO_BRAIN_DIR     -> full path to your Brain_EGO_Dateien folder (no examples here)
+$gov   = [string]$env:EGO_SSOT_GOV_DIR
 $brain = [string]$env:EGO_BRAIN_DIR
 
-if([string]::IsNullOrWhiteSpace($ssot) -or [string]::IsNullOrWhiteSpace($brain)){
-  Fail "STOP: BRAIN_SYNC_REQUIRED. Set env vars: EGO_SSOT_ROOT and EGO_BRAIN_DIR (local only)."
+if([string]::IsNullOrWhiteSpace($gov) -or [string]::IsNullOrWhiteSpace($brain)){
+  Fail "STOP: BRAIN_SYNC_REQUIRED. Set env vars: EGO_SSOT_GOV_DIR and EGO_BRAIN_DIR."
 }
 
-if(!(Test-Path -LiteralPath $ssot)){ Fail "STOP: EGO_SSOT_ROOT missing: $ssot" }
+if(!(Test-Path -LiteralPath $gov)){ Fail ("STOP: missing EGO_SSOT_GOV_DIR: " + $gov) }
 EnsureDir $brain
-
-# Source SSOT docs (expected layout)
-$gov = Join-Path $ssot "_INTERN\governance"
-if(!(Test-Path -LiteralPath $gov)){ Fail "STOP: SSOT governance missing: $gov" }
 
 $srcFiles = @(
   Join-Path $gov "SSOT_MANIFEST_INTERNAL.json",
@@ -51,10 +50,9 @@ foreach($s in $srcFiles){
 }
 
 if($copied -lt 3){
-  Fail "STOP: BRAIN_SYNC_INCOMPLETE. Copied only $copied files. Check SSOT governance folder contents."
+  Fail ("STOP: BRAIN_SYNC_INCOMPLETE. Copied only " + $copied + " files.")
 }
 
-# Write marker (brain side)
 $marker = Join-Path $brain "BRAIN_SYNC_LAST.txt"
 WriteUtf8NoBom $marker ("OK " + (Get-Date -Format "yyyy-MM-dd HH:mm:ss") + " | copied=" + $copied)
 
