@@ -114,3 +114,7 @@ Thumbs.db
 _tmp/
 tools/_reports/
 !downloads/bundles/EGO_Freebie_Bundle.zip
+
+# generated / local audit artifacts (must not be public)
+assets/audit/
+_inventur/
