@@ -2,6 +2,27 @@ param(
   [string]$RepoRoot = (Get-Location).Path
 )
 
+# === AUTOPILOT_INTEGRITY_GUARD_V1 ===
+# Fast self-check to detect corrupted script content early (prevents CI blowups).
+try{
+  $self = $MyInvocation.MyCommand.Path
+  if([string]::IsNullOrWhiteSpace($self)){ throw "self path missing" }
+  $txt = [IO.File]::ReadAllText($self, [Text.UTF8Encoding]::new($false))
+
+  # Minimum size (very small file indicates truncation)
+  if($txt.Length -lt 2000){ throw ("file too small (len=" + $txt.Length + ")") }
+
+  # Exactly one param( occurrence (corruption often injects a second param block)
+  $paramCount = ([Regex]::Matches($txt, '(?im)^\s*param\s*\(')).Count
+  if($paramCount -ne 1){ throw ("param-block count != 1 (count=" + $paramCount + ")") }
+
+  # Must contain key strings from this script
+  if($txt -notmatch 'smoke-checks\.json'){ throw "missing marker: smoke-checks.json" }
+  if($txt -notmatch 'enterprise-preflight\.ps1'){ throw "missing marker: enterprise-preflight.ps1" }
+}catch{
+  throw ("STOP: AUTOPILOT_INTEGRITY_GUARD_V1: " + $_.Exception.Message)
+}
+# === /AUTOPILOT_INTEGRITY_GUARD_V1 ===
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
