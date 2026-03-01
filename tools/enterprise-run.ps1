@@ -17,7 +17,7 @@ function Fail([string]$m){ throw $m }
 # - MUST match step_*.ps1
 # - MUST exist under _local\_scratch
 # This prevents "StepName not found" loops and blocks non-file execution patterns.
-if($StepName){
+if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
   if($StepName -notmatch '^step_.*\.ps1$'){
     Fail ("STOP: StepName must match step_*.ps1, got: {0}" -f $StepName)
   }
@@ -31,13 +31,13 @@ if($StepName){
 
 # === STEP MARKER (LAW: NO_INLINE_STEP_EXECUTION) ===
 # We write a fresh marker whenever a step is invoked via StepName.
-if($StepName){
+if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
   $markerDir = Join-Path $RepoRoot "_local\_scratch"
   if(!(Test-Path -LiteralPath $markerDir)){ New-Item -ItemType Directory -Path $markerDir -Force | Out-Null }
   $marker = Join-Path $markerDir "_LAST_STEP_RUN.json"
   $payload = [pscustomobject]@{
     timestamp = (Get-Date).ToString("o")
-    step_name = $StepName
+    step_name = $( if(-not [string]::IsNullOrWhiteSpace($StepName)){ $StepName } else { try { Split-Path -Leaf $StepPath } catch { "" } } )
     repo_root = $RepoRoot
     pwsh      = $PSVersionTable.PSVersion.ToString()
   } | ConvertTo-Json -Depth 4
@@ -47,8 +47,7 @@ if($StepName){
 
 function Resolve-Step([string]$RepoRoot,[string]$StepPath,[string]$StepName){
   $scratch = Join-Path $RepoRoot '_local\_scratch'
-
-  if($StepName){
+if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
     # HARD LAW already ensured _local\_scratch\StepName exists.
     $cand1 = Join-Path $scratch $StepName
     if(Test-Path -LiteralPath $cand1){ return $cand1 }
