@@ -36,10 +36,10 @@ if(-not [string]::IsNullOrWhiteSpace($StepName)){
 # === /HARD LAW ===
 
 # === STEP MARKER (LAW: NO_INLINE_STEP_EXECUTION) ===
-# We write a fresh marker whenever a step is invoked via StepName.
+# We write a fresh marker whenever a step is invoked via StepName OR StepPath.
 # EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
 # Only enforce StepName naming/existence rules when StepName is provided.
-if(-not [string]::IsNullOrWhiteSpace($StepName)){
+if(-not [string]::IsNullOrWhiteSpace($StepName) -or -not [string]::IsNullOrWhiteSpace($StepPath)){
   $markerDir = Join-Path $RepoRoot "_local\_scratch"
   if(!(Test-Path -LiteralPath $markerDir)){ New-Item -ItemType Directory -Path $markerDir -Force | Out-Null }
   $marker = Join-Path $markerDir "_LAST_STEP_RUN.json"
@@ -55,9 +55,10 @@ if(-not [string]::IsNullOrWhiteSpace($StepName)){
 
 function Resolve-Step([string]$RepoRoot,[string]$StepPath,[string]$StepName){
   $scratch = Join-Path $RepoRoot '_local\_scratch'
-# EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
-# Only enforce StepName naming/existence rules when StepName is provided.
-if(-not [string]::IsNullOrWhiteSpace($StepName)){
+
+  # EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
+  # Only enforce StepName naming/existence rules when StepName is provided.
+  if(-not [string]::IsNullOrWhiteSpace($StepName)){
     # HARD LAW already ensured _local\_scratch\StepName exists.
     $cand1 = Join-Path $scratch $StepName
     if(Test-Path -LiteralPath $cand1){ return $cand1 }
