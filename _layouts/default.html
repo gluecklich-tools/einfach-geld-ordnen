@@ -6,38 +6,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
   <meta property="og:site_name" content="{{ site.title | escape }}">
-  <meta property="og:locale" content="de_DE">
   <meta property="og:title" content="{{ page.title | escape }} · {{ site.title | escape }}">
   <meta property="og:description" content="{{ _meta_desc | escape }}">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | escape }} · {{ site.title | escape }}">
   <meta name="twitter:description" content="{{ _meta_desc | escape }}">
 
-<link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <meta name="description" content="{{ _meta_desc | escape }}">
+
+  {% include cf_web_analytics.html %}
 </head>
 <body>
   <header class="container">
     <nav>
       <ul>
-        <li><strong>{{ site.title | escape }}</strong></li>
+        <li><a href="{{ '/' | relative_url }}"><strong>Einfach Geld ordnen</strong></a></li>
       </ul>
       <ul>
-        <li><a href="{{ '/pillar/einfach-geld-ordnen.html' | relative_url }}">Ueberblick</a></li>
-        <li><a href="{{ '/seiten/start_in_15_minuten.html' | relative_url }}">Start in 15 Minuten</a></li>
-        <li><a href="{{ '/seiten/der-weg.html' | relative_url }}">Der Weg</a></li>
-        <li><a href="{{ '/seiten/haushaltsbuch.html' | relative_url }}">Haushaltsbuch</a></li>
+        <li><a href="{{ '/pillar/index.html' | relative_url }}">Start</a></li>
+        <li><a href="{{ '/seiten/download-hub-50-30-20.html' | relative_url }}">Downloads</a></li>
         <li><a href="{{ '/seiten/index.html' | relative_url }}">Mehr</a></li>
       </ul>
     </nav>
   </header>
+
   <main class="container">
     {{ content }}
   </main>
+
   <footer class="container">
     <small>
       <a href="{{ '/seiten/impressum.html' | relative_url }}">Impressum</a> ·
