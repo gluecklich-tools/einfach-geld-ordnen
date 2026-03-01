@@ -25,7 +25,7 @@ foreach($f in $files){
   $t = ReadUtf8 $f.FullName
   if($t -notmatch "_local\\_scratch"){ continue }
 
-  if(-not (($t -match "Join-Path") -and ($t -match "\$RepoRoot"))){
+  if(-not (($t -match 'Join-Path') -and ($t -match "\$RepoRoot"))){
     $bad.Add(("Step may fallthrough to HOME (missing Join-Path/RepoRoot) in {0}" -f $f.Name))|Out-Null
   }
   if($t -match "(?i)C:\\Users\\"){
