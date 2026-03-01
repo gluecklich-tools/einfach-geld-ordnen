@@ -9,6 +9,12 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 
 function Fail([string]$m){ throw $m }
 
+# CI runners do not have access to the user's local SSOT governance directory.
+if($env:GITHUB_ACTIONS -eq 'true' -or $env:CI -eq 'true'){
+  "PASS: gate-ssot-loadorder-present (CI skip: local SSOT GOV not available)"
+  exit 0
+}
+
 if(!$GovDir){ Fail "STOP: EGO_SSOT_GOV_DIR not set" }
 if(!(Test-Path -LiteralPath $GovDir)){ Fail "STOP: SSOT GovDir not found: $GovDir" }
 
