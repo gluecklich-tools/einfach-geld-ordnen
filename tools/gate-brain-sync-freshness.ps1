@@ -10,6 +10,12 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 
 function Fail([string]$m){ throw $m }
 
+# CI runners do not have access to the user's local Brain directory.
+if($env:GITHUB_ACTIONS -eq 'true' -or $env:CI -eq 'true'){
+  "PASS: gate-brain-sync-freshness (CI skip: local Brain not available)"
+  exit 0
+}
+
 if(!$BrainDir){ Fail "STOP: EGO_BRAIN_DIR not set" }
 if(!(Test-Path -LiteralPath $BrainDir)){ Fail "STOP: BrainDir not found: $BrainDir" }
 
