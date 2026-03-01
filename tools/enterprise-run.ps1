@@ -21,7 +21,9 @@ function Fail([string]$m){ throw $m }
 # - MUST match step_*.ps1
 # - MUST exist under _local\_scratch
 # This prevents "StepName not found" loops and blocks non-file execution patterns.
-if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
+# EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
+# Only enforce StepName naming/existence rules when StepName is provided.
+if(-not [string]::IsNullOrWhiteSpace($StepName)){
   if($StepName -notmatch '^step_.*\.ps1$'){
     Fail ("STOP: StepName must match step_*.ps1, got: {0}" -f $StepName)
   }
@@ -35,7 +37,9 @@ if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWh
 
 # === STEP MARKER (LAW: NO_INLINE_STEP_EXECUTION) ===
 # We write a fresh marker whenever a step is invoked via StepName.
-if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
+# EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
+# Only enforce StepName naming/existence rules when StepName is provided.
+if(-not [string]::IsNullOrWhiteSpace($StepName)){
   $markerDir = Join-Path $RepoRoot "_local\_scratch"
   if(!(Test-Path -LiteralPath $markerDir)){ New-Item -ItemType Directory -Path $markerDir -Force | Out-Null }
   $marker = Join-Path $markerDir "_LAST_STEP_RUN.json"
@@ -51,7 +55,9 @@ if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWh
 
 function Resolve-Step([string]$RepoRoot,[string]$StepPath,[string]$StepName){
   $scratch = Join-Path $RepoRoot '_local\_scratch'
-if((-not [string]::IsNullOrWhiteSpace($StepName)) -or (-not [string]::IsNullOrWhiteSpace($StepPath))){
+# EGO_HARDLAW_ONLY_STEPPATH_FIX_V1:
+# Only enforce StepName naming/existence rules when StepName is provided.
+if(-not [string]::IsNullOrWhiteSpace($StepName)){
     # HARD LAW already ensured _local\_scratch\StepName exists.
     $cand1 = Join-Path $scratch $StepName
     if(Test-Path -LiteralPath $cand1){ return $cand1 }
