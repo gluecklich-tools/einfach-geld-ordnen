@@ -9,6 +9,15 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 
 function Fail([string]$m){ throw $m }
 
+
+# INVENTORY_PRESENT_POLICY_V1:
+# - canonical SSOT layout: kb\KB_EVENTS.ndjson + findings\FINDINGS.ndjson
+# - legacy mirrors accepted: inventory\KB_EVENTS.ndjson + inventory\FINDINGS.ndjson
+# Remediation (local):
+#   Ensure canonical files exist under $env:EGO_SSOT_GOV_DIR:
+#     kb\KB_EVENTS.ndjson
+#     findings\FINDINGS.ndjson
+#   Optional legacy mirrors under inventory\
 # CI runners do not have access to the user's local SSOT governance directory.
 if($env:GITHUB_ACTIONS -eq 'true' -or $env:CI -eq 'true'){
   "PASS: gate-inventory-present (CI skip: local SSOT GOV not available)"
