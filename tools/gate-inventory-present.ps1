@@ -9,21 +9,35 @@ try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 
 function Fail([string]$m){ throw $m }
 
+# CI runners do not have access to the user's local SSOT governance directory.
+if($env:GITHUB_ACTIONS -eq 'true' -or $env:CI -eq 'true'){
+  "PASS: gate-inventory-present (CI skip: local SSOT GOV not available)"
+  exit 0
+}
+
 if(!$GovDir){ Fail "STOP: EGO_SSOT_GOV_DIR not set" }
 if(!(Test-Path -LiteralPath $GovDir)){ Fail "STOP: SSOT GovDir not found: $GovDir" }
 
-# We accept either of these common locations (flexible)
-$candidates = @(
-  (Join-Path $GovDir 'inventory\REPO_PERMALINK_MAP.ndjson'),
-  (Join-Path $GovDir 'inventory\REPO_PERMALINK_INDEX.md'),
-  (Join-Path $GovDir 'inventory\repo_permalink_map.ndjson'),
-  (Join-Path $GovDir 'inventory\repo_permalink_index.md')
+# Inventory files are expected in SSOT governance inventory folder (outside repo).
+$invDir = Join-Path $GovDir "inventory"
+$need = @(
+  "REPO_PERMALINK_MAP.ndjson",
+  "REPO_PERMALINK_INDEX.md",
+  "KB_EVENTS.ndjson",
+  "FINDINGS.ndjson"
 )
 
-$found = @($candidates | Where-Object { Test-Path -LiteralPath $_ })
-if(@($found).Count -eq 0){
-  Fail ("STOP: inventory missing. Expected one of: " + ($candidates -join ' | '))
+$missing = @()
+foreach($f in $need){
+  $p = Join-Path $invDir $f
+  if(!(Test-Path -LiteralPath $p)){ $missing += $f; continue }
+  $len = (Get-Item -LiteralPath $p).Length
+  if($len -lt 10){ $missing += ($f + " (too small)") }
 }
 
-"OK: gate-inventory-present (" + (@($found).Count) + " files)"
+if(@($missing).Count -gt 0){
+  Fail ("STOP: inventory missing/invalid in SSOT: " + ($missing -join ', '))
+}
+
+"OK: gate-inventory-present (" + @($need).Count + " files)"
 exit 0
