@@ -11,9 +11,9 @@ $rx = '(?:[\u2600-\u27BF]|\uFE0F|\u200D|[\uD83C-\uDBFF][\uDC00-\uDFFF])'
 
 $files = Get-ChildItem -LiteralPath $repo -Recurse -File | Where-Object {
   ($_.Extension -in @('.md','.html')) -and
-  ($_.FullName -notmatch '[\\/]\_(audit|local|internal)[\\/]' ) -and
-  ($_.FullName -notmatch '[\\/]00_' ) -and
-  ($_.FullName -notmatch '[\\/]01_' )
+(($_.FullName -replace '\','/') -notlike '*/_audit/*') -and (($_.FullName -replace '\','/') -notlike '*/_local/*') -and (($_.FullName -replace '\','/') -notlike '*/_internal/*') -and
+(($_.FullName -replace '\','/') -notlike '*/00_*') -and
+(($_.FullName -replace '\','/') -notlike '*/01_*')
 }
 
 $hits = New-Object System.Collections.Generic.List[string]

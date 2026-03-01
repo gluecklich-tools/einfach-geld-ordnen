@@ -131,11 +131,11 @@ if ([string]::IsNullOrWhiteSpace($OutPath)) {
 $files = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force |
   Where-Object {
     ($_.Extension -in @('.md','.markdown')) -and
-    ($_.FullName -notmatch '\\_site\\') -and
-    ($_.FullName -notmatch '\\assets\\audit\\') -and
-    ($_.FullName -notmatch '\\_audit\\') -and
-    ($_.FullName -notmatch '\\_local\\') -and
-    ($_.FullName -match '\\(seiten|pillar)\\')
+    ((($_.FullName.Replace('\','/')) -notlike '*/_site/*')) -and
+(($_.FullName.Replace('\','/')) -notlike '*/assets/audit/*') -and
+    ((($_.FullName.Replace('\','/')) -notlike '*/_audit/*')) -and
+((($_.FullName.Replace('\','/')) -notlike '*/_local/*'))
+(($_.FullName.Replace('\','/')) -like '*/seiten/*' -or (($_.FullName.Replace('\','/')) -like '*/pillar/*'))
   }
 
 $rows = New-Object System.Collections.Generic.List[object]

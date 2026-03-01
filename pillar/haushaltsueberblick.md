@@ -1,4 +1,15 @@
 ---
+title: Pillar/haushaltsueberblick
+permalink: /pillar/haushaltsueberblick.html
+---
+
+
+
+
+
+# Pillar/haushaltsueberblick
+
+---
 layout: default
 permalink: /pillar/haushaltsueberblick.html
 title: "Haushaltsueberblick - ohne Zahlen"
@@ -6,7 +17,7 @@ nav_group: pillar
 nav_order: 40
 flow_systemlinks: true
 description: "Haushaltsueberblick - ohne Zahlen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/haushaltsbuch-vorlage.html---
 # Haushaltsüberblick - ohne Zahlen
 
 Bevor irgendetwas gerechnet, bewertet oder verändert wird, ist es hilfreich, den eigenen Haushalt einfach nur zu sehen.
@@ -30,14 +41,8 @@ Diese Seite will nichts erklären und nichts ordnen. Sie zeigt nur: Das alles ge
 Du musst hier nichts tun. Du musst dir nichts merken. Du musst nichts vorbereiten.
 
 Wenn du magst, lies es einfach wie eine Themen-übersicht, auf der du deinen eigenen Haushalt wiedererkennst.
+
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

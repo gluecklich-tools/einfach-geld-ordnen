@@ -32,3 +32,28 @@ if (-not $refresh) { throw ('ssot-refresh.ps1 not found near SsotRoot: ' + $Ssot
 Write-Host ('SSOT Refresh Script: ' + $refresh)
 Write-Host ('SSOT Root:          ' + $SsotRoot)
 pwsh -NoProfile -File $refresh -SsotRoot $SsotRoot
+
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===
+# AUTO: Findings -> SSOT Docs (mandatory)
+$ssot=$env:EGO_SSOT_ROOT
+if([string]::IsNullOrWhiteSpace($ssot)){
+  $ssot=$env:EGO_SSOT_ROOT
+}
+if([string]::IsNullOrWhiteSpace($ssot)){
+  throw "STOP: EGO_SSOT_ROOT not set. Set env var to SSOT root (example: <PROJECT>/INTERN_REDACTED/governance)."
+}
+if(!(Test-Path -LiteralPath $ssot)){
+  throw ("STOP: SSOT root missing: " + $ssot)
+}
+$internRoot = Split-Path -Parent $ssot
+$tool = Join-Path -Path (Join-Path -Path $internRoot -ChildPath 'tools') -ChildPath 'ego-findings-upsert.ps1'
+if(!(Test-Path -LiteralPath $tool)){ throw "STOP: findings tool missing: $tool" }
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $tool -SsotRoot $ssot
+
+# Marker-Gate
+$marker='<!-- EGO_FINDINGS_FLOWPLAN_TSV_V1 BEGIN -->'
+$learn = Join-Path -Path $ssot -ChildPath 'LEARNINGS_INTERNAL.md'
+if(!(Select-String -LiteralPath $learn -SimpleMatch -Pattern $marker -Quiet)){
+  throw "STOP: findings marker missing in LEARNINGS_INTERNAL.md after upsert"
+}
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 END ===

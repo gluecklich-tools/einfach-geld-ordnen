@@ -1,14 +1,16 @@
 # EGO_SSOT_GUARD_V1
 # Optional: SSOT guard (only if EGO_INTERNAL_DIR is set and ssot-guard exists)
+
+param(
+  [string]$OutFile = ".\tools\link-scan-report.txt"
+)
+
 $internalRoot = $env:EGO_INTERNAL_DIR
 if ($internalRoot) {
   $guard = Join-Path $internalRoot ('tools' + [char]92 + 'ssot-guard.ps1')
   if (Test-Path -LiteralPath $guard) { & $guard -RequireCleanRepo }
 }
 
-param(
-  [string]$OutFile = ".\tools\link-scan-report.txt"
-)
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
@@ -58,6 +60,27 @@ foreach ($p in $patterns) {
 }
 
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+# DEFAULT_OUTFILE_LINKSCAN_V1
+try{
+  $v = Get-Variable -Name OutFile -ErrorAction SilentlyContinue
+  if(-not $v -or -not $v.Value){
+    $script:OutFile = Join-Path $repo '_local\link_scan\link-scan-report.txt'
+  }
+}catch{
+  $script:OutFile = Join-Path $repo '_local\link_scan\link-scan-report.txt'
+}
+# /DEFAULT_OUTFILE_LINKSCAN_V1
+# ENSURE_OUTDIR_LINKSCAN_V1
+try{
+  $v = Get-Variable -Name OutFile -ErrorAction SilentlyContinue
+  if($v -and $v.Value){
+    $outDir = Split-Path -Parent $v.Value
+    if($outDir -and -not (Test-Path -LiteralPath $outDir)){
+      New-Item -ItemType Directory -Path $outDir -Force | Out-Null
+    }
+  }
+}catch{}
+# /ENSURE_OUTDIR_LINKSCAN_V1
 [System.IO.File]::WriteAllLines($OutFile, $lines.ToArray(), $utf8NoBom)
 
 Write-Host ("Wrote: {0}" -f $OutFile)

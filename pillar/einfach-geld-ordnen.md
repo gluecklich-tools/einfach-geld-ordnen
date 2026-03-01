@@ -1,4 +1,15 @@
 ---
+title: Pillar/einfach Geld Ordnen
+permalink: /pillar/einfach-geld-ordnen.html
+---
+
+
+
+
+
+# Pillar/einfach Geld Ordnen
+
+---
 layout: default
 title: "Einfach Geld ordnen"
 nav_group: pillar
@@ -6,8 +17,7 @@ nav_order: 20
 flow_systemlinks: true
 permalink: /pillar/einfach-geld-ordnen.html
 description: "Einfach Geld ordnen – kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
----
-
+next: /seiten/haushaltsbuch.html---
 # Einfach Geld ordnen
 
 Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.
@@ -22,7 +32,6 @@ Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.
 - Raus aus Schulden: [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
 
 ## Weiter
-- [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
-- [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
-- [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-{% include no_sackgasse_footer.html %}
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

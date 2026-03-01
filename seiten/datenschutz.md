@@ -16,8 +16,7 @@ description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Hausha
 Talstra&szlig;e 7  
 47445 Mörs  
 Deutschland  
-E-Mail: **czoske.carsten@web.de**
-
+Kontakt: **Kontaktformular**
 ## 3. Server-Logfiles
 
 Bei der Nutzung dieser Website k&ouml;nnen Logdaten anfallen, die zur technischen Bereitstellung und zur Abwehr von Angriffen notwendig sind. Eine Zusammenf&uuml;hrung dieser Daten mit anderen Datenqüllen erfolgt nicht.

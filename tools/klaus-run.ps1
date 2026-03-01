@@ -10,9 +10,18 @@ param(
   [Parameter(Mandatory=$false)]
   [int]$HttpTimeoutSec = 20
 )
+# EGO_CANON:ENTERPRISE_PREFLIGHT_BEGIN
+& pwsh -NoProfile -File 'tools\enterprise-preflight.ps1'
+# EGO_CANON:ENTERPRISE_PREFLIGHT_END
+
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+
+# --- KLAUS_COMMIT_PUSH_GUARD_V1 ---
+$script:KlausDoCommitPush = ($env:KLAUS_DO_COMMIT_PUSH -eq '1')
+# --- /KLAUS_COMMIT_PUSH_GUARD_V1 ---
+
 # EGO_NO_BIG_PASTE_RUNNER_V1
 # EGO_GATE_NO_BIG_PASTE_CALL_V1
 # EGO_SSOT_REFRESH_PROXY_CALL_V1
@@ -73,15 +82,39 @@ function Run-AutoSitemap {
   $gen = Join-Path $PSScriptRoot 'gen-sitemap.ps1'
   if (-not (Test-Path -LiteralPath $gen)) {
     Say 'INFO: tools/gen-sitemap.ps1 not found -> skip auto-sitemap.'
-    return
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===
+# AUTO: Findings -> SSOT Docs (mandatory)
+$ssot=$env:EGO_SSOT_ROOT
+if([string]::IsNullOrWhiteSpace($ssot)){
+  $ssot=$env:EGO_SSOT_ROOT
+}
+if([string]::IsNullOrWhiteSpace($ssot)){
+  throw "STOP: EGO_SSOT_ROOT not set. Set env var to SSOT root (example: <PROJECT>/INTERN_REDACTED/governance)."
+}
+if(!(Test-Path -LiteralPath $ssot)){
+  throw ("STOP: SSOT root missing: " + $ssot)
+}
+$internRoot = Split-Path -Parent $ssot
+$tool = Join-Path -Path (Join-Path -Path $internRoot -ChildPath 'tools') -ChildPath 'ego-findings-upsert.ps1'
+if(!(Test-Path -LiteralPath $tool)){ throw "STOP: findings tool missing: $tool" }
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $tool -SsotRoot $ssot
+
+# Marker-Gate
+$marker='<!-- EGO_FINDINGS_FLOWPLAN_TSV_V1 BEGIN -->'
+$learn = Join-Path -Path $ssot -ChildPath 'LEARNINGS_INTERNAL.md'
+if(!(Select-String -LiteralPath $learn -SimpleMatch -Pattern $marker -Quiet)){
+  throw "STOP: findings marker missing in LEARNINGS_INTERNAL.md after upsert"
+}
+# === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 END ===
+
+return
   }
 
   $enc = [System.Text.UTF8Encoding]::new($false)
   $site = 'https://gluecklich-tools.github.io/einfach-geld-ordnen'
   $pMap = Join-Path $RepoRoot 'sitemap.xml'
   $pRob = Join-Path $RepoRoot 'robots.txt'
-
-  $ts = (Get-Date).ToString('yyyyMMdd_HHmmss')
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
   $bk = Join-Path $RepoRoot ("_local\patch_backups\klaus_autositemap_run_" + $ts)
   New-Item -ItemType Directory -Path $bk -Force | Out-Null
   if (Test-Path -LiteralPath $pMap) { Copy-Item -LiteralPath $pMap -Destination (Join-Path $bk 'sitemap.xml') -Force }
@@ -152,7 +185,7 @@ if ($Mode -eq "live-check") {
 }
 
 # 3) Commit+Push only if real changes exist (ignore audit artefacts)
-Say "STEP 3/4: checking git status for real changes..."
+if(-not $script:KlausDoCommitPush){ Say "STEP 3/4: commit/push disabled (set KLAUS_DO_COMMIT_PUSH=1 to enable) -> skip commit/push."; } else { Say "STEP 3/4: checking git status for real changes..."; }
 $cand = @(Get-CommitCandidates)
 if ($cand.Length -eq 0) {
   Say "OK: No commit candidates (audit-only or clean) -> skip commit/push."
@@ -161,10 +194,13 @@ if ($cand.Length -eq 0) {
   $cand | ForEach-Object { Say ("  " + $_) }
 
   $msg = Ensure-CleanCommitMessage -Msg $Message
-  git add -A | Out-Null
-  git commit -m $msg | ForEach-Object { $_ }
-  git push | ForEach-Object { $_ }
-  Say "OK: Changes pushed."
+  if($script:KlausDoCommitPush){ git add -A | Out-Null
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git add"; } }
+  if($script:KlausDoCommitPush){ git commit -m $msg | ForEach-Object { $_ }
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git commit"; } }
+  if($script:KlausDoCommitPush){ git push | ForEach-Object { $_ }
+ } else { if(Get-Command -Name Say -ErrorAction SilentlyContinue){ Say "GIT: disabled -> skip git push"; } }
+  if($script:KlausDoCommitPush){ Say "OK: Changes pushed." } else { Say "OK: Push skipped (commit/push disabled)." }
 }
 
 # 4) Live smoke (full URL)
@@ -172,5 +208,42 @@ Say "STEP 4/4: live smoke 200..."
 $u = "https://gluecklich-tools.github.io/einfach-geld-ordnen/"
 Live-Smoke200 -Url $u
 
+# --- EGO_FINDINGS_RECURRING_HOOK_V1 ---
+# After run: upsert recurring findings from recent logs (if SSOT available).
+try {
+  if($env:EGO_INTERNAL_DIR){
+    $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+    $tool = Join-Path $env:EGO_INTERNAL_DIR 'tools\ego-findings-recurring-upsert.ps1'
+    if(Test-Path -LiteralPath $tool){
+      $w = & pwsh -NoProfile -File $tool -RepoRoot $repoRoot -LookbackHours 72 2>&1
+      if(Get-Command -Name Say -ErrorAction SilentlyContinue){
+        Say ('RECURRING_FINDINGS: ' + (($w | Select-Object -Last 1) -join ' '))
+      }
+    }
+  }
+} catch {
+  # never fail Klaus because of recurring findings
+}
+# --- /EGO_FINDINGS_RECURRING_HOOK_V1 ---
+
 Say "DONE."
 git status --porcelain
+
+# --- EGO_ARTIFACTS_INDEX_HOOK_V1 ---
+# Write a single SSOT-side index of repo _local artifacts for this run (if SSOT is available).
+try {
+  $runStart = $script:KlausRunStart
+  if(-not $runStart){ $runStart = (Get-Date).AddHours(-2) }
+
+  if($env:EGO_INTERNAL_DIR){
+    $env:EGO_REPO_DIR = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+    $idx = Join-Path $env:EGO_INTERNAL_DIR 'tools\ego-artifacts-index.ps1'
+    if(Test-Path -LiteralPath $idx){
+      & pwsh -NoProfile -File $idx -Since $runStart -Title 'KLAUS Artifacts Index' | Out-Null
+    }
+  }
+} catch {
+  # never fail Klaus because of indexing
+}
+# --- /EGO_ARTIFACTS_INDEX_HOOK_V1 ---
+# --- EGO_GIT_GUARD_LINES_V1 ---

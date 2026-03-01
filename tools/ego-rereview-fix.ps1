@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param(
   [Parameter(Mandatory=$true)][string]$File,
   [Parameter(Mandatory=$true)][string]$RR,
@@ -61,8 +62,7 @@ if($Mode -eq 'plan'){
   "FILE=" + $rel
   return
 }
-
-$ts = (Get-Date).ToString('yyyyMMdd_HHmmss')
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
 $bk = Join-Path $RepoRoot ("_local\patch_backups\rereview_{0}_{1}_{2}" -f $RR,($rel -replace '[\\\/:\s]','_'),$ts)
 Backup-File $full $bk
 Write-Utf8NoBom $full $newText

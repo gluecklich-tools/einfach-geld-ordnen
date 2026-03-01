@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param()
 
 $ErrorActionPreference="Stop"
@@ -13,8 +14,7 @@ function WriteUtf8([string]$p,[string]$t){ [IO.File]::WriteAllText($p,$t,$enc) }
 $repo = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
 if([string]::IsNullOrWhiteSpace($repo) -or !(Test-Path -LiteralPath $repo)){ throw "STOP: repo root not found via PSScriptRoot" }
 Set-Location -LiteralPath $repo
-
-$ts=(Get-Date).ToString("yyyyMMdd_HHmmss")
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
 $bk=Join-Path $repo ("_local\patch_backups\policy_blocks_minimal_{0}" -f $ts)
 New-Item -ItemType Directory -Path $bk -Force | Out-Null
 
@@ -38,7 +38,7 @@ $needle="{% include disclaimer_finanzinfo.html %}"
 $scan=@()
 $scan += Get-ChildItem -LiteralPath (Join-Path $repo "_layouts") -File -Recurse -ErrorAction SilentlyContinue
 $scan += Get-ChildItem -LiteralPath (Join-Path $repo "_includes") -File -Recurse -ErrorAction SilentlyContinue
-$scan=$scan | Where-Object { $_ -and $_.FullName -notmatch "\\_local\\patch_backups\\" }
+$_ -and (($_.FullName -replace '\','/') -notlike '*/_local/patch_backups/*')
 $hitFiles = Select-String -Path $scan.FullName -SimpleMatch -Pattern $needle -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Path -Unique
 if(!$hitFiles){ throw "STOP: include injection not found: $needle" }
 foreach($f in $hitFiles){

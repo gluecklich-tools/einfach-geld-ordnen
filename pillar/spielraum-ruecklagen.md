@@ -6,7 +6,7 @@ nav_group: pillar
 nav_order: 50
 flow_systemlinks: true
 description: "Spielraum und Ruecklagen - realistisch einordnen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/notgroschen.html---
 # Spielraum und Rücklagen - realistisch einordnen
 
 Es gibt im Haushalt Dinge, die fest sind (Fixkosten). Und es gibt Dinge, die schwanken oder unerwartet kommen.
@@ -63,8 +63,4 @@ Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man überhaup
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/notgroschen.html

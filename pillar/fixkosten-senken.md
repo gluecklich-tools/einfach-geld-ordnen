@@ -1,9 +1,20 @@
 ---
+title: Pillar/fixkosten Senken
+permalink: /pillar/fixkosten-senken.html
+---
+
+
+
+
+
+# Pillar/fixkosten Senken
+
+---
 layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
 description: "Fixkosten senken - Vorgehen - kurzer Einstieg + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
----
+next: /seiten/abo-manager.html---
 # Fixkosten senken - Vorgehen
 
 Ziel: in 30-60 Minuten die grössten Hebel finden und dann Woche für Woche abarbeiten. Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.
@@ -21,14 +32,8 @@ Sortiere nach Betrag (hoch nach niedrig). So findest du die grössten Effekte so
 3. Leicht + groß gewinnt
 
 Beginne mit dem grössten Betrag, der am leichtesten zu ändern ist (einfacher Wechsel vor komplizierter Verhandlung).
+
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-{% include no_sackgasse_footer.html %}
-
-
-
-
-
-
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)

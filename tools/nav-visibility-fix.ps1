@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param([switch]$Apply)
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
@@ -91,7 +92,7 @@ foreach ($rel in $targets) {
     $newBody = [regex]::Replace($body, $pattern, ($block + "`n"), 1)
   }
   else {
-    $m = [regex]::Match($body, "(?m)^\s*##\s+Weiter\s*$")
+    $m = [regex]::Match($body, '(?m)^\s*##\s+Weiter\s*$')
     if ($m.Success) {
       $pos = $m.Index
       $newBody = $body.Substring(0, $pos) + $block + "`n" + $body.Substring($pos)

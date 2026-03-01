@@ -1,3 +1,4 @@
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 param(
   [Parameter(Mandatory=$true)][string]$File,
   [Parameter(Mandatory=$true)][string]$RR,
@@ -25,8 +26,7 @@ $lines = $lines | ForEach-Object { $_.TrimEnd("`r") }
 
 $parts = Split-Body $lines
 $body = $parts.Body
-
-$ts = (Get-Date).ToString('yyyyMMdd_HHmmss')
+$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
 $proofDir = Join-Path $RepoRoot '_local\proof'
 $repDir   = Join-Path $RepoRoot '_local\rereview\reports'
 New-Item -ItemType Directory -Path $proofDir -Force | Out-Null

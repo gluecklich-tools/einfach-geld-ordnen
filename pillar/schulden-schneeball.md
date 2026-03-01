@@ -3,7 +3,7 @@ layout: default
 permalink: /pillar/schulden-schneeball.html
 title: "Schulden-Schneeball - Anleitung"
 description: "Schulden-Schneeball - Anleitung – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
----
+next: /seiten/ueberblick.html---
 # Schulden-Schneeball - Anleitung
 
 Du tilgst zürst die kleinste Schuld. Das bringt schnelle Erfolge.
@@ -19,8 +19,4 @@ Du tilgst zürst die kleinste Schuld. Das bringt schnelle Erfolge.
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
 
-
-
-
-
-
+Weiter: {{ site.baseurl }}/pillar/schulden-lawine.html

@@ -1,4 +1,5 @@
 # EGO_LEGAL_HINTS_GATE_V1
+# ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 try { Remove-Module PSReadLine -ErrorAction SilentlyContinue } catch {}
