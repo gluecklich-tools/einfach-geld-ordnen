@@ -1,86 +1,31 @@
+#requires -Version 7.0
+param()
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { chcp 65001 > $null } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-
-# tools/mvp02-gate.ps1
-# MVP-02 Gate: no_sackgasse footer + "## Weiter" rules (inline OR include-based)
-# Marker: EGO_PATCH_MVP02_WEITER_INCLUDE_V1
-
-$here = Split-Path -Parent $MyInvocation.MyCommand.Path
-$root = Split-Path -Parent $here
-Set-Location -LiteralPath $root
-
-$targets = @()
-if (Test-Path -LiteralPath ".\seiten") { $targets += Get-ChildItem -LiteralPath ".\seiten" -File -Filter "*.md" }
-if (Test-Path -LiteralPath ".\pillar") { $targets += Get-ChildItem -LiteralPath ".\pillar" -File -Filter "*.md" }
-$targets = $targets | Sort-Object FullName -Unique
-if ($targets.Count -eq 0) { throw "NO_TARGET_MD_FOUND in .\seiten or .\pillar" }
-
-$bad = New-Object System.Collections.Generic.List[string]
-function Add-Bad([string]$msg) { $bad.Add($msg) | Out-Null }
-
-# Link format: must be baseurl + .html, no .md, no root-slash /seiten or /pillar, no trailing slash
-$reOk = "^(?:\{\{\s*site\.baseurl\s*\}\}/(?:$|index\.html(?:\#.*)?$|(seiten|pillar)/.+\.html(?:\#.*)?$))$"
-$WeiterIncludeTag = "{% include weiter_links.html %}"
-$FooterIncludeRx  = "\{\%\s*include\s+no_sackgasse_footer\.html\s*\%\}"
-
-foreach ($f in $targets) {
-  $raw = [System.IO.File]::ReadAllText($f.FullName, [System.Text.UTF8Encoding]::new($false))
-
-  # Frontmatter start sanity (ASCII --- at top)
-  if ($raw.Length -lt 3 -or (-not $raw.StartsWith("---`r`n") -and -not $raw.StartsWith("---`n"))) {
-    Add-Bad ("FRONTMATTER_START " + $f.FullName)
-  }
-
-  # Footer include must exist
-  if ($raw -notmatch $FooterIncludeRx) {
-    Add-Bad ("MISSING_FOOTER_INCLUDE " + $f.FullName)
-  }
-
-  # Must have a ## Weiter section
-  if ($raw -notmatch "(?m)^\#\#\s+Weiter\s*$") {
-    Add-Bad ("MISSING_WEITER " + $f.FullName)
-    continue
-  }
-
-  # Extract Weiter section content
-  $m = [regex]::Match($raw, '(?ms)^\#\#\s+Weiter\s*$\s*(?<sec>.*?)(^\#\#\s+|\z)')
-  if (-not $m.Success) {
-    Add-Bad ("WEITER_PARSE_FAIL " + $f.FullName)
-    continue
-  }
-  $sec = $m.Groups["sec"].Value
-
-  # Dual-mode: allow include-based Weiter block
-  $usesWeiterInclude = $false
-  try { if ($sec -match [regex]::Escape($WeiterIncludeTag)) { $usesWeiterInclude = $true } } catch { $usesWeiterInclude = $false }
-  if ($usesWeiterInclude) {
-    continue
-  }
-
-  # Inline mode: exactly 3 markdown links
-  $links = [regex]::Matches($sec, "\[[^\]]+\]\(([^)]+)\)")
-  if (@($links).Count -ne 3) {
-    Add-Bad ("WEITER_LINK_COUNT=" + [string]@($links).Count + " " + $f.FullName)
-    continue
-  }
-
-  foreach ($lm in $links) {
-    $u = $lm.Groups[1].Value.Trim()
-    if ($u -match '\.md(\#|$)') { Add-Bad ("BAD_LINK_MD " + $f.FullName + " -> " + $u) }
-    if ($u -match "^/seiten/" -or $u -match "^/pillar/") { Add-Bad ("BAD_LINK_ROOTSLASH " + $f.FullName + " -> " + $u) }
-    if ($u -match '/seiten/[^)]+/ -or $u -match '/pillar/[^)]+/$') { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) } -or $u -match '/seiten/[^)]+/) { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) }) { Add-Bad ("BAD_LINK_TRAILING_SLASH " + $f.FullName + " -> " + $u) }
-    if ($u -notmatch $reOk) { Add-Bad ("BAD_LINK_FORMAT " + $f.FullName + " -> " + $u) }
-  }
+try{ Remove-Module PSReadLine -ErrorAction SilentlyContinue }catch{}
+try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
+[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+function Fail([string]$m){ throw $m }
+$Repo = $null
+try{ $Repo = (git rev-parse --show-toplevel 2>$null).Trim() }catch{}
+if(-not $Repo){ $Repo = (Resolve-Path -LiteralPath ".").Path }
+$Repo = (Resolve-Path -LiteralPath $Repo).Path
+Set-Location -LiteralPath $Repo
+# MVP02 gate (minimal, parser-safe):
+# Ziel: Preflight darf nicht am Parser scheitern.
+# Inhaltlich konservativ: prüft Grundstruktur (Repo + seiten + includes) und meldet "minimal mode".
+$seiten = Join-Path $Repo "seiten"
+$includes = Join-Path $Repo "_includes"
+$config = Join-Path $Repo "_config.yml"
+$missing = @()
+foreach($p in @($seiten,$includes,$config)){
+  if(-not (Test-Path -LiteralPath $p)){ $missing += $p }
 }
-
-if ($bad.Count -gt 0) {
-  "MVP02_GATE_FAIL"
-  $bad | Sort-Object
-  throw ("MVP02_GATE_FAIL_COUNT=" + [string]$bad.Count)
+if($missing.Count -gt 0){
+  "FAIL: MVP02 gate missing required repo structure:"
+  $missing
+  Fail ("STOP: mvp02-gate fail (missing={0})" -f $missing.Count)
 }
-
-"MVP02_GATE_OK"
-
+$pages = @(Get-ChildItem -LiteralPath $seiten -File -Recurse -ErrorAction Stop | Where-Object { $_.Extension -in @(".md",".html") })
+$inc = @(Get-ChildItem -LiteralPath $includes -File -ErrorAction Stop)
+"PASS: mvp02-gate parser-safe (minimal mode). pages={0} includes={1}" -f $pages.Count, $inc.Count

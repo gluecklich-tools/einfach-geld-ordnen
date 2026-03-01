@@ -1,12 +1,13 @@
+#requires -Version 7.0
 param(
   [string]$RepoRoot = (Get-Location).Path,
   [string]$StepPath = "",
-  [string]$ScratchDir = (Join-Path (Resolve-Path -LiteralPath $RepoRoot).Path "_local/_scratch")
+  [string]$ScratchDir = (Join-Path (Resolve-Path -LiteralPath $RepoRoot).Path "_local\_scratch")
 )
 
-$ErrorActionPreference='Stop'
+$ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-try{ if($IsWindows){ chcp 65001|Out-Null } }catch{}
+try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
 $enc=[Text.UTF8Encoding]::new($false)
 
@@ -25,28 +26,27 @@ if(-not [string]::IsNullOrWhiteSpace($StepPath)){
   }
 }
 
-if($targets.Count -eq 0){
+if(@($targets).Count -eq 0){
   "PASS: GATE_NO_EXIT_IN_STEPS (no step targets)"
-  return
+  exit 0
 }
 
-$hits=@()
+$hits = @()
 foreach($file in $targets){
-  $lines = (ReadUtf8 $file) -split "
-"
+  $lines = (ReadUtf8 $file) -split "`n"
   for($i=0; $i -lt $lines.Count; $i++){
     $line = $lines[$i]
-    if($line -match '(?i)^\s*exit(\s+[-]?\d+)?\s*){){
+    if($line -match '(?i)^\s*exit(\s+[-]?\d+)?\s*$'){
       $hits += ("{0}:{1} :: {2}" -f $file, ($i+1), $line.Trim())
     }
   }
 }
 
-if($hits.Count -gt 0){
+if(@($hits).Count -gt 0){
   "FAIL: GATE_NO_EXIT_IN_STEPS"
   $hits | ForEach-Object { " - $_" }
   Fail "STOP: Step contains 'exit'. Use 'throw' for fail, or just end script/return for success."
 }
 
 "PASS: GATE_NO_EXIT_IN_STEPS"
-return
+exit 0
