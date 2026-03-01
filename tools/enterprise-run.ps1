@@ -7,6 +7,10 @@ param(
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
+
+# STRICTMODE_STRINGS_V1_REMINDER:
+# - In double-quoted strings, `$var` interpolates. Under StrictMode this can STOP if var not set.
+# - For literal `$var` text in messages/docs use single quotes or escape: `` `$ ``.
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
 
