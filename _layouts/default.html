@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
 
-  <meta property="og:site_name" content="{{ site.title | escape }}">
+      <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% if page.sitemap == false %}
+  <meta name="robots" content="noindex,follow">
+  {% endif %}
+<meta property="og:site_name" content="{{ site.title | escape }}">
   <meta property="og:title" content="{{ page.title | escape }} · {{ site.title | escape }}">
   <meta property="og:description" content="{{ _meta_desc | escape }}">
   <meta property="og:type" content="website">
