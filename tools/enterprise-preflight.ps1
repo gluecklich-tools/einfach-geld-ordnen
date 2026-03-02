@@ -1,5 +1,6 @@
-param([string]$RepoRoot = (Get-Location, [switch]$AllowDirtyRepo)
-.Path
+param(
+  [string]$RepoRoot = (Get-Location).Path,
+  [switch]$AllowDirtyRepo
 )
 
 $ErrorActionPreference='Stop'
