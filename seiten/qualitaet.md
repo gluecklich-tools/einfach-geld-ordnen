@@ -19,16 +19,16 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 > Ziel: Du sollst deine Finanzen **übersichtlich ordnen** können – ohne dich durch 100 Menüs zu kämpfen.
 
 ## Qualitätsprinzipien
-1. **Einfach vor komplex**  
-   Lieber verständlich und robust als überladen.
-2. **Fehlerarm vor fancy**  
-   änderungen werden so umgesetzt, daß sie reproduzierbar sind und nicht „zufällig“ funktionieren.
-3. **Datenschutz als Standard**  
-   Keine Veröffentlichung von sensiblen Finanzdaten, Nachweisen oder personenbezogenen Informationen.
-4. **Kompatibilität pragmatisch**  
-   Die Vorlagen sind so gebaut, daß sie in gängigen Office-Umgebungen nutzbar bleiben (ohne Spezialtricks, die schnell brechen).
-5. **Transparenz statt Versprechen**  
-   Es gibt klare Grenzen, was das Produkt leisten kann – und was nicht.
+1. **Einfach vor komplex** 
+ Lieber verständlich und robust als überladen.
+2. **Fehlerarm vor fancy** 
+ änderungen werden so umgesetzt, daß sie reproduzierbar sind und nicht „zufällig“ funktionieren.
+3. **Datenschutz als Standard** 
+ Keine Veröffentlichung von sensiblen Finanzdaten, Nachweisen oder personenbezogenen Informationen.
+4. **Kompatibilität pragmatisch** 
+ Die Vorlagen sind so gebaut, daß sie in gängigen Office-Umgebungen nutzbar bleiben (ohne Spezialtricks, die schnell brechen).
+5. **Transparenz statt Versprechen** 
+ Es gibt klare Grenzen, was das Produkt leisten kann – und was nicht.
 
 ## Wichtige Grenzen (ehrlich & klar)
 - **Keine Steürberatung, keine Rechtsberatung.**
@@ -39,7 +39,7 @@ Diese Seite beschreibt kurz, **woran du dich bei „Einfach Geld ordnen“ orien
 - Deine Daten bleiben grundsätzlich **bei dir**.
 - öffentliche Projektdateien enthalten **keine** Kontoauszüge, Auszahlungsnachweise, Behördenkommunikation oder ähnliche Dokumente.
 
-Mehr dazu: [Datenschutz]({{site.baseurl}}/seiten/datenschutz.html)  
+Mehr dazu: [Datenschutz]({{site.baseurl}}/seiten/datenschutz.html) 
 Impressum: [Impressum]({{site.baseurl}}/seiten/impressum.html)
 ## Weiter
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
@@ -83,6 +83,9 @@ Kein Renegade.
 - [Audit]({{ site.baseurl }}/seiten/audit.html)
 - [Changelog]({{ site.baseurl }}/seiten/changelog.html)
 - [Governance]({{ site.baseurl }}/seiten/governance.html)
-- [QA Release Gate]({{ site.baseurl }}/seiten/qa-release-gate.html)
-- [Proof: Rechner]({{ site.baseurl }}/seiten/proof-rechner.html)
-- [Proof: Themen-Seite]({{ site.baseurl }}/seiten/proof-themen-seite.html)
+- 
+- 
+- 
+
+
+> Hilfe & Support: [Self-Service](/seiten/self_service.html)
