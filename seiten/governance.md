@@ -5,7 +5,6 @@ permalink: /seiten/governance.html
 nav_group: seiten
 flow_systemlinks: true
 description: "Transparenz & Verantwortung - kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
-sitemap: false
 ---
 Diese Seite beschreibt nur die öffentlich relevanten Grundsätze dieses Projekts.
 
