@@ -2,7 +2,6 @@
 permalink: /seiten/qualitaet.html
 layout: default
 title: "Qualitaet & Prinzipien"
-permalink: /seiten/qualitaet.html
 nav_group: meta
 nav_order: 920
 flow_systemlinks: true
