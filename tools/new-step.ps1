@@ -1,4 +1,8 @@
 #requires -Version 7.0
+# ALLOW_REGEX_PATCH
+# Reason: tools/new-step.ps1 generates/writes files and uses -replace/[regex]::Replace intentionally.
+# Gate: tools/gate-no-regex-patch-v1.ps1 allows explicit opt-in via this marker.
+
 param(
   [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$Name,
   [string]$RepoRoot = (Get-Location).Path
