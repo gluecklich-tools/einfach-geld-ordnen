@@ -34,3 +34,4 @@ Tipp: Starte mit dem Punkt, der dir am meisten pro Monat spart. Perfektion ist n
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

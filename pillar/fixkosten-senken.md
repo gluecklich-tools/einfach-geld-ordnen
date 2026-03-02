@@ -37,3 +37,4 @@ Beginne mit dem grössten Betrag, der am leichtesten zu ändern ist (einfacher W
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

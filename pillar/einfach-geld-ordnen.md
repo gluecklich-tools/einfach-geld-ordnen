@@ -35,3 +35,4 @@ Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

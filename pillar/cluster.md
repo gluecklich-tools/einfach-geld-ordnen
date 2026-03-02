@@ -41,3 +41,4 @@ Diese Seite ist die übersicht, damit du nie festhängst.
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

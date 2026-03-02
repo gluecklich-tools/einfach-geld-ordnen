@@ -40,3 +40,4 @@ Lege ein klares Monatslimit fest. Alles darüber wird nicht (wieder) abgeschloss
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

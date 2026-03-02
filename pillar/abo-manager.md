@@ -46,3 +46,4 @@ Lege ein fixes Monatslimit fest (z.B. 10-25 EUR). Alles, was darüber liegt, mus
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}

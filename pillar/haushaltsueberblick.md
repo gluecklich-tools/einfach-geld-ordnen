@@ -46,3 +46,4 @@ Wenn du magst, lies es einfach wie eine Themen-übersicht, auf der du deinen eig
 - [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
 - [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
 - [Fixkosten](../pillar/fixkosten.html)
+{% include no_sackgasse_footer.html %}
