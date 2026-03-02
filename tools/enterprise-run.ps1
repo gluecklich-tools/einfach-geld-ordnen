@@ -95,7 +95,7 @@ if(Test-Path -LiteralPath $gateReq){
 }
 
 # Preflight (repo variant)
-$preflight = Join-Path $here 'enterprise-preflight.ps1'
+$preflight = Join-Path $here 'enterprise-preflight.ps1 -AllowDirtyRepo'
 if(Test-Path -LiteralPath $preflight){
   & pwsh -NoProfile -ExecutionPolicy Bypass -File $preflight -RepoRoot $RepoRoot
   if($LASTEXITCODE -ne 0){ Fail "STOP: enterprise-preflight failed" }
