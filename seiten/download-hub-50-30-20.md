@@ -5,7 +5,9 @@ permalink: /seiten/download-hub-50-30-20.html
 policy_blocks: show
 description: "Downloads zum Thema 50/30/20: Freebie + naechste Schritte. Einfach ohne App."
 sitemap: false
----# Download-Hub: 50/30/20
+---
+
+# Download-Hub: 50/30/20
 
 Hier findest du die Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
 
