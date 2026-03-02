@@ -54,10 +54,6 @@ Self-Serve-Produkt: eigenständig nutzbar, ohne zugesicherte Rückmeldung oder i
 - [FAQ: Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
 - [Audit]({{ site.baseurl }}/seiten/audit.html)
 - [Governance]({{ site.baseurl }}/seiten/governance.html)
-- 
 - [Changelog]({{ site.baseurl }}/seiten/changelog.html)
-- 
-- 
-
 
 > Nächster Schritt: [Downloads](/seiten/download.html)

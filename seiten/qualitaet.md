@@ -47,7 +47,6 @@ Impressum: [Impressum]({{site.baseurl}}/seiten/impressum.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
 
-
 ## Gesetz: Ein-Rutsch Ablauf (niemals abweichen)
 APPLY -> GATES -> COMMIT/PUSH -> LIVE-HEAD-200
 - APPLY: nur idempotente Apply-Skripte, UTF-8 ohne BOM, binärsicher, keine Side-Effects.
@@ -83,9 +82,5 @@ Kein Renegade.
 - [Audit]({{ site.baseurl }}/seiten/audit.html)
 - [Changelog]({{ site.baseurl }}/seiten/changelog.html)
 - [Governance]({{ site.baseurl }}/seiten/governance.html)
-- 
-- 
-- 
-
 
 > Hilfe & Support: [Self-Service](/seiten/self_service.html)
