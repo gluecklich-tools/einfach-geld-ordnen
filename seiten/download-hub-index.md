@@ -18,9 +18,7 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 ## Vollversion
 
 Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
+## Pro
 Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
 
 ## übersicht
