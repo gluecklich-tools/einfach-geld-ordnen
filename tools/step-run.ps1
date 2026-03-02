@@ -4,6 +4,9 @@ param(
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
+
+# Gate: block unsafe $var: patterns in the step file (double-quoted strings)
+& (Join-Path $PSScriptRoot 'gate-step-no-invalid-var-colon.ps1') -StepPath $StepPath
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
 
