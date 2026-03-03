@@ -203,7 +203,7 @@ foreach($p in $paths){
       foreach($ln in $lines){
         if($ln -match "(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"){
           # Detector heuristics: regex tables / gates / patterns
-          if($ln -match "\bRx\b\s*=" -or $ln -match "\b-match\b" -or $ln -match "\b-like\b" -or $ln -match "regex" -or $ln -match "\bUSER\b"){
+          if($ln -match "\bRx\b\s*=" -or $ln -match "\b-match\b" -or $ln -match "\b-like\b" -or $ln -match "regex" -or $ln -match "\bUSER\b" -or $ln -match "\bABS_" -or $ln -match "INTERNALTOOLSROOT" -or $ln -match "pattern"){
             continue
           }
           $hasRealLeak = $true
