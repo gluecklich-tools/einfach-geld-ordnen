@@ -57,4 +57,8 @@ function WriteUtf8NoBom([string]`$p,[string]`$s){ [IO.File]::WriteAllText(`$p,`$
 "@
 
 Write-Utf8NoBom $stepPath $stub
+# P0: persist last created step path for deterministic open/run (no session vars)
+$lastFile = Join-Path $stepDir "LAST_STEP_PATH.txt"
+Write-Utf8NoBom $lastFile $stepPath
+
 $stepPath
