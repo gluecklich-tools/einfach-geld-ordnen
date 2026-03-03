@@ -18,7 +18,16 @@ if(-not [IO.Path]::IsPathRooted($StepPath)){ throw "FAIL: StepPath must be absol
 if(-not (Test-Path -LiteralPath $StepPath)){ throw "FAIL: StepPath not found: $StepPath" }
 
 # Read allowlist from step
-$raw = Get-Content -LiteralPath $StepPath -Raw -Encoding UTF8
+$raw = # --- EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
+if(-not (Test-Path -LiteralPath $StepPath -PathType Leaf)){
+  throw "FAIL: StepPath not found or not a file: $StepPath"
+}
+$__stepContent = $__stepContent
+if([string]::IsNullOrWhiteSpace($__stepContent)){
+  throw "FAIL: Step file is empty or unreadable: $StepPath"
+}
+# --- end EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
+Get-Content -LiteralPath $StepPath -Raw -Encoding UTF8
 $m = [regex]::Match($raw, '(?ms)\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\(\s*(.*?)\s*\)')
 if(-not $m.Success){ throw "FAIL: step missing `$EGO_STEP_WRITE_ALLOWLIST = @(...)." }
 $inner = $m.Groups[1].Value
