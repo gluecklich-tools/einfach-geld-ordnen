@@ -6,7 +6,8 @@ policy_blocks: show
 sitemap: false
 description: "Weiterleitung zur aktuellen Downloads-Seite. Falls die Weiterleitung nicht klappt: Link zur Downloads-Uebersicht."
 ---
-<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/seiten/downloads.html">
+
+# Download
 
 Falls du nicht automatisch weitergeleitet wirst: **[hier klicken]({{ site.baseurl }}/seiten/downloads.html)**.
 

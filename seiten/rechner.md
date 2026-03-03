@@ -6,6 +6,8 @@ layout: page
 title: Rechner (alt)
 ---
 
+# Rechner
+
 > **Hinweis:** Diese Seite ist eine alte Adresse.  
 > **Hier geht’s zur aktüllen Seite:** [/seiten/rechner-übersicht.html]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 

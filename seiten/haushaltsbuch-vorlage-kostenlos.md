@@ -7,6 +7,8 @@ nav_order: 100
 flow_systemlinks: true
 description: "Kostenlose Haushaltsbuch-Vorlage – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
+# Kostenlose Haushaltsbuch-Vorlage
+
 ## Kostenlose Haushaltsbuch-Vorlage
 
 Hier findest du die kostenlose Haushaltsbuch-Vorlage.
