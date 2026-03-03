@@ -1,17 +1,34 @@
 #requires -Version 7.0
+[CmdletBinding()]
 param(
-  [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$RootPath,
-  [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$KeepTsv
+  [Parameter(Mandatory=$false)]
+  [string]$RootPath,
+
+  [Parameter(Mandatory=$false)]
+  [string]$KeepTsv
 )
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+Remove-Module PSReadLine -ErrorAction SilentlyContinue
 try { if ($IsWindows) { chcp 65001 > $null } } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 
-function Write-Utf8NoBom([string]$p,[string]$s){ [IO.File]::WriteAllText($p,$s,$utf8) }
-function Read-Utf8NoBom([string]$p){ [IO.File]::ReadAllText($p,$utf8) }
+function Fail([string]$m){ throw $m }
+
+function Is-Placeholder([string]$s){
+  if([string]::IsNullOrWhiteSpace($s)){ return $false }
+  return ($s -match '^\s*<[^>]+>\s*$')
+}
+
+function Write-Utf8NoBom([string]$p,[string]$s){
+  [IO.File]::WriteAllText($p,$s,$utf8)
+}
+
+function Read-Utf8NoBom([string]$p){
+  [IO.File]::ReadAllText($p,$utf8)
+}
 
 trap {
   Write-Host ""
@@ -21,23 +38,66 @@ trap {
   throw
 }
 
+function Get-RepoRootOrFail(){
+  $r = (git rev-parse --show-toplevel 2>$null)
+  if([string]::IsNullOrWhiteSpace($r)){ Fail "RootPath missing and auto-detect failed (git rev-parse)." }
+  return $r
+}
+
+function Find-KeepTsvCandidates([string[]]$roots){
+  $c = @()
+  foreach($root in $roots){
+    if([string]::IsNullOrWhiteSpace($root)){ continue }
+    if(-not (Test-Path -LiteralPath $root)){ continue }
+    $c += Get-ChildItem -LiteralPath $root -Recurse -File -Include "*keep*.tsv","*KEEP*.tsv" -ErrorAction SilentlyContinue
+  }
+  $c | Sort-Object LastWriteTime -Descending
+}
+
+function Find-AnyTsvCandidates([string]$root){
+  if([string]::IsNullOrWhiteSpace($root)){ return @() }
+  if(-not (Test-Path -LiteralPath $root)){ return @() }
+  Get-ChildItem -LiteralPath $root -Recurse -File -Include "*.tsv" -ErrorAction SilentlyContinue |
+    Sort-Object LastWriteTime -Descending |
+    Select-Object -First 20 -ExpandProperty FullName
+}
+
+# --- Proaktiv Defaults ---
+if(Is-Placeholder $RootPath){ Fail "RootPath is a placeholder. Provide a real path." }
+if(Is-Placeholder $KeepTsv){ Fail "KeepTsv is a placeholder. Provide a real file path." }
+
+if([string]::IsNullOrWhiteSpace($RootPath)){
+  $RootPath = Get-RepoRootOrFail
+}
 $RootPath = (Resolve-Path -LiteralPath $RootPath).Path
-$KeepTsv  = (Resolve-Path -LiteralPath $KeepTsv).Path
 
-$reports = Join-Path $RootPath "_reports"
-New-Item -ItemType Directory -Path $reports -Force | Out-Null
+if([string]::IsNullOrWhiteSpace($KeepTsv)){
+  # preferred SSOT governance paths (relative + absolute)
+  $p1 = Join-Path $RootPath "..\..\_INTERN\governance"
+  $p2 = "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance"
+  # also allow broader _INTERN fallback
+  $p3 = Join-Path $RootPath "..\..\_INTERN"
+  $cand = Find-KeepTsvCandidates @($p1,$p2,$p3) | Select-Object -First 1
+  if($cand){ $KeepTsv = $cand.FullName }
+}
 
-$ts = Get-Date -Format "yyyyMMdd_HHmmss"
-$outTsv = Join-Path $reports ("KEEP_FINDINGS_{0}.tsv" -f $ts)
-$outMd  = Join-Path $reports ("KEEP_FINDINGS_{0}.md"  -f $ts)
+if([string]::IsNullOrWhiteSpace($KeepTsv)){
+  $hint = (Find-AnyTsvCandidates $RootPath) -join "`n"
+  Fail ("KeepTsv missing (auto-detect failed). Provide -KeepTsv <path>. Top TSV candidates:`n" + $hint)
+}
+$KeepTsv = (Resolve-Path -LiteralPath $KeepTsv).Path
 
+# --- Helpers ---
 function Read-KeepPaths([string]$p){
   $lines = Get-Content -LiteralPath $p -Encoding UTF8
   if(@($lines).Count -lt 2){ return @() }
+
   $out = New-Object 'System.Collections.Generic.List[string]'
-  for($i=1;$i -lt $lines.Count;$i++){
+  for($i=1; $i -lt $lines.Count; $i++){
     $cols = $lines[$i].Split("`t")
-    if($cols.Count -ge 1 -and $cols[0]){ $out.Add($cols[0]) }
+    if($cols.Count -ge 1 -and $cols[0]){
+      $out.Add($cols[0]) | Out-Null
+    }
   }
   return $out
 }
@@ -63,18 +123,24 @@ function Has-AbsPathLeak([string]$s){
 }
 
 function Is-AbsPathLeakRelevant([string]$filePath){
-  # Ignore local artifacts; only enforce leaks for repo/public scope + tools
+  # Ignore non-public artifacts; enforce for repo scope + tools
   if($filePath -match "\\Brain_EGO_Dateien\\"){ return $false }
   if($filePath -match "\\_INTERN\\"){ return $false }
   if($filePath -match "\\latest\\"){ return $false }
   if($filePath -match "\\snapshots\\"){ return $false }
   if($filePath -match "\\_reports\\"){ return $false }
-
   if($filePath -match "\\GitHub_Clone_Dateien\\"){ return $true }
   if($filePath -match "\\einfach-geld-ordnen\\tools\\"){ return $true }
-
   return $false
 }
+
+# --- Run ---
+$reports = Join-Path $RootPath "_reports"
+New-Item -ItemType Directory -Path $reports -Force | Out-Null
+
+$ts = Get-Date -Format "yyyyMMdd_HHmmss"
+$outTsv = Join-Path $reports ("KEEP_FINDINGS_{0}.tsv" -f $ts)
+$outMd  = Join-Path $reports ("KEEP_FINDINGS_{0}.md"  -f $ts)
 
 $paths = Read-KeepPaths $KeepTsv
 $findings = New-Object 'System.Collections.Generic.List[object]'
@@ -94,13 +160,14 @@ foreach($p in $paths){
   $ext = ([IO.Path]::GetExtension($p) ?? "").ToLowerInvariant()
   $isText = $ext -in @(".md",".txt",".ps1",".json",".tsv",".csv",".yml",".yaml",".html",".xml",".ndjson")
   $text = $null
-
   if($isText -and $len -le 25MB){
     try { $text = Read-Utf8NoBom $p } catch { $text = $null }
   }
 
   if($text){
-    if(Looks-Mojibake $text){ Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences." }
+    if(Looks-Mojibake $text){
+      Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences."
+    }
     if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){
       Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
     }
@@ -119,7 +186,9 @@ foreach($p in $paths){
   if($ext -eq ".tsv" -and $len -le 25MB){
     try {
       $first = (Get-Content -LiteralPath $p -TotalCount 1 -Encoding UTF8)
-      if($first -notmatch "`t"){ Add-Finding $findings "P2" "TSV_NO_TABS" $p "First line has no tab; might not be TSV." }
+      if($first -notmatch "`t"){
+        Add-Finding $findings "P2" "TSV_NO_TABS" $p "First line has no tab; might not be TSV."
+      }
     } catch {}
   }
 
