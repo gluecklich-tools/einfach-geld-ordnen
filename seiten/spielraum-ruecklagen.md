@@ -1,7 +1,7 @@
 ---
 permalink: /seiten/spielraum-ruecklagen.html
 layout: default
-title: "Finanzieller Spielraum & Ruecklagen - Einordnung ohne Druck"
+title: "Spielraum & Ruecklagen: Einordnung"
 nav_group: seiten
 nav_order: 70
 flow_systemlinks: true
