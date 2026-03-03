@@ -16,21 +16,20 @@ function Resolve-RepoRoot {
   (Resolve-Path -LiteralPath $t).Path
 }
 
-# P0: Never prompt. Missing/empty StepPath must hard-fail.
+# P0: Never prompt
 if(-not $PSBoundParameters.ContainsKey("StepPath") -or [string]::IsNullOrWhiteSpace($StepPath)){
   Fail "STEPFILE_REQUIRED: -StepPath must be provided (no prompting)."
 }
 
 $RepoRoot = Resolve-RepoRoot
 
-# Gate: block unsafe $var: patterns in the step file (double-quoted strings)
+# Gate: block unsafe $var: patterns in double-quoted strings inside the step file
 & (Join-Path $PSScriptRoot "gate-step-no-invalid-var-colon.ps1") -StepPath $StepPath
 
 # Resolve step path
 $sp = $StepPath
 try { $sp = (Resolve-Path -LiteralPath $StepPath).Path } catch { Fail "STOP: StepPath not found: $StepPath" }
 
-# Enterprise: repo must be clean before step (ignoring _local)
 function Get-ChangedPathsFromPorcelain([string[]]$lines){
   $out = @()
   foreach($ln in @($lines)){
@@ -46,6 +45,7 @@ function Get-ChangedPathsFromPorcelain([string[]]$lines){
   return $out
 }
 
+# Repo must be clean BEFORE running a step (ignoring _local)
 $preLines = @((git status --porcelain=v1))
 $preChanged = Get-ChangedPathsFromPorcelain $preLines
 if(@($preChanged).Count -gt 0){
@@ -59,7 +59,7 @@ if($code -ne 0){
   Fail "STOP: step failed (exit=$code) Step=$sp"
 }
 
-# Enforce STEP_WRITE_ALLOWLIST (post must still be clean OR only allowlisted by step)
+# Enforce allowlist (post changes)
 $postLines = @((git status --porcelain=v1))
 $postChanged = Get-ChangedPathsFromPorcelain $postLines
 
@@ -68,7 +68,13 @@ if(@($postChanged).Count -gt 0){
   if(-not (Test-Path -LiteralPath $gate)){
     Fail "FAIL: missing gate-step-write-allowlist.ps1 (expected at tools\gate-step-write-allowlist.ps1)"
   }
-  pwsh -NoProfile -ExecutionPolicy Bypass -File $gate -RepoRoot $RepoRoot -StepPath $sp -ChangedPaths $postChanged
+
+  try {
+    # Direct call => correct [string[]] binding for -ChangedPaths
+    & $gate -RepoRoot $RepoRoot -StepPath $sp -ChangedPaths @($postChanged)
+  } catch {
+    Fail ("FAIL: gate-step-write-allowlist failed`n" + $_.Exception.Message)
+  }
 }
 
 "PASS: step-run"
