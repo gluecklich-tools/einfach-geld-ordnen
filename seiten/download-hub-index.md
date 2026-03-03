@@ -13,15 +13,17 @@ Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld o
 ## Freebie
 
 - **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+- Alternative Übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
 
 ## Vollversion
 
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-## Pro
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
+Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
 
-## übersicht
+## Pro
+
+Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
+
+## Übersicht
 
 - **Schulden-Schneeball:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
 - **Notgroschen:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
@@ -31,7 +33,7 @@ Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link
 - **50/30/20:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
