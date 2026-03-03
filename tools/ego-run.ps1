@@ -66,6 +66,9 @@ if ($missing -ne 0 -or $not3 -ne 0 -or $zero -ne 0) {
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-weiter-ux-policy.ps1')
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-frontmatter-nav.ps1')
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-thema-alias-map.ps1') -WithAsciiCheck -WithDupCheck
+
+# Mojibake gate (encoding/garbled chars)
+pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-mojibake.ps1')
 "pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
 PASS: ego-run completed (required gates OK)."
 
