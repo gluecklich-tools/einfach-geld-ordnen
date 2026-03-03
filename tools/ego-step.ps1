@@ -1,54 +1,42 @@
 #requires -Version 7.0
 param(
-  [Parameter(Mandatory=$true)][string]$StepPath,
-  [string]$RepoRoot = (Get-Location).Path
+  [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$StepPath
 )
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try{ if($IsWindows){ chcp 65001 > $null } }catch{}
-[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+try { if ($IsWindows) { chcp 65001 > $null } } catch {}
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
-$repo = (Resolve-Path -LiteralPath $RepoRoot).Path
-Set-Location -LiteralPath $repo
+function Fail([string]$m){ throw $m }
 
-# Require StepPath exists + absolute
-if(-not [IO.Path]::IsPathRooted($StepPath)){ throw "FAIL: StepPath must be absolute: $StepPath" }
-if(-not (Test-Path -LiteralPath $StepPath)){ throw "FAIL: StepPath not found: $StepPath" }
+# Resolve repo root
+$RepoRoot=$null
+try{ $t=(git rev-parse --show-toplevel 2>$null); if($t){ $RepoRoot=(Resolve-Path -LiteralPath $t).Path } }catch{}
+if(-not $RepoRoot){ Fail "FAIL: RepoRoot could not be determined via git." }
 
-# Read allowlist from step
-$raw = # --- EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
-if(-not (Test-Path -LiteralPath $StepPath -PathType Leaf)){
-  throw "FAIL: StepPath not found or not a file: $StepPath"
+# Resolve step path
+$sp = $StepPath
+try{ $sp = (Resolve-Path -LiteralPath $sp).Path }catch{ Fail "FAIL: StepPath not found: $StepPath" }
+if(-not (Test-Path -LiteralPath $sp -PathType Leaf)){ Fail "FAIL: StepPath not a file: $sp" }
+
+# Read step text once (never null)
+$stepText = Get-Content -LiteralPath $sp -Raw -Encoding UTF8
+if([string]::IsNullOrWhiteSpace($stepText)){ Fail "FAIL: Step file is empty or unreadable: $sp" }
+
+# Enforce allowlist literal presence (P0)
+$rx = [regex]::new('\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\(', [System.Text.RegularExpressions.RegexOptions]::Singleline)
+if(-not $rx.IsMatch($stepText)){
+  Fail "FAIL: step missing `$EGO_STEP_WRITE_ALLOWLIST = @(...)."
 }
-$stepText = Get-Content -LiteralPath $StepPath -Raw -Encoding UTF8
-if([string]::IsNullOrWhiteSpace($stepText)){
-  throw "FAIL: Step file is empty or unreadable: $StepPath"
-}
-# --- end EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
-Get-Content -LiteralPath $StepPath -Raw -Encoding UTF8
-$m = [regex]::Match($raw, '(?ms)\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\(\s*(.*?)\s*\)')
-if(-not $m.Success){ throw "FAIL: step missing `$EGO_STEP_WRITE_ALLOWLIST = @(...)." }
-$inner = $m.Groups[1].Value
-$items = [regex]::Matches($inner, '(?m)^\s*"(.*?)"\s*,?\s*$') | ForEach-Object { $_.Groups[1].Value }
-$allow = @($items) | Where-Object { $_ -and $_.Trim().Length -gt 0 }
 
-if(@($allow).Count -lt 1){ throw "FAIL: allowlist is empty in step." }
+# Run step via step-run (file-first, no inline)
+$runner = Join-Path $RepoRoot "tools\step-run.ps1"
+if(-not (Test-Path -LiteralPath $runner -PathType Leaf)){ Fail "FAIL: Missing runner: $runner" }
 
-# Run step (single point)
-pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo "tools\step-run.ps1") -StepPath $StepPath
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $sp
+$ec = $LASTEXITCODE
+if($ec -ne 0){ Fail "STOP: step-run failed (exit=$ec)" }
 
-# Write proof for commit hook
-$proofDir = Join-Path $repo "_local\_proof"
-New-Item -ItemType Directory -Path $proofDir -Force | Out-Null
-$proofPath = Join-Path $proofDir "last_step_run.json"
-
-[pscustomobject]@{
-  timestamp = (Get-Date).ToString("o")
-  stepPath  = $StepPath
-  allowlist = $allow
-} | ConvertTo-Json -Depth 6 | Out-File -LiteralPath $proofPath -Encoding utf8
-
-# Verify (show status)
-git status --porcelain=v1
+"PASS: step-run"
