@@ -2,14 +2,21 @@
 param(
   [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$ChatRootPath,
   [int]$KeepSessions = 50,
-  [string]$ReportsRoot = "C:\Users\carst\Projekte\_reports",
-  [string]$ArchiveRoot = "C:\Users\carst\Projekte\99_ARCHIVE\chats",
-  [string]$TrashRoot   = "C:\Users\carst\Projekte\99_TRASH\chats",
+  [string]$ReportsRoot = (Join-Path $ProjectRoot "_reports"),
+  [string]$ArchiveRoot = (Join-Path $ProjectRoot "99_ARCHIVE\chats"),
+  [string]$TrashRoot   = (Join-Path $ProjectRoot "99_TRASH\chats"),
   [switch]$WhatIfMove
 )
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+
+# EGO_P0_PROJECTROOT_DERIVE
+# Derive project root (two levels above repo root) to avoid hardcoded user paths
+$RepoRoot = $null
+try { $RepoRoot = (git rev-parse --show-toplevel 2>$null) } catch {}
+if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw "RepoRoot not found (git rev-parse failed)." }
+$ProjectRoot = (Resolve-Path -LiteralPath (Join-Path $RepoRoot "..\..")).Path
 try { if ($IsWindows) { chcp 65001 > $null } } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 $utf8 = [System.Text.UTF8Encoding]::new($false)
