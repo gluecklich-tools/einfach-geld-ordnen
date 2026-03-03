@@ -201,7 +201,7 @@ foreach($p in $paths){
       $lines = $text -split "`r?`n"
       $hasRealLeak = $false
       foreach($ln in $lines){
-        if($ln -match "(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"){
+        if($ln -match "(?i)(C:\\\\Users\\\\(?!USER\\\\)[^\\\\\r\n]+\\\\|C:/Users/(?!USER/)[^/\r\n]+/|/Users/(?!USER/)[^/\r\n]+/|/home/(?!USER/)[^/\r\n]+/)"){
           # Detector heuristics: regex tables / gates / patterns
           if($ln -match "\bRx\b\s*=" -or $ln -match "\b-match\b" -or $ln -match "\b-like\b" -or $ln -match "regex" -or $ln -match "\bUSER\b" -or $ln -match "\bABS_" -or $ln -match "INTERNALTOOLSROOT" -or $ln -match "pattern"){
             continue
