@@ -118,3 +118,7 @@ tools/_reports/
 # generated / local audit artifacts (must not be public)
 assets/audit/
 _inventur/
+
+# local reports
+_reports/
+
