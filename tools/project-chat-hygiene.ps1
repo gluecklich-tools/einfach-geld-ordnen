@@ -29,6 +29,22 @@ function Load-State([string]$p){
   return [pscustomobject]@{ run_id = 0; last_run_utc = $null; items = @{} }
 }
 
+function ConvertTo-Hashtable($obj){
+  if($null -eq $obj){ return @{} }
+  if($obj -is [hashtable]){ return $obj }
+  if($obj -is [System.Collections.IDictionary]){
+    $h=@{}
+    foreach($k in $obj.Keys){ $h[$k] = $obj[$k] }
+    return $h
+  }
+  # PSCustomObject / PSObject -> Hashtable
+  $h=@{}
+  foreach($p in $obj.PSObject.Properties){
+    $h[$p.Name] = $p.Value
+  }
+  return $h
+}
+
 function Save-State([string]$p,$state){
   $json = $state | ConvertTo-Json -Depth 8
   Write-Utf8NoBom $p ($json + "`r`n")
@@ -71,6 +87,8 @@ Ensure-Dir $TrashRoot
 
 $statePath = Join-Path $ReportsRoot "CHAT_HYGIENE_STATE.json"
 $state = Load-State $statePath
+# Normalize items to Hashtable (ConvertFrom-Json returns PSCustomObject)
+$state.items = ConvertTo-Hashtable $state.items
 $state.run_id = [int]$state.run_id + 1
 $state.last_run_utc = (Get-Date).ToUniversalTime().ToString("o")
 
