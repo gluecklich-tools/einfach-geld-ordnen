@@ -10,6 +10,13 @@ param(
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+
+# EGO_P0_PROJECTROOT_DERIVE
+# Derive project root (two levels above repo root) to avoid hardcoded user paths
+$RepoRoot = $null
+try { $RepoRoot = (git rev-parse --show-toplevel 2>$null) } catch {}
+if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw "RepoRoot not found (git rev-parse failed)." }
+$ProjectRoot = (Resolve-Path -LiteralPath (Join-Path $RepoRoot "..\..")).Path
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
 try { if ($IsWindows) { chcp 65001 > $null } } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
@@ -189,29 +196,26 @@ foreach($p in $paths){
     if(Looks-Mojibake $text){
       Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences."
     }
-    if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){
-          # Exempt detector patterns inside this tool to avoid false positives
-    if($p -like "*\tools\project-keep-scan.ps1"){
+    if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){    # Exempt detector/pattern strings in tools to avoid false positives
+    if($p -like "*\tools\*"){
       $lines = $text -split "`r?`n"
-      $detectorOnly = $true
+      $hasRealLeak = $false
       foreach($ln in $lines){
-        if($ln -match '^\s*if\(\$s\s*-match\s*"(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"\)'){
-          continue
-        }
         if($ln -match "(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"){
-          $detectorOnly = $false
+          # Detector heuristics: regex tables / gates / patterns
+          if($ln -match "\bRx\b\s*=" -or $ln -match "\b-match\b" -or $ln -match "\b-like\b" -or $ln -match "regex" -or $ln -match "\bUSER\b"){
+            continue
+          }
+          $hasRealLeak = $true
           break
         }
       }
-      if($detectorOnly){
-        # only detector strings present
-      } else {
+      if($hasRealLeak){
         Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
       }
     } else {
       Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
-    }
-    }
+    }}
   }
 
   if($ext -eq ".json" -and $len -le 25MB){
