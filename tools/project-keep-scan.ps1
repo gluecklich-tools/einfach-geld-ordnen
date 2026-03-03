@@ -197,7 +197,7 @@ foreach($p in $paths){
       Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences."
     }
     if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){    # Exempt detector/pattern strings in tools to avoid false positives
-    if($p -like "*\tools\*"){
+    if($p -match "(?i)(^|[\\/])tools[\\/].+"){
       $lines = $text -split "`r?`n"
       $hasRealLeak = $false
       foreach($ln in $lines){
