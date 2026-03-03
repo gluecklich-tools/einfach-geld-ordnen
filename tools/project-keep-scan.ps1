@@ -48,9 +48,7 @@ function Add-Finding($list, [string]$severity, [string]$rule, [string]$path, [st
 
 function Looks-Mojibake([string]$s){
   if($null -eq $s -or $s.Length -eq 0){ return $false }
-  # U+FFFD replacement char
   if([regex]::IsMatch($s, "\uFFFD")){ return $true }
-  # Common mojibake sequences using unicode escapes only
   if([regex]::IsMatch($s, "\u00C3\u00A4|\u00C3\u00B6|\u00C3\u00BC|\u00C3\u009F")){ return $true }
   if([regex]::IsMatch($s, "\u00E2\u20AC\u2013|\u00E2\u20AC\u2014|\u00E2\u20AC\u201E|\u00E2\u20AC\u201C|\u00E2\u20AC\u201D")){ return $true }
   return $false
@@ -61,6 +59,20 @@ function Has-AbsPathLeak([string]$s){
   if($s -match "C:/Users/"){ return $true }
   if($s -match "/Users/"){ return $true }
   if($s -match "/home/"){ return $true }
+  return $false
+}
+
+function Is-AbsPathLeakRelevant([string]$filePath){
+  # Ignore local artifacts; only enforce leaks for repo/public scope + tools
+  if($filePath -match "\\Brain_EGO_Dateien\\"){ return $false }
+  if($filePath -match "\\_INTERN\\"){ return $false }
+  if($filePath -match "\\latest\\"){ return $false }
+  if($filePath -match "\\snapshots\\"){ return $false }
+  if($filePath -match "\\_reports\\"){ return $false }
+
+  if($filePath -match "\\GitHub_Clone_Dateien\\"){ return $true }
+  if($filePath -match "\\einfach-geld-ordnen\\tools\\"){ return $true }
+
   return $false
 }
 
@@ -89,7 +101,9 @@ foreach($p in $paths){
 
   if($text){
     if(Looks-Mojibake $text){ Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences." }
-    if(Has-AbsPathLeak $text){ Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns." }
+    if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){
+      Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
+    }
   }
 
   if($ext -eq ".json" -and $len -le 25MB){
