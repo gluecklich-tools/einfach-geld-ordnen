@@ -21,9 +21,9 @@ $roots = @(
 # Patterns (known bug classes)
 $patterns = @(
   @{ Name="FRONTMATTER_GLUED_H1"; Regex="(?m)^---#"; },
-  @{ Name="MOJIBAKE_BOX";       Regex="├"; },
-  @{ Name="MOJIBAKE_UTF8";      Regex="Ã|Â"; },
-  @{ Name="MOJIBAKE_REPLCHAR";  Regex="�"; }
+  @{ Name="MOJIBAKE_BOX";       Regex="+"; },
+  @{ Name="MOJIBAKE_UTF8";      Regex="�|�"; },
+  @{ Name="MOJIBAKE_REPLCHAR";  Regex="?"; }
 )
 
 $hits = New-Object System.Collections.Generic.List[object]

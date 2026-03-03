@@ -58,21 +58,21 @@ $mojibakeHits = 0
 $detailsMoji  = New-Object System.Collections.Generic.List[string]
 
 # Common mojibake byte sequences (UTF-8 bytes for the mojibake text tokens):
-# "Ã¤" C3 83 C2 A4
-# "Ã¶" C3 83 C2 B6
-# "Ã¼" C3 83 C2 BC
-# "ÃŸ" C3 83 C5 B8
-# "Ã„" C3 83 C2 84
-# "Ã–" C3 83 C2 96
-# "Ãœ" C3 83 C5 92
-# "â€“" E2 80 93 rendered mojibake token is often "â€“" => bytes C3 A2 E2 82 AC E2 80 9C (varies)
-# Instead: detect "Ã" and "â" families via their UTF-8 bytes:
-# "Ã" => C3 83
-# "Â" => C3 82
-# "â" => C3 A2
-$pat_A_uml = [byte[]](0xC3,0x83) # "Ã"
-$pat_Ahat  = [byte[]](0xC3,0x82) # "Â"
-$pat_ahat  = [byte[]](0xC3,0xA2) # "â"
+# "ä" C3 83 C2 A4
+# "ö" C3 83 C2 B6
+# "ü" C3 83 C2 BC
+# "ß" C3 83 C5 B8
+# "Ä" C3 83 C2 84
+# "Ö" C3 83 C2 96
+# "Ü" C3 83 C5 92
+# "–" E2 80 93 rendered mojibake token is often "–" => bytes C3 A2 E2 82 AC E2 80 9C (varies)
+# Instead: detect "�" and "�" families via their UTF-8 bytes:
+# "�" => C3 83
+# "�" => C3 82
+# "�" => C3 A2
+$pat_A_uml = [byte[]](0xC3,0x83) # "�"
+$pat_Ahat  = [byte[]](0xC3,0x82) # "�"
+$pat_ahat  = [byte[]](0xC3,0xA2) # "�"
 
 # Blocker 3: frontmatter delimiter must be exactly ASCII '---'
 $typographyHitsFrontmatter = 0

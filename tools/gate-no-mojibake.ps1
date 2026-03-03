@@ -45,12 +45,12 @@ function RelPath([string]$abs){
 
 # Mojibake markers (conservative)
 $patterns = @(
-  "ÔÇô",   # UTF8-as-ANSI dash
-  "├╝",    # typical box-drawing mojibake for ü
-  "├ñ",    # typical box-drawing mojibake for ä
-  "├£",    # Ü
-  "Ã",     # UTF8-as-ANSI prefix (ä/ö/ü etc.)
-  "�"      # replacement char
+  "���",   # UTF8-as-ANSI dash
+  "++",    # typical box-drawing mojibake for �
+  "+�",    # typical box-drawing mojibake for �
+  "+�",    # �
+  "�",     # UTF8-as-ANSI prefix (�/�/� etc.)
+  "?"      # replacement char
 )
 
 $hits = New-Object System.Collections.Generic.List[string]
