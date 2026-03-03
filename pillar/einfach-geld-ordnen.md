@@ -1,15 +1,3 @@
----
-title: Pillar/einfach Geld Ordnen
-permalink: /pillar/einfach-geld-ordnen.html
----
-
-
-
-
-
-# Pillar/einfach Geld Ordnen
-
----
 layout: default
 title: "Einfach Geld ordnen"
 nav_group: pillar
@@ -17,7 +5,8 @@ nav_order: 20
 flow_systemlinks: true
 permalink: /pillar/einfach-geld-ordnen.html
 description: "Einfach Geld ordnen – kurze Einordnung + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
-next: /seiten/haushaltsbuch.html---
+next: /seiten/haushaltsbuch.html
+---
 # Einfach Geld ordnen
 
 Du brauchst keinen perfekten Plan. Du brauchst einen klaren naechsten Schritt.

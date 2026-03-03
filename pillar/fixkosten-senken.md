@@ -1,20 +1,9 @@
----
-title: Pillar/fixkosten Senken
-permalink: /pillar/fixkosten-senken.html
----
-
-
-
-
-
-# Pillar/fixkosten Senken
-
----
 layout: default
 title: "Fixkosten senken - Vorgehen"
 permalink: /pillar/fixkosten-senken.html
 description: "Fixkosten senken - Vorgehen - kurzer Einstieg + klare naechste Schritte. Haushaltsbuch, Fixkosten, Ruecklagen, Schulden: einfach ohne App."
-next: /seiten/abo-manager.html---
+next: /seiten/abo-manager.html
+---
 # Fixkosten senken - Vorgehen
 
 Ziel: in 30-60 Minuten die grössten Hebel finden und dann Woche für Woche abarbeiten. Wichtig: Du brauchst keine perfekte Liste. Du brauchst einen Start.

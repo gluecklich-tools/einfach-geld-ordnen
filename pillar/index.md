@@ -1,18 +1,10 @@
----
-title: Pillar/index
-permalink: /pillar/index.html
----
-
-
-# Pillar/index
-
----
 permalink: /pillar/index.html
 layout: default
 title: Projekt Übersicht
 
 description: "Projekt-uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-next: /seiten/haushaltsueberblick.html---
+next: /seiten/haushaltsueberblick.html
+---
 # Projekt-übersicht
 
 Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.

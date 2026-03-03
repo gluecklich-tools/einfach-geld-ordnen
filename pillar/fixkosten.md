@@ -1,20 +1,9 @@
----
-title: Pillar/fixkosten
-permalink: /pillar/fixkosten.html
----
-
-
-
-
-
-# Pillar/fixkosten
-
----
 layout: default
 permalink: /pillar/fixkosten.html
 title: "Fixkosten senken - uebersicht"
 description: "Fixkosten senken - uebersicht – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-next: /seiten/spielraum-ruecklagen.html---
+next: /seiten/spielraum-ruecklagen.html
+---
 # Fixkosten senken - übersicht
 
 Fixkosten sind der grösste Hebel für daürhaft mehr Luft.

@@ -1,20 +1,9 @@
----
-title: Pillar/abo Manager
-permalink: /pillar/abo-manager.html
----
-
-
-
-
-
-# Pillar/abo Manager
-
----
 layout: default
 title: "Abo-Manager - Geldleck stoppen"
 permalink: /pillar/abo-manager.html
 description: "Abo-Manager - Geldleck stoppen – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-next: /seiten/ueberblick.html---
+next: /seiten/ueberblick.html
+---
 # Abo-Manager - Geldleck stoppen
 
 Ein Abo ist nicht das Problem. Viele Abos sind das Problem, weil sie leise Geld abziehen.
