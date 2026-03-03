@@ -232,7 +232,14 @@ foreach($p in $paths){
     try {
       $first = (Get-Content -LiteralPath $p -TotalCount 1 -Encoding UTF8)
       if($first -notmatch "`t"){
-        Add-Finding $findings "P2" "TSV_NO_TABS" $p "First line has no tab; might not be TSV."
+        # Allow single-column keep TSV (header "path") without tabs
+if($first -notmatch "`t"){
+  if(($first ?? "").Trim() -ieq "path"){
+    # ok: one-column path list TSV
+  } else {
+    Add-Finding $findings "P2" "TSV_NO_TABS" $p "First line has no tab; might not be TSV."
+  }
+}
       }
     } catch {}
   }
