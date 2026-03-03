@@ -3,8 +3,27 @@ param([string]$RepoRoot = (Get-Location).Path)
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
+# BEGIN_MOJIBAKE_MARKERS_ASCII_ONLY
+# ASCII-only: build mojibake marker strings at runtime (no embedded replacement char).
+$mjb = Build-MojibakeMarkerSet
+$rep = $mjb.Rep
+$markers = $mjb.Markers
+# END_MOJIBAKE_MARKERS_ASCII_ONLY
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
+
+function Build-MojibakeMarkerSet {
+  $rep = [char]0xFFFD
+  $pat_Ae  = -join @([char]0x00C3,[char]0x00A4)
+  $pat_Oe  = -join @([char]0x00C3,[char]0x00B6)
+  $pat_Ue  = -join @([char]0x00C3,[char]0x00BC)
+  $pat_ss  = -join @([char]0x00C3,[char]0x009F)
+  $pat_en  = -join @([char]0x00E2,[char]0x20AC,[char]0x2013)
+  $pat_em  = -join @([char]0x00E2,[char]0x20AC,[char]0x2014)
+  $pat_ldq = -join @([char]0x00E2,[char]0x20AC,[char]0x201C)
+  $pat_rdq = -join @([char]0x00E2,[char]0x20AC,[char]0x201D)
+  return @{ Rep=$rep; Markers=@($rep,$pat_Ae,$pat_Oe,$pat_Ue,$pat_ss,$pat_en,$pat_em,$pat_ldq,$pat_rdq) }
+}
 
 $enc = [Text.UTF8Encoding]::new($false)
 
@@ -22,7 +41,7 @@ $roots = @(
 $patterns = @(
   @{ Name="FRONTMATTER_GLUED_H1"; Regex="(?m)^---#"; },
   @{ Name="MOJIBAKE_BOX";       Regex="+"; },
-  @{ Name="MOJIBAKE_UTF8";      Regex="�|�"; },
+  @{ Name="MOJIBAKE_UTF8";      Regex="U+FFFD|U+FFFD"; },
   @{ Name="MOJIBAKE_REPLCHAR";  Regex="?"; }
 )
 

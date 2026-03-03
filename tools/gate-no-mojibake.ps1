@@ -5,9 +5,28 @@ param(
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+# BEGIN_MOJIBAKE_MARKERS_ASCII_ONLY
+# ASCII-only: build mojibake marker strings at runtime (no embedded replacement char).
+$mjb = Build-MojibakeMarkerSet
+$rep = $mjb.Rep
+$markers = $mjb.Markers
+# END_MOJIBAKE_MARKERS_ASCII_ONLY
 Remove-Module PSReadLine -ErrorAction SilentlyContinue
 try { if($IsWindows){ chcp 65001 > $null } } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+
+function Build-MojibakeMarkerSet {
+  $rep = [char]0xFFFD
+  $pat_Ae  = -join @([char]0x00C3,[char]0x00A4)
+  $pat_Oe  = -join @([char]0x00C3,[char]0x00B6)
+  $pat_Ue  = -join @([char]0x00C3,[char]0x00BC)
+  $pat_ss  = -join @([char]0x00C3,[char]0x009F)
+  $pat_en  = -join @([char]0x00E2,[char]0x20AC,[char]0x2013)
+  $pat_em  = -join @([char]0x00E2,[char]0x20AC,[char]0x2014)
+  $pat_ldq = -join @([char]0x00E2,[char]0x20AC,[char]0x201C)
+  $pat_rdq = -join @([char]0x00E2,[char]0x20AC,[char]0x201D)
+  return @{ Rep=$rep; Markers=@($rep,$pat_Ae,$pat_Oe,$pat_Ue,$pat_ss,$pat_en,$pat_em,$pat_ldq,$pat_rdq) }
+}
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 
 function Fail([string]$m){ throw $m }
@@ -45,11 +64,11 @@ function RelPath([string]$abs){
 
 # Mojibake markers (conservative)
 $patterns = @(
-  "���",   # UTF8-as-ANSI dash
-  "++",    # typical box-drawing mojibake for �
-  "+�",    # typical box-drawing mojibake for �
-  "+�",    # �
-  "�",     # UTF8-as-ANSI prefix (�/�/� etc.)
+  "U+FFFDU+FFFDU+FFFD",   # UTF8-as-ANSI dash
+  "++",    # typical box-drawing mojibake for U+FFFD
+  "+U+FFFD",    # typical box-drawing mojibake for U+FFFD
+  "+U+FFFD",    # U+FFFD
+  "U+FFFD",     # UTF8-as-ANSI prefix (U+FFFD/U+FFFD/U+FFFD etc.)
   "?"      # replacement char
 )
 

@@ -1,3 +1,16 @@
+function Build-MojibakeMarkerSet {
+  $rep = [char]0xFFFD
+  $pat_Ae  = -join @([char]0x00C3,[char]0x00A4)
+  $pat_Oe  = -join @([char]0x00C3,[char]0x00B6)
+  $pat_Ue  = -join @([char]0x00C3,[char]0x00BC)
+  $pat_ss  = -join @([char]0x00C3,[char]0x009F)
+  $pat_en  = -join @([char]0x00E2,[char]0x20AC,[char]0x2013)
+  $pat_em  = -join @([char]0x00E2,[char]0x20AC,[char]0x2014)
+  $pat_ldq = -join @([char]0x00E2,[char]0x20AC,[char]0x201C)
+  $pat_rdq = -join @([char]0x00E2,[char]0x20AC,[char]0x201D)
+  return @{ Rep=$rep; Markers=@($rep,$pat_Ae,$pat_Oe,$pat_Ue,$pat_ss,$pat_en,$pat_em,$pat_ldq,$pat_rdq) }
+}
+
 # EGO_SSOT_GUARD_V1
 # Optional: SSOT guard (only if EGO_INTERNAL_DIR is set and ssot-guard exists)
 $internalRoot = $env:EGO_INTERNAL_DIR
@@ -8,6 +21,12 @@ if ($internalRoot) {
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+# BEGIN_MOJIBAKE_MARKERS_ASCII_ONLY
+# ASCII-only: build mojibake marker strings at runtime (no embedded replacement char).
+$mjb = Build-MojibakeMarkerSet
+$rep = $mjb.Rep
+$markers = $mjb.Markers
+# END_MOJIBAKE_MARKERS_ASCII_ONLY
 
 function Get-RepoRoot {
   $here = $PSScriptRoot
@@ -66,13 +85,13 @@ $detailsMoji  = New-Object System.Collections.Generic.List[string]
 # "Ö" C3 83 C2 96
 # "Ü" C3 83 C5 92
 # "–" E2 80 93 rendered mojibake token is often "–" => bytes C3 A2 E2 82 AC E2 80 9C (varies)
-# Instead: detect "�" and "�" families via their UTF-8 bytes:
-# "�" => C3 83
-# "�" => C3 82
-# "�" => C3 A2
-$pat_A_uml = [byte[]](0xC3,0x83) # "�"
-$pat_Ahat  = [byte[]](0xC3,0x82) # "�"
-$pat_ahat  = [byte[]](0xC3,0xA2) # "�"
+# Instead: detect "U+FFFD" and "U+FFFD" families via their UTF-8 bytes:
+# "U+FFFD" => C3 83
+# "U+FFFD" => C3 82
+# "U+FFFD" => C3 A2
+$pat_A_uml = [byte[]](0xC3,0x83) # "U+FFFD"
+$pat_Ahat  = [byte[]](0xC3,0x82) # "U+FFFD"
+$pat_ahat  = [byte[]](0xC3,0xA2) # "U+FFFD"
 
 # Blocker 3: frontmatter delimiter must be exactly ASCII '---'
 $typographyHitsFrontmatter = 0
