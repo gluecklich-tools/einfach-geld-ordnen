@@ -47,8 +47,12 @@ function Add-Finding($list, [string]$severity, [string]$rule, [string]$path, [st
 }
 
 function Looks-Mojibake([string]$s){
-  if($s -match "�"){ return $true }
-  if($s -match "Ã¤|Ã¶|Ã¼|ÃŸ|â€“|â€”|â€ž|â€œ|â€�"){ return $true }
+  if($null -eq $s -or $s.Length -eq 0){ return $false }
+  # U+FFFD replacement char
+  if([regex]::IsMatch($s, "\uFFFD")){ return $true }
+  # Common mojibake sequences using unicode escapes only
+  if([regex]::IsMatch($s, "\u00C3\u00A4|\u00C3\u00B6|\u00C3\u00BC|\u00C3\u009F")){ return $true }
+  if([regex]::IsMatch($s, "\u00E2\u20AC\u2013|\u00E2\u20AC\u2014|\u00E2\u20AC\u201E|\u00E2\u20AC\u201C|\u00E2\u20AC\u201D")){ return $true }
   return $false
 }
 
@@ -84,7 +88,7 @@ foreach($p in $paths){
   }
 
   if($text){
-    if(Looks-Mojibake $text){ Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake fragments." }
+    if(Looks-Mojibake $text){ Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences." }
     if(Has-AbsPathLeak $text){ Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns." }
   }
 
