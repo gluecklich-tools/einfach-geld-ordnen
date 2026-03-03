@@ -74,7 +74,11 @@ $RootPath = (Resolve-Path -LiteralPath $RootPath).Path
 if([string]::IsNullOrWhiteSpace($KeepTsv)){
   # preferred SSOT governance paths (relative + absolute)
   $p1 = Join-Path $RootPath "..\..\_INTERN\governance"
-  $p2 = "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\governance"
+  $p2 = $env:EGO_SSOT_GOV_DIR
+if([string]::IsNullOrWhiteSpace($p2)){
+  # fallback: repoRoot -> ..\..\_INTERN\governance (project root)
+  $p2 = Join-Path $RootPath "..\..\_INTERN\governance"
+}
   # also allow broader _INTERN fallback
   $p3 = Join-Path $RootPath "..\..\_INTERN"
   $cand = Find-KeepTsvCandidates @($p1,$p2,$p3) | Select-Object -First 1
@@ -186,7 +190,27 @@ foreach($p in $paths){
       Add-Finding $findings "P1" "MOJIBAKE_SUSPECT" $p "Contains replacement char or typical mojibake sequences."
     }
     if(Has-AbsPathLeak $text -and (Is-AbsPathLeakRelevant $p)){
+          # Exempt detector patterns inside this tool to avoid false positives
+    if($p -like "*\tools\project-keep-scan.ps1"){
+      $lines = $text -split "`r?`n"
+      $detectorOnly = $true
+      foreach($ln in $lines){
+        if($ln -match '^\s*if\(\$s\s*-match\s*"(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"\)'){
+          continue
+        }
+        if($ln -match "(C:\\\\Users\\\\|C:/Users/|/Users/|/home/)"){
+          $detectorOnly = $false
+          break
+        }
+      }
+      if($detectorOnly){
+        # only detector strings present
+      } else {
+        Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
+      }
+    } else {
       Add-Finding $findings "P0" "ABS_PATH_LEAK" $p "Contains absolute path leak patterns (public scope)."
+    }
     }
   }
 
