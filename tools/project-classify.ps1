@@ -97,9 +97,9 @@ $sum = @()
 $sum += "# Classify Summary"
 $sum += ""
 $sum += "* Root: $RootPath"
-$sum += "* KEEP:   $(@($keep).Count)"
-$sum += "* ARCH:   $(@($arch).Count)"
-$sum += "* TRASH:  $(@($trash).Count)"
+$sum += "* KEEP:   $([int]$keep.Count)"
+$sum += "* ARCH:   $([int]$arch.Count)"
+$sum += "* TRASH:  $([int]$trash.Count)"
 $sum += ""
 $sum += "Next: run project-move.ps1 with the TSV files."
 Write-Utf8NoBom $outSummary (($sum -join "`r`n") + "`r`n")
