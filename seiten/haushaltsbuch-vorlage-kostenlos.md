@@ -15,12 +15,12 @@ Hier findest du die kostenlose Haushaltsbuch-Vorlage.
 
 Wenn der Download (noch) nicht verfügbar ist, starte trotzdem im System:
 
-- [Haushaltsbuch: überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
-- [Fixkosten-übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) (nächster Schritt: feste Kosten eintragen)
+- [Haushaltsbuch: Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
+- [Fixkosten-Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html) (nächster Schritt: feste Kosten eintragen)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
-- [Fixkosten-übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+- [Fixkosten-Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
