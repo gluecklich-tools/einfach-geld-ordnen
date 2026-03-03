@@ -22,8 +22,8 @@ $raw = # --- EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
 if(-not (Test-Path -LiteralPath $StepPath -PathType Leaf)){
   throw "FAIL: StepPath not found or not a file: $StepPath"
 }
-$__stepContent = $__stepContent
-if([string]::IsNullOrWhiteSpace($__stepContent)){
+$stepText = Get-Content -LiteralPath $StepPath -Raw -Encoding UTF8
+if([string]::IsNullOrWhiteSpace($stepText)){
   throw "FAIL: Step file is empty or unreadable: $StepPath"
 }
 # --- end EGO_STEP_GUARD_NON_NULL_CONTENT_20260303 ---
