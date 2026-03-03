@@ -92,12 +92,29 @@ function Read-KeepPaths([string]$p){
   $lines = Get-Content -LiteralPath $p -Encoding UTF8
   if(@($lines).Count -lt 2){ return @() }
 
-  $out = New-Object 'System.Collections.Generic.List[string]'
-  for($i=1; $i -lt $lines.Count; $i++){
-    $cols = $lines[$i].Split("`t")
-    if($cols.Count -ge 1 -and $cols[0]){
-      $out.Add($cols[0]) | Out-Null
+  # Header -> find path column index (case-insensitive)
+  $header = $lines[0].Split("`t")
+  $idx = -1
+  for($i=0; $i -lt $header.Count; $i++){
+    $h = ([string]$header[$i]).Trim().ToLowerInvariant()
+    if($h -in @("path","filepath","file","filename","fullpath","relpath","relativepath")){
+      $idx = $i
+      break
     }
+  }
+
+  if($idx -lt 0){
+    $h = ($header -join ", ")
+    Fail ("Keep TSV has no path column. Expected one of: path/filepath/file/filename/fullpath/relpath. Header=" + $h)
+  }
+
+  $out = New-Object 'System.Collections.Generic.List[string]'
+  for($r=1; $r -lt $lines.Count; $r++){
+    if([string]::IsNullOrWhiteSpace($lines[$r])){ continue }
+    $cols = $lines[$r].Split("`t")
+    if($cols.Count -le $idx){ continue }
+    $val = ([string]$cols[$idx]).Trim()
+    if($val){ $out.Add($val) | Out-Null }
   }
   return $out
 }
