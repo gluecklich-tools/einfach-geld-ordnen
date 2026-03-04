@@ -71,7 +71,7 @@ if(!(Test-Path -LiteralPath $downloads)){
 $result=[pscustomobject]@{
   repo=$repo
   bundlesDir=$bundles
-  findings=@($findings)
+  findings=@($findings.ToArray())
 }
 
 $json = $result | ConvertTo-Json -Depth 6
