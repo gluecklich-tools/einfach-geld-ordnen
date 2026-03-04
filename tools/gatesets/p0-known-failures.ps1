@@ -1,3 +1,8 @@
+# P0: tools must parse before any other gate
+$RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "tools\gate-tools-parse.ps1")
+$ecToolsParse = $LASTEXITCODE
+if($ecToolsParse -ne 0){ throw "STOP: gate-tools-parse failed (exit=$ecToolsParse)" }
 # P0: CLOSEOUT gate must hard-stop even inside gateset (absolute path, no $PSScriptRoot)
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
 $GateCloseout = Join-Path $RepoRoot "tools\gate-closeout-after-commit.ps1"
