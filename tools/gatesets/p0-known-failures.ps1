@@ -10,3 +10,7 @@ $GateCloseout = Join-Path $RepoRoot "tools\gate-closeout-after-commit.ps1"
 $ecCloseout = $LASTEXITCODE
 if($ecCloseout -ne 0){ throw "STOP: gate-closeout-after-commit failed (exit=$ecCloseout)" }
 
+
+# P0: prevent known PowerShell binder traps (format comma args, @($x).Count)
+pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path (Join-Path $PSScriptRoot '..') 'gate-no-binder-traps.ps1') | Out-Null
+if ($LASTEXITCODE -ne 0) { throw 'STOP: gate-no-binder-traps failed' }
