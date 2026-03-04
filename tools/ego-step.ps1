@@ -11,7 +11,6 @@ try { if ($IsWindows) { chcp 65001 > $null } } catch {}
 
 function Fail([string]$m){ throw $m }
 
-
 # P0_STEP_PARSER_GATE
 function Assert-StepParses([string]$Path){
   if(-not (Test-Path -LiteralPath $Path -PathType Leaf)){ Fail ("FAIL: StepPath not found: {0}" -f $Path) }
@@ -26,6 +25,7 @@ function Assert-StepParses([string]$Path){
     Fail ("P0_STEP_PARSER_GATE: ParserError in step: {0} (line {1}, col {2}): {3}" -f $Path,$line,$col,$first.Message)
   }
 }
+
 # Resolve repo root
 $RepoRoot=$null
 try{ $t=(git rev-parse --show-toplevel 2>$null); if($t){ $RepoRoot=(Resolve-Path -LiteralPath $t).Path } }catch{}
@@ -51,8 +51,12 @@ $runner = Join-Path $RepoRoot "tools\step-run.ps1"
 if(-not (Test-Path -LiteralPath $runner -PathType Leaf)){ Fail "FAIL: Missing runner: $runner" }
 
 Assert-StepParses -Path $sp
-# P0_KNOWN_FAILURES_GATESET
+
+# P0_KNOWN_FAILURES_GATESET (STOP means STOP across pwsh boundaries)
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "tools\gatesets\p0-known-failures.ps1") -StepPath $sp
+$ecGate = $LASTEXITCODE
+if($ecGate -ne 0){ Fail "STOP: gate-set failed (exit=$ecGate)" }
+
 & pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $sp
 $ec = $LASTEXITCODE
 if($ec -ne 0){ Fail "STOP: step-run failed (exit=$ec)" }
