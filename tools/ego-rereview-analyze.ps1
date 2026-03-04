@@ -26,7 +26,7 @@ $lines = $lines | ForEach-Object { $_.TrimEnd("`r") }
 
 $parts = Split-Body $lines
 $body = $parts.Body
-$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
+$ts = "{0}_{1}" -f @((Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999))
 $proofDir = Join-Path $RepoRoot '_local\proof'
 $repDir   = Join-Path $RepoRoot '_local\rereview\reports'
 New-Item -ItemType Directory -Path $proofDir -Force | Out-Null
@@ -34,7 +34,7 @@ New-Item -ItemType Directory -Path $repDir -Force | Out-Null
 
 # PROOF hits (umlauts/ss candidates)
 $hits = Body-Scan $body $rel
-$proofPath = Join-Path $proofDir ("PROOF_{0}_{1}_{2}.txt" -f $ts,$RR,($rel -replace '[\\\/:\s]','_'))
+$proofPath = Join-Path $proofDir ("PROOF_{0}_{1}_{2}.txt" -f @($ts,$RR,($rel -replace '[\\\/:\s]','_')))
 Write-Report $proofPath $hits
 
 # Weiter/footer/links/meta checks
@@ -61,14 +61,14 @@ $trail = New-Object System.Collections.Generic.List[string]
 for($i=0;$i -lt $body.Length;$i++){
   $ln = $body[$i]
   if($ln -match '\]\((/[^)]+/)\)'){
-    [void]$trail.Add(("TRAILING_SLASH:{0}:{1}" -f ($i+1), $Matches[1]))
+    [void]$trail.Add(("TRAILING_SLASH:{0}:{1}" -f @(($i+1), $Matches[1])))
   }
 }
 if($trail.Count -gt 0){
   foreach($t in $trail){ [void]$issues.Add('ISSUE:' + $t) }
 }
 
-$reportPath = Join-Path $repDir ("REPORT_{0}_{1}_{2}.txt" -f $ts,$RR,($rel -replace '[\\\/:\s]','_'))
+$reportPath = Join-Path $repDir ("REPORT_{0}_{1}_{2}.txt" -f @($ts,$RR,($rel -replace '[\\\/:\s]','_')))
 $rep = New-Object System.Collections.Generic.List[string]
 [void]$rep.Add(("RR={0}" -f $RR))
 [void]$rep.Add(("FILE={0}" -f $rel))

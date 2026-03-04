@@ -110,7 +110,7 @@ foreach ($f in $files) {
     $m = $rx.Matches($text)
     if ($m.Count -gt 0) {
       $relativeUrlHits += $m.Count
-      $detailsRelative.Add(("{0} :: {1}" -f $f, $m.Count))
+      $detailsRelative.Add(("{0} :: {1}" -f @($f, $m.Count)))
     }
   }
 
@@ -121,7 +121,7 @@ foreach ($f in $files) {
   $mh += (Count-BytePattern $bytes $pat_ahat)
   if ($mh -gt 0) {
     $mojibakeHits += $mh
-    $detailsMoji.Add(("{0} :: {1}" -f $f, $mh))
+    $detailsMoji.Add(("{0} :: {1}" -f @($f, $mh)))
   }
 
   # frontmatter delimiter check (first non-empty line; if it's '---' ok; if it's 3+ '-' also ok; else ignore)
@@ -136,14 +136,14 @@ foreach ($f in $files) {
       if ($first.Length -ge 3 -and (Is-AllAsciiDash $first)) {
         if ($first -ne "---") {
           $typographyHitsFrontmatter++
-          $detailsFm.Add(("BAD_FM_DELIM_OPEN {0} :: '{1}'" -f $f, $first))
+          $detailsFm.Add(("BAD_FM_DELIM_OPEN {0} :: '{1}'" -f @($f, $first)))
         } else {
           for ($j=$firstIdx+1; $j -lt $lines.Count; $j++) {
             $ln = $lines[$j].TrimEnd("`r").Trim()
             if ($ln -eq "---") { break }
             if ($ln.Length -ge 3 -and (Is-AllAsciiDash $ln) -and $ln -ne "---") {
               $typographyHitsFrontmatter++
-              $detailsFm.Add(("BAD_FM_DELIM_CLOSE {0} :: '{1}'" -f $f, $ln))
+              $detailsFm.Add(("BAD_FM_DELIM_CLOSE {0} :: '{1}'" -f @($f, $ln)))
               break
             }
           }

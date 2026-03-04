@@ -48,15 +48,15 @@ foreach($f in $files){
     $ln++
 
     if($line.Contains($needle_dq_token)){
-      $bad.Add(('{0}:L{1}: forbidden token (double-quote + dollar + underscore + dot)' -f $f.FullName,$ln))
+      $bad.Add(('{0}:L{1}: forbidden token (double-quote + dollar + underscore + dot)' -f @($f.FullName,$ln)))
     }
 
     if($line.Contains($needle_like_dq) -or $line.Contains($needle_like_sq)){
-      $bad.Add(('{0}:L{1}: -like pattern contains backslash-dollar-underscore-dot' -f $f.FullName,$ln))
+      $bad.Add(('{0}:L{1}: -like pattern contains backslash-dollar-underscore-dot' -f @($f.FullName,$ln)))
     }
 
     if($line.Contains($needle_nlike_dq) -or $line.Contains($needle_nlike_sq)){
-      $bad.Add(('{0}:L{1}: -notlike pattern contains backslash-dollar-underscore-dot' -f $f.FullName,$ln))
+      $bad.Add(('{0}:L{1}: -notlike pattern contains backslash-dollar-underscore-dot' -f @($f.FullName,$ln)))
     }
   }
 }

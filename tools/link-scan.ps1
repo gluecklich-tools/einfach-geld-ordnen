@@ -54,7 +54,7 @@ foreach ($p in $patterns) {
 
   foreach ($h in $hits) {
     $rel = $h.Path.Substring($repo.Length).TrimStart("\","/")
-    $lines.Add(("{0}:{1}: {2}" -f $rel, $h.LineNumber, $h.Line.Trim()))
+    $lines.Add(("{0}:{1}: {2}" -f @($rel, $h.LineNumber, $h.Line.Trim())))
   }
   $lines.Add("")
 }

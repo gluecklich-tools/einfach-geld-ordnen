@@ -47,7 +47,7 @@ foreach($f in $targets){
     if($t -like '*$env:*' -or $t -like '*$global:*' -or $t -like '*$script:*' -or $t -like '*$local:*' -or $t -like '*$private:*' -or $t -like '*$using:*'){ continue }
     # detect "$var:$other" in expandable strings (parser trap)
     if($t -match '\$[A-Za-z_][A-Za-z0-9_]*:\s*\$[A-Za-z_][A-Za-z0-9_]*'){
-      $bad.Add(("{0}:L{1}: possible invalid var-colon-var in double quotes; use -f or `${{var}}: `${{other}} : {2}" -f $f.FullName,$ln,$t.TrimEnd()))
+      $bad.Add(("{0}:L{1}: possible invalid var-colon-var in double quotes; use -f @(or `${{var}}: `${{other}} : {2}" -f @($f.FullName,$ln,$t.TrimEnd())))
     }
   }
 }

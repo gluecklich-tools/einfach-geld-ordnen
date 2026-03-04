@@ -55,12 +55,12 @@ function Get-DownloadHubPermalinksFromRepo(){
 $indexPath = Join-Path $ProjectRoot "_INTERN\governance\inventory\REPO_PERMALINK_INDEX.md"
 
 $permalinks = Get-DownloadHubPermalinksFromSsotIndex -IndexPath $indexPath
-if(@($permalinks).Count -eq 0){
+if($permalinks.Count -eq 0){
   $permalinks = Get-DownloadHubPermalinksFromRepo
 }
 
 $permalinks = @($permalinks | Sort-Object -Unique)
-$cnt = @($permalinks).Count
+$cnt = $permalinks.Count
 if($cnt -eq 0){
   Fail "NO_DOWNLOAD_HUB_PERMALINKS_FOUND (SSOT index + repo fallback empty)"
 }

@@ -28,11 +28,11 @@ if(Test-Path -LiteralPath $Marker -PathType Leaf){
 }
 
 if($null -eq $brainTime){
-  Fail ("FAIL: CLOSEOUT_REQUIRED (no valid marker) MarkerPath={0} MarkerRaw={1} Commit={2} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f $Marker,$markerRaw,$commitIso)
+  Fail ("FAIL: CLOSEOUT_REQUIRED (no valid marker) MarkerPath={0} MarkerRaw={1} Commit={2} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f @($Marker,$markerRaw,$commitIso))
 }
 
 if($brainTime -lt $commitTime){
-  Fail ("FAIL: CLOSEOUT_REQUIRED (BrainSync older than last commit) MarkerPath={0} MarkerRaw={1} Brain={2:O} Commit={3:O} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f $Marker,$markerRaw,$brainTime,$commitTime)
+  Fail ("FAIL: CLOSEOUT_REQUIRED (BrainSync older than last commit) MarkerPath={0} MarkerRaw={1} Brain={2:O} Commit={3:O} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f @($Marker,$markerRaw,$brainTime,$commitTime))
 }
 
 "PASS: gate-closeout-after-commit (BrainSync >= last commit)"

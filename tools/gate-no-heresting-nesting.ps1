@@ -30,7 +30,7 @@ foreach($f in $files){
       if($t -match "^\@'"){  $inHere = $true; $endToken = "'@";  continue }
     } else {
       if($t -match "^\@\x22" -or $t -match "^\@'"){
-        $bad.Add(("{0}:L{1}: nested here-string start" -f $f.FullName, $lineNo))
+        $bad.Add(("{0}:L{1}: nested here-string start" -f @($f.FullName, $lineNo)))
         continue
       }
       if($t -eq $endToken){ $inHere = $false; $endToken = $null; continue }

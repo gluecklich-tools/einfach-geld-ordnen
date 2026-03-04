@@ -26,7 +26,7 @@ if(-not [string]::IsNullOrWhiteSpace($StepPath)){
   }
 }
 
-if(@($targets).Count -eq 0){
+if($targets.Count -eq 0){
   "PASS: GATE_NO_EXIT_IN_STEPS (no step targets)"
   exit 0
 }
@@ -37,12 +37,12 @@ foreach($file in $targets){
   for($i=0; $i -lt $lines.Count; $i++){
     $line = $lines[$i]
     if($line -match '(?i)^\s*exit(\s+[-]?\d+)?\s*$'){
-      $hits += ("{0}:{1} :: {2}" -f $file, ($i+1), $line.Trim())
+      $hits += ("{0}:{1} :: {2}" -f @($file, ($i+1), $line.Trim()))
     }
   }
 }
 
-if(@($hits).Count -gt 0){
+if($hits.Count -gt 0){
   "FAIL: GATE_NO_EXIT_IN_STEPS"
   $hits | ForEach-Object { " - $_" }
   Fail "STOP: Step contains 'exit'. Use 'throw' for fail, or just end script/return for success."

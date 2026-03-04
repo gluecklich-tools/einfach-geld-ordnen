@@ -30,7 +30,7 @@ $hits = New-Object System.Collections.Generic.List[object]
 foreach($p in $files){
   $t=$null; $e=$null
   [void][System.Management.Automation.Language.Parser]::ParseFile($p,[ref]$t,[ref]$e)
-  if(@($e).Count -gt 0){
+  if($e.Count -gt 0){
     foreach($err in $e){
       $hits.Add([pscustomobject]@{
         Path = $p

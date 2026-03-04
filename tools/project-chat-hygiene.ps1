@@ -67,7 +67,7 @@ function Move-Dir([string]$src,[string]$dstRoot,[string]$tag){
   $name = Split-Path -Leaf $src
   $dst = Join-Path $dstRoot $name
   if(Test-Path -LiteralPath $dst){
-    $dst = Join-Path $dstRoot ("{0}_{1}" -f $name, (Get-Date -Format "yyyyMMdd_HHmmss"))
+    $dst = Join-Path $dstRoot ("{0}_{1}" -f @($name, (Get-Date -Format "yyyyMMdd_HHmmss")))
   }
   if($WhatIfMove){
     "WHATIF: MOVE " + $tag + " " + $src + " -> " + $dst
@@ -151,7 +151,7 @@ if($toArchive.Count -gt 0){
   $report.Add("## Archived") | Out-Null
   foreach($p in $toArchive){
     $dst = Move-Dir $p $ArchiveRoot "ARCHIVE"
-    $report.Add(("- {0} -> {1}" -f $p, $dst)) | Out-Null
+    $report.Add(("- {0} -> {1}" -f @($p, $dst)) | Out-Null)
   }
   $report.Add("") | Out-Null
 }
@@ -160,7 +160,7 @@ if($toTrash.Count -gt 0){
   $report.Add("## Trashed") | Out-Null
   foreach($p in $toTrash){
     $dst = Move-Dir $p $TrashRoot "TRASH"
-    $report.Add(("- {0} -> {1}" -f $p, $dst)) | Out-Null
+    $report.Add(("- {0} -> {1}" -f @($p, $dst)) | Out-Null)
   }
   $report.Add("") | Out-Null
 }

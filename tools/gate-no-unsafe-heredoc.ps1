@@ -27,12 +27,12 @@ $bad = New-Object System.Collections.Generic.List[string]
 
 foreach($f in $ps1){
   $lines = @(Get-Content -LiteralPath $f.FullName -Encoding UTF8)
-  for($i=0; $i -lt @($lines).Count; $i++){
+  for($i=0; $i -lt $lines.Count; $i++){
     if($lines[$i] -match '^\s*@"\s*$'){
       $start = [Math]::Max(0, $i-3)
       $ctx = ($lines[$start..$i] -join "`n")
       if($ctx -notmatch 'EGO_ALLOW_HEREDOC_INTERPOLATION'){
-        $bad.Add(("{0}:{1}: unsafe double-quoted heredoc AT-QUOTE without allow-marker" -f $f.FullName, ($i+1)))
+        $bad.Add(("{0}:{1}: unsafe double-quoted heredoc AT-QUOTE without allow-marker" -f @($f.FullName, ($i+1))))
       }
     }
   }

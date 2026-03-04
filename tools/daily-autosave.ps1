@@ -40,19 +40,19 @@ $repo = Resolve-RepoRoot $RepoRoot
 Set-Location -LiteralPath $repo
 
 $today = (Get-Date).ToString("yyyy-MM-dd")
-$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
+$ts = "{0}_{1}" -f @((Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999))
 $dailyDir = Join-Path $repo "_local\daily"
-$runDir   = Join-Path $dailyDir ("run_{0}_{1}" -f $today, $ts)
+$runDir   = Join-Path $dailyDir ("run_{0}_{1}" -f @($today, $ts))
 New-Item -ItemType Directory -Path $runDir -Force | Out-Null
 
 $logPath     = Join-Path $runDir "transcript.txt"
 $reportPath  = Join-Path $runDir "daily_report.md"
-$zipPath     = Join-Path $runDir ("repo_archive_{0}_{1}.zip" -f $today, $ts)
+$zipPath     = Join-Path $runDir ("repo_archive_{0}_{1}.zip" -f @($today, $ts))
 
 Start-Transcript -LiteralPath $logPath | Out-Null
 
 "=== DAILY AUTOSAVE SNAPSHOT ==="
-("DATE={0}  TS={1}" -f $today, $ts)
+("DATE={0}  TS={1}" -f @($today, $ts))
 ("REPO={0}" -f $repo)
 
 # -------- SCAN --------

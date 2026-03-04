@@ -120,7 +120,7 @@ $hubFiles += Get-ChildItem -LiteralPath (Join-Path $root "seiten") -Filter "down
 $hubFiles += Get-ChildItem -LiteralPath (Join-Path $root "seiten") -Filter "download-hub-*.markdown" -File -ErrorAction SilentlyContinue
 $hubFiles += Get-ChildItem -LiteralPath (Join-Path $root "seiten") -Filter "download-hub-*.html" -File -ErrorAction SilentlyContinue
 
-if (@($hubFiles).Count -eq 0) {
+if ($hubFiles.Count -eq 0) {
   throw "No download-hub-* files found under /seiten. Adjust patterns in tools/scan-weiter-links-download-hubs.ps1."
 }
 

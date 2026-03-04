@@ -284,7 +284,7 @@ if($broken.Count -eq 0){
   $md += "_None_"
 } else {
   foreach($b in ($broken | Sort-Object kind,src,dst | Select-Object -First 200)){
-    $md += ("- **{0}**: {1} -> {2}" -f $b.kind,$b.src,$b.dst)
+    $md += ("- **{0}**: {1} -> {2}" -f @($b.kind,$b.src,$b.dst))
   }
   if($broken.Count -gt 200){ $md += ""; $md += "_Truncated to first 200._" }
 }
@@ -308,7 +308,7 @@ if($twoCycles.Count -eq 0){
   $md += "_None_"
 } else {
   foreach($c in ($twoCycles | Sort-Object a,b | Select-Object -First 200)){
-    $md += ("- {0} <-> {1}" -f $c.a,$c.b)
+    $md += ("- {0} <-> {1}" -f @($c.a,$c.b))
   }
   if($twoCycles.Count -gt 200){ $md += ""; $md += "_Truncated to first 200._" }
 }

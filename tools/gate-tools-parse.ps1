@@ -32,7 +32,7 @@ foreach($rel in $targets){
     $first = $e[0]
     $line = $first.Extent.StartLineNumber
     $col  = $first.Extent.StartColumnNumber
-    Fail ("FAIL: TOOLS_PARSE_ERROR in {0} (line {1}, col {2}): {3}" -f $rel,$line,$col,$first.Message)
+    Fail ("FAIL: TOOLS_PARSE_ERROR in {0} (line {1}, col {2}): {3}" -f @($rel,$line,$col,$first.Message))
   }
 }
 

@@ -26,7 +26,7 @@ $jsonPath = Join-Path $OutDir ("PROJECT_INVENTORY_{0}.json" -f $ts)
 $items = Get-ChildItem -LiteralPath $RootPath -Recurse -Force -File -ErrorAction SilentlyContinue |
   Select-Object FullName, Length, LastWriteTimeUtc, Extension
 
-$totalCount = @($items).Count
+$totalCount = $items.Count
 $totalBytes = (@($items) | Measure-Object -Property Length -Sum).Sum
 $top = $items | Sort-Object Length -Descending | Select-Object -First 25
 
@@ -53,7 +53,7 @@ $md += ""
 $md += "| Size (bytes) | LastWriteUtc | Path |"
 $md += "|---:|---|---|"
 foreach($t in $top){
-  $md += ("| {0} | {1} | {2} |" -f $t.Length, $t.LastWriteTimeUtc.ToString("o"), $t.FullName.Replace("|","\|"))
+  $md += ("| {0} | {1} | {2} |" -f @($t.Length, $t.LastWriteTimeUtc.ToString("o"), $t.FullName.Replace("|","\|")))
 }
 $md += ""
 $md += "## Next"

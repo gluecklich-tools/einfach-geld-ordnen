@@ -33,7 +33,7 @@ foreach($f in $ssotFiles){
 $tMax = ($ssotFiles | ForEach-Object { (Get-Item -LiteralPath $_).LastWriteTime } | Sort-Object -Descending | Select-Object -First 1)
 
 if($tStamp -lt $tMax){
-  throw ("FAIL: BRAIN_ROOT_STALE (stamp={0} < ssotMax={1}). Run step_p0_brain_sync_root_and_latest_*" -f $tStamp, $tMax)
+  throw ("FAIL: BRAIN_ROOT_STALE (stamp={0} < ssotMax={1}). Run step_p0_brain_sync_root_and_latest_*" -f @($tStamp, $tMax))
 }
 
 "PASS: BRAIN_ROOT_FRESH (stamp >= ssotMax)"

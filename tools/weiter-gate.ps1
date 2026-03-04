@@ -20,4 +20,4 @@ foreach($f in $files){
   $t = Read-Utf8 $f.FullName
   if($t -match [regex]::Escape($tag)){ $hits++ }
 }
-"PASS: weiter-gate parser-safe. pages={0} include_hits={1}" -f $files.Count, $hits
+"PASS: weiter-gate parser-safe. pages={0} include_hits={1}" -f @($files.Count, $hits)

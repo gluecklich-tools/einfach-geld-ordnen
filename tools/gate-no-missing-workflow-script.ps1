@@ -21,7 +21,7 @@ foreach($wf in $wfs){
     $rel = $m.Value
     $p = Join-Path $repo ($rel -replace '/','\')
     if(!(Test-Path -LiteralPath $p)){
-      $bad.Add(("{0}: missing referenced script: {1}" -f $wf.FullName,$rel))
+      $bad.Add(("{0}: missing referenced script: {1}" -f @($wf.FullName,$rel)))
     }
   }
 }

@@ -21,7 +21,7 @@ foreach($f in $files){
     $b = $lines[$i+1].Trim()
 
     if($a -like '*-File*' -and ($b -like 'tools/*.ps1' -or $b -like 'tools\*.ps1')){
-      $bad.Add(("{0}:L{1}: {2} || {3}" -f $f.FullName,($i+1),$lines[$i].TrimEnd(),$lines[$i+1].TrimEnd()))
+      $bad.Add(("{0}:L{1}: {2} || {3}" -f @($f.FullName,($i+1),$lines[$i].TrimEnd(),$lines[$i+1].TrimEnd())))
     }
   }
 }

@@ -117,13 +117,13 @@ $sb = New-Object System.Text.StringBuilder
 $group = $hits | Group-Object Finding | Sort-Object Name
 foreach($g in $group){
   $total = ($g.Group | Measure-Object Count -Sum).Sum
-  [void]$sb.AppendLine(("- {0}: files={1}, totalMatches={2}" -f $g.Name, $g.Count, $total))
+  [void]$sb.AppendLine(("- {0}: files={1}, totalMatches={2}" -f @($g.Name, $g.Count, $total)))
 }
 
 [void]$sb.AppendLine("")
 [void]$sb.AppendLine("## Details")
 $hits | Sort-Object Finding, File | ForEach-Object {
-  [void]$sb.AppendLine(("- {0} | {1} | count={2}" -f $_.Finding, $_.File, $_.Count))
+  [void]$sb.AppendLine(("- {0} | {1} | count={2}" -f @($_.Finding, $_.File, $_.Count)))
 }
 
 WriteUtf8NoBom $reportPath $sb.ToString()

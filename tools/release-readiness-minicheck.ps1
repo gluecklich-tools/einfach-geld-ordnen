@@ -10,7 +10,7 @@ function Fail([string]$m){ Write-Host ("[FAIL] {0}" -f $m); exit 1 }
 
 # 1) Git clean?
 $dirty = git status --porcelain=v1
-if(@($dirty).Count -ne 0){
+if($dirty.Count -ne 0){
   Write-Host '[WARN] Repo is DIRTY:'
   $dirty | ForEach-Object { Write-Host ('  ' + $_) }
   Fail 'Working tree not clean'

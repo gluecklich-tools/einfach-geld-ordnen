@@ -89,11 +89,11 @@ foreach ($f in $scanFiles) {
     }
   }
 
-  if (@($links).Count -ne 3) {
+  if ($links.Count -ne 3) {
     $failWeiter.Add([pscustomobject]@{
       File      = $f.FullName
       Problem   = "Weiter link count != 3"
-      LinkCount = @($links).Count
+      LinkCount = $links.Count
       Links     = ($links -join " | ")
     }) | Out-Null
   }

@@ -31,7 +31,7 @@ foreach($f in $targets){
     elseif(-not [IO.Path]::IsPathRooted($p)){ $p = Join-Path $repo ($p -replace '/','\') }
 
     if(!(Test-Path -LiteralPath $p)){
-      $bad.Add(("{0}: references missing step file: {1}" -f $f.FullName,$rel))
+      $bad.Add(("{0}: references missing step file: {1}" -f @($f.FullName,$rel)))
     }
   }
 }

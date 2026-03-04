@@ -23,15 +23,15 @@ $urls=@(
 
 "SMOKE CORE (HEAD nocache):"
 foreach($u in $urls){
-  $uu = ("{0}?nocache={1}" -f $u, ([guid]::NewGuid().ToString("n")))
+  $uu = ("{0}?nocache={1}" -f @($u, ([guid]::NewGuid().ToString("n"))))
   try{
     $r=Invoke-WebRequest -Uri $uu -Method Head -MaximumRedirection 5 -TimeoutSec 20
     $htmlRaw = ${r}.Content
     $html    = [System.Net.WebUtility]::HtmlDecode($htmlRaw)
 
-    "{0}  {1}" -f $r.StatusCode, $u
+    "{0}  {1}" -f @($r.StatusCode, $u)
   } catch {
     $code = try { $_.Exception.Response.StatusCode.value__ } catch { "ERR" }
-    "{0}  {1}" -f $code, $u
+    "{0}  {1}" -f @($code, $u)
   }
 }

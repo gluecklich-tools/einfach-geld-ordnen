@@ -26,7 +26,7 @@ Set-Location -LiteralPath $RepoRoot
 if(!(Test-Path -LiteralPath (Join-Path $RepoRoot '.git'))){ GateError "not a git repo root: $RepoRoot" }
 
 $files = @(git ls-files)
-if(@($files).Count -eq 0){ Fail "no tracked files found" }
+if($files.Count -eq 0){ Fail "no tracked files found" }
 
 $skipExt = @('.png','.jpg','.jpeg','.gif','.webp','.ico','.pdf','.zip','.7z','.exe','.dll','.pdb')
 function IsSkip([string]$p){
@@ -68,7 +68,7 @@ foreach($rel in $files){
     if($m.Success){
       $prefix = $txt.Substring(0, $m.Index)
       $line = 1 + ([regex]::Matches($prefix, "`n")).Count
-      $hits.Add(("{0} | {1}:{2}" -f $p.Name,$rel,$line))
+      $hits.Add(("{0} | {1}:{2}" -f @($p.Name,$rel,$line)))
     }
   }
 }

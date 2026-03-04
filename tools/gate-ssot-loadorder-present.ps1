@@ -34,7 +34,7 @@ foreach($f in $req){
   if($len -lt 50){ $missing += ($f + " (too small)") }
 }
 
-if(@($missing).Count -gt 0){
+if($missing.Count -gt 0){
   Fail ("STOP: SSOT load-order missing/invalid: " + ($missing -join ', '))
 }
 

@@ -105,12 +105,12 @@ for($i=0;$i -lt $urls.Count;$i++){
 if($stopReason){
   $stopReason
   "PROCESSED_RR_COUNT=" + $processed.Count
-  if($processed.Count -gt 0){ "PROCESSED_RR_RANGE={0}-{1}" -f $processed[0], $processed[$processed.Count-1] }
+  if($processed.Count -gt 0){ "PROCESSED_RR_RANGE={0}-{1}" -f @($processed[0], $processed[$processed.Count-1] })
   exit 2
 }
 
 "PROCESSED_RR_COUNT=" + $processed.Count
-if($processed.Count -gt 0){ "PROCESSED_RR_RANGE={0}-{1}" -f $processed[0], $processed[$processed.Count-1] }
+if($processed.Count -gt 0){ "PROCESSED_RR_RANGE={0}-{1}" -f @($processed[0], $processed[$processed.Count-1] })
 
 if($RunKlausAtEnd){
   "=== KLAUS RUN (END) ==="

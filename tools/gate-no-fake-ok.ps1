@@ -22,7 +22,7 @@ foreach($f in $targets){
     $ln++
     $t = ($s + '').Trim()
     if($t -like 'OK: normalized 0*'){
-      $bad.Add(('{0}:L{1}: forbidden fake-ok message: {2}' -f $f.FullName,$ln,($s + '').TrimEnd()))
+      $bad.Add(('{0}:L{1}: forbidden fake-ok message: {2}' -f @($f.FullName,$ln,($s + '').TrimEnd())))
     }
   }
 }

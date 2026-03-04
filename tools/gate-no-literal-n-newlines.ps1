@@ -21,7 +21,7 @@ foreach($f in $targets){
     $ln++
     $t = ($s + '')
     if($t -like '*nexit 0*' -or $t -like '*"nexit*' -or $t -like "*'nexit*"){
-      $bad.Add(("{0}:L{1}: suspicious literal 'n' newline; use backtick-n or here-string: {2}" -f $f.FullName,$ln,$t.TrimEnd()))
+      $bad.Add(("{0}:L{1}: suspicious literal 'n' newline; use backtick-n or here-string: {2}" -f @($f.FullName,$ln,$t.TrimEnd())))
     }
   }
 }

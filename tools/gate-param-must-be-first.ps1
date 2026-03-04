@@ -27,7 +27,8 @@ function Strip-AllowedPreamble([string]$s){
   }
 
   # remove full-line # comments
-  $lines = $s -split "?
+  $lines = $s -split "
+?
 "
   $kept = New-Object System.Collections.Generic.List[string]
   foreach($ln in $lines){
@@ -97,7 +98,7 @@ Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Force -Filter *.
     try{
       $ast = [System.Management.Automation.Language.Parser]::ParseFile($p, [ref]$tokens, [ref]$errors)
     }catch{ return }
-    if(@($errors).Count -gt 0){ return }
+    if($errors.Count -gt 0){ return }
 
     if($null -eq $ast.ParamBlock){ return } # only script-level paramblock
 
@@ -116,7 +117,8 @@ Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Force -Filter *.
       # first offending non-empty fragment -> best-effort line number
       $line = 1
       try{
-        $line = ($pre -split "?
+        $line = ($pre -split "
+?
 ").Length
       }catch{}
       $snippet = $rest

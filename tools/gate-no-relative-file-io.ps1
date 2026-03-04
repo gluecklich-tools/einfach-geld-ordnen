@@ -26,7 +26,7 @@ foreach($f in $files){
   $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
   foreach($p in $patterns){
     if([regex]::IsMatch($raw, $p)){
-      $bad += ("{0} :: RELATIVE_IO_PATTERN={1}" -f $f.FullName, $p)
+      $bad += ("{0} :: RELATIVE_IO_PATTERN={1}" -f @($f.FullName, $p))
     }
   }
 }

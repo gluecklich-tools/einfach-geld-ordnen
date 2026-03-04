@@ -1,7 +1,7 @@
 Set-StrictMode -Version Latest
 function Write-EgoLog([string]$msg){
   $ts = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-  Write-Host ("[{0}] {1}" -f $ts, $msg)
+  Write-Host ("[{0}] {1}" -f @($ts, $msg))
 }
 function Resolve-EgoRepoRoot([string]$RepoRoot){
   if(!$RepoRoot){ $RepoRoot = (Get-Location).Path }
@@ -24,7 +24,7 @@ function Invoke-EgoToolFile(
     $argList += "-$k"
     $argList += [string]$Args[$k]
   }
-  Write-EgoLog ("RUN: pwsh -NoProfile -File `"{0}`" {1}" -f $full, ($argList -join " "))
+  Write-EgoLog ("RUN: pwsh -NoProfile -File `"{0}`" {1}" -f @($full, ($argList -join " ")))
   & pwsh -NoProfile -File $full @argList
   $code = $LASTEXITCODE
   if($code -ne 0){ throw "STOP: tool failed (exit=$code): $ToolPath" }

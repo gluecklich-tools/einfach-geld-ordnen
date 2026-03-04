@@ -51,7 +51,7 @@ if(!(Test-Path -LiteralPath $downloads)){
   Add "WARN" "BUNDLES_DIR_MISSING" "downloads/bundles/ folder missing" $bundles
 } else {
   $zips = Get-ChildItem -LiteralPath $bundles -File -Filter "*.zip" -ErrorAction Stop
-  if(@($zips).Count -eq 0){
+  if($zips.Count -eq 0){
     Add "WARN" "NO_ZIPS" "No bundle ZIPs found in downloads/bundles" $bundles
   } else {
     foreach($z in $zips){

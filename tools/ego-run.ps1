@@ -59,7 +59,7 @@ $not3    = Get-MetricInt -Content $txt -Label "HasWeiter + MdLinks!=3"
 $zero    = Get-MetricInt -Content $txt -Label "HasWeiter + MdLinks=0"
 
 if ($missing -ne 0 -or $not3 -ne 0 -or $zero -ne 0) {
-  throw ("FAIL: Weiter gate not clean (Missing={0} Not3={1} Zero={2}). See {3}" -f $missing,$not3,$zero,$report)
+  throw ("FAIL: Weiter gate not clean (Missing={0} Not3={1} Zero={2}). See {3}" -f @($missing,$not3,$zero,$report))
 }
 
 "PASS: Weiter Allowlist Gate ok (seiten+pilla)."

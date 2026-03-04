@@ -51,7 +51,7 @@ function Get-ChangedPathsFromPorcelain([string[]]$lines){
 # Repo must be clean BEFORE running a step (ignoring _local)
 $preLines = @((git status --porcelain=v1))
 $preChanged = Get-ChangedPathsFromPorcelain $preLines
-if(@($preChanged).Count -gt 0){
+if($preChanged.Count -gt 0){
   Fail ("REPO_DIRTY_BEFORE_STEP: make repo clean before running steps.`n" + ($preChanged -join "`n"))
 }
 
@@ -66,7 +66,7 @@ if($code -ne 0){
 $postLines = @((git status --porcelain=v1))
 $postChanged = Get-ChangedPathsFromPorcelain $postLines
 
-if(@($postChanged).Count -gt 0){
+if($postChanged.Count -gt 0){
   $gate = Join-Path $RepoRoot "tools\gate-step-write-allowlist.ps1"
   if(-not (Test-Path -LiteralPath $gate)){
     Fail "FAIL: missing gate-step-write-allowlist.ps1 (expected at tools\gate-step-write-allowlist.ps1)"

@@ -47,7 +47,7 @@ foreach($r in $scanRoots){
 
 $ts = Get-Date -Format "yyyyMMdd_HHmmss"
 $report = Join-Path $reports ("PURGE_REPORT_{0}.md" -f $ts)
-Set-Content -LiteralPath $report -Value ("DeletedFolders={0}`r`nUTC={1}`r`n" -f $deleted, $now.ToString("o")) -Encoding UTF8
+Set-Content -LiteralPath $report -Value ("DeletedFolders={0}`r`nUTC={1}`r`n" -f @($deleted, $now.ToString("o")) -Encoding UTF8)
 
 "OK: purge done"
 "DELETED_FOLDERS: $deleted"

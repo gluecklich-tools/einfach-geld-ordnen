@@ -19,7 +19,7 @@ $dirty = @($st | Where-Object {
   ($_ -notmatch '^\s*D\s+_local\\')
 })
 
-if(@($dirty).Count -eq 0){
+if($dirty.Count -eq 0){
   "OK: gate-no-inline-dirty-changes: repo clean (ignoring _local)"
   exit 0
 }
@@ -57,7 +57,7 @@ try{
 
 $ageMin = ((Get-Date) - $ts).TotalMinutes
 if($ageMin -gt 15){
-  Fail ("STOP: DIRTY repo but step marker too old ({0} min). Run your step again via enterprise-run." -f ([math]::Round($ageMin,2)))
+  Fail ("STOP: DIRTY repo but step marker too old ({0} min). Run your step again via enterprise-run." -f @(([math]::Round($ageMin,2))))
 }
 
 "OK: gate-no-inline-dirty-changes: dirty repo allowed (recent step marker)"

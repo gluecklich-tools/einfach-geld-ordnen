@@ -217,7 +217,7 @@ if($LASTEXITCODE -ne 0){ Fail "STOP: reports gate failed (exit=$LASTEXITCODE)" }
 "PASS: ENTERPRISE_AUTOPILOT_STEP"
 exit 0
 .Exception.Message
-        Fail ("STOP: sitemap part fetch failed: {0} :: {1}" -f $smUrl, $msg)
+        Fail ("STOP: sitemap part fetch failed: {0} :: {1}" -f @($smUrl, $msg))
       }
     }
     $locs = $urlLocs

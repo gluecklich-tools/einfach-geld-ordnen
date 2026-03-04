@@ -16,7 +16,7 @@ function ReadUtf8([string]$p){ [IO.File]::ReadAllText($p,$enc) }
 
 function GetRootOrThrow([string]$p,[string]$label){
   if([string]::IsNullOrWhiteSpace($p) -or !(Test-Path -LiteralPath $p)){
-    throw ("STOP: {0} missing: {1}" -f $label,$p)
+    throw ("STOP: {0} missing: {1}" -f @($label,$p))
   }
   return (Resolve-Path -LiteralPath $p).Path
 }
@@ -68,7 +68,7 @@ $uniq = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer
 $scan = @()
 foreach($f in $files){ if($uniq.Add($f)){ $scan += $f } }
 
-if(@($scan).Count -eq 0){
+if($scan.Count -eq 0){
   "OK: no files to scan."
   exit 0
 }
@@ -96,17 +96,17 @@ foreach($p in $scan){ if($p -ieq $self){ continue }
   }
 }
 
-if(@($hits).Count -gt 0){
+if($hits.Count -gt 0){
   "FAIL: PowerShell $-Interpolation Hazards detected."
   ""
-  $csvOut = Join-Path $RepoRoot ("_local\reports\gate_pwsh_dollar_hazards_hits_{0}.csv" -f ("{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)))
+  $csvOut = Join-Path $RepoRoot ("_local\reports\gate_pwsh_dollar_hazards_hits_{0}.csv" -f @(("{0}_{1}" -f @((Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999))))
   $dir = Split-Path -Parent $csvOut
   if($dir -and !(Test-Path -LiteralPath $dir)){ New-Item -ItemType Directory -Path $dir -Force | Out-Null }
   $hits | Sort-Object file, rule | Export-Csv -LiteralPath $csvOut -NoTypeInformation -Encoding UTF8
 
   # print without truncation
   foreach($h in ($hits | Sort-Object file, rule)){
-    ("HIT`t{0}`t{1}`t{2}" -f $h.rule, $h.file, $h.match) | Write-Host
+    ("HIT`t{0}`t{1}`t{2}" -f @($h.rule, $h.file, $h.match) | Write-Host)
   }
   ""
   "WROTE: $csvOut"

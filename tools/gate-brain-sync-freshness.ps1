@@ -46,7 +46,7 @@ $age = (Get-Date) - $refTime
 $ageHours = [math]::Round($age.TotalHours,2)
 
 if($ageHours -gt $MaxAgeHours){
-  Fail ("STOP: Brain snapshot too old ({0}h > {1}h). Run Brain sync. Ref={2}" -f $ageHours,$MaxAgeHours,$refTime.ToString('s'))
+  Fail ("STOP: Brain snapshot too old ({0}h > {1}h). Run Brain sync. Ref={2}" -f @($ageHours,$MaxAgeHours,$refTime.ToString('s')))
 }
 
 "OK: gate-brain-sync-freshness (ageHours=" + $ageHours + ", ref=" + $refTime.ToString('s') + ")"

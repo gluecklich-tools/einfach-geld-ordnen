@@ -24,8 +24,8 @@ foreach ($f in $targets) {
     $changed += $f.FullName
   }
 }
-"APPLY_VISIBILITY_CLEANUP_CHANGED=" + @($changed).Count
-if (@($changed).Count -gt 0) {
+"APPLY_VISIBILITY_CLEANUP_CHANGED=" + $changed.Count
+if ($changed.Count -gt 0) {
   "CHANGED_FILES:"
   $changed | ForEach-Object { $_.Replace($Root + '\','') }
 } else {

@@ -81,7 +81,7 @@ foreach($abs in $files){
       # collect a few line-level contexts
       $ms = Select-String -InputObject $text -Pattern [regex]::Escape($pat) -AllMatches
       foreach($m in $ms){
-        $hits.Add(("{0}:{1}: {2}" -f (RelPath $abs), $m.LineNumber, $pat)) | Out-Null
+        $hits.Add(("{0}:{1}: {2}" -f @((RelPath $abs), $m.LineNumber, $pat)) | Out-Null)
         if($hits.Count -ge 200){ break }
       }
     }

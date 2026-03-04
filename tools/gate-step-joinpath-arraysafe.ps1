@@ -26,7 +26,7 @@ $t=$null; $e=$null
 $ast=[System.Management.Automation.Language.Parser]::ParseInput($raw,[ref]$t,[ref]$e)
 if($e -and $e.Count -gt 0){
   $x=$e[0]
-  Fail ("FAIL: JOINPATH_ARGCOUNT PARSER_FAIL {0} (line {1}, col {2}): {3}" -f $sp,$x.Extent.StartLineNumber,$x.Extent.StartColumnNumber,$x.Message)
+  Fail ("FAIL: JOINPATH_ARGCOUNT PARSER_FAIL {0} (line {1}, col {2}): {3}" -f @($sp,$x.Extent.StartLineNumber,$x.Extent.StartColumnNumber,$x.Message))
 }
 
 # Heuristic: detect Join-Path with comma-separated args inside array literals (classic)

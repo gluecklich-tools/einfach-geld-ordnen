@@ -19,7 +19,7 @@ if(-not (Test-Path -LiteralPath $seitenDir -PathType Container)){
 $files = Get-ChildItem -LiteralPath $seitenDir -File -Filter "download-hub*.md" -ErrorAction SilentlyContinue
 $files = @($files | Sort-Object Name)
 
-if(@($files).Count -eq 0){
+if($files.Count -eq 0){
   Fail "NO_DOWNLOAD_HUB_MD_FILES_FOUND in seiten/"
 }
 
@@ -85,7 +85,7 @@ $missingWeiter = 0
 $okPages = 0
 
 "SCAN: download hubs CTA + Weiter (repo-local)"
-"Files: $(@($files).Count)"
+"Files: $($files.Count)"
 "---"
 
 foreach($f in $files){
@@ -106,7 +106,7 @@ foreach($f in $files){
   }
   $dl = @($dl | Sort-Object -Unique)
 
-  if(@($dl).Count -eq 0){
+  if($dl.Count -eq 0){
     "  WARN: no download-like links found"
   } else {
     foreach($rp in $dl){
@@ -125,11 +125,11 @@ foreach($f in $files){
     "  FAIL: missing '## Weiter' block"
   } else {
     $wlinks = Get-WeiterSectionLinks $txt
-    if(@($wlinks).Count -eq 0){
+    if($wlinks.Count -eq 0){
       $missingWeiter++
       "  FAIL: '## Weiter' has no links"
     } else {
-      "  OK: Weiter links -> $(@($wlinks).Count)"
+      "  OK: Weiter links -> $($wlinks.Count)"
     }
   }
 

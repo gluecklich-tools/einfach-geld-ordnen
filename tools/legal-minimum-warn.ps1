@@ -13,7 +13,7 @@ function Read-Utf8NoBom([string]$Path){
 
 function WarnIfMissing([string]$Label, [string]$Text, [string]$Needle){
   if ($Text -notmatch $Needle) {
-    Write-Output (WARN: {0} missing pattern: {1} -f $Label, $Needle)
+    Write-Output (WARN: {0} missing pattern: {1} -f @($Label, $Needle))
     return $false
   }
   return $true

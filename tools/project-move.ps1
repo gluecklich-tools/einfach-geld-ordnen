@@ -26,7 +26,7 @@ New-Item -ItemType Directory -Path $archRoot  -Force | Out-Null
 
 function Read-TsvPaths([string]$p){
   $lines = Get-Content -LiteralPath $p -Encoding UTF8
-  if(@($lines).Count -lt 2){ return @() }
+  if($lines.Count -lt 2){ return @() }
   $out = @()
   for($i=1;$i -lt $lines.Count;$i++){
     $cols = $lines[$i].Split("`t")

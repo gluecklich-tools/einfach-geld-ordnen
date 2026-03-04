@@ -23,9 +23,9 @@ $errors = $null
 [void][System.Management.Automation.Language.Parser]::ParseFile($p, [ref]$tokens, [ref]$errors)
 
 if($errors -and $errors.Count -gt 0){
-  "PARSER_FAIL: {0} error(s) in {1}" -f $errors.Count, $p
+  "PARSER_FAIL: {0} error(s) in {1}" -f @($errors.Count, $p)
   foreach($e in $errors){
-    ("- {0} @ {1}" -f $e.Message, ($e.Extent.Text -replace "\r?\n"," "))
+    ("- {0} @ {1}" -f @($e.Message, ($e.Extent.Text -replace "\r?\n"," ")))
   }
   exit 1
 }

@@ -262,7 +262,7 @@ $md += ""
 if($broken.Count -eq 0){ $md += "_None_" } else {
   $groups = $broken | Group-Object src_file | Sort-Object Count -Descending
   foreach($g in ($groups | Select-Object -First 30)){
-    $md += ("- **{0}**: {1}" -f $g.Name,$g.Count)
+    $md += ("- **{0}**: {1}" -f @($g.Name,$g.Count))
   }
   if($groups.Count -gt 30){ $md += ""; $md += "_Truncated to top 30._" }
 }
@@ -271,7 +271,7 @@ $md += "## Broken targets"
 $md += ""
 if($broken.Count -eq 0){ $md += "_None_" } else {
   foreach($b in ($broken | Sort-Object src,dst | Select-Object -First 200)){
-    $md += ("- {0} -> {1} ({2})" -f $b.src,$b.dst,$b.src_file)
+    $md += ("- {0} -> {1} ({2})" -f @($b.src,$b.dst,$b.src_file))
   }
   if($broken.Count -gt 200){ $md += ""; $md += "_Truncated to first 200._" }
 }

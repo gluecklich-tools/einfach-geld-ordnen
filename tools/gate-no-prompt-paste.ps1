@@ -21,7 +21,7 @@ foreach($f in $targets){
   foreach($s in $arr){
     $ln++
     if($s -match '^\s*PS\s+[A-Z]:\\' -or $s -match '^\s*PowerShell\s+\d'){
-      $bad.Add(('{0}:L{1}: prompt/output pasted into step file' -f $f.FullName,$ln))
+      $bad.Add(('{0}:L{1}: prompt/output pasted into step file' -f @($f.FullName,$ln)))
     }
   }
 }

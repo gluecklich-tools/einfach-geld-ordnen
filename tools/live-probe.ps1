@@ -108,7 +108,7 @@ function Req([ValidateSet('Head','Get')][string]$Method,[string]$Url){
 }
 
 # --- Paths normalize (robust for comma-list + quoted items) ---
-if($null -ne $Paths -and @($Paths).Count -eq 1 -and $Paths[0] -match ','){
+if($null -ne $Paths -and $Paths.Count -eq 1 -and $Paths[0] -match ','){
   $Paths = @($Paths[0] -split '\s*,\s*')
 }
 if($null -ne $Paths){
@@ -127,7 +127,7 @@ if($null -ne $Paths){
 # --- end normalize ---
 $baseClean = Normalize-Base $BaseUrl
 
-if($null -eq $Paths -or @($Paths).Count -eq 0){
+if($null -eq $Paths -or $Paths.Count -eq 0){
   $Paths = @('/seiten/rechner-uebersicht.html','/seiten/rechner-uebersicht.html')
 } else {
   $Paths = @($Paths) | ForEach-Object { Clean-Str $_ } | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }

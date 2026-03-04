@@ -27,7 +27,7 @@ foreach($f in $files){
 
     # Only filesystem path properties are considered "path filters"
     if($line -match '(?i)\b(FullName|Path|DirectoryName)\b\s*-\s*(match|notmatch)\b'){
-      $hits += ("{0}:L{1}: forbidden regex path filter: {2}" -f $f.FullName, ($i+1), $line.Trim())
+      $hits += ("{0}:L{1}: forbidden regex path filter: {2}" -f @($f.FullName, ($i+1), $line.Trim()))
     }
   }
 }

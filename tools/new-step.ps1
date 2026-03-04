@@ -31,7 +31,7 @@ $safe = ($Name -replace '[^a-zA-Z0-9_-]','-').Trim('-')
 if(-not $safe){ throw "Name became empty after sanitization." }
 
 $stepDir  = Join-Path $repo "_local\_scratch"
-$stepPath = Join-Path $stepDir ("step_{0}_{1}.ps1" -f $safe, $ts)
+$stepPath = Join-Path $stepDir ("step_{0}_{1}.ps1" -f @($safe, $ts))
 
 $stub = @"
 #requires -Version 7.0

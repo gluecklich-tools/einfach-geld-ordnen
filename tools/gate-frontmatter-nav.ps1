@@ -14,9 +14,9 @@ foreach($f in @($files)){
     $m=[regex]::Match($lines[$i],$rxKey); if(!$m.Success){ continue }
     $k=$m.Groups[1].Value.ToLowerInvariant(); $v=$m.Groups[2].Value.Trim()
     if($v -notmatch $rxVal){
-      $hits.Add(("{0}:{1}  {2}: {3}" -f $f.FullName,($i+1),$k,$v))
+      $hits.Add(("{0}:{1}  {2}: {3}" -f @($f.FullName,($i+1),$k,$v)))
     }
   }
 }
-if(@($hits).Count){ throw ("STOP: frontmatter next/prev/hub invalid:`n" + (@($hits) -join "`n")) }
+if($hits.Count){ throw ("STOP: frontmatter next/prev/hub invalid:`n" + (@($hits) -join "`n")) }
 "PASS: frontmatter next/prev/hub ok"

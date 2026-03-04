@@ -101,7 +101,7 @@ $KeepTsv = (Resolve-Path -LiteralPath $KeepTsv).Path
 # --- Helpers ---
 function Read-KeepPaths([string]$p){
   $lines = Get-Content -LiteralPath $p -Encoding UTF8
-  if(@($lines).Count -lt 2){ return @() }
+  if($lines.Count -lt 2){ return @() }
 
   # Header -> find path column index (case-insensitive)
   $header = $lines[0].Split("`t")

@@ -26,7 +26,7 @@ function Get-AllowlistFromStep([string]$stepFile){
   $ast = [System.Management.Automation.Language.Parser]::ParseInput($raw, [ref]$tokens, [ref]$errors)
   if($null -ne $errors -and $errors.Count -gt 0){
     $e = $errors[0]
-    throw ("FAIL: STEP_WRITE_ALLOWLIST_STEP_PARSERERROR in step: {0} (line {1}, col {2}): {3}" -f $stepFile,$e.Extent.StartLineNumber,$e.Extent.StartColumnNumber,$e.Message)
+    throw ("FAIL: STEP_WRITE_ALLOWLIST_STEP_PARSERERROR in step: {0} (line {1}, col {2}): {3}" -f @($stepFile,$e.Extent.StartLineNumber,$e.Extent.StartColumnNumber,$e.Message))
   }
 
   # Find assignment to $EGO_STEP_WRITE_ALLOWLIST where RHS is an array expression with string literals only.
@@ -79,7 +79,7 @@ foreach($c in $changed){
     $viol += $c
   }
 }
-if(@($viol).Count -gt 0){
+if($viol.Count -gt 0){
   throw ("FAIL: STEP_WRITE_ALLOWLIST_VIOLATION`nAllowed: " + ($allow -join ", ") + "`nChanged: " + ($changed -join ", ") + "`nViolations: " + ($viol -join ", "))
 }
 "PASS: gate-step-write-allowlist (changed within allowlist)"

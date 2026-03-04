@@ -30,18 +30,19 @@ foreach($file in $targets){
   $lines = (ReadUtf8 $file) -split "
 "
   for($i=0; $i -lt $lines.Count; $i++){
-    $line = ($lines[$i]).TrimEnd("")
+    $line = ($lines[$i]).TrimEnd("
+")
 
     # Block double-quoted regex patterns that contain '$' (StrictMode killer)
     # 1) -match "....$...."
     if($line -match '(?i)\-match\s+"[^"]*\$[^"]*"' -and $line -notmatch '^\s*#'){
-      $hits += ("{0}:{1} :: {2}" -f $file, ($i+1), $line.Trim())
+      $hits += ("{0}:{1} :: {2}" -f @($file, ($i+1), $line.Trim()))
       continue
     }
 
     # 2) [Regex]::Match/Replace(..., "....$....")
     if($line -match '(?i)\[Regex\]::(Match|Replace)\s*\([^,]+,\s*"[^"]*\$[^"]*"' -and $line -notmatch '^\s*#'){
-      $hits += ("{0}:{1} :: {2}" -f $file, ($i+1), $line.Trim())
+      $hits += ("{0}:{1} :: {2}" -f @($file, ($i+1), $line.Trim()))
       continue
     }
   }

@@ -44,9 +44,9 @@ foreach($f in $need){
   if($len -lt 10){ $missing += ($f + " (too small)") }
 }
 
-if(@($missing).Count -gt 0){
+if($missing.Count -gt 0){
   Fail ("STOP: inventory missing/invalid in SSOT: " + ($missing -join ', '))
 }
 
-"OK: gate-inventory-present (" + @($need).Count + " files)"
+"OK: gate-inventory-present (" + $need.Count + " files)"
 exit 0

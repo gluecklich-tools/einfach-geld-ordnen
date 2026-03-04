@@ -22,7 +22,7 @@ function Assert-StepParses([string]$Path){
     $first = $e[0]
     $line = $first.Extent.StartLineNumber
     $col  = $first.Extent.StartColumnNumber
-    Fail ("P0_STEP_PARSER_GATE: ParserError in step: {0} (line {1}, col {2}): {3}" -f $Path,$line,$col,$first.Message)
+    Fail ("P0_STEP_PARSER_GATE: ParserError in step: {0} (line {1}, col {2}): {3}" -f @($Path,$line,$col,$first.Message))
   }
 }
 

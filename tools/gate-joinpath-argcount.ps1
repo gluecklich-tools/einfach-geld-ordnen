@@ -27,7 +27,7 @@ foreach($rel in $rels){
   $tokens=$null; $errors=$null
   $ast=$null
   try{ $ast = [System.Management.Automation.Language.Parser]::ParseFile($p,[ref]$tokens,[ref]$errors) }catch{ continue }
-  if(@($errors).Count -gt 0){ continue }
+  if($errors.Count -gt 0){ continue }
 
   $cmds = $ast.FindAll({ param($n) $n -is [System.Management.Automation.Language.CommandAst] }, $true)
   foreach($c in $cmds){

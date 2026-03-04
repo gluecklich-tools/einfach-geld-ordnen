@@ -110,10 +110,10 @@ function Body-Scan([string[]]$body,[string]$relPath){
     if($inFence){ continue }
 
     $m1 = [Text.RegularExpressions.Regex]::Matches($line,'Ae|Oe|Ue|ae|oe|ue')
-    foreach($m in $m1){ $hits.Add(("{0}:{1}:{2}" -f $relPath, ($i+1), $m.Value)) }
+    foreach($m in $m1){ $hits.Add(("{0}:{1}:{2}" -f @($relPath, ($i+1), $m.Value)) })
 
     $m2 = [Text.RegularExpressions.Regex]::Matches($line,'\b(dass|muss|muesste|muessten|gross|groesser|groesste|weiss|Fuss|Mass)\b')
-    foreach($m in $m2){ $hits.Add(("{0}:{1}:{2}" -f $relPath, ($i+1), $m.Value)) }
+    foreach($m in $m2){ $hits.Add(("{0}:{1}:{2}" -f @($relPath, ($i+1), $m.Value)) })
   }
 
   return $hits.ToArray()

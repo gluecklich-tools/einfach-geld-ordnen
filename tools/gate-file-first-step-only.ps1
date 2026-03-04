@@ -26,7 +26,7 @@ Set-Location -LiteralPath $repo
 
 # Staged files (commit scope)
 $staged = @(git diff --cached --name-only)
-if(@($staged).Count -eq 0){
+if($staged.Count -eq 0){
   "PASS: FILE_FIRST_STEP_ONLY (no staged files)"
   exit 0
 }
@@ -40,7 +40,7 @@ if(-not (Test-Path -LiteralPath $proof)){
 $json = Get-Content -LiteralPath $proof -Raw -Encoding UTF8 | ConvertFrom-Json
 $allow = @($json.allowlist) | ForEach-Object { ($_ -replace '\\','/').TrimStart('./') }
 
-if(@($allow).Count -lt 1){
+if($allow.Count -lt 1){
   Fail "commit blocked: allowlist in proof is empty."
 }
 
@@ -50,7 +50,7 @@ foreach($f in $staged){
   if($allow -notcontains $p){ $bad += $p }
 }
 
-if(@($bad).Count -gt 0){
+if($bad.Count -gt 0){
   Fail ("commit blocked: staged files not in last step allowlist: " + ($bad -join ", "))
 }
 

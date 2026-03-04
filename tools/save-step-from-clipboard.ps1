@@ -30,7 +30,7 @@ if(-not $AllowAnywhere){
   if(!(Test-Path -LiteralPath $scratch)){ New-Item -ItemType Directory -Force -Path $scratch | Out-Null }
   $scratchFull = (Resolve-Path -LiteralPath $scratch).Path
   if(-not $p.StartsWith($scratchFull,[StringComparison]::OrdinalIgnoreCase)){
-    Fail ("STOP: OutPath must be under _local\_scratch. Given: {0}`nAllowedRoot: {1}" -f $p,$scratchFull)
+    Fail ("STOP: OutPath must be under _local\_scratch. Given: {0}`nAllowedRoot: {1}" -f @($p,$scratchFull))
   }
 }
 

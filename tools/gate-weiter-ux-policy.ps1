@@ -9,7 +9,7 @@ if([string]::IsNullOrWhiteSpace($repo)){ throw "STOP: repo root not found." }
 Set-Location -LiteralPath $repo
 
 $md = Get-ChildItem seiten,pillar -Recurse -File -Filter *.md -EA SilentlyContinue
-if(@($md).Count -eq 0){ throw "STOP: no md files in seiten/pillar." }
+if($md.Count -eq 0){ throw "STOP: no md files in seiten/pillar." }
 
 function CanonUrlFromRel([string]$rel){
   $r=$rel.Replace('\','/').ToLowerInvariant()
@@ -65,7 +65,7 @@ foreach($f in $md){
   }
 
   if($issues.Count -gt 0){
-    $bad.Add(("{0} :: {1}" -f $rel, ($issues -join '; '))) | Out-Null
+    $bad.Add(("{0} :: {1}" -f @($rel, ($issues -join '; '))) | Out-Null)
   }
 }
 

@@ -83,7 +83,7 @@ foreach($p in $files){
   $tokens=$null; $errors=$null
   $ast=$null
   try{ $ast = [System.Management.Automation.Language.Parser]::ParseFile($p,[ref]$tokens,[ref]$errors) }catch{ continue }
-  if(@($errors).Count -gt 0){ continue }
+  if($errors.Count -gt 0){ continue }
 
   $bins = $ast.FindAll({ param($n) $n -is [System.Management.Automation.Language.BinaryExpressionAst] -and $n.Operator -eq 'Format' }, $true)
   foreach($b in $bins){

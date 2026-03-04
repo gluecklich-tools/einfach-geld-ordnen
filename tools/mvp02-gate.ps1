@@ -28,4 +28,4 @@ if($missing.Count -gt 0){
 }
 $pages = @(Get-ChildItem -LiteralPath $seiten -File -Recurse -ErrorAction Stop | Where-Object { $_.Extension -in @(".md",".html") })
 $inc = @(Get-ChildItem -LiteralPath $includes -File -ErrorAction Stop)
-"PASS: mvp02-gate parser-safe (minimal mode). pages={0} includes={1}" -f $pages.Count, $inc.Count
+"PASS: mvp02-gate parser-safe (minimal mode). pages={0} includes={1}" -f @($pages.Count, $inc.Count)

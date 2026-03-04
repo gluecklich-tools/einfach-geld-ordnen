@@ -30,9 +30,9 @@ function ReadUtf8NoBom([string]$p){
 }
 
 function FindFrontmatterEnd([string[]]$lines){
-  if(@($lines).Count -lt 3){ return -1 }
+  if($lines.Count -lt 3){ return -1 }
   if($lines[0].Trim() -ne '---'){ return -1 }
-  for($i=1;$i -lt @($lines).Count;$i++){
+  for($i=1;$i -lt $lines.Count;$i++){
     if($lines[$i].Trim() -eq '---'){ return $i }
   }
   return -1
@@ -46,13 +46,13 @@ function GetFmValue([string]$fm,[string]$key){
 
 function CountWeiterLinksExact3([string[]]$bodyLines){
   $idx=-1
-  for($i=0;$i -lt @($bodyLines).Count;$i++){
+  for($i=0;$i -lt $bodyLines.Count;$i++){
     if($bodyLines[$i].Trim() -eq '## Weiter'){ $idx=$i; break }
   }
   if($idx -lt 0){ return @{ ok=$false; count=0; reason='missing' } }
 
   $cnt=0
-  for($j=$idx+1;$j -lt @($bodyLines).Count;$j++){
+  for($j=$idx+1;$j -lt $bodyLines.Count;$j++){
     $t=$bodyLines[$j].Trim()
     if($t.StartsWith('## ')){ break }
     if($t.Length -eq 0){ continue }
@@ -101,8 +101,8 @@ function CheckFile([string]$rel){
   }
 
   $body = ''
-  if($fmEnd + 1 -le @($lines).Count-1){
-    $body = ($lines[($fmEnd+1)..(@($lines).Count-1)] -join "`n")
+  if($fmEnd + 1 -le $lines.Count-1){
+    $body = ($lines[($fmEnd+1)..($lines.Count-1)] -join "`n")
   }
   $bodyLines = $body -split "`r?`n"
 
@@ -146,4 +146,4 @@ if($failsAll.Count -gt 0){
   throw "STOP: GATE_PAGE_BASICS_V1 failed ($($failsAll.Count))"
 }
 
-"GATE_PAGE_BASICS_V1: PASS ($(@($TargetsRel).Count))"
+"GATE_PAGE_BASICS_V1: PASS ($($TargetsRel.Count))"

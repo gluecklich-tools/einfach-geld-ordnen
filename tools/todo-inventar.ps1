@@ -7,7 +7,7 @@ Set-StrictMode -Version Latest
 try{Remove-Module PSReadLine -EA SilentlyContinue}catch{}
 try{chcp 65001|Out-Null}catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
-$ts = "{0}_{1}" -f (Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999)
+$ts = "{0}_{1}" -f @((Get-Date).ToString("yyyyMMdd_HHmmss_fff"), (Get-Random -Minimum 1000 -Maximum 9999))
 $outDir = Join-Path $RepoRoot 'tools/_reports'
 if(!(Test-Path -LiteralPath $outDir)){ New-Item -ItemType Directory -Path $outDir -Force | Out-Null }
 $out = Join-Path $outDir ("TODO_INVENTAR_{0}.md" -f $ts)
@@ -23,7 +23,7 @@ function Get-Hits([string]$Root,[string]$Tag){
   }
   $m = $files | Select-String -Pattern $rx -EA SilentlyContinue
   foreach($h in @($m)){
-    "- {0}: {1}:{2}  {3}" -f $Tag,$h.Path,$h.LineNumber,$h.Line.Trim()
+    "- {0}: {1}:{2}  {3}" -f @($Tag,$h.Path,$h.LineNumber,$h.Line.Trim())
   }
 }
 $repoHits = @()
