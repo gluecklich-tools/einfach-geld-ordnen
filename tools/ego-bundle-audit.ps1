@@ -8,8 +8,8 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 function Resolve-RepoRoot([string]$RepoRoot){
-  if($RepoRoot -and $RepoRoot.Trim().Length -gt 0){
-    return (Resolve-Path -LiteralPath $RepoRoot).Path
+  if($Repo -and $Repo.Trim().Length -gt 0){
+    return (Resolve-Path -LiteralPath $Repo).Path
   }
   try { return (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path }
   catch { throw "RepoRoot not found." }
@@ -30,7 +30,7 @@ function Write-Utf8NoBom([string]$Path,[string]$Text){
   [System.IO.File]::WriteAllText($Path, $t, $utf8)
 }
 
-$repo = Resolve-RepoRoot $RepoRoot
+$repo = Resolve-RepoRoot $Repo
 $downloads = Join-Path $repo "downloads"
 $bundles = Join-Path $downloads "bundles"
 

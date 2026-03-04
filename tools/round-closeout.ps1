@@ -99,7 +99,7 @@ try {
     $lines.Add("Json: $json")
 
     # capture stdout+stderr
-    $out = & pwsh -NoProfile -ExecutionPolicy Bypass -File $toolBundle -RepoRoot $repo -OutJson $json 2>&1
+    $out = & pwsh -NoProfile -ExecutionPolicy Bypass -File $toolBundle -Repo $repo -OutJson $json 2>&1
     foreach($o in @($out)){ $lines.Add("out: $o") }
 
     if(Test-Path -LiteralPath $json){
