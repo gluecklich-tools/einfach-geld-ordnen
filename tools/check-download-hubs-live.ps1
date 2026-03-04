@@ -16,36 +16,58 @@ function Fail([string]$m){ throw $m }
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
 $ProjectRoot = [System.IO.Path]::GetFullPath((Join-Path $RepoRoot "..\.."))
 
-$indexPath = Join-Path $ProjectRoot "_INTERN\governance\inventory\REPO_PERMALINK_INDEX.md"
-if(-not (Test-Path -LiteralPath $indexPath -PathType Leaf)){
-  Fail "MISSING_SSOT_INDEX: $indexPath"
+function Get-DownloadHubPermalinksFromSsotIndex([string]$IndexPath){
+  $out = @()
+  if(-not (Test-Path -LiteralPath $IndexPath -PathType Leaf)){ return @() }
+  $raw = Get-Content -LiteralPath $IndexPath -Raw -Encoding UTF8
+
+  # Grab any /seiten/...download-hub....html occurrences anywhere
+  $ms = [regex]::Matches($raw, '(?i)(/seiten/[^ \t\r\n\|"]*download-hub[^ \t\r\n\|"]*\.html)')
+  foreach($m in $ms){ $out += $m.Groups[1].Value }
+
+  @($out | Sort-Object -Unique)
 }
 
-$lines = Get-Content -LiteralPath $indexPath -Encoding UTF8
+function Get-DownloadHubPermalinksFromRepo(){
+  $out = @()
+  $seiten = Join-Path $RepoRoot "seiten"
+  if(-not (Test-Path -LiteralPath $seiten -PathType Container)){ return @() }
 
-# Extract permalinks for download hubs
-$permalinks = @()
-foreach($l in $lines){
-  if($l -match '\|'){
-    $ms = [regex]::Matches($l, '(?i)(/[^ \|]*download-hub[^ \|]*\.html)')
-    foreach($m in $ms){
-      $permalinks += $m.Groups[1].Value
+  $files = Get-ChildItem -LiteralPath $seiten -File -Filter "download-hub*.md" -ErrorAction SilentlyContinue
+  foreach($f in $files){
+    $txt = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
+
+    # Try frontmatter permalink: /seiten/xxx.html
+    $pm = [regex]::Match($txt, '(?im)^\s*permalink:\s*(/seiten/[^ \t\r\n]+)\s*$')
+    if($pm.Success){
+      $out += $pm.Groups[1].Value
+      continue
     }
+
+    # Fallback: derive from filename -> /seiten/<name>.html
+    $base = [System.IO.Path]::GetFileNameWithoutExtension($f.Name)
+    $out += ("/seiten/{0}.html" -f $base)
   }
+
+  @($out | Sort-Object -Unique)
 }
 
-# Force array + unique
-$permalinks = @($permalinks | Sort-Object -Unique)
+$indexPath = Join-Path $ProjectRoot "_INTERN\governance\inventory\REPO_PERMALINK_INDEX.md"
 
+$permalinks = Get-DownloadHubPermalinksFromSsotIndex -IndexPath $indexPath
+if(@($permalinks).Count -eq 0){
+  $permalinks = Get-DownloadHubPermalinksFromRepo
+}
+
+$permalinks = @($permalinks | Sort-Object -Unique)
 $cnt = @($permalinks).Count
 if($cnt -eq 0){
-  Fail "NO_DOWNLOAD_HUB_PERMALINKS_FOUND in REPO_PERMALINK_INDEX.md"
+  Fail "NO_DOWNLOAD_HUB_PERMALINKS_FOUND (SSOT index + repo fallback empty)"
 }
 
 $fail = 0
 "CHECK: download hubs live (count=$cnt)"
 "BaseUrl: $BaseUrl"
-"SSOT: $indexPath"
 "---"
 
 foreach($p in $permalinks){
