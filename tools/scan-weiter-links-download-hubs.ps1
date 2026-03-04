@@ -97,7 +97,7 @@ $out = Join-Path $reportDir ("weiter_links_download_hubs_{0}.tsv" -f $ts)
 $lines = New-Object System.Collections.Generic.List[string]
 $lines.Add("File`tIssue`tDetail")
 foreach ($x in $fail) {
-  $lines.Add(("{0}`t{1}`t{2}" -f $x.File, $x.Issue, $x.Detail))
+  $lines.Add([string]::Format("{0}`t{1}`t{2}", $x.File, $x.Issue, $x.Detail))
 }
 
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
