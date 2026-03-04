@@ -14,7 +14,8 @@ $ProgressPreference="SilentlyContinue"
 
 function Write-Utf8NoBomLF {
   param([Parameter(Mandatory)][string]$Path,[Parameter(Mandatory)][string]$Text)
-  $Text = ($Text -replace "`r`n","`n" -replace "`r","`n")
+  # Normalize line endings WITHOUT regex
+  $Text = $Text.Replace("`r`n","`n").Replace("`r","`n")
   [System.IO.File]::WriteAllText($Path,$Text,[System.Text.UTF8Encoding]::new($false))
 }
 
@@ -46,29 +47,40 @@ $lines = & pwsh -NoProfile -ExecutionPolicy Bypass -File $Gate @args 2>&1 | ForE
 $log = ($lines -join "`n")
 Write-Utf8NoBomLF -Path $logPath -Text $log
 
-# Parse warns
+# Parse WARNS without regex
 $warnCount = 0
-$m = [regex]::Match($log, '(?m)^WARNS=(\d+)\s*$')
-if($m.Success){ $warnCount = [int]$m.Groups[1].Value }
-
-# Extract warning lines after "WARNINGS:" until "---"
-$warnLines = New-Object System.Collections.Generic.List[string]
-if($warnCount -gt 0){
-  $in = $false
-  foreach($line in ($log -split "`n")){
-    if($line -match '^\s*WARNINGS:\s*$'){ $in = $true; continue }
-    if($in -and $line -match '^\s*---\s*$'){ break }
-    if($in){
-      $t = $line.Trim()
-      if($t.Length -gt 0){ $warnLines.Add($t) }
-    }
+foreach($line in $lines){
+  $t = $line.Trim()
+  if($t.StartsWith("WARNS=")){
+    $n = $t.Substring(6)
+    $tmp = 0
+    if([int]::TryParse($n, [ref]$tmp)){ $warnCount = $tmp }
+    break
   }
 }
 
-# If warns present: write CSV rows (still header + lines)
+# Extract warning lines between "WARNINGS:" and "---"
+$warnLines = New-Object System.Collections.Generic.List[string]
+if($warnCount -gt 0){
+  $in = $false
+  foreach($line in $lines){
+    $t = $line.Trim()
+    if((-not $in) -and ($t -eq "WARNINGS:")){ $in = $true; continue }
+    if($in -and ($t -eq "---")){ break }
+    if($in -and $t.Length -gt 0){ $warnLines.Add($t) }
+  }
+}
+
+# If warns present: write CSV rows (header + each warn line)
 if($warnLines.Count -gt 0){
-  $csv = "warn`n" + (($warnLines | ForEach-Object { $_ -replace '"','""' }) -join "`n") + "`n"
-  Write-Utf8NoBomLF -Path $csvPath -Text $csv
+  $sb = New-Object System.Text.StringBuilder
+  [void]$sb.AppendLine("warn")
+  foreach($w in $warnLines){
+    # CSV-safe for quotes (string replace, not regex)
+    $x = $w.Replace('"','""')
+    [void]$sb.AppendLine($x)
+  }
+  Write-Utf8NoBomLF -Path $csvPath -Text $sb.ToString()
 }
 
 $meta = @{
