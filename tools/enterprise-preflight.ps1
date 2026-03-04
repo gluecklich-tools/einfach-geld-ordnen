@@ -54,3 +54,8 @@ exit 0
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "gate-no-relative-file-io.ps1") -RepoRoot $RepoRoot
 $ec = $LASTEXITCODE
 if($ec -ne 0){ throw ("STOP: gate failed: {0} (exit={1})" -f (Join-Path $PSScriptRoot "gate-no-relative-file-io.ps1"), $ec) }
+
+# P0 Gate: Brain root must be fresh (visible heartbeat)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "gate-brain-root-freshness.ps1") -RepoRoot $RepoRoot
+$ec = $LASTEXITCODE
+if($ec -ne 0){ throw ("STOP: gate failed: {0} (exit={1})" -f (Join-Path $PSScriptRoot "gate-brain-root-freshness.ps1"), $ec) }
