@@ -1,8 +1,17 @@
 #requires -Version 7.0
 param(
-  [Parameter(Mandatory=$true)][string]$RepoRoot,
+  [string]$RepoRoot,
   [switch]$ForCommit
 )
+
+
+
+# EGO_P0_REPOROOT_DERIVE
+if([string]::IsNullOrWhiteSpace($RepoRoot)){
+  $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+} else {
+  $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+}
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
