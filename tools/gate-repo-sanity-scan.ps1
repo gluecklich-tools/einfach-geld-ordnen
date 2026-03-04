@@ -46,8 +46,8 @@ $roots = @(
 # Patterns (known bug classes)
 $patterns = @(
   @{ Name="FRONTMATTER_GLUED_H1"; Regex="(?m)^---#"; },
-  @{ Name="MOJIBAKE_BOX";       Regex="+"; },
-  @{ Name="MOJIBAKE_UTF8";      Regex="U+FFFD|U+FFFD"; },
+  @{ Name="MOJIBAKE_BOX";       Regex="__NEVER__"; },
+  @{ Name="MOJIBAKE_UTF8";      Regex="__NEVER__"; },
   @{ Name="MOJIBAKE_REPLCHAR";  Regex="?"; }
 )
 
@@ -61,6 +61,28 @@ foreach($r in $roots){
     $text = [IO.File]::ReadAllText($path, $enc)
 
     foreach($p in $patterns){
+    # BEGIN_TRUE_MOJIBAKE_SPECIALCASE
+    if($p.Name -eq "MOJIBAKE_BOX"){
+      $mjbSet = Build-MojibakeMarkerSet
+      $mkList = $mjbSet
+      if($mjbSet -is [hashtable] -and $mjbSet.ContainsKey("Markers")){ $mkList = $mjbSet["Markers"] }
+      elseif($mjbSet.PSObject.Properties.Name -contains "Markers"){ $mkList = $mjbSet.Markers }
+
+      $m = 0
+      foreach($mk in $mkList){
+        $m += ([regex]::Matches($text, [regex]::Escape($mk))).Count
+      }
+      if($m -gt 0){ $found.Add([pscustomobject]@{ Name=$p.Name; File=$rel; Count=$m }) | Out-Null }
+      continue
+    }
+
+    if($p.Name -eq "MOJIBAKE_REPLCHAR"){
+      $repl = [string][char]0xFFFD
+      $m = ([regex]::Matches($text, [regex]::Escape($repl))).Count
+      if($m -gt 0){ $found.Add([pscustomobject]@{ Name=$p.Name; File=$rel; Count=$m }) | Out-Null }
+      continue
+    }
+    # END_TRUE_MOJIBAKE_SPECIALCASE
       $m = [regex]::Matches($text, [regex]::Escape($p.Regex))
       if($m.Count -gt 0){
         $hits.Add([pscustomobject]@{
