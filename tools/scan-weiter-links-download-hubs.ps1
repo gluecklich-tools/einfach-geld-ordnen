@@ -194,8 +194,7 @@ $content = (($lines | ForEach-Object { $_ }) -join "`n") + "`n"
 [System.IO.File]::WriteAllText($out, $content, $utf8NoBom)
 
 "OK: wrote report: $out"
-$issueCountTmp = @($fail).Count
-[int]$issueCount = $issueCountTmp
+$issueCount = $fail.Count
 if ($issueCount -gt 0) {
   "FAIL: " + $issueCount + " issue(s) found. See: " + $out
   exit 2
