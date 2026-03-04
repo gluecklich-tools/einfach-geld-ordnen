@@ -14,7 +14,6 @@ function Get-RepoRoot {
 function Read-Utf8 {
   param([Parameter(Mandatory)][string]$Path)
   $bytes = [System.IO.File]::ReadAllBytes($Path)
-  # naive utf8 (BOM tolerant)
   return [System.Text.Encoding]::UTF8.GetString($bytes)
 }
 
@@ -24,8 +23,6 @@ function Normalize-Lf([string]$s){
 
 $root = Get-RepoRoot -Maybe $RepoRoot
 
-# Find download hubs (site pages) - conservative pattern
-# Adjust if your hub paths differ.
 $hubFiles = @()
 $hubFiles += Get-ChildItem -LiteralPath (Join-Path $root "seiten") -Filter "download-hub-*.md" -File -ErrorAction SilentlyContinue
 $hubFiles += Get-ChildItem -LiteralPath (Join-Path $root "seiten") -Filter "download-hub-*.markdown" -File -ErrorAction SilentlyContinue
@@ -40,7 +37,6 @@ $fail = New-Object System.Collections.Generic.List[object]
 foreach ($f in $hubFiles) {
   $raw = Normalize-Lf (Read-Utf8 -Path $f.FullName)
 
-  # Extract '## Weiter' block until next heading (## ) or EOF
   $m = [regex]::Match($raw, "(?ms)^##\s+Weiter\s*\n(.*?)(?=^\#\#\s+|\z)")
   if (-not $m.Success) {
     $fail.Add([pscustomobject]@{ File=$f.FullName; Issue="MISSING_WEITER_BLOCK"; Detail="No '## Weiter' section" })
@@ -49,7 +45,6 @@ foreach ($f in $hubFiles) {
 
   $block = $m.Groups[1].Value
 
-  # Count markdown links [text](url) excluding (#)
   $links = [regex]::Matches($block, "\[[^\]]+\]\(([^)]+)\)")
   $count = 0
   foreach ($lm in $links) {
@@ -66,27 +61,18 @@ foreach ($f in $hubFiles) {
     })
   }
 
-  # Validate link targets (repo-local): relative paths that end with .html or .md
   foreach ($lm in $links) {
     $u = $lm.Groups[1].Value.Trim()
     if ($u -eq "#") { continue }
-
-    # Skip absolute http(s)
     if ($u -match "^(https?:)?//") { continue }
-    # Skip mailto/tel
     if ($u -match "^(mailto:|tel:)") { continue }
 
     $u2 = $u -replace "^\{\{\s*site\.baseurl\s*\}\}", ""
     $u2 = $u2.Trim()
-
-    # Remove anchors/query
     $u2 = ($u2 -split "#")[0]
     $u2 = ($u2 -split "\?")[0]
     $u2 = $u2.Trim()
-
     if (-not $u2) { continue }
-
-    # Normalize leading slash
     if ($u2.StartsWith("/")) { $u2 = $u2.Substring(1) }
 
     $candidate = Join-Path $root ($u2 -replace "/","\")
@@ -112,7 +98,10 @@ $lines.Add("File`tIssue`tDetail")
 foreach ($x in $fail) {
   $lines.Add(("{0}`t{1}`t{2}" -f $x.File, $x.Issue, $x.Detail))
 }
-[System.IO.File]::WriteAllLines($out, $lines, (New-Object System.Text.UTF8Encoding($false)))
+
+# FIX: force string[] for overload stability
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllLines($out, $lines.ToArray(), $utf8NoBom)
 
 "OK: wrote report: $out"
 if (@($fail).Count -gt 0) {
