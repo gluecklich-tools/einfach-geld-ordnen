@@ -1,5 +1,5 @@
 #requires -Version 7.0
-param()
+param([string]$StepPath)
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest

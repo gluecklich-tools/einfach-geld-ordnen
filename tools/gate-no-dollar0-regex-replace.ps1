@@ -11,8 +11,8 @@ try { if($IsWindows){ chcp 65001 > $null } } catch {}
 
 function Fail([string]$m){ throw $m }
 
-# P0: block "$0" misuse. Do NOT globally scan scratch history (would deadlock).
-# Always scan tools. If -StepPath is provided, scan ONLY that step additionally.
+# P0 gate: block "$0" misuse (PowerShell has no $0 like sed/perl).
+# IMPORTANT: do NOT scan scratch history globally. Always scan tools; optionally scan only the current step.
 
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
 
@@ -25,7 +25,6 @@ if(-not [string]::IsNullOrWhiteSpace($StepPath)){
 }
 
 $hits = New-Object System.Collections.Generic.List[string]
-
 foreach($f in $targets){
   $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
   if(($raw -match '\$0') -and ($raw -notmatch '\$\{0\}')){

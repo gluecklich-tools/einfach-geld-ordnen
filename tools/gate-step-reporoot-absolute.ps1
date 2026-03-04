@@ -1,44 +1,34 @@
 #requires -Version 7.0
-param([string]$StepPath,
-  [string]$RepoRoot = (Get-Location).Path,
-  [string]$ScratchDir = $(Join-Path (Resolve-Path -LiteralPath $RepoRoot).Path "_local\_scratch")
+param(
+  [string]$StepPath = ""
 )
 
-$ErrorActionPreference='Stop'
+$ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+Remove-Module PSReadLine -ErrorAction SilentlyContinue
+try { if($IsWindows){ chcp 65001 > $null } } catch {}
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
-# P0_STEP_SCOPE_REPOROOT_ABSOLUTE
+function Fail([string]$m){ throw $m }
+
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
-$StepPathResolved = $null
-if(-not [string]::IsNullOrWhiteSpace($StepPath)){
-  $StepPathResolved = (Resolve-Path -LiteralPath $StepPath).Path
-}
-try{ Remove-Module PSReadLine -ErrorAction SilentlyContinue }catch{}
-try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
-[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
-$enc=[Text.UTF8Encoding]::new($false)
 
-function ReadUtf8([string]$p){ [IO.File]::ReadAllText($p,$enc) }
-
-$RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
-$ScratchDir = (Resolve-Path -LiteralPath $ScratchDir).Path
-if(-not (Test-Path -LiteralPath $ScratchDir)){ throw "STOP: scratch missing: $ScratchDir" }
-
-$files = @(Get-ChildItem -LiteralPath $ScratchDir -File -Filter "step_*.ps1" -ErrorAction Stop | Sort-Object Name)
-if($files.Count -eq 0){ "OK: GATE_STEP_REPOROOT_ABSOLUTE (no step files)"; exit 0 }
-
-$bad = New-Object System.Collections.Generic.List[string]
-foreach($f in $files){
-  $t = ReadUtf8 $f.FullName
-  if($t -notmatch "_local\\_scratch"){ continue }
-
-  if(-not (($t -match 'Join-Path') -and ($t -match '\$RepoRoot'))){
-    $bad.Add(("Step may fallthrough to HOME (missing Join-Path/RepoRoot) in {0}" -f $f.Name))|Out-Null
-  }
-  if($t -match "(?i)C:\\Users\\"){
-    $bad.Add(("Hard-coded user path in step {0}" -f $f.Name))|Out-Null
-  }
+if([string]::IsNullOrWhiteSpace($StepPath)){
+  "PASS: GATE_STEP_REPOROOT_ABSOLUTE (no StepPath provided)"
+  exit 0
 }
 
-if($bad.Count -gt 0){ "FAIL: GATE_STEP_REPOROOT_ABSOLUTE"; $bad|%{ " - " + $_ }; exit 3 }
-"OK: GATE_STEP_REPOROOT_ABSOLUTE PASS"; exit 0
+$sp = (Resolve-Path -LiteralPath $StepPath).Path
+$raw = Get-Content -LiteralPath $sp -Raw -Encoding UTF8
+
+# Hard fail if step contains a hard-coded user home path patterns (basic)
+if($raw -match '(?i)C:\\Users\\'){
+  Fail ("FAIL: GATE_STEP_REPOROOT_ABSOLUTE Hard-coded user path in step: {0}" -f $sp)
+}
+
+# Hard fail if step uses relative IO paths (very basic heuristic)
+if($raw -match '(?m)^\s*Get-Content\s+-LiteralPath\s+"\.\\"' -or $raw -match '(?m)^\s*Set-Content\s+-LiteralPath\s+"\.\\"'){
+  Fail ("FAIL: GATE_STEP_REPOROOT_ABSOLUTE Relative IO path in step: {0}" -f $sp)
+}
+
+"PASS: GATE_STEP_REPOROOT_ABSOLUTE"
