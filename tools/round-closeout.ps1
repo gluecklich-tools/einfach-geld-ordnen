@@ -87,20 +87,39 @@ Write-Utf8NoBom $logPreflight (($pre -join "`n") + "`n")
 
 # --- 3) Bundle audit (optional) -> JSON file if tool supports it ---
 $bundleNote = "SKIP"
+$bundleLog  = Join-Path $outDir ("round_bundle_audit_{0}.log" -f $ts)
+
 try {
   if(Test-Path -LiteralPath $toolBundle){
     $json = Join-Path $outDir ("round_bundle_audit_{0}.json" -f $ts)
-    # attempt json-out; if tool doesn't support, catch
-    & pwsh -NoProfile -ExecutionPolicy Bypass -File $toolBundle -RepoRoot $repo -OutJson $json 2>$null | Out-Null
-    if(Test-Path -LiteralPath $json){ $bundleNote = "OK: wrote $json" } else { $bundleNote = "WARN: bundle audit json not written" }
+
+    $lines = New-Object System.Collections.Generic.List[string]
+    $lines.Add("[$now] bundle audit")
+    $lines.Add("Tool: $toolBundle")
+    $lines.Add("Json: $json")
+
+    # capture stdout+stderr
+    $out = & pwsh -NoProfile -ExecutionPolicy Bypass -File $toolBundle -RepoRoot $repo -OutJson $json 2>&1
+    foreach($o in @($out)){ $lines.Add("out: $o") }
+
+    if(Test-Path -LiteralPath $json){
+      $bundleNote = "OK: wrote $json"
+      $lines.Add("OK: json written")
+    } else {
+      $bundleNote = "WARN: bundle audit json not written"
+      $lines.Add("WARN: json missing after run")
+    }
+
+    Write-Utf8NoBom $bundleLog (($lines -join "`n") + "`n")
   } else {
     $bundleNote = "WARN: missing tools/ego-bundle-audit.ps1"
   }
 } catch {
   $bundleNote = "WARN: bundle audit failed: $($_.Exception.Message)"
-}
-
-# --- 4) TODO prioritization from Brain TODO.md (if present) ---
+  try {
+    Write-Utf8NoBom $bundleLog (("[$now] EXCEPTION: " + $_.Exception.Message) + "`n")
+  } catch {}
+}# --- 4) TODO prioritization from Brain TODO.md (if present) ---
 $todoPath = Join-Path $brainRoot "TODO.md"
 $todoLines = @()
 $todoLines += "# TODO Priorisierung (Round Closeout) – $now"
