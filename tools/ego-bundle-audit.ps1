@@ -5,9 +5,6 @@ param(
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { if ($IsWindows) { chcp 65001 > $null } } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 function Resolve-RepoRoot {
   param([string]$RepoRoot)
@@ -34,42 +31,36 @@ function Add-Finding([string]$Level, [string]$Code, [string]$Message, [string]$P
 
 if (!(Test-Path -LiteralPath $downloads)) {
   Add-Finding -Level "WARN" -Code "DOWNLOADS_MISSING" -Message "downloads/ folder missing" -Path $downloads
+} elseif (!(Test-Path -LiteralPath $bundles)) {
+  Add-Finding -Level "WARN" -Code "BUNDLES_DIR_MISSING" -Message "downloads/bundles/ folder missing" -Path $bundles
 } else {
-  if (!(Test-Path -LiteralPath $bundles)) {
-    Add-Finding -Level "WARN" -Code "BUNDLES_DIR_MISSING" -Message "downloads/bundles/ folder missing" -Path $bundles
+  $zips = Get-ChildItem -LiteralPath $bundles -File -Filter "*.zip" -ErrorAction Stop
+  if (@($zips).Count -eq 0) {
+    Add-Finding -Level "WARN" -Code "NO_ZIPS" -Message "No bundle ZIPs found in downloads/bundles" -Path $bundles
   } else {
-    $zips = Get-ChildItem -LiteralPath $bundles -File -Filter "*.zip" -ErrorAction Stop
-    if (@($zips).Count -eq 0) {
-      Add-Finding -Level "WARN" -Code "NO_ZIPS" -Message "No bundle ZIPs found in downloads/bundles" -Path $bundles
-    } else {
-      foreach ($z in $zips) {
-        # Tier heuristics by filename
-        $tier = "UNKNOWN"
-        $n = $z.Name
-        if ($n -match '(?i)freebie') { $tier = "FREEBIE" }
-        elseif ($n -match '(?i)\bpro\b') { $tier = "PRO" }
-        elseif ($n -match '(?i)voll|full') { $tier = "VOLL" }
+    foreach ($z in $zips) {
+      $tier = "UNKNOWN"
+      $n = $z.Name
+      if ($n -match '(?i)freebie') { $tier = "FREEBIE" }
+      elseif ($n -match '(?i)\bpro\b') { $tier = "PRO" }
+      elseif ($n -match '(?i)voll|full') { $tier = "VOLL" }
 
-        if ($tier -eq "UNKNOWN") {
-          Add-Finding -Level "WARN" -Code "TIER_UNKNOWN" -Message "Bundle tier not recognized from filename" -Path $z.FullName
-        }
-
-        if ($z.Length -lt 10240) {
-          Add-Finding -Level "WARN" -Code "ZIP_TOO_SMALL" -Message "ZIP is unusually small (<10KB)" -Path $z.FullName
-        }
-
-        # Placeholder check (very rough)
-        if ($n -match '(?i)placeholder') {
-          Add-Finding -Level "WARN" -Code "PLACEHOLDER_ZIP" -Message "ZIP filename suggests placeholder" -Path $z.FullName
-        }
+      if ($tier -eq "UNKNOWN") {
+        Add-Finding -Level "WARN" -Code "TIER_UNKNOWN" -Message "Bundle tier not recognized from filename" -Path $z.FullName
+      }
+      if ($z.Length -lt 10240) {
+        Add-Finding -Level "WARN" -Code "ZIP_TOO_SMALL" -Message "ZIP is unusually small (<10KB)" -Path $z.FullName
+      }
+      if ($n -match '(?i)placeholder') {
+        Add-Finding -Level "WARN" -Code "PLACEHOLDER_ZIP" -Message "ZIP filename suggests placeholder" -Path $z.FullName
       }
     }
   }
 }
 
-# Output object (tool output is pipeline-friendly)
-[pscustomobject]@{
+# IMPORTANT: single object output
+Write-Output ([pscustomobject]@{
   repo = $repo
   bundlesDir = $bundles
-  findings = $findings
-}
+  findings = @($findings)
+})
