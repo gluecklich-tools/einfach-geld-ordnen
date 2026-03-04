@@ -12,9 +12,12 @@ try { if($IsWindows){ chcp 65001 > $null } } catch {}
 function Fail([string]$m){ throw $m }
 
 # P0 gate: block "$0" misuse (PowerShell has no $0 like sed/perl).
-# IMPORTANT: do NOT scan scratch history globally. Always scan tools; optionally scan only the current step.
+# - Always scan tools
+# - Optionally scan ONLY the current step (when -StepPath is provided)
+# - NEVER self-flag this gate file
 
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+$SelfPath = (Resolve-Path -LiteralPath $PSCommandPath).Path
 
 $targets = @()
 $targets += Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Filter "*.ps1" -ErrorAction SilentlyContinue
@@ -25,16 +28,22 @@ if(-not [string]::IsNullOrWhiteSpace($StepPath)){
 }
 
 $hits = New-Object System.Collections.Generic.List[string]
+
 foreach($f in $targets){
-  $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
+  $fp = (Resolve-Path -LiteralPath $f.FullName).Path
+  if($fp -eq $SelfPath){ continue } # self-exclude
+
+  $raw = Get-Content -LiteralPath $fp -Raw -Encoding UTF8
+
+  # Detect literal $0 usage but allow ${0}
   if(($raw -match '\$0') -and ($raw -notmatch '\$\{0\}')){
-    $hits.Add($f.FullName)
+    $hits.Add($fp)
   }
 }
 
 $hits = @($hits | Sort-Object -Unique)
 if($hits.Count -gt 0){
-  Fail ("FAIL: NO_DOLLAR0_REPLACE`nFound `$0 usage in:`n - " + ($hits -join "`n - "))
+  Fail ("FAIL: NO_DOLLAR0_REPLACE Found `$0 usage in:`n - " + ($hits -join "`n - "))
 }
 
 "PASS: gate-no-dollar0-regex-replace"
