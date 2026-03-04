@@ -5,6 +5,9 @@ param(
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
+# P0_UX_NO_PROMPTS_POLICY
+$ConfirmPreference = 'None'
+$ProgressPreference = 'SilentlyContinue'
 try { if($IsWindows){ chcp 65001 > $null } } catch {}
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
