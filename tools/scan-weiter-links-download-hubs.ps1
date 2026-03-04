@@ -105,5 +105,7 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 
 "OK: wrote report: $out"
 if (@($fail).Count -gt 0) {
-  throw ("FAIL: {0} issue(s) found. See: {1}" -f @($fail).Count, $out)
+  $issueCount = @($fail).Count
+  $msg = "FAIL: {0} issue(s) found. See: {1}" -f @($issueCount, $out)
+  throw $msg
 }
