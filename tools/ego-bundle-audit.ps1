@@ -1,18 +1,24 @@
 #requires -Version 7.0
+[CmdletBinding()]
 param(
-  [string]$Repo = "",
-  [Parameter(Mandatory)][string]$OutJson
+  [Parameter(Mandatory)]
+  [ValidateNotNullOrEmpty()]
+  [string]$Repo,
+
+  [Parameter(Mandatory)]
+  [ValidateNotNullOrEmpty()]
+  [string]$OutJson,
+
+  # Backward-compat alias
+  [Alias("RepoRoot")]
+  [string]$RepoRootCompat = ""
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 
-function Resolve-RepoRoot([string]$Repo){
-  if($Repo -and $Repo.Trim().Length -gt 0){
-    return (Resolve-Path -LiteralPath $Repo).Path
-  }
-  try { return (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path }
-  catch { throw "RepoRoot not found." }
+function Resolve-Repo([string]$Repo){
+  return (Resolve-Path -LiteralPath $Repo).Path
 }
 
 function Ensure-Dir([string]$path){
@@ -25,14 +31,14 @@ function Ensure-Dir([string]$path){
 function Write-Utf8NoBom([string]$Path,[string]$Text){
   Ensure-Dir $Path
   $utf8 = New-Object System.Text.UTF8Encoding($false)
-  # normalize line endings without regex
   $t = $Text.Replace("`r`n","`n")
-  [System.IO.File]::WriteAllText($Path, $t, $utf8)
+  [System.IO.File]::WriteAllText($Path,$t,$utf8)
 }
 
-$repo = Resolve-RepoRoot $Repo
+$repo = Resolve-Repo $Repo
+
 $downloads = Join-Path $repo "downloads"
-$bundles = Join-Path $downloads "bundles"
+$bundles   = Join-Path $downloads "bundles"
 
 $findings = New-Object System.Collections.Generic.List[object]
 function Add([string]$Level,[string]$Code,[string]$Message,[string]$Path){
@@ -50,10 +56,10 @@ if(!(Test-Path -LiteralPath $downloads)){
   } else {
     foreach($z in $zips){
       $n = $z.Name
-      $tier = "UNKNOWN"
-      if($n -match '(?i)freebie'){ $tier = "FREEBIE" }
-      elseif($n -match '(?i)\bpro\b'){ $tier = "PRO" }
-      elseif($n -match '(?i)voll|full'){ $tier = "VOLL" }
+      $tier="UNKNOWN"
+      if($n -match '(?i)freebie'){ $tier="FREEBIE" }
+      elseif($n -match '(?i)\bpro\b'){ $tier="PRO" }
+      elseif($n -match '(?i)voll|full'){ $tier="VOLL" }
 
       if($tier -eq "UNKNOWN"){ Add "WARN" "TIER_UNKNOWN" "Bundle tier not recognized from filename" $z.FullName }
       if($z.Length -lt 10240){ Add "WARN" "ZIP_TOO_SMALL" "ZIP is unusually small (<10KB)" $z.FullName }
@@ -62,13 +68,13 @@ if(!(Test-Path -LiteralPath $downloads)){
   }
 }
 
-$result = [pscustomobject]@{
-  repo = $repo
-  bundlesDir = $bundles
-  findings = @($findings)
+$result=[pscustomobject]@{
+  repo=$repo
+  bundlesDir=$bundles
+  findings=@($findings)
 }
 
 $json = $result | ConvertTo-Json -Depth 6
 Write-Utf8NoBom -Path $OutJson -Text ($json + "`n")
 
-"OK: wrote $OutJson"
+Write-Output ("OK: wrote " + $OutJson)
