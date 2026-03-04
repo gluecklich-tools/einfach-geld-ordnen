@@ -4,3 +4,4 @@ $GateCloseout = Join-Path $RepoRoot "tools\gate-closeout-after-commit.ps1"
 & pwsh -NoProfile -ExecutionPolicy Bypass -File $GateCloseout
 $ecCloseout = $LASTEXITCODE
 if($ecCloseout -ne 0){ throw "STOP: gate-closeout-after-commit failed (exit=$ecCloseout)" }
+
