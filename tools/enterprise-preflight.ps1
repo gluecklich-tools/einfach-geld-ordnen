@@ -59,3 +59,6 @@ if($ec -ne 0){ throw ("STOP: gate failed: {0} (exit={1})" -f (Join-Path $PSScrip
 & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "gate-brain-root-freshness.ps1") -RepoRoot $RepoRoot
 $ec = $LASTEXITCODE
 if($ec -ne 0){ throw ("STOP: gate failed: {0} (exit={1})" -f (Join-Path $PSScriptRoot "gate-brain-root-freshness.ps1"), $ec) }
+
+# P0_KNOWN_FAILURES_GATESET
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "tools\gatesets\p0-known-failures.ps1")

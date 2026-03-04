@@ -51,6 +51,8 @@ $runner = Join-Path $RepoRoot "tools\step-run.ps1"
 if(-not (Test-Path -LiteralPath $runner -PathType Leaf)){ Fail "FAIL: Missing runner: $runner" }
 
 Assert-StepParses -Path $sp
+# P0_KNOWN_FAILURES_GATESET
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "tools\gatesets\p0-known-failures.ps1")
 & pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $sp
 $ec = $LASTEXITCODE
 if($ec -ne 0){ Fail "STOP: step-run failed (exit=$ec)" }
