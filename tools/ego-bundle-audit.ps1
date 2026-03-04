@@ -20,7 +20,7 @@ function Write-Utf8NoBom {
   $dir = Split-Path -Parent $Path
   if ($dir -and !(Test-Path -LiteralPath $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
   $utf8 = New-Object System.Text.UTF8Encoding($false)
-  $t = $Text -replace "`r`n","`n"
+  $t = $Text.Replace("`r`n","`n")
   [System.IO.File]::WriteAllText($Path, $t, $utf8)
 }
 

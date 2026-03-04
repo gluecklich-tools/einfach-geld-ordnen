@@ -16,7 +16,7 @@ function Write-Utf8NoBom([string]$Path,[string]$Text){
   $dir = Split-Path -Parent $Path
   if($dir -and !(Test-Path -LiteralPath $dir)){ New-Item -ItemType Directory -Force -Path $dir | Out-Null }
   $utf8 = New-Object System.Text.UTF8Encoding($false)
-  [System.IO.File]::WriteAllText($Path, ($Text -replace "`r`n","`n"), $utf8)
+  [System.IO.File]::WriteAllText($Path, ($Text.Replace("`r`n","`n")), $utf8)
 }
 
 function Repo-IsClean([string]$repo){
