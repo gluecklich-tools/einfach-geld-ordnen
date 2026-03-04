@@ -1,13 +1,13 @@
 #requires -Version 7.0
 param(
-  [string]$RepoRoot = "",
+  [string]$Repo = "",
   [Parameter(Mandatory)][string]$OutJson
 )
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-function Resolve-RepoRoot([string]$RepoRoot){
+function Resolve-RepoRoot([string]$Repo){
   if($Repo -and $Repo.Trim().Length -gt 0){
     return (Resolve-Path -LiteralPath $Repo).Path
   }
