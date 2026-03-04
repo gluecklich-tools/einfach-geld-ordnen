@@ -1,5 +1,7 @@
 #requires -Version 7.0
-param()
+param(
+  [string]$StepPath = ""
+)
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
@@ -9,25 +11,23 @@ try { if($IsWindows){ chcp 65001 > $null } } catch {}
 
 function Fail([string]$m){ throw $m }
 
-# P0 gate: block accidental "$0" usage (PowerShell has no $0 like sed/perl).
-# Allow `${0}` (regex backref syntax). Everything else `$0` is a fail.
+# P0: block "$0" misuse. Do NOT globally scan scratch history (would deadlock).
+# Always scan tools. If -StepPath is provided, scan ONLY that step additionally.
 
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
 
 $targets = @()
 $targets += Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Filter "*.ps1" -ErrorAction SilentlyContinue
 
-$scratch = Join-Path $RepoRoot "_local\_scratch"
-if(Test-Path -LiteralPath $scratch -PathType Container){
-  $targets += Get-ChildItem -LiteralPath $scratch -File -Filter "step_*.ps1" -ErrorAction SilentlyContinue
+if(-not [string]::IsNullOrWhiteSpace($StepPath)){
+  $sp = (Resolve-Path -LiteralPath $StepPath).Path
+  $targets += Get-Item -LiteralPath $sp -ErrorAction Stop
 }
 
 $hits = New-Object System.Collections.Generic.List[string]
 
 foreach($f in $targets){
   $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
-
-  # If file contains any $0 not in ${0} => fail
   if(($raw -match '\$0') -and ($raw -notmatch '\$\{0\}')){
     $hits.Add($f.FullName)
   }

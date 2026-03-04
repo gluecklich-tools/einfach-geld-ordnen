@@ -1,11 +1,18 @@
 #requires -Version 7.0
-param(
+param([string]$StepPath,
   [string]$RepoRoot = (Get-Location).Path,
   [string]$ScratchDir = $(Join-Path (Resolve-Path -LiteralPath $RepoRoot).Path "_local\_scratch")
 )
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
+
+# P0_STEP_SCOPE_REPOROOT_ABSOLUTE
+$RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+$StepPathResolved = $null
+if(-not [string]::IsNullOrWhiteSpace($StepPath)){
+  $StepPathResolved = (Resolve-Path -LiteralPath $StepPath).Path
+}
 try{ Remove-Module PSReadLine -ErrorAction SilentlyContinue }catch{}
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
 [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)

@@ -2,6 +2,15 @@
 [CmdletBinding()]
 param()
 
+
+
+# EGO_P0_REPOROOT_DERIVE
+if([string]::IsNullOrWhiteSpace($RepoRoot)){
+  $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+} else {
+  $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+}
+
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue

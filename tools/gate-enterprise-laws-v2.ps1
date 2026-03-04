@@ -1,5 +1,14 @@
 [CmdletBinding()]
-param([Parameter(Mandatory)][string]$RepoRoot)
+param([Parameter(Mandatory)
+
+# EGO_P0_REPOROOT_DERIVE
+if([string]::IsNullOrWhiteSpace($RepoRoot)){
+  $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
+} else {
+  $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+}
+
+][string]$RepoRoot)
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw 'STOP: RepoRoot empty' }
