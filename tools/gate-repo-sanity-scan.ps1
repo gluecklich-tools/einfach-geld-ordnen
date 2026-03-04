@@ -12,7 +12,7 @@ if(-not (Get-Command -Name Build-MojibakeMarkerSet -CommandType Function -ErrorA
 # BEGIN_MOJIBAKE_MARKERS_ASCII_ONLY
 # ASCII-only: build mojibake marker strings at runtime (no embedded replacement char).
 $mjb = Build-MojibakeMarkerSet
-$rep = $mjb.Rep
+$rep = $mjb
 $markers = $mjb.Markers
 # END_MOJIBAKE_MARKERS_ASCII_ONLY
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
