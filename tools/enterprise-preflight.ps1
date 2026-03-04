@@ -49,3 +49,4 @@ Invoke-Gate (Join-Path $tools "gate-repo-sanity-scan.ps1")
 exit 0
 # P0: tools ASCII-only gate (prevents mojibake glyph parser issues)
 & (Join-Path \C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch "gate-tools-ascii-only.ps1") -RepoRoot \C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
+
