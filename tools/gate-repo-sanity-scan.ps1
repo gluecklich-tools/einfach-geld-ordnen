@@ -3,6 +3,12 @@ param([string]$RepoRoot = (Get-Location).Path)
 
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
+
+# Ensure mojibake marker helper is available (P0)
+$__mjbLib = Join-Path $PSScriptRoot "lib\mojibake-markers.ps1"
+if(-not (Get-Command -Name Build-MojibakeMarkerSet -CommandType Function -ErrorAction SilentlyContinue)){
+  if(Test-Path -LiteralPath $__mjbLib){ . $__mjbLib }
+}
 # BEGIN_MOJIBAKE_MARKERS_ASCII_ONLY
 # ASCII-only: build mojibake marker strings at runtime (no embedded replacement char).
 $mjb = Build-MojibakeMarkerSet
