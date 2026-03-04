@@ -51,7 +51,7 @@ function Get-ChangedPathsFromPorcelain([string[]]$lines){
 # Repo must be clean BEFORE running a step (ignoring _local)
 $preLines = @((git status --porcelain=v1))
 $preChanged = Get-ChangedPathsFromPorcelain $preLines
-if($preChanged.Count -gt 0){
+if(@($preChanged).Count -gt 0){
   Fail ("REPO_DIRTY_BEFORE_STEP: make repo clean before running steps.`n" + ($preChanged -join "`n"))
 }
 
