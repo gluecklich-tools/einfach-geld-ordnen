@@ -9,27 +9,47 @@ try { if($IsWindows){ chcp 65001 > $null } } catch {}
 
 function Fail([string]$m){ throw $m }
 
-# P0 gate: block placeholder-like regex patterns in *gate* scripts.
-# Heuristic: look for "<...>" inside regex literals or -match patterns in tools/gate-*.ps1
+# P0 gate: block placeholder-like <...> ONLY when it is used as a regex PATTERN.
+# AST-based, so normal text "<...>" does not trigger.
 
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
 $gates = Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Filter "gate-*.ps1" -ErrorAction SilentlyContinue
 
-$hits = New-Object System.Collections.Generic.List[string]
+$bad = New-Object System.Collections.Generic.List[string]
+
 foreach($f in $gates){
   $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
-  # placeholder angle brackets inside common regex contexts
-  if($raw -match "(?ms)(-match\s+['`"])([^'`"]*<[^>]+>[^'`"]*)(['`"])" ){
-    $hits.Add($f.FullName)
+  $t=$null; $e=$null
+  $ast=[System.Management.Automation.Language.Parser]::ParseInput($raw,[ref]$t,[ref]$e)
+  if($e -and $e.Count -gt 0){ continue } # parser gate handles real parse errors elsewhere
+
+  # -match/-notmatch with string literal RHS
+  $ast.FindAll({
+    param($n)
+    $n -is [System.Management.Automation.Language.BinaryExpressionAst] -and
+    ($n.Operator -in @('Match','NotMatch')) -and
+    ($n.Right -is [System.Management.Automation.Language.StringConstantExpressionAst])
+  }, $true) | ForEach-Object {
+    if($_.Right.Value -match '<[^>]+>'){ $bad.Add($f.FullName) }
   }
-  if($raw -match "(?ms)\[regex\]::(Match|Matches|IsMatch)\([^,]+,\s*['`"][^'`"]*<[^>]+>[^'`"]*['`"]"){
-    $hits.Add($f.FullName)
+
+  # [regex]::Match|Matches|IsMatch( text, "pattern" )
+  $ast.FindAll({
+    param($n)
+    $n -is [System.Management.Automation.Language.InvokeMemberExpressionAst] -and
+    $n.Expression -is [System.Management.Automation.Language.TypeExpressionAst] -and
+    $n.Expression.TypeName.FullName -eq 'regex' -and
+    ($n.Member.Value -in @('Match','Matches','IsMatch')) -and
+    $n.Arguments.Count -ge 2 -and
+    ($n.Arguments[1] -is [System.Management.Automation.Language.StringConstantExpressionAst])
+  }, $true) | ForEach-Object {
+    if($_.Arguments[1].Value -match '<[^>]+>'){ $bad.Add($f.FullName) }
   }
 }
 
-$hits = @($hits | Sort-Object -Unique)
-if($hits.Count -gt 0){
-  Fail ("FAIL: NO_PLACEHOLDER_REGEX_IN_GATES`nFound placeholder-like <...> in:`n - " + ($hits -join "`n - "))
+$bad = @($bad | Sort-Object -Unique)
+if($bad.Count -gt 0){
+  Fail ("FAIL: NO_PLACEHOLDER_REGEX_IN_GATES Found placeholder-like <...> in regex patterns:`n - " + ($bad -join "`n - "))
 }
 
 "PASS: gate-no-placeholder-regex-in-gates"
