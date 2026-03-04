@@ -61,7 +61,7 @@ foreach($r in $roots){
     $text = [IO.File]::ReadAllText($path, $enc)
 
     foreach($p in $patterns){
-      $m = [regex]::Matches($text, $p.Regex)
+      $m = [regex]::Matches($text, [regex]::Escape($p.Regex))
       if($m.Count -gt 0){
         $hits.Add([pscustomobject]@{
           File    = $rel
