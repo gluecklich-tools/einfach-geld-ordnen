@@ -50,4 +50,7 @@ exit 0
 # P0: tools ASCII-only gate (prevents mojibake glyph parser issues)
 & (Join-Path (Join-Path $RepoRoot "_local\_scratch") "gate-tools-ascii-only.ps1") -RepoRoot $RepoRoot
 
-
+# P0 Gate: no relative file IO in tools (prevents $HOME/CWD surprises)
+& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "gate-no-relative-file-io.ps1") -RepoRoot $RepoRoot
+$ec = $LASTEXITCODE
+if($ec -ne 0){ throw ("STOP: gate failed: {0} (exit={1})" -f (Join-Path $PSScriptRoot "gate-no-relative-file-io.ps1"), $ec) }
