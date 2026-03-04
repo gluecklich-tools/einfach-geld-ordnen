@@ -21,6 +21,7 @@ RunGate "tools/gate-no-placeholder-regex-in-gates.ps1"
 
 # Existing hardrails if present (soft-optional: only run when file exists)
 $optional = @(
+  "tools/gate-closeout-after-commit.ps1",
   "tools/gate-step-joinpath-arraysafe.ps1",
   "tools/gate-step-reporoot-absolute.ps1",
   "tools/gate-file-first-step-only.ps1",

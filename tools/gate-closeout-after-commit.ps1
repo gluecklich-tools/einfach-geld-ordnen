@@ -18,19 +18,19 @@ if(!(Test-Path -LiteralPath $marker -PathType Leaf)){
   Fail "FAIL: CLOSEOUT_MARKER_MISSING (Brain_EGO_Dateien/BRAIN_SYNC_LAST.txt fehlt)"
 }
 
-# Last commit time (local repo)
+# last commit time (committer date in ISO 8601)
 $commitIso = (git log -1 --format=%cI 2>$null)
 if([string]::IsNullOrWhiteSpace($commitIso)){
   Fail "FAIL: CLOSEOUT_NO_GIT_LOG (git log -1 failed)"
 }
 $commitTime = [DateTimeOffset]::Parse($commitIso)
 
-# Brain marker time: parse first ISO-like date in file (fallback: file mtime)
+# parse brain marker time: accept ISO in file OR fallback file mtime
 $raw = Get-Content -LiteralPath $marker -Raw -Encoding UTF8
 $brainTime = $null
 $m = [regex]::Match($raw, '(?m)(\d{4}-\d{2}-\d{2}[T\s]\d{2}:\d{2}:\d{2})')
 if($m.Success){
-  $brainTime = [DateTimeOffset]::Parse($m.Groups[1].Value.Replace(' ','T'))
+  $brainTime = [DateTimeOffset]::Parse($m.Groups[1].Value.Replace(" ","T"))
 } else {
   $brainTime = [DateTimeOffset](Get-Item -LiteralPath $marker).LastWriteTimeUtc
 }
