@@ -11,6 +11,21 @@ try { if ($IsWindows) { chcp 65001 > $null } } catch {}
 
 function Fail([string]$m){ throw $m }
 
+
+# P0_STEP_PARSER_GATE
+function Assert-StepParses([string]$Path){
+  if(-not (Test-Path -LiteralPath $Path -PathType Leaf)){ Fail ("FAIL: StepPath not found: {0}" -f $Path) }
+  $s = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+  $t = $null
+  $e = $null
+  [void][System.Management.Automation.Language.Parser]::ParseInput($s,[ref]$t,[ref]$e)
+  if($null -ne $e -and $e.Count -gt 0){
+    $first = $e[0]
+    $line = $first.Extent.StartLineNumber
+    $col  = $first.Extent.StartColumnNumber
+    Fail ("P0_STEP_PARSER_GATE: ParserError in step: {0} (line {1}, col {2}): {3}" -f $Path,$line,$col,$first.Message)
+  }
+}
 # Resolve repo root
 $RepoRoot=$null
 try{ $t=(git rev-parse --show-toplevel 2>$null); if($t){ $RepoRoot=(Resolve-Path -LiteralPath $t).Path } }catch{}
@@ -35,6 +50,7 @@ if(-not $rx.IsMatch($stepText)){
 $runner = Join-Path $RepoRoot "tools\step-run.ps1"
 if(-not (Test-Path -LiteralPath $runner -PathType Leaf)){ Fail "FAIL: Missing runner: $runner" }
 
+Assert-StepParses -Path $sp
 & pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $sp
 $ec = $LASTEXITCODE
 if($ec -ne 0){ Fail "STOP: step-run failed (exit=$ec)" }
