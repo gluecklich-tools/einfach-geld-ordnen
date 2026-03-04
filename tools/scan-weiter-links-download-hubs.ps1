@@ -103,10 +103,10 @@ foreach ($x in $fail) {
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $content = (($lines | ForEach-Object { $_ }) -join "`n") + "`n"
 [System.IO.File]::WriteAllText($out, $content, $utf8NoBom)
-
 "OK: wrote report: $out"
-if (@($fail).Count -gt 0) {
-  [int]$issueCount = @($fail).Count
-  [string]$msg = [string]::Format("FAIL: {0} issue(s) found. See: {1}", $issueCount, $out)
-  throw $msg
+$issueCount = @($fail).Count
+if ($issueCount -gt 0) {
+  "FAIL: $issueCount issue(s) found. See: $out"
+  exit 2
 }
+exit 0
