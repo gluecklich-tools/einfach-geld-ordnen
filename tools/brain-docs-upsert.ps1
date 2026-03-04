@@ -71,7 +71,8 @@ if(-not [string]::IsNullOrWhiteSpace($last)){
 $targets = @()
 $targets += (Join-Path $GovDir "LEARNINGS_INTERNAL.md")
 $targets += (Join-Path $GovDir "QA_GATE_INTERNAL.md")
-$targets += (Join-Path $GovDir "GOVERNANCE_INTERNAL.md")foreach($p in $targets){
+$targets += (Join-Path $GovDir "GOVERNANCE_INTERNAL.md")
+foreach($p in $targets){
   if(Test-Path -LiteralPath $p -PathType Leaf){
     $old = Read_Utf8Raw $p
     $new = $old + $sb.ToString()
