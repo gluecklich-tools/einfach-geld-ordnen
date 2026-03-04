@@ -23,27 +23,27 @@ if(-not (Test-Path -LiteralPath $indexPath -PathType Leaf)){
 
 $lines = Get-Content -LiteralPath $indexPath -Encoding UTF8
 
-# Extract permalinks that look like download hubs
+# Extract permalinks for download hubs
 $permalinks = @()
 foreach($l in $lines){
-  if($l -match '(?i)\|'){
-    # table row; grab things that look like /seiten/...download... or /seiten/download-hub...
-    if($l -match '(?i)(/[^ \|]+download[^ \|]+\.html)'){
-      $p = $Matches[1]
-      if($p -match '(?i)download-hub'){
-        $permalinks += $p
-      }
+  if($l -match '\|'){
+    $ms = [regex]::Matches($l, '(?i)(/[^ \|]*download-hub[^ \|]*\.html)')
+    foreach($m in $ms){
+      $permalinks += $m.Groups[1].Value
     }
   }
 }
 
-$permalinks = $permalinks | Sort-Object -Unique
-if($permalinks.Count -eq 0){
+# Force array + unique
+$permalinks = @($permalinks | Sort-Object -Unique)
+
+$cnt = @($permalinks).Count
+if($cnt -eq 0){
   Fail "NO_DOWNLOAD_HUB_PERMALINKS_FOUND in REPO_PERMALINK_INDEX.md"
 }
 
 $fail = 0
-"CHECK: download hubs live (count=$($permalinks.Count))"
+"CHECK: download hubs live (count=$cnt)"
 "BaseUrl: $BaseUrl"
 "SSOT: $indexPath"
 "---"
