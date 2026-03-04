@@ -16,7 +16,8 @@ $rx = '(?im)^\s*(?!\s*(?:next|prev|hub)\s*:)\s*(?:[-*]\s*)?(TODO|FIXME|HACK|XXX|
 $exts = @('.md','.ps1','.yml','.yaml','.json')
 $skipLike = @('*/_ARCHIVE/*','*/tools/_reports/*')
 function Get-Hits([string]$Root,[string]$Tag){
-  $files = Get-ChildItem -LiteralPath $Root -Recurse -File -EA SilentlyContinue | Where-Object {`n    $p = ($_.FullName.Replace('\','/'))
+  $files = Get-ChildItem -LiteralPath $Root -Recurse -File -EA SilentlyContinue | Where-Object {
+    $p = ($_.FullName.Replace('\','/'))
     $p = ($_.FullName.Replace('\','/'))
     ($exts -contains $_.Extension) -and ($p -notlike $skipLike[0]) -and ($p -notlike $skipLike[1])
   }
