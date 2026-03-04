@@ -75,7 +75,8 @@ foreach ($f in $hubFiles) {
     if (-not $u2) { continue }
     if ($u2.StartsWith("/")) { $u2 = $u2.Substring(1) }
 
-    $candidate = Join-Path $root ($u2 -replace "/","\")
+    # FIX: DO NOT use regex -replace for backslash; use Replace()
+    $candidate = Join-Path $root ($u2.Replace('/','\'))
 
     if (-not (Test-Path -LiteralPath $candidate)) {
       $fail.Add([pscustomobject]@{
@@ -99,7 +100,6 @@ foreach ($x in $fail) {
   $lines.Add(("{0}`t{1}`t{2}" -f $x.File, $x.Issue, $x.Detail))
 }
 
-# FIX: force string[] for overload stability
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllLines($out, $lines.ToArray(), $utf8NoBom)
 
