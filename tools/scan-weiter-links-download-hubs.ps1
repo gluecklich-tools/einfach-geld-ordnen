@@ -101,7 +101,8 @@ foreach ($x in $fail) {
 }
 
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-[System.IO.File]::WriteAllLines($out, $lines.ToArray(), $utf8NoBom)
+$content = (($lines | ForEach-Object { $_ }) -join "`n") + "`n"
+[System.IO.File]::WriteAllText($out, $content, $utf8NoBom)
 
 "OK: wrote report: $out"
 if (@($fail).Count -gt 0) {
