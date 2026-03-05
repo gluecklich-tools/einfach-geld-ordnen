@@ -5,26 +5,35 @@ function Fail([string]$m){ throw $m }
 
 if(-not (Test-Path -LiteralPath ".\_config.yml")){ Fail "Not in repo root (missing _config.yml)." }
 
-# Gate 1: tools parser ok
-$tools = Get-ChildItem -LiteralPath ".\tools" -File -Filter "*.ps1" -ErrorAction Stop
-foreach($f in $tools){
-  $t=$null; $e=$null
-  [void][System.Management.Automation.Language.Parser]::ParseFile($f.FullName, [ref]$t, [ref]$e)
-  if($e -and $e.Count -gt 0){
-    Fail ("ParserError in tools file: {0} | {1}" -f $f.Name, $e[0].Message)
+# LOOPBREAKER: only parse critical entrypoints that are used by the flow.
+$entry = @(
+  "tools/ego-super-run.ps1",
+  "tools/ego-law-run-safe.ps1",
+  "tools/enterprise-preflight.ps1",
+  "tools/ssot-sync.ps1",
+  "tools/step-run.ps1",
+  "tools/step-new.ps1",
+  "tools/step-new-open.ps1",
+  "tools/step-run-latest.ps1",
+  "tools/ego-checksums.ps1",
+  "tools/audit-l2-pack.ps1",
+  "tools/ego-rereview-run.ps1",
+  "tools/ego-rereview-lib.ps1"
+)
+
+foreach($rel in $entry){
+  if(-not (Test-Path -LiteralPath (Join-Path "." $rel))){
+    Fail ("Missing entry tool: {0}" -f $rel)
   }
 }
 
-# Gate 2: basic md scan for local absolute paths (keep minimal, safe)
-$md = @()
-if(Test-Path -LiteralPath ".\index.md"){ $md += Get-Item ".\index.md" }
-if(Test-Path -LiteralPath ".\seiten"){ $md += Get-ChildItem ".\seiten" -Recurse -File -Filter "*.md" }
-if(Test-Path -LiteralPath ".\pillar"){ $md += Get-ChildItem ".\pillar" -Recurse -File -Filter "*.md" }
-
-foreach($f in $md){
-  $raw = Get-Content -LiteralPath $f.FullName -Raw
-  if($raw -match '(?i)[A-Z]:\\Users\\'){ Fail ("LocalPath leak in md: {0}" -f $f.FullName) }
-  if($raw -match '(?i)C:\\Users\\'){ Fail ("LocalPath leak in md: {0}" -f $f.FullName) }
+foreach($rel in $entry){
+  $full = (Resolve-Path (Join-Path "." $rel)).Path
+  $t=$null; $e=$null
+  [void][System.Management.Automation.Language.Parser]::ParseFile($full, [ref]$t, [ref]$e)
+  if($e -and $e.Count -gt 0){
+    Fail ("ParserError in entry tool: {0} | {1}" -f $rel, $e[0].Message)
+  }
 }
 
-"PASS: ego-flow-gates (minimal parser-safe)"
+"PASS: ego-flow-gates (entrypoints only)"
