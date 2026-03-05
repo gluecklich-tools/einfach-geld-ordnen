@@ -1,34 +1,24 @@
-#requires -Version 7.0
 param(
-  [Parameter(Mandatory=$true)]
-  [string]$Pattern,
-
-  [switch]$NoCloseout
+  [Parameter(Mandatory=$true)][string]$Pattern
 )
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { chcp 65001 > $null } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
-$RepoRoot = (git rev-parse --show-toplevel 2>$null).Trim()
-if([string]::IsNullOrWhiteSpace($RepoRoot)){ throw "RepoRoot not found." }
-$RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+function Fail([string]$m){ throw $m }
 
-$Scratch = Join-Path $RepoRoot "_local/_scratch"
-if(!(Test-Path -LiteralPath $Scratch)){ throw "Scratch dir missing: $Scratch" }
-
-$step = Get-ChildItem -LiteralPath $Scratch -File -ErrorAction Stop |
-  Where-Object Name -like $Pattern |
-  Sort-Object LastWriteTime -Descending |
-  Select-Object -First 1 -ExpandProperty FullName
-
-if([string]::IsNullOrWhiteSpace($step)){ throw "No step found for pattern '$Pattern' in $Scratch" }
-
-# run
-& (Join-Path $RepoRoot "tools/ego-step.ps1") -StepPath $step
-
-if(-not $NoCloseout){
-  & (Join-Path $RepoRoot "tools/closeout-status.ps1")
+function Get-RepoRoot {
+  $p = (& git rev-parse --show-toplevel 2>$null)
+  if (-not $p) { Fail "RepoRoot konnte nicht bestimmt werden (git rev-parse)." }
+  return (Resolve-Path -LiteralPath $p).Path
 }
+
+$RepoRoot = Get-RepoRoot
+$Scratch = Join-Path $RepoRoot "_local\_scratch"
+if (-not (Test-Path -LiteralPath $Scratch)) { Fail "Scratch not found: $Scratch" }
+
+$step = Get-ChildItem -LiteralPath $Scratch -Filter "$Pattern" -File | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+if (-not $step) { Fail "No step found for pattern '$Pattern' in $Scratch" }
+
+$runner = Join-Path $RepoRoot "tools\step-run.ps1"
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $step.FullName
