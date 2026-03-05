@@ -88,3 +88,13 @@ if (-not $SkipLiveHead) {
   Say "LIVE HEAD: skipped."
 }
 Say "DONE."
+
+<# EGO_HOOK_SSOT_SYNC_BEGIN #>
+# SSOT Sync (auto) — keep _INTERN/governance + brain_mirror + Brain_EGO_Dateien up to date
+try {
+  & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $(Split-Path -Parent $MyInvocation.MyCommand.Path) 'ssot-sync.ps1') -WhatIf
+  & pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $(Split-Path -Parent $MyInvocation.MyCommand.Path) 'ssot-sync.ps1')
+} catch {
+  throw ("SSOT-SYNC failed: {0}" -f $_.Exception.Message)
+}
+<# EGO_HOOK_SSOT_SYNC_END #>
