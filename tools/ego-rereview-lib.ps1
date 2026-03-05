@@ -64,8 +64,7 @@ function Normalize-VisibleUmlauts([string]$s){
     @('\bgroesste\b', ('gr' + [string]$o + ('' + [string]$ss) + 'te')),
     @('\bweiss\b', ('wei' + [string]$ss)),
     @('\bFuss\b', ('Fu' + [string]$ss)),
-    @('\bMass\b', ('Ma' + [string]$ss))
-  )
+    @('\bMass\b', ('Ma' + [string]$ss)))
   foreach($r in $map){
     $s = [Text.RegularExpressions.Regex]::Replace($s,$r[0],$r[1])
   }
@@ -135,7 +134,7 @@ function Find-WeiterBlock([string[]]$body){
     if($ln -match '^\s*##\s+'){ break }
     if($ln -match 'no_sackgasse_footer'){ $hasFooter = $true }
     $m = [Text.RegularExpressions.Regex]::Match($ln,'\(([^)]+)\)')
-    if($m.Success){ [void]$links.Add($m.Groups[1].Value) }
+    if($m.Success){ [void]$links.Add($m.Groups[1].Value) })
   }
 
   return @{ Found=$true; Start=$start; Links=$links.ToArray(); HasFooter=$hasFooter }
