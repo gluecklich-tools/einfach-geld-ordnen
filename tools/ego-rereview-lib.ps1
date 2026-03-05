@@ -134,7 +134,7 @@ function Find-WeiterBlock([string[]]$body){
     if($ln -match '^\s*##\s+'){ break }
     if($ln -match 'no_sackgasse_footer'){ $hasFooter = $true }
     $m = [Text.RegularExpressions.Regex]::Match($ln,'\(([^)]+)\)')
-    if($m.Success){ [void]$links.Add($m.Groups[1].Value) })
+    if($m.Success){ [void]$links.Add($m.Groups[1].Value) }
   }
 
   return @{ Found=$true; Start=$start; Links=$links.ToArray(); HasFooter=$hasFooter }
