@@ -41,20 +41,19 @@ New-Dir $Scratch
 $ts = Get-Date -Format "yyyyMMdd_HHmmss"
 $path = Join-Path $Scratch ("{0}_{1}.ps1" -f $NamePrefix, $ts)
 
-# Tool-safe stub: contains allowlist as TEXT only (no tool variable usage)
+# IMPORTANT: single-quoted stub lines -> no variable expansion ever
 $stubLines = @()
-$stubLines += "# STEP"
-$stubLines += "$ErrorActionPreference='Stop'"
-$stubLines += "Set-StrictMode -Version Latest"
-$stubLines += ""
-$stubLines += "$EGO_STEP_WRITE_ALLOWLIST = @("
-$stubLines += "  '_local\_reports\'"
-$stubLines += ")"
-$stubLines += ""
-$stubLines += "# TODO: FULLSWAP"
+$stubLines += '# STEP'
+$stubLines += '$ErrorActionPreference=''Stop'''
+$stubLines += 'Set-StrictMode -Version Latest'
+$stubLines += ''
+$stubLines += '$EGO_STEP_WRITE_ALLOWLIST = @('
+$stubLines += '  ''_local\_reports\'''
+$stubLines += ')'
+$stubLines += ''
+$stubLines += '# TODO: FULLSWAP'
 
 Write-Utf8NoBomLf -Path $path -Text (($stubLines -join "
 ") + "
 ")
-
 $path
