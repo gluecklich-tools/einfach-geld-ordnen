@@ -25,3 +25,15 @@ Hier steht der Audit-Status des Projekts und was aktuell automatisiert geprueft 
 - [Governance]({{ site.baseurl }}/seiten/governance.html)
 
 {% include no_sackgasse_footer.html %}
+
+<!-- AUDIT_L2_STATUS_START -->
+### Letzter Audit
+
+- Datum: 2026-03-06 00:11:21 +01:00
+- Ergebnis: **PASS**
+- Scope: L2
+- Evidence: {{ site.baseurl }}/assets/audit/2026-03/
+- Checksums: {{ site.baseurl }}/assets/audit/2026-03/checksums.txt
+<!-- AUDIT_L2_STATUS_END -->
+
+

@@ -38,7 +38,33 @@ function Get-DownloadFiles {
         $items = @(
           Get-ChildItem -LiteralPath $r -Recurse -File -Filter $e -ErrorAction SilentlyContinue
         )
-        if ($items.Count -gt 0) { $files.AddRange($items) }
+        if ($items.Count -gt 0) {                                   # FIX: AddRange requires IEnumerable[FileInfo] (avoid System.Object[])
+                                  $__src = @($items)
+                                  $__tmp = @()
+                                  foreach($x in $__src){
+                                    if($null -eq $x){ continue }
+                                    if($x -is [System.IO.FileInfo]){ $__tmp += $x; continue }
+                                    if($x -is [string]){ $__tmp += (Get-Item -LiteralPath $x -ErrorAction Stop); continue }
+                                    if($x.PSObject -and ($x.PSObject.Properties.Name -contains 'FullName')){ $__tmp += (Get-Item -LiteralPath $x.FullName -ErrorAction Stop); continue }
+                                  }
+                                                                    # FIX: AddRange requires IEnumerable[FileInfo] (avoid System.Object[])
+                                  $__src = @($__tmp)
+                                  $__tmp = New-Object 'System.Collections.Generic.List[System.IO.FileInfo]'
+                                  foreach($x in $__src){
+                                    if($null -eq $x){ continue }
+                                    if($x -is [System.IO.FileInfo]){ $__tmp.Add($x); continue }
+                                    if($x -is [string]){
+                                      $it = Get-Item -LiteralPath $x -ErrorAction Stop
+                                      if($it -is [System.IO.FileInfo]){ $__tmp.Add($it) }
+                                      continue
+                                    }
+                                    if($x.PSObject -and ($x.PSObject.Properties.Name -contains 'FullName')){
+                                      $it = Get-Item -LiteralPath $x.FullName -ErrorAction Stop
+                                      if($it -is [System.IO.FileInfo]){ $__tmp.Add($it) }
+                                      continue
+                                    }
+                                  }
+                                  $files.AddRange($__tmp) }
       }
     }
   }
