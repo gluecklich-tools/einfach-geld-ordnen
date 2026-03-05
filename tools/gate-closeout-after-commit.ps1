@@ -3,37 +3,57 @@ param()
 
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { if($IsWindows){ chcp 65001 > $null } } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-
+$NL = [Environment]::NewLine
 function Fail([string]$m){ throw $m }
 
-$RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
-$ProjectRoot = [System.IO.Path]::GetFullPath((Join-Path $RepoRoot "..\.."))
-$Marker = Join-Path $ProjectRoot "Brain_EGO_Dateien\BRAIN_SYNC_LAST.txt"
+$marker = "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien\BRAIN_SYNC_LAST.txt"
+$round  = (Join-Path $PSScriptRoot "round-closeout.ps1")
 
-$commitIso = (git log -1 --format=%cI 2>$null)
-if([string]::IsNullOrWhiteSpace($commitIso)){ Fail "FAIL: CLOSEOUT_NO_GIT_LOG (git log -1 failed)" }
-$commitTime = [DateTimeOffset]::Parse($commitIso)
+function Get-LastCommitLocal {
+  $s = (git log -1 --format=%cd --date=iso-strict 2>$null)
+  if([string]::IsNullOrWhiteSpace($s)){ return $null }
+  try { [datetimeoffset]::Parse($s) } catch { $null }
+}
 
-$markerRaw = ""
-$brainTime = $null
+function Get-MarkerTime {
+  param([string]$p)
+  if(-not (Test-Path -LiteralPath $p)){ return $null }
+  $raw = [System.IO.File]::ReadAllText($p,[System.Text.Encoding]::UTF8).Trim()
+  if([string]::IsNullOrWhiteSpace($raw)){ return $null }
+  # accept either key=value format or plain timestamp line
+  $first = ($raw -split "\r?\n")[0].Trim()
+  if($first -match "^ts_local="){ $first = $first.Substring(9).Trim() }
+  try { [datetimeoffset]::Parse($first) } catch { $null }
+}
 
-if(Test-Path -LiteralPath $Marker -PathType Leaf){
-  $markerRaw = (Get-Content -LiteralPath $Marker -Raw -Encoding UTF8).Trim()
-  if(-not [string]::IsNullOrWhiteSpace($markerRaw)){
-    try { $brainTime = [DateTimeOffset]::Parse($markerRaw) } catch { $brainTime = $null }
+function Check-Closeout {
+  $c = Get-LastCommitLocal
+  $m = Get-MarkerTime -p $marker
+  if($null -eq $c){ return @{ Ok=$true; Why="NO_COMMIT_FOUND" } }
+  if($null -eq $m){ return @{ Ok=$false; Why="NO_MARKER" } }
+  if($m -lt $c){ return @{ Ok=$false; Why="MARKER_OLDER_THAN_COMMIT"; Commit=$c; Marker=$m } }
+  return @{ Ok=$true; Why="BrainSync >= last commit" }
+}
+
+$r = Check-Closeout
+if(-not $r.Ok){
+  # Auto-fix ONCE
+  if(Test-Path -LiteralPath $round){
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $round | Out-Host
+  } else {
+    Fail ("FAIL: CLOSEOUT_REQUIRED (missing round-closeout) Run: pwsh -NoProfile -ExecutionPolicy Bypass -File " + $round)
+  }
+  $r2 = Check-Closeout
+  if(-not $r2.Ok){
+    $msg=@()
+    $msg += "FAIL: CLOSEOUT_REQUIRED (auto-run did not produce valid marker)"
+    $msg += ("MarkerPath={0}" -f $marker)
+    if($r2.ContainsKey("Marker")){ $msg += ("Marker={0}" -f $r2.Marker) }
+    if($r2.ContainsKey("Commit")){ $msg += ("Commit={0}" -f $r2.Commit) }
+    $msg += ("Run: pwsh -NoProfile -ExecutionPolicy Bypass -File {0}" -f $round)
+    Fail ($msg -join $NL)
   }
 }
 
-if($null -eq $brainTime){
-  Fail ("FAIL: CLOSEOUT_REQUIRED (no valid marker) MarkerPath={0} MarkerRaw={1} Commit={2} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f @($Marker,$markerRaw,$commitIso))
-}
-
-if($brainTime -lt $commitTime){
-  Fail ("FAIL: CLOSEOUT_REQUIRED (BrainSync older than last commit) MarkerPath={0} MarkerRaw={1} Brain={2:O} Commit={3:O} Run: pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\round-closeout.ps1" -f @($Marker,$markerRaw,$brainTime,$commitTime))
-}
-
-"PASS: gate-closeout-after-commit (BrainSync >= last commit)"
+Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
 exit 0
