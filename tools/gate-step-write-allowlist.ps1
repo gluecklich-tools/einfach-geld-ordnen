@@ -4,82 +4,78 @@ param(
   [Parameter(Mandatory=$true)][string]$StepPath,
   [Parameter(Mandatory=$true)][string[]]$ChangedPaths
 )
-$ErrorActionPreference = "Stop"
+
+$ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { if($IsWindows){ chcp 65001 > $null } } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-function Normalize-Rel([string]$p){
-  $p = $p -replace '\\','/'
-  $p.TrimStart('./')
+$NL = [Environment]::NewLine
+function Fail([string]$m){ throw $m }
+
+# Read allowlist from step: must be literal-only string array
+$content = [System.IO.File]::ReadAllText((Resolve-Path -LiteralPath $StepPath).Path,[System.Text.Encoding]::UTF8)
+if($content -notmatch "\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\("){ Fail "FAIL: STEP_WRITE_ALLOWLIST_MISSING in step: $StepPath" }
+if($content -match "JOIN-PATH|Join-Path|\$RepoRoot|\$Target|\$PSScriptRoot"){ Fail "FAIL: STEP_WRITE_ALLOWLIST_NOT_LITERAL_ONLY in step: $StepPath" }
+
+function NormPath([string]$p){
+  if([string]::IsNullOrWhiteSpace($p)){ return "" }
+  $x = $p -replace "/","\"
+  $x = $x.Trim()
+  $x = $x.TrimEnd("\")
+  return $x.ToLowerInvariant()
 }
-function Get-AllowlistFromStep([string]$stepFile){
-  # P0_ALLOWLIST_AST_PARSE
-  if(-not (Test-Path -LiteralPath $stepFile -PathType Leaf)){
-    throw "FAIL: STEP_WRITE_ALLOWLIST_STEP_NOT_FOUND in step: $stepFile"
-  }
 
-  $raw = Get-Content -LiteralPath $stepFile -Raw -Encoding UTF8
+$repo = (Resolve-Path -LiteralPath $RepoRoot).Path
+$repoNorm = (NormPath $repo)
 
-  $tokens = $null
-  $errors = $null
-  $ast = [System.Management.Automation.Language.Parser]::ParseInput($raw, [ref]$tokens, [ref]$errors)
-  if($null -ne $errors -and $errors.Count -gt 0){
-    $e = $errors[0]
-    throw ("FAIL: STEP_WRITE_ALLOWLIST_STEP_PARSERERROR in step: {0} (line {1}, col {2}): {3}" -f @($stepFile,$e.Extent.StartLineNumber,$e.Extent.StartColumnNumber,$e.Message))
-  }
+# Allowed: extract single-quoted string literals inside the allowlist block
+$m = [regex]::Match($content,"(?s)\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\((.*?)\)\s*")
+$body = $m.Groups[1].Value
+$allowedRaw = [regex]::Matches($body,"'([^']+)'") | ForEach-Object { $_.Groups[1].Value }
+if(@($allowedRaw).Count -lt 1){ Fail "FAIL: STEP_WRITE_ALLOWLIST_EMPTY in step: $StepPath" }
 
-  # Find assignment to $EGO_STEP_WRITE_ALLOWLIST where RHS is an array expression with string literals only.
-  $assigns = $ast.FindAll({
-    param($n)
-    $n -is [System.Management.Automation.Language.AssignmentStatementAst] -and
-    $n.Left -is [System.Management.Automation.Language.VariableExpressionAst] -and
-    $n.Left.VariablePath.UserPath -eq 'EGO_STEP_WRITE_ALLOWLIST'
-  }, $true)
-
-  if($assigns.Count -eq 0){
-    throw "FAIL: STEP_WRITE_ALLOWLIST_MISSING in step: $stepFile"
-  }
-
-  # Use the last assignment in file (closest to runtime intent)
-  $a = $assigns[-1]
-  $rhs = $a.Right
-
-  # @("a","b") is ArrayExpressionAst containing ArrayLiteralAst in SubExpression.
-  $strings = New-Object System.Collections.Generic.List[string]
-
-  $rhs.FindAll({ param($x) $x -is [System.Management.Automation.Language.StringConstantExpressionAst] }, $true) |
-    ForEach-Object { $strings.Add($_.Value) }
-
-  if($strings.Count -eq 0){
-    throw "FAIL: STEP_WRITE_ALLOWLIST_EMPTY in step: $stepFile"
-  }
-
-  # Enforce literal-only: no expandable strings, no variables, no commands.
-  $bad = $rhs.FindAll({
-    param($x)
-    ($x -is [System.Management.Automation.Language.ExpandableStringExpressionAst]) -or
-    ($x -is [System.Management.Automation.Language.VariableExpressionAst]) -or
-    ($x -is [System.Management.Automation.Language.CommandAst])
-  }, $true)
-
-  if($bad.Count -gt 0){
-    throw "FAIL: STEP_WRITE_ALLOWLIST_NOT_LITERAL_ONLY in step: $stepFile"
-  }
-
-  return $strings.ToArray()
+# Normalize allowed: expand to full path if relative, keep dirs as prefix-allow
+$allowedFull = @()
+$allowedDirs = @()
+foreach($a in $allowedRaw){
+  $isDir = $a.EndsWith("\") -or (Test-Path -LiteralPath $a -PathType Container)
+  $full = $a
+  if(-not [System.IO.Path]::IsPathRooted($full)){ $full = Join-Path $repo $full }
+  $full = (Resolve-Path -LiteralPath $full).Path
+  $n = (NormPath $full)
+  $allowedFull += $n
+  if($isDir){ $allowedDirs += $n }
 }
-$Repo = Resolve-Path -LiteralPath $RepoRoot
-$Step = Resolve-Path -LiteralPath $StepPath
-$allow = Get-AllowlistFromStep $Step.Path
-$changed = @($ChangedPaths) | ForEach-Object { Normalize-Rel $_ }
+
+# Normalize changed: repo-relative -> full -> norm
 $viol = @()
-foreach($c in $changed){
-  if($allow -notcontains $c){
-    $viol += $c
+foreach($c in @($ChangedPaths)){
+  if([string]::IsNullOrWhiteSpace($c)){ continue }
+  $rel = $c -replace "/","\"
+  $full = Join-Path $repo $rel
+  if(-not (Test-Path -LiteralPath $full)){
+    # still compare by constructed path (best-effort)
+    $full = [System.IO.Path]::GetFullPath($full)
+  } else {
+    $full = (Resolve-Path -LiteralPath $full).Path
   }
+  $cn = (NormPath $full)
+  $ok = $false
+  if($allowedFull -contains $cn){ $ok = $true }
+  if(-not $ok){
+    foreach($d in $allowedDirs){ if($cn.StartsWith($d)){ $ok = $true; break } }
+  }
+  if(-not $ok){ $viol += $rel }
 }
-if($viol.Count -gt 0){
-  throw ("FAIL: STEP_WRITE_ALLOWLIST_VIOLATION`nAllowed: " + ($allow -join ", ") + "`nChanged: " + ($changed -join ", ") + "`nViolations: " + ($viol -join ", "))
+
+if(@($viol).Count -gt 0){
+  $msg=@()
+  $msg += "FAIL: STEP_WRITE_ALLOWLIST_VIOLATION"
+  $msg += "Allowed:"
+  $msg += ($allowedRaw | ForEach-Object { "  " + $_ })
+  $msg += "Changed:"
+  $msg += ($ChangedPaths | ForEach-Object { "  " + $_ })
+  $msg += "Violations:"
+  $msg += ($viol | ForEach-Object { "  " + $_ })
+  Fail ($msg -join $NL)
 }
-"PASS: gate-step-write-allowlist (changed within allowlist)"
+"OK: gate-step-write-allowlist"
+exit 0
