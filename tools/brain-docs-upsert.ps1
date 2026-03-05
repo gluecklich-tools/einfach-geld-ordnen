@@ -81,3 +81,40 @@ foreach($p in $targets){
 }
 
 "PASS: brain-docs-upsert"
+
+# ---------------------------------------------------------------------
+# EGO_FORCE_TOUCH_BRAIN_SYNC_LAST_V1
+# Purpose: Ensure BrainSync has an observable heartbeat even on No-Op runs.
+# ---------------------------------------------------------------------
+function EGO_ForceTouch_BrainSyncLast {
+    param(
+        [Parameter(Mandatory=$true)][string]$BrainRoot
+    )
+    if (-not (Test-Path -LiteralPath $BrainRoot)) { return }
+    $last = Join-Path $BrainRoot "BRAIN_SYNC_LAST.txt"
+    $snap = Join-Path $BrainRoot "snapshots"
+    if (-not (Test-Path -LiteralPath $snap)) {
+        New-Item -ItemType Directory -Path $snap -Force | Out-Null
+    }
+    $utc = (Get-Date).ToUniversalTime().ToString("o")
+    $enc = New-Object System.Text.UTF8Encoding($false)
+    [System.IO.File]::WriteAllText($last, $utc + "`n", $enc)
+
+    # Optional lightweight marker: does NOT create a new snapshot folder (no assumptions).
+    $touch = Join-Path $snap "latest_touch.txt"
+    [System.IO.File]::WriteAllText($touch, $utc + "`n", $enc)
+}
+
+try {
+    # Heuristik: Wenn Script bereits $BrainRoot o.ä. hat, nutze das; sonst fallback auf Standardpfad.
+    $EGO_BrainRoot = $null
+    if (Get-Variable -Name BrainRoot -Scope Script -ErrorAction SilentlyContinue) {
+        $EGO_BrainRoot = [string]$script:BrainRoot
+    }
+    if (-not $EGO_BrainRoot) {
+        $EGO_BrainRoot = "C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien"
+    }
+    EGO_ForceTouch_BrainSyncLast -BrainRoot $EGO_BrainRoot
+} catch {
+    # Never break the main run because of the heartbeat.
+}
