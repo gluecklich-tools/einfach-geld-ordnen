@@ -3,7 +3,6 @@ param(
 )
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
-
 $repo = (& git rev-parse --show-toplevel 2>$null)
 if (-not $repo) { throw "RepoRoot konnte nicht bestimmt werden." }
 $repo = (Resolve-Path -LiteralPath $repo).Path
