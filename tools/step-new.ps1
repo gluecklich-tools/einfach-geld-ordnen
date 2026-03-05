@@ -41,6 +41,7 @@ New-Dir $Scratch
 $ts = Get-Date -Format "yyyyMMdd_HHmmss"
 $path = Join-Path $Scratch ("{0}_{1}.ps1" -f $NamePrefix, $ts)
 
+# Stub contains allowlist as TEXT only (no evaluation at tool time)
 $stub = "# STEP
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
