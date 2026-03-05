@@ -10,56 +10,59 @@ Set-StrictMode -Version Latest
 $NL = [Environment]::NewLine
 function Fail([string]$m){ throw $m }
 
-# Read allowlist from step: must be literal-only string array
-$content = [System.IO.File]::ReadAllText((Resolve-Path -LiteralPath $StepPath).Path,[System.Text.Encoding]::UTF8)
-if($content -notmatch "\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\("){ Fail "FAIL: STEP_WRITE_ALLOWLIST_MISSING in step: $StepPath" }
-if($content -match "JOIN-PATH|Join-Path|\$RepoRoot|\$Target|\$PSScriptRoot"){ Fail "FAIL: STEP_WRITE_ALLOWLIST_NOT_LITERAL_ONLY in step: $StepPath" }
+$repo = (Resolve-Path -LiteralPath $RepoRoot).Path
+$step = (Resolve-Path -LiteralPath $StepPath).Path
 
-function NormPath([string]$p){
+# Read step content (file-first)
+$content = [System.IO.File]::ReadAllText($step,[System.Text.Encoding]::UTF8)
+
+# Extract allowlist block (must exist)
+$m = [regex]::Match($content,"(?s)\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\((.*?)\)\s*")
+if(-not $m.Success){ Fail ("FAIL: STEP_WRITE_ALLOWLIST_MISSING in step: {0}" -f $step) }
+$body = $m.Groups[1].Value
+
+# Literal-only: allow only single-quoted string literals inside the block
+$matches = [regex]::Matches($body,"'([^']+)'")
+if(@($matches).Count -lt 1){ Fail ("FAIL: STEP_WRITE_ALLOWLIST_EMPTY in step: {0}" -f $step) }
+
+# If the block contains anything besides whitespace, commas, and single-quoted strings -> NOT literal-only
+$scrub = [regex]::Replace($body,"'([^']*)'","")
+$scrub = [regex]::Replace($scrub,"[\s,]","")
+if($scrub.Length -gt 0){ Fail ("FAIL: STEP_WRITE_ALLOWLIST_NOT_LITERAL_ONLY in step: {0}" -f $step) }
+
+function Norm([string]$p){
   if([string]::IsNullOrWhiteSpace($p)){ return "" }
   $x = $p -replace "/","\"
   $x = $x.Trim()
   $x = $x.TrimEnd("\")
-  return $x.ToLowerInvariant()
+  $x.ToLowerInvariant()
 }
 
-$repo = (Resolve-Path -LiteralPath $RepoRoot).Path
-$repoNorm = (NormPath $repo)
-
-# Allowed: extract single-quoted string literals inside the allowlist block
-$m = [regex]::Match($content,"(?s)\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\((.*?)\)\s*")
-$body = $m.Groups[1].Value
-$allowedRaw = [regex]::Matches($body,"'([^']+)'") | ForEach-Object { $_.Groups[1].Value }
-if(@($allowedRaw).Count -lt 1){ Fail "FAIL: STEP_WRITE_ALLOWLIST_EMPTY in step: $StepPath" }
-
-# Normalize allowed: expand to full path if relative, keep dirs as prefix-allow
-$allowedFull = @()
-$allowedDirs = @()
+# Build allowed sets (files + dirs)
+$allowedRaw = @()
+foreach($mm in $matches){ $allowedRaw += $mm.Groups[1].Value }
+$allowedFiles = @()
+$allowedDirs  = @()
 foreach($a in $allowedRaw){
-  $isDir = $a.EndsWith("\") -or (Test-Path -LiteralPath $a -PathType Container)
+  $isDir = $a.EndsWith("\")
   $full = $a
   if(-not [System.IO.Path]::IsPathRooted($full)){ $full = Join-Path $repo $full }
-  $full = (Resolve-Path -LiteralPath $full).Path
-  $n = (NormPath $full)
-  $allowedFull += $n
+  try { $full = (Resolve-Path -LiteralPath $full).Path } catch { $full = [System.IO.Path]::GetFullPath($full) }
+  $n = Norm $full
+  $allowedFiles += $n
   if($isDir){ $allowedDirs += $n }
 }
 
-# Normalize changed: repo-relative -> full -> norm
+# Normalize changed paths (repo-relative -> full -> norm)
 $viol = @()
 foreach($c in @($ChangedPaths)){
   if([string]::IsNullOrWhiteSpace($c)){ continue }
-  $rel = $c -replace "/","\"
+  $rel = ($c -replace "/","\")
   $full = Join-Path $repo $rel
-  if(-not (Test-Path -LiteralPath $full)){
-    # still compare by constructed path (best-effort)
-    $full = [System.IO.Path]::GetFullPath($full)
-  } else {
-    $full = (Resolve-Path -LiteralPath $full).Path
-  }
-  $cn = (NormPath $full)
+  try { $full = (Resolve-Path -LiteralPath $full).Path } catch { $full = [System.IO.Path]::GetFullPath($full) }
+  $cn = Norm $full
   $ok = $false
-  if($allowedFull -contains $cn){ $ok = $true }
+  if($allowedFiles -contains $cn){ $ok = $true }
   if(-not $ok){
     foreach($d in $allowedDirs){ if($cn.StartsWith($d)){ $ok = $true; break } }
   }
@@ -77,5 +80,6 @@ if(@($viol).Count -gt 0){
   $msg += ($viol | ForEach-Object { "  " + $_ })
   Fail ($msg -join $NL)
 }
+
 "OK: gate-step-write-allowlist"
 exit 0
