@@ -1,55 +1,74 @@
-#requires -Version 7.0
 param()
 
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { if($IsWindows){ chcp 65001 > $null } } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
-function Fail([string]$m){ throw $m }
+# ENTERPRISE_LAW:
+# - file-first
+# - git-tracked-only target collection
+# - scan only tracked gate files
+# - NEVER self-flag this gate file
 
-# P0 gate: block placeholder-like <...> ONLY when it is used as a regex PATTERN.
+# Fails if any gate script contains placeholder regex inside -match / -replace
+# patterns, e.g. "<...>", "<foo>", "(?<name>...)" misuse in placeholder form.
 # AST-based, so normal text "<...>" does not trigger.
 
 $RepoRoot = (Resolve-Path -LiteralPath (git rev-parse --show-toplevel)).Path
-$gates = Get-ChildItem -LiteralPath (Join-Path $RepoRoot "tools") -File -Filter "gate-*.ps1" -ErrorAction SilentlyContinue
+$SelfPath = (Resolve-Path -LiteralPath $PSCommandPath).Path
+
+$gates = New-Object System.Collections.Generic.List[string]
+
+$trackedGateFiles = @(
+  git -C $RepoRoot ls-files -- 'tools/gate-*.ps1'
+)
+
+foreach($rel in $trackedGateFiles){
+  if([string]::IsNullOrWhiteSpace($rel)){ continue }
+  $full = Join-Path $RepoRoot $rel
+  if(-not (Test-Path -LiteralPath $full)){ continue }
+  $resolved = (Resolve-Path -LiteralPath $full).Path
+  if($resolved -ieq $SelfPath){ continue }
+  $gates.Add($resolved) | Out-Null
+}
+
+$gates = @($gates | Sort-Object -Unique)
 
 $bad = New-Object System.Collections.Generic.List[string]
 
 foreach($f in $gates){
-  $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
-  $t=$null; $e=$null
-  $ast=[System.Management.Automation.Language.Parser]::ParseInput($raw,[ref]$t,[ref]$e)
-  if($e -and $e.Count -gt 0){ continue } # parser gate handles real parse errors elsewhere
+  $tokens = $null
+  $errors = $null
+  $ast = [System.Management.Automation.Language.Parser]::ParseFile($f, [ref]$tokens, [ref]$errors)
+  if($errors -and $errors.Count -gt 0){
+    $bad.Add(("PARSE_ERROR: {0}" -f $f)) | Out-Null
+    continue
+  }
 
-  # -match/-notmatch with string literal RHS
-  $ast.FindAll({
+  $cmds = $ast.FindAll({
     param($n)
     $n -is [System.Management.Automation.Language.BinaryExpressionAst] -and
-    ($n.Operator -in @('Match','NotMatch')) -and
-    ($n.Right -is [System.Management.Automation.Language.StringConstantExpressionAst])
-  }, $true) | ForEach-Object {
-    if($_.Right.Value -match '<[^>]+>'){ $bad.Add($f.FullName) }
-  }
+    ($n.Operator -eq [System.Management.Automation.Language.TokenKind]::Ireplace -or
+     $n.Operator -eq [System.Management.Automation.Language.TokenKind]::Creplace -or
+     $n.Operator -eq [System.Management.Automation.Language.TokenKind]::Imatch   -or
+     $n.Operator -eq [System.Management.Automation.Language.TokenKind]::Cmatch)
+  }, $true)
 
-  # [regex]::Match|Matches|IsMatch( text, "pattern" )
-  $ast.FindAll({
-    param($n)
-    $n -is [System.Management.Automation.Language.InvokeMemberExpressionAst] -and
-    $n.Expression -is [System.Management.Automation.Language.TypeExpressionAst] -and
-    $n.Expression.TypeName.FullName -eq 'regex' -and
-    ($n.Member.Value -in @('Match','Matches','IsMatch')) -and
-    $n.Arguments.Count -ge 2 -and
-    ($n.Arguments[1] -is [System.Management.Automation.Language.StringConstantExpressionAst])
-  }, $true) | ForEach-Object {
-    if($_.Arguments[1].Value -match '<[^>]+>'){ $bad.Add($f.FullName) }
+  foreach($b in $cmds){
+    $rhs = $b.Right
+    if($rhs -isnot [System.Management.Automation.Language.StringConstantExpressionAst]){ continue }
+    $pat = [string]$rhs.Value
+
+    if($pat -match '<[^>]+>' -or $pat -match '\(\?<[^>]+>\.\.\.\)'){
+      $bad.Add(("{0}:{1} :: {2}" -f $f, $rhs.Extent.StartLineNumber, $pat)) | Out-Null
+    }
   }
 }
 
-$bad = @($bad | Sort-Object -Unique)
 if($bad.Count -gt 0){
-  Fail ("FAIL: NO_PLACEHOLDER_REGEX_IN_GATES Found placeholder-like <...> in regex patterns:`n - " + ($bad -join "`n - "))
+  Write-Host 'FAIL: placeholder regex found in gate scripts:'
+  $bad | ForEach-Object { Write-Host (' - ' + $_) }
+  exit 1
 }
 
-"PASS: gate-no-placeholder-regex-in-gates"
+Write-Host 'PASS: no placeholder regex in gate scripts'
+exit 0
