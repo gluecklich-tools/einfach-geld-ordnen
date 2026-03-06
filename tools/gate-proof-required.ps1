@@ -2,8 +2,36 @@ param(
   [string]$RepoRoot = ""
 )
 
-$ErrorActionPreference='Stop'
+$ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+
+function Get-LatestProofFile {
+  param(
+    [Parameter(Mandatory = $true)][string]$ProofDir
+  )
+
+  $dirInfo = [System.IO.DirectoryInfo]::new($ProofDir)
+  if (-not $dirInfo.Exists) {
+    return $null
+  }
+
+  $best = $null
+  foreach($f in $dirInfo.EnumerateFiles('PROOF_*.txt', [System.IO.SearchOption]::TopDirectoryOnly)){
+    if ($null -eq $best) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -gt $best.LastWriteTimeUtc) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -eq $best.LastWriteTimeUtc -and $f.Name -gt $best.Name) {
+      $best = $f
+    }
+  }
+
+  return $best
+}
 
 if([string]::IsNullOrWhiteSpace($RepoRoot)){
   try{ $RepoRoot=(git rev-parse --show-toplevel 2>$null).Trim() }catch{}
@@ -17,18 +45,15 @@ if(!(Test-Path -LiteralPath $proofDir)){
   throw "PROOF-GATE: missing proof dir: $proofDir (create proof before apply)."
 }
 
-$latest = Get-ChildItem -LiteralPath $proofDir -File -Filter 'PROOF_*.txt' |
-  Sort-Object LastWriteTime -Descending |
-  Select-Object -First 1
+$latest = Get-LatestProofFile -ProofDir $proofDir
 
 if(!$latest){
   throw "PROOF-GATE: no PROOF_*.txt found in $proofDir."
 }
 
 $txt = Get-Content -LiteralPath $latest.FullName -Encoding UTF8
-
-$hasUrl = $false
 $hasHit = $false
+$hasUrl = $false
 
 foreach($line in $txt){
   if($line -match 'https://gluecklich-tools\.github\.io/einfach-geld-ordnen/'){ $hasUrl=$true }
@@ -42,7 +67,7 @@ if(-not $hasHit){
 # live url is required if proof mentions LIVE_BUG=1 or if user flagged live issue
 $needsUrl = $false
 foreach($line in $txt){
-  if($line -match '^LIVE_BUG=1\b'){ $needsUrl=$true }
+  if($line -match 'LIVE_BUG=1'){ $needsUrl = $true }
 }
 if($needsUrl -and -not $hasUrl){
   throw "PROOF-GATE: LIVE_BUG=1 but no live url present in proof: $($latest.FullName)"
