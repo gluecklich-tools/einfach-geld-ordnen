@@ -1,46 +1,91 @@
-#requires -Version 7.0
 param()
-$ErrorActionPreference="Stop"
+
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
-try{ Remove-Module PSReadLine -ErrorAction SilentlyContinue }catch{}
-try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
-[Console]::OutputEncoding=[Text.UTF8Encoding]::new($false)
-function Fail([string]$m){ throw $m }
-function Read-Utf8([string]$p){ [IO.File]::ReadAllText($p,[Text.UTF8Encoding]::new($false)) }
-$Repo = $null
-try{ $Repo = (git rev-parse --show-toplevel 2>$null).Trim() }catch{}
-if(-not $Repo){ $Repo = (Resolve-Path -LiteralPath ".").Path }
-$Repo = (Resolve-Path -LiteralPath $Repo).Path
-Set-Location -LiteralPath $Repo
-# Strict Download Hub Gate (MINIMAL MODE, parser-safe)
-# Goal now: keep preflight unblocked; later re-implement full strict rules.
-# Basic checks implemented:
-# - Find pages likely to be download hubs by filename or frontmatter marker.
-# - Ensure no obvious broken include tags.
-# - Ensure "download hub" pages contain at least one link-like pattern.
-$seiten = Join-Path $Repo "seiten"
-if(-not (Test-Path -LiteralPath $seiten)){ Fail "STOP: seiten/ not found." }
-$hubFiles = @(Get-ChildItem -LiteralPath $seiten -File -Recurse -ErrorAction Stop |
-  Where-Object { $_.Name -match '(?i)download|hub|bundle' -and $_.Extension -in @('.md','.html') })
-if($hubFiles.Count -eq 0){
-  "PASS: gate_download_hubs_strict (minimal) - no hub-like files found."
+try { if ($IsWindows) { chcp 65001 | Out-Null } } catch {}
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
+
+$RepoRoot = (Get-Location).Path
+
+function Get-TrackedSeitenMarkdown {
+  param([Parameter(Mandatory = $true)][string]$Root)
+
+  $gitArgs = @(
+    '-C'
+    $Root
+    'ls-files'
+    '--'
+    'seiten/**/*.md'
+  )
+
+  $trackedRelPaths = @(& git @gitArgs)
+  if ($LASTEXITCODE -ne 0) {
+    throw 'git ls-files failed.'
+  }
+
+  $targets = @(
+    foreach ($rel in $trackedRelPaths) {
+      if ([string]::IsNullOrWhiteSpace($rel)) { continue }
+
+      $full = Join-Path $Root ($rel -replace '/', '\')
+      if (Test-Path -LiteralPath $full -PathType Leaf) {
+        Get-Item -LiteralPath $full
+      }
+    }
+  )
+
+  return @($targets | Sort-Object FullName -Unique)
+}
+
+$files = Get-TrackedSeitenMarkdown -Root $RepoRoot
+
+if ($files.Count -eq 0) {
+  'PASS: gate_download_hubs_strict (no tracked seiten markdown files in scope)'
   exit 0
 }
-$bad = New-Object System.Collections.Generic.List[string]
-foreach($f in $hubFiles){
-  $t = Read-Utf8 $f.FullName
-  # Basic include sanity (common broken patterns)
-  if($t -match '\{\%\s*include\s*$'){ $bad.Add(("BROKEN include tag (unterminated) :: {0}" -f $f.FullName)) | Out-Null }
-  # Must contain at least one link-ish thing
-  $hasLink = ($t -match '(?i)\[[^\]]+\]\([^)]+\)' ) -or ($t -match '(?i)href\s*=\s*"' ) -or ($t -match '(?i)\{\{\s*site\.baseurl\s*\}\}/' )
-  if(-not $hasLink){
-    $bad.Add(("No links detected :: {0}" -f $f.FullName)) | Out-Null
+
+$targetFiles = @(
+  $files | Where-Object {
+    $_.Name -match '(?i)download' -or
+    $_.Name -match '(?i)hub'
+  }
+)
+
+if ($targetFiles.Count -eq 0) {
+  'PASS: gate_download_hubs_strict (no tracked download-hub targets found)'
+  exit 0
+}
+
+$fails = New-Object System.Collections.Generic.List[string]
+
+foreach ($file in $targetFiles) {
+  $rel = $file.FullName.Substring($RepoRoot.Length + 1).Replace('\','/')
+  $raw = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
+
+  $hasBundle = $raw -match '(?i)bundle'
+  $hasZip    = $raw -match '(?i)\.zip'
+  $hasXlsx   = $raw -match '(?i)\.xlsx'
+  $hasOds    = $raw -match '(?i)\.ods'
+  $hasWeiter = $raw -match '(?im)^##\s+Weiter\s*$'
+
+  if (-not $hasWeiter) {
+    $fails.Add(('{0}: missing ## Weiter block' -f $rel))
+  }
+
+  if ($hasBundle -and (-not $hasZip)) {
+    $fails.Add(('{0}: bundle mention without .zip link' -f $rel))
+  }
+
+  if ($hasBundle -and (-not ($hasXlsx -or $hasOds))) {
+    $fails.Add(('{0}: bundle mention without xlsx/ods reference' -f $rel))
   }
 }
-"PASS: gate_download_hubs_strict (minimal) scanned={0}" -f $hubFiles.Count
-if($bad.Count -gt 0){
-  "FAIL: gate_download_hubs_strict (minimal) issues:"
-  $bad.ToArray() | Sort-Object
-  Fail ("STOP: gate_download_hubs_strict failed (count={0})" -f $bad.Count)
+
+if ($fails.Count -gt 0) {
+  'FAIL: gate_download_hubs_strict'
+  $fails | ForEach-Object { ' - ' + $_ }
+  exit 2
 }
-"PASS: gate_download_hubs_strict OK."
+
+'PASS: gate_download_hubs_strict'
+exit 0
