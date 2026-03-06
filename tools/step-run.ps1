@@ -1,54 +1,40 @@
 param(
-  [Parameter(Mandatory=$true)][string]$StepPath
+    [Parameter(Mandatory = $true)]
+    [string]$StepPath
 )
 
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 function Fail([string]$m){ throw $m }
 
-function Read-AllowlistFromStepText([Parameter(Mandatory=$true)][string]$Text){
-  if([string]::IsNullOrWhiteSpace($Text)){ return @() }
-
-  $t = $Text -replace "`r`n","`n" -replace "`r","`n"
-
-  # Match allowlist assignment; allow whitespace/newlines inside @(...)
-  $m = [regex]::Match($t, '(?ms)^\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\((?<inner>.*?)\)\s*$', [Text.RegularExpressions.RegexOptions]::None)
-  if(-not $m.Success){ return @() }
-
-  $inner = $m.Groups['inner'].Value
-  $vals = @()
-
-  foreach($mm in [regex]::Matches($inner, '''([^'']*)''', [Text.RegularExpressions.RegexOptions]::None)){
-    $v = $mm.Groups[1].Value
-    if($v){ $vals += $v }
-  }
-  foreach($mm in [regex]::Matches($inner, '"([^"]*)"', [Text.RegularExpressions.RegexOptions]::None)){
-    $v = $mm.Groups[1].Value
-    if($v){ $vals += $v }
-  }
-
-  return @($vals)
+if (-not (Test-Path -LiteralPath $StepPath)) {
+    Fail ("FAIL: step not found: " + $StepPath)
 }
 
-function Get-RepoRoot {
-  $p = (& git rev-parse --show-toplevel 2>$null)
-  if (-not $p) { Fail "RepoRoot konnte nicht bestimmt werden (git rev-parse)." }
-  return (Resolve-Path -LiteralPath $p).Path
+$raw = Get-Content -LiteralPath $StepPath -Raw
+
+if ($raw -notmatch '\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\(') {
+    Fail 'FAIL: step missing $EGO_STEP_WRITE_ALLOWLIST = @(...).'
 }
-$RepoRoot = Get-RepoRoot
-$StepFull = (Resolve-Path -LiteralPath $StepPath).Path
-if (-not (Test-Path -LiteralPath $StepFull)) { Fail "Step not found: $StepFull" }
 
-# Gate: Tools parse (existing scripts call this upstream; keep local minimal)
-# Gate: Step Allowlist MUST exist (read from file, not from session scope)
+if ($raw -match '(?m)^\s*\$null\s*=\s*\$lines\.Add\(\s*"[-#]') {
+    Fail 'FAIL: step report line uses parser-fragile interpolated string; use format operator (-f) or prebuilt string.'
+}
 
-$txt = Get-Content -LiteralPath $StepFull -Raw
-$allow = Read-AllowlistFromStepText $txt
-if (-not $allow) { Fail "FAIL: step missing `$EGO_STEP_WRITE_ALLOWLIST = @(...)." }
+if ($raw -match '(?m)^\s*\$pass\w+\s*=\s*\(\(.*\|\s*Where-Object\b.*\)\.Count\s*-eq\s*\d+\)') {
+    Fail 'FAIL: step uses pipeline Count directly after Where-Object; wrap with @(... ) before .Count.'
+}
 
-# Execute step
-& pwsh -NoProfile -ExecutionPolicy Bypass -File $StepFull
-if ($LASTEXITCODE -ne 0) { Fail "STOP: step-run failed (exit=$LASTEXITCODE)" }
+if ($raw -match '(?m)\[\s*System\.Collections\.Generic\.List\[string\]\s*\]\$List') {
+    Fail 'FAIL: step helper uses Generic.List[string] parameter binding; use direct .Add(...) on local list.'
+}
 
-"PASS: step-run"
+& pwsh -NoProfile -ExecutionPolicy Bypass -File $StepPath
+$exit = $LASTEXITCODE
+
+if ($exit -ne 0) {
+    Fail ("STOP: step-run failed (exit={0})" -f $exit)
+}
+
+'PASS: step-run'

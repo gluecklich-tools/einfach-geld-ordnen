@@ -37,3 +37,8 @@ foreach($rel in $entry){
 }
 
 "PASS: ego-flow-gates (entrypoints only)"
+# Recurring Step Failure Patterns
+# - Allowlist must exist in every step
+# - No parser-fragile inline report lines via $lines.Add("...") with leading markdown markers
+# - No pipeline .Count directly on Where-Object results
+# - No helper parameter-binding on empty Generic.List[string]; use direct .Add(...)
