@@ -1,7 +1,16 @@
 # Weiter-Navigation Policy (SSOT im Repo, verbindlich)
 
-Ziel: Wohlfuehlerlebnis ohne Sackgassen. Jede Seite hat im Block "## Weiter" exakt 3 sinnvolle naechste Schritte.
+## Dual-KPI Active-Core vs Non-Core
 
+- Active-Core ist die operative KPI fuer Orphan-Ref-Befunde.
+- Non-Core ist eine getrennte Beobachtungs-KPI und darf operative Priorisierung nicht verfaelschen.
+- P0-Handlungsdruck entsteht nur aus Active-Core-Befunden oder klaren Governance-/Tooling-Defekten.
+
+### Betriebs- und Governance-Regel
+- Aggregiertes Repo-Rauschen ist keine operative Entscheidungsgrundlage.
+- Entscheidungen und Eskalation richten sich nach Active-Core oder klaren Tooling-/Governance-Defekten.
+
+Ziel: Wohlfuehlerlebnis ohne Sackgassen. Jede Seite hat im Block "## Weiter" exakt 3 sinnvolle naechste Schritte.
 ## Harte Regeln
 - Genau 3 Links im Weiter-Block (Markdown-Liste).
 - Kein Linktext "Weiter" (keine Platzhalter).
@@ -53,9 +62,4 @@ Ziel: Wohlfuehlerlebnis ohne Sackgassen. Jede Seite hat im Block "## Weiter" exa
 
 ## Thema-Pfade (Wohlfuehl-Fluss, konzeptionell)
 Start15 → Haushaltsbuch → Pillar-Thema → Rechner-Thema → Download-Hub → Downloads → Projekt-ueberblick
-
-
-
-
-
 

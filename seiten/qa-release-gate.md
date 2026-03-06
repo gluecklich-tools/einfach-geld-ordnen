@@ -8,11 +8,23 @@ sitemap: false
 
 # QA Release Gate
 
+## Dual-KPI Active-Core vs Non-Core
+
+- Active-Core ist die operative KPI fuer Orphan-Ref-Befunde.
+- Non-Core ist eine getrennte Beobachtungs-KPI und darf operative Priorisierung nicht verfaelschen.
+- P0-Handlungsdruck entsteht nur aus Active-Core-Befunden oder klaren Governance-/Tooling-Defekten.
+
+### Learning und QA-Folgerung
+
+- Hohe Repo-Treffer koennen vollstaendig aus Non-Core-Bereichen stammen.
+- QA- und Scan-Auswertungen muessen Active-Core und Non-Core getrennt berichten.
+
 Diese Seite beschreibt die Grundregeln, damit nichts kaputt geht:
 
 - Interne Links nutzen {{site.baseurl}} und enden auf .html.
 - Keine Sackgassen: Weiter-Block + Footer sind vorhanden.
 - Live-Check immer mit Projekt-URL (nicht Root-Domain).
+
 ## Weiter
 - [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)

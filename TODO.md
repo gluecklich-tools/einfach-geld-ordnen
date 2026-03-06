@@ -1,7 +1,23 @@
 # TODO – Einfach Geld ordnen
 
-Stand: 2026-01-24
+## Dual-KPI Active-Core vs Non-Core
 
+- Active-Core ist die operative KPI fuer Orphan-Ref-Befunde.
+- Non-Core ist eine getrennte Beobachtungs-KPI und darf operative Priorisierung nicht verfaelschen.
+- P0-Handlungsdruck entsteht nur aus Active-Core-Befunden oder klaren Governance-/Tooling-Defekten.
+
+### Learning und QA-Folgerung
+
+- Hohe Repo-Treffer koennen vollstaendig aus Non-Core-Bereichen stammen.
+- QA- und Scan-Auswertungen muessen Active-Core und Non-Core getrennt berichten.
+
+### Status und Folgeaufgaben
+
+- Status: Active-Core Orphan-Refs = 0 bei 214 gescannten Dateien.
+- Non-Core bleibt separate Beobachtungsspur.
+- Tooling und Governance sollen die Dual-KPI-Sicht dauerhaft abbilden.
+
+Stand: 2026-01-24
 ## Premium-UX / Apple-Amazon DoD (Phase 0/1) — Pflicht vor Monetarisierung
 
 [ ] Startseite: ruhiges Premium-Layout (Lesbarkeit, klare Abschnitte, keine Textwand)
