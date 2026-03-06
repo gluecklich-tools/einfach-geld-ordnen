@@ -1,15 +1,9 @@
-#requires -Version 7.0
 param(
-  [Parameter(Mandatory=$false)]
-  [ValidateNotNullOrEmpty()]
-  [string]$BaseUrl = "https://gluecklich-tools.github.io/einfach-geld-ordnen"
+  [string]$BaseUrl = 'https://www.einfach-geld-ordnen.de'
 )
 
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-try { if($IsWindows){ chcp 65001 > $null } } catch {}
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 function Fail([string]$m){ throw $m }
 
@@ -18,51 +12,60 @@ $ProjectRoot = [System.IO.Path]::GetFullPath((Join-Path $RepoRoot "..\.."))
 
 function Get-DownloadHubPermalinksFromSsotIndex([string]$IndexPath){
   $out = @()
-  if(-not (Test-Path -LiteralPath $IndexPath -PathType Leaf)){ return @() }
+  if(-not (Test-Path -LiteralPath $IndexPath)){ return @() }
+
   $raw = Get-Content -LiteralPath $IndexPath -Raw -Encoding UTF8
 
   # Grab any /seiten/...download-hub....html occurrences anywhere
-  $ms = [regex]::Matches($raw, '(?i)(/seiten/[^ \t\r\n\|"]*download-hub[^ \t\r\n\|"]*\.html)')
+  $ms = [regex]::Matches($raw, '(?i)(/seiten/[^ \t\r\n\|"]*download-hub[^\t\r\n\|"]*\.html)')
   foreach($m in $ms){ $out += $m.Groups[1].Value }
 
-  @($out | Sort-Object -Unique)
+  return @($out | Sort-Object -Unique)
 }
 
 function Get-DownloadHubPermalinksFromRepo(){
   $out = @()
-  $seiten = Join-Path $RepoRoot "seiten"
-  if(-not (Test-Path -LiteralPath $seiten -PathType Container)){ return @() }
 
-  $files = Get-ChildItem -LiteralPath $seiten -File -Filter "download-hub*.md" -ErrorAction SilentlyContinue
-  foreach($f in $files){
-    $txt = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
+  $trackedHubFiles = @(
+    git -C $RepoRoot ls-files -- 'seiten/download-hub*.md'
+  )
+
+  foreach($rel in $trackedHubFiles){
+    if([string]::IsNullOrWhiteSpace($rel)){ continue }
+
+    $full = Join-Path $RepoRoot $rel
+    if(-not (Test-Path -LiteralPath $full -PathType Leaf)){ continue }
+
+    $txt = Get-Content -LiteralPath $full -Raw -Encoding UTF8
 
     # Try frontmatter permalink: /seiten/xxx.html
-    $pm = [regex]::Match($txt, '(?im)^\s*permalink:\s*(/seiten/[^ \t\r\n]+)\s*$')
+    $pm = [regex]::Match($txt, '(?im)^\s*permalink:\s*(/seiten/[^\t\r\n]+)\s*$')
     if($pm.Success){
       $out += $pm.Groups[1].Value
       continue
     }
 
     # Fallback: derive from filename -> /seiten/<name>.html
-    $base = [System.IO.Path]::GetFileNameWithoutExtension($f.Name)
+    $base = [System.IO.Path]::GetFileNameWithoutExtension([System.IO.Path]::GetFileName($full))
     $out += ("/seiten/{0}.html" -f $base)
   }
 
-  @($out | Sort-Object -Unique)
+  return @($out | Sort-Object -Unique)
 }
 
-$indexPath = Join-Path $ProjectRoot "_INTERN\governance\inventory\REPO_PERMALINK_INDEX.md"
+$ssotIndex = Join-Path $ProjectRoot 'Brain_EGO_Dateien\ARTIFACTS_INDEX.md'
+$permalinks = @()
 
-$permalinks = Get-DownloadHubPermalinksFromSsotIndex -IndexPath $indexPath
-if($permalinks.Count -eq 0){
-  $permalinks = Get-DownloadHubPermalinksFromRepo
+$fromSsot = @(Get-DownloadHubPermalinksFromSsotIndex -IndexPath $ssotIndex)
+if($fromSsot.Count -gt 0){
+  $permalinks = $fromSsot
+} else {
+  $permalinks = @(Get-DownloadHubPermalinksFromRepo)
 }
 
-$permalinks = @($permalinks | Sort-Object -Unique)
 $cnt = $permalinks.Count
-if($cnt -eq 0){
-  Fail "NO_DOWNLOAD_HUB_PERMALINKS_FOUND (SSOT index + repo fallback empty)"
+if($cnt -le 0){
+  Fail 'No download hub permalinks found.'
 }
 
 $fail = 0
@@ -76,20 +79,20 @@ foreach($p in $permalinks){
     $r = Invoke-WebRequest -Uri $u -UseBasicParsing -Method GET
     $ct = ""
     try { $ct = $r.Headers["Content-Type"] } catch {}
-    if($r.StatusCode -ne 200){
+
+    $okStatus = ($r.StatusCode -eq 200)
+    $okType = ($ct -match 'text/html')
+    if($okStatus -and $okType){
+      ("OK   {0} [{1}] {2}" -f $r.StatusCode, $ct, $u)
+    } else {
       $fail++
-      "FAIL: HTTP=$($r.StatusCode) $u"
-      continue
+      ("FAIL {0} [{1}] {2}" -f $r.StatusCode, $ct, $u)
     }
-    if(-not ($ct -match '(?i)text/html')){
-      $fail++
-      "FAIL: CT=$ct $u"
-      continue
-    }
-    "OK: HTTP=200 CT=$ct $u"
-  } catch {
+  }
+  catch {
     $fail++
-    "FAIL: EXCEPTION $u :: $($_.Exception.Message)"
+    $msg = $_.Exception.Message
+    ("FAIL EXCEPTION {0} :: {1}" -f $u, $msg)
   }
 }
 
