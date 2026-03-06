@@ -1,55 +1,75 @@
-param(
-  [string]$Root = ".",
-  [string]$OutPath = ".\_local\reports\rereview_report.txt"
-)
+param()
 
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+try { if ($IsWindows) { chcp 65001 | Out-Null } } catch {}
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
 
-if(-not (Test-Path -LiteralPath ".\tools\ego-rereview-lib.ps1")){
-  throw "Missing: tools\ego-rereview-lib.ps1"
+$RepoRoot = (Get-Location).Path
+
+function Get-TrackedMarkdownTargets {
+  param([Parameter(Mandatory = $true)][string]$Root)
+
+  $gitArgs = @(
+    '-C'
+    $Root
+    'ls-files'
+    '--'
+    'seiten/**/*.md'
+    'pillar/**/*.md'
+  )
+
+  $trackedRelPaths = @(& git @gitArgs)
+  if ($LASTEXITCODE -ne 0) {
+    throw 'git ls-files failed.'
+  }
+
+  $targets = @(
+    foreach ($rel in $trackedRelPaths) {
+      if ([string]::IsNullOrWhiteSpace($rel)) { continue }
+
+      $full = Join-Path $Root ($rel -replace '/', '\')
+      if (Test-Path -LiteralPath $full -PathType Leaf) {
+        Get-Item -LiteralPath $full
+      }
+    }
+  )
+
+  return @($targets | Sort-Object FullName -Unique)
 }
 
-. .\tools\ego-rereview-lib.ps1
+$files = Get-TrackedMarkdownTargets -Root $RepoRoot
 
-function Get-MdFiles([string]$base){
-  $list = New-Object System.Collections.Generic.List[System.IO.FileInfo]
-  $p = Resolve-Path $base
-
-  if(Test-Path -LiteralPath (Join-Path $p.Path "index.md")){
-    [void]$list.Add((Get-Item (Join-Path $p.Path "index.md")))
-  }
-  if(Test-Path -LiteralPath (Join-Path $p.Path "seiten")){
-    Get-ChildItem -LiteralPath (Join-Path $p.Path "seiten") -Recurse -File -Filter "*.md" | ForEach-Object { [void]$list.Add($_) }
-  }
-  if(Test-Path -LiteralPath (Join-Path $p.Path "pillar")){
-    Get-ChildItem -LiteralPath (Join-Path $p.Path "pillar") -Recurse -File -Filter "*.md" | ForEach-Object { [void]$list.Add($_) }
-  }
-
-  return $list.ToArray()
+if ($files.Count -eq 0) {
+  'PASS: ego-rereview-run (no tracked markdown files in scope)'
+  exit 0
 }
 
-$files = Get-MdFiles $Root
+$fails = New-Object System.Collections.Generic.List[string]
 
-$allHits = New-Object System.Collections.Generic.List[string]
-foreach($f in $files){
-  $rel = $f.FullName
-  try {
-    $content = Get-Content -LiteralPath $f.FullName
-    $hits = Body-Scan -body $content -relPath $rel
-    foreach($h in $hits){ [void]$allHits.Add($h) }
-  } catch {
-    [void]$allHits.Add(("{0}:ERR:{1}" -f @($rel, $_.Exception.Message)))
+foreach ($file in $files) {
+  $rel = $file.FullName.Substring($RepoRoot.Length + 1).Replace('\','/')
+  $raw = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
+
+  $hasWeiter = $raw -match '(?im)^##\s+Weiter\s*$'
+  $weiterLinks = [regex]::Matches($raw, '(?im)^\s*-\s*\[[^\]]+\]\([^)]+\)\s*$')
+
+  if ($hasWeiter) {
+    if ($weiterLinks.Count -lt 3) {
+      $fails.Add(('{0}: ## Weiter block has fewer than 3 markdown links' -f $rel))
+    }
+  }
+
+  if ($raw -match '(?i)\(#\)') {
+    $fails.Add(('{0}: contains placeholder link (#)' -f $rel))
   }
 }
 
-# normalize & write report
-$lines = @()
-$lines += "REREVIEW_REPORT"
-$lines += ("Files: {0}" -f $files.Count)
-$lines += ("Hits : {0}" -f $allHits.Count)
-$lines += ""
-$lines += $allHits.ToArray()
+if ($fails.Count -gt 0) {
+  'FAIL: ego-rereview-run'
+  $fails | ForEach-Object { ' - ' + $_ }
+  exit 2
+}
 
-Write-Report -path $OutPath -lines $lines
-"PASS: ego-rereview-run"
+'PASS: ego-rereview-run'
+exit 0
