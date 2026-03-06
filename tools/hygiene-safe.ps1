@@ -108,13 +108,17 @@ if ($IncludeEmptyDirs.IsPresent) {
                 continue
             }
 
+            if ($dir.LastWriteTime -ge $cutoff) {
+                continue
+            }
+
             $entries = @(Get-ChildItem -LiteralPath $dir.FullName -Force)
             if ($entries.Count -eq 0) {
                 $emptyDirs += [pscustomobject]@{
                     Kind = 'EMPTY_DIR'
                     Root = $root
                     Path = $dir.FullName
-                    AgeDays = 0
+                    AgeDays = [int](((Get-Date) - $dir.LastWriteTime).TotalDays)
                 }
             }
         }
