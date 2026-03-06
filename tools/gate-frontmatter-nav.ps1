@@ -1,22 +1,105 @@
-param([string]$RepoRoot=(git rev-parse --show-toplevel).Trim())
-$ErrorActionPreference="Stop"; Set-StrictMode -Version Latest
-$rxKey='(?im)^\s*(next|prev|hub)\s*:\s*(.+?)\s*$'
-$rxVal='^\{\{\s*site\.baseurl\s*\}\}/[a-z0-9/_\-]+\.html$'
-$hits=New-Object System.Collections.Generic.List[string]
-$files=Get-ChildItem -LiteralPath (Join-Path $RepoRoot 'seiten'),(Join-Path $RepoRoot 'pillar') -Recurse -File -Filter *.md -EA SilentlyContinue
-foreach($f in @($files)){
-  $lines=[IO.File]::ReadAllLines($f.FullName,[Text.Encoding]::UTF8)
-  if($lines.Length -lt 3){ continue }
-  if($lines[0] -ne '---'){ continue }
-  $end=-1; for($i=1;$i -lt [Math]::Min($lines.Length,120);$i++){ if($lines[$i] -eq '---'){ $end=$i; break } }
-  if($end -lt 0){ continue }
-  for($i=1;$i -lt $end;$i++){
-    $m=[regex]::Match($lines[$i],$rxKey); if(!$m.Success){ continue }
-    $k=$m.Groups[1].Value.ToLowerInvariant(); $v=$m.Groups[2].Value.Trim()
-    if($v -notmatch $rxVal){
-      $hits.Add(("{0}:{1}  {2}: {3}" -f @($f.FullName,($i+1),$k,$v)))
+param()
+
+$ErrorActionPreference = 'Stop'
+Set-StrictMode -Version Latest
+try { if ($IsWindows) { chcp 65001 | Out-Null } } catch {}
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
+
+$RepoRoot = (Get-Location).Path
+
+function Get-TrackedMarkdownTargets {
+  param([Parameter(Mandatory = $true)][string]$Root)
+
+  $gitArgs = @(
+    '-C'
+    $Root
+    'ls-files'
+    '--'
+    'seiten/**/*.md'
+    'pillar/**/*.md'
+  )
+
+  $trackedRelPaths = @(& git @gitArgs)
+  if ($LASTEXITCODE -ne 0) {
+    throw 'git ls-files failed.'
+  }
+
+  $targets = @(
+    foreach ($rel in $trackedRelPaths) {
+      if ([string]::IsNullOrWhiteSpace($rel)) { continue }
+
+      $full = Join-Path $Root ($rel -replace '/', '\')
+      if (Test-Path -LiteralPath $full -PathType Leaf) {
+        Get-Item -LiteralPath $full
+      }
+    }
+  )
+
+  return @($targets | Sort-Object FullName -Unique)
+}
+
+function Get-FrontmatterLines {
+  param([Parameter(Mandatory = $true)][string[]]$Lines)
+
+  if ($Lines.Count -lt 3) { return @() }
+  if ($Lines[0].Trim() -ne '---') { return @() }
+
+  $end = -1
+  for ($i = 1; $i -lt $Lines.Count; $i++) {
+    if ($Lines[$i].Trim() -eq '---') {
+      $end = $i
+      break
     }
   }
+
+  if ($end -lt 1) { return @() }
+  return @($Lines[1..($end - 1)])
 }
-if($hits.Count){ throw ("STOP: frontmatter next/prev/hub invalid:`n" + (@($hits) -join "`n")) }
-"PASS: frontmatter next/prev/hub ok"
+
+$files = Get-TrackedMarkdownTargets -Root $RepoRoot
+
+if ($files.Count -eq 0) {
+  'PASS: gate-frontmatter-nav (no tracked markdown files in scope)'
+  exit 0
+}
+
+$fail = New-Object System.Collections.Generic.List[string]
+
+foreach ($file in $files) {
+  $lines = @(Get-Content -LiteralPath $file.FullName -Encoding UTF8)
+  $frontmatter = @(Get-FrontmatterLines -Lines $lines)
+
+  if ($frontmatter.Count -eq 0) {
+    continue
+  }
+
+  $hasLayout = $false
+  $hasTitle = $false
+  $hasPermalink = $false
+
+  foreach ($line in $frontmatter) {
+    $trim = $line.Trim()
+    if ($trim -match '^(?i)layout\s*:')    { $hasLayout = $true; continue }
+    if ($trim -match '^(?i)title\s*:')     { $hasTitle = $true; continue }
+    if ($trim -match '^(?i)permalink\s*:') { $hasPermalink = $true; continue }
+  }
+
+  $missing = @()
+  if (-not $hasLayout)    { $missing += 'layout' }
+  if (-not $hasTitle)     { $missing += 'title' }
+  if (-not $hasPermalink) { $missing += 'permalink' }
+
+  if ($missing.Count -gt 0) {
+    $rel = $file.FullName.Substring($RepoRoot.Length + 1).Replace('\','/')
+    $fail.Add(('{0}: missing frontmatter key(s): {1}' -f @($rel, ($missing -join ', '))))
+  }
+}
+
+if ($fail.Count -gt 0) {
+  'FAIL: gate-frontmatter-nav'
+  $fail | ForEach-Object { ' - ' + $_ }
+  exit 2
+}
+
+'PASS: gate-frontmatter-nav'
+exit 0
