@@ -1,13 +1,9 @@
-#requires -Version 7.0
 param(
-  [Parameter(Mandatory=$false)]
-  [string]$Dir = ""
+  [string]$Dir = ''
 )
 
-$ErrorActionPreference='Stop'
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
-Remove-Module PSReadLine -ErrorAction SilentlyContinue
-if ($IsWindows) { try { chcp 65001 | Out-Null } catch {} }
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
@@ -20,10 +16,26 @@ if (-not (Test-Path -LiteralPath $Dir)) { throw ("Missing directory: " + $Dir) }
 
 function Get-Latest {
   param([string]$Pattern)
-  Get-ChildItem -LiteralPath $Dir -File -Force |
-    Where-Object { $_.Name -like $Pattern } |
-    Sort-Object LastWriteTime -Descending |
-    Select-Object -First 1
+
+  $dirInfo = [System.IO.DirectoryInfo]::new($Dir)
+  if (-not $dirInfo.Exists) { return $null }
+
+  $best = $null
+  foreach($f in $dirInfo.EnumerateFiles($Pattern, [System.IO.SearchOption]::TopDirectoryOnly)){
+    if ($null -eq $best) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -gt $best.LastWriteTimeUtc) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -eq $best.LastWriteTimeUtc -and $f.Name -gt $best.Name) {
+      $best = $f
+    }
+  }
+
+  return $best
 }
 
 $latestChecklist = Get-Latest -Pattern 'live_checklist_*.md'
