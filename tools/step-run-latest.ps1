@@ -2,7 +2,7 @@ param(
   [Parameter(Mandatory=$true)][string]$Pattern
 )
 
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 function Fail([string]$m){ throw $m }
@@ -13,11 +13,38 @@ function Get-RepoRoot {
   return (Resolve-Path -LiteralPath $p).Path
 }
 
+function Get-LatestMatchingFile {
+  param(
+    [Parameter(Mandatory=$true)][string]$DirectoryPath,
+    [Parameter(Mandatory=$true)][string]$Pattern
+  )
+
+  $dirInfo = [System.IO.DirectoryInfo]::new($DirectoryPath)
+  if (-not $dirInfo.Exists) { return $null }
+
+  $best = $null
+  foreach($f in $dirInfo.EnumerateFiles($Pattern, [System.IO.SearchOption]::TopDirectoryOnly)){
+    if ($null -eq $best) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -gt $best.LastWriteTimeUtc) {
+      $best = $f
+      continue
+    }
+    if ($f.LastWriteTimeUtc -eq $best.LastWriteTimeUtc -and $f.Name -gt $best.Name) {
+      $best = $f
+    }
+  }
+
+  return $best
+}
+
 $RepoRoot = Get-RepoRoot
 $Scratch = Join-Path $RepoRoot "_local\_scratch"
 if (-not (Test-Path -LiteralPath $Scratch)) { Fail "Scratch not found: $Scratch" }
 
-$step = Get-ChildItem -LiteralPath $Scratch -Filter "$Pattern" -File | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+$step = Get-LatestMatchingFile -DirectoryPath $Scratch -Pattern $Pattern
 if (-not $step) { Fail "No step found for pattern '$Pattern' in $Scratch" }
 
 $runner = Join-Path $RepoRoot "tools\step-run.ps1"
