@@ -36,9 +36,30 @@ $needle_like_sq  = ('-like ' + "'" + $star + $bs + $d + $us + $dot)
 $needle_nlike_dq = ('-notlike ' + $dq + $star + $bs + $d + $us + $dot)
 $needle_nlike_sq = ('-notlike ' + "'" + $star + $bs + $d + $us + $dot)
 
-$repo  = (Get-Location).Path
-$files = Get-ChildItem -LiteralPath $repo -Recurse -File -Include '*.ps1' |
-  Where-Object { -not (IsExcluded $_.FullName) }
+$repo = (Get-Location).Path
+
+$gitArgs = @(
+  "-C"
+  $repo
+  "ls-files"
+  "--"
+  "*.ps1"
+)
+
+$trackedRelPaths = @(& git @gitArgs)
+if($LASTEXITCODE -ne 0){
+  throw "git ls-files failed."
+}
+
+$files = @(
+  foreach($rel in $trackedRelPaths){
+    if([string]::IsNullOrWhiteSpace($rel)){ continue }
+    $full = Join-Path $repo ($rel -replace '/', '\')
+    if((Test-Path -LiteralPath $full -PathType Leaf) -and (-not (IsExcluded $full))){
+      Get-Item -LiteralPath $full
+    }
+  }
+)
 
 $bad = New-Object System.Collections.Generic.List[string]
 

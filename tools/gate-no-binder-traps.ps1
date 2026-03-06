@@ -13,13 +13,33 @@ function Get-RepoRoot([string]$Maybe){
 
 $root = Get-RepoRoot $RepoRoot
 
-# Scan scope: tools only (where our binder issues happened)
-$targets = @()
-$targets += Get-ChildItem -LiteralPath (Join-Path $root "tools") -Filter "*.ps1" -File -Recurse -ErrorAction SilentlyContinue
+# Scan scope: tracked tool files only
+$gitArgs = @(
+  "-C"
+  $root
+  "ls-files"
+  "--"
+  "tools/*.ps1"
+)
+
+$trackedRelPaths = @(& git @gitArgs)
+if ($LASTEXITCODE -ne 0) {
+  throw "git ls-files failed."
+}
+
+$targets = @(
+  foreach ($rel in $trackedRelPaths) {
+    if ([string]::IsNullOrWhiteSpace($rel)) { continue }
+    $full = Join-Path $root ($rel -replace '/', '\')
+    if (Test-Path -LiteralPath $full -PathType Leaf) {
+      Get-Item -LiteralPath $full
+    }
+  }
+)
 
 # REPORT-ONLY gate: never block pipeline
 if ($targets.Count -eq 0) {
-  "PASS: gate-no-binder-traps (no tool files found)"
+  "PASS: gate-no-binder-traps (no tracked tool files found)"
   exit 0
 }
 

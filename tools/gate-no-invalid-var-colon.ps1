@@ -32,8 +32,30 @@ function StripComment([string]$line){
   if($hash -ge 0){ return $t.Substring(0,$hash) }  # inline comment tail
   return $t
 }
-$targets = Get-ChildItem -LiteralPath $toolsDir -Recurse -File -Filter '*.ps1' -ErrorAction SilentlyContinue |
-  Where-Object { -not (IsExcluded $_.FullName) }
+
+$gitArgs = @(
+  "-C"
+  $repo
+  "ls-files"
+  "--"
+  "tools/*.ps1"
+)
+
+$trackedRelPaths = @(& git @gitArgs)
+if($LASTEXITCODE -ne 0){
+  throw "git ls-files failed."
+}
+
+$targets = @(
+  foreach($rel in $trackedRelPaths){
+    if([string]::IsNullOrWhiteSpace($rel)){ continue }
+    $full = Join-Path $repo ($rel -replace '/', '\')
+    if((Test-Path -LiteralPath $full -PathType Leaf) -and (-not (IsExcluded $full))){
+      Get-Item -LiteralPath $full
+    }
+  }
+)
+
 $bad = New-Object System.Collections.Generic.List[string]
 foreach($f in $targets){
   $arr = @(Get-Content -LiteralPath $f.FullName -Encoding UTF8)
