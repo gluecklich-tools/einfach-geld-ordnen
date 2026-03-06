@@ -65,7 +65,7 @@ foreach($f in $md){
   }
 
   if($issues.Count -gt 0){
-    $bad.Add(("{0} :: {1}" -f @($rel, ($issues -join '; '))) | Out-Null)
+    $bad.Add(("{0} :: {1}" -f @($rel, ($issues -join '; ')))) | Out-Null
   }
 }
 

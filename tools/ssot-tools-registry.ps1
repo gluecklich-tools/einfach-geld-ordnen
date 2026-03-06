@@ -26,7 +26,7 @@ $lines.Add(("Generated: {0}" -f (Get-Date).ToString("yyyy-MM-dd HH:mm:ss"))) | O
 $lines.Add(("Repo: {0}" -f $Repo)) | Out-Null
 $lines.Add("") | Out-Null
 foreach($f in $files){
-  $lines.Add(("- tools/{0} ({1} bytes)" -f @($f.Name, $f.Length)) | Out-Null)
+  $lines.Add(("- tools/{0} ({1} bytes)" -f @($f.Name, $f.Length))) | Out-Null
 }
 [IO.File]::WriteAllText($ReportPath, ($lines -join "`n") + "`n", [Text.UTF8Encoding]::new($false))
 "OK: Wrote report = $ReportPath"

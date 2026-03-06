@@ -151,7 +151,7 @@ if($toArchive.Count -gt 0){
   $report.Add("## Archived") | Out-Null
   foreach($p in $toArchive){
     $dst = Move-Dir $p $ArchiveRoot "ARCHIVE"
-    $report.Add(("- {0} -> {1}" -f @($p, $dst)) | Out-Null)
+    $report.Add(("- {0} -> {1}" -f @($p, $dst))) | Out-Null
   }
   $report.Add("") | Out-Null
 }
@@ -160,7 +160,7 @@ if($toTrash.Count -gt 0){
   $report.Add("## Trashed") | Out-Null
   foreach($p in $toTrash){
     $dst = Move-Dir $p $TrashRoot "TRASH"
-    $report.Add(("- {0} -> {1}" -f @($p, $dst)) | Out-Null)
+    $report.Add(("- {0} -> {1}" -f @($p, $dst))) | Out-Null
   }
   $report.Add("") | Out-Null
 }
