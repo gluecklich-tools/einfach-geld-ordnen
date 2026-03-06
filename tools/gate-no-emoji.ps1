@@ -2,32 +2,92 @@ param()
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+try { if ($IsWindows) { chcp 65001 | Out-Null } } catch {}
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
 
-$repo = (git rev-parse --show-toplevel).Trim()
-if([string]::IsNullOrWhiteSpace($repo)){ throw "STOP: could not resolve repo root via git." }
-Set-Location -LiteralPath $repo
+$RepoRoot = (Get-Location).Path
 
-$rx = '(?:[\u2600-\u27BF]|\uFE0F|\u200D|[\uD83C-\uDBFF][\uDC00-\uDFFF])'
+function IsExcluded {
+  param([Parameter(Mandatory = $true)][string]$FullPath)
 
-$files = Get-ChildItem -LiteralPath $repo -Recurse -File | Where-Object {
-  ($_.Extension -in @('.md','.html')) -and
-(($_.FullName -replace '\','/') -notlike '*/_audit/*') -and (($_.FullName -replace '\','/') -notlike '*/_local/*') -and (($_.FullName -replace '\','/') -notlike '*/_internal/*') -and
-(($_.FullName -replace '\','/') -notlike '*/00_*') -and
-(($_.FullName -replace '\','/') -notlike '*/01_*')
+  $n = $FullPath.Replace('/','\').ToLowerInvariant()
+
+  if ($n -like '*\.git\*') { return $true }
+  if ($n -like '*\_local\*') { return $true }
+  if ($n -like '*\node_modules\*') { return $true }
+  if ($n -like '*\_site\*') { return $true }
+  if ($n -like '*\vendor\bundle\*') { return $true }
+  if ($n -like '*\bin\*') { return $true }
+  if ($n -like '*\obj\*') { return $true }
+
+  return $false
 }
 
-$hits = New-Object System.Collections.Generic.List[string]
-foreach($f in $files){
-  $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
-  if([regex]::IsMatch($raw,$rx)){
-    $rel = $f.FullName.Substring($repo.Length).TrimStart('\','/')
-    $hits.Add($rel) | Out-Null
+$gitArgs = @(
+  '-C'
+  $RepoRoot
+  'ls-files'
+  '--'
+  '*.md'
+  '*.html'
+  '*.yml'
+  '*.yaml'
+  '*.json'
+  '*.js'
+  '*.css'
+  '*.txt'
+  '*.xml'
+  '*.ps1'
+)
+
+$trackedRelPaths = @(& git @gitArgs)
+if ($LASTEXITCODE -ne 0) {
+  throw 'git ls-files failed.'
+}
+
+$targets = @(
+  foreach ($rel in $trackedRelPaths) {
+    if ([string]::IsNullOrWhiteSpace($rel)) { continue }
+    $full = Join-Path $RepoRoot ($rel -replace '/', '\')
+    if ((Test-Path -LiteralPath $full -PathType Leaf) -and (-not (IsExcluded -FullPath $full))) {
+      Get-Item -LiteralPath $full
+    }
+  }
+)
+
+if ($targets.Count -eq 0) {
+  'PASS: gate-no-emoji (no tracked files in scope)'
+  exit 0
+}
+
+$emojiRegex = [regex]::new('[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$hits = New-Object System.Collections.Generic.List[object]
+
+foreach ($file in $targets) {
+  $lineNumber = 0
+  foreach ($line in Get-Content -LiteralPath $file.FullName -Encoding UTF8) {
+    $lineNumber++
+    if ([string]::IsNullOrEmpty($line)) { continue }
+
+    $m = $emojiRegex.Match($line)
+    if ($m.Success) {
+      $hits.Add([pscustomobject]@{
+        File  = $file.FullName
+        Line  = $lineNumber
+        Emoji = $m.Value
+        Text  = $line.Trim()
+      })
+    }
   }
 }
 
-if($hits.Count -gt 0){
-  Write-Host ("FAIL: Emojis found in {0} file(s):" -f $hits.Count)
-  $hits | Sort-Object | ForEach-Object { Write-Host (" - {0}" -f $_) }
-  throw "Emoji gate failed."
+if ($hits.Count -gt 0) {
+  'FAIL: gate-no-emoji'
+  foreach ($h in $hits | Select-Object -First 200) {
+    '{0}:L{1}: emoji={2} :: {3}' -f @($h.File, $h.Line, $h.Emoji, $h.Text)
+  }
+  exit 2
 }
-Write-Host "PASS: Emoji gate (no emojis in repo content)."
+
+'PASS: gate-no-emoji'
+exit 0
