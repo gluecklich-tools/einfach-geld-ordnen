@@ -4,8 +4,8 @@ title: "Downloads"
 permalink: /seiten/downloads.html
 policy_blocks: show
 description: "Downloads – Vorlagen und Bundles im Projekt Einfach Geld ordnen."
+flow_systemlinks: true
 ---
-
 # Downloads
 Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
