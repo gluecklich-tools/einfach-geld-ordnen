@@ -1,37 +1,35 @@
 ---
 layout: default
-title: "Download-Hub: Abo-Manager"
+title: "Download-Hub Abo-Manager"
 permalink: /seiten/download-hub-abo-manager.html
-policy_blocks: show
-description: "Downloads zum Thema Abo-Manager: Freebie + naechste Schritte. Einfach ohne App."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub Abo-Manager – Einstieg für alle, die laufende Abos und Verträge endlich sichtbar und kündigbar machen wollen."
 ---
+# Download-Hub Abo-Manager
 
-# Download-Hub: Abo-Manager
+Dieser Hub ist passend, wenn du wiederkehrende Abos, Mitgliedschaften und Verträge endlich sauber überblicken willst.
 
-Hier findest du die Downloads zum Thema **Abo-Manager** im Projekt "Einfach Geld ordnen".
+## Wofür dieser Hub gut ist
+- laufende Abbuchungen sichtbar machen
+- unnötige Verträge erkennen
+- Kündigungsbedarf schneller sehen
+- festen Monatsdruck senken
 
-## Freebie
+## Für wen das sinnvoll ist
+- wenn du den Überblick über viele kleine Abbuchungen verloren hast
+- wenn du Verträge und Probeabos systematischer ordnen willst
+- wenn du zuerst an wiederkehrenden Belastungen ansetzen willst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- **Abo-Liste Vorlage (CSV):** [abo-liste-vorlage.csv]({{ site.baseurl }}/downloads/vorlagen/abo-liste-vorlage.csv)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+## Vor dem Download sinnvoll
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
-## Vollversion
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Hinweise
-
-- Einstieg: **[Abo-Manager]({{ site.baseurl }}/pillar/abo-manager.html)**
-- Ziel: Abos sichtbar machen, kündigen oder optimieren, ohne Chaos.
+## Status
+Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abgeschlossen ist.
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

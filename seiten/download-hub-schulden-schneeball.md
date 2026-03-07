@@ -1,36 +1,35 @@
 ---
 layout: default
-title: "Download-Hub: Schulden-Schneeball"
+title: "Download-Hub Schulden-Schneeball"
 permalink: /seiten/download-hub-schulden-schneeball.html
-policy_blocks: show
-description: "Downloads zum Thema Schulden-Schneeball: Freebie + naechste Schritte. Einfach ohne App."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub Schulden-Schneeball – Einstieg für alle, die mehrere Schulden strukturiert ordnen und abbauen wollen."
 ---
+# Download-Hub Schulden-Schneeball
 
-# Download-Hub: Schulden-Schneeball
+Dieser Hub ist passend, wenn du mehrere offene Beträge oder Raten geordnet abbauen willst.
 
-Hier findest du die Downloads zum Thema **Schulden-Schneeball** im Projekt "Einfach Geld ordnen".
+## Wofür dieser Hub gut ist
+- mehrere Schulden sichtbar ordnen
+- Tilgungsreihenfolge klarer machen
+- kleine Fortschritte sichtbar machen
+- Druck aus ungeordneten Raten nehmen
 
-## Freebie
+## Für wen das sinnvoll ist
+- wenn du mehrere offene Beträge parallel hast
+- wenn du eine einfache Abbaulogik brauchst
+- wenn du Schulden nicht mehr nur im Kopf verwalten willst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+## Vor dem Download sinnvoll
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
-## Vollversion
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Hinweise
-
-- Einstieg: **[Schulden-Schneeball]({{ site.baseurl }}/pillar/schulden-schneeball.html)**
-- Ziel: schnell Klarheit + Plan, ohne Sackgassen.
+## Status
+Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abgeschlossen ist.
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
