@@ -1,39 +1,35 @@
 ---
 layout: default
-title: "Download-Hubs"
+title: "Download-Hub Übersicht"
 permalink: /seiten/download-hub-index.html
-policy_blocks: show
-description: "Uebersicht aller Download-Hubs (Themen-Downloads) im Projekt Einfach Geld ordnen."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub Übersicht – finde den passenden Einstieg nach Problem, Ziel oder Schwerpunkt."
 ---
+# Download-Hub Übersicht
 
-# Download-Hubs
-Hier findest du alle Download-Hubs (Themen-Downloads) im Projekt "Einfach Geld ordnen".
+Hier findest du den passenden Einstieg nach Thema.
 
-## Freebie
+## Womit du anfangen kannst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative Übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+### Wenn du grundsätzlich Ordnung in dein Geld bringen willst
+- [50-30-20]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
 
-## Vollversion
+### Wenn du Fixkosten senken und sichtbar machen willst
+- [Fixkosten senken]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
 
-Die Vollversion ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
+### Wenn du zuerst einen Notgroschen aufbauen willst
+- [Notgroschen]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
 
-## Pro
+## Wichtig
+Die eigentlichen Bestell- und Downloadlinks werden erst live geschaltet, wenn Seiten, Dateien und Gesamtfluss vollständig final geprüft sind.
 
-Die Pro-Version ist aktuell noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-Übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Übersicht
-
-- **Schulden-Schneeball:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-schulden-schneeball.html)
-- **Notgroschen:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-notgroschen.html)
-- **Jahreskosten-Kalender:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-jahreskosten-kalender.html)
-- **Abo-Manager:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-abo-manager.html)
-- **Fixkosten senken:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-fixkosten-senken.html)
-- **50/30/20:** [Download-Hub]({{ site.baseurl }}/seiten/download-hub-50-30-20.html)
+## Vorher lesen
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
 
 ## Weiter
-- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Freebie]({{ site.baseurl }}/seiten/freebie.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

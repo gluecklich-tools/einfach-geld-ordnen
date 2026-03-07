@@ -1,34 +1,42 @@
 ---
-permalink: /seiten/freebie.html
 layout: default
-title: Freebie
+title: "Freebie"
 permalink: /seiten/freebie.html
-description: "Freebie – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+flow_systemlinks: true
+description: "Freebie – der einfachste Einstieg in EGO. Ruhig starten, lokal arbeiten, ohne App."
 ---
-
 # Freebie
 
-Kostenlos starten: Lade das Freebie-Bundle herunter und leg in 10 Minuten los.
+Das Freebie ist für alle gedacht, die ohne Hürde anfangen wollen.
 
-## Download (kostenlos)
+## Wofür das Freebie gedacht ist
+- erster Einstieg
+- einfache Orientierung
+- kleine erste Schritte statt Komplettumbau
+- ruhige Arbeitsweise ohne App
 
-- **[EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)**
+## Wofür das Freebie nicht gedacht ist
+- nicht als Vollersatz für die Vollversion
+- nicht für maximale Tiefe
+- nicht für individuelle Begleitung
 
-## Start in 3 Schritten
+## Der richtige Einsatz
+Das Freebie ist ideal, wenn du zuerst testen willst:
+- ob dir die Arbeitsweise liegt
+- ob du lieber mit Datei statt App arbeitest
+- ob du mit klaren Kategorien und festen Abläufen gut zurechtkommst
 
-1) ZIP herunterladen und entpacken.
-2) Datei in LibreOffice oder Excel öffnen.
-3) Fixkosten eintragen – danach erst die monatlichen Ausgaben.
+## Danach sinnvoll
+Wenn du mehr Struktur brauchst, ist die nächste Stufe:
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 
-Nächster Schritt: [Start in 15 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+## Hilfeseiten
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
+
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

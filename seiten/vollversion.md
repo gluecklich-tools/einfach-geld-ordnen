@@ -1,27 +1,39 @@
 ---
-permalink: /seiten/vollversion.html
 layout: default
-title: Vollversion
+title: "Vollversion"
 permalink: /seiten/vollversion.html
-description: "Vollversion – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
+flow_systemlinks: true
+description: "Vollversion – der strukturierte Mittelweg zwischen Freebie und Pro. Für alle, die ihre Geldordnung sauber und selbstständig aufbauen wollen."
 ---
 # Vollversion
 
-Hier findest du die Vollversionen. Kurz, klar, ohne Abo - Self-Serve.
+Die Vollversion ist die passende Stufe, wenn dir das Freebie zu knapp ist, du aber weiterhin komplett selbstständig arbeiten willst.
 
-- **Haushaltsbuch Vollversion:** [Hier entlang]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html?utm_source=site&utm_medium=vollversionhub&utm_campaign=haushaltsbuch_vollversion)
-- **Downloads:** [Zur übersicht]({{ site.baseurl }}/seiten/downloads.html?utm_source=site&utm_medium=vollversionhub&utm_campaign=downloads)
-- **Rechner:** [Zur übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html?utm_source=site&utm_medium=vollversionhub&utm_campaign=rechner)
+## Wofür die Vollversion gedacht ist
+- mehr Struktur als im Freebie
+- klarer Einstieg ohne App
+- ruhige, lokale Arbeitsweise
+- sinnvoller nächster Schritt vor Pro
 
- Weiter: {{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html?utm_source=site&utm_medium=vollversionhub&utm_campaign=haushaltsbuch_vollversion
+## Wofür Pro gedacht ist
+Pro ist für alle, die mehr Umfang, mehr Tiefe oder mehr Vorlagen an einem Ort wollen.
+
+## Orientierung
+- **Freebie**: erster Einstieg
+- **Vollversion**: sauberer Standard
+- **Pro**: mehr Umfang und mehr Tiefe
+
+## Vor dem Kauf sinnvoll
+Bitte erst diese Seiten lesen:
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+
+## Download und Bestellung
+Die eigentliche Bestellung und der Download werden erst live geschaltet, wenn Dateien, Seiten und Gesamtfluss vollständig final geprüft sind.
+
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Freebie]({{ site.baseurl }}/seiten/freebie.html)
+- [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-

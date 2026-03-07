@@ -1,36 +1,34 @@
 ---
 layout: default
-title: "Download-Hub: Fixkosten senken"
+title: "Download-Hub Fixkosten senken"
 permalink: /seiten/download-hub-fixkosten-senken.html
-policy_blocks: show
-description: "Downloads zum Thema Fixkosten senken: Freebie + naechste Schritte. Einfach ohne App."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub Fixkosten senken – Einstieg für alle, die wiederkehrende Kosten sichtbar machen und reduzieren wollen."
 ---
+# Download-Hub Fixkosten senken
 
-# Download-Hub: Fixkosten senken
+Dieser Hub ist passend, wenn du zuerst deine laufenden Kosten in den Griff bekommen willst.
 
-Hier findest du die Downloads zum Thema **Fixkosten senken** im Projekt "Einfach Geld ordnen".
+## Wofür dieser Hub gut ist
+- wiederkehrende Kosten sichtbar machen
+- unnötige Belastungen finden
+- Monatsdruck senken
 
-## Freebie
+## Für wen das sinnvoll ist
+- wenn du viele laufende Verträge hast
+- wenn deine Fixkosten unklar geworden sind
+- wenn du sofort einen spürbaren Hebel suchst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+## Vor dem Download sinnvoll
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
-## Vollversion
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Hinweise
-
-- Einstieg: **[Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)**
-- Ziel: Fixkosten sichtbar machen und daürhaft senken, ohne Sackgassen.
+## Status
+Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abgeschlossen ist.
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

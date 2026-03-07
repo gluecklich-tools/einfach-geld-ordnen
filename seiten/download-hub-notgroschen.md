@@ -1,36 +1,34 @@
 ---
 layout: default
-title: "Download-Hub: Notgroschen"
+title: "Download-Hub Notgroschen"
 permalink: /seiten/download-hub-notgroschen.html
-policy_blocks: show
-description: "Downloads zum Thema Notgroschen: Freebie + naechste Schritte. Einfach ohne App."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub Notgroschen – Einstieg für alle, die zuerst eine kleine Sicherheitsreserve aufbauen wollen."
 ---
+# Download-Hub Notgroschen
 
-# Download-Hub: Notgroschen
+Dieser Hub ist passend, wenn du zuerst finanzielle Luft und eine kleine Sicherheitsreserve aufbauen willst.
 
-Hier findest du die Downloads zum Thema **Notgroschen** im Projekt "Einfach Geld ordnen".
+## Wofür dieser Hub gut ist
+- kleine Reserve systematisch aufbauen
+- unerwartete Ausgaben ruhiger abfangen
+- Geldordnung mit einem klaren ersten Ziel beginnen
 
-## Freebie
+## Für wen das sinnvoll ist
+- wenn dich kleine ungeplante Ausgaben sofort aus der Bahn werfen
+- wenn du einen einfachen ersten Fokus brauchst
+- wenn du mit einem klaren Sicherheitsziel starten willst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+## Vor dem Download sinnvoll
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
-## Vollversion
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Hinweise
-
-- Einstieg: **[Notgroschen]({{ site.baseurl }}/pillar/notgroschen.html)**
-- Ziel: Notgroschen schnell und realistisch aufbaün, ohne Sackgassen.
+## Status
+Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abgeschlossen ist.
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

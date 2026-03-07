@@ -1,36 +1,34 @@
 ---
 layout: default
-title: "Download-Hub: 50/30/20"
+title: "Download-Hub 50-30-20"
 permalink: /seiten/download-hub-50-30-20.html
-policy_blocks: show
-description: "Downloads zum Thema 50/30/20: Freebie + naechste Schritte. Einfach ohne App."
-sitemap: false
+flow_systemlinks: true
+description: "Download-Hub 50-30-20 – Einstieg für alle, die eine einfache Budgetstruktur suchen."
 ---
+# Download-Hub 50-30-20
 
-# Download-Hub: 50/30/20
+Dieser Hub ist passend, wenn du mit einer einfachen Budgetlogik starten willst.
 
-Hier findest du die Downloads zum Thema **50/30/20** im Projekt "Einfach Geld ordnen".
+## Wofür 50-30-20 gut ist
+- einfacher Überblick
+- schnelle erste Struktur
+- gute Orientierung für Einsteiger
 
-## Freebie
+## Für wen das sinnvoll ist
+- wenn du noch kein klares System hast
+- wenn du ein ruhiges Einstiegsmodell willst
+- wenn du deine Ausgaben grob ordnen willst
 
-- **Freebie Bundle (ZIP: XLSX+ODS):** [EGO_Freebie_Bundle.zip]({{ site.baseurl }}/downloads/bundles/EGO_Freebie_Bundle.zip)
-- Alternative übersicht: **[Downloads]({{ site.baseurl }}/seiten/downloads.html)**
+## Vor dem Download sinnvoll
+- [Start in 10 Minuten]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+- [FAQ / Probleme lösen]({{ site.baseurl }}/seiten/faq_probleme_loesen.html)
+- [100% Self-Serve]({{ site.baseurl }}/seiten/self_service.html)
 
-## Vollversion
-
-Die Vollversion ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#vollversion)** klar verlinkt.
-
-## Premium
-
-Die Pro-Version ist aktüll noch **nicht** verlinkt. Sobald der Digistore24-Link live ist, wird er in der **[Downloads-übersicht]({{ site.baseurl }}/seiten/downloads.html#pro)** klar verlinkt.
-
-## Hinweise
-
-- Einstieg: **[50/30/20]({{ site.baseurl }}/pillar/50-30-20.html)**
-- Ziel: Budget schnell sortieren (50 Fixkosten / 30 Leben / 20 Ziele), ohne Overthinking.
+## Status
+Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abgeschlossen ist.
 
 ## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}
