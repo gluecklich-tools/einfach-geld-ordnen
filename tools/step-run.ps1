@@ -1,6 +1,10 @@
 param(
     [Parameter(Mandatory = $true)]
-    [string]$StepPath
+    [Alias("StepPath")]
+    [string]$Step,
+
+    [ValidateSet("Produkt-Loop","Claude-Prompting","Governance-Änderung","Brain-Intern-Struktur","Folgeprojekt-Klon","OpenAI-Regress-Governance")]
+    [string]$RequiredReadsTaskType
 )
 
 $ErrorActionPreference = "Stop"
@@ -8,8 +12,23 @@ Set-StrictMode -Version Latest
 
 function Fail([string]$m){ throw $m }
 
+$StepPath = $Step
 if (-not (Test-Path -LiteralPath $StepPath)) {
     Fail ("FAIL: step not found: " + $StepPath)
+}
+
+$RepoRoot = (Resolve-Path (Join-Path (Split-Path -Parent $StepPath) "..\..")).Path
+
+$RequiredReadsPreflight = Join-Path $RepoRoot "_INTERN\tools\knowledge-required-reads-preflight.ps1"
+if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
+    if (-not (Test-Path -LiteralPath $RequiredReadsPreflight)) {
+        Fail "FAIL: required reads preflight missing: $RequiredReadsPreflight"
+    }
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $RequiredReadsPreflight -TaskType $RequiredReadsTaskType
+    $exit = $LASTEXITCODE
+    if ($exit -ne 0) {
+        Fail "FAIL: required reads preflight failed for task type [$RequiredReadsTaskType]"
+    }
 }
 
 $raw = Get-Content -LiteralPath $StepPath -Raw
