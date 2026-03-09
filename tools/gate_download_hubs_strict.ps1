@@ -37,7 +37,7 @@ function Get-TrackedSeitenMarkdown {
   return @($targets | Sort-Object FullName -Unique)
 }
 
-$files = Get-TrackedSeitenMarkdown -Root $RepoRoot
+$files = @(Get-TrackedSeitenMarkdown -Root $RepoRoot)
 
 if ($files.Count -eq 0) {
   'PASS: gate_download_hubs_strict (no tracked seiten markdown files in scope)'
@@ -69,15 +69,15 @@ foreach ($file in $targetFiles) {
   $hasWeiter = $raw -match '(?im)^##\s+Weiter\s*$'
 
   if (-not $hasWeiter) {
-    $fails.Add(('{0}: missing ## Weiter block' -f $rel))
+    $fails.Add(('{0}: missing ## Weiter block' -f $rel)) | Out-Null
   }
 
   if ($hasBundle -and (-not $hasZip)) {
-    $fails.Add(('{0}: bundle mention without .zip link' -f $rel))
+    $fails.Add(('{0}: bundle mention without .zip link' -f $rel)) | Out-Null
   }
 
   if ($hasBundle -and (-not ($hasXlsx -or $hasOds))) {
-    $fails.Add(('{0}: bundle mention without xlsx/ods reference' -f $rel))
+    $fails.Add(('{0}: bundle mention without xlsx/ods reference' -f $rel)) | Out-Null
   }
 }
 
