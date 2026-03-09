@@ -1,0 +1,7 @@
+TaskType	RequiredPrimary	RequiredMirror	Optional	ContextRule
+Produkt-Loop	C:\Users\carst\Projekte\Claude;C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien	_INTERN\governance\claude;_INTERN\governance\KNOWLEDGE_SYSTEM_ENTERPRISE_POLICY.md	_local\chatpack reports	Vor jedem Produktprompt Claude-Muster + Brain-Kontext abgleichen
+Claude-Prompting	C:\Users\carst\Projekte\Claude	_INTERN\governance\claude;Brain_EGO_Dateien\external_models\claude	Produktartefakte	Keine Prompt-Erstellung ohne Claude-Learnings/Drift/Regeln
+Governance-Änderung	_INTERN\governance;C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien	Brain_EGO_Dateien\system	Externe Spezialbereiche	Regeländerung nur nach Abgleich mit vorhandenen Steuerdateien
+Brain-Intern-Struktur	C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien;_INTERN\governance	_INTERN\governance\KNOWLEDGE_SOURCE_REGISTRY.tsv	Externe Spezialbereiche	Erst Registry/Pflichtabruf prüfen, dann Struktur ändern
+Folgeprojekt-Klon	_INTERN\governance;C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien;C:\Users\carst\Projekte\Claude	_INTERN\governance\claude;Brain_EGO_Dateien\external_models\claude	Projektartefakte	Meta-Regeln + ausgelagerte Spezialwissensbereiche vor Übernahme abgleichen
+OpenAI-Regress-Governance	_INTERN\governance;C:\Users\carst\Projekte\Einfach-Geld-Ordnen\Brain_EGO_Dateien	Brain_EGO_Dateien\system	OpenAI_Logs / Findings	Regressfälle immer in Governance + Brain verknüpfen

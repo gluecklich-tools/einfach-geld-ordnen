@@ -42,3 +42,9 @@ foreach($rel in $entry){
 # - No parser-fragile inline report lines via $lines.Add("...") with leading markdown markers
 # - No pipeline .Count directly on Where-Object results
 # - No helper parameter-binding on empty Generic.List[string]; use direct .Add(...)
+# EGO_LEARNING_SYNC_WIRE_START
+$EgoLearningSyncAssert = Join-Path $PSScriptRoot "assert-no-pending-learning-sync.ps1"
+if (Test-Path -LiteralPath $EgoLearningSyncAssert) {
+    & $EgoLearningSyncAssert -AutoDrainSynced
+}
+# EGO_LEARNING_SYNC_WIRE_END

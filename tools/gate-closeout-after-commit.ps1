@@ -57,3 +57,10 @@ if(-not $r.Ok){
 
 Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
 exit 0
+
+# EGO_LEARNING_SYNC_WIRE_START
+$EgoLearningSyncAssert = Join-Path $PSScriptRoot "assert-no-pending-learning-sync.ps1"
+if (Test-Path -LiteralPath $EgoLearningSyncAssert) {
+    & $EgoLearningSyncAssert -AutoDrainSynced
+}
+# EGO_LEARNING_SYNC_WIRE_END
