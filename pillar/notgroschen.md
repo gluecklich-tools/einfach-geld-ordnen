@@ -15,9 +15,7 @@ Ein kleiner Puffer verhindert, daß du bei jeder unerwarteten Rechnung neü Schu
 
 Tipp: eigenes Unterkonto/Topf, damit du ihn nicht aus Versehen ausgibst.
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/strom-gas-wechsel.html

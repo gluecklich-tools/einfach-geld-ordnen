@@ -14,9 +14,7 @@ Du tilgst zürst die kleinste Schuld. Das bringt schnelle Erfolge.
 3. Extra-Geld komplett auf die kleinste
 4. **Nach Tilgung**: Extra auf die nächste
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/schulden-lawine.html

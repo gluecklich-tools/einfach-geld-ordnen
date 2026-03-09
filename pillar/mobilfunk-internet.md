@@ -25,9 +25,7 @@ Anruf oder Chat: "Ich will kündigen. Was ist eür bestes Angebot - sofort?"
 
 Wechsel ist oft der grössere Hebel als lange Diskussionen.
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/versicherungen-check.html

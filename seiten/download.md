@@ -3,8 +3,8 @@ layout: default
 title: "Download (alt)"
 permalink: /seiten/download.html
 policy_blocks: show
-sitemap: false
 description: "Weiterleitung zur aktuellen Downloads-Seite. Falls die Weiterleitung nicht klappt: Link zur Downloads-Uebersicht."
+sitemap: false
 ---
 
 # Download

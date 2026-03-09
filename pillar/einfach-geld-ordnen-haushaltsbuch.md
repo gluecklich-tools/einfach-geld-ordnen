@@ -1,7 +1,6 @@
 ---
 
 
-permalink: /seiten/einfach-geld-ordnen-haushaltsbuch.html
 
 
 layout: default
@@ -13,7 +12,6 @@ title: "Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger"
 h1: Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger
 
 
-permalink: /seiten/einfach-geld-ordnen-haushaltsbuch.html
 
 
 nav_group: pillar
@@ -28,6 +26,7 @@ flow_systemlinks: true
 description: "Einfach Geld ordnen - Haushaltsbuch fuer Anfaenger – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 
 
+permalink: /pillar/einfach-geld-ordnen-haushaltsbuch.html
 ---
 
 
@@ -87,35 +86,7 @@ Ohne Chaos, ohne Schleifen, ohne tote Enden.
 
 
 ## Weiter
-
-
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-
-
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-
-
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-
-
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -58,9 +58,7 @@ Das ist nicht selten. Und es ist nicht falsch.
 
 Diese Einordnung kann helfen, Druck aus dem Thema zu nehmen, bevor man überhaupt etwas verändert.
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/notgroschen.html

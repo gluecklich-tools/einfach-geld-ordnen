@@ -14,9 +14,7 @@ Du tilgst zürst den höchsten Zinssatz. Das spart meist mehr Geld.
 3. Extra-Geld komplett auf den höchsten Zins
 4. **Nach Tilgung**: Extra weiterreichen
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/jahreskosten-kalender.html

@@ -1,14 +1,14 @@
 ---
-permalink: /seiten/rechner.html
+layout: page
+title: "Rechner (alt)"
 permalink: /seiten/rechner.html
 description: "Rechner – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
-layout: page
-title: Rechner (alt)
+sitemap: false
 ---
 
 # Rechner
 
-> **Hinweis:** Diese Seite ist eine alte Adresse.  
+> **Hinweis:** Diese Seite ist eine alte Adresse.
 > **Hier geht’s zur aktüllen Seite:** [/seiten/rechner-übersicht.html]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 
 <!-- EGO_WEITER_UX_NORMALIZE_V3 -->

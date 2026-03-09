@@ -13,9 +13,7 @@ Ziel: Doppelungen finden, Leistungen vergleichen, Beitrag senken.
 2. **Prüfe Doppelungen (z.B. Rechtsschutz**: welche Bausteine sind wirklich drin?)
 3. Vergleiche Selbstbeteiligung vs Beitrag
 ## Weiter
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
+- [Einfach Geld ordnen](../pillar/einfach-geld-ordnen.html)
+- [Haushaltsüberblick](../pillar/haushaltsueberblick.html)
+- [Fixkosten](../pillar/fixkosten.html)
 {% include no_sackgasse_footer.html %}
-
-Weiter: {{ site.baseurl }}/pillar/abo-manager.html

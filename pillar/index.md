@@ -33,5 +33,4 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Haushaltsbuch]({{ site.baseurl }}/pillar/haushaltsbuch.html)
 - [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 - [50-30-20]({{ site.baseurl }}/pillar/50-30-20.html)
-
 {% include no_sackgasse_footer.html %}
