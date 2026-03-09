@@ -49,9 +49,57 @@ $txt = [IO.File]::ReadAllText($report, [Text.UTF8Encoding]::new($false))
 
 function Get-MetricInt {
   param([string]$Content, [string]$Label)
-  $m = [regex]::Match($Content, '(?m)^\|\s*' + [regex]::Escape($Label) + '\s*\|\s*(\d+)\s*\|')
-  if (-not $m.Success) { throw ("Metric not found in report: " + $Label) }
-  [int]$m.Groups[1].Value
+
+  $patterns = @(
+    ('(?m)^\|\s*' + [regex]::Escape($Label) + '\s*\|\s*(\d+)\s*\|'),
+    ('(?m)^\s*' + [regex]::Escape($Label) + '\s*[:=]\s*(\d+)\s*$'),
+    ('(?m)^\s*-\s*' + [regex]::Escape($Label) + '\s*[:=]\s*(\d+)\s*$')
+  )
+
+  foreach ($pattern in $patterns) {
+    $m = [regex]::Match($Content, $pattern)
+    if ($m.Success) {
+      return [int]$m.Groups[1].Value
+    }
+  }
+
+  $tableRows = @()
+  foreach ($line in ($Content -split "`r?`n")) {
+    if ($line -notmatch '^\|\s*[^|]+\|\s*\d+\s*\|\s*\d+\s*\|\s*\d+\s*\|\s*\d+\s*\|$') { continue }
+    if ($line -match '^\|\s*Datei\s*\|') { continue }
+    if ($line -match '^\|\s*---') { continue }
+
+    $parts = @($line.Trim('|').Split('|') | ForEach-Object { $_.Trim() })
+    if ($parts.Count -lt 5) { continue }
+
+    $weiter = 0
+    $mdLinks = 0
+
+    if (-not [int]::TryParse($parts[1], [ref]$weiter)) { continue }
+    if (-not [int]::TryParse($parts[2], [ref]$mdLinks)) { continue }
+
+    $tableRows += [pscustomobject]@{
+      Datei   = $parts[0]
+      Weiter  = $weiter
+      MdLinks = $mdLinks
+    }
+  }
+
+  if ($tableRows.Count -gt 0) {
+    switch ($Label) {
+      'Missing ## Weiter' {
+        return @($tableRows | Where-Object { $_.Weiter -eq 0 }).Count
+      }
+      'HasWeiter + MdLinks!=3' {
+        return @($tableRows | Where-Object { $_.Weiter -gt 0 -and $_.MdLinks -ne 3 }).Count
+      }
+      'HasWeiter + MdLinks=0' {
+        return @($tableRows | Where-Object { $_.Weiter -gt 0 -and $_.MdLinks -eq 0 }).Count
+      }
+    }
+  }
+
+  throw ("Metric not found in report: " + $Label)
 }
 
 $missing = Get-MetricInt -Content $txt -Label "Missing ## Weiter"
@@ -69,8 +117,8 @@ pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-thema-alias-map.ps1') -With
 
 # Mojibake gate (encoding/garbled chars)
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-mojibake.ps1')
-"pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
-PASS: ego-run completed (required gates OK)."
+pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
+"PASS: ego-run completed (required gates OK)."
 
 
 # === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===

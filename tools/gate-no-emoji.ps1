@@ -60,7 +60,7 @@ if ($targets.Count -eq 0) {
   exit 0
 }
 
-$emojiRegex = [regex]::new('[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$emojiRegex = [regex]::new('([\u2600-\u27BF]|[\uD83C][\uDF00-\uDFFF]|[\uD83D][\uDC00-\uDEFF]|[\uD83E][\uDD00-\uDEFF])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $hits = New-Object System.Collections.Generic.List[object]
 
 foreach ($file in $targets) {

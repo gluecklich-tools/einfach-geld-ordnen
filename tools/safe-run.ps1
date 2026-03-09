@@ -75,7 +75,7 @@ try {
     $refc = 0
 
     if ($wb) {
-      $mdc = ([regex]::Matches($wb, '\]\((?!https?://)(?!mailto:)(?!#)[^)]+\.md(?:#.*)?\)', 'IgnoreCase')).Count
+      $mdc = ([regex]::Matches($wb, '(?m)^\s*-\s*\[[^\]]+\]\((?!https?://)(?!mailto:)(?!#)[^)]+\)', 'IgnoreCase')).Count
       $htmlc = ([regex]::Matches($wb, '\]\((?!https?://)(?!mailto:)(?!#)[^)]+\.html(?:#.*)?\)', 'IgnoreCase')).Count
       $refc = ([regex]::Matches($wb, '\{\{\s*site\.baseurl\s*\}\}', 'IgnoreCase')).Count
     }
@@ -123,7 +123,7 @@ try {
 
     $mdc = 0; $htmlc = 0; $refc = 0
     if ($wb) {
-      $mdc = ([regex]::Matches($wb, '\]\((?!https?://)(?!mailto:)(?!#)[^)]+\.md(?:#.*)?\)', 'IgnoreCase')).Count
+      $mdc = ([regex]::Matches($wb, '(?m)^\s*-\s*\[[^\]]+\]\((?!https?://)(?!mailto:)(?!#)[^)]+\)', 'IgnoreCase')).Count
       $htmlc = ([regex]::Matches($wb, '\]\((?!https?://)(?!mailto:)(?!#)[^)]+\.html(?:#.*)?\)', 'IgnoreCase')).Count
       $refc = ([regex]::Matches($wb, '\{\{\s*site\.baseurl\s*\}\}', 'IgnoreCase')).Count
     }

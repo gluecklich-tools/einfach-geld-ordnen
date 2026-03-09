@@ -56,7 +56,7 @@ function Get-FrontmatterLines {
   return @($Lines[1..($end - 1)])
 }
 
-$files = Get-TrackedMarkdownTargets -Root $RepoRoot
+$files = @(Get-TrackedMarkdownTargets -Root $RepoRoot)
 
 if ($files.Count -eq 0) {
   'PASS: gate-frontmatter-nav (no tracked markdown files in scope)'
