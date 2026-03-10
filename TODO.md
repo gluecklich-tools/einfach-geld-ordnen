@@ -141,3 +141,10 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [P1] DeepSeek nicht als Faktenautorität oder finalen Prüfer in kritischen Themen einsetzen
 - [P1] DeepSeek-Prompts eng halten: eine Aufgabe, Kontext, Format, Scope, Ausschlüsse
 - [P1] Später externe DeepSeek-Struktur analog zu Claude aufbauen, falls DeepSeek dauerhaft produktiv genutzt wird
+
+## Modelle / Einsatzvergleich
+
+- [P1] Vergleichsmatrix Claude vs. DeepSeek vom 2026-03-10 als operative Führungsdatei nutzen
+- [P1] Claude bevorzugt für Kritik, Drift, Guardrails und Rahmung einsetzen
+- [P1] DeepSeek bevorzugt für Struktur, Verdichtung, Vergleich und Sparring einsetzen
+- [P1] Fakten, Zahlen und finale Prüferrolle weiter extern oder deterministisch absichern
