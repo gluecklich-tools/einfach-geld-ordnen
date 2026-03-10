@@ -64,12 +64,12 @@ function RelPath([string]$abs){
 
 # Mojibake markers (conservative)
 $patterns = @(
-  "U+FFFDU+FFFDU+FFFD",   # UTF8-as-ANSI dash
-  "++",    # typical box-drawing mojibake for U+FFFD
-  "+U+FFFD",    # typical box-drawing mojibake for U+FFFD
-  "+U+FFFD",    # U+FFFD
-  "U+FFFD",     # UTF8-as-ANSI prefix (U+FFFD/U+FFFD/U+FFFD etc.)
-  "?"      # replacement char
+  "U+FFFDU+FFFDU+FFFD",
+  "++",
+  "+U+FFFD",
+  "+U+FFFD",
+  "U+FFFD",
+  "?"
 )
 
 $hits = New-Object System.Collections.Generic.List[string]
@@ -78,10 +78,9 @@ foreach($abs in $files){
   $text = [IO.File]::ReadAllText($abs, $utf8)
   foreach($pat in $patterns){
     if($text.Contains($pat)){
-      # collect a few line-level contexts
       $ms = Select-String -InputObject $text -Pattern [regex]::Escape($pat) -AllMatches
       foreach($m in $ms){
-        $hits.Add(("{0}:{1}: {2}" -f @((RelPath $abs), $m.LineNumber, $pat)) | Out-Null)
+        $hits.Add(("{0}:{1}: {2}" -f @((RelPath $abs), $m.LineNumber, $pat))) | Out-Null
         if($hits.Count -ge 200){ break }
       }
     }
