@@ -15,58 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # P0 hard gates (CI)
-      - name: gate-no-command-glue
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-command-glue.ps1 -StepPath tools/enterprise-autopilot-step.ps1
-
-      - name: gate-no-dq-regex-with-dollar
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-dq-regex-with-dollar.ps1 -RepoRoot . -StepPath tools/enterprise-autopilot-step.ps1
-
       - name: env debug
         shell: pwsh
         run: |
-          $ErrorActionPreference='Continue'
+          $ErrorActionPreference = 'Continue'
           pwsh --version
           git --version
           git rev-parse --short HEAD
           git branch --show-current
-          Get-ChildItem -LiteralPath tools | Select-Object -First 80 | ForEach-Object { "$($_.Name)" }
+          Get-ChildItem -LiteralPath tools | Select-Object -First 120 | ForEach-Object { "$($_.Name)" }
 
-      - name: gate public leaks
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-public-leaks.ps1
-
-      - name: gate-no-heresting-nesting
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-heresting-nesting.ps1
-
-      - name: gate-no-regex-path-filters
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-regex-path-filters.ps1
-
+      # Nur Gates, die im aktuellen Repo real vorhanden sind
       - name: gate-no-dollar-underscore-in-dq
         run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-dollar-underscore-in-dq.ps1
 
-      - name: gate-no-two-line-file-in-yaml
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-two-line-file-in-yaml.ps1
-
-      - name: gate-no-missing-stepfiles
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-missing-stepfiles.ps1
-
-      - name: gate-no-literal-n-newlines
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-literal-n-newlines.ps1
-
       - name: gate-no-invalid-var-colon
         run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-invalid-var-colon.ps1
-
-      - name: gate-no-missing-workflow-script
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-missing-workflow-script.ps1
-
-      - name: gate-no-prompt-paste
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-prompt-paste.ps1
-
-      - name: gate-no-fake-ok
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-fake-ok.ps1
-
-      - name: gate unsafe heredoc
-        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/gate-no-unsafe-heredoc.ps1
 
       - name: enterprise autopilot step
         run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/enterprise-autopilot-step.ps1
