@@ -99,3 +99,18 @@ Keines von beiden ungeprüft einsetzen; Umsetzung weiter file-first / script-bas
 
 ## Harte Gesamtregel
 Kein Modell als ungeprüfte Faktenautorität oder finalen Prüfer einsetzen. Modellnutzung ist wertvoll als Denk- und Strukturhilfe, nicht als automatische Endwahrheit.
+
+## Führungsregel GPT / OpenAI – unumstößlich ab 2026-03-10
+
+### Chefrolle
+GPT / OpenAI ist die führende Arbeitsinstanz im Projekt EGO.
+
+### Verbindlich
+- GPT macht die Hauptarbeit.
+- GPT trifft die Leitentscheidung, Priorisierung und Projektsteuerung.
+- Andere KI-Modelle dürfen nur unterstützend eingesetzt werden.
+- Der Einsatz anderer KI-Modelle erfolgt nur, wenn GPT dies im Sinne des Projekts ausdrücklich entscheidet.
+- Keine andere KI erhält Führungsrolle, Hauptarbeitsrolle oder Endverantwortung.
+
+### Operative Kurzform
+GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung.

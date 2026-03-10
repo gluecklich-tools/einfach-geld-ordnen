@@ -66,3 +66,18 @@ Wenn Claude-Claims, reale Artefakte und Spiegelwissen widersprüchlich sind:
 5. Offene Qualitätsaufträge ohne Scope-Bremse vermeiden.
 6. Mehrfachziele in einer Nachricht vermeiden; Aufträge trennen.
 7. Die Ergänzungsregel hart halten: nichts hinzufügen, was nicht explizit gefordert ist.
+
+## Führungsregel GPT / OpenAI – unumstößlich ab 2026-03-10
+
+### Chefrolle
+GPT / OpenAI ist die führende Arbeitsinstanz im Projekt EGO.
+
+### Verbindlich
+- GPT macht die Hauptarbeit.
+- GPT trifft die Leitentscheidung, Priorisierung und Projektsteuerung.
+- Andere KI-Modelle dürfen nur unterstützend eingesetzt werden.
+- Der Einsatz anderer KI-Modelle erfolgt nur, wenn GPT dies im Sinne des Projekts ausdrücklich entscheidet.
+- Keine andere KI erhält Führungsrolle, Hauptarbeitsrolle oder Endverantwortung.
+
+### Operative Kurzform
+GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung.

@@ -156,3 +156,9 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [P1] Grok nicht als Faktenautorität oder finalen Faktenprüfer einsetzen
 - [P1] Grok-Prompts eng halten: Rolle, Constraints, Format, Beispiele, Scope-Check
 - [P1] Später externe Grok-Struktur analog zu Claude aufbauen, falls Grok dauerhaft produktiv genutzt wird
+
+## GPT-Führungsregel / Modellsteuerung
+
+- [P0] GPT / OpenAI ist führende Hauptarbeitsinstanz; andere KI nur unterstützend unter GPT-Steuerung
+- [P0] Keine andere KI bekommt Führungsrolle, Hauptarbeitsrolle oder Endverantwortung im Projekt EGO
+- [P0] Modellwahl für Hilfsaufgaben erfolgt ausschließlich durch GPT im Projektinteresse

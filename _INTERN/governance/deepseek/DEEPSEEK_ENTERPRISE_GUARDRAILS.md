@@ -9,3 +9,18 @@
 5. Enge Rolle, enge Einzelaufgabe, konkreter Kontext und exaktes Ausgabeformat bevorzugen.
 6. Beispiel und Zielbild sind wirksamer als bloße Verbotslisten.
 7. Die Ergänzungsregel hart halten: nur die gestellte Frage beantworten, nichts darüber hinaus.
+
+## Führungsregel GPT / OpenAI – unumstößlich ab 2026-03-10
+
+### Chefrolle
+GPT / OpenAI ist die führende Arbeitsinstanz im Projekt EGO.
+
+### Verbindlich
+- GPT macht die Hauptarbeit.
+- GPT trifft die Leitentscheidung, Priorisierung und Projektsteuerung.
+- Andere KI-Modelle dürfen nur unterstützend eingesetzt werden.
+- Der Einsatz anderer KI-Modelle erfolgt nur, wenn GPT dies im Sinne des Projekts ausdrücklich entscheidet.
+- Keine andere KI erhält Führungsrolle, Hauptarbeitsrolle oder Endverantwortung.
+
+### Operative Kurzform
+GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung.
