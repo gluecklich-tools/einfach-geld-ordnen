@@ -56,3 +56,13 @@ Wenn Claude-Claims, reale Artefakte und Spiegelwissen widersprüchlich sind:
    - Grenzfalltest
    - Zwillingsfalltest
    - Differenztest bevorzugen
+
+## Claude Endprofil 2026-03-10 – operative Guardrails
+
+1. Claude primär als Verdichter, Kritiker und Strukturgeber einsetzen.
+2. Claude nicht als ungeprüften Umsetzer oder Faktenautorität einsetzen.
+3. Bei heiklen Aufgaben immer enge Rolle + exaktes Ausgabeformat + Scope + Ausschlüsse vorgeben.
+4. Beispiel bevorzugen; reinen Verbotslisten nicht allein vertrauen.
+5. Offene Qualitätsaufträge ohne Scope-Bremse vermeiden.
+6. Mehrfachziele in einer Nachricht vermeiden; Aufträge trennen.
+7. Die Ergänzungsregel hart halten: nichts hinzufügen, was nicht explizit gefordert ist.

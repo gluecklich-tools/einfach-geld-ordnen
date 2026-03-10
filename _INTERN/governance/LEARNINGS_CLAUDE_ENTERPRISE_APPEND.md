@@ -100,3 +100,53 @@ Für EGO gilt:
 - deterministische Änderungen weiter bevorzugt script-/pipeline-basiert
 - Screenshot-Wirkung wichtig, aber nie als Ersatz für funktionale Tragfähigkeit
 - neue Claude-Learnings immer in Brain + _INTERN verlinken, nicht isoliert stehen lassen
+
+## Claude Endprofil 2026-03-10 – Einsatzprofil / Nutzungsgrenzen / Steuerung
+
+### Nutzungsprofil
+Claude ist am stärksten als:
+- Verdichter
+- Kritiker
+- Strukturgeber
+- Sparringspartner
+- Risiko-Markierer
+
+Claude ist am schwächsten oder riskant als:
+- ungeprüfter Umsetzer
+- Faktenautorität
+- abschließender Prüfer
+- Generalist mit Breitenauftrag
+- stiller Qualitäts- oder Vollständigkeits-Ergänzer
+
+### Typische Stärken
+- unklare Gedanken strukturieren
+- Widersprüche sichtbar machen
+- Optionen vergleichbar machen
+- Sprache schärfen
+- Drift und Rahmung benennen
+
+### Typische Risiken
+- faktische Detailfehler bei sicherem Ton
+- Defaultisierung
+- Formulierungsschaden
+- Scope-Drift bei offenen Qualitätsaufträgen
+- Mittelung zwischen mehreren gleichzeitigen Zielen
+
+### Operative Steuerung
+Am stabilsten:
+- klar eingegrenzte Aufgabe
+- explizites Ausgabeformat
+- definiertes Abbruchkriterium
+- enge Fachrolle
+- Beispiel
+
+Fast sicher driftig:
+- "mach das richtig gut"
+- "denk auch an alles Wichtige"
+- "alles Relevante"
+- "wie du es für richtig hältst"
+- "umfassend und vollständig"
+- "falls dir noch etwas einfällt"
+
+### Beste Einzelregel
+Wenn du etwas ergänzen willst, das nicht explizit gefordert ist: lass es weg.

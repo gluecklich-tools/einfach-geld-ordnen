@@ -31,3 +31,27 @@ Vor jeder Claude-bezogenen Arbeit ist zusätzlich zum allgemeinen Required-Reads
 4. Empfehlung nur mit offengelegter Referenzklassen- oder Nutzergruppen-Annahme.
 5. Claude-Ausgaben im Zweifel gegen Scope, Rahmung und Defaultisierung prüfen.
 6. Für EGO: Claude eher für Diagnose, Zielbild, Kritik und Risiko-Markierung; deterministische Umsetzung weiter file-first/script-basiert.
+
+## Claude Endprofil 2026-03-10 – Arbeitsmodus
+
+### Empfohlener Einsatz
+- analysieren
+- verdichten
+- kritisieren
+- strukturieren
+- Risiken markieren
+
+### Nicht bevorzugter Einsatz
+- faktische Letztprüfung
+- autonome Endumsetzung
+- rechtliche, medizinische, finanzielle oder sicherheitskritische Prüferrolle
+- breite Generalistenrolle mit offenen Qualitätszielen
+
+### Prompt-Rahmen
+Rolle: enge Fachrolle
+Aufgabe: genau eine Sache
+Ausgabe: exaktes Format / Länge / Struktur
+Scope: explizit benannt
+Ausschlüsse: explizit benannt
+Wenn unklar: fragen, nicht ergänzen
+Keine Kommentare oder Empfehlungen außerhalb der Ausgabe
