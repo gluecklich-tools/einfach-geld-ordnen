@@ -476,12 +476,321 @@ def apply_monat_scaffold(ws: Worksheet) -> list[str]:
     changes.append("info box kept soft and visually secondary")
 
     return changes
+
+def apply_budgets_scaffold(ws: Worksheet) -> list[str]:
+    changes: list[str] = []
+
+    # Step2: final scanability and calmer top planning block
+    ws.row_dimensions[3].height = 34
+    ws.row_dimensions[5].height = 32
+    ws.row_dimensions[6].height = 32
+    ws.row_dimensions[7].height = 32
+    ws.row_dimensions[11].height = 26
+    for idx in range(12, 37):
+        ws.row_dimensions[idx].height = 23
+
+    ws.column_dimensions["A"].width = 27
+    ws.column_dimensions["B"].width = 17
+    ws.column_dimensions["C"].width = 15
+    ws.column_dimensions["D"].width = 15
+    ws.column_dimensions["E"].width = 15
+    ws.column_dimensions["F"].width = 24
+    ws.column_dimensions["J"].width = 41
+    changes.append("budget columns widened slightly for final readability")
+
+    style_range(
+        ws,
+        "A3:A3",
+        fill="D6E5F6",
+        font=Font(name="Calibri", size=11, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B3:C3",
+        fill="F2F6FB",
+        font=Font(name="Calibri", size=12, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("focus row balanced")
+
+    style_range(
+        ws,
+        "A5:A7",
+        fill="35689A",
+        font=Font(name="Calibri", size=10, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "B5:B7",
+        fill="FFF8E2",
+        font=Font(name="Calibri", size=12, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "C5:F7",
+        fill="FCFAEF",
+        font=Font(name="Calibri", size=10, color=TEXT_MID),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("planning block softened slightly")
+
+    style_range(
+        ws,
+        "A11:F11",
+        fill="35689A",
+        font=Font(name="Calibri", size=11, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "A12:A36",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B12:E36",
+        fill="FFFFFF",
+        font=Font(name="Calibri", size=10, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "F12:F36",
+        fill="F1F6FB",
+        font=Font(name="Calibri", size=10, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("table scanability improved in final pass")
+
+    style_range(
+        ws,
+        "J2:J7",
+        fill="F6F9FD",
+        font=Font(name="Calibri", size=9, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+        border=thin_border(),
+    )
+    changes.append("info box kept soft and secondary")
+
+    return changes
+
+def apply_fixkosten_scaffold(ws: Worksheet) -> list[str]:
+    changes: list[str] = []
+
+    # Step2: final width balance and scanability for fixed costs
+    ws.row_dimensions[3].height = 36
+    ws.row_dimensions[4].height = 31
+    ws.row_dimensions[5].height = 31
+    ws.row_dimensions[6].height = 31
+    ws.row_dimensions[7].height = 31
+    for idx in range(8, 31):
+        ws.row_dimensions[idx].height = 23
+
+    ws.column_dimensions["A"].width = 24
+    ws.column_dimensions["B"].width = 13
+    ws.column_dimensions["C"].width = 15
+    ws.column_dimensions["D"].width = 11
+    ws.column_dimensions["E"].width = 10
+    ws.column_dimensions["F"].width = 17
+    ws.column_dimensions["J"].width = 42
+    changes.append("fixkosten table widened slightly for final scan balance")
+
+    style_range(
+        ws,
+        "A3:C3",
+        fill="35689A",
+        font=Font(name="Calibri", size=11, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "D3:F3",
+        fill="F2F6FB",
+        font=Font(name="Calibri", size=13, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("summary block balanced in final pass")
+
+    style_range(
+        ws,
+        "A4:A30",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B4:B30",
+        fill="FFF9E6",
+        font=Font(name="Calibri", size=10, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "C4:E30",
+        fill="FCFDFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "F4:F30",
+        fill="F1F6FB",
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("table columns tuned for calmer row scan")
+
+    style_range(
+        ws,
+        "J2:J6",
+        fill="F6F9FD",
+        font=Font(name="Calibri", size=9, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+        border=thin_border(),
+    )
+    changes.append("info box kept soft and secondary")
+
+    return changes
+
+def apply_planung_scaffold(ws: Worksheet) -> list[str]:
+    changes: list[str] = []
+
+    # Step1: stronger planning controls and calmer 12-month table
+    ws.row_dimensions[1].height = 36
+    ws.row_dimensions[2].height = 4
+    ws.row_dimensions[3].height = 32
+    ws.row_dimensions[4].height = 4
+    ws.row_dimensions[5].height = 30
+    for idx in range(6, 18):
+        ws.row_dimensions[idx].height = 24
+
+    ws.column_dimensions["A"].width = 15
+    ws.column_dimensions["B"].width = 16
+    ws.column_dimensions["C"].width = 16
+    ws.column_dimensions["D"].width = 24
+    ws.column_dimensions["E"].width = 16
+    ws.column_dimensions["F"].width = 18
+    ws.column_dimensions["G"].width = 24
+    ws.column_dimensions["H"].width = 3
+    ws.column_dimensions["I"].width = 13
+    ws.column_dimensions["J"].width = 40
+    changes.append("planung layout widened for control block and table readability")
+
+    style_range(
+        ws,
+        "A1:I1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=16, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "J1:J1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=11, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+
+    style_range(
+        ws,
+        "A3:A3",
+        fill="DCE8F7",
+        font=Font(name="Calibri", size=11, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B3:B3",
+        fill="EEF4FB",
+        font=Font(name="Calibri", size=12, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "D3:E3",
+        fill="DCE8F7",
+        font=Font(name="Calibri", size=11, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("control row made clearer and more stable")
+
+    style_range(
+        ws,
+        "A5:G5",
+        fill="35689A",
+        font=Font(name="Calibri", size=10, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "A6:A17",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B6:F17",
+        fill="FFFFFF",
+        font=Font(name="Calibri", size=10, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "G6:G17",
+        fill="EEF4FB",
+        font=Font(name="Calibri", size=10, color=TEXT_MID),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("12-month planning table made easier to scan")
+
+    style_range(
+        ws,
+        "J2:J7",
+        fill="F3F7FC",
+        font=Font(name="Calibri", size=9, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+        border=thin_border(),
+    )
+    changes.append("planning info box softened and integrated")
+
+    return changes
 def main() -> int:
     parser = argparse.ArgumentParser(description="Deterministic workbook builder for EGO XLSX.")
     parser.add_argument("--input", required=True, help="Path to input workbook")
     parser.add_argument("--output", required=True, help="Path to output workbook or snapshot json")
     parser.add_argument("--mode", choices=["apply", "snapshot"], required=True, help="Operation mode")
-    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT"], default="START", help="Target sheet")
+    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG"], default="START", help="Target sheet")
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -511,8 +820,14 @@ def main() -> int:
         changes = apply_start_refine(ws)
     elif args.sheet == "HAUSHALTSBUCH":
         changes = apply_haushaltsbuch_scaffold(ws)
-    else:
+    elif args.sheet == "MONAT":
         changes = apply_monat_scaffold(ws)
+    elif args.sheet == "BUDGETS":
+        changes = apply_budgets_scaffold(ws)
+    elif args.sheet == "FIXKOSTEN":
+        changes = apply_fixkosten_scaffold(ws)
+    else:
+        changes = apply_planung_scaffold(ws)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
