@@ -28,7 +28,6 @@ $o = [pscustomobject]@{
   BrainDir        = $BrainDir
   InternDir       = $InternDir
   InternGovDir    = $InternGovDir
-  BrainBootstrap  = (Join-Path $BrainDir "BOOTSTRAP_INTERNAL.md")
   BrainGovernance = (Join-Path $BrainDir "GOVERNANCE_INTERNAL.md")
   BrainQa         = (Join-Path $BrainDir "QA_GATE_INTERNAL.md")
   BrainLearnings  = (Join-Path $BrainDir "LEARNINGS_INTERNAL.md")

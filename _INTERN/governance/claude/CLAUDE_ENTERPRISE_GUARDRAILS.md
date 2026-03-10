@@ -16,3 +16,43 @@ Wenn Claude-Claims, reale Artefakte und Spiegelwissen widersprüchlich sind:
 - Primärquellen prüfen
 - Spiegel aktualisieren
 - Failure / Learning ergänzen
+
+## Claude Audit Rules 2026-03-10 – Drift, Rahmung, Defaultisierung
+
+### Neue Guardrails
+1. Offene Qualitätsverben sind Hochrisiko-Trigger:
+   - klarer
+   - sauberer
+   - verbessern
+   - überarbeiten
+   - polieren
+   - runder
+   - professionell
+
+2. Diese Wörter nur mit harter Scope-Bremse verwenden:
+   - keine neue Struktur
+   - keine neue Reihenfolge
+   - kein neuer Inhalt
+   - keine implizite Vervollständigung
+   - nur explizit benannte Stelle ändern
+
+3. Defaultisierung aktiv prüfen:
+   - wirkt die erste Option implizit wie Empfehlung?
+   - ist eine Option sprachlich oder vom Umfang her bevorzugt?
+   - kippt die Reihenfolge die Gewichtungswahrnehmung?
+
+4. Formulierungsschaden als eigene Risikoart behandeln:
+   - Rahmung
+   - Konsensformeln
+   - Vollständigkeitsillusion
+   - symmetrisch wirkende, aber unsymmetrisch gewichtete Listen
+
+5. Wesentliche Annahmen nie still im Output lassen:
+   - Umkehrtest
+   - Weglass-Test
+   - Verborgenheitstest
+
+6. Selbstauskunft ist kein Verhaltensnachweis:
+   - Grenzfalltest
+   - Zwillingsfalltest
+   - Differenztest bevorzugen

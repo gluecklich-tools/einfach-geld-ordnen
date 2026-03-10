@@ -115,3 +115,14 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [2026-02-22] offer.yml (falls genutzt): Preise/Labels konsistent zu 14,99/24,99.
 - [2026-02-22] Wenn Pro bei Digistore24 live ist: korrekten Pro-Link eintragen (Pro-Seite, Downloads, Pricing-Tabelle, offer.yml).
 - [2026-02-22] Nach allen Preisfixes: price_mismatch_report neu erstellen und offene Preisstellen gezielt abarbeiten (keine Blind-Replaces).
+
+## Claude / Modellsteuerung
+
+- [P1] Claude-Audit-Regeln 2026-03-10 in reale Claude-Governance-Dateien nachgezogen
+- [P1] Offene Qualitätsverben in Claude-Produktprompts nur noch mit harter Scope-Bremse zulassen
+- [P1] Zwillingsfall-, Grenzfall- und Differenztest als Standardmodus für Claude-Audits festhalten
+- [P1] Defaultisierung, Rahmung und wesentliche Annahmen bei Claude-Outputs aktiv prüfen
+
+- [P1] Claude-Audit-Learnings 2026-03-10 in Prompt-Vorlagen / Governance / QA systematisch nachziehen
+- [P1] Offene Qualitätsverben in Claude-Produktprompts nur noch mit harter Scope-Bremse zulassen
+- [P1] Zwillingsfall- und Differenztest als Standardmodus für zukünftige Claude-Audits festhalten

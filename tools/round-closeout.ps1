@@ -45,7 +45,6 @@ Write_Utf8NoBomLF $markerLatest ($nowUtc + "`n")
 
 # Mirror latest -> root (deterministic “Explorer is fresh”)
 $names = @(
-  "BOOTSTRAP_INTERNAL.md","GOVERNANCE_INTERNAL.md","LEARNINGS_INTERNAL.md","QA_GATE_INTERNAL.md",
   "ROADMAP_INTERNAL.md","SSOT_MANIFEST_INTERNAL.json","SSOT_SYSTEM_MAP_INTERNAL.md",
   "EVERGREEN_PIPELINE_INTERNAL.md","EVERGREEN_CANDIDATES_INTERNAL.tsv","TODO.md"
 )

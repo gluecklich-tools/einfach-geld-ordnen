@@ -65,8 +65,6 @@ function Upsert-MarkedBlock([string]$Text, [string]$Begin, [string]$End, [string
   return ($Text.TrimEnd() + "`n`n" + $BlockFull + "`n")
 }
 
-$names = @("BOOTSTRAP_INTERNAL.md","GOVERNANCE_INTERNAL.md","LEARNINGS_INTERNAL.md","QA_GATE_INTERNAL.md")
-
 $markers = @(
   @{ Begin="<!-- EGO_LAW_FULLSWAP_TEXT_ALWAYS_FILEFIRST_BEGIN -->"; End="<!-- EGO_LAW_FULLSWAP_TEXT_ALWAYS_FILEFIRST_END -->" },
   @{ Begin="<!-- EGO_LAW_SELECTSTRING_SIMPLEMATCH_ONLY_BEGIN -->"; End="<!-- EGO_LAW_SELECTSTRING_SIMPLEMATCH_ONLY_END -->" },
