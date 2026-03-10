@@ -785,12 +785,252 @@ def apply_planung_scaffold(ws: Worksheet) -> list[str]:
     changes.append("planning info box softened and integrated")
 
     return changes
+
+def apply_jahr_scaffold(ws: Worksheet) -> list[str]:
+    changes: list[str] = []
+
+    # Step1: stronger year header and calmer annual table
+    ws.row_dimensions[1].height = 36
+    ws.row_dimensions[2].height = 4
+    ws.row_dimensions[3].height = 34
+    ws.row_dimensions[4].height = 4
+    ws.row_dimensions[5].height = 30
+    for idx in range(6, 18):
+        ws.row_dimensions[idx].height = 24
+
+    ws.column_dimensions["A"].width = 16
+    ws.column_dimensions["B"].width = 18
+    ws.column_dimensions["C"].width = 16
+    ws.column_dimensions["D"].width = 16
+    ws.column_dimensions["E"].width = 16
+    ws.column_dimensions["F"].width = 14
+    ws.column_dimensions["G"].width = 3
+    ws.column_dimensions["H"].width = 13
+    ws.column_dimensions["I"].width = 13
+    ws.column_dimensions["J"].width = 40
+    changes.append("jahr layout widened for header and table readability")
+
+    style_range(
+        ws,
+        "A1:I1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=16, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "J1:J1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=11, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+
+    style_range(
+        ws,
+        "A3:A3",
+        fill="DCE8F7",
+        font=Font(name="Calibri", size=11, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B3:B3",
+        fill="EEF4FB",
+        font=Font(name="Calibri", size=13, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("year focus block made clearer")
+
+    style_range(
+        ws,
+        "A5:F5",
+        fill="35689A",
+        font=Font(name="Calibri", size=10, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "A6:B17",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "C6:F17",
+        fill="FFFFFF",
+        font=Font(name="Calibri", size=10, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="right", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("annual table made easier to scan")
+
+    style_range(
+        ws,
+        "J3:J7",
+        fill="F3F7FC",
+        font=Font(name="Calibri", size=9, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+        border=thin_border(),
+    )
+    changes.append("year info box softened and integrated")
+
+    return changes
+
+def apply_notgroschen_scaffold(ws: Worksheet) -> list[str]:
+    changes: list[str] = []
+
+    # Structural fix: left analysis block + real separated right info panel
+    ws.row_dimensions[1].height = 36
+    ws.row_dimensions[2].height = 4
+    for idx in range(3, 8):
+        ws.row_dimensions[idx].height = 34
+    ws.row_dimensions[8].height = 18
+    ws.row_dimensions[9].height = 24
+    for idx in range(10, 19):
+        ws.row_dimensions[idx].height = 24
+
+    ws.column_dimensions["A"].width = 32
+    ws.column_dimensions["B"].width = 14
+    ws.column_dimensions["C"].width = 18
+    ws.column_dimensions["D"].width = 24
+    ws.column_dimensions["E"].width = 14
+    ws.column_dimensions["F"].width = 12
+    ws.column_dimensions["G"].width = 12
+    ws.column_dimensions["H"].width = 4
+    ws.column_dimensions["I"].width = 4
+    ws.column_dimensions["J"].width = 14
+    ws.column_dimensions["K"].width = 14
+    ws.column_dimensions["L"].width = 14
+    ws.column_dimensions["M"].width = 14
+    changes.append("notgroschen layout rebuilt with real right-side panel separation")
+
+    for merge_range in ["J1:J1", "J2:J7", "J1:L1", "J2:L7", "J1:M1", "J2:M7"]:
+        try:
+            ws.unmerge_cells(merge_range)
+        except Exception:
+            pass
+
+    ws.merge_cells("J1:M1")
+    ws.merge_cells("J2:M7")
+    changes.append("notgroschen info panel rebuilt across J:M")
+
+    style_range(
+        ws,
+        "A1:G1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=16, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+    style_range(
+        ws,
+        "J1:M1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=11, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+
+    style_range(
+        ws,
+        "A3:A7",
+        fill="AFC8E2",
+        font=Font(name="Calibri", size=11, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B3:B7",
+        fill="F6F1D8",
+        font=Font(name="Calibri", size=12, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "D3:D7",
+        fill="F7F9FC",
+        font=Font(name="Calibri", size=11, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "E3:E7",
+        fill="F6F1D8",
+        font=Font(name="Calibri", size=12, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "F3:G7",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("top overview block compacted and stabilized")
+
+    style_range(
+        ws,
+        "A9:G9",
+        fill="B8D0E8",
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "A10:A18",
+        fill="D9E7F4",
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "B10:B18",
+        fill="F7F1DA",
+        font=Font(name="Calibri", size=11, bold=True, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    style_range(
+        ws,
+        "C10:G18",
+        fill="F8FBFE",
+        font=Font(name="Calibri", size=10, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+    changes.append("stress-test block aligned to left module width")
+
+    style_range(
+        ws,
+        "J2:M7",
+        fill="F3F7FC",
+        font=Font(name="Calibri", size=9, color=TEXT_DARK),
+        alignment=Alignment(horizontal="left", vertical="top", wrap_text=True),
+        border=thin_border(),
+    )
+    changes.append("right info panel moved away from main block and made readable")
+
+    return changes
 def main() -> int:
     parser = argparse.ArgumentParser(description="Deterministic workbook builder for EGO XLSX.")
     parser.add_argument("--input", required=True, help="Path to input workbook")
     parser.add_argument("--output", required=True, help="Path to output workbook or snapshot json")
     parser.add_argument("--mode", choices=["apply", "snapshot"], required=True, help="Operation mode")
-    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG"], default="START", help="Target sheet")
+    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG", "JAHR", "NOTGROSCHEN"], default="START", help="Target sheet")
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -826,8 +1066,12 @@ def main() -> int:
         changes = apply_budgets_scaffold(ws)
     elif args.sheet == "FIXKOSTEN":
         changes = apply_fixkosten_scaffold(ws)
-    else:
+    elif args.sheet == "PLANUNG":
         changes = apply_planung_scaffold(ws)
+    elif args.sheet == "JAHR":
+        changes = apply_jahr_scaffold(ws)
+    else:
+        changes = apply_notgroschen_scaffold(ws)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
