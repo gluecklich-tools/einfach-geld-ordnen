@@ -133,3 +133,11 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [P1] Zwillingsfall- und Differenztest als Standardmodus für zukünftige Claude-Audits festhalten
 
 - [ ] Governance: Chat-Scope-Split fuer Excel-/Builder-Block dauerhaft pruefen und vor jedem Builder-Commit Kontroll-Chat-Pruefung erzwingen.
+
+## DeepSeek / Modellsteuerung
+
+- [P1] DeepSeek-Endprofil 2026-03-10 in Brain, Learnings und neue DeepSeek-Governance synchronisiert
+- [P1] DeepSeek primär für Struktur, Verdichtung, Vergleich und Sparring einsetzen
+- [P1] DeepSeek nicht als Faktenautorität oder finalen Prüfer in kritischen Themen einsetzen
+- [P1] DeepSeek-Prompts eng halten: eine Aufgabe, Kontext, Format, Scope, Ausschlüsse
+- [P1] Später externe DeepSeek-Struktur analog zu Claude aufbauen, falls DeepSeek dauerhaft produktiv genutzt wird
