@@ -148,3 +148,11 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [P1] Claude bevorzugt für Kritik, Drift, Guardrails und Rahmung einsetzen
 - [P1] DeepSeek bevorzugt für Struktur, Verdichtung, Vergleich und Sparring einsetzen
 - [P1] Fakten, Zahlen und finale Prüferrolle weiter extern oder deterministisch absichern
+
+## Grok / Modellsteuerung
+
+- [P1] Grok-Endprofil 2026-03-10 in Brain, Learnings und neue Grok-Governance synchronisiert
+- [P1] Grok primär für Gegenargumente, Trade-offs, Bias-/Framing-Prüfung und Sparring einsetzen
+- [P1] Grok nicht als Faktenautorität oder finalen Faktenprüfer einsetzen
+- [P1] Grok-Prompts eng halten: Rolle, Constraints, Format, Beispiele, Scope-Check
+- [P1] Später externe Grok-Struktur analog zu Claude aufbauen, falls Grok dauerhaft produktiv genutzt wird
