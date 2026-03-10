@@ -118,6 +118,11 @@ EGO_TODO_PRICES_AND_LINKS_V1
 
 ## Claude / Modellsteuerung
 
+- [P1] Claude-Endprofil 2026-03-10 in Brain, Learnings und reale Claude-Governance synchronisiert
+- [P1] Aktive Claude-Prompts später gegen Endprofil prüfen (enge Rolle, Scope, Ausgabeformat, Ausschlüsse)
+- [P1] Bei zukünftigen Claude-Einsätzen Mehrfachziele in einer Nachricht vermeiden
+- [P1] Beispiel-basierte Steuerung gegenüber reinen Verbotslisten bevorzugen
+
 - [P1] Claude-Audit-Regeln 2026-03-10 in reale Claude-Governance-Dateien nachgezogen
 - [P1] Offene Qualitätsverben in Claude-Produktprompts nur noch mit harter Scope-Bremse zulassen
 - [P1] Zwillingsfall-, Grenzfall- und Differenztest als Standardmodus für Claude-Audits festhalten
@@ -126,3 +131,5 @@ EGO_TODO_PRICES_AND_LINKS_V1
 - [P1] Claude-Audit-Learnings 2026-03-10 in Prompt-Vorlagen / Governance / QA systematisch nachziehen
 - [P1] Offene Qualitätsverben in Claude-Produktprompts nur noch mit harter Scope-Bremse zulassen
 - [P1] Zwillingsfall- und Differenztest als Standardmodus für zukünftige Claude-Audits festhalten
+
+- [ ] Governance: Chat-Scope-Split fuer Excel-/Builder-Block dauerhaft pruefen und vor jedem Builder-Commit Kontroll-Chat-Pruefung erzwingen.
