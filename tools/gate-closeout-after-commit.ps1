@@ -55,28 +55,12 @@ if(-not $r.Ok){
   }
 }
 
-Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
-exit 0
-
 # EGO_LEARNING_SYNC_WIRE_START
 $EgoLearningSyncAssert = Join-Path $PSScriptRoot "assert-no-pending-learning-sync.ps1"
 if (Test-Path -LiteralPath $EgoLearningSyncAssert) {
     & $EgoLearningSyncAssert -AutoDrainSynced
 }
 # EGO_LEARNING_SYNC_WIRE_END
-
-#region GOVERNANCE_ROOT_SYNC_HARDGATE_V2
-$govRootSyncTool = Join-Path $PSScriptRoot "sync-governance-root-files.ps1"
-$govRootGateTool = Join-Path $PSScriptRoot "gate-governance-root-files-sync.ps1"
-
-if ((Test-Path -LiteralPath $govRootSyncTool -PathType Leaf) -and (Test-Path -LiteralPath $govRootGateTool -PathType Leaf)) {
-    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govRootSyncTool
-    if ($LASTEXITCODE -ne 0) { throw "FAIL: sync-governance-root-files" }
-
-    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govRootGateTool
-    if ($LASTEXITCODE -ne 0) { throw "FAIL: gate-governance-root-files-sync" }
-}
-#endregion GOVERNANCE_ROOT_SYNC_HARDGATE_V2
 
 #region GOVERNANCE_CORE_LF_HARDGATE_V2
 $govCoreLfNormalizeTool = Join-Path $PSScriptRoot "normalize-governance-core-lf.ps1"
@@ -90,3 +74,32 @@ if ((Test-Path -LiteralPath $govCoreLfNormalizeTool -PathType Leaf) -and (Test-P
     if ($LASTEXITCODE -ne 0) { throw "FAIL: gate-governance-core-lf" }
 }
 #endregion GOVERNANCE_CORE_LF_HARDGATE_V2
+
+
+#region GOVERNANCE_ROOT_SYNC_HARDGATE_V5_POST_CLOSEOUT_EOF
+$govRootSyncTool = Join-Path $PSScriptRoot "sync-governance-root-files.ps1"
+$govRootGateTool = Join-Path $PSScriptRoot "gate-governance-root-files-sync.ps1"
+$govCoreLfNormalizeTool = Join-Path $PSScriptRoot "normalize-governance-core-lf.ps1"
+$govCoreLfGateTool = Join-Path $PSScriptRoot "gate-governance-core-lf.ps1"
+
+if ((Test-Path -LiteralPath $govRootSyncTool -PathType Leaf) -and (Test-Path -LiteralPath $govRootGateTool -PathType Leaf)) {
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govRootSyncTool
+    if ($LASTEXITCODE -ne 0) { throw "FAIL: sync-governance-root-files" }
+
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govRootGateTool
+    if ($LASTEXITCODE -ne 0) { throw "FAIL: gate-governance-root-files-sync" }
+}
+
+if ((Test-Path -LiteralPath $govCoreLfNormalizeTool -PathType Leaf) -and (Test-Path -LiteralPath $govCoreLfGateTool -PathType Leaf)) {
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govCoreLfNormalizeTool
+    if ($LASTEXITCODE -ne 0) { throw "FAIL: normalize-governance-core-lf" }
+
+    & pwsh -NoProfile -ExecutionPolicy Bypass -File $govCoreLfGateTool
+    if ($LASTEXITCODE -ne 0) { throw "FAIL: gate-governance-core-lf" }
+}
+#endregion GOVERNANCE_ROOT_SYNC_HARDGATE_V5_POST_CLOSEOUT_EOF
+
+
+Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
+exit 0
+
