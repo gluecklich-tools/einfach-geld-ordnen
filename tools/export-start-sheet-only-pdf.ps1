@@ -297,9 +297,25 @@ if ((Get-Item -LiteralPath $BuilderXlsxPath).Length -le 0) {
 }
 
 $StartOnlyXlsx = Join-Path $OutDir ("START_ONLY_{0}.xlsx" -f $RunTs)
+$PycacheDir = Join-Path $RepoRoot 'tools\__pycache__'
 
-$TrimOutput = & $PythonExe $TrimScript --input $BuilderXlsxPath --sheet $Sheet --output $StartOnlyXlsx 2>&1
-if ($LASTEXITCODE -ne 0) {
+if (Test-Path -LiteralPath $PycacheDir) {
+    Remove-Item -LiteralPath $PycacheDir -Recurse -Force -ErrorAction SilentlyContinue
+}
+
+$TrimOutput = $null
+$TrimExitCode = 0
+try {
+    $TrimOutput = & $PythonExe -B $TrimScript --input $BuilderXlsxPath --sheet $Sheet --output $StartOnlyXlsx 2>&1
+    $TrimExitCode = $LASTEXITCODE
+}
+finally {
+    if (Test-Path -LiteralPath $PycacheDir) {
+        Remove-Item -LiteralPath $PycacheDir -Recurse -Force -ErrorAction SilentlyContinue
+    }
+}
+
+if ($TrimExitCode -ne 0) {
     $TrimText = Join-Lines -Lines $TrimOutput
     Fail ('Sheet-Trim fehlgeschlagen: {0}' -f $TrimText)
 }

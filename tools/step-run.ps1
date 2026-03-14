@@ -26,6 +26,7 @@ catch {
 
 # BEGIN AUTO_FAILURE_INTAKE_BINDING
 $FailureSyncTool = Join-Path $PSScriptRoot 'auto-sync-step-run-failure.ps1'
+$FailureSyncRunnerPath = if ($PSCommandPath) { (Resolve-Path -LiteralPath $PSCommandPath).Path } else { $null }
 
 function Invoke-FailureSyncBestEffort {
     param(
@@ -45,7 +46,7 @@ function Invoke-FailureSyncBestEffort {
     }
 
     try {
-        & pwsh -NoProfile -ExecutionPolicy Bypass -File $FailureSyncTool -FailureText $FailureText -RunnerPath $MyInvocation.MyCommand.Path -StepPath $SafeStepPath -Pattern $Pattern -RequiredReadsTaskType $RequiredReadsTaskType
+        & pwsh -NoProfile -ExecutionPolicy Bypass -File $FailureSyncTool -FailureText $FailureText -RunnerPath $FailureSyncRunnerPath -StepPath $SafeStepPath -Pattern $Pattern -RequiredReadsTaskType $RequiredReadsTaskType
     }
     catch {
         $AutoFailureText = $_.Exception.Message

@@ -119,6 +119,10 @@ tools/_reports/
 assets/audit/
 _inventur/
 
+# Python bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
 # local reports
 _reports/
 
