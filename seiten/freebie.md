@@ -38,5 +38,5 @@ Wenn du mehr Struktur brauchst, ist die nächste Stufe:
 ## Weiter
 - [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}

@@ -50,6 +50,6 @@ Dann nimm diese Reihenfolge:
 
 ## Weiter
 - [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
+- [Haushaltsbuch Überblick]({{ site.baseurl }}/seiten/haushaltsbuch.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 {% include no_sackgasse_footer.html %}

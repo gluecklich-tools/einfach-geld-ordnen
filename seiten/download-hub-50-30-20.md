@@ -30,5 +30,5 @@ Bestellung und Download werden erst live geschaltet, wenn die Gesamtprüfung abg
 ## Weiter
 - [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
 - [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}

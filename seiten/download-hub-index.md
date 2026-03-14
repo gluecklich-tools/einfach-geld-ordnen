@@ -31,5 +31,5 @@ Die eigentlichen Bestell- und Downloadlinks werden erst live geschaltet, wenn Se
 ## Weiter
 - [Freebie]({{ site.baseurl }}/seiten/freebie.html)
 - [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}

@@ -44,5 +44,5 @@ Die Vollversion passt, wenn du:
 ## Weiter
 - [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Fixkosten-Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
 {% include no_sackgasse_footer.html %}

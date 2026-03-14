@@ -35,5 +35,5 @@ Die eigentliche Bestellung und der Download werden erst live geschaltet, wenn Da
 ## Weiter
 - [Freebie]({{ site.baseurl }}/seiten/freebie.html)
 - [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)
-- [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
+- [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
