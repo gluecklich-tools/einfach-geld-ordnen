@@ -6,7 +6,8 @@ param(
         "Governance-Änderung",
         "Brain-Intern-Struktur",
         "Folgeprojekt-Klon",
-        "OpenAI-Regress-Governance"
+        "OpenAI-Regress-Governance",
+        "Tool-Entrypoint-Failure"
     )]
     [string]$TaskType,
 
@@ -20,11 +21,20 @@ param(
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-function Fail([string]$Message) { throw $Message }
+function Fail([string]$Message) {
+    throw ("FAIL: {0}" -f $Message)
+}
 
 function Split-List([string]$Value) {
-    if ([string]::IsNullOrWhiteSpace($Value)) { return @() }
-    return ($Value -split ';').ForEach({ $_.Trim() }) | Where-Object { $_ -ne "" }
+    if ([string]::IsNullOrWhiteSpace($Value)) {
+        return @()
+    }
+
+    return @(
+        ($Value -split ';') |
+        ForEach-Object { $_.Trim() } |
+        Where-Object { $_ -ne "" }
+    )
 }
 
 function Resolve-TokenToPath {
@@ -36,68 +46,96 @@ function Resolve-TokenToPath {
     )
 
     switch -Regex ($Token) {
-        '^_INTERN\\' { return (Join-Path $RepoRoot $Token) }
+        '^_INTERN\\' {
+            return (Join-Path $RepoRoot $Token)
+        }
         '^Brain_EGO_Dateien\\' {
             $suffix = $Token.Substring("Brain_EGO_Dateien\".Length)
             return (Join-Path $BrainRoot $suffix)
         }
-        '^C:\\' { return $Token }
-        default { return $Token }
+        '^Claude\\' {
+            $suffix = $Token.Substring("Claude\".Length)
+            return (Join-Path $ClaudeRoot $suffix)
+        }
+        '^C:\\' {
+            return $Token
+        }
+        default {
+            return $Token
+        }
     }
 }
 
 $matrixPath = Join-Path $RepoRoot "_INTERN\governance\TASK_REQUIRED_READS_MATRIX.tsv"
-if (-not (Test-Path -LiteralPath $matrixPath)) {
-    Fail "FAIL: TASK_REQUIRED_READS_MATRIX.tsv missing: $matrixPath"
+if (-not (Test-Path -LiteralPath $matrixPath -PathType Leaf)) {
+    Fail ("TASK_REQUIRED_READS_MATRIX.tsv missing: {0}" -f $matrixPath)
 }
 
-$lines = Get-Content -LiteralPath $matrixPath -Encoding UTF8
-if ($lines.Count -lt 2) {
-    Fail "FAIL: TASK_REQUIRED_READS_MATRIX.tsv empty: $matrixPath"
+$lines = @([System.IO.File]::ReadAllLines($matrixPath, [System.Text.Encoding]::UTF8))
+if (@($lines).Count -lt 2) {
+    Fail ("TASK_REQUIRED_READS_MATRIX.tsv empty: {0}" -f $matrixPath)
 }
 
-$rows = foreach ($line in ($lines | Select-Object -Skip 1)) {
-    if ([string]::IsNullOrWhiteSpace($line)) { continue }
-    $parts = $line -split "`t", 4
-    if ($parts.Count -lt 4) {
-        Fail "FAIL: malformed matrix row: $line"
+$rows = @(
+    foreach ($line in @($lines | Select-Object -Skip 1)) {
+        if ([string]::IsNullOrWhiteSpace($line)) {
+            continue
+        }
+
+        $parts = @($line -split "`t", 4)
+        if (@($parts).Count -lt 4) {
+            Fail ("malformed matrix row: {0}" -f $line)
+        }
+
+        [pscustomobject]@{
+            TaskType        = $parts[0].Trim()
+            RequiredPrimary = $parts[1].Trim()
+            RequiredMirror  = $parts[2].Trim()
+            Optional        = $parts[3].Trim()
+        }
     }
-    [pscustomobject]@{
-        TaskType        = $parts[0].Trim()
-        RequiredPrimary = $parts[1].Trim()
-        RequiredMirror  = $parts[2].Trim()
-        Optional        = $parts[3].Trim()
-    }
-}
+)
 
-$row = $rows | Where-Object { $_.TaskType -eq $TaskType } | Select-Object -First 1
-if (-not $row) {
-    Fail "FAIL: task type not found in matrix: $TaskType"
+$row = @($rows | Where-Object { $_.TaskType -eq $TaskType } | Select-Object -First 1)
+if (@($row).Count -eq 0) {
+    Fail ("task type not found in matrix: {0}" -f $TaskType)
 }
+$row = $row[0]
 
 $required = @()
-$required += Split-List $row.RequiredPrimary
-$required += Split-List $row.RequiredMirror
-$required = $required | Where-Object { $_ -ne "" }
+$required += @(Split-List $row.RequiredPrimary)
+$required += @(Split-List $row.RequiredMirror)
+$required = @($required | Where-Object { $_ -ne "" })
 
-if ($required.Count -eq 0) {
-    Fail "FAIL: no required reads resolved for task type: $TaskType"
+if (@($required).Count -eq 0) {
+    Fail ("no required reads resolved for task type: {0}" -f $TaskType)
 }
 
-$resolved = foreach ($item in $required) {
-    $path = Resolve-TokenToPath -Token $item -RepoRoot $RepoRoot -BrainRoot $BrainRoot -ClaudeRoot $ClaudeRoot
-    [pscustomobject]@{
-        Token   = $item
-        Path    = $path
-        Exists  = Test-Path -LiteralPath $path
-        Kind    = if (Test-Path -LiteralPath $path -PathType Container) { "Dir" } elseif (Test-Path -LiteralPath $path -PathType Leaf) { "File" } else { "Missing" }
+$resolved = @(
+    foreach ($item in @($required)) {
+        $path = Resolve-TokenToPath -Token $item -RepoRoot $RepoRoot -BrainRoot $BrainRoot -ClaudeRoot $ClaudeRoot
+
+        [pscustomobject]@{
+            Token  = $item
+            Path   = $path
+            Exists = (Test-Path -LiteralPath $path)
+            Kind   = if (Test-Path -LiteralPath $path -PathType Container) {
+                "Dir"
+            }
+            elseif (Test-Path -LiteralPath $path -PathType Leaf) {
+                "File"
+            }
+            else {
+                "Missing"
+            }
+        }
     }
-}
+)
 
-$missing = $resolved | Where-Object { -not $_.Exists }
-if ($missing) {
-    $list = ($missing | ForEach-Object { $_.Path }) -join "`r`n"
-    Fail "FAIL: required reads missing for task [$TaskType]:`r`n$list"
+$missing = @($resolved | Where-Object { -not $_.Exists })
+if (@($missing).Count -gt 0) {
+    $list = (@($missing | ForEach-Object { $_.Path }) -join "`r`n")
+    Fail ("required reads missing for task [{0}]:`r`n{1}" -f $TaskType, $list)
 }
 
 $ts = Get-Date -Format "yyyyMMdd_HHmmss"
@@ -105,7 +143,15 @@ $reportDir = Join-Path (Join-Path $RepoRoot "_local\chatpack") $ts
 $reportDir = Join-Path $reportDir "SSOT"
 New-Item -ItemType Directory -Path $reportDir -Force | Out-Null
 
-$reportPath = Join-Path $reportDir ("REQUIRED_READS_PREFLIGHT_{0}.md" -f (($TaskType -replace '[^A-Za-z0-9]+','_').Trim('_').ToUpperInvariant()))
+$taskSlug = ($TaskType -replace '[^A-Za-z0-9]+','_').Trim('_').ToUpperInvariant()
+$reportPath = Join-Path $reportDir ("REQUIRED_READS_PREFLIGHT_{0}.md" -f $taskSlug)
+
+$readLines = @(
+    $resolved | ForEach-Object {
+        "- [{0}] {1}" -f $_.Kind, $_.Path
+    }
+)
+
 $body = @"
 # Required Reads Preflight
 
@@ -116,19 +162,15 @@ $TaskType
 $matrixPath
 
 ## Required Reads
-$(
-    ($resolved | ForEach-Object {
-        "- [$($_.Kind)] $($_.Path)"
-    }) -join "`r`n"
-)
+$($readLines -join "`r`n")
 
 ## Result
 PASS
 "@
 
-$enc = New-Object System.Text.UTF8Encoding($false)
+$enc = [System.Text.UTF8Encoding]::new($false)
 [System.IO.File]::WriteAllText($reportPath, $body, $enc)
 
-Write-Host "REPORT: $reportPath"
-Write-Host "READS: $($resolved.Count)"
+Write-Host ("REPORT: {0}" -f $reportPath)
+Write-Host ("READS: {0}" -f @($resolved).Count)
 Write-Host "PASS: required reads preflight"
