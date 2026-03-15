@@ -5,6 +5,8 @@ param(
   [Parameter(Mandatory=$true)][string]$TrashTsv
 )
 
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 try { if ($IsWindows) { chcp 65001 > $null } } catch {}

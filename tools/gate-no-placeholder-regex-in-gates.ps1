@@ -1,5 +1,10 @@
 param()
 
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
@@ -67,7 +72,7 @@ foreach($f in $gates){
 if($bad.Count -gt 0){
   Write-Host 'FAIL: placeholder regex found in gate scripts:'
   $bad | ForEach-Object { Write-Host (' - ' + $_) }
-  exit 1
+  throw ('FAIL: EXIT_ONLY_REWRITE_V1: tools/gate-no-placeholder-regex-in-gates.ps1 line 70')
 }
 
 Write-Host 'PASS: no placeholder regex in gate scripts'

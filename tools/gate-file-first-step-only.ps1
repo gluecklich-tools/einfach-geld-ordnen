@@ -4,7 +4,9 @@ param(
   [switch]$ForCommit
 )
 
-
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
 
 # EGO_P0_REPOROOT_DERIVE
 if([string]::IsNullOrWhiteSpace($RepoRoot)){
@@ -55,3 +57,4 @@ if($bad.Count -gt 0){
 }
 
 "PASS: FILE_FIRST_STEP_ONLY (staged ⊆ allowlist)"
+

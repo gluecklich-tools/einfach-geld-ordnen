@@ -1,5 +1,10 @@
 param()
 
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 

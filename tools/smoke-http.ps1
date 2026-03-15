@@ -6,6 +6,10 @@ param(
   [string[]]$IgnorePatterns = @()
 )
 
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version Latest
 try{ if($IsWindows){ chcp 65001 | Out-Null } }catch{}
@@ -61,7 +65,7 @@ foreach($c in $Checks){
 if($fail.Count -gt 0){
   "FAIL: SMOKE_HTTP"
   $fail | ForEach-Object { " - $_" }
-  exit 3
+  throw $m
 }
 
 "PASS: SMOKE_HTTP"

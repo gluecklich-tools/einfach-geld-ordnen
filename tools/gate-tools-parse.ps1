@@ -1,6 +1,8 @@
 #requires -Version 7.0
 param()
 
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 Remove-Module PSReadLine -ErrorAction SilentlyContinue

@@ -1,5 +1,10 @@
 #requires -Version 7.0
 # EGO_CANON:ENTERPRISE_PREFLIGHT_BEGIN
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 & pwsh -NoProfile -File 'tools\enterprise-preflight.ps1'
 # EGO_CANON:ENTERPRISE_PREFLIGHT_END
 
@@ -119,7 +124,6 @@ pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-thema-alias-map.ps1') -With
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-mojibake.ps1')
 pwsh -NoProfile -File (Join-Path $PSScriptRoot 'gate-no-emoji.ps1')
 "PASS: ego-run completed (required gates OK)."
-
 
 # === EGO_AUTO_FINDINGS_UPSERT_HOOK_V1 BEGIN ===
 # AUTO: Findings -> SSOT Docs (mandatory)

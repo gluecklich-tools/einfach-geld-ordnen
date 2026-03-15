@@ -1,5 +1,10 @@
 # EGO_LEGAL_HINTS_GATE_V1
 # ALLOW_REGEX_PATCH (temporary; must be removed when refactored to literal/AST patching)
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 try { Remove-Module PSReadLine -ErrorAction SilentlyContinue } catch {}

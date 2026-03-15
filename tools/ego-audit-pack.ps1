@@ -7,6 +7,9 @@ param(
   [Parameter(Mandatory=$true)]
   [string]$MonthDir
 )
+
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path

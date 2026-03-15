@@ -1,4 +1,10 @@
 param([string]$RepoRoot=(git rev-parse --show-toplevel).Trim(),[switch]$WithAsciiCheck,[switch]$WithDupCheck)
+
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference="Stop"; Set-StrictMode -Version Latest
 $p=Join-Path $RepoRoot "tools/policy/THEMA_ALIAS_MAP.json"; if(!(Test-Path -LiteralPath $p)){throw "STOP: missing THEMA_ALIAS_MAP.json"}
 $raw=[IO.File]::ReadAllText($p,[Text.Encoding]::UTF8); if([string]::IsNullOrWhiteSpace($raw)){throw "STOP: empty THEMA_ALIAS_MAP.json"}

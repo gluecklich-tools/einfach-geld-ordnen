@@ -2,6 +2,11 @@ param(
   [string]$StepPath = ''
 )
 
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
@@ -51,7 +56,7 @@ foreach($f in $targets){
 if($bad.Count -gt 0){
   Write-Host 'FAIL: found regex -replace with $0 in:'
   $bad | ForEach-Object { Write-Host (' - ' + $_) }
-  exit 1
+  throw ('FAIL: EXIT_ONLY_REWRITE_V1: tools/gate-no-dollar0-regex-replace.ps1 line 54')
 }
 
 Write-Host 'PASS: no regex -replace with $0 found'

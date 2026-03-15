@@ -2,6 +2,10 @@ param(
   [string]$RepoRoot = (Get-Location).Path
 )
 
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 # === AUTOPILOT_INTEGRITY_GUARD_V1 ===
 # Fast self-check to detect corrupted script content early (prevents CI blowups).
 try{

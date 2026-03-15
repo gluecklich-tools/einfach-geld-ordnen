@@ -11,6 +11,10 @@ param(
   [Parameter(Mandatory=$false, ValueFromRemainingArguments=$true)][string[]]$Paths
 )
 
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 # Live-Probe Tool (pwsh-first, StrictMode-safe, no crash on 404/3xx)
 Set-StrictMode -Version Latest
 $ErrorActionPreference='Stop'

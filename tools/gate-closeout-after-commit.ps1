@@ -1,6 +1,10 @@
 #requires -Version 7.0
 param()
 
+# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
+# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
+
 $ErrorActionPreference="Stop"
 Set-StrictMode -Version Latest
 $NL = [Environment]::NewLine
@@ -75,7 +79,6 @@ if ((Test-Path -LiteralPath $govCoreLfNormalizeTool -PathType Leaf) -and (Test-P
 }
 #endregion GOVERNANCE_CORE_LF_HARDGATE_V2
 
-
 #region GOVERNANCE_ROOT_SYNC_HARDGATE_V5_POST_CLOSEOUT_EOF
 $govRootSyncTool = Join-Path $PSScriptRoot "sync-governance-root-files.ps1"
 $govRootGateTool = Join-Path $PSScriptRoot "gate-governance-root-files-sync.ps1"
@@ -98,7 +101,6 @@ if ((Test-Path -LiteralPath $govCoreLfNormalizeTool -PathType Leaf) -and (Test-P
     if ($LASTEXITCODE -ne 0) { throw "FAIL: gate-governance-core-lf" }
 }
 #endregion GOVERNANCE_ROOT_SYNC_HARDGATE_V5_POST_CLOSEOUT_EOF
-
 
 Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
 exit 0
