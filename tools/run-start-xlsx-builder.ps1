@@ -30,6 +30,17 @@ $ChatpackTs = Get-Date -Format "yyyyMMdd_HHmmss"
 $ReportDir  = Join-Path $RepoRoot ("_local\chatpack\{0}\SSOT" -f $ChatpackTs)
 
 if (-not (Test-Path -LiteralPath $InputXlsx)) { Fail "InputXlsx fehlt: $InputXlsx" }
+
+$NormalizedInputXlsx = [System.IO.Path]::GetFullPath($InputXlsx)
+if (
+    $NormalizedInputXlsx -like '*\_local\output\*' -or
+    $NormalizedInputXlsx -like '*\_local\outputs\*' -or
+    $NormalizedInputXlsx -like '*\_local\patch_backups\*' -or
+    $NormalizedInputXlsx -like '*\_local\chatpack\*' -or
+    $NormalizedInputXlsx -like '*\_local\_scratch\*'
+) {
+    Fail "InputXlsx darf nicht aus lokalen Artefaktordnern stammen: $NormalizedInputXlsx"
+}
 if (-not (Test-Path -LiteralPath $PythonExe))  { Fail "Python fehlt: $PythonExe" }
 if (-not (Test-Path -LiteralPath $BuilderPy))  { Fail "Builder fehlt: $BuilderPy" }
 

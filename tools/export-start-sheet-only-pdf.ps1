@@ -273,6 +273,16 @@ if ((Get-Item -LiteralPath $ResolvedSourceXlsx).Length -le 0) {
     Fail ('SourceXlsx ist leer: {0}' -f $ResolvedSourceXlsx)
 }
 
+if (
+    $ResolvedSourceXlsx -like '*\_local\output\*' -or
+    $ResolvedSourceXlsx -like '*\_local\outputs\*' -or
+    $ResolvedSourceXlsx -like '*\_local\patch_backups\*' -or
+    $ResolvedSourceXlsx -like '*\_local\chatpack\*' -or
+    $ResolvedSourceXlsx -like '*\_local\_scratch\*'
+) {
+    Fail ('SourceXlsx darf nicht aus lokalen Artefaktordnern stammen: {0}' -f $ResolvedSourceXlsx)
+}
+
 $RunnerScript = Join-Path $RepoRoot 'tools\run-start-xlsx-builder.ps1'
 $TrimScript   = Join-Path $RepoRoot 'tools\export-single-sheet-xlsx.py'
 $PythonExe    = Join-Path $RepoRoot '.venv\Scripts\python.exe'
