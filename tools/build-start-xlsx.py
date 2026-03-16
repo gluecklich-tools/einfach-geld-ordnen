@@ -1025,18 +1025,98 @@ def apply_notgroschen_scaffold(ws: Worksheet) -> list[str]:
     changes.append("right info panel moved away from main block and made readable")
 
     return changes
+TIER_FREEBIE_MINUS = ["BUDGETS", "JAHR", "FIXKOSTEN", "NOTGROSCHEN", "PLANUNG"]
+TIER_VOLLVERSION_PLUS = ["SCHULDEN", "MONATSABSCHLUSS", "STEUER", "SPARZIELE"]
+
+
+def apply_stub_sheet(ws: Worksheet, title: str) -> list[str]:
+    changes: list[str] = []
+    ws.title = title
+    ws.sheet_view.showGridLines = False
+    ws.freeze_panes = "A1"
+    ws["A1"] = title
+    ws["A1"].font = Font(name="Aptos", size=18, bold=True)
+    ws["A2"] = "Platzhalterblatt fuer Tier-Build. Fachlogik folgt im naechsten Apply."
+    ws["A2"].font = Font(name="Aptos", size=11, italic=True)
+    ws.column_dimensions["A"].width = 56
+    changes.append(f"{title} stub sheet created")
+    return changes
+
+
+def ensure_stub_sheet(wb, title: str) -> list[str]:
+    changes: list[str] = []
+    if title in wb.sheetnames:
+        return changes
+
+    ws = wb.create_sheet(title=title)
+    changes.extend(apply_stub_sheet(ws, title))
+    return changes
+
+
+def apply_tier_transform(wb, tier: str) -> list[str]:
+    changes: list[str] = []
+
+    if tier == "PRO":
+        changes.append("PRO tier selected; workbook kept as baseline")
+        return changes
+
+    if tier == "FREEBIE":
+        for sheet_name in TIER_FREEBIE_MINUS:
+            if sheet_name in wb.sheetnames:
+                ws = wb[sheet_name]
+                wb.remove(ws)
+                changes.append(f"{sheet_name} removed for FREEBIE")
+        return changes
+
+    if tier == "VOLLVERSION":
+        for sheet_name in TIER_VOLLVERSION_PLUS:
+            changes.extend(ensure_stub_sheet(wb, sheet_name))
+        return changes
+
+    raise ValueError(f"Unsupported tier: {tier}")
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Deterministic workbook builder for EGO XLSX.")
     parser.add_argument("--input", required=True, help="Path to input workbook")
     parser.add_argument("--output", required=True, help="Path to output workbook or snapshot json")
     parser.add_argument("--mode", choices=["apply", "snapshot"], required=True, help="Operation mode")
     parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG", "JAHR", "NOTGROSCHEN"], default="START", help="Target sheet")
+    parser.add_argument("--tier", choices=["FREEBIE", "PRO", "VOLLVERSION"], default=None, help="Target workbook tier")
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_path = Path(args.output)
 
     wb = load_workbook(input_path)
+    if args.tier:
+        if args.mode == "snapshot":
+            payload = {
+                "generated_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+                "input": str(input_path),
+                "tier": args.tier,
+                "mode": args.mode,
+                "sheetnames_before": list(wb.sheetnames),
+            }
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"SNAPSHOT: {output_path}")
+            return 0
+
+        changes = apply_tier_transform(wb, args.tier)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        wb.save(output_path)
+
+        report = {
+            "generated_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+            "input": str(input_path),
+            "output": str(output_path),
+            "tier": args.tier,
+            "mode": args.mode,
+            "changes": changes,
+            "sheetnames_after": list(wb.sheetnames),
+        }
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return 0
 
     if args.sheet not in wb.sheetnames:
         raise ValueError(f"Sheet not found: {args.sheet}")
