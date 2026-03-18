@@ -17,11 +17,11 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 
 <span id="vollversion"></span>
 ## Vollversion (14,99 € inkl. MwSt.)
-- **Vollversion (14,99 € inkl. MwSt.):** Bestellung/Download über Digistore24. Der Bestelllink wird hier eingetragen, sobald er live ist.
+- **Vollversion (14,99 € inkl. MwSt.):** Aktuell noch nicht öffentlich freigeschaltet.
 
 <span id="pro"></span>
 ## Pro (24,99 € inkl. MwSt.)
-- **Pro (24,99 € inkl. MwSt.):** Bestellung/Download über Digistore24. Der Bestelllink wird hier eingetragen, sobald er live ist.
+- **Pro (24,99 € inkl. MwSt.):** Aktuell noch nicht öffentlich freigeschaltet.
 
 {% include pricing-table.html %}
 
