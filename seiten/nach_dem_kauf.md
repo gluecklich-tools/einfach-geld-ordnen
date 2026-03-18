@@ -60,3 +60,11 @@ Zuerst den kurzen Ablauf durchgehen:
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 - [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
 {% include no_sackgasse_footer.html %}
+
+<!-- EGO_POST_PURCHASE_SUPPORT_V1:START -->
+## Support nach dem Kauf
+
+Wenn beim Download, beim Entpacken oder beim Zugriff etwas nicht klappt, nutze bitte die Kontaktmoeglichkeit im Impressum oder schreibe eine Mail mit deiner Bestellinfo.
+
+Je genauer du das Problem beschreibst, desto schneller kann der Support helfen.
+<!-- EGO_POST_PURCHASE_SUPPORT_V1:END -->

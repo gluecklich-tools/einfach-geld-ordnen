@@ -34,3 +34,6 @@ include:
   - downloads
   - google2522890043a202ae.html
   - assets/audit/runs
+
+plugins:
+  - jekyll-redirect-from

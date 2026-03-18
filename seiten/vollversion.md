@@ -32,6 +32,21 @@ Bitte erst diese Seiten lesen:
 ## Download und Bestellung
 Die eigentliche Bestellung und der Download werden erst live geschaltet, wenn Dateien, Seiten und Gesamtfluss vollständig final geprüft sind.
 
+<!-- EGO_MANAGED_BLOCK:CHECKOUT_MARKERS_VOLLVERSION_20260317_220030:START -->
+## Kaufen / Checkout
+
+Dieses Paket ist die **Vollversion** und ein **kostenpflichtiges** Angebot.
+
+- **Paket:** Vollversion
+- **Status:** kostenpflichtig
+- **Checkout:** separater Kauf / Checkout
+- **Bestellung:** nach Kauf freischalten
+- **Zugang:** nach dem Kauf
+
+**Jetzt kaufen / bestellen:** Die Vollversion laeuft ueber den separaten Kauf- und Checkout-Weg.
+<!-- EGO_MANAGED_BLOCK:CHECKOUT_MARKERS_VOLLVERSION_20260317_220030:END -->
+
+
 ## Weiter
 - [Freebie]({{ site.baseurl }}/seiten/freebie.html)
 - [Haushaltsbuch Vollversion]({{ site.baseurl }}/seiten/haushaltsbuch-vollversion.html)

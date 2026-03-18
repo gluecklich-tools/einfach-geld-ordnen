@@ -30,3 +30,10 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 - [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 - [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
 {% include no_sackgasse_footer.html %}
+
+<!-- EGO_PRELIVE_DOWNLOADS_PATHING_V1:START -->
+## Naechster Schritt
+
+- [Pro ansehen](/premium/)
+- [Vollversion ansehen](/vollversion/)
+<!-- EGO_PRELIVE_DOWNLOADS_PATHING_V1:END -->

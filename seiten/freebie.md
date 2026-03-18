@@ -40,3 +40,9 @@ Wenn du mehr Struktur brauchst, ist die nächste Stufe:
 - [Download-Hub (Übersicht)]({{ site.baseurl }}/seiten/download-hub-index.html)
 - [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
 {% include no_sackgasse_footer.html %}
+
+<!-- EGO_PRELIVE_FREEBIE_TO_DOWNLOADS_V1:START -->
+## Weiter
+
+Alle Versionen und Downloads findest du auf der [Downloads-Seite](/downloads/).
+<!-- EGO_PRELIVE_FREEBIE_TO_DOWNLOADS_V1:END -->
