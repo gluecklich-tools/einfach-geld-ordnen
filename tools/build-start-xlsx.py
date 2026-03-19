@@ -1029,28 +1029,326 @@ TIER_FREEBIE_MINUS = ["BUDGETS", "JAHR", "FIXKOSTEN", "NOTGROSCHEN", "PLANUNG"]
 TIER_VOLLVERSION_PLUS = ["SCHULDEN", "MONATSABSCHLUSS", "STEUER", "SPARZIELE"]
 
 
-def apply_stub_sheet(ws: Worksheet, title: str) -> list[str]:
+def recreate_sheet(wb, title: str):
+    if title in wb.sheetnames:
+        idx = wb.sheetnames.index(title)
+        existing = wb[title]
+        wb.remove(existing)
+        return wb.create_sheet(title=title, index=idx)
+    return wb.create_sheet(title=title)
+
+
+def apply_feature_sheet_frame(
+    ws: Worksheet,
+    *,
+    title: str,
+    subtitle: str,
+    lead_lines: list[str],
+    table_headers: list[str],
+    table_rows: list[list[str]],
+    notes_title: str,
+    notes_lines: list[str],
+    closing_lines: list[str],
+) -> list[str]:
     changes: list[str] = []
+
     ws.title = title
     ws.sheet_view.showGridLines = False
-    ws.freeze_panes = "A1"
+    ws.freeze_panes = "A5"
+
+    for merged in list(ws.merged_cells.ranges):
+        ws.unmerge_cells(str(merged))
+
+    max_clear_row = max(ws.max_row, 32)
+    max_clear_col = max(ws.max_column, 13)
+    for row in ws.iter_rows(min_row=1, max_row=max_clear_row, min_col=1, max_col=max_clear_col):
+        for cell in row:
+            cell.value = None
+            cell.fill = PatternFill(fill_type=None)
+            cell.font = Font(name="Calibri", size=10, color=TEXT_DARK)
+            cell.alignment = Alignment(horizontal="left", vertical="center")
+            cell.border = Border()
+
+    widths = {
+        "A": 22, "B": 16, "C": 12, "D": 14,
+        "E": 14, "F": 14, "G": 14, "H": 18,
+        "I": 3, "J": 3, "K": 18, "L": 18, "M": 18,
+    }
+    for column_name, width in widths.items():
+        ws.column_dimensions[column_name].width = width
+
+    for idx in range(1, 33):
+        ws.row_dimensions[idx].height = 22
+    ws.row_dimensions[1].height = 34
+    ws.row_dimensions[2].height = 24
+    ws.row_dimensions[5].height = 24
+
+    ws.merge_cells("A1:H1")
     ws["A1"] = title
-    ws["A1"].font = Font(name="Aptos", size=18, bold=True)
-    ws["A2"] = "Platzhalterblatt fuer Tier-Build. Fachlogik folgt im naechsten Apply."
-    ws["A2"].font = Font(name="Aptos", size=11, italic=True)
-    ws.column_dimensions["A"].width = 56
-    changes.append(f"{title} stub sheet created")
+    style_range(
+        ws,
+        "A1:H1",
+        fill=NAVY,
+        font=Font(name="Calibri", size=18, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+
+    ws.merge_cells("A2:H2")
+    ws["A2"] = subtitle
+    style_range(
+        ws,
+        "A2:H2",
+        fill=BLUE_LIGHT,
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+
+    lead_row = 3
+    for line in lead_lines:
+        ws.merge_cells(f"A{lead_row}:H{lead_row}")
+        ws[f"A{lead_row}"] = line
+        style_range(
+            ws,
+            f"A{lead_row}:H{lead_row}",
+            fill="F7FAFE",
+            font=Font(name="Calibri", size=10, color=TEXT_DARK),
+            alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+            border=thin_border(),
+        )
+        lead_row += 1
+
+    table_header_row = 5
+    table_end_col = chr(ord("A") + len(table_headers) - 1)
+
+    for col_idx, header in enumerate(table_headers, start=1):
+        ws.cell(row=table_header_row, column=col_idx, value=header)
+    style_range(
+        ws,
+        f"A{table_header_row}:{table_end_col}{table_header_row}",
+        fill="D7E4F2",
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="center", vertical="center", wrap_text=True),
+        border=thin_border(),
+    )
+
+    current_row = table_header_row + 1
+    for row_values in table_rows:
+        for col_idx, value in enumerate(row_values, start=1):
+            ws.cell(row=current_row, column=col_idx, value=value)
+        style_range(
+            ws,
+            f"A{current_row}:{table_end_col}{current_row}",
+            fill="FFFFFF",
+            font=Font(name="Calibri", size=10, color=TEXT_DARK),
+            alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+            border=thin_border(),
+        )
+        current_row += 1
+
+    notes_last_row = max(6, len(notes_lines) + 2)
+    ws.merge_cells("K1:M1")
+    ws["K1"] = notes_title
+    style_range(
+        ws,
+        "K1:M1",
+        fill=NAVY_DARK,
+        font=Font(name="Calibri", size=10, bold=True, color=WHITE),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(NAVY_DARK),
+    )
+
+    for idx, line in enumerate(notes_lines, start=2):
+        ws.merge_cells(f"K{idx}:M{idx}")
+        ws[f"K{idx}"] = line
+        style_range(
+            ws,
+            f"K{idx}:M{idx}",
+            fill=BLUE_PALE,
+            font=Font(name="Calibri", size=9, color=TEXT_DARK),
+            alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+            border=thin_border(),
+        )
+    for idx in range(len(notes_lines) + 2, notes_last_row + 1):
+        ws.merge_cells(f"K{idx}:M{idx}")
+        style_range(
+            ws,
+            f"K{idx}:M{idx}",
+            fill=BLUE_PALE,
+            font=Font(name="Calibri", size=9, color=TEXT_DARK),
+            alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+            border=thin_border(),
+        )
+
+    closing_header_row = current_row + 1
+    ws.merge_cells(f"A{closing_header_row}:H{closing_header_row}")
+    ws[f"A{closing_header_row}"] = "Praxis-Hinweise"
+    style_range(
+        ws,
+        f"A{closing_header_row}:H{closing_header_row}",
+        fill="EAF1FA",
+        font=Font(name="Calibri", size=10, bold=True, color=NAVY_DARK),
+        alignment=Alignment(horizontal="left", vertical="center"),
+        border=thin_border(),
+    )
+
+    footer_row = closing_header_row + 1
+    for line in closing_lines:
+        ws.merge_cells(f"A{footer_row}:H{footer_row}")
+        ws[f"A{footer_row}"] = line
+        style_range(
+            ws,
+            f"A{footer_row}:H{footer_row}",
+            fill="FCFDFE",
+            font=Font(name="Calibri", size=10, color=TEXT_DARK),
+            alignment=Alignment(horizontal="left", vertical="center", wrap_text=True),
+            border=thin_border(),
+        )
+        footer_row += 1
+
+    changes.append(f"{title} feature sheet scaffold applied")
     return changes
 
 
-def ensure_stub_sheet(wb, title: str) -> list[str]:
-    changes: list[str] = []
-    if title in wb.sheetnames:
-        return changes
+def apply_schulden_scaffold(ws: Worksheet) -> list[str]:
+    return apply_feature_sheet_frame(
+        ws,
+        title="SCHULDEN",
+        subtitle="Schuldenueberblick und Tilgungsplan fuer die Vollversion",
+        lead_lines=[
+            "Alle offenen Verbindlichkeiten gesammelt pflegen und monatlich aktualisieren.",
+            "Mit Mindest-Rate und Ziel-Rate arbeiten, damit der Abbau planbar bleibt.",
+        ],
+        table_headers=["Position", "Restschuld", "Zins %", "Mindest-Rate", "Ziel-Rate", "Faellig", "Status"],
+        table_rows=[
+            ["Dispo", "0,00", "0,0", "0,00", "0,00", "TT.MM.JJJJ", "offen"],
+            ["Kredit 1", "0,00", "0,0", "0,00", "0,00", "TT.MM.JJJJ", "offen"],
+            ["Kredit 2", "0,00", "0,0", "0,00", "0,00", "TT.MM.JJJJ", "offen"],
+            ["Ratenkauf", "0,00", "0,0", "0,00", "0,00", "TT.MM.JJJJ", "offen"],
+            ["Privatdarlehen", "0,00", "0,0", "0,00", "0,00", "TT.MM.JJJJ", "offen"],
+        ],
+        notes_title="Schnellnutzung",
+        notes_lines=[
+            "1. Jede Schuld einzeln eintragen.",
+            "2. Restschuld nur nach echtem Monatsabschluss aktualisieren.",
+            "3. Ziel-Rate bewusst setzen und nicht still aendern.",
+            "4. Sondertilgungen in Status/Notiz dokumentieren.",
+        ],
+        closing_lines=[
+            "Prioritaet klar waehlen: kleine Schulden zuerst oder teuerste zuerst.",
+            "Entscheidend ist ein ruhiger Plan, der dauerhaft tragfaehig bleibt.",
+        ],
+    )
 
-    ws = wb.create_sheet(title=title)
-    changes.extend(apply_stub_sheet(ws, title))
-    return changes
+
+def apply_monatsabschluss_scaffold(ws: Worksheet) -> list[str]:
+    return apply_feature_sheet_frame(
+        ws,
+        title="MONATSABSCHLUSS",
+        subtitle="Monatlicher Abschluss- und Kontrolllauf fuer den Haushalt",
+        lead_lines=[
+            "Dieses Blatt fuehrt den Monatsabschluss als kurze, wiederholbare Routine.",
+            "Erst pruefen, dann schliessen, dann in den naechsten Monat gehen.",
+        ],
+        table_headers=["Pruefschritt", "Quelle", "Ergebnis", "Status", "Termin", "Owner", "Notiz"],
+        table_rows=[
+            ["Einnahmen vollstaendig", "MONAT", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+            ["Fixkosten geprueft", "FIXKOSTEN", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+            ["Variable Ausgaben geprueft", "HAUSHALTSBUCH", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+            ["Sparrate gebucht", "SPARZIELE", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+            ["Schuldenplan aktualisiert", "SCHULDEN", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+            ["Ruecklagen/Steuer geprueft", "STEUER", "offen", "zu pruefen", "Monatsende", "Haushalt", ""],
+        ],
+        notes_title="Abschlusslogik",
+        notes_lines=[
+            "1. Nur mit echten Buchungen arbeiten.",
+            "2. Erst fehlende Daten nachtragen, dann abhaken.",
+            "3. Status bewusst auf erledigt setzen.",
+            "4. Notiz nur fuer echte Abweichungen nutzen.",
+        ],
+        closing_lines=[
+            "Der Monatsabschluss ist die Kontrollschleife fuer alle anderen Vollversion-Module.",
+            "Eine kurze, saubere Routine ist wertvoller als ein perfektes, nie gepflegtes Blatt.",
+        ],
+    )
+
+
+def apply_steuer_scaffold(ws: Worksheet) -> list[str]:
+    return apply_feature_sheet_frame(
+        ws,
+        title="STEUER",
+        subtitle="Steuerbezogene Ruecklagen- und Kontrollflaeche fuer variable Einkommen",
+        lead_lines=[
+            "Dieses Blatt sammelt steuerrelevante Positionen und die geplante Ruecklage pro Monat.",
+            "Parameter-Hinweise und Saetze bleiben die Eingabequelle, hier wird die Praxis geplant.",
+        ],
+        table_headers=["Bereich", "Basis", "Satz %", "Ruecklage/Monat", "Topf", "Termin", "Notiz"],
+        table_rows=[
+            ["Einkommensteuer", "0,00", "0,0", "0,00", "Steuer", "Monatsende", ""],
+            ["Kirchensteuer", "0,00", "0,0", "0,00", "Steuer", "Monatsende", "0 = nicht relevant"],
+            ["Solidaritaet", "0,00", "0,0", "0,00", "Steuer", "Monatsende", ""],
+            ["Nebeneinkuenfte", "0,00", "0,0", "0,00", "Steuer", "Monatsende", ""],
+            ["Kapitalertraege", "0,00", "0,0", "0,00", "Steuer", "Monatsende", ""],
+        ],
+        notes_title="Wichtige Regel",
+        notes_lines=[
+            "1. Nur relevante Bereiche pflegen.",
+            "2. Saetze in PARAMETER kontrollieren, nicht hier erfinden.",
+            "3. Ruecklage monatlich anpassen, wenn Basis sich aendert.",
+            "4. Dieses Blatt ist Plan- und Kontrollflaeche, kein Steuerbescheid.",
+        ],
+        closing_lines=[
+            "Ziel ist eine ruhige Steuer-Ruecklage statt spaeterer Ueberraschungen.",
+            "Wer keine steuerrelevanten Nebenstroeme hat, kann das Blatt bewusst minimal halten.",
+        ],
+    )
+
+
+def apply_sparziele_scaffold(ws: Worksheet) -> list[str]:
+    return apply_feature_sheet_frame(
+        ws,
+        title="SPARZIELE",
+        subtitle="Sparziele, Zielbetraege und Monatsraten geordnet an einem Ort",
+        lead_lines=[
+            "Ziele konkret beziffern und mit realistischen Monatsraten verbinden.",
+            "Nur Ziele fuehren, die wirklich aktiv verfolgt werden.",
+        ],
+        table_headers=["Ziel", "Zielbetrag", "Aktuell", "Luecke", "Monatsrate", "Zielmonat", "Status"],
+        table_rows=[
+            ["Notgroschen", "0,00", "0,00", "0,00", "0,00", "JJJJ-MM", "aktiv"],
+            ["Jahreskosten", "0,00", "0,00", "0,00", "0,00", "JJJJ-MM", "aktiv"],
+            ["Urlaub", "0,00", "0,00", "0,00", "0,00", "JJJJ-MM", "optional"],
+            ["Technik", "0,00", "0,00", "0,00", "0,00", "JJJJ-MM", "optional"],
+            ["Puffer", "0,00", "0,00", "0,00", "0,00", "JJJJ-MM", "aktiv"],
+        ],
+        notes_title="Steuerung",
+        notes_lines=[
+            "1. Zielbetrag bewusst festlegen.",
+            "2. Monatsrate nur aus echtem Ueberschuss planen.",
+            "3. Status auf optional setzen, wenn das Ziel warten kann.",
+            "4. Nach jedem Monatsabschluss Aktualisierung kurz nachziehen.",
+        ],
+        closing_lines=[
+            "Ein Zielblatt funktioniert nur mit wenigen, klar priorisierten Zielen.",
+            "Weniger Ziele, dafuer echte Fortschritte, ist die bessere Vollversion-Logik.",
+        ],
+    )
+
+
+def ensure_feature_sheet(wb, title: str) -> list[str]:
+    ws = recreate_sheet(wb, title)
+
+    if title == "SCHULDEN":
+        return apply_schulden_scaffold(ws)
+    if title == "MONATSABSCHLUSS":
+        return apply_monatsabschluss_scaffold(ws)
+    if title == "STEUER":
+        return apply_steuer_scaffold(ws)
+    if title == "SPARZIELE":
+        return apply_sparziele_scaffold(ws)
+
+    raise ValueError(f"Unsupported feature sheet: {title}")
 
 
 def apply_tier_transform(wb, tier: str) -> list[str]:
@@ -1070,7 +1368,7 @@ def apply_tier_transform(wb, tier: str) -> list[str]:
 
     if tier == "VOLLVERSION":
         for sheet_name in TIER_VOLLVERSION_PLUS:
-            changes.extend(ensure_stub_sheet(wb, sheet_name))
+            changes.extend(ensure_feature_sheet(wb, sheet_name))
         return changes
 
     raise ValueError(f"Unsupported tier: {tier}")
@@ -1080,7 +1378,7 @@ def main() -> int:
     parser.add_argument("--input", required=True, help="Path to input workbook")
     parser.add_argument("--output", required=True, help="Path to output workbook or snapshot json")
     parser.add_argument("--mode", choices=["apply", "snapshot"], required=True, help="Operation mode")
-    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG", "JAHR", "NOTGROSCHEN"], default="START", help="Target sheet")
+    parser.add_argument("--sheet", choices=["START", "HAUSHALTSBUCH", "MONAT", "BUDGETS", "FIXKOSTEN", "PLANUNG", "JAHR", "NOTGROSCHEN", "SCHULDEN", "MONATSABSCHLUSS", "STEUER", "SPARZIELE"], default="START", help="Target sheet")
     parser.add_argument("--tier", choices=["FREEBIE", "PRO", "VOLLVERSION"], default=None, help="Target workbook tier")
     args = parser.parse_args()
 
@@ -1150,8 +1448,16 @@ def main() -> int:
         changes = apply_planung_scaffold(ws)
     elif args.sheet == "JAHR":
         changes = apply_jahr_scaffold(ws)
-    else:
+    elif args.sheet == "NOTGROSCHEN":
         changes = apply_notgroschen_scaffold(ws)
+    elif args.sheet == "SCHULDEN":
+        changes = apply_schulden_scaffold(ws)
+    elif args.sheet == "MONATSABSCHLUSS":
+        changes = apply_monatsabschluss_scaffold(ws)
+    elif args.sheet == "STEUER":
+        changes = apply_steuer_scaffold(ws)
+    else:
+        changes = apply_sparziele_scaffold(ws)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)

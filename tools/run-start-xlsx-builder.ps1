@@ -5,7 +5,7 @@ param(
     [ValidateSet("apply","snapshot")]
     [string]$Mode = "apply",
 
-    [ValidateSet("START","HAUSHALTSBUCH","MONAT","BUDGETS","FIXKOSTEN","PLANUNG","JAHR","NOTGROSCHEN")]
+    [ValidateSet("START","HAUSHALTSBUCH","MONAT","BUDGETS","FIXKOSTEN","PLANUNG","JAHR","NOTGROSCHEN","SCHULDEN","MONATSABSCHLUSS","STEUER","SPARZIELE")]
     [string]$Sheet = "START",
 
     [ValidateSet("FREEBIE","PRO","VOLLVERSION")]
