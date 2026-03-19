@@ -21,19 +21,19 @@ Hier findest du die Pro-Version (wenn freigeschaltet) und den Ablauf nach dem Ka
 - Klare Schritte (Self-Serve)
 - Kein persönlicher Rückfragen
 
-<!-- EGO_MANAGED_BLOCK:CHECKOUT_MARKERS_PREMIUM_20260317_220030:START -->
-## Kaufen / Checkout
+<!-- EGO_MANAGED_BLOCK:Freischaltung_MARKERS_PREMIUM_20260317_220030:START -->
+## Kaufen / Freischaltung
 
 Dieses Paket ist **bezahlt** und nicht Teil des FREEBIE-Downloads.
 
 - **Paket:** Pro
 - **Status:** kostenpflichtig
-- **Checkout:** separater Kauf / Checkout
+- **Freischaltung:** separater Kauf / Freischaltung
 - **Bestellung:** nach Kauf freischalten
 - **Zugang:** nach dem Kauf
 
-**Jetzt kaufen / bestellen:** Pro laeuft ueber den separaten Kauf- und Checkout-Weg.
-<!-- EGO_MANAGED_BLOCK:CHECKOUT_MARKERS_PREMIUM_20260317_220030:END -->
+**Spaeter verfuegbar / bestellen:** Pro laeuft ueber den separaten Kauf- und Freischaltung-Weg.
+<!-- EGO_MANAGED_BLOCK:Freischaltung_MARKERS_PREMIUM_20260317_220030:END -->
 
 
 ## Weiter
@@ -46,11 +46,11 @@ Dieses Paket ist **bezahlt** und nicht Teil des FREEBIE-Downloads.
 <!-- EGO_PRELIVE_PREMIUM_TO_VOLLVERSION_V1:START -->
 ## Noch mehr Funktionen
 
-Wenn du alles auf einmal willst, gehe hier weiter zur [Vollversion](/vollversion/).
+Wenn du alles auf einmal willst, gehe hier weiter zur [Vollversion]({{ site.baseurl }}/seiten/vollversion.html).
 <!-- EGO_PRELIVE_PREMIUM_TO_VOLLVERSION_V1:END -->
 
 <!-- EGO_PRELIVE_PREMIUM_TO_DOWNLOADS_V1:START -->
 ## Alle Versionen
 
-Zur Gesamtübersicht aller Versionen gehe hier weiter: [Downloads](/downloads/).
+Zur Gesamtübersicht aller Versionen gehe hier weiter: [Downloads](/downloads.html).
 <!-- EGO_PRELIVE_PREMIUM_TO_DOWNLOADS_V1:END -->

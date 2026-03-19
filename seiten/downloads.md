@@ -34,6 +34,6 @@ Hier findest du die Downloads im Projekt "Einfach Geld ordnen".
 <!-- EGO_PRELIVE_DOWNLOADS_PATHING_V1:START -->
 ## Naechster Schritt
 
-- [Pro ansehen](/premium/)
-- [Vollversion ansehen](/vollversion/)
+- [Pro ansehen]({{ site.baseurl }}/seiten/premium.html)
+- [Vollversion ansehen]({{ site.baseurl }}/seiten/vollversion.html)
 <!-- EGO_PRELIVE_DOWNLOADS_PATHING_V1:END -->

@@ -30,7 +30,7 @@ Hier findest du die wichtigsten Einstiege. Ziel: kein Suchen, keine Sackgassen.
 - [Downloads]({{ site.baseurl }}/seiten/downloads.html)
 
 ## Weiter
-- [Haushaltsbuch]({{ site.baseurl }}/pillar/haushaltsbuch.html)
+- [Haushaltsbuch]({{ site.baseurl }}/pillar/einfach-geld-ordnen-haushaltsbuch.html)
 - [Fixkosten]({{ site.baseurl }}/pillar/fixkosten.html)
 - [50-30-20]({{ site.baseurl }}/pillar/50-30-20.html)
 {% include no_sackgasse_footer.html %}

@@ -1,3 +1,19 @@
+<!-- EGO_MANAGED_BLOCK:FULL_PROJECT_AUDIT_RECONCILIATION_V1:START -->
+## FINAL COMPLETION LOCK AFTER FULL AUDIT - 2026-03-19
+
+- Aktive Reihenfolge ab jetzt:
+  - [ ] Endprodukt-Reife der XLSX-/ODS-Dateien je Tier
+  - [ ] Public-Surface-/Sitemap-/CTA-Kanonisierung
+  - [ ] GitHub Actions / Linkcheck / EGO Gates voll gruen
+  - [ ] Cloudflare / Bing / GSC frischer Evidenz-Freeze
+  - [ ] Erst danach echte Paid-Aktivierung
+
+- Nicht erneut oeffnen ohne neuen Realbefund:
+  - [x] Maerz-18-Pre-Paid-Closeout-Kette
+  - [x] False-Positive-/Proof-/Placeholder-Reopen-Loops
+<!-- EGO_MANAGED_BLOCK:FULL_PROJECT_AUDIT_RECONCILIATION_V1:END -->
+
+
 # TODO – Einfach Geld ordnen
 
 ## Dual-KPI Active-Core vs Non-Core
