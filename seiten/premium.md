@@ -52,5 +52,5 @@ Wenn du alles auf einmal willst, gehe hier weiter zur [Vollversion]({{ site.base
 <!-- EGO_PRELIVE_PREMIUM_TO_DOWNLOADS_V1:START -->
 ## Alle Versionen
 
-Zur Gesamtübersicht aller Versionen gehe hier weiter: [Downloads](/downloads.html).
+Zur Gesamtübersicht aller Versionen gehe hier weiter: [Downloads]({{ site.baseurl }}/seiten/downloads.html).
 <!-- EGO_PRELIVE_PREMIUM_TO_DOWNLOADS_V1:END -->

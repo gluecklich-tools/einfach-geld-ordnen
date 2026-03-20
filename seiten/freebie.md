@@ -44,5 +44,5 @@ Wenn du mehr Struktur brauchst, ist die nächste Stufe:
 <!-- EGO_PRELIVE_FREEBIE_TO_DOWNLOADS_V1:START -->
 ## Weiter
 
-Alle Versionen und Downloads findest du auf der [Downloads-Seite](/downloads.html).
+Alle Versionen und Downloads findest du auf der [Downloads-Seite]({{ site.baseurl }}/seiten/downloads.html).
 <!-- EGO_PRELIVE_FREEBIE_TO_DOWNLOADS_V1:END -->
