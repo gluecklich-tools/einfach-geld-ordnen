@@ -126,6 +126,89 @@ function Get-RepoStatusLines {
     return @($Lines | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
 }
 
+# BEGIN WORKTREE_HYGIENE_PRESTEP_GATE_V1
+function Get-RepoRelativePathFromLiteralPath {
+    param(
+        [Parameter(Mandatory = $true)][string]$RepoRoot,
+        [Parameter(Mandatory = $true)][string]$LiteralPath
+    )
+
+    $repoFull = [System.IO.Path]::GetFullPath($RepoRoot).TrimEnd('\')
+    $pathFull = [System.IO.Path]::GetFullPath($LiteralPath)
+
+    if (-not $pathFull.StartsWith($repoFull + '\', [System.StringComparison]::OrdinalIgnoreCase)) {
+        return $null
+    }
+
+    $relative = $pathFull.Substring($repoFull.Length).TrimStart('\')
+    return ($relative.Replace('\', '/'))
+}
+
+function Convert-RepoStatusLinesToPaths {
+    param([AllowNull()]$StatusLines)
+
+    if ($null -eq $StatusLines) {
+        return @()
+    }
+
+    $paths = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($line in @($StatusLines)) {
+        $text = [string]$line
+        if ([string]::IsNullOrWhiteSpace($text)) {
+            continue
+        }
+
+        if ($text.Length -lt 4) {
+            continue
+        }
+
+        $path = $text.Substring(3).Trim()
+        if ($path -match ' -> ') {
+            $path = ($path -split ' -> ')[-1].Trim()
+        }
+
+        if (-not [string]::IsNullOrWhiteSpace($path)) {
+            $paths.Add($path.Replace('\', '/')) | Out-Null
+        }
+    }
+
+    return @($paths.ToArray() | Sort-Object -Unique)
+}
+
+function Assert-PrestepWorktreeHygiene {
+    param(
+        [Parameter(Mandatory = $true)][string]$RepoRoot,
+        [Parameter(Mandatory = $true)][string]$ResolvedStepPath,
+        [AllowNull()]$PreStatus
+    )
+
+    $dirtyPaths = @(Convert-RepoStatusLinesToPaths -StatusLines $PreStatus)
+    if (@($dirtyPaths).Count -eq 0) {
+        Write-Host 'HYGIENE_PRESTEP: CLEAN'
+        return
+    }
+
+    $allowed = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+    $stepRelative = Get-RepoRelativePathFromLiteralPath -RepoRoot $RepoRoot -LiteralPath $ResolvedStepPath
+    if (-not [string]::IsNullOrWhiteSpace($stepRelative)) {
+        $null = $allowed.Add($stepRelative)
+    }
+
+    $unexpected = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($dirty in $dirtyPaths) {
+        if (-not $allowed.Contains($dirty)) {
+            $unexpected.Add($dirty) | Out-Null
+        }
+    }
+
+    if ($unexpected.Count -gt 0) {
+        Fail ('FAIL: WORKTREE_HYGIENE_PRESTEP_DIRTY_SCOPE: {0}' -f (($unexpected.ToArray()) -join ' || '))
+    }
+
+    Write-Host ('HYGIENE_PRESTEP_ALLOWED: {0}' -f ($dirtyPaths -join ' || '))
+}
+# END WORKTREE_HYGIENE_PRESTEP_GATE_V1
+
 function Remove-OrphanPostRunSyncIfUntracked {
     param(
         [Parameter(Mandatory = $true)][string]$RepoRoot
@@ -309,6 +392,10 @@ $PreFullsync = Invoke-CheckedPwsh -FilePath $SsotFullsync -Label 'pre-step ssot 
 Write-Host $PreFullsync.Text
 
 $PreStatus = @(Get-RepoStatusLines -RepoRoot $RepoRoot)
+# BEGIN WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
+Assert-PrestepWorktreeHygiene -RepoRoot $RepoRoot -ResolvedStepPath $ResolvedStepPath -PreStatus $PreStatus
+# END WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
+
 if (@($PreStatus).Count -eq 0) {
     $PreRefresh = Invoke-CheckedPwsh -FilePath $SsotRefresh -Label 'pre-step ssot refresh'
     Write-Host $PreRefresh.Text
@@ -354,6 +441,16 @@ $PostFullsync = Invoke-CheckedPwsh -FilePath $SsotFullsync -Label 'post-step sso
 Write-Host $PostFullsync.Text
 
 $PostStatus = @(Get-RepoStatusLines -RepoRoot $RepoRoot)
+# BEGIN WORKTREE_HYGIENE_POSTSTATUS_REPORT_V1
+$PostDirtyPaths = @(Convert-RepoStatusLinesToPaths -StatusLines $PostStatus)
+if (@($PostDirtyPaths).Count -eq 0) {
+    Write-Host 'HYGIENE_POSTSTEP: CLEAN'
+}
+else {
+    Write-Host ('HYGIENE_POSTSTEP_DIRTY_SCOPE: {0}' -f ($PostDirtyPaths -join ' || '))
+}
+# END WORKTREE_HYGIENE_POSTSTATUS_REPORT_V1
+
 if (@($PostStatus).Count -eq 0) {
     $PostRefresh = Invoke-CheckedPwsh -FilePath $SsotRefresh -Label 'post-step ssot refresh'
     Write-Host $PostRefresh.Text

@@ -102,6 +102,19 @@ if ((Test-Path -LiteralPath $govCoreLfNormalizeTool -PathType Leaf) -and (Test-P
 }
 #endregion GOVERNANCE_ROOT_SYNC_HARDGATE_V5_POST_CLOSEOUT_EOF
 
-Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + ")")
+# BEGIN CLOSEOUT_REPO_CLEAN_GATE_V1
+$CloseoutRepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$CloseoutStatus = @(git -C $CloseoutRepoRoot status --short)
+if ($LASTEXITCODE -ne 0) {
+    Fail ('FAIL: git status --short failed in {0}' -f $CloseoutRepoRoot)
+}
+
+$CloseoutStatus = @($CloseoutStatus | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+if (@($CloseoutStatus).Count -ne 0) {
+    Fail ('FAIL: CLOSEOUT_REPO_NOT_CLEAN: {0}' -f (($CloseoutStatus | ForEach-Object { [string]$_ }) -join ' || '))
+}
+# END CLOSEOUT_REPO_CLEAN_GATE_V1
+
+Write-Host ("PASS: gate-closeout-after-commit (" + (Check-Closeout).Why + "; CLEAN_REPO)")
 exit 0
 
