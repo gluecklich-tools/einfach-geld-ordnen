@@ -37,3 +37,8 @@
 - Repo-weite XLSX-Auto-Selektion bleibt unzulaessig.
 - Lokale Artefaktordner sind keine zulaessige Inputquelle.
 - Nach diesem Sync erst wieder inhaltlich im START-Strang weiterarbeiten.
+
+<!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 START -->
+- Starttexte muessen ab jetzt die VOLLVERSION-Master-Strategie explizit nennen, solange dieser Strang aktiv ist.
+- Bei Produktarbeit ist das erste Ziel nicht FREEBIE-Fertigstellung, sondern VOLLVERSION-Master-Endprodukt-Reife.
+<!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 END -->
