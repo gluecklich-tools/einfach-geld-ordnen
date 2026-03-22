@@ -63,7 +63,7 @@
 ## WORKBOOK SOURCE IDENTITY - 2026-03-22
 
 - canonical_working_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\xlsx_verified_tier_stage_20260316\EGO_VOLLVERSION_XLSX_VERIFIED_20260316.xlsx
-- canonical_working_source_sha256: 4C5784B00950CA8EF6A038B6FFEBAD2BBE9FE63D586A45146BD2214734017B60
+- canonical_working_source_sha256: 59419A1E8AEADF83C5A6B3F51F9543532B8833093E342789A62BC8CEB5EA1F12
 - active_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_rebuild_exact_start_full_visible_surface_premium_dashboard_rebuild_in_vollversion_master_20260321_234306.ps1
 - blocked_previous_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
 - delivery_truth: Produkt_EGO bundle payload matcht verified-stage; _INTERN private bundle_release_zips sind nicht pauschal vertrauenswuerdig.
