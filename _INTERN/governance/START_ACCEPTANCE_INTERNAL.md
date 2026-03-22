@@ -42,3 +42,19 @@
 - Starttexte muessen ab jetzt die VOLLVERSION-Master-Strategie explizit nennen, solange dieser Strang aktiv ist.
 - Bei Produktarbeit ist das erste Ziel nicht FREEBIE-Fertigstellung, sondern VOLLVERSION-Master-Endprodukt-Reife.
 <!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 END -->
+
+<!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:START -->
+## START MASTER REOPEN - 2026-03-21
+
+- Historische START-Paesse aus aelteren Teilstraengen gelten nicht als Abnahme fuer den aktuellen VOLLVERSION-Master-Rebuild.
+- Aktiver Ergebnisstatus fuer START ist ab jetzt: reopened_for_premium_dashboard_rebuild.
+- Ein neuer PASS fuer START ist erst gueltig, wenn gleichzeitig gilt:
+  - vier Kernkarten sind sichtbar und hierarchisch klar
+  - Top-Ausgaben sind dynamisch statt statisch
+  - rechter Bereich wirkt integriert statt angeflanscht
+  - keine Marketing-/Editionstexte auf der produktiven START-Flaeche
+  - keine harten Platzhalterwerte ohne echte Datenlogik
+  - Screenshot-Urteil bestaetigt Premium-Home-Dashboard statt Tabellenwiese
+- Freeze bleibt: PARAMETER und BEDIENUNG.
+- Naechstes aktives Ziel bleibt ausschliesslich START full visible surface premium dashboard rebuild.
+<!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:END -->
