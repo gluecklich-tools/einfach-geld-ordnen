@@ -1,70 +1,60 @@
 # START_ACCEPTANCE_INTERNAL
 
-- sync_timestamp: 20260315_205235
-- repo_root: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen
-- project_root: C:\Users\carst\Projekte\Einfach-Geld-Ordnen
-- branch: main
-- head_short: 62d17d3
-- active_target: START
-- result: pass
-- single_page_realview: pass
-- text_clipping: pass
-- visual_abnahme: pass
-- historical_visual_acceptance: pass
-- source_contract: explicit_source_only
+- sync_timestamp: 20260323_135737
+- active_target: START / sheet1
+- result: green_reopen_closeout_for_formula_contract_repair
+- excel_recovery_after_reopen: pass
+- sheet1_formula_contract: pass
+- reopen_reverify: pass
+- active_scope: governance closeout after repaired green START / sheet1 recovery state
+- source_contract: TEMP_P0_RECOVERY_ONLY_EXPLICIT_CANDIDATE_SOURCE
 - repo_auto_selection_allowed: False
-- canonical_private_xlsx_present: False
-- latest_source_contract_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260315_200158\SSOT\EXPLICIT_SOURCE_ONLY_CONTRACT_AND_PRIVATE_CANONICAL_XLSX_GAP.md
-- latest_contract_drift_scan_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260315_203207\SSOT\SCAN_CONTRACT_DRIFT_START_ACCEPTANCE_VS_EXPLICIT_SOURCE_ONLY.md
-- latest_listen_rootcause_closeout: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260315_191846\SSOT\LISTEN_INPUTXLSX_ROOTCAUSE_CLOSEOUT.md
-- latest_start_scan: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260314_090625\SSOT\SCAN_START_BASELINE_AFTER_REPO_COMPLETION_CLOSEOUT.md
-- latest_start_plan: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260314_090914\SSOT\PLAN_START_SCOPE_AND_EMIT_REALVIEW_BUILD_INPUT.md
-- latest_visual_polish: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260314_100616\SSOT\APPLY_START_VISUAL_HIERARCHY_AND_COMPACTNESS_POLISH.md
-- latest_clip_repair: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260314_101417\SSOT\APPLY_START_ROW_HEIGHT_AND_TEXT_CLIPPING_REPAIR.md
-- latest_closeout: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260314_101927\SSOT\CLOSEOUT_START_ROW_HEIGHT_AND_TEXT_CLIPPING_REPAIR.md
-- next_active_target: START
-- next_baseline_for_next_work: explicit_source_only
-- next_rule: continue on explicit source only
+- active_recovery_workbook: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
+- active_recovery_workbook_sha256: DA41221D5CE3C6E25A29E4709397BC8DB43063604A90F79FC8E30DDDBA4F895D
+- latest_formula_repair_apply_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_apply_exact_start_sheet1_formula_contract_repair_a17_a18_after_recovery_rootcause_20260323_110955.ps1
+- latest_formula_repair_apply_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_repair_start_sheet1_formula_contract_20260323_125913.txt
+- latest_formula_repair_verify_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_verify_exact_start_reopen_repair_state_and_sheet1_formula_contract_after_rootcause_scan_20260323_110151.ps1
+- latest_formula_repair_verify_report_pre_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_verify_start_sheet1_formula_contract_20260323_130404.txt
+- latest_formula_repair_verify_report_post_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_verify_start_sheet1_formula_contract_20260323_130627.txt
+- latest_scope_scan_after_green_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_scan_start_sheet1_green_reopen_closeout_doc_targets_20260323_131006.txt
+- next_active_target: source-contract and acceptance mirror sync for the repaired green START / sheet1 state
+- next_rule: broader workbook or design work only after sync docs aligned
 
 ## AKZEPTIERTER STAND
-- PRINT/REALVIEW: START bleibt historisch auf 1 Seite abgenommen.
-- LESBARKEIT: Block ERSTE SCHRITTE und GROESSTE AUSGABEN bleiben historisch ohne Clipping abgenommen.
-- HISTORISCHE ARTEFAKTE: Fruehere XLSX/PDF-Artefakte dieses Strangs bleiben nur noch als historische Abnahmebelege in Reports dokumentiert.
-- ARBEITSBASIS: Weiterarbeit an START nur mit explizit uebergebener Quelle.
+- Excel wurde am 2026-03-23 ohne Recovery-Dialog wieder geoeffnet.
+- Der sheet1-Formelvertrag ist fuer I1, A6, F6, A11, F11, A14, A17 und A18 nach Reopen und Reverify gruen.
+- Dieser Closeout bestaetigt nur den reparierten START-/sheet1-Recovery-Blocker.
+- Dieser Closeout behauptet keine breitere Premium-Dashboard- oder workbook-wide-Abnahme.
 
 ## GOVERNANCE
-- Contract correction fuer START_ACCEPTANCE und Spiegeldateien ist angewendet.
+- Die Reparatur vom 2026-03-23 nutzte die explizit uebergebene Candidate-XLSX nur als TEMP_P0_RECOVERY_ONLY fuer diesen eng begrenzten Closeout.
+- verified-stage bleibt ausserhalb dieses Closeouts die globale Standardregel.
 - Repo-weite XLSX-Auto-Selektion bleibt unzulaessig.
-- Lokale Artefaktordner sind keine zulaessige Inputquelle.
-- Nach diesem Sync erst wieder inhaltlich im START-Strang weiterarbeiten.
+- Breitere Workbook- oder Designarbeit darf erst nach Source-Contract- und Mirror-Sync weiterlaufen.
 
 <!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 START -->
-- Starttexte muessen ab jetzt die VOLLVERSION-Master-Strategie explizit nennen, solange dieser Strang aktiv ist.
-- Bei Produktarbeit ist das erste Ziel nicht FREEBIE-Fertigstellung, sondern VOLLVERSION-Master-Endprodukt-Reife.
+- VOLLVERSION bleibt der aktive Produktkontext fuer folgende Workbook-Arbeit.
+- Diese Datei stuft die groessere Produktstrategie nicht herunter, sondern dokumentiert nur den reparierten gruenen START-/sheet1-Reopen-Stand.
 <!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 END -->
 
 <!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:START -->
-## START MASTER REOPEN - 2026-03-21
+## START RECOVERY CLOSEOUT - 2026-03-23
 
-- Historische START-Paesse aus aelteren Teilstraengen gelten nicht als Abnahme fuer den aktuellen VOLLVERSION-Master-Rebuild.
-- Aktiver Ergebnisstatus fuer START ist ab jetzt: reopened_for_premium_dashboard_rebuild.
-- Ein neuer PASS fuer START ist erst gueltig, wenn gleichzeitig gilt:
-  - vier Kernkarten sind sichtbar und hierarchisch klar
-  - Top-Ausgaben sind dynamisch statt statisch
-  - rechter Bereich wirkt integriert statt angeflanscht
-  - keine Marketing-/Editionstexte auf der produktiven START-Flaeche
-  - keine harten Platzhalterwerte ohne echte Datenlogik
-  - Screenshot-Urteil bestaetigt Premium-Home-Dashboard statt Tabellenwiese
-- Freeze bleibt: PARAMETER und BEDIENUNG.
-- Naechstes aktives Ziel bleibt ausschliesslich START full visible surface premium dashboard rebuild.
+- Der fruehere START-Premium-Dashboard-Reopen-Block ist fuer diesen Closeout nicht mehr der aktive Blocker.
+- Aktiver Ergebnisstatus fuer den reparierten START-/sheet1-Recovery-Zustand ist: green_after_reopen_closeout.
+- Die Belegkette ist: apply pass -> verify pass -> Excel reopen without recovery -> reverify pass.
+- Diese Datei beansprucht keine breitere START-Designabnahme.
+- Breitere Workbook- oder Designarbeit darf erst nach dem restlichen Governance- und Source-Contract-Sync wieder anlaufen.
 <!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:END -->
 
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_SOURCE_IDENTITY_START_LOCK_20260322:START -->
-## WORKBOOK SOURCE IDENTITY - 2026-03-22
+## WORKBOOK SOURCE IDENTITY - 2026-03-23
 
-- canonical_working_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\xlsx_verified_tier_stage_20260316\EGO_VOLLVERSION_XLSX_VERIFIED_20260316.xlsx
-- canonical_working_source_sha256: 59419A1E8AEADF83C5A6B3F51F9543532B8833093E342789A62BC8CEB5EA1F12
-- active_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_rebuild_exact_start_full_visible_surface_premium_dashboard_rebuild_in_vollversion_master_20260321_234306.ps1
-- blocked_previous_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
-- delivery_truth: Produkt_EGO bundle payload matcht verified-stage; _INTERN private bundle_release_zips sind nicht pauschal vertrauenswuerdig.
+- verified_stage_default_rule: remains global default outside this closeout
+- verified_stage_identity_status: unresolved_conflict_tracked_in_source_contract_docs
+- active_recovery_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
+- active_recovery_source_sha256: DA41221D5CE3C6E25A29E4709397BC8DB43063604A90F79FC8E30DDDBA4F895D
+- source_exception: TEMP_P0_RECOVERY_ONLY explicit candidate source for START / sheet1 formula-contract repair closeout on 2026-03-23
+- blocked_previous_error: Excel recovery removed formula records from /xl/worksheets/sheet1.xml-Part on START / sheet1
+- no_claim_of_canonical_promotion: staging candidate was repaired for this closeout only and is not promoted to canonical working source by this file
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_SOURCE_IDENTITY_START_LOCK_20260322:END -->
