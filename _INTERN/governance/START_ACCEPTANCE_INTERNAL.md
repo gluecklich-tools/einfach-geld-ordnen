@@ -1,60 +1,77 @@
 # START_ACCEPTANCE_INTERNAL
 
-- sync_timestamp: 20260323_135737
-- active_target: START / sheet1
-- result: green_reopen_closeout_for_formula_contract_repair
+- sync_timestamp: 20260324_185050
+- active_target: START / sheet1 reconcile chain
+- result: green_reopen_closeout_and_source_contract_reconcile_closed
 - excel_recovery_after_reopen: pass
 - sheet1_formula_contract: pass
 - reopen_reverify: pass
-- active_scope: governance closeout after repaired green START / sheet1 recovery state
-- source_contract: TEMP_P0_RECOVERY_ONLY_EXPLICIT_CANDIDATE_SOURCE
+- manifest_reconcile: pass
+- workbook_source_identity_audit: pass
+- live_repo_intern_tool_scan: pass_zero_actionable_hits
+- intern_bundle_release_zips_freeze: pass
+- active_scope: reconcile closed green; next active topic is broader workbook-wide VOLLVERSION work under verified-stage only
+- source_contract: RECONCILE_CLOSED_VERIFIED_STAGE_DEFAULT_ACTIVE_BUNDLE_RELEASE_ZIPS_FROZEN
 - repo_auto_selection_allowed: False
 - active_recovery_workbook: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
 - active_recovery_workbook_sha256: DA41221D5CE3C6E25A29E4709397BC8DB43063604A90F79FC8E30DDDBA4F895D
+- canonical_working_source_after_reconcile: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\xlsx_verified_tier_stage_20260316\EGO_VOLLVERSION_XLSX_VERIFIED_20260316.xlsx
+- canonical_working_source_sha256: 4C5784B00950CA8EF6A038B6FFEBAD2BBE9FE63D586A45146BD2214734017B60
 - latest_formula_repair_apply_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_apply_exact_start_sheet1_formula_contract_repair_a17_a18_after_recovery_rootcause_20260323_110955.ps1
 - latest_formula_repair_apply_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_repair_start_sheet1_formula_contract_20260323_125913.txt
 - latest_formula_repair_verify_step: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\p0_verify_exact_start_reopen_repair_state_and_sheet1_formula_contract_after_rootcause_scan_20260323_110151.ps1
 - latest_formula_repair_verify_report_pre_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_verify_start_sheet1_formula_contract_20260323_130404.txt
 - latest_formula_repair_verify_report_post_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_verify_start_sheet1_formula_contract_20260323_130627.txt
 - latest_scope_scan_after_green_reopen: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_scratch\report_scan_start_sheet1_green_reopen_closeout_doc_targets_20260323_131006.txt
-- next_active_target: source-contract and acceptance mirror sync for the repaired green START / sheet1 state
-- next_rule: broader workbook or design work only after sync docs aligned
+- latest_manifest_reconcile_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_WORKBOOK_CANONICAL_SOURCE_MANIFEST_RECONCILE_AFTER_GREEN_START_SHEET1_REOPEN_CLOSEOUT_20260324_171501.md
+- latest_audit_scan_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_WORKBOOK_SOURCE_IDENTITY_AUDIT_AFTER_MANIFEST_RECONCILE_GREEN_START_SHEET1_REOPEN_CLOSEOUT_20260324_172409.md
+- latest_closeout_blocker_scan_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_SOURCE_CONTRACT_CLOSEOUT_BLOCKERS_AFTER_MANIFEST_AND_AUDIT_GREEN_20260324_174737.md
+- latest_projectwide_inventory_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_PROJECTWIDE_WORKBOOK_MUTATING_SOURCE_USAGE_SCAN_AFTER_SOURCE_CONTRACT_CLOSEOUT_BLOCKER_20260324_180120.md
+- latest_live_repo_intern_tool_scan_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_ACTIONABLE_LIVE_REPO_AND_INTERN_TOOL_HITS_AFTER_PROJECTWIDE_WORKBOOK_SOURCE_USAGE_INVENTORY_20260324_182858.md
+- latest_bundle_release_zips_freeze_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\_reports\REPORT_EXPLICIT_INTERN_BUNDLE_RELEASE_ZIPS_FREEZE_UNTIL_IDENTITY_RELEASE_AFTER_ZERO_LIVE_HITS_20260324_184029.md
+- latest_reconcile_closeout_report: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\GitHub_Clone_Dateien\einfach-geld-ordnen\_local\chatpack\20260324_185050\SSOT\CLOSEOUT_SOURCE_CONTRACT_AND_WORKBOOK_IDENTITY_RECONCILE_AFTER_EXPLICIT_INTERN_BUNDLE_RELEASE_ZIPS_FREEZE_GREEN_AND_FOLLOWUP_STARTTEXT.md
+- next_active_target: broader workbook-wide VOLLVERSION work under verified-stage only
+- next_rule: _INTERN bundle_release_zips remains frozen and non-canonical until future identity release/rebuild/freigabe
 
 ## AKZEPTIERTER STAND
 - Excel wurde am 2026-03-23 ohne Recovery-Dialog wieder geoeffnet.
 - Der sheet1-Formelvertrag ist fuer I1, A6, F6, A11, F11, A14, A17 und A18 nach Reopen und Reverify gruen.
-- Dieser Closeout bestaetigt nur den reparierten START-/sheet1-Recovery-Blocker.
-- Dieser Closeout behauptet keine breitere Premium-Dashboard- oder workbook-wide-Abnahme.
+- Der Source-Contract-/Workbook-Identity-Reconcile-Strang ist gruener abgeschlossen.
+- Manifest-Reconcile, Audit-Confirm, Live-Repo/_INTERN-Toolscan = 0 und explicit _INTERN bundle_release_zips freeze sind belegt.
+- Diese Datei behauptet keine Bundle-Freigabe, keinen Bundle-Rebuild und keine Paid-Freigabe.
 
 ## GOVERNANCE
-- Die Reparatur vom 2026-03-23 nutzte die explizit uebergebene Candidate-XLSX nur als TEMP_P0_RECOVERY_ONLY fuer diesen eng begrenzten Closeout.
-- verified-stage bleibt ausserhalb dieses Closeouts die globale Standardregel.
+- Die Candidate-XLSX vom 2026-03-23 bleibt historisch nur TEMP_P0_RECOVERY_ONLY fuer den eng begrenzten START-/sheet1-Recovery-Closeout.
+- verified-stage ist jetzt wieder und weiterhin die aktive globale Standardregel fuer weitere Workbook-Arbeit.
 - Repo-weite XLSX-Auto-Selektion bleibt unzulaessig.
-- Breitere Workbook- oder Designarbeit darf erst nach Source-Contract- und Mirror-Sync weiterlaufen.
+- _INTERN bundle_release_zips bleibt non-canonical und bis spaeterer Identitaetsfreigabe/Rebuild/Freigabe gesperrt.
+- Breitere Workbook-Arbeit darf jetzt nur unter verified-stage only weiterlaufen.
 
 <!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 START -->
 - VOLLVERSION bleibt der aktive Produktkontext fuer folgende Workbook-Arbeit.
-- Diese Datei stuft die groessere Produktstrategie nicht herunter, sondern dokumentiert nur den reparierten gruenen START-/sheet1-Reopen-Stand.
+- Diese Datei dokumentiert den grueneren Abschluss des Reconcile-Strangs und hebt die Freeze-Regel fuer _INTERN bundle_release_zips nicht auf.
 <!-- VOLLVERSION_MASTER_START_ACCEPTANCE_V1 END -->
 
 <!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:START -->
-## START RECOVERY CLOSEOUT - 2026-03-23
+## START RECOVERY CLOSEOUT - 2026-03-24
 
-- Der fruehere START-Premium-Dashboard-Reopen-Block ist fuer diesen Closeout nicht mehr der aktive Blocker.
-- Aktiver Ergebnisstatus fuer den reparierten START-/sheet1-Recovery-Zustand ist: green_after_reopen_closeout.
-- Die Belegkette ist: apply pass -> verify pass -> Excel reopen without recovery -> reverify pass.
-- Diese Datei beansprucht keine breitere START-Designabnahme.
-- Breitere Workbook- oder Designarbeit darf erst nach dem restlichen Governance- und Source-Contract-Sync wieder anlaufen.
+- Der reparierte START-/sheet1-Recovery-Blocker bleibt gruen geschlossen.
+- Der darauffolgende Governance-/Source-Contract-/Workbook-Identity-Reconcile ist ebenfalls gruen geschlossen.
+- Die Belegkette ist: apply pass -> verify pass -> Excel reopen without recovery -> reverify pass -> manifest reconcile -> audit confirm -> live repo/_INTERN tool scan = 0 -> explicit _INTERN bundle_release_zips freeze -> closeout.
+- Diese Datei beansprucht weiterhin keine breitere START-Designabnahme.
+- Naechster echter Fachpfad ist jetzt breitere workbook-weite VOLLVERSION-Arbeit unter verified-stage only.
 <!-- EGO_MANAGED_BLOCK:START_MASTER_REOPEN_20260321:END -->
 
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_SOURCE_IDENTITY_START_LOCK_20260322:START -->
-## WORKBOOK SOURCE IDENTITY - 2026-03-23
+## WORKBOOK SOURCE IDENTITY - 2026-03-24
 
-- verified_stage_default_rule: remains global default outside this closeout
-- verified_stage_identity_status: unresolved_conflict_tracked_in_source_contract_docs
-- active_recovery_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
-- active_recovery_source_sha256: DA41221D5CE3C6E25A29E4709397BC8DB43063604A90F79FC8E30DDDBA4F895D
-- source_exception: TEMP_P0_RECOVERY_ONLY explicit candidate source for START / sheet1 formula-contract repair closeout on 2026-03-23
-- blocked_previous_error: Excel recovery removed formula records from /xl/worksheets/sheet1.xml-Part on START / sheet1
-- no_claim_of_canonical_promotion: staging candidate was repaired for this closeout only and is not promoted to canonical working source by this file
+- verified_stage_default_rule: active_global_default
+- verified_stage_identity_status: reconciled_for_working_source_docs
+- canonical_working_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\xlsx_verified_tier_stage_20260316\EGO_VOLLVERSION_XLSX_VERIFIED_20260316.xlsx
+- canonical_working_source_sha256: 4C5784B00950CA8EF6A038B6FFEBAD2BBE9FE63D586A45146BD2214734017B60
+- historical_recovery_source: C:\Users\carst\Projekte\Einfach-Geld-Ordnen\_INTERN\private_sources\release_candidates\bundle_spreadsheet_candidates_20260316\VOLLVERSION\EGO_VOLLVERSION.xlsx
+- historical_recovery_source_sha256: DA41221D5CE3C6E25A29E4709397BC8DB43063604A90F79FC8E30DDDBA4F895D
+- source_exception: historical TEMP_P0_RECOVERY_ONLY explicit candidate source for START / sheet1 formula-contract repair closeout on 2026-03-23
+- explicit_bundle_release_zips_freeze: active_until_future_identity_release_or_rebuild_freigabe
+- no_claim_of_canonical_promotion: staging candidate remains historical recovery evidence only and is not promoted to canonical working source by this file
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_SOURCE_IDENTITY_START_LOCK_20260322:END -->
