@@ -1,6 +1,6 @@
 param(
     [AllowEmptyString()][string]$ToolEntryPointPath,
-    [string]$RequiredReadsTaskType = 'Tool-Entrypoint-Failure'
+    [string]$FailureSyncRequiredReadsTaskType = 'Tool-Entrypoint-Failure'
 )
 
 $script:ToolEntryPointPath = $null
@@ -15,11 +15,11 @@ if (-not [string]::IsNullOrWhiteSpace($ToolEntryPointPath)) {
 
 $script:ToolFailureSyncToolsRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 $script:ToolFailureSyncTool = Join-Path $script:ToolFailureSyncToolsRoot 'auto-sync-step-run-failure.ps1'
-$script:ToolFailureSyncRequiredReadsTaskType = if ([string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
+$script:ToolFailureSyncRequiredReadsTaskType = if ([string]::IsNullOrWhiteSpace($FailureSyncRequiredReadsTaskType)) {
     'Tool-Entrypoint-Failure'
 }
 else {
-    [string]$RequiredReadsTaskType
+    [string]$FailureSyncRequiredReadsTaskType
 }
 
 function Invoke-ToolEntrypointFailureSyncBestEffort {

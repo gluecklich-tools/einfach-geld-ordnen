@@ -10,7 +10,7 @@ param(
     [string]$RequiredReadsTaskType
 )
 
-. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
+. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -FailureSyncRequiredReadsTaskType $RequiredReadsTaskType
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
