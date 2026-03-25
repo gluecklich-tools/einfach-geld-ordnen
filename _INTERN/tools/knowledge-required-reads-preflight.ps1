@@ -7,7 +7,9 @@ param(
         "Brain-Intern-Struktur",
         "Folgeprojekt-Klon",
         "OpenAI-Regress-Governance",
-        "Tool-Entrypoint-Failure"
+        "Tool-Entrypoint-Failure",
+        "Workbook-Artifact-Identity",
+        "Active-Scope-Lock"
     )]
     [string]$TaskType,
 
@@ -82,8 +84,8 @@ $rows = @(
             continue
         }
 
-        $parts = @($line -split "`t", 4)
-        if (@($parts).Count -lt 4) {
+        $parts = @($line -split "`t", 5)
+        if (@($parts).Count -lt 5) {
             Fail ("malformed matrix row: {0}" -f $line)
         }
 
@@ -92,6 +94,7 @@ $rows = @(
             RequiredPrimary = $parts[1].Trim()
             RequiredMirror  = $parts[2].Trim()
             Optional        = $parts[3].Trim()
+            ContextRule     = $parts[4].Trim()
         }
     }
 )
@@ -158,6 +161,9 @@ $body = @"
 ## TaskType
 $TaskType
 
+## TaskSlug
+$taskSlug
+
 ## Matrix
 $matrixPath
 
@@ -171,6 +177,8 @@ PASS
 $enc = [System.Text.UTF8Encoding]::new($false)
 [System.IO.File]::WriteAllText($reportPath, $body, $enc)
 
+Write-Host ("TASKTYPE: {0}" -f $TaskType)
+Write-Host ("TASKSLUG: {0}" -f $taskSlug)
 Write-Host ("REPORT: {0}" -f $reportPath)
 Write-Host ("READS: {0}" -f @($resolved).Count)
 Write-Host "PASS: required reads preflight"
