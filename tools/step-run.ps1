@@ -6,7 +6,7 @@ param(
     [Parameter(ParameterSetName = 'ByPattern')]
     [string]$Pattern,
 
-    [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance')]
+    [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock')]
     [string]$RequiredReadsTaskType
 )
 

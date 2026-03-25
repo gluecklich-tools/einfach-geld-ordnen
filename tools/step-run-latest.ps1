@@ -1,5 +1,8 @@
 param(
-  [Parameter(Mandatory=$true)][string]$Pattern
+  [Parameter(Mandatory=$true)][string]$Pattern,
+
+  [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock')]
+  [string]$RequiredReadsTaskType
 )
 
 . (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
@@ -50,4 +53,19 @@ $step = Get-LatestMatchingFile -DirectoryPath $Scratch -Pattern $Pattern
 if (-not $step) { Fail "No step found for pattern '$Pattern' in $Scratch" }
 
 $runner = Join-Path $RepoRoot "tools\step-run.ps1"
-& pwsh -NoProfile -ExecutionPolicy Bypass -File $runner -StepPath $step.FullName
+
+$RunnerArgs = @(
+  '-NoProfile'
+  '-ExecutionPolicy'
+  'Bypass'
+  '-File'
+  $runner
+  '-StepPath'
+  $step.FullName
+)
+
+if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
+  $RunnerArgs += @('-RequiredReadsTaskType', $RequiredReadsTaskType)
+}
+
+& pwsh @RunnerArgs
