@@ -388,15 +388,17 @@ $env:EGO_SSOT_ROOT = $SsotRoot
 
 $RemovedOrphan = Remove-OrphanPostRunSyncIfUntracked -RepoRoot $RepoRoot
 
+$InitialPreStatus = @(Get-RepoStatusLines -RepoRoot $RepoRoot)
+# BEGIN WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
+Assert-PrestepWorktreeHygiene -RepoRoot $RepoRoot -ResolvedStepPath $ResolvedStepPath -PreStatus $InitialPreStatus
+# END WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
+
 $PreFullsync = Invoke-CheckedPwsh -FilePath $SsotFullsync -Label 'pre-step ssot fullsync'
 Write-Host $PreFullsync.Text
 
 $PreStatus = @(Get-RepoStatusLines -RepoRoot $RepoRoot)
-# BEGIN WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
-Assert-PrestepWorktreeHygiene -RepoRoot $RepoRoot -ResolvedStepPath $ResolvedStepPath -PreStatus $PreStatus
-# END WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
-
-if (@($PreStatus).Count -eq 0) {
+$PreDirtyPaths = @(Convert-RepoStatusLinesToPaths -StatusLines $PreStatus)
+if (@($PreDirtyPaths).Count -eq 0) {
     $PreRefresh = Invoke-CheckedPwsh -FilePath $SsotRefresh -Label 'pre-step ssot refresh'
     Write-Host $PreRefresh.Text
 
@@ -404,7 +406,8 @@ if (@($PreStatus).Count -eq 0) {
     Write-Host $PreFlow.Text
 }
 else {
-    Write-Host ('SKIP_PRE_REFRESH_DIRTY_REPO: {0}' -f (($PreStatus | ForEach-Object { [string]$_ }) -join ' || '))
+    Write-Host ('HYGIENE_PRESTEP_SYNC_DIRTY_SCOPE: {0}' -f ($PreDirtyPaths -join ' || '))
+    Fail ('FAIL: PRESTEP_FULLSYNC_CREATED_TRACKED_DIRTY_SCOPE: {0}. Commit or restore the synced files before the next step-run.' -f ($PreDirtyPaths -join ' || '))
 }
 
 if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
