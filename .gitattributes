@@ -1,6 +1,10 @@
-# Enforce LF in repo (Enterprise)
-*.ps1 text eol=lf
-*.psm1 text eol=lf
-*.psd1 text eol=lf
-*.md  text eol=lf
-*.tsv text eol=lf
+$file = "_INTERN/governance/START_ACCEPTANCE_INTERNAL.md"
+$full = (Resolve-Path $file).Path
+
+$content = [System.IO.File]::ReadAllText($full)
+$content = $content -replace "`r`n", "`n"
+$content = $content -replace "`r", "`n"
+[System.IO.File]::WriteAllText($full, $content, [System.Text.UTF8Encoding]::new($false))
+
+git add -- $file
+git commit -m "governance: sync budgets closeout into start acceptance"
