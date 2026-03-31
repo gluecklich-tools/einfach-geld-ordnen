@@ -259,3 +259,14 @@
 - Naechster exakter Workbook-Gate-Schritt ist SCAN_EXACT_WORKBOOKWIDE_REPRIORITIZATION_AFTER_BEDIENUNG_CLOSEOUT_UNDER_VERIFIED_STAGE_ONLY.
 - Diese Datei behauptet weiterhin keine Bundle-Freigabe, keinen Bundle-Rebuild und keine Paid-Freigabe.
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_CONTEXT_AFTER_BEDIENUNG_CLOSEOUT_20260331:END -->
+
+
+<!-- EGO_MANAGED_BLOCK:FREEBIE_PUBLIC_PAID_PRIVATE_RELEASE_RULE_20260331:START -->
+## FREEBIE PUBLIC / PAID PRIVATE RELEASE RULE - 2026-03-31
+
+- Nur die FREEBIE-Version darf öffentlich zum Download stehen.
+- PRO und VOLLVERSION laufen nicht öffentlich.
+- Paid-Tiers laufen nur über Digistore oder private Distribution.
+- Paid-Aktivierung, echte Digistore-Links und echte Buy-Flags bleiben End-Gate.
+- Diese Regel ist bindend für Release-, Bundle-, Surface-, Funnel-, Sitemap-, Bing-, GSC- und Monetization-Schritte.
+<!-- EGO_MANAGED_BLOCK:FREEBIE_PUBLIC_PAID_PRIVATE_RELEASE_RULE_20260331:END -->
