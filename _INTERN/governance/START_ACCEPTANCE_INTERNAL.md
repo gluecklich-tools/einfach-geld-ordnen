@@ -247,3 +247,15 @@
 - Naechster exakter Workbook-Gate-Schritt ausserhalb der bereits geschlossenen Themen ist WORKBOOKWIDE_REPRIORITIZE_AFTER_START_CLOSEOUT.
 - Diese Datei behauptet weiterhin keine Bundle-Freigabe, keinen Bundle-Rebuild und keine Paid-Freigabe.
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_CONTEXT_AFTER_START_CLOSEOUT_20260328:END -->
+
+<!-- EGO_MANAGED_BLOCK:WORKBOOK_CONTEXT_AFTER_BEDIENUNG_CLOSEOUT_20260331:START -->
+## WORKBOOK CONTEXT AFTER BEDIENUNG CLOSEOUT - 2026-03-31
+
+- START bleibt gruener geschlossen.
+- HAUSHALTSBUCH bleibt gruener geschlossen.
+- BEDIENUNG ist jetzt gruener geschlossen.
+- BEDIENUNG!A1:O11 und BEDIENUNG!A13:O35 sind geschlossen; A36:O79 ist style-only tail ohne weiteren Nutzinhalt.
+- Verified-stage bleibt die aktive globale Arbeitsquelle fuer weitere Workbook-Arbeit.
+- Naechster exakter Workbook-Gate-Schritt ist SCAN_EXACT_WORKBOOKWIDE_REPRIORITIZATION_AFTER_BEDIENUNG_CLOSEOUT_UNDER_VERIFIED_STAGE_ONLY.
+- Diese Datei behauptet weiterhin keine Bundle-Freigabe, keinen Bundle-Rebuild und keine Paid-Freigabe.
+<!-- EGO_MANAGED_BLOCK:WORKBOOK_CONTEXT_AFTER_BEDIENUNG_CLOSEOUT_20260331:END -->
