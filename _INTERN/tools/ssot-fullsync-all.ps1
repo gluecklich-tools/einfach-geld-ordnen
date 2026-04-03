@@ -136,3 +136,7 @@ exit 0
 # SSOT-Fullsync muss Tool-Roots als Pflichtbestandteil behandeln.
 # Kein Drift zwischen canonical governance/brain/tools und Repo-Mirrors.
 # EGO_MANAGED_BLOCK:APRIL03_FULLSYNC:END
+
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:START
+# Research-First Hardlaw fuer Excel-Befehle ist Teil des SSOT und muss mitgesynct werden.
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END

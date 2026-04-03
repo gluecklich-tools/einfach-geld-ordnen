@@ -110,3 +110,7 @@ Write-Host 'PASS: ps parser lint run'
 # EGO_MANAGED_BLOCK:APRIL03_PARSERROOTS:START
 # Parser/Lint muessen `_INTERN\tools`, `repo\_INTERN\tools`, `repo\tools`, `_INTERN\governance\tools` abdecken.
 # EGO_MANAGED_BLOCK:APRIL03_PARSERROOTS:END
+
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:START
+# Parser-/Tooling bleibt Pflicht; fuer Excel-Kommandos kommt nun Research-Precheck zusaetzlich davor.
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END

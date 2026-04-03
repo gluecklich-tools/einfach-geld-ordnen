@@ -186,3 +186,8 @@ Write-Host "PASS: required reads preflight"
 # EGO_MANAGED_BLOCK:APRIL03_REQUIREDREADS:START
 # Governance-Änderung / Tool-Änderung / Active-Scope-Änderung erfordern Required Reads vor RUN.
 # EGO_MANAGED_BLOCK:APRIL03_REQUIREDREADS:END
+
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:START
+# Excel-bezogene Schritte brauchen vorgelagerten Research-Precheck.
+# Required Reads ersetzt diesen Web-Research nicht, sondern kommt zusaetzlich davor oder parallel.
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END

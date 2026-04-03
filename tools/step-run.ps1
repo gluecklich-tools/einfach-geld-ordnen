@@ -490,3 +490,9 @@ catch {
 # RUN nur mit literalem exaktem Pfad; kein nacktes $step; kein nacktes $file.
 # Bekannter Präventionsfehler: Missing argument for parameter Step.
 # EGO_MANAGED_BLOCK:APRIL03_STEPRUN:END
+
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:START
+# Vor jedem Excel-Befehl ist Web-Research aus Pflichtquellenklassen erforderlich.
+# Pflichtquellen: MICROSOFT_DOCS | MICROSOFT_COMMUNITY_OR_FORUM | CHAMPIONSHIP_OR_FMWC.
+# Erst danach Excel-Command/Apply ausgeben.
+# EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END
