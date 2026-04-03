@@ -277,3 +277,14 @@
 - Für aktuelle sichtbare Entscheidungen ist der manuelle Excel-Screenshot bindend
 - Export-/Clipboard-/Automatikpfade dürfen bei nachgewiesener Stale-Anzeige nicht dominieren
 <!-- EGO_MANAGED_BLOCK:APRIL03_STARTACCEPT:END -->
+
+<!-- EGO_MANAGED_BLOCK:APRIL03_CURRENT_SCOPE_REFERENCE:START -->
+## Current scope reference after historical START closeout - 2026-04-03
+- START acceptance remains historical and closed green.
+- It does not override the current active workbook theme.
+- Current active theme: VOLLVERSION / Blatt HAUSHALTSBUCH / SICHTBARE OBERFLAECHE ALS GANZBLATT
+- Visible scope token: WHOLE_VISIBLE_HAUSHALTSBUCH_SURFACE
+- Expected verified-stage SHA-256 guard: 2CF26C86E4E61718AD7D33CAB409D4242852A08F3E68A79139D2AB1EBE4D319F
+- Help-Panel Textsystem: CLOSED / Reopen NO
+- Top-Context-Hint-Line: APPLY green / isolated continuation NO / integrated into whole-surface mode
+<!-- EGO_MANAGED_BLOCK:APRIL03_CURRENT_SCOPE_REFERENCE:END -->
