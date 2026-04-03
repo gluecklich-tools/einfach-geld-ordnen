@@ -131,3 +131,8 @@ Write-Host ("FULLSYNC_REPO_BRAIN: {0}" -f $RepoBrain)
 Write-Host "PASS: ssot fullsync all"
 
 exit 0
+
+# EGO_MANAGED_BLOCK:APRIL03_FULLSYNC:START
+# SSOT-Fullsync muss Tool-Roots als Pflichtbestandteil behandeln.
+# Kein Drift zwischen canonical governance/brain/tools und Repo-Mirrors.
+# EGO_MANAGED_BLOCK:APRIL03_FULLSYNC:END

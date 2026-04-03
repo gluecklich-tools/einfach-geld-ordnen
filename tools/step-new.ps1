@@ -61,3 +61,8 @@ Write-Utf8NoBomLf -Path $path -Text (($stubLines -join "
 ") + "
 ")
 $path
+
+# EGO_MANAGED_BLOCK:APRIL03_STEPNEW:START
+# Literalpfade fuer OPEN/CREATE bevorzugen; kein Vertrauen auf Session-Restzustand.
+# Step-Erzeugung darf nicht in Stub-/Header-only-RUN uebergehen.
+# EGO_MANAGED_BLOCK:APRIL03_STEPNEW:END

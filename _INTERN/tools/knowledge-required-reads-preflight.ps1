@@ -182,3 +182,7 @@ Write-Host ("TASKSLUG: {0}" -f $taskSlug)
 Write-Host ("REPORT: {0}" -f $reportPath)
 Write-Host ("READS: {0}" -f @($resolved).Count)
 Write-Host "PASS: required reads preflight"
+
+# EGO_MANAGED_BLOCK:APRIL03_REQUIREDREADS:START
+# Governance-Änderung / Tool-Änderung / Active-Scope-Änderung erfordern Required Reads vor RUN.
+# EGO_MANAGED_BLOCK:APRIL03_REQUIREDREADS:END

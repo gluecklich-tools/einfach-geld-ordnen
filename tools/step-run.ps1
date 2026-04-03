@@ -485,3 +485,8 @@ catch {
     throw
 }
 # END AUTO_FAILURE_INTAKE_TRY
+
+# EGO_MANAGED_BLOCK:APRIL03_STEPRUN:START
+# RUN nur mit literalem exaktem Pfad; kein nacktes $step; kein nacktes $file.
+# Bekannter Präventionsfehler: Missing argument for parameter Step.
+# EGO_MANAGED_BLOCK:APRIL03_STEPRUN:END

@@ -270,3 +270,10 @@
 - Paid-Aktivierung, echte Digistore-Links und echte Buy-Flags bleiben End-Gate.
 - Diese Regel ist bindend für Release-, Bundle-, Surface-, Funnel-, Sitemap-, Bing-, GSC- und Monetization-Schritte.
 <!-- EGO_MANAGED_BLOCK:FREEBIE_PUBLIC_PAID_PRIVATE_RELEASE_RULE_20260331:END -->
+
+<!-- EGO_MANAGED_BLOCK:APRIL03_STARTACCEPT:START -->
+## 2026-04-03 Akzeptanzklarstellung
+- Historische Blattabnahmen bleiben historisch
+- Für aktuelle sichtbare Entscheidungen ist der manuelle Excel-Screenshot bindend
+- Export-/Clipboard-/Automatikpfade dürfen bei nachgewiesener Stale-Anzeige nicht dominieren
+<!-- EGO_MANAGED_BLOCK:APRIL03_STARTACCEPT:END -->
