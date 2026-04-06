@@ -1,7 +1,7 @@
 param(
   [Parameter(Mandatory=$true)][string]$Pattern,
 
-  [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock')]
+  [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock','Visible-Surface-Rebuild')]
   [string]$RequiredReadsTaskType
 )
 

@@ -9,7 +9,8 @@ param(
         "OpenAI-Regress-Governance",
         "Tool-Entrypoint-Failure",
         "Workbook-Artifact-Identity",
-        "Active-Scope-Lock"
+        "Active-Scope-Lock",
+        "Visible-Surface-Rebuild"
     )]
     [string]$TaskType,
 

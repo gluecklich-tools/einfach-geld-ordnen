@@ -6,7 +6,7 @@ param(
     [Parameter(ParameterSetName = 'ByPattern')]
     [string]$Pattern,
 
-    [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock')]
+    [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock','Visible-Surface-Rebuild')]
     [string]$RequiredReadsTaskType
 )
 
@@ -175,10 +175,53 @@ function Convert-RepoStatusLinesToPaths {
     return @($paths.ToArray() | Sort-Object -Unique)
 }
 
+function Get-LiteralStringArrayFromStepRaw {
+    param(
+        [AllowEmptyString()][string]$Raw,
+        [Parameter(Mandatory = $true)][string]$VariableName
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Raw)) {
+        return @()
+    }
+
+    $pattern = '(?ms)' + [regex]::Escape('$' + $VariableName) + '\s*=\s*@\((.*?)\)'
+    $match = [regex]::Match($Raw, $pattern)
+    if (-not $match.Success) {
+        return @()
+    }
+
+    $body = $match.Groups[1].Value
+    $values = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($line in @($body -split "`r?`n")) {
+        $text = ([string]$line).Trim()
+        if ([string]::IsNullOrWhiteSpace($text)) {
+            continue
+        }
+        if ($text.StartsWith('#')) {
+            continue
+        }
+
+        $stringMatch = [regex]::Match($text, "^(?:'(?<v1>.*)'|\"(?<v2>.*)\")\s*,?\s*$")
+        if ($stringMatch.Success) {
+            $value = $stringMatch.Groups['v1'].Value
+            if ([string]::IsNullOrEmpty($value)) {
+                $value = $stringMatch.Groups['v2'].Value
+            }
+            if (-not [string]::IsNullOrWhiteSpace($value)) {
+                $values.Add(($value -replace '\\', '/')) | Out-Null
+            }
+        }
+    }
+
+    return @($values.ToArray() | Sort-Object -Unique)
+}
+
 function Assert-PrestepWorktreeHygiene {
     param(
         [Parameter(Mandatory = $true)][string]$RepoRoot,
         [Parameter(Mandatory = $true)][string]$ResolvedStepPath,
+        [string[]]$AdditionalAllowedPaths,
         [AllowNull()]$PreStatus
     )
 
@@ -192,6 +235,14 @@ function Assert-PrestepWorktreeHygiene {
     $stepRelative = Get-RepoRelativePathFromLiteralPath -RepoRoot $RepoRoot -LiteralPath $ResolvedStepPath
     if (-not [string]::IsNullOrWhiteSpace($stepRelative)) {
         $null = $allowed.Add($stepRelative)
+    }
+
+    foreach ($candidate in @($AdditionalAllowedPaths)) {
+        $text = [string]$candidate
+        if ([string]::IsNullOrWhiteSpace($text)) {
+            continue
+        }
+        $null = $allowed.Add($text.Replace('\', '/'))
     }
 
     $unexpected = New-Object 'System.Collections.Generic.List[string]'
@@ -339,6 +390,10 @@ if (-not (Test-Path -LiteralPath $StepPath)) {
 }
 
 $ResolvedStepPath = (Resolve-Path -LiteralPath $StepPath).Path
+$StepRaw = Get-Content -LiteralPath $ResolvedStepPath -Raw -Encoding UTF8
+if ($StepRaw -match '(?m)^\s*#\s*TODO:\s*FULLSWAP\s*$') {
+    Fail ('FAIL: step still contains TODO: FULLSWAP sentinel. Fullswap exact file content before RUN: {0}' -f $ResolvedStepPath)
+}
 $ResolvedRepoRoot = (Resolve-Path (Join-Path (Split-Path -Parent $ResolvedStepPath) '..\..')).Path
 
 if ($ResolvedRepoRoot -ne $ScriptRepoRoot) {
@@ -388,9 +443,12 @@ $env:EGO_SSOT_ROOT = $SsotRoot
 
 $RemovedOrphan = Remove-OrphanPostRunSyncIfUntracked -RepoRoot $RepoRoot
 
+$PrecheckRaw = Get-Content -LiteralPath $ResolvedStepPath -Raw -Encoding UTF8
+$PrestepDirtyAllowlist = @(Get-LiteralStringArrayFromStepRaw -Raw $PrecheckRaw -VariableName 'EGO_STEP_PRESTEP_DIRTY_ALLOWLIST')
+
 $InitialPreStatus = @(Get-RepoStatusLines -RepoRoot $RepoRoot)
 # BEGIN WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
-Assert-PrestepWorktreeHygiene -RepoRoot $RepoRoot -ResolvedStepPath $ResolvedStepPath -PreStatus $InitialPreStatus
+Assert-PrestepWorktreeHygiene -RepoRoot $RepoRoot -ResolvedStepPath $ResolvedStepPath -AdditionalAllowedPaths $PrestepDirtyAllowlist -PreStatus $InitialPreStatus
 # END WORKTREE_HYGIENE_PRESTATUS_ASSERT_V1
 
 $PreFullsync = Invoke-CheckedPwsh -FilePath $SsotFullsync -Label 'pre-step ssot fullsync'
@@ -415,7 +473,7 @@ if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
     Write-Host $RequiredReads.Text
 }
 
-$Raw = Get-Content -LiteralPath $ResolvedStepPath -Raw -Encoding UTF8
+$Raw = $PrecheckRaw
 
 if ($Raw -notmatch '\$EGO_STEP_WRITE_ALLOWLIST\s*=\s*@\(') {
     Fail 'FAIL: step missing $EGO_STEP_WRITE_ALLOWLIST = @(...).'
@@ -496,3 +554,7 @@ catch {
 # Pflichtquellen: MICROSOFT_DOCS | MICROSOFT_COMMUNITY_OR_FORUM | CHAMPIONSHIP_OR_FMWC.
 # Erst danach Excel-Command/Apply ausgeben.
 # EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END
+
+# EGO_MANAGED_BLOCK:APRIL04_VISIBLE_SURFACE_REBUILD:START
+# Sichtbare Blattarbeit nach Hard-Reset: erst Screenshot/Manual Review, dann maximal ein konsolidierter Apply pro Zyklus, danach Review; nach drei Korrekturen Rebuild.
+# EGO_MANAGED_BLOCK:APRIL04_VISIBLE_SURFACE_REBUILD:END

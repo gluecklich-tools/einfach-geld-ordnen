@@ -52,6 +52,9 @@ Set-Location -LiteralPath $RepoRoot
 $EGO_STEP_WRITE_ALLOWLIST = @(
     "_local\chatpack\"
 )
+$EGO_STEP_PRESTEP_DIRTY_ALLOWLIST = @(
+)
+$EGO_STEP_BACKUP_REQUIRED = "YES"
 
 throw "TODO: fill step body"
 '@

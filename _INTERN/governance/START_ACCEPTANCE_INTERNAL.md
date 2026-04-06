@@ -284,7 +284,19 @@
 - It does not override the current active workbook theme.
 - Current active theme: VOLLVERSION / Blatt HAUSHALTSBUCH / SICHTBARE OBERFLAECHE ALS GANZBLATT
 - Visible scope token: WHOLE_VISIBLE_HAUSHALTSBUCH_SURFACE
-- Expected verified-stage SHA-256 guard: 2CF26C86E4E61718AD7D33CAB409D4242852A08F3E68A79139D2AB1EBE4D319F
+- Expected verified-stage SHA-256 guard: 1BDF947899831B9DEAF3D8B5ADBF518EB1FC3892ECBA2DB23AE77CD7B4010771
 - Help-Panel Textsystem: CLOSED / Reopen NO
 - Top-Context-Hint-Line: APPLY green / isolated continuation NO / integrated into whole-surface mode
 <!-- EGO_MANAGED_BLOCK:APRIL03_CURRENT_SCOPE_REFERENCE:END -->
+
+
+<!-- EGO_MANAGED_BLOCK:CURRENT_VISIBLE_SURFACE_REBASE_2026_04_04:START -->
+## CURRENT VISIBLE SURFACE REBASE - 2026-04-04
+
+- Current working workbook guard: 1BDF947899831B9DEAF3D8B5ADBF518EB1FC3892ECBA2DB23AE77CD7B4010771
+- Current visible active theme remains WHOLE_VISIBLE_HAUSHALTSBUCH_SURFACE.
+- Between 2026-04-03 and 2026-04-04 the visible surface failed manual visual acceptance and was hard-reset to the contract-gated baseline.
+- Therefore no immediate follow-up apply is permitted from this file state.
+- Required next gate is: SCREENSHOT_EXACT_HAUSHALTSBUCH_AFTER_CONTRACT_GATED_HARD_RESET_AND_MANUAL_REVIEW
+- Manual Excel screenshot/review is the mandatory first step after the hard reset; only then one consolidated apply may follow.
+<!-- EGO_MANAGED_BLOCK:CURRENT_VISIBLE_SURFACE_REBASE_2026_04_04:END -->

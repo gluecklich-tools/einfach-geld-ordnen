@@ -54,6 +54,9 @@ $stubLines += ''
 $stubLines += '$EGO_STEP_WRITE_ALLOWLIST = @('
 $stubLines += '  ''_local\_reports\'''
 $stubLines += ')'
+$stubLines += '$EGO_STEP_PRESTEP_DIRTY_ALLOWLIST = @('
+$stubLines += ')'
+$stubLines += '$EGO_STEP_BACKUP_REQUIRED = ''YES'''
 $stubLines += ''
 $stubLines += '# TODO: FULLSWAP'
 
@@ -65,4 +68,5 @@ $path
 # EGO_MANAGED_BLOCK:APRIL03_STEPNEW:START
 # Literalpfade fuer OPEN/CREATE bevorzugen; kein Vertrauen auf Session-Restzustand.
 # Step-Erzeugung darf nicht in Stub-/Header-only-RUN uebergehen.
+# Neuer Praeventionsstandard: mutierende Steps sollen Backup vor Aenderung und optionalen prestep dirty allowlist-scope sichtbar deklarieren.
 # EGO_MANAGED_BLOCK:APRIL03_STEPNEW:END
