@@ -300,3 +300,13 @@
 - Required next gate is: SCREENSHOT_EXACT_HAUSHALTSBUCH_AFTER_CONTRACT_GATED_HARD_RESET_AND_MANUAL_REVIEW
 - Manual Excel screenshot/review is the mandatory first step after the hard reset; only then one consolidated apply may follow.
 <!-- EGO_MANAGED_BLOCK:CURRENT_VISIBLE_SURFACE_REBASE_2026_04_04:END -->
+
+<!-- EGO_MANAGED_BLOCK: -->
+## HAUSHALTSBUCH VISIBLE RIGHT MODULE ACCEPTANCE - 2026-04-09
+- scope_token: WHOLE_VISIBLE_HAUSHALTSBUCH_SURFACE
+- accepted_subscope: RIGHT_MODULE_T_TO_Z
+- visual_acceptance: GREEN
+- technical_acceptance: PASS
+- workbook_sha256: BA63DFF24F1A7914CF246EA515057C632591B94D2C45D6A9C9A5DBD52DA58EE2
+- note: Scope ist abgeschlossen; schwarzer Restbereich ausserhalb des bearbeiteten Moduls ist kein weiterer T:Z-Fehler
+<!-- EGO_MANAGED_BLOCK: -->
