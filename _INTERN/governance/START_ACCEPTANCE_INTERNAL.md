@@ -310,3 +310,12 @@
 - workbook_sha256: BA63DFF24F1A7914CF246EA515057C632591B94D2C45D6A9C9A5DBD52DA58EE2
 - note: Scope ist abgeschlossen; schwarzer Restbereich ausserhalb des bearbeiteten Moduls ist kein weiterer T:Z-Fehler
 <!-- EGO_MANAGED_BLOCK: -->
+
+<!-- EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_ACCEPTANCE_GATE:START -->
+## APRIL09 MASTERPASS HYBRID ACCEPTANCE GATE
+- current_acceptance_state: NOT_READY_FOR_NEW_APPLY
+- reason: File-Lock + Hash-Mismatch beenden den alten Apply-Faden.
+- allowed_now: Real-Scan / Truth-Relock
+- forbidden_now: weiterer Workbook- oder Blatt-Apply
+- workbook_sha256_current: B06765F9EBCB063EF50D29454BCD2FC34921FD2D99B4BD11C594E27AE8CF568F
+<!-- EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_ACCEPTANCE_GATE:END -->
