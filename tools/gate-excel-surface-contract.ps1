@@ -84,3 +84,8 @@ Write-Host 'FUNCTIONAL_COLUMNS=K:S'
 Write-Host 'HELP_CARD_TARGET=T:Z'
 Write-Host 'FORCE_HIDDEN_COLUMNS=K:S|AA:AB'
 Write-Host 'PASS: excel surface contract gate'
+
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_SURFACE_GATE:START
+# gate-excel-surface-contract darf keinen alten Prehash-Resume-Punkt durchwinken.
+# Bei Hash-Mismatch gilt FAIL CLOSED und Scan-Only.
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_SURFACE_GATE:END

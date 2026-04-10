@@ -84,3 +84,7 @@ if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
 }
 
 & pwsh @RunnerArgs
+
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:START
+# step-run-latest bleibt fuer den aktiven Recovery-Strang verboten; neue TaskTypes sind nur fuer Alt-/Hilfsfaelle zulaessig.
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:END

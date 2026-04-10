@@ -510,3 +510,8 @@ catch {
 # Pflichtquellen: MICROSOFT_DOCS | MICROSOFT_COMMUNITY_OR_FORUM | CHAMPIONSHIP_OR_FMWC.
 # Erst danach Excel-Command/Apply ausgeben.
 # EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END
+
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN:START
+# RequiredReadsTaskType unterstuetzt jetzt Workbook-Masterpass, Sheet-Finalizer, Tool-Repair und Hash-Mismatch-Relock.
+# WORKBOOK_MASTERPASS und SHEET_FINALIZER duerfen im aktiven Recovery-Strang nicht vermischt werden.
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN:END

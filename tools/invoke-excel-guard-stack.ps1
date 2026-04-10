@@ -67,3 +67,8 @@ if (-not $SkipBackup) {
     Write-Host ("BACKUP_REPORT={0}" -f $backupReport)
 }
 Write-Host 'PASS: excel guard stack'
+
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_GUARD_STACK:START
+# invoke-excel-guard-stack gehoert fachlich in WORKBOOK_MASTERPASS oder SHEET_FINALIZER.
+# Nach Hash-Mismatch erst Truth-Relock, dann Guard-Stack erneut verwenden.
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_GUARD_STACK:END

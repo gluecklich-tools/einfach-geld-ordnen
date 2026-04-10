@@ -70,3 +70,8 @@ $path
 # Step-Erzeugung darf nicht in Stub-/Header-only-RUN uebergehen.
 # Neuer Praeventionsstandard: mutierende Steps sollen Backup vor Aenderung und optionalen prestep dirty allowlist-scope sichtbar deklarieren.
 # EGO_MANAGED_BLOCK:APRIL03_STEPNEW:END
+
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPNEW:START
+# Nach step-new darf im Recovery-Strang nur der exakt frisch erzeugte Pfad verwendet werden.
+# Nackte $step oder $file RUNs bleiben verboten.
+# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPNEW:END
