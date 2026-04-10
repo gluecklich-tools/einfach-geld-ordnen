@@ -1,16 +1,34 @@
 param(
     [Parameter(Mandatory = $true)]
     [ValidateSet(
-        "Produkt-Loop",
-        "Claude-Prompting",
-        "Governance-Änderung",
-        "Brain-Intern-Struktur",
-        "Folgeprojekt-Klon",
-        "OpenAI-Regress-Governance",
-        "Tool-Entrypoint-Failure",
-        "Workbook-Artifact-Identity",
-        "Active-Scope-Lock",
-        "Visible-Surface-Rebuild"
+
+        'Produkt-Loop',
+
+        'Claude-Prompting',
+
+        'Governance-Änderung',
+
+        'Brain-Intern-Struktur',
+
+        'Folgeprojekt-Klon',
+
+        'OpenAI-Regress-Governance',
+
+        'Tool-Entrypoint-Failure',
+
+        'Workbook-Artifact-Identity',
+
+        'Active-Scope-Lock',
+
+        'Visible-Surface-Rebuild',
+
+        'Workbook-Masterpass',
+
+        'Sheet-Finalizer',
+
+        'Tool-Repair',
+
+        'Hash-Mismatch-Relock'
     )]
     [string]$TaskType,
 

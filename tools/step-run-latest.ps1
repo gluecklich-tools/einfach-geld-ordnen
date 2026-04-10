@@ -1,8 +1,23 @@
 param(
   [Parameter(Mandatory=$true)][string]$Pattern,
 
-  [ValidateSet('Produkt-Loop','Claude-Prompting','Governance-Änderung','Brain-Intern-Struktur','Folgeprojekt-Klon','OpenAI-Regress-Governance','Tool-Entrypoint-Failure','Workbook-Artifact-Identity','Active-Scope-Lock','Visible-Surface-Rebuild')]
-  [string]$RequiredReadsTaskType
+  [ValidateSet(
+'Produkt-Loop',
+'Claude-Prompting',
+'Governance-Änderung',
+'Brain-Intern-Struktur',
+'Folgeprojekt-Klon',
+'OpenAI-Regress-Governance',
+'Tool-Entrypoint-Failure',
+'Workbook-Artifact-Identity',
+'Active-Scope-Lock',
+'Visible-Surface-Rebuild',
+'Workbook-Masterpass',
+'Sheet-Finalizer',
+'Tool-Repair',
+'Hash-Mismatch-Relock'
+    )]
+    [string]$RequiredReadsTaskType
 )
 
 . (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1')
