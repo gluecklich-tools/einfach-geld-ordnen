@@ -10,7 +10,12 @@ $GovDir      = Join-Path $InternRoot "governance"
 $BrainDir    = Join-Path $ProjectRoot "Brain_EGO_Dateien"
 $BrainLatest = Join-Path $BrainDir "latest"
 $GovMirrorLatest = Join-Path $GovDir "brain_mirror\latest"
-$RepoRoot    = Join-Path (Join-Path $ProjectRoot "GitHub_Clone_Dateien") "einfach-geld-ordnen"
+$RepoRoot = if (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git')) {
+    $ProjectRoot
+}
+else {
+    Join-Path (Join-Path $ProjectRoot 'GitHub_Clone_Dateien') 'einfach-geld-ordnen'
+}
 $RepoGov     = Join-Path $RepoRoot "_INTERN\governance"
 $RepoBrain   = Join-Path $RepoRoot "Brain_EGO_Dateien"
 $RepoBrainLatest = Join-Path $RepoBrain "latest"
