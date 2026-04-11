@@ -319,3 +319,11 @@
 - forbidden_now: weiterer Workbook- oder Blatt-Apply
 - workbook_sha256_current: B06765F9EBCB063EF50D29454BCD2FC34921FD2D99B4BD11C594E27AE8CF568F
 <!-- EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_ACCEPTANCE_GATE:END -->
+
+<!-- EGO_MANAGED_BLOCK:WORKBOOK_VISIBLE_SURFACE_FALSE_CLOSEOUT_OVERRIDE_20260411:START -->
+## 2026-04-11 – FALSE LOCAL CLOSEOUT OVERRIDE
+
+- Ein lokaler HAUSHALTSBUCH-PDF-/Crop-Erfolg darf die workbookweite sichtbare Oberflächen-Abnahme nicht mehr schließen.
+- Workbookweite sichtbare Oberfläche bleibt offen, bis die echten Excel-Screenshots workbookweit grün sind.
+- Aktueller bindender Folge-Mode: WORKBOOK_MASTERPASS_VISIBLE_SURFACE -> SHEET_FINALIZER_VISIBLE_SURFACE.
+<!-- EGO_MANAGED_BLOCK:WORKBOOK_VISIBLE_SURFACE_FALSE_CLOSEOUT_OVERRIDE_20260411:END -->
