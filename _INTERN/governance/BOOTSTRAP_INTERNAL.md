@@ -1068,6 +1068,7 @@ GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung
 
 
 
+
 <!-- EGO_FILEFIRST_STANDARD_START -->
 ## P0 FILE-FIRST FULLSWAP DELIVERY STANDARD
 
