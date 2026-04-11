@@ -327,3 +327,19 @@
 - Workbookweite sichtbare Oberfläche bleibt offen, bis die echten Excel-Screenshots workbookweit grün sind.
 - Aktueller bindender Folge-Mode: WORKBOOK_MASTERPASS_VISIBLE_SURFACE -> SHEET_FINALIZER_VISIBLE_SURFACE.
 <!-- EGO_MANAGED_BLOCK:WORKBOOK_VISIBLE_SURFACE_FALSE_CLOSEOUT_OVERRIDE_20260411:END -->
+
+<!-- EGO_PREMIUM_REDESIGN_V4_START -->
+## 2026-04-11 — Premium-Redesign-Acceptance-Gate V4
+
+- Kein weiterer generischer Workbook-Redesign-Apply ohne expliziten Vertrag.
+- 100 % Zoom ist Pflicht.
+- Screenshot-Abnahme zuerst für:
+  - START
+  - MONAT
+  - NOTGROSCHEN
+  - JAHR
+  - PLANUNG
+- Erst danach Eingabe-/Review-/Info-Blätter.
+- Claude ist visuelle Primärbasis.
+- Grok bleibt Käufer-/50€-Plausibilitätsgate.
+<!-- EGO_PREMIUM_REDESIGN_V4_END -->
