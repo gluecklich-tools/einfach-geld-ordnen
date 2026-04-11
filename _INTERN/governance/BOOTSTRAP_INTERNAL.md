@@ -535,6 +535,7 @@ GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung
 - Spezifischer Fehlerfall 2026-03-14: AUTO_FAILURE_SYNC_FAIL mit "The property 'Path' cannot be found on this object."
 <!-- END:AUTO_FAILURE_PATH_NORMALIZATION_2026_03_14 -->
 
+
 <!-- EGO_FILEFIRST_STANDARD_START -->
 ## P0 FILE-FIRST FULLSWAP DELIVERY STANDARD
 
