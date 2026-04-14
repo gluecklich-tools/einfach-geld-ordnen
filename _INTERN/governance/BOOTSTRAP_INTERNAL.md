@@ -1,3 +1,32 @@
+<!-- EGO_MANAGED_BLOCK:APRIL13_LAST10D_ONE_SHOT_AND_RECOVERY_HARDLAW_V1:START -->
+
+## APRIL13 LAST-10D LEARNINGS: ONE-SHOT SURFACE + OPENXML RECOVERY
+
+- Falsch gelaufen: lokaler PDF-/Crop-Erfolg wurde zeitweise driftig als workbookweite sichtbare Abnahme gelesen.
+- Harte Abstellung: workbookweite sichtbare Abnahme ist nur noch ueber reale Excel-Screenshots der relevanten sichtbaren Blaetter zulaessig.
+- Falsch gelaufen: Produkt-Apply, Tool-Reparatur, Scope-Relock und kosmetische Nachdokterei wurden teilweise vermischt.
+- Harte Abstellung: Modustrennung bleibt zwingend: `WORKBOOK_MASTERPASS -> TRUTH_RELOCK -> SHEET_FINALIZER`; `TOOL_REPAIR` separat; `OPENXML_RECOVERY_PRE_REPAIR` separat.
+- Falsch gelaufen: Trotz Ganzblatt-Beschluss entstand wieder Mikro-Dokterei.
+- Harte Abstellung: pro sichtbarem Blatt genau ein deterministischer file-first FULLSWAP-Step je Review-Zyklus; kein Zellen-/Zeilen-Gedokter.
+- Falsch gelaufen: step-run / step-run-latest / required-reads waren nicht immer synchron.
+- Harte Abstellung: neue TaskTypes muessen in Matrix, Required-Reads-Preflight und Runnern gemeinsam landen.
+- Recovery-Hardlaw: `OpenXML-Recovery-PreRepair` bedeutet exact backup vor Mutation, genau ein Recovery-Ziel pro Schritt, kein Masterpass/Finalizer im selben Lauf und kein `step-run-latest` fuer diesen Modus.
+<!-- EGO_MANAGED_BLOCK:APRIL13_LAST10D_ONE_SHOT_AND_RECOVERY_HARDLAW_V1:END -->
+
+<!-- EGO_MANAGED_BLOCK:APRIL13_STARTTEXT_RELOCK_AND_PRO_RECOVERY_V1:START -->
+## APRIL13 STARTTEXT RELOCK AND PRO RECOVERY
+
+- Entpackte Artefakte und bindende Grundlagen wurden erneut gegeneinander abgeglichen.
+- Neuester Realstand schlaegt aeltere Scope-Dateien; HAUSHALTSBUCH-only ist nicht mehr der aktuelle operative Stand.
+- Reale Reihenfolge der letzten Kette: false local closeout hardlaw -> workbook masterpass truth relock -> START dashboard finalizer runs -> PRO baseline OpenXML recovery scan.
+- Aktives Fachthema ab jetzt: PRO baseline recovery pre-repair auf `EGO_Pro_Baseline_TierVerify_20260316_152701.xlsx`.
+- Letzter echte Realbefund: `REPORT_SCAN_EXACT_CORRUPTED_PRO_BASELINE_OPENXML_SHEET_MAP_AND_RECOVERY_TARGETS_BEFORE_ANY_REPAIR_20260413_140137.md`.
+- Vor jeder Reparatur bleiben Pflicht: exact backup, file-first, hard literal step path, SCAN -> PLAN -> APPLY -> VERIFY -> RUN -> REPORT.
+- Tooling-Truth aus den April-10-Reparaturen bleibt bindend: `Workbook-Masterpass|Sheet-Finalizer|Tool-Repair|Hash-Mismatch-Relock` muessen in `step-run`, `step-run-latest` und `knowledge-required-reads-preflight` identisch vorhanden sein.
+- SSOT-Fullsync muss sowohl vom kanonischen `_INTERN\tools`-Pfad als auch vom Repo-Pfad denselben RepoRoot treffen; nested-repo drift ist ein Fail-Closed-Fall.
+- Managed-block/writeback darf keinen Leerzeilen-Muell in BOOTSTRAP erzeugen; massive blankline diffs gelten als Tool-Defekt und nicht als fachlicher Fortschritt.
+<!-- EGO_MANAGED_BLOCK:APRIL13_STARTTEXT_RELOCK_AND_PRO_RECOVERY_V1:END -->
+
 <!-- EGO_MANAGED_BLOCK:FULL_PROJECT_AUDIT_RECONCILIATION_V1:START -->
 ## FULL PROJECT AUDIT RECONCILIATION LOCK - 2026-03-19
 
@@ -534,6 +563,8 @@ GPT ist Chef. Andere KI nur als eng geführte Hilfsinstanzen unter GPT-Steuerung
 - Failure-Sync bleibt best effort und darf den urspruenglichen Runner-Fehler nicht durch einen zweiten Tool-Fehler verdecken.
 - Spezifischer Fehlerfall 2026-03-14: AUTO_FAILURE_SYNC_FAIL mit "The property 'Path' cannot be found on this object."
 <!-- END:AUTO_FAILURE_PATH_NORMALIZATION_2026_03_14 -->
+
+
 
 
 <!-- EGO_FILEFIRST_STANDARD_START -->

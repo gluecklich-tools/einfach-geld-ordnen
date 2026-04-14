@@ -15,7 +15,8 @@ param(
 'Workbook-Masterpass',
 'Sheet-Finalizer',
 'Tool-Repair',
-'Hash-Mismatch-Relock'
+'Hash-Mismatch-Relock',
+'OpenXML-Recovery-PreRepair'
     )]
     [string]$RequiredReadsTaskType
 )
@@ -60,6 +61,10 @@ function Get-LatestMatchingFile {
   return $best
 }
 
+if ($RequiredReadsTaskType -eq 'OpenXML-Recovery-PreRepair') {
+  Fail 'OpenXML-Recovery-PreRepair darf nicht ueber step-run-latest laufen. Verwende step-run.ps1 mit hartem literal StepPath.'
+}
+
 $RepoRoot = Get-RepoRoot
 $Scratch = Join-Path $RepoRoot "_local\_scratch"
 if (-not (Test-Path -LiteralPath $Scratch)) { Fail "Scratch not found: $Scratch" }
@@ -86,5 +91,5 @@ if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
 & pwsh @RunnerArgs
 
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:START
-# step-run-latest bleibt fuer den aktiven Recovery-Strang verboten; neue TaskTypes sind nur fuer Alt-/Hilfsfaelle zulaessig.
+# step-run-latest bleibt fuer den aktiven Recovery-Strang verboten; OpenXML-Recovery-PreRepair failt bewusst und verlangt step-run mit literal StepPath.
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:END

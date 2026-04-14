@@ -16,10 +16,12 @@ param(
 'Tool-Entrypoint-Failure',
 'Workbook-Artifact-Identity',
 'Active-Scope-Lock',
+'Visible-Surface-Rebuild',
 'Workbook-Masterpass',
 'Sheet-Finalizer',
 'Tool-Repair',
-'Hash-Mismatch-Relock'
+'Hash-Mismatch-Relock',
+'OpenXML-Recovery-PreRepair'
     )]
     [string]$RequiredReadsTaskType
 )
@@ -512,6 +514,6 @@ catch {
 # EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END
 
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN:START
-# RequiredReadsTaskType unterstuetzt jetzt Workbook-Masterpass, Sheet-Finalizer, Tool-Repair und Hash-Mismatch-Relock.
+# RequiredReadsTaskType unterstuetzt jetzt Visible-Surface-Rebuild, Workbook-Masterpass, Sheet-Finalizer, Tool-Repair, Hash-Mismatch-Relock und OpenXML-Recovery-PreRepair.
 # WORKBOOK_MASTERPASS und SHEET_FINALIZER duerfen im aktiven Recovery-Strang nicht vermischt werden.
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN:END

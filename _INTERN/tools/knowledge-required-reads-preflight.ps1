@@ -10,7 +10,6 @@ param(
         'Tool-Entrypoint-Failure',
         'Workbook-Artifact-Identity',
         'Active-Scope-Lock',
-        'Visible-Surface-Rebuild',
         'Workbook-Masterpass',
         'Sheet-Finalizer',
         'Tool-Repair',
@@ -196,7 +195,3 @@ Write-Host "PASS: required reads preflight"
 # Excel-bezogene Schritte brauchen vorgelagerten Research-Precheck.
 # Required Reads ersetzt diesen Web-Research nicht, sondern kommt zusaetzlich davor oder parallel.
 # EGO_MANAGED_BLOCK:APRIL03_EXCEL_RESEARCH_FIRST:END
-
-# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_REQUIRED_READS:START
-# RequiredReads-Preflight kennt jetzt Workbook-Masterpass, Sheet-Finalizer, Tool-Repair und Hash-Mismatch-Relock.
-# EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_REQUIRED_READS:END
