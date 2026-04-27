@@ -19,6 +19,79 @@
 - [ ] Keine Public-Surface-/Funnel-/Paid-Arbeit vor Recovery-Closeout.
 - [ ] Kein `step-run-latest` fuer OpenXML-Recovery.
 
+# BEGIN EGO_MANAGED_BLOCK:START_BEDIENUNG_USED_RANGE_CLEANUP_TODO_20260426
+## Active TODO - 20260426 START/BEDIENUNG UsedRange cleanup
+- [x] ZIP/TXT/XLSX intake and drift analysis complete.
+- [x] Safe scan/plan complete for START and BEDIENUNG.
+- [x] Governance/Brain/Tooling sync for merge-safe cleanup prepared.
+- [ ] Run exact governance/tooling sync step and confirm report.
+- [ ] Create exact workbook backup before any workbook mutation.
+- [ ] Apply OpenXML bounds cleanup to START and BEDIENUNG only.
+- [ ] Verify workbook opens, merge ranges preserved, UsedRange reduced, HAUSHALTSBUCH unchanged.
+- [ ] Report and sync final state.
+# END EGO_MANAGED_BLOCK:START_BEDIENUNG_USED_RANGE_CLEANUP_TODO_20260426
+
+<!-- EGO-MANAGED: -->
+# Workbook-Product-Finish-Contract aus Screenshot-Evidenz
+
+## Entscheidung
+
+Der LIZENZ-Einzelpfad wird gestoppt. Die Screenshots zeigen einen workbookweiten Produktfinish-Bedarf.
+
+- CURRENT_WORKBOOK_SHA256 = A7821AFEDFF8D97BBE3269D6A7F9CDA70CFE61A2394AF68BC136A7666CBB7F5A
+- TARGET = VOLLVERSION_PRODUCT_READY
+- ROUTE = CLASS_BASED_IN_PLACE_PRODUCT_FINISH
+- NEXT = ONE_SHOT_WORKBOOK_PRODUCT_FINISH_APPLY_FROM_CONTRACT
+
+## Positiv funktionierender Weg
+
+- Werte und Formeln bleiben an Ort und Stelle.
+- Keine dynamische Payload-/Restore-Logik mehr.
+- Keine neuen Merges.
+- Keine Shapes als Fremdflächen über Zellgitter.
+- Gridlines aus.
+- Feste Spaltenbreiten und Zeilenhöhen.
+- Screenshot entscheidet.
+- Nach Acceptance kein weiteres Mikroflickern.
+
+## Harte Screenshot-Befunde
+
+- START wirkt nicht wie eine starke Produkt-Startseite.
+- PARAMETER hat Setup-/Leerflächen- und Linienartefakte.
+- LIZENZ ist inhaltlich brauchbar, aber optisch zu langes Raster.
+- LISTEN hat einen rechten dunklen Fremdblock.
+- MONAT enthält sichtbare ##### und ist damit Release-Blocker.
+- BUDGETS, FIXKOSTEN, JAHR, NOTGROSCHEN, SCHULDEN, MONATSABSCHLUSS und AUDIT brauchen class-based Product-Finish.
+- STEUER und SPARZIELE sind akzeptiert und werden nicht weiter gedoktert.
+- HAUSHALTSBUCH bleibt ohne separaten Contract no-touch.
+
+## Sheet-Klassen
+
+- START = landing_dashboard
+- PARAMETER = setup_configuration
+- LIZENZ = license_release_facing
+- LISTEN = reference_masterdata
+- HAUSHALTSBUCH = core_input_table
+- MONAT / JAHR = analysis
+- BUDGETS / FIXKOSTEN = planning_input
+- NOTGROSCHEN / SCHULDEN = financial_goal_strategy
+- MONATSABSCHLUSS / AUDIT = review_gate
+- BEDIENUNG = manual
+- STEUER / SPARZIELE = accepted_product_surface
+
+## Nächster Step
+
+Ein einziger workbookweiter Master-Apply auf Contract-Basis:
+
+- Backup vor Änderung.
+- Hash-Gate auf A7821AFEDFF8D97BBE3269D6A7F9CDA70CFE61A2394AF68BC136A7666CBB7F5A.
+- Workbookweit #####-Scan und Display-Fix.
+- Class-based Width/Height/PrintArea/Gridline/Tab-Finish.
+- Support-/Release-Sheets kompakter machen.
+- Kein HAUSHALTSBUCH-Apply.
+- Kein STEUER/SPARZIELE-Mikrofix.
+<!-- EGO-MANAGED: -->
+
 <!-- EGO:PARAMETER_ACCEPTANCE_AFTER_CORRECTION_PASS1:START -->
 ## PARAMETER accepted after correction pass 1 — 2026-04-27
 
@@ -73,55 +146,6 @@ WORKBOOK_MUTATION=NO
 - HAUSHALTSBUCH bleibt No-Touch.
 - Nächster fachlicher Zielbereich: MONAT, weil dort sichtbare Hash-/Overflow-Markierungen als verbleibender Produktfinish-Blocker bekannt sind.
 <!-- EGO_AUTO_SYNC:LISTEN_ACCEPTED_20260427_060000:END -->
-
-<!-- EGO_ACCEPTANCE_MONAT_START -->
-## Acceptance: MONAT targeted finalizer
-
-STATUS=ACCEPTED_LOCK
-ACCEPTED_SHEET=MONAT
-WORKBOOK_SHA256=E4C0FEF810325ACDFDE7CB26597C3E34072217C9A1C333171CE1858E6175832D
-ACCEPTED_AT=20260427_064500
-DECISION=NO_FURTHER_MONAT_APPLY
-NEXT_PRIORITY=WORKBOOK_CLOSEOUT_RESCAN_OR_NEXT_OPEN_CANDIDATE
-
-Screenshot-Abnahme:
-- Hash-/Overflow-Markierungen auf MONAT nicht mehr sichtbar.
-- Blatt wirkt ruhig, lesbar und produktfähig.
-- Keine weitere MONAT-Korrektur ohne neue reale Evidenz.
-
-Locks:
-- MONAT_ACCEPTED_LOCK_NO_TOUCH
-- PARAMETER_ACCEPTED_LOCK_NO_TOUCH
-- LIZENZ_ACCEPTED_LOCK_NO_TOUCH
-- LISTEN_ACCEPTED_LOCK_NO_TOUCH
-- STEUER_SPARZIELE_ACCEPTED_LOCK_NO_TOUCH
-<!-- EGO_ACCEPTANCE_MONAT_END -->
-
-<!-- EGO_ACCEPTANCE_AUDIT_START -->
-## Acceptance: AUDIT
-
-STATUS=ACCEPTED_LOCK
-ACCEPTED_SHEET=AUDIT
-WORKBOOK_SHA256=E4C0FEF810325ACDFDE7CB26597C3E34072217C9A1C333171CE1858E6175832D
-ACCEPTED_AT=20260427_074500
-DECISION=NO_FURTHER_AUDIT_APPLY
-NEXT_PRIORITY=FINAL_WORKBOOK_CLOSEOUT_RESCAN
-
-Screenshot-Abnahme:
-- AUDIT zeigt klare Plausibilitätsprüfung.
-- OK-Statusbereich sichtbar.
-- Keine sichtbaren Hard Blocker aus Closeout-Rescan.
-- Kein weiterer AUDIT-Apply ohne neue reale Evidenz.
-
-Locks:
-- AUDIT_ACCEPTED_LOCK_NO_TOUCH
-- MONAT_ACCEPTED_LOCK_NO_TOUCH
-- PARAMETER_ACCEPTED_LOCK_NO_TOUCH
-- LIZENZ_ACCEPTED_LOCK_NO_TOUCH
-- LISTEN_ACCEPTED_LOCK_NO_TOUCH
-- STEUER_SPARZIELE_ACCEPTED_LOCK_NO_TOUCH
-- HAUSHALTSBUCH_NO_TOUCH
-<!-- EGO_ACCEPTANCE_AUDIT_END -->
 
 <!-- EGO_FINAL_WORKBOOK_PRODUCT_FINISH_ACCEPTANCE_START -->
 ## Final Workbook Product Finish Acceptance
