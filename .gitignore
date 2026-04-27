@@ -129,3 +129,18 @@ _reports/
 Brain_EGO_Dateien/
 
 _INTERN/governance/
+
+# EGO-MANAGED:
+# Private / local / generated project state. Must not be committed to the public repo.
+_INTERN/
+Brain_EGO_Dateien/
+_local/
+private_sources/
+
+# Workbook and office artifacts are distributed separately, not through the public repo.
+*.xlsx
+*.xlsm
+*.ods
+*.tmp
+~$*
+# EGO-MANAGED:
