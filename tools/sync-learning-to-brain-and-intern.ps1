@@ -49,7 +49,7 @@ function Read-Utf8 {
 function Resolve-FirstFileOrFallback {
     param(
         [Parameter(Mandatory = $true)][string]$Root,
-        [Parameter(Mandatory = $true)][string[]]$Patterns,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$Patterns,
         [Parameter(Mandatory = $true)][string]$FallbackPath
     )
 

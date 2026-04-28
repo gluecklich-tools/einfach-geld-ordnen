@@ -94,7 +94,7 @@ function Invoke-CheckedPwsh {
 function Invoke-NativeProcess {
     param(
         [Parameter(Mandatory = $true)][string]$FilePath,
-        [Parameter(Mandatory = $true)][string[]]$ArgumentList,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$ArgumentList,
         [Parameter(Mandatory = $true)][string]$StdOutPath,
         [Parameter(Mandatory = $true)][string]$StdErrPath
     )

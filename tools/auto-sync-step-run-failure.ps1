@@ -120,7 +120,7 @@ function Get-HashOrNull([string]$Path) {
 
 function Resolve-CanonicalRoot {
     param(
-        [Parameter(Mandatory = $true)][string[]]$Candidates,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$Candidates,
         [Parameter(Mandatory = $true)][string]$Label
     )
 

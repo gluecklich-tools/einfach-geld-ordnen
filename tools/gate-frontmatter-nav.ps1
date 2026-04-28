@@ -43,7 +43,7 @@ function Get-TrackedMarkdownTargets {
 }
 
 function Get-FrontmatterLines {
-  param([Parameter(Mandatory = $true)][string[]]$Lines)
+  param([AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$Lines)
 
   if ($Lines.Count -lt 3) { return @() }
   if ($Lines[0].Trim() -ne '---') { return @() }

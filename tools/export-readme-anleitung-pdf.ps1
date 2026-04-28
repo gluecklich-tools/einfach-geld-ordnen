@@ -20,7 +20,7 @@ function Ensure-Directory {
 }
 
 function Get-BytesSha256Hex {
-    param([Parameter(Mandatory = $true)][byte[]]$Bytes)
+    param([AllowEmptyCollection()][Parameter(Mandatory = $true)][byte[]]$Bytes)
     $sha256 = [System.Security.Cryptography.SHA256]::HashData($Bytes)
     return ([System.BitConverter]::ToString($sha256)).Replace('-', '')
 }
@@ -33,7 +33,7 @@ function Get-FileHashHex {
 function Write-BinaryAndVerify {
     param(
         [Parameter(Mandatory = $true)][string]$LiteralPath,
-        [Parameter(Mandatory = $true)][byte[]]$Bytes
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][byte[]]$Bytes
     )
 
     $parent = Split-Path -Parent $LiteralPath
@@ -115,7 +115,7 @@ function Wrap-PlainText {
 function New-TextBlock {
     param(
         [Parameter(Mandatory = $true)][string]$Kind,
-        [Parameter(Mandatory = $true)][string[]]$Lines,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$Lines,
         [Parameter(Mandatory = $true)][double]$Left,
         [Parameter(Mandatory = $true)][int]$Size,
         [Parameter(Mandatory = $true)][int]$Leading,
@@ -136,7 +136,7 @@ function New-TextBlock {
 
 function Build-TextBlocks {
     param(
-        [Parameter(Mandatory = $true)][object[]]$Lines,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][object[]]$Lines,
         [Parameter(Mandatory = $false)][string]$DocumentTitle
     )
 
@@ -212,7 +212,7 @@ function Build-TextBlocks {
 }
 
 function Paginate-Blocks {
-    param([Parameter(Mandatory = $true)][object[]]$Blocks)
+    param([AllowEmptyCollection()][Parameter(Mandatory = $true)][object[]]$Blocks)
 
     $pageH = 841.89
     $marginTop = 56.0
@@ -264,7 +264,7 @@ function Escape-PdfTextBytes {
 }
 
 function Render-PdfPageStreamBytes {
-    param([Parameter(Mandatory = $true)][object[]]$PageRows)
+    param([AllowEmptyCollection()][Parameter(Mandatory = $true)][object[]]$PageRows)
 
     $buffer = New-Object System.IO.MemoryStream
     foreach ($row in @($PageRows)) {
@@ -282,7 +282,7 @@ function Render-PdfPageStreamBytes {
 }
 
 function Build-PdfBytes {
-    param([Parameter(Mandatory = $true)][object[]]$Pages)
+    param([AllowEmptyCollection()][Parameter(Mandatory = $true)][object[]]$Pages)
 
     $pageW = 595.28
     $pageH = 841.89

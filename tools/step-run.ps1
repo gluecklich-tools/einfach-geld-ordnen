@@ -91,7 +91,7 @@ function Join-Lines {
 
 function Resolve-ExistingPath {
     param(
-        [Parameter(Mandatory = $true)][string[]]$Candidates,
+        [AllowEmptyCollection()][Parameter(Mandatory = $true)][string[]]$Candidates,
         [Parameter(Mandatory = $true)][string]$Label
     )
 
