@@ -2,21 +2,26 @@ param(
   [Parameter(Mandatory=$true)][string]$Pattern,
 
   [ValidateSet(
-'Produkt-Loop',
-'Claude-Prompting',
-'Governance-Änderung',
-'Brain-Intern-Struktur',
-'Folgeprojekt-Klon',
-'OpenAI-Regress-Governance',
-'Tool-Entrypoint-Failure',
-'Workbook-Artifact-Identity',
-'Active-Scope-Lock',
-'Visible-Surface-Rebuild',
-'Workbook-Masterpass',
-'Sheet-Finalizer',
-'Tool-Repair',
-'Hash-Mismatch-Relock',
-'OpenXML-Recovery-PreRepair'
+        'Produkt-Loop',
+        'Claude-Prompting',
+        'Governance-Änderung',
+        'Brain-Intern-Struktur',
+        'Folgeprojekt-Klon',
+        'OpenAI-Regress-Governance',
+        'Tool-Entrypoint-Failure',
+        'Workbook-Artifact-Identity',
+        'Active-Scope-Lock',
+        'Visible-Surface-Rebuild',
+        'Workbook-Masterpass',
+        'Sheet-Finalizer',
+        'Tool-Repair',
+        'Hash-Mismatch-Relock',
+        'OpenXML-Recovery-PreRepair',
+        'Documentation-Sync',
+        'Learning-Sync',
+        'Truth-Relock',
+        'Screenshot-Acceptance'
+
     )]
     [string]$RequiredReadsTaskType
 )
@@ -93,3 +98,9 @@ if (-not [string]::IsNullOrWhiteSpace($RequiredReadsTaskType)) {
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:START
 # step-run-latest bleibt fuer den aktiven Recovery-Strang verboten; OpenXML-Recovery-PreRepair failt bewusst und verlangt step-run mit literal StepPath.
 # EGO_MANAGED_BLOCK:APRIL09_MASTERPASS_HYBRID_STEPRUN_LATEST:END
+
+# EGO_MANAGED_BLOCK:20260430_TRUTH_RELOCK_TASKTYPES:START
+# 2026-04-30 Truth/Documentation/Learning Sync:
+# RequiredReadsTaskType/TaskType parity must include Documentation-Sync, Learning-Sync, Truth-Relock, Screenshot-Acceptance and OpenXML-Recovery-PreRepair.
+# TASK_REQUIRED_READS_MATRIX.tsv must stay 5-column valid and in parity with ValidateSet values.
+# EGO_MANAGED_BLOCK:20260430_TRUTH_RELOCK_TASKTYPES:END

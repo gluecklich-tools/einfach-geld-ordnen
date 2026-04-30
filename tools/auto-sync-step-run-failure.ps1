@@ -432,3 +432,9 @@ catch {
     Write-Host ('AUTO_FAILURE_SYNC_INTERNAL_ERROR: {0}' -f $Msg)
     exit 0
 }
+
+# EGO_MANAGED_BLOCK:20260430_SYNC_STATUS_TAXONOMY:START
+# 2026-04-30 Sync status taxonomy requirement:
+# Future failure/sync reports must distinguish SYNC_NOT_APPLIED, SYNC_CONTENT_APPLIED_RUNNER_FAILED,
+# SYNC_APPLIED_AND_VERIFIED and SYNC_ROLLED_BACK. A plain STATUS=FAIL after content/hash-equivalent writes is ambiguous.
+# EGO_MANAGED_BLOCK:20260430_SYNC_STATUS_TAXONOMY:END
