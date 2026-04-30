@@ -7,27 +7,28 @@ param(
     [string]$Pattern,
 
     [ValidateSet(
-        'Produkt-Loop',
-        'Claude-Prompting',
-        'Governance-Änderung',
-        'Brain-Intern-Struktur',
-        'Folgeprojekt-Klon',
-        'OpenAI-Regress-Governance',
-        'Tool-Entrypoint-Failure',
-        'Workbook-Artifact-Identity',
-        'Active-Scope-Lock',
-        'Visible-Surface-Rebuild',
-        'Workbook-Masterpass',
-        'Sheet-Finalizer',
-        'Tool-Repair',
-        'Hash-Mismatch-Relock',
-        'OpenXML-Recovery-PreRepair',
-        'Documentation-Sync',
-        'Learning-Sync',
-        'Truth-Relock',
-        'Screenshot-Acceptance'
-
-    )]
+    'Active-Scope-Lock',
+    'Produkt-Loop',
+    'Governance-Änderung',
+    'Workbook-Product-Finish',
+    'Stage-Only-Visual-Finalizer',
+    'Sheet-Finalizer',
+    'Tool-Repair',
+    'Documentation-Sync',
+    'Learning-Sync',
+    'Truth-Relock',
+    'Screenshot-Acceptance',
+    'OpenXML-Recovery-PreRepair',
+    'Claude-Prompting',
+    'Brain-Intern-Struktur',
+    'Folgeprojekt-Klon',
+    'OpenAI-Regress-Governance',
+    'Tool-Entrypoint-Failure',
+    'Workbook-Artifact-Identity',
+    'Visible-Surface-Rebuild',
+    'Workbook-Masterpass',
+    'Hash-Mismatch-Relock'
+)]
     [string]$RequiredReadsTaskType
 )
 
