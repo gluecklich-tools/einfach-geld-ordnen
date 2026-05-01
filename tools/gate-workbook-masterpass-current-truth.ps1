@@ -1,6 +1,11 @@
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
+# GATE_WRAPPER_STAGE1
+# STAGE_PROOF_BEFORE_PRODUCTIVE_APPLY=P0
+# NO_MICROFIXING=P0
+# NEXT=SCAN_STAGE1_MASTERPASS_BASELINE_NO_MUTATION
+
 $RepoRoot = (& git rev-parse --show-toplevel 2>$null)
 if (-not $RepoRoot) { throw 'REPOROOT_NOT_FOUND' }
 $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
