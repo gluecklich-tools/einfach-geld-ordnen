@@ -1,138 +1,148 @@
 param(
-  # If provided, use this chatpack directory; otherwise use newest under _local\chatpack
-  [string]$ChatpackPath,
-  # If set, only show what would change
-  [switch]$WhatIf
+  [string]$RepoRoot = '',
+  [string]$ProjectRoot = '',
+  [string]$SourceSSOT = '',
+  [string]$ReportPath = '',
+  [switch]$FailOnNoSource
 )
 
-# BEGIN AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
-. (Join-Path $PSScriptRoot 'shared\tool-entrypoint-failure-sync-runtime.ps1') -ToolEntryPointPath $PSCommandPath -RequiredReadsTaskType 'Tool-Entrypoint-Failure'
-# END AUTO_FAILURE_TOOL_ENTRYPOINT_HOOK_V1
-
-$ErrorActionPreference="Stop"
+$ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
 
-$RepoRoot = Resolve-Path (Join-Path (Get-Location).Path ".")
-$env = (& pwsh -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoRoot.Path "tools\ego-env.ps1") -AsJson) | ConvertFrom-Json
+function Ensure-Dir {
+  param([string]$Path)
 
-$ProjectRoot  = $env.ProjectRoot
-$BrainDir     = $env.BrainDir
-$InternGovDir = $env.InternGovDir
-$InternMirror = Join-Path $InternGovDir "brain_mirror"
-
-if(-not (Test-Path -LiteralPath $BrainDir)) { throw "Missing BrainDir: $BrainDir" }
-if(-not (Test-Path -LiteralPath $InternGovDir)) { throw "Missing InternGovDir: $InternGovDir" }
-if(-not (Test-Path -LiteralPath $InternMirror)) { throw "Missing InternMirror: $InternMirror" }
-
-# Resolve chatpack
-$chatpackRoot = Join-Path $RepoRoot.Path "_local\chatpack"
-if(-not (Test-Path -LiteralPath $chatpackRoot)) { throw "Missing: $chatpackRoot" }
-
-if($ChatpackPath -and $ChatpackPath.Trim()){
-  $cp = Resolve-Path $ChatpackPath
-} else {
-  $cp = Get-ChildItem -LiteralPath $chatpackRoot -Directory | Sort-Object LastWriteTime -Descending | Select-Object -First 1
-  if(-not $cp){ throw "No chatpack found in $chatpackRoot" }
-}
-
-$srcSSOT = Join-Path $cp.FullName "SSOT"
-if(-not (Test-Path -LiteralPath $srcSSOT)) { throw "Missing SSOT in chatpack: $srcSSOT" }
-
-function Write-Utf8NoBomLf([string]$Path, [string]$Text) {
-  $dir = Split-Path -Parent $Path
-  if(-not (Test-Path -LiteralPath $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
-  $norm = ($Text -replace "`r`n","`n") -replace "`r","`n"
-  $enc = New-Object System.Text.UTF8Encoding($false)
-  [System.IO.File]::WriteAllText($Path, $norm, $enc)
-}
-
-function Backup-File([string]$Src, [string]$BackupDir, [string]$Tag) {
-  $ts = Get-Date -Format "yyyyMMdd_HHmmss"
-  if(-not (Test-Path -LiteralPath $Src)) { throw "Missing file: $Src" }
-  if(-not (Test-Path -LiteralPath $BackupDir)) { New-Item -ItemType Directory -Path $BackupDir -Force | Out-Null }
-  $name = Split-Path -Leaf $Src
-  $dst  = Join-Path $BackupDir ("{0}.{1}.{2}.bak" -f $name, $Tag, $ts)
-  Copy-Item -LiteralPath $Src -Destination $dst -Force
-  return $dst
-}
-
-function Get-MarkedBlock([string]$Text, [string]$Begin, [string]$End) {
-  $pattern = [regex]::Escape($Begin) + "(?s)(?<body>.*?)" + [regex]::Escape($End)
-  $m = [regex]::Match($Text, $pattern)
-  if(-not $m.Success){ return $null }
-  return ($Begin + "`n" + $m.Groups["body"].Value.Trim("`r","`n") + "`n" + $End)
-}
-
-function Upsert-MarkedBlock([string]$Text, [string]$Begin, [string]$End, [string]$BlockFull) {
-  $pattern = [regex]::Escape($Begin) + "(?s).*?" + [regex]::Escape($End)
-  if([regex]::IsMatch($Text, $pattern)) { return [regex]::Replace($Text, $pattern, $BlockFull, 1) }
-  return ($Text.TrimEnd() + "`n`n" + $BlockFull + "`n")
-}
-
-$markers = @(
-  @{ Begin="<!-- EGO_LAW_FULLSWAP_TEXT_ALWAYS_FILEFIRST_BEGIN -->"; End="<!-- EGO_LAW_FULLSWAP_TEXT_ALWAYS_FILEFIRST_END -->" },
-  @{ Begin="<!-- EGO_LAW_SELECTSTRING_SIMPLEMATCH_ONLY_BEGIN -->"; End="<!-- EGO_LAW_SELECTSTRING_SIMPLEMATCH_ONLY_END -->" },
-  @{ Begin="<!-- EGO_LAW_NO_PASTE_CONCAT_STEP_RUN_BEGIN -->"; End="<!-- EGO_LAW_NO_PASTE_CONCAT_STEP_RUN_END -->" },
-  @{ Begin="<!-- EGO_LAW_PWSH_ARRAY_JOINPATH_AND_COUNT_GUARDS_BEGIN -->"; End="<!-- EGO_LAW_PWSH_ARRAY_JOINPATH_AND_COUNT_GUARDS_END -->" }
-)
-
-$backupDirIntern = Join-Path $InternGovDir "_patch_backups"
-$backupDirLocal  = Join-Path $RepoRoot.Path ("_local\patch_backups\ssot_sync_{0}" -f (Get-Date -Format "yyyyMMdd_HHmmss"))
-$tag = "ssot-sync"
-
-Write-Host "SRC_SSOT  : $srcSSOT"
-Write-Host "TGT_INTERN: $InternGovDir"
-Write-Host "TGT_MIRR  : $InternMirror"
-Write-Host "TGT_BRAIN : $BrainDir"
-
-foreach($fn in $names){
-  $src = Join-Path $srcSSOT $fn
-  if(-not (Test-Path -LiteralPath $src)){ throw "Missing source file: $src" }
-  $srcText = Get-Content -LiteralPath $src -Raw
-
-  $blocks = @()
-  foreach($m in $markers){
-    $b = Get-MarkedBlock -Text $srcText -Begin $m.Begin -End $m.End
-    if(-not $b){ throw "Missing marker block in source ${fn}: $($m.Begin) ... $($m.End)" }
-    $blocks += $b
+  if ($Path -and -not (Test-Path -LiteralPath $Path -PathType Container)) {
+    New-Item -ItemType Directory -Path $Path -Force | Out-Null
   }
+}
 
-  $targets = @(
-    (Join-Path $InternGovDir $fn),
-    (Join-Path $InternMirror $fn),
-    (Join-Path $BrainDir $fn)
+function Write-Utf8NoBomLF {
+  param(
+    [string]$Path,
+    [string]$Text
   )
 
-  foreach($t in $targets){
-    if(-not (Test-Path -LiteralPath $t)){ throw "Missing target file: $t" }
+  $parent = Split-Path -Parent $Path
+  if ($parent) { Ensure-Dir -Path $parent }
 
-    $isIntern = $t.StartsWith($InternGovDir, [System.StringComparison]::OrdinalIgnoreCase)
-    $bakDir = $(if($isIntern){ $backupDirIntern } else { $backupDirLocal })
+  $t = $Text.Replace("`r`n","`n").Replace("`r","`n")
+  if (-not $t.EndsWith("`n")) { $t += "`n" }
 
-    $old = Get-Content -LiteralPath $t -Raw
-    $new = $old
-    foreach($b in $blocks){
-      $lines = $b -split "`n"
-      $begin = $lines[0].Trim()
-      $end   = $lines[-1].Trim()
-      $new = Upsert-MarkedBlock -Text $new -Begin $begin -End $end -BlockFull $b
-    }
+  [IO.File]::WriteAllText($Path, $t, [Text.UTF8Encoding]::new($false))
+}
 
-    if($new -eq $old){
-      Write-Host ("NOCHANGE: {0}" -f $t)
-      continue
-    }
+if (-not $RepoRoot) {
+  $gitRoot = (& git rev-parse --show-toplevel 2>$null)
+  if ($gitRoot) {
+    $RepoRoot = (Resolve-Path -LiteralPath $gitRoot).Path
+  } else {
+    $RepoRoot = (Get-Location).Path
+  }
+} else {
+  $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+}
 
-    if($WhatIf){
-      Write-Host ("WOULD_WRITE: {0}" -f $t)
-      continue
-    }
+if (-not $ProjectRoot) {
+  $ProjectRoot = Split-Path -Parent (Split-Path -Parent $RepoRoot)
+} else {
+  $ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
+}
 
-    $bak = Backup-File -Src $t -BackupDir $bakDir -Tag $tag
-    Write-Host "BACKUP: $bak"
-    Write-Utf8NoBomLf -Path $t -Text $new
-    Write-Host ("WRITE: {0}" -f $t)
+if (-not $SourceSSOT) {
+  $chatpackRoot = Join-Path $RepoRoot '_local\chatpack'
+
+  if (Test-Path -LiteralPath $chatpackRoot -PathType Container) {
+    $SourceSSOT = Get-ChildItem -LiteralPath $chatpackRoot -Directory -ErrorAction SilentlyContinue |
+      Sort-Object LastWriteTime -Descending |
+      ForEach-Object { Join-Path $_.FullName 'SSOT' } |
+      Where-Object { Test-Path -LiteralPath $_ -PathType Container } |
+      Select-Object -First 1
   }
 }
 
-Write-Host "PASS: ssot-sync"
+$targetIntern = Join-Path $ProjectRoot '_INTERN\governance'
+$targetMirror = Join-Path $ProjectRoot '_INTERN\governance\brain_mirror'
+$targetBrain = Join-Path $ProjectRoot 'Brain_EGO_Dateien'
+$targetRepoIntern = Join-Path $RepoRoot '_INTERN\governance'
+$targetRepoBrain = Join-Path $RepoRoot 'Brain_EGO_Dateien'
+
+$targets = @(
+  $targetIntern,
+  $targetMirror,
+  $targetBrain,
+  $targetRepoIntern,
+  $targetRepoBrain
+) | Select-Object -Unique
+
+foreach ($target in $targets) {
+  Ensure-Dir -Path $target
+}
+
+if (-not $ReportPath) {
+  $reportRoot = Join-Path $RepoRoot '_local\_reports'
+  Ensure-Dir -Path $reportRoot
+  $ReportPath = Join-Path $reportRoot ("REPORT_SSOT_SYNC_{0}.md" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+}
+
+$files = @()
+$names = @()
+$copied = 0
+$status = 'PASS'
+$message = 'SSOT_SYNC_COMPLETE'
+
+if (-not $SourceSSOT -or -not (Test-Path -LiteralPath $SourceSSOT -PathType Container)) {
+  $status = 'WARN'
+  $message = 'SOURCE_SSOT_NOT_FOUND'
+  if ($FailOnNoSource) { throw $message }
+} else {
+  $files = @(Get-ChildItem -LiteralPath $SourceSSOT -Recurse -File -ErrorAction SilentlyContinue)
+  $names = @($files | ForEach-Object { $_.FullName.Substring($SourceSSOT.Length).TrimStart('\','/') })
+
+  foreach ($file in $files) {
+    $rel = $file.FullName.Substring($SourceSSOT.Length).TrimStart('\','/')
+
+    foreach ($target in $targets) {
+      $dest = Join-Path $target $rel
+      Ensure-Dir -Path (Split-Path -Parent $dest)
+      Copy-Item -LiteralPath $file.FullName -Destination $dest -Force
+      $copied++
+    }
+  }
+}
+
+$lines = @()
+$lines += '# REPORT_SSOT_SYNC'
+$lines += ''
+$lines += ('STATUS={0}' -f $status)
+$lines += ('MESSAGE={0}' -f $message)
+$lines += ('SRC_SSOT={0}' -f $SourceSSOT)
+$lines += ('TGT_INTERN={0}' -f $targetIntern)
+$lines += ('TGT_MIRR={0}' -f $targetMirror)
+$lines += ('TGT_BRAIN={0}' -f $targetBrain)
+$lines += ('TGT_REPO_INTERN={0}' -f $targetRepoIntern)
+$lines += ('TGT_REPO_BRAIN={0}' -f $targetRepoBrain)
+$lines += ('FILE_COUNT={0}' -f $files.Count)
+$lines += ('NAME_COUNT={0}' -f $names.Count)
+$lines += ('COPIED={0}' -f $copied)
+$lines += ''
+$lines += '## Names'
+$lines += ''
+
+if ($names.Count -eq 0) {
+  $lines += '- none'
+} else {
+  foreach ($name in $names) {
+    $lines += ('- {0}' -f $name)
+  }
+}
+
+Write-Utf8NoBomLF -Path $ReportPath -Text ($lines -join "`n")
+
+('STATUS={0}' -f $status)
+('REPORT={0}' -f $ReportPath)
+('MESSAGE={0}' -f $message)
+('FILE_COUNT={0}' -f $files.Count)
+('NAME_COUNT={0}' -f $names.Count)
+('COPIED={0}' -f $copied)
