@@ -22,7 +22,12 @@ param(
     'Workbook-Artifact-Identity',
     'Visible-Surface-Rebuild',
     'Workbook-Masterpass',
-    'Hash-Mismatch-Relock'
+    'Hash-Mismatch-Relock',
+    'Parameter-Compact-Screenshot-Verify',
+    'Project-Housekeeping-Size-Gate',
+    'Lean-Handoff-Zip',
+    'Project-Hygiene-Cleanup',
+    'Excel-Sheet-Rebuild-Contract'
 )]
     [string]$RequiredReadsTaskType
 )
