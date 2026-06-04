@@ -1,38 +1,17 @@
 <!doctype html>
 <html lang="de">
 <head>
-  {% comment %}EGO_META_DESC_FALLBACK_V1{% endcomment %}
-  {% assign _meta_desc = page.description | default: site.description | default: "Ordne deine Finanzen in 15 Minuten. Kostenlose Haushaltsbuch Vorlage, klare Struktur statt App-Chaos." %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
-
-      <link rel="canonical" href="{{ page.url | absolute_url }}">
-  {% if page.sitemap == false %}
-  <meta name="robots" content="noindex,follow">
-  {% endif %}
-<meta property="og:site_name" content="{{ site.title | escape }}">
-  <meta property="og:title" content="{{ page.title | escape }} · {{ site.title | escape }}">
-  <meta property="og:description" content="{{ _meta_desc | escape }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ page.title | escape }} · {{ site.title | escape }}">
-  <meta name="twitter:description" content="{{ _meta_desc | escape }}">
-
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <meta name="description" content="{{ _meta_desc | escape }}">
-
-  {% include cf_web_analytics.html %}
 </head>
 <body>
-  <header class="container">
-    <nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}"><strong>Einfach Geld ordnen</strong></a></li>
-  </ul>
+<main class="container">
+<nav>
+  <ul><li><a href="{{ '/' | relative_url }}"><strong>Einfach Geld ordnen</strong></a></li></ul>
   <ul>
     <li><a href="{{ '/' | relative_url }}">Start</a></li>
     <li><a href="{{ '/seiten/freebie.html' | relative_url }}">Freebie</a></li>
@@ -41,17 +20,9 @@
     <li><a href="{{ '/seiten/vollversion.html' | relative_url }}">Pro / Vollversion</a></li>
   </ul>
 </nav>
-  </header>
-
-  <main class="container">
-    {{ content }}
-  </main>
-
-  <footer class="container">
-    <small>
-      <a href="{{ '/seiten/impressum.html' | relative_url }}">Impressum</a> ·
-      <a href="{{ '/seiten/datenschutz.html' | relative_url }}">Datenschutz</a>
-    </small>
-  </footer>
+{{ content }}
+<hr>
+<p><a href="{{ '/seiten/impressum.html' | relative_url }}">Impressum</a> · <a href="{{ '/seiten/datenschutz.html' | relative_url }}">Datenschutz</a></p>
+</main>
 </body>
 </html>
