@@ -57,3 +57,23 @@ Die Android-APK ist in erster Linie für Android-Smartphones und Android-Tablets
 
 Empfehlung: Auf Chromebook zuerst den kostenlosen Freebie Budgetstarter testen.
 <!-- EGO_CHROMEBOOK_HINT_END -->
+
+<!-- EGO_LINUX_HINT_START -->
+---
+
+## Hinweis zu Linux
+
+Die PC/Web-Version von EGO kann auch unter Linux funktionieren, wenn ein aktueller Browser genutzt wird und lokale Dateien sauber geöffnet, gespeichert und wieder geladen werden können.
+
+EGO wird aktuell nicht als eigene Linux-App mit Installer bereitgestellt. Es gibt kein separates Linux-Paket, kein AppImage und keine Paketverwaltung-Installation.
+
+Wichtig vor dem Kauf:
+
+- ZIP-Datei entpacken
+- START_HIER.html oder die Startdatei im Browser öffnen
+- Daten speichern
+- Excel-Datei wieder laden
+- Datei später erneut verwenden
+
+Empfehlung: Unter Linux zuerst den kostenlosen Freebie Budgetstarter testen.
+<!-- EGO_LINUX_HINT_END -->
