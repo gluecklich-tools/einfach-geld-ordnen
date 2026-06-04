@@ -108,3 +108,17 @@ Es gibt:
 - keine Steuerberatung
 
 Du speicherst deine Daten selbst und entscheidest selbst, wo deine Datei liegt.
+
+<!-- EGO_SCREENSHOTS_FREEBIE_START -->
+---
+
+## Vorschau: Freebie Budgetstarter
+
+<div class="screenshot-grid">
+  <section class="screenshot-card">
+    <h3>Haushaltsbuch mit 20-Buchungen-Grenze</h3>
+    <p>Der Freebie zeigt die tägliche Eingabe und ist bewusst begrenzt. So kannst du EGO testen, ohne die Bezahlversion zu ersetzen.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
+  </section>
+</div>
+<!-- EGO_SCREENSHOTS_FREEBIE_END -->

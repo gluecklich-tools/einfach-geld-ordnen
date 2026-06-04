@@ -221,10 +221,39 @@ EGO wird aktuell nicht als eigene Linux-App mit Installer bereitgestellt. Es gib
 Wichtig vor dem Kauf:
 
 - ZIP-Datei entpacken
-- START_HIER.html oder die Startdatei im Browser öffnen
+- die Startdatei im Browser öffnen
 - Daten speichern
 - Excel-Datei wieder laden
 - Datei später erneut verwenden
 
 Empfehlung: Unter Linux zuerst den kostenlosen Freebie Budgetstarter testen.
 <!-- EGO_LINUX_HINT_END -->
+
+<!-- EGO_SCREENSHOTS_VERSIONEN_START -->
+---
+
+## Vorschau auf Basic und Pro
+
+<div class="screenshot-grid">
+  <section class="screenshot-card">
+    <h3>Basic: Monatsüberblick</h3>
+    <p>Für Haushaltsbuch, Fixkosten, Budgets, Planung und Monatsauswertung.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard">
+  </section>
+  <section class="screenshot-card">
+    <h3>Basic: Fixkosten</h3>
+    <p>Wiederkehrende Kosten strukturiert erfassen und monatlich berücksichtigen.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten">
+  </section>
+  <section class="screenshot-card">
+    <h3>Basic: Budgets</h3>
+    <p>Budgetgrenzen, Auslastung und Status verständlich sehen.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}" alt="EGO Basic Budgets">
+  </section>
+  <section class="screenshot-card">
+    <h3>Pro: Vollständiger Bereichsumfang</h3>
+    <p>Pro ergänzt weitere Bereiche wie Jahresblick, Notgroschen, Schulden, Steuer und Sparziele.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit allen Bereichen">
+  </section>
+</div>
+<!-- EGO_SCREENSHOTS_VERSIONEN_END -->

@@ -91,10 +91,39 @@ EGO wird aktuell nicht als eigene Linux-App mit Installer bereitgestellt. Es gib
 Wichtig vor dem Kauf:
 
 - ZIP-Datei entpacken
-- START_HIER.html oder die Startdatei im Browser öffnen
+- die Startdatei im Browser öffnen
 - Daten speichern
 - Excel-Datei wieder laden
 - Datei später erneut verwenden
 
 Empfehlung: Unter Linux zuerst den kostenlosen Freebie Budgetstarter testen.
 <!-- EGO_LINUX_HINT_END -->
+
+<!-- EGO_SCREENSHOTS_HOME_START -->
+---
+
+## Ein Blick in EGO
+
+<div class="screenshot-grid">
+  <section class="screenshot-card">
+    <h3>Freebie testen</h3>
+    <p>Der Budgetstarter zeigt die tägliche Eingabe und die 20-Buchungen-Grenze.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit Budgetstarter-Grenze">
+  </section>
+  <section class="screenshot-card">
+    <h3>Basic im Alltag</h3>
+    <p>Basic zeigt Einnahmen, Ausgaben, Saldo, Sparquote, Budgetstatus und Monatsentwicklung.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard">
+  </section>
+  <section class="screenshot-card">
+    <h3>Fixkosten im Blick</h3>
+    <p>Wiederkehrende Kosten wie Miete, Internet, Versicherung und Handy übersichtlich erfassen.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten">
+  </section>
+  <section class="screenshot-card">
+    <h3>Pro mit allen Bereichen</h3>
+    <p>Die Vollversion erweitert EGO auf das vollständige private Finanzsystem.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit allen Bereichen">
+  </section>
+</div>
+<!-- EGO_SCREENSHOTS_HOME_END -->

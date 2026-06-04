@@ -244,10 +244,29 @@ EGO wird aktuell nicht als eigene Linux-App mit Installer bereitgestellt. Es gib
 Wichtig vor dem Kauf:
 
 - ZIP-Datei entpacken
-- START_HIER.html oder die Startdatei im Browser öffnen
+- die Startdatei im Browser öffnen
 - Daten speichern
 - Excel-Datei wieder laden
 - Datei später erneut verwenden
 
 Empfehlung: Unter Linux zuerst den kostenlosen Freebie Budgetstarter testen.
 <!-- EGO_LINUX_HINT_END -->
+
+<!-- EGO_SCREENSHOTS_PRO_START -->
+---
+
+## Vorschau: Pro / Vollversion
+
+<div class="screenshot-grid">
+  <section class="screenshot-card">
+    <h3>Alle Bereiche in einer lokalen App</h3>
+    <p>Pro zeigt das vollständige System mit allen Bereichen für private Finanzordnung.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit 17 Bereichen">
+  </section>
+  <section class="screenshot-card">
+    <h3>Sparziele planen</h3>
+    <p>Ziele, Sollbetrag, Ist-Stand, Monatsrate und Fortschritt übersichtlich erfassen.</p>
+    <img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" alt="EGO Pro Sparziele">
+  </section>
+</div>
+<!-- EGO_SCREENSHOTS_PRO_END -->
