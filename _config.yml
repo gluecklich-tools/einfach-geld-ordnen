@@ -1,39 +1,14 @@
-
-url: https://gluecklich-tools.github.io
-baseurl: /einfach-geld-ordnen
 title: "Einfach Geld ordnen"
-description: "Einfaches Haushaltsbuch & Geld ordnen – statische Inhalte"
+description: "Lokale Finanz-App für Haushaltsbuch, Fixkosten, Budgets, Planung und Auswertung – ohne Cloud, ohne Account und ohne Abo."
+url: "https://gluecklich-tools.github.io"
+baseurl: "/einfach-geld-ordnen"
 
-markdown: "kramdown"
+markdown: kramdown
 
-plugins:
-  - "jekyll-seo-tag"
+plugins: []
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 exclude:
-  - assets/audit
-  - _site
   - vendor
-  - .bundle
   - node_modules
-  - templates
-  - tools
-  - 00_ARCHIV
-  - 01_governance
-  - 00_workblocks
-  - _local
-  - README.md
-  - TODO.md
-  - 00_HARD_BLOCK.md
-
-include:
-  - downloads
-  - google2522890043a202ae.html
-  - assets/audit/runs
-
-plugins:
-  - jekyll-redirect-from
+  - Gemfile
+  - Gemfile.lock
