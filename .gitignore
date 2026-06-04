@@ -144,3 +144,9 @@ private_sources/
 *.tmp
 ~$*
 # EGO-MANAGED:
+
+# EGO_FREEBIE_PUBLIC_DOWNLOAD_EXCEPTION
+!downloads/
+!downloads/bundles/
+!downloads/bundles/EGO_APP_FREEBIE_BUDGETSTARTER_RC7_DATEN_DATEI_MODUS.zip
+# /EGO_FREEBIE_PUBLIC_DOWNLOAD_EXCEPTION
