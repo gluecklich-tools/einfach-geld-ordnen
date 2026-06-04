@@ -1,58 +1,79 @@
 ---
-permalink: /seiten/datenschutz.html
-policy_blocks: show
 layout: default
 title: "Datenschutz"
+description: "Datenschutzhinweise für Einfach Geld ordnen."
 permalink: /seiten/datenschutz.html
-nav_group: meta
-nav_order: 910
-flow_systemlinks: true
-description: "Datenschutz – kurze Einordnung + klare nächste Schritte. Haushaltsbuch, Fixkosten, Rücklagen, Schulden: einfach ohne App."
 ---
 
 # Datenschutz
 
 ## 1. Verantwortlicher
 
-**Carsten Czoske**  
-Talstra&szlig;e 7  
-47445 Mörs  
-Deutschland  
-Kontakt: **Kontaktformular**
-## 3. Server-Logfiles
+Verantwortlich für diese Website:
 
-Bei der Nutzung dieser Website k&ouml;nnen Logdaten anfallen, die zur technischen Bereitstellung und zur Abwehr von Angriffen notwendig sind. Eine Zusammenf&uuml;hrung dieser Daten mit anderen Datenqüllen erfolgt nicht.
+Carsten Czoske
+Talstraße 7
+47445 Moers
+Deutschland
 
-## 5. Downloads
+## 2. Grundsatz
 
-Sofern auf dieser Website Dateien zum Download angeboten werden, erfolgt dabei keine besondere zus&auml;tzliche Datenerhebung durch mich. Es gelten die technischen Verarbeitungen des Hosting-Anbieters (siehe Abschnitt 2).
+Diese Website dient der Information über Einfach Geld ordnen und stellt den kostenlosen Freebie-Download bereit.
 
-## 7. Deine Rechte
+Es gibt auf dieser Website kein Benutzerkonto, keinen Login, kein Kontaktformular, keinen Newsletter und keinen eigenen Zahlungsbereich.
 
-Du hast im Rahmen der DSGVO grunds&auml;tzlich folgende Rechte:
-- Auskunft (Art. 15 DSGVO)
-- Berichtigung (Art. 16 DSGVO)
-- L&ouml;schung (Art. 17 DSGVO)
-- Einschr&auml;nkung der Verarbeitung (Art. 18 DSGVO)
-- Daten&uuml;bertragbarkeit (Art. 20 DSGVO)
-- Widerspruch (Art. 21 DSGVO)
+## 3. Hosting über GitHub Pages
 
-## 9. Stand
+Diese Website wird über GitHub Pages bereitgestellt.
 
-Stand: 2026-01-24
+Beim Aufruf der Website können technisch notwendige Daten verarbeitet werden, zum Beispiel IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browserinformationen und Referrer. Diese Verarbeitung erfolgt durch den Hosting-Anbieter GitHub.
 
-## Web Analytics (Cloudflare)
+Weitere Informationen findest du in der Datenschutzerklärung von GitHub:
 
-Wir nutzen **Cloudflare Web Analytics** zur Reichweitenmessung und zur Verbesserung der Performance (z.B. Core Web Vitals).
-Dabei werden technische Informationen (z.B. aufgerufene Seite/URL, Referrer, User-Agent, ungefähres Land sowie Performance-Messwerte) verarbeitet, um **Besuche und Seitenaufrufe** statistisch auszuwerten.
+[GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
 
-Anbieter: Cloudflare, Inc. (USA)
-Weitere Informationen: https://www.cloudflare.com/privacypolicy/
+## 4. Downloads
 
-<!-- EGO_AUDIT_UPDATE_HINT -->
-## Weiter
-- [überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-{% include no_sackgasse_footer.html %}
+Wenn du eine Datei von dieser Website herunterlädst, wird der Abruf technisch über GitHub Pages ausgeliefert.
 
+Die heruntergeladenen EGO-Dateien werden lokal auf deinem Gerät genutzt. EGO lädt deine Finanzdaten nicht automatisch auf diese Website hoch.
+
+## 5. Keine Cloud-Synchronisierung durch EGO
+
+EGO ist bewusst lokal aufgebaut.
+
+Es gibt:
+
+- kein EGO-Cloudkonto
+- keinen EGO-Login
+- keine automatische EGO-Cloud-Synchronisierung
+- keinen automatischen Bankabruf
+- kein Online-Banking über EGO
+
+Wenn du deine gespeicherte Datei selbst bei einem Drittanbieter speicherst, zum Beispiel in einer Cloud, gelten zusätzlich die Datenschutzregeln dieses jeweiligen Anbieters.
+
+## 6. Externe Links
+
+Diese Website kann Links zu externen Seiten enthalten. Für Inhalte und Datenschutz dieser externen Seiten ist der jeweilige Anbieter verantwortlich.
+
+## 7. Zahlungsanbieter
+
+Kaufversionen werden nicht direkt über diese GitHub-Pages-Seite verkauft.
+
+Wenn später ein externer Zahlungs- oder Shopanbieter eingesetzt wird, gelten für den Kauf zusätzlich die Datenschutzhinweise dieses Zahlungs- oder Shopanbieters.
+
+## 8. Cookies und Tracking
+
+Diese Website setzt selbst keine eigenen Tracking-Cookies und verwendet kein eigenes Webanalyse-System.
+
+Technisch notwendige Daten können durch GitHub als Hosting-Anbieter verarbeitet werden.
+
+## 9. Betroffenenrechte
+
+Du hast im Rahmen der gesetzlichen Voraussetzungen Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.
+
+Außerdem hast du das Recht, dich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.
+
+## 10. Stand
+
+Stand: Juni 2026
