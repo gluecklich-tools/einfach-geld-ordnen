@@ -11,10 +11,10 @@ EGO Pro ist die Vollversion von Einfach Geld ordnen.
 
 Sie ist für Menschen gedacht, die nicht nur ein einfaches Haushaltsbuch führen möchten, sondern ihr gesamtes privates Geldsystem an einem Ort ordnen wollen.
 
-Du arbeitest lokal.  
-Ohne Cloud.  
-Ohne Account.  
-Ohne Abo.  
+Du arbeitest lokal.
+Ohne Cloud.
+Ohne Account.
+Ohne Abo.
 Ohne Serverpflicht.
 
 Deine Daten kannst du als Excel-Datei speichern und später wieder laden.
@@ -211,3 +211,23 @@ Wenn du deinen Monatsalltag ordnen möchtest, reicht Basic.
 Wenn du vollständige private Finanzordnung möchtest, ist EGO Pro die richtige Version.
 
 [Alle Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
+
+<!-- EGO_CHROMEBOOK_HINT_START -->
+---
+
+## Hinweis zu Chromebook
+
+Die PC/Web-Version von EGO kann auf einem Chromebook im Chrome-Browser funktionieren, sollte aber vor dem Kauf mit dem kostenlosen Freebie getestet werden.
+
+Wichtig ist nicht nur, ob die Oberfläche startet, sondern auch:
+
+- ZIP-Datei entpacken
+- Startdatei öffnen
+- Daten speichern
+- Excel-Datei wieder laden
+- Datei später erneut verwenden
+
+Die Android-APK ist in erster Linie für Android-Smartphones und Android-Tablets gedacht. Die Nutzung auf Chromebooks wird aktuell nicht offiziell beworben, weil APK-Installation und Dateizugriff je nach Chromebook unterschiedlich sein können.
+
+Empfehlung: Auf Chromebook zuerst den kostenlosen Freebie Budgetstarter testen.
+<!-- EGO_CHROMEBOOK_HINT_END -->

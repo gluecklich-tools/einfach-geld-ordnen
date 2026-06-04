@@ -58,3 +58,23 @@ EGO läuft lokal im Browser oder auf Android. Deine Daten kannst du als Excel-Da
 Keine Cloud. Kein Account. Kein Abo. Kein Server. Keine automatische Synchronisierung.
 
 [Alle Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
+
+<!-- EGO_CHROMEBOOK_HINT_START -->
+---
+
+## Hinweis zu Chromebook
+
+Die PC/Web-Version von EGO kann auf einem Chromebook im Chrome-Browser funktionieren, sollte aber vor dem Kauf mit dem kostenlosen Freebie getestet werden.
+
+Wichtig ist nicht nur, ob die Oberfläche startet, sondern auch:
+
+- ZIP-Datei entpacken
+- Startdatei öffnen
+- Daten speichern
+- Excel-Datei wieder laden
+- Datei später erneut verwenden
+
+Die Android-APK ist in erster Linie für Android-Smartphones und Android-Tablets gedacht. Die Nutzung auf Chromebooks wird aktuell nicht offiziell beworben, weil APK-Installation und Dateizugriff je nach Chromebook unterschiedlich sein können.
+
+Empfehlung: Auf Chromebook zuerst den kostenlosen Freebie Budgetstarter testen.
+<!-- EGO_CHROMEBOOK_HINT_END -->
