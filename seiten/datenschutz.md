@@ -26,7 +26,9 @@ Es gibt auf dieser Website kein Benutzerkonto, keinen Login, kein Kontaktformula
 
 Diese Website wird über GitHub Pages bereitgestellt.
 
-Beim Aufruf der Website können technisch notwendige Daten verarbeitet werden, zum Beispiel IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browserinformationen und Referrer. Diese Verarbeitung erfolgt durch den Hosting-Anbieter GitHub.
+Beim Aufruf der Website können technisch notwendige Daten verarbeitet werden, zum Beispiel IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browserinformationen und Referrer.
+
+Diese Verarbeitung erfolgt durch den Hosting-Anbieter GitHub.
 
 Weitere Informationen findest du in der Datenschutzerklärung von GitHub:
 
@@ -50,7 +52,7 @@ Es gibt:
 - keinen automatischen Bankabruf
 - kein Online-Banking über EGO
 
-Wenn du deine gespeicherte Datei selbst bei einem Drittanbieter speicherst, zum Beispiel in einer Cloud, gelten zusätzlich die Datenschutzregeln dieses jeweiligen Anbieters.
+Wenn du deine gespeicherte Datei selbst bei einem Drittanbieter speicherst, gelten zusätzlich die Datenschutzregeln dieses jeweiligen Anbieters.
 
 ## 6. Externe Links
 
