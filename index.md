@@ -1,45 +1,153 @@
 ---
-layout: page
-permalink: /
-policy_blocks: show
-description: "Ordne deine Finanzen in 15 Minuten. Kostenlose Haushaltsbuch Vorlage, klare Struktur statt App-Chaos. Fixkosten senken und Schulden systematisch abbauen."
-title: "Haushaltsbuch Vorlage: Finanzen ordnen ohne App"
+layout: default
+title: "Einfach Geld ordnen"
+description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkosten, Budgets, Planung und Auswertung – ohne Cloud, ohne Account und ohne Abo."
 ---
-# Haushaltsbuch Vorlage: Finanzen ordnen ohne App
-Ordne dein Geld so, dass du jeden Monat weißt, was reinkommt, was rausgeht und was übrig bleibt.
 
-## Starte jetzt
+# Einfach Geld ordnen – lokal, klar und ohne Cloud
 
-- **Schnellstart (15 Minuten):** In 15 Minuten aufgeräumt starten.  
-  [Schnellstart (15 Minuten)]({{ site.baseurl }}/seiten/start_in_15_minuten.html)
+EGO ist eine lokale Finanz-App/Web-App für Menschen, die ihre Einnahmen, Ausgaben, Fixkosten, Budgets und Monatsplanung ruhig und verständlich ordnen möchten.
 
-- **Schulden loswerden:** Schneeball/Lawine, klarer Plan, schneller Fortschritt.  
-  [Schuldenfrei]({{ site.baseurl }}/pillar/schuldenfrei.html)
+Du brauchst keinen Account.  
+Du brauchst keine Cloud.  
+Du brauchst kein Abo.  
+Deine Daten bleiben bei dir.
 
-- **Fixkosten senken:** Sofort weniger Ausgaben, ohne Verzichts-Wirrwarr.  
-  [Fixkosten senken]({{ site.baseurl }}/pillar/fixkosten-senken.html)
-<!-- EGO_INDEX_FIXKOSTEN_STEP_V1 -->
-- **Fixkosten erfassen (Start):** [Fixkosten-Übersicht]({{ site.baseurl }}/seiten/fixkosten-uebersicht.html)
+EGO läuft lokal im Browser oder auf Android. Deine Daten kannst du als Excel-Datei speichern und später wieder laden. So kannst du auch zwischen PC und Android mit derselben Datei arbeiten.
 
+[Kostenlos testen]({{ '/seiten/downloads.html' | relative_url }})  
+[Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
 
-<!-- EGO_LIST_BREAK -->
-## Was du hier bekommst
+---
 
-- **Rechner:** schnelle Antworten (z.B. Budget, Schulden, Notgroschen).  
-  [Rechner]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
+## Was ist EGO?
 
-- **Downloads:** Vorlagen/Dateien zum Mitnehmen.  
-  [Downloads]({{ site.baseurl }}/seiten/downloads.html)
-- **Vollversion:** Alle Vorlagen im Paket.
-  [Vollversion]({{ site.baseurl }}/seiten/vollversion.html)
-- **Überblick:** So ist das System aufgebaut.  
-  [Überblick]({{ site.baseurl }}/pillar/einfach-geld-ordnen.html)
-<!-- EGO_WEITER_NORMALIZE_2FILES_V1 -->
+EGO ist kein Online-Banking und keine Bank-App.
 
-## Weiter
+EGO ist dein eigener Finanzordner als lokale App:
 
-- [Themen & Einstiege]({{ site.baseurl }}/seiten/themen-seiten.html)
-- [Rechner-Übersicht]({{ site.baseurl }}/seiten/rechner-uebersicht.html)
-- [Downloads]({{ site.baseurl }}/seiten/downloads.html)
+- Einnahmen erfassen
+- Ausgaben ordnen
+- Fixkosten sichtbar machen
+- Budgets planen
+- Monatsauswertung ansehen
+- Daten als Datei sichern
+- ohne Cloud und ohne Account arbeiten
 
-{% include no_sackgasse_footer.html %}
+Du entscheidest selbst, wo deine Datei liegt und wann du sie sicherst.
+
+---
+
+## Welche Version passt zu dir?
+
+<div class="pricing-grid">
+
+<div class="pricing-card">
+<h3>Freebie Budgetstarter</h3>
+<p class="price">0 €</p>
+<p>Kostenloser Einstieg zum Testen.</p>
+<ul>
+<li>maximal 20 Buchungen</li>
+<li>lokale Nutzung</li>
+<li>Datei speichern und laden</li>
+<li>ideal zum Ausprobieren</li>
+</ul>
+<p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Kostenlos starten</a></p>
+</div>
+
+<div class="pricing-card featured">
+<h3>Basic</h3>
+<p class="price">ab 29 €</p>
+<p>Für deinen normalen Monatsalltag.</p>
+<ul>
+<li>Haushaltsbuch</li>
+<li>Fixkosten</li>
+<li>Budgets</li>
+<li>Planung</li>
+<li>Monatsauswertung</li>
+</ul>
+<p><a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">Basic ansehen</a></p>
+</div>
+
+<div class="pricing-card">
+<h3>Pro / Vollversion</h3>
+<p class="price">ab 59 €</p>
+<p>Für vollständige private Finanzordnung.</p>
+<ul>
+<li>alle 17 Bereiche</li>
+<li>Jahresübersicht</li>
+<li>Rücklagen</li>
+<li>Notgroschen</li>
+<li>Sparziele und Schulden</li>
+</ul>
+<p><a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">Pro ansehen</a></p>
+</div>
+
+</div>
+
+---
+
+## PC, Android und Bundle
+
+EGO gibt es als PC-Version und als Android-APK.
+
+Die Android-Version wird als APK-Datei bereitgestellt und eigenständig installiert. Es gibt keinen Play-Store-Zwang.
+
+Wenn du EGO am PC und auf Android nutzen möchtest, sind die Bundles die beste Wahl.
+
+| Produkt | Inhalt | Preis |
+|---|---|---:|
+| Basic PC | Basic für PC/lokalen Browser | 29 € |
+| Basic Android APK | Basic für Android | 29 € |
+| Basic Bundle | Basic PC + Android | 39 € |
+| Pro PC | Vollversion für PC/lokalen Browser | 59 € |
+| Pro Android APK | Vollversion für Android | 59 € |
+| Pro Bundle | Pro PC + Android | 89 € |
+
+[Alle Versionen vergleichen]({{ '/seiten/versionen.html' | relative_url }})
+
+---
+
+## Datensicherung ohne Cloud
+
+EGO arbeitet mit einem einfachen Datei-Datenmodus.
+
+Du kannst deine Daten speichern und später wieder laden. Für den Austausch zwischen PC und Android nutzt du dieselbe gespeicherte Excel-Datei.
+
+Wichtig:
+
+- keine automatische Cloud-Synchronisierung
+- kein Serverkonto
+- kein Login
+- keine Bankverbindung
+- kein automatischer Kontenabruf
+
+Das ist bewusst so gebaut: einfach, lokal und eigenständig.
+
+---
+
+## Vorschau-Bilder folgen
+
+Die Website wird mit Vorschaubildern ergänzt, damit du vor dem Download siehst, wie EGO aussieht.
+
+Geplant sind:
+
+- Start-/Dashboard-Ansicht
+- Haushaltsbuch
+- Fixkosten und Budgets
+- Monatsauswertung
+- Pro-Übersicht
+- Android-Ansichten
+- Datei speichern / Datei laden
+
+Alle Vorschaubilder zeigen Beispieldaten.
+
+---
+
+## Wichtig zu wissen
+
+EGO ist ein Selbstbedienungsprodukt.
+
+Es gibt kein Abo, kein Cloudkonto und kein Live-Supportversprechen. EGO ist keine Finanzberatung, keine Steuerberatung und kein Online-Banking.
+
+Du kaufst eine Datei bzw. App-Version und nutzt sie eigenständig.

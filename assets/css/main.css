@@ -32,3 +32,73 @@ hr { border: 0; border-top: 1px solid #e6e6e6; margin: 24px 0; }
 /* make the footer nav less ugly even without classes */
 footer ul { list-style: none; padding-left: 0; margin: 0.25em 0; }
 footer li { margin: 0.15em 0; }
+
+/* EGO_PRODUCT_CARDS_START */
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.pricing-card {
+  border: 1px solid #d8dee9;
+  border-radius: 18px;
+  padding: 1.4rem;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+}
+
+.pricing-card.featured {
+  border: 2px solid #1f3b63;
+  box-shadow: 0 14px 36px rgba(31, 59, 99, 0.14);
+}
+
+.pricing-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.pricing-card .price,
+.price {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #1f3b63;
+  margin: 0.25rem 0 0.75rem 0;
+}
+
+.pricing-card ul {
+  padding-left: 1.1rem;
+}
+
+.pricing-card li {
+  margin-bottom: 0.35rem;
+}
+
+.button,
+a.button {
+  display: inline-block;
+  padding: 0.72rem 1rem;
+  border-radius: 999px;
+  background: #1f3b63;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.button:hover,
+a.button:hover {
+  filter: brightness(1.08);
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* EGO_PRODUCT_CARDS_END */
+
