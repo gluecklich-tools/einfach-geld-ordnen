@@ -48,7 +48,71 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 </section>
 
 <section class="ego-section">
-  <p class="ego-kicker">Welche Version passt?</p>
+
+<section class="ego-section">
+  <p class="ego-kicker">Warum EGO Vertrauen schafft</p>
+  <h2>Keine Finanzshow. Ein ruhiges Werkzeug für deinen Geldalltag.</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Erst testen</h3>
+      <p>Mit dem kostenlosen Freebie prüfst du Bedienung, Datei-Modus und Oberfläche vor einem Kauf.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Lokal statt Cloud-Zwang</h3>
+      <p>Deine Finanzdaten werden nicht in eine EGO-Cloud geladen. Du speicherst deine Daten-Datei selbst.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Klare Grenzen</h3>
+      <p>EGO ist kein Online-Banking, keine Finanzberatung und kein Abo-System. Genau das wird offen gesagt.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Externer Checkout</h3>
+      <p>Kaufversionen werden über Digistore24 abgewickelt. Die Nutzung von EGO selbst bleibt lokal.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ego-section">
+  <p class="ego-kicker">Vorher / Nachher</p>
+  <h2>Aus verstreuten Zahlen wird ein klarer Überblick.</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Vorher</h3>
+      <p>Ausgaben stehen irgendwo, Fixkosten werden geschätzt, Budgets sind unklar und Rücklagen werden vergessen.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Nachher</h3>
+      <p>Einnahmen, Ausgaben, Fixkosten, Budgets, Rücklagen, Schulden und Sparziele liegen an einem Ort.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Für den Alltag</h3>
+      <p>Basic hilft beim normalen Monatsüberblick. Pro macht daraus ein vollständiges privates Geldsystem.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Ehrlich statt künstlich</p>
+  <h2>Keine erfundenen Bewertungen. Keine falschen Versprechen.</h2>
+  <p>
+    EGO verkauft sich nicht über erfundene Nutzerzahlen oder künstlichen Social Proof.
+    Der wichtigste Vertrauensbeweis ist der kostenlose Test: herunterladen, öffnen, ausprobieren,
+    entscheiden.
+  </p>
+  <p>
+    <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">Freebie kostenlos testen</a>
+    <a class="button secondary" href="{{ '/seiten/qualitaet-prinzipien.html' | relative_url }}">Prinzipien lesen</a>
+  </p>
+</section>
+
+<p class="ego-kicker">Welche Version passt?</p>
   <h2>Starte kostenlos oder nutze EGO vollständig.</h2>
 
   <div class="pricing-grid">
