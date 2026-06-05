@@ -27,8 +27,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
   </div>
 
   <div class="ego-hero-media">
-    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
-         alt="EGO Pro Dashboard mit allen Bereichen">
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit allen Bereichen"></a>
   </div>
 </section>
 
@@ -112,15 +111,13 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
     <section class="screenshot-card">
       <h3>Pro Dashboard</h3>
       <p>Alle wichtigen Bereiche und Auswertungen an einem Ort.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
-           alt="EGO Pro Dashboard">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Sparziele</h3>
       <p>Ziele, Fortschritt und Rücklagen verständlich verfolgen.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}"
-           alt="EGO Pro Sparziele">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" alt="EGO Pro Sparziele"></a>
     </section>
   </div>
 </section>

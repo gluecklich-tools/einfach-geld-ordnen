@@ -27,8 +27,7 @@ permalink: /seiten/downloads.html
   </div>
 
   <div class="ego-hero-media">
-    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
-         alt="EGO Freebie Budgetstarter">
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Budgetstarter"></a>
   </div>
 </section>
 

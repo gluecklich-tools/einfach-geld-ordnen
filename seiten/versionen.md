@@ -26,8 +26,7 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
   </div>
 
   <div class="ego-hero-media">
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
-         alt="EGO Dashboard">
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Dashboard"></a>
   </div>
 </section>
 
@@ -130,29 +129,25 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
     <section class="screenshot-card">
       <h3>Basic: Monatsüberblick</h3>
       <p>Für Haushaltsbuch, Fixkosten, Budgets und Monatsauswertung.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
-           alt="EGO Basic Dashboard">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Basic: Fixkosten</h3>
       <p>Wiederkehrende Kosten strukturiert erfassen.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}"
-           alt="EGO Basic Fixkosten">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Pro: alle Bereiche</h3>
       <p>Die Vollversion erweitert EGO auf alle 17 Bereiche.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
-           alt="EGO Pro Dashboard">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Pro: Sparziele</h3>
       <p>Ziele, Rücklagen und Fortschritt verständlich verfolgen.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}"
-           alt="EGO Pro Sparziele">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" alt="EGO Pro Sparziele"></a>
     </section>
   </div>
 </section>

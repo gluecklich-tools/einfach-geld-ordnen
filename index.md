@@ -26,8 +26,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   </div>
 
   <div class="ego-hero-media">
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
-         alt="EGO Basic Dashboard">
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard"></a>
   </div>
 </section>
 
@@ -141,29 +140,25 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
     <section class="screenshot-card">
       <h3>Haushaltsbuch testen</h3>
       <p>Der Freebie ist bewusst begrenzt und zeigt die tägliche Eingabe.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
-           alt="EGO Freebie Haushaltsbuch">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Fixkosten im Blick</h3>
       <p>Wiederkehrende Kosten wie Miete, Internet und Versicherungen ordnen.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}"
-           alt="EGO Basic Fixkosten">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Budgets steuern</h3>
       <p>Budgetgrenzen, Auslastung und Status verständlich sehen.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}"
-           alt="EGO Basic Budgets">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}" alt="EGO Basic Budgets"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Pro mit allen Bereichen</h3>
       <p>Die Vollversion erweitert EGO auf alle 17 Bereiche.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
-           alt="EGO Pro Dashboard">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard"></a>
     </section>
   </div>
 </section>

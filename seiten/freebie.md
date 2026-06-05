@@ -28,8 +28,7 @@ permalink: /seiten/freebie.html
   </div>
 
   <div class="ego-hero-media">
-    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
-         alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze"></a>
   </div>
 </section>
 
@@ -126,15 +125,13 @@ permalink: /seiten/freebie.html
     <section class="screenshot-card">
       <h3>Haushaltsbuch mit 20-Buchungen-Grenze</h3>
       <p>Der Freebie zeigt die tägliche Eingabe und ist bewusst begrenzt.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
-           alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze"></a>
     </section>
 
     <section class="screenshot-card">
       <h3>Lokale Nutzung testen</h3>
       <p>Teste Speichern, Laden und erneutes Verwenden deiner Daten-Datei.</p>
-      <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
-           alt="EGO Dashboard als Beispiel für lokale Nutzung">
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Dashboard als Beispiel für lokale Nutzung"></a>
     </section>
   </div>
 </section>

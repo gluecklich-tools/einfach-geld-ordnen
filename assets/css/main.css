@@ -500,3 +500,22 @@ main.container {
 }
 
 /* EGO_READABILITY_POLISH_END */
+
+/* EGO_SCREENSHOT_ZOOM_START */
+
+.screenshot-zoom {
+  display: block;
+  cursor: zoom-in;
+}
+
+.screenshot-zoom img {
+  display: block;
+  width: 100%;
+}
+
+.screenshot-card .screenshot-zoom:hover img,
+.ego-hero-media .screenshot-zoom:hover img {
+  filter: brightness(1.02);
+}
+
+/* EGO_SCREENSHOT_ZOOM_END */
