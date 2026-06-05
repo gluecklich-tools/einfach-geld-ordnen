@@ -37,7 +37,11 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   <div><strong>Einmalzahlung</strong><span>keine laufenden EGO-Kosten</span></div>
 </section>
 
-<section class="ego-section ego-note">
+
+<section class="ego-section">
+
+<section class="ego-section">
+  <section class="ego-section ego-note">
   <p class="ego-kicker">Kurz gesagt</p>
   <h2>EGO ist dein lokales Geldsystem ohne Cloud, Account und Abo.</h2>
   <p>
@@ -47,10 +51,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   </p>
 </section>
 
-<section class="ego-section">
-
-<section class="ego-section">
-  <p class="ego-kicker">Warum EGO Vertrauen schafft</p>
+<p class="ego-kicker">Warum EGO Vertrauen schafft</p>
   <h2>Keine Finanzshow. Ein ruhiges Werkzeug für deinen Geldalltag.</h2>
 
   <div class="feature-grid">
@@ -165,15 +166,6 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   </div>
 </section>
 
-<section class="ego-section ego-note">
-  <p class="ego-kicker">Kurz gesagt</p>
-  <h2>EGO ist dein lokales Geldsystem ohne Cloud, Account und Abo.</h2>
-  <p>
-    Du erfasst Einnahmen, Ausgaben, Fixkosten und Budgets lokal auf deinem Gerät.
-    Basic reicht für den normalen Monatsalltag. Pro ergänzt alle 17 Bereiche wie Jahresübersicht,
-    Rücklagen, Sparziele, Schulden und Planung.
-  </p>
-</section>
 
 <section class="ego-section">
   <p class="ego-kicker">Was steckt in Pro?</p>
@@ -212,15 +204,6 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   </div>
 </section>
 
-<section class="ego-section ego-note">
-  <p class="ego-kicker">Kurz gesagt</p>
-  <h2>EGO ist dein lokales Geldsystem ohne Cloud, Account und Abo.</h2>
-  <p>
-    Du erfasst Einnahmen, Ausgaben, Fixkosten und Budgets lokal auf deinem Gerät.
-    Basic reicht für den normalen Monatsalltag. Pro ergänzt alle 17 Bereiche wie Jahresübersicht,
-    Rücklagen, Sparziele, Schulden und Planung.
-  </p>
-</section>
 
 <section class="ego-section">
   <p class="ego-kicker">App-Vorschau</p>
@@ -272,36 +255,6 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
       <h3>Planung & Auswertung</h3>
       <p>Erkenne, ob dein Monat passt und wo du nachsteuern kannst.</p>
     </section>
-  </div>
-</section>
-
-
-<section class="ego-section ego-note">
-  <p class="ego-kicker">Kurz gesagt</p>
-  <h2>EGO ist dein lokales Geldsystem ohne Cloud, Account und Abo.</h2>
-  <p>
-    Du erfasst Einnahmen, Ausgaben, Fixkosten und Budgets lokal auf deinem Gerät.
-    Basic reicht für den normalen Monatsalltag. Pro ergänzt alle 17 Bereiche wie Jahresübersicht,
-    Rücklagen, Sparziele, Schulden und Planung.
-  </p>
-</section>
-
-<section class="ego-section">
-  <p class="ego-kicker">Vertrauen & Nutzung</p>
-  <h2>So ist EGO gedacht.</h2>
-
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h3>Self-Service verstehen</h3>
-      <p>EGO ist ein lokales Selbstbedienungsprodukt: herunterladen, testen, lokal nutzen – ohne Account, ohne Cloud und ohne Abo.</p>
-      <p><a class="button secondary" href="{{ '/seiten/self-service.html' | relative_url }}">Self-Service lesen</a></p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Qualität & Prinzipien</h3>
-      <p>Die wichtigsten Grundsätze: lokal, transparent, ruhig, ehrlich und ohne falsche Finanzversprechen.</p>
-      <p><a class="button secondary" href="{{ '/seiten/qualitaet-prinzipien.html' | relative_url }}">Prinzipien ansehen</a></p>
-    </div>
   </div>
 </section>
 
