@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Self-Service"
-description: "EGO ist ein lokales Selbstbedienungsprodukt: herunterladen, testen, lokal nutzen – ohne Cloud, ohne Account und ohne Abo."
+description: "EGO ist ein lokales Selbstbedienungsprodukt und persönliches Geld-Navigationssystem: herunterladen, testen, lokal nutzen – ohne Cloud, ohne Account und ohne Abo."
 permalink: /seiten/self-service.html
 ---
 
@@ -9,7 +9,7 @@ permalink: /seiten/self-service.html
   <p class="ego-kicker">Selbstbedienung statt Abo-System</p>
   <h1>EGO ist bewusst einfach gehalten.</h1>
   <p>
-    Einfach Geld ordnen ist ein lokales Selbstbedienungsprodukt. Du lädst die Datei herunter,
+    Einfach Geld ordnen ist ein lokales Selbstbedienungsprodukt und persönliches Geld-Navigationssystem. Du lädst die Datei herunter,
     testest sie auf deinem Gerät und nutzt sie ohne EGO-Cloud, ohne Account und ohne laufendes Abo.
   </p>
 </section>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "EGO Pro / Vollversion"
-description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 17 Bereichen für Haushaltsbuch, Fixkosten, Budgets, Jahresübersicht, Rücklagen, Schulden und Sparziele."
+description: "EGO Pro ist die vollständige lokale Geldsystem/Web-App mit allen 17 Bereichen für Haushaltsbuch, Fixkosten, Budgets, Jahresübersicht, Rücklagen, Schulden und Sparziele."
 ---
 
 <section class="ego-hero">
@@ -66,7 +66,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
 
     <section class="pricing-card">
       <h3>Pro Android APK</h3>
-      <p class="price">59 €</p>
+      <p class="price">39 €</p>
       <p class="price-note">Pro als Android-App-Datei.</p>
       <ul>
         <li>für Android-Smartphones und Tablets</li>

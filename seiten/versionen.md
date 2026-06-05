@@ -116,7 +116,7 @@ permalink: /seiten/versionen.html
 
     <section class="pricing-card">
       <h3>Pro Android APK</h3>
-      <p class="price">59 €</p>
+      <p class="price">39 €</p>
       <p><strong>Pro als Android-App-Datei.</strong></p>
       <ul>
         <li>für Android-Smartphones und Tablets</li>
@@ -136,7 +136,7 @@ permalink: /seiten/versionen.html
         <li>Pro PC / Vollversion</li>
         <li>Pro Android APK</li>
         <li>für Nutzung auf beiden Geräten</li>
-        <li>29 € günstiger als Einzelkauf</li>
+        <li>9 € günstiger als Einzelkauf</li>
       </ul>
       <p>{% include ego-shop-button.html product="pro_bundle" buy_label="Pro Bundle kaufen" fallback_href="/seiten/vollversion.html" fallback_label="Pro Bundle ansehen" %}</p>
     </section>

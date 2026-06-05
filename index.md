@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Einfach Geld ordnen"
-description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkosten, Budgets, Planung und Auswertung – ohne Cloud, ohne Account und ohne Abo."
+description: "EGO ist eine lokale Geldsystem/Web-App für Haushaltsbuch, Fixkosten, Budgets, Planung und Auswertung – ohne Cloud, ohne Account und ohne Abo."
 ---
 
 <section class="ego-hero">

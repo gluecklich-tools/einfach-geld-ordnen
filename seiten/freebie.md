@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "EGO Freebie Budgetstarter"
-description: "Der kostenlose Einstieg in EGO: lokale Finanz-App testen, bis zu 20 Buchungen erfassen und den Daten-Datei-Modus ausprobieren."
+description: "Der kostenlose Einstieg in EGO: lokale Geldsystem testen, bis zu 20 Buchungen erfassen und den Daten-Datei-Modus ausprobieren."
 permalink: /seiten/freebie.html
 ---
 
