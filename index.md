@@ -8,7 +8,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   <div class="ego-hero-text">
     <p class="ego-kicker">Finanzen lokal im Griff</p>
 
-    <h1>Deine Finanzen lokal im Griff.</h1>
+    <h1>Deine Finanzen<br>lokal im Griff.</h1>
 
     <p class="ego-lead">
       EGO ordnet Haushaltsbuch, Fixkosten, Budgets und Auswertung lokal auf deinem Gerät.

@@ -1206,3 +1206,115 @@ header nav a:hover,
 }
 
 /* EGO_VISUAL_POLISH_V4_END */
+
+
+/* EGO_VISUAL_POLISH_V5_START */
+
+/* Brand/Nav kräftiger */
+header strong,
+.site-header strong,
+header .site-title,
+.site-header .site-title {
+  font-size: 1.05rem !important;
+  font-weight: 950 !important;
+  letter-spacing: -0.035em;
+}
+
+header nav a,
+.site-header nav a {
+  font-size: 0.92rem !important;
+}
+
+/* Hero kontrollierter, weniger zufälliger Zeilenbruch */
+.ego-hero {
+  padding-top: clamp(2.7rem, 4.6vw, 4.7rem) !important;
+  padding-bottom: clamp(3rem, 5vw, 5rem) !important;
+}
+
+.ego-hero h1 {
+  max-width: 720px !important;
+  font-size: clamp(4rem, 6.4vw, 7.2rem) !important;
+  line-height: 0.9 !important;
+  letter-spacing: -0.075em !important;
+}
+
+.ego-hero h1 br {
+  display: block;
+}
+
+.ego-hero > div:first-child {
+  z-index: 2;
+}
+
+.ego-hero .hero-image {
+  width: min(100%, 680px) !important;
+  padding: 1.45rem !important;
+  transform: translateY(0.5rem);
+}
+
+.ego-hero .hero-image img {
+  transform: perspective(1300px) rotateY(-3deg) rotateX(1deg) scale(1.015) !important;
+}
+
+/* Trust-Strip näher an Hero, kräftiger */
+.ego-trust-strip {
+  gap: 1rem !important;
+}
+
+.ego-trust-strip div {
+  border-radius: 1.15rem !important;
+  background: rgba(255,255,255,0.92) !important;
+}
+
+/* Premium-Karten mehr Kontrast */
+.ego-premium-card {
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.98), rgba(232,242,252,0.92)) !important;
+  border-top: 3px solid rgba(10, 56, 103, 0.28) !important;
+}
+
+.ego-premium-card strong {
+  color: rgba(10, 56, 103, 0.46) !important;
+}
+
+/* EGO-Seite im Cloud-Vergleich stärker hervorheben */
+.ego-local-cloud-card.ego-win {
+  border-color: rgba(196, 143, 45, 0.68) !important;
+  background:
+    linear-gradient(145deg, rgba(255,248,230,0.98), rgba(255,255,255,0.96)) !important;
+}
+
+/* Preise ruhiger ausrichten */
+.pricing-grid-home {
+  gap: 1.35rem !important;
+}
+
+.pricing-grid-home .pricing-card {
+  box-shadow: 0 28px 75px rgba(8, 27, 54, 0.10) !important;
+}
+
+/* Screenshot-Bereich noch etwas größer */
+.screenshot-card {
+  box-shadow: 0 30px 80px rgba(8, 27, 54, 0.11) !important;
+}
+
+.screenshot-card img {
+  min-height: 250px;
+}
+
+/* Mobile */
+@media (max-width: 850px) {
+  .ego-hero h1 {
+    font-size: clamp(3.1rem, 13vw, 4.8rem) !important;
+  }
+
+  .ego-hero .hero-image {
+    transform: none;
+  }
+
+  .screenshot-card img {
+    min-height: auto;
+  }
+}
+
+/* EGO_VISUAL_POLISH_V5_END */
