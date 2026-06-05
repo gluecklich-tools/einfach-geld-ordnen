@@ -542,3 +542,49 @@ main.container {
 }
 
 /* EGO_PRICE_TABLE_END */
+
+/* EGO_PRICE_TABLE_CONTRAST_FIX_START */
+
+.ego-table-wrap {
+  background: #ffffff;
+}
+
+.ego-table-wrap .ego-price-table {
+  background: #ffffff;
+}
+
+.ego-table-wrap .ego-price-table thead tr {
+  background: #071d3a;
+}
+
+.ego-table-wrap .ego-price-table th {
+  background: #071d3a !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #1f3b63;
+}
+
+.ego-table-wrap .ego-price-table tbody tr {
+  background: #ffffff !important;
+}
+
+.ego-table-wrap .ego-price-table tbody tr:nth-child(even) {
+  background: #f7f9fc !important;
+}
+
+.ego-table-wrap .ego-price-table td {
+  background: transparent !important;
+  color: #172033 !important;
+  border-bottom: 1px solid #e5eaf2;
+}
+
+.ego-table-wrap .ego-price-table td:first-child {
+  font-weight: 800;
+  color: #071d3a !important;
+}
+
+.ego-table-wrap .ego-price-table td:last-child {
+  font-weight: 900;
+  color: #071d3a !important;
+}
+
+/* EGO_PRICE_TABLE_CONTRAST_FIX_END */
