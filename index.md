@@ -77,35 +77,84 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
   </div>
 </section>
 
+
+<section class="ego-section">
+  <p class="ego-kicker">Warum EGO anders ist</p>
+  <h2>Lokal statt ausgeliefert. Klar statt Finanzshow.</h2>
+
+  <div class="feature-grid ego-mini-icons">
+    <div class="feature-card" data-icon="🔒">
+      <h3>Deine Daten bleiben bei dir</h3>
+      <p>Keine EGO-Cloud, kein EGO-Konto und kein automatischer Bankabruf. Du speicherst deine Daten-Datei selbst.</p>
+    </div>
+
+    <div class="feature-card" data-icon="💶">
+      <h3>Einmal zahlen statt Abo</h3>
+      <p>Freebie kostenlos testen. Basic und Pro später als Einmalkauf über Digistore24.</p>
+    </div>
+
+    <div class="feature-card" data-icon="🧭">
+      <h3>Orientierung im Alltag</h3>
+      <p>Haushaltsbuch, Fixkosten, Budgets, Rücklagen, Schulden und Ziele an einem Ort.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ego-section">
+  <p class="ego-kicker">Lokal oder Cloud?</p>
+  <h2>Der Unterschied ist der Kern von EGO.</h2>
+
+  <div class="ego-compare-grid">
+    <div class="ego-compare-card">
+      <strong>Typische Cloud-App</strong>
+      <ul>
+        <li>Konto erforderlich</li>
+        <li>Daten liegen beim Anbieter</li>
+        <li>oft Abo-Modell</li>
+        <li>oft Bankanbindung im Fokus</li>
+      </ul>
+    </div>
+
+    <div class="ego-compare-card">
+      <strong>EGO</strong>
+      <ul>
+        <li>lokal nutzbar</li>
+        <li>Daten-Datei bleibt bei dir</li>
+        <li>Einmalzahlung geplant</li>
+        <li>kein Online-Banking</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Vorher / Nachher</p>
   <h2>Aus verstreuten Zahlen wird ein klarer Überblick.</h2>
 
-  <div class="feature-grid">
-    <div class="feature-card">
+  <div class="feature-grid ego-mini-icons">
+    <div class="feature-card" data-icon="🌫️">
       <h3>Vorher</h3>
-      <p>Ausgaben stehen irgendwo, Fixkosten werden geschätzt, Budgets sind unklar und Rücklagen werden vergessen.</p>
+      <p>Fixkosten werden geschätzt, Budgets sind unklar und Rücklagen verschwinden im Alltag.</p>
     </div>
 
-    <div class="feature-card">
+    <div class="feature-card" data-icon="📊">
       <h3>Nachher</h3>
       <p>Einnahmen, Ausgaben, Fixkosten, Budgets, Rücklagen, Schulden und Sparziele liegen an einem Ort.</p>
     </div>
 
-    <div class="feature-card">
-      <h3>Für den Alltag</h3>
-      <p>Basic hilft beim normalen Monatsüberblick. Pro macht daraus ein vollständiges privates Geldsystem.</p>
+    <div class="feature-card" data-icon="✅">
+      <h3>Erst testen</h3>
+      <p>Der kostenlose Freebie zeigt dir Oberfläche, Datei-Modus und Arbeitsweise vor einem Kauf.</p>
     </div>
   </div>
 </section>
 
 <section class="ego-section ego-note">
-  <p class="ego-kicker">Ehrlich statt künstlich</p>
-  <h2>Keine erfundenen Bewertungen. Keine falschen Versprechen.</h2>
+  <p class="ego-kicker">Vertrauenscheck</p>
+  <h2>Teste EGO, bevor du kaufst.</h2>
   <p>
-    EGO verkauft sich nicht über erfundene Nutzerzahlen oder künstlichen Social Proof.
-    Der wichtigste Vertrauensbeweis ist der kostenlose Test: herunterladen, öffnen, ausprobieren,
-    entscheiden.
+    Der wichtigste Vertrauensbeweis ist kein künstliches Versprechen, sondern der kostenlose Test:
+    herunterladen, öffnen, ausprobieren und dann entscheiden.
   </p>
   <p>
     <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">Freebie kostenlos testen</a>

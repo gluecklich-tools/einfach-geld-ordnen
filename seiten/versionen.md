@@ -128,9 +128,10 @@ permalink: /seiten/versionen.html
     </section>
 
     <section class="pricing-card featured">
+      <p class="plan-badge">Meist empfohlen</p>
       <h3>Pro Bundle</h3>
       <p class="price">89 €</p>
-      <p><strong>Pro PC + Android zusammen.</strong></p>
+      <p><strong>Beste Wahl, wenn du EGO auf PC und Android vollständig nutzen möchtest.</strong></p>
       <ul>
         <li>Pro PC / Vollversion</li>
         <li>Pro Android APK</li>
