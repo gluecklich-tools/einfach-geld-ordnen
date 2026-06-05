@@ -1025,3 +1025,184 @@ main {
 }
 
 /* EGO_HOME_VISUAL_POLISH_V3_END */
+
+
+/* EGO_VISUAL_POLISH_V4_START */
+
+/* Header soll nicht wie Standard-Linkleiste wirken */
+header,
+.site-header {
+  min-height: 4.8rem;
+  box-shadow: 0 10px 40px rgba(8, 27, 54, 0.04);
+}
+
+header nav,
+.site-header nav {
+  align-items: center;
+}
+
+header a,
+.site-header a {
+  font-weight: 750;
+}
+
+header nav a,
+.site-header nav a {
+  padding: 0.45rem 0.55rem;
+  border-radius: 999px;
+}
+
+header nav a:hover,
+.site-header nav a:hover {
+  background: rgba(10, 56, 103, 0.07);
+  text-decoration: none;
+}
+
+/* Hero stärker als Produktbühne */
+.ego-hero {
+  grid-template-columns: minmax(0, 0.88fr) minmax(420px, 1.12fr) !important;
+  gap: clamp(2.2rem, 5vw, 6rem) !important;
+}
+
+.ego-hero h1 {
+  max-width: 11ch;
+  text-wrap: balance;
+}
+
+.ego-hero .hero-image {
+  width: min(100%, 590px);
+  margin-left: auto;
+  padding: 1.35rem;
+}
+
+.ego-hero .hero-image::after {
+  content: "Lokales Dashboard";
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1.2rem;
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(7, 29, 54, 0.88);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+}
+
+/* Trust-Strip etwas wertiger */
+.ego-trust-strip div {
+  min-height: 76px;
+  padding: 1rem 1.15rem !important;
+}
+
+.ego-trust-strip strong {
+  font-size: 0.96rem;
+}
+
+.ego-trust-strip span {
+  color: #263955 !important;
+  opacity: 1 !important;
+}
+
+/* Premium-Karten stärker visuell */
+.ego-premium-card {
+  padding: 1.9rem !important;
+}
+
+.ego-premium-card strong {
+  color: rgba(10, 56, 103, 0.32);
+  font-size: 2.35rem !important;
+  font-weight: 950;
+}
+
+.ego-premium-card h3 {
+  letter-spacing: -0.025em;
+}
+
+/* Vergleich optisch klarer */
+.ego-local-cloud-card {
+  min-height: 185px;
+}
+
+.ego-local-cloud-card.ego-win {
+  transform: translateY(-4px);
+  box-shadow: 0 32px 85px rgba(8, 27, 54, 0.14);
+}
+
+/* Startseiten-Preiskarten hochwertiger */
+.pricing-grid-home .pricing-card {
+  border-radius: 1.6rem !important;
+  padding: 1.65rem !important;
+}
+
+.pricing-grid-home .pricing-card.featured {
+  transform: translateY(-8px);
+}
+
+/* Screenshot-Bereich als echte Produktgalerie */
+.screenshot-grid {
+  gap: clamp(1.4rem, 3vw, 2.4rem) !important;
+}
+
+.screenshot-card {
+  padding: 1.05rem 1.05rem 1.25rem !important;
+  border-radius: 1.75rem !important;
+}
+
+.screenshot-card h3 {
+  font-size: 1.08rem;
+  letter-spacing: -0.02em;
+}
+
+.screenshot-card p {
+  min-height: 2.2rem;
+}
+
+.screenshot-card img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top left;
+  border-radius: 1.12rem !important;
+  transition: transform 180ms ease;
+}
+
+.screenshot-card:hover img {
+  transform: scale(1.015);
+}
+
+/* Untere Hinweisbox weniger schwer */
+.ego-section.ego-note:last-of-type {
+  margin-bottom: 5rem;
+}
+
+/* Desktop-Breite besser nutzen */
+@media (min-width: 1100px) {
+  main {
+    max-width: 1220px !important;
+  }
+}
+
+/* Mobile sauber */
+@media (max-width: 850px) {
+  .ego-hero {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ego-hero h1 {
+    max-width: 100%;
+  }
+
+  .ego-hero .hero-image {
+    width: 100%;
+  }
+
+  .ego-hero .hero-image::after {
+    display: none;
+  }
+
+  .pricing-grid-home .pricing-card.featured {
+    transform: none;
+  }
+}
+
+/* EGO_VISUAL_POLISH_V4_END */
