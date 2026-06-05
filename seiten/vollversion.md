@@ -84,7 +84,12 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
 
 <section class="ego-section">
   <p class="ego-kicker">Vollständiger Umfang</p>
-  <h2>Diese 17 Bereiche sind in EGO Pro enthalten.</h2>
+  <h2>Die wichtigsten Pro-Bereiche auf einen Blick.</h2>
+
+  <p class="ego-lead">
+    EGO Pro umfasst alle 17 Bereiche. Hier siehst du die wichtigsten Kernbereiche
+    für deinen privaten Geldüberblick.
+  </p>
 
   <div class="ego-feature-grid">
     <section><h3>Haushaltsbuch</h3><p>Einnahmen und Ausgaben erfassen.</p></section>
@@ -120,8 +125,22 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
   </div>
 </section>
 
+<section class="ego-section ego-note">
+  <h2>Bereit für die Vollversion?</h2>
+
+  <p>
+    Wenn du EGO vollständig nutzen möchtest, ist Pro die richtige Version.
+    Für PC, Android oder als Bundle.
+  </p>
+
+  <p>
+    <a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Pro-Versionen ansehen</a>
+    <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">Versionen vergleichen</a>
+  </p>
+</section>
 <section class="ego-section">
   <p class="ego-kicker">Basic oder Pro?</p>
+
   <h2>Pro ist für das vollständige System gedacht.</h2>
 
   <div class="ego-feature-grid">
