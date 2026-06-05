@@ -52,7 +52,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>lokaler Datei-Modus</li>
         <li>vollständiger Pro-Umfang</li>
       </ul>
-      <p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Pro PC ansehen</a></p>
+      <p>{% include ego-shop-button.html product="pro_pc" buy_label="Pro PC kaufen" fallback_href="/seiten/downloads.html" fallback_label="Pro PC ansehen" %}</p>
     </section>
 
     <section class="pricing-card">
@@ -64,7 +64,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>APK-Datei</li>
         <li>vollständiger Pro-Umfang</li>
       </ul>
-      <p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Pro Android ansehen</a></p>
+      <p>{% include ego-shop-button.html product="pro_android" buy_label="Pro Android kaufen" fallback_href="/seiten/downloads.html" fallback_label="Pro Android ansehen" %}</p>
     </section>
 
     <section class="pricing-card featured">
@@ -76,7 +76,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>Pro Android APK</li>
         <li>für Nutzung auf beiden Geräten</li>
       </ul>
-      <p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Bundle ansehen</a></p>
+      <p>{% include ego-shop-button.html product="pro_bundle" buy_label="Pro Bundle kaufen" fallback_href="/seiten/downloads.html" fallback_label="Bundle ansehen" %}</p>
     </section>
   </div>
 </section>
@@ -152,9 +152,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>für einfache private Ordnung</li>
       </ul>
       <p>
-        <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Basic vergleichen
-        </a>
+        {% include ego-shop-button.html product="basic_pc" buy_label="Basic kaufen" fallback_href="/seiten/versionen.html" fallback_label="Basic vergleichen" secondary="true" %}
       </p>
     </section>
 
@@ -170,9 +168,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>Sparziele</li>
       </ul>
       <p>
-        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Pro-Versionen vergleichen
-        </a>
+        {% include ego-shop-button.html product="pro_pc" buy_label="Pro kaufen" fallback_href="/seiten/versionen.html" fallback_label="Pro-Versionen vergleichen" %}
       </p>
     </section>
 
@@ -186,9 +182,7 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
         <li>vollständiger Pro-Umfang</li>
       </ul>
       <p>
-        <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Bundle vergleichen
-        </a>
+        {% include ego-shop-button.html product="pro_bundle" buy_label="Pro Bundle kaufen" fallback_href="/seiten/versionen.html" fallback_label="Bundle vergleichen" secondary="true" %}
       </p>
     </section>
   </div>
