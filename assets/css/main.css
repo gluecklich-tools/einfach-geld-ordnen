@@ -459,3 +459,44 @@ main.container {
 }
 
 /* EGO_LANDING_SCALE_END */
+
+/* EGO_READABILITY_POLISH_START */
+
+.pricing-card p,
+.pricing-card li,
+.screenshot-card p,
+.ego-feature-grid p,
+.ego-note p,
+.ego-trust-strip span {
+  color: #344155;
+}
+
+.pricing-card h3,
+.screenshot-card h3,
+.ego-feature-grid h3 {
+  color: #071d3a;
+}
+
+.pricing-card li {
+  margin-bottom: 0.42rem;
+}
+
+.ego-note {
+  color: #172033;
+}
+
+.ego-note p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.screenshot-card p {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.ego-feature-grid section {
+  min-height: 138px;
+}
+
+/* EGO_READABILITY_POLISH_END */
