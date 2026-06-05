@@ -570,3 +570,34 @@ main hr {
 }
 
 /* EGO_LEGAL_READABILITY_FIX_END */
+
+
+/* EGO_NAV_FOOTER_LINK_FIX_START */
+
+.site-nav,
+nav,
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.site-nav a,
+nav a,
+header nav a {
+  display: inline-flex;
+  margin-right: 0 !important;
+  white-space: nowrap;
+}
+
+.footer-trust-links {
+  margin: 0 0 0.7rem 0;
+}
+
+.footer-trust-links a,
+.footer-trust-links span {
+  font-size: 0.95rem;
+}
+
+/* EGO_NAV_FOOTER_LINK_FIX_END */
