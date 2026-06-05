@@ -26,7 +26,7 @@ description: "EGO ist eine lokale Geldsystem/Web-App für Haushaltsbuch, Fixkost
   </div>
 
   <div class="ego-hero-media">
-    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard"></a>
+    <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/ego-start-cockpit-v2.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/ego-start-cockpit-v2.png' | relative_url }}" alt="EGO Basic Dashboard"></a>
   </div>
 </section>
 
@@ -211,7 +211,7 @@ description: "EGO ist eine lokale Geldsystem/Web-App für Haushaltsbuch, Fixkost
     <section class="screenshot-card">
       <h3>Pro mit allen Bereichen</h3>
       <p>Die Vollversion erweitert EGO auf alle 17 Bereiche.</p>
-      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard"></a>
+      <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/ego-start-cockpit-v2.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/ego-start-cockpit-v2.png' | relative_url }}" alt="EGO Pro Dashboard"></a>
     </section>
   </div>
 </section>
