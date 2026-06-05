@@ -70,9 +70,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
         <li>Budgets und Auswertung</li>
       </ul>
       <p>
-        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Basic wählen
-        </a>
+        {% include ego-shop-button.html product="basic_pc" buy_label="Basic kaufen" fallback_href="/seiten/versionen.html" fallback_label="Basic wählen" %}
       </p>
     </section>
 
@@ -87,9 +85,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
         <li>Sparziele, Rücklagen, Schulden</li>
       </ul>
       <p>
-        <a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">
-          Pro wählen
-        </a>
+        {% include ego-shop-button.html product="pro_pc" buy_label="Pro kaufen" fallback_href="/seiten/vollversion.html" fallback_label="Pro wählen" %}
       </p>
     </section>
   </div>
