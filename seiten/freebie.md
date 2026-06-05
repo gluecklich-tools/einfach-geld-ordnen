@@ -71,9 +71,7 @@ permalink: /seiten/freebie.html
         <li>Budgets und Auswertung</li>
       </ul>
       <p>
-        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Basic vergleichen
-        </a>
+        {% include ego-shop-button.html product="basic_pc" buy_label="Basic kaufen" fallback_href="/seiten/versionen.html" fallback_label="Basic vergleichen" %}
       </p>
     </section>
 
@@ -87,9 +85,7 @@ permalink: /seiten/freebie.html
         <li>Rücklagen, Schulden, Sparziele</li>
       </ul>
       <p>
-        <a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">
-          Pro ansehen
-        </a>
+        {% include ego-shop-button.html product="pro_pc" buy_label="Pro kaufen" fallback_href="/seiten/vollversion.html" fallback_label="Pro ansehen" %}
       </p>
     </section>
   </div>
