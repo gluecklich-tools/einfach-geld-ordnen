@@ -4,126 +4,167 @@ title: "Einfach Geld ordnen"
 description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkosten, Budgets, Planung und Auswertung – ohne Cloud, ohne Account und ohne Abo."
 ---
 
-# Einfach Geld ordnen – lokal, klar und ohne Cloud
+<section class="ego-hero">
+  <div class="ego-hero-text">
+    <p class="ego-kicker">Lokale Finanz-App ohne Cloud</p>
 
-EGO ist eine lokale Finanz-App/Web-App für Menschen, die ihre Einnahmen, Ausgaben, Fixkosten, Budgets und Monatsplanung ruhig und verständlich ordnen möchten.
+    <h1>EGO – Einfach Geld ordnen</h1>
 
-Du brauchst keinen Account.
-Du brauchst keine Cloud.
-Du brauchst kein Abo.
-Deine Daten bleiben bei dir.
+    <p class="ego-lead">
+      Haushaltsbuch, Fixkosten, Budgets und Auswertung in einer
+      lokalen App. Ohne Account. Ohne Abo. Ohne Bankverbindung.
+    </p>
 
-EGO läuft lokal im Browser oder auf Android. Deine Daten kannst du als Excel-Datei speichern und später wieder laden. So kannst du auch zwischen PC und Android mit derselben Datei arbeiten.
+    <div class="ego-hero-actions">
+      <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">
+        Freebie testen
+      </a>
+      <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
+        Versionen vergleichen
+      </a>
+    </div>
+  </div>
 
-[Kostenlos testen]({{ '/seiten/downloads.html' | relative_url }})
-[Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
+  <div class="ego-hero-media">
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
+         alt="EGO Basic Dashboard">
+  </div>
+</section>
 
----
+<section class="ego-trust-strip">
+  <div><strong>Lokal</strong><span>keine EGO-Cloud</span></div>
+  <div><strong>Datei-Modus</strong><span>speichern und laden</span></div>
+  <div><strong>PC & Android</strong><span>per Datei nutzbar</span></div>
+  <div><strong>Einmalzahlung</strong><span>kein Abo</span></div>
+</section>
 
-## Welche Version passt zu dir?
+<section class="ego-section">
+  <p class="ego-kicker">Welche Version passt?</p>
+  <h2>Starte kostenlos oder nutze EGO vollständig.</h2>
 
-<div class="pricing-grid">
-<div class="pricing-card">
-<h3>Freebie Budgetstarter</h3>
-<p class="price">0 €</p>
-<p>Kostenloser Einstieg zum Testen. Maximal 20 Buchungen.</p>
-<p><a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">Freebie ansehen</a></p>
-</div>
-<div class="pricing-card featured">
-<h3>Basic</h3>
-<p class="price">ab 29 €</p>
-<p>Für Haushaltsbuch, Fixkosten, Budgets, Planung und Monatsauswertung.</p>
-<p><a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">Basic ansehen</a></p>
-</div>
-<div class="pricing-card">
-<h3>Pro / Vollversion</h3>
-<p class="price">ab 59 €</p>
-<p>Alle 17 Bereiche für vollständige private Finanzordnung.</p>
-<p><a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">Pro ansehen</a></p>
-</div>
-</div>
+  <div class="pricing-grid">
+    <section class="pricing-card">
+      <h3>Freebie</h3>
+      <p class="price">0 €</p>
+      <p>Zum Testen und Kennenlernen.</p>
+      <ul>
+        <li>Budgetstarter</li>
+        <li>maximal 20 Buchungen</li>
+        <li>lokaler Datei-Modus</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">
+          Kostenlos starten
+        </a>
+      </p>
+    </section>
 
----
+    <section class="pricing-card">
+      <h3>Basic</h3>
+      <p class="price">ab 29 €</p>
+      <p>Für den normalen Monatsalltag.</p>
+      <ul>
+        <li>Haushaltsbuch</li>
+        <li>Fixkosten</li>
+        <li>Budgets und Auswertung</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
+          Basic ansehen
+        </a>
+      </p>
+    </section>
 
-## Kurz erklärt
+    <section class="pricing-card featured">
+      <h3>Pro / Vollversion</h3>
+      <p class="price">ab 59 €</p>
+      <p>Für dein vollständiges privates Geldsystem.</p>
+      <ul>
+        <li>alle 17 Bereiche</li>
+        <li>Jahresübersicht</li>
+        <li>Sparziele, Rücklagen, Schulden</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">
+          Pro ansehen
+        </a>
+      </p>
+    </section>
+  </div>
+</section>
 
-- Freebie Budgetstarter: 0 €, maximal 20 Buchungen
-- Basic PC: 29 €
-- Basic Android APK: 29 €
-- Basic Bundle PC + Android: 39 €
-- Pro PC / Vollversion: 59 €
-- Pro Android APK: 59 €
-- Pro Bundle PC + Android: 89 €
+<section class="ego-section">
+  <p class="ego-kicker">App-Vorschau</p>
+  <h2>So sieht EGO aus.</h2>
 
-Keine Cloud. Kein Account. Kein Abo. Kein Server. Keine automatische Synchronisierung.
+  <div class="screenshot-grid">
+    <section class="screenshot-card">
+      <h3>Haushaltsbuch testen</h3>
+      <p>Der Freebie ist bewusst begrenzt und zeigt die tägliche Eingabe.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
+           alt="EGO Freebie Haushaltsbuch">
+    </section>
 
-[Alle Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
+    <section class="screenshot-card">
+      <h3>Fixkosten im Blick</h3>
+      <p>Wiederkehrende Kosten wie Miete, Internet und Versicherungen ordnen.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}"
+           alt="EGO Basic Fixkosten">
+    </section>
 
-<!-- EGO_CHROMEBOOK_HINT_START -->
----
+    <section class="screenshot-card">
+      <h3>Budgets steuern</h3>
+      <p>Budgetgrenzen, Auslastung und Status verständlich sehen.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}"
+           alt="EGO Basic Budgets">
+    </section>
 
-## Hinweis zu Chromebook
+    <section class="screenshot-card">
+      <h3>Pro mit allen Bereichen</h3>
+      <p>Die Vollversion erweitert EGO auf alle 17 Bereiche.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
+           alt="EGO Pro Dashboard">
+    </section>
+  </div>
+</section>
 
-Die PC/Web-Version von EGO kann auf einem Chromebook im Chrome-Browser funktionieren, sollte aber vor dem Kauf mit dem kostenlosen Freebie getestet werden.
+<section class="ego-section ego-why">
+  <p class="ego-kicker">Warum EGO?</p>
+  <h2>Für Menschen, die ihr Geld ruhig und lokal ordnen wollen.</h2>
 
-Wichtig ist nicht nur, ob die Oberfläche startet, sondern auch:
+  <div class="ego-feature-grid">
+    <section>
+      <h3>Einnahmen & Ausgaben</h3>
+      <p>Trage ein, was reinkommt und rausgeht. Ohne Online-Banking.</p>
+    </section>
 
-- ZIP-Datei entpacken
-- Startdatei öffnen
-- Daten speichern
-- Excel-Datei wieder laden
-- Datei später erneut verwenden
+    <section>
+      <h3>Fixkosten & Budgets</h3>
+      <p>Sieh, was monatlich fest weggeht und wo dein Rahmen liegt.</p>
+    </section>
 
-Die Android-APK ist in erster Linie für Android-Smartphones und Android-Tablets gedacht. Die Nutzung auf Chromebooks wird aktuell nicht offiziell beworben, weil APK-Installation und Dateizugriff je nach Chromebook unterschiedlich sein können.
+    <section>
+      <h3>Planung & Auswertung</h3>
+      <p>Erkenne, ob dein Monat passt und wo du nachsteuern kannst.</p>
+    </section>
+  </div>
+</section>
 
-Empfehlung: Auf Chromebook zuerst den kostenlosen Freebie Budgetstarter testen.
-<!-- EGO_CHROMEBOOK_HINT_END -->
+<section class="ego-section ego-note">
+  <h2>Wichtige Hinweise</h2>
 
-<!-- EGO_LINUX_HINT_START -->
----
+  <p>
+    EGO ist ein Selbstbedienungsprodukt. Es ist keine Finanzberatung,
+    keine Steuerberatung und kein Online-Banking.
+  </p>
 
-## Hinweis zu Linux
+  <p>
+    Die PC/Web-Version kann auf Chromebook oder Linux funktionieren,
+    sollte dort aber zuerst mit dem kostenlosen Freebie getestet werden.
+  </p>
 
-Die PC/Web-Version von EGO kann auch unter Linux funktionieren, wenn ein aktueller Browser genutzt wird und lokale Dateien sauber geöffnet, gespeichert und wieder geladen werden können.
-
-EGO wird aktuell nicht als eigene Linux-App mit Installer bereitgestellt. Es gibt kein separates Linux-Paket, kein AppImage und keine Paketverwaltung-Installation.
-
-Wichtig vor dem Kauf:
-
-- ZIP-Datei entpacken
-- die Startdatei im Browser öffnen
-- Daten speichern
-- Excel-Datei wieder laden
-- Datei später erneut verwenden
-
-Empfehlung: Unter Linux zuerst den kostenlosen Freebie Budgetstarter testen.
-<!-- EGO_LINUX_HINT_END -->
-
-<!-- EGO_SCREENSHOTS_HOME_START -->
----
-
-## Ein Blick in EGO
-
-<div class="screenshot-grid">
-  <section class="screenshot-card">
-    <h3>Freebie testen</h3>
-    <p>Der Budgetstarter zeigt die tägliche Eingabe und die 20-Buchungen-Grenze.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit Budgetstarter-Grenze">
-  </section>
-  <section class="screenshot-card">
-    <h3>Basic im Alltag</h3>
-    <p>Basic zeigt Einnahmen, Ausgaben, Saldo, Sparquote, Budgetstatus und Monatsentwicklung.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard">
-  </section>
-  <section class="screenshot-card">
-    <h3>Fixkosten im Blick</h3>
-    <p>Wiederkehrende Kosten wie Miete, Internet, Versicherung und Handy übersichtlich erfassen.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten">
-  </section>
-  <section class="screenshot-card">
-    <h3>Pro mit allen Bereichen</h3>
-    <p>Die Vollversion erweitert EGO auf das vollständige private Finanzsystem.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit allen Bereichen">
-  </section>
-</div>
-<!-- EGO_SCREENSHOTS_HOME_END -->
+  <p>
+    Die Android-Version wird als APK bereitgestellt. iOS wird aktuell
+    nicht angeboten.
+  </p>
+</section>

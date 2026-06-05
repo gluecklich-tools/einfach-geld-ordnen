@@ -145,3 +145,159 @@ a.button:hover {
 }
 
 /* EGO_SCREENSHOT_GALLERY_END */
+
+/* EGO_LANDING_PREMIUM_START */
+
+:root {
+  --ego-blue: #071d3a;
+  --ego-blue-soft: #102f57;
+  --ego-gold: #c8a24a;
+  --ego-bg: #f3f6fa;
+  --ego-text: #172033;
+  --ego-muted: #5b6575;
+  --ego-card: #ffffff;
+  --ego-border: #d8dee9;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, #e8eef7 0, transparent 34rem),
+    var(--ego-bg);
+  color: var(--ego-text);
+}
+
+main.container {
+  max-width: 1180px;
+}
+
+.ego-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem 0 2rem;
+}
+
+.ego-kicker {
+  color: var(--ego-gold);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  margin-bottom: 0.7rem;
+}
+
+.ego-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1;
+  color: var(--ego-blue);
+  margin: 0 0 1rem;
+}
+
+.ego-lead {
+  font-size: 1.18rem;
+  line-height: 1.65;
+  color: var(--ego-muted);
+  max-width: 42rem;
+}
+
+.ego-hero-actions {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  margin-top: 1.6rem;
+}
+
+.button.secondary {
+  background: #ffffff;
+  color: var(--ego-blue) !important;
+  border: 1px solid var(--ego-border);
+}
+
+.ego-hero-media {
+  background: linear-gradient(145deg, #ffffff, #eaf0f8);
+  border: 1px solid var(--ego-border);
+  border-radius: 28px;
+  padding: 1rem;
+  box-shadow: 0 24px 70px rgba(7, 29, 58, 0.16);
+}
+
+.ego-hero-media img,
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
+.ego-trust-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 3rem;
+}
+
+.ego-trust-strip div,
+.ego-feature-grid section,
+.pricing-card,
+.screenshot-card,
+.ego-note {
+  background: var(--ego-card);
+  border: 1px solid var(--ego-border);
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(7, 29, 58, 0.07);
+}
+
+.ego-trust-strip div {
+  padding: 1rem;
+}
+
+.ego-trust-strip strong {
+  display: block;
+  color: var(--ego-blue);
+}
+
+.ego-trust-strip span {
+  color: var(--ego-muted);
+}
+
+.ego-section {
+  margin: 3.5rem 0;
+}
+
+.ego-section h2 {
+  color: var(--ego-blue);
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.4rem;
+}
+
+.ego-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.ego-feature-grid section,
+.ego-note {
+  padding: 1.4rem;
+}
+
+.ego-note {
+  background: #fffaf0;
+  border-color: #ead7a3;
+}
+
+@media (max-width: 900px) {
+  .ego-hero,
+  .ego-trust-strip,
+  .ego-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ego-hero {
+    padding-top: 1.5rem;
+  }
+}
+
+/* EGO_LANDING_PREMIUM_END */
