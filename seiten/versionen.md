@@ -63,7 +63,7 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
         <li>Basic Android APK: 29 €</li>
         <li>Basic Bundle PC + Android: 39 €</li>
       </ul>
-      <p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Basic ansehen</a></p>
+      <p>{% include ego-shop-button.html product="basic_pc" buy_label="Basic kaufen" fallback_href="/seiten/downloads.html" fallback_label="Basic ansehen" %}</p>
     </section>
 
     <section class="pricing-card featured">
@@ -75,7 +75,7 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
         <li>Pro Android APK: 59 €</li>
         <li>Pro Bundle PC + Android: 89 €</li>
       </ul>
-      <p><a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">Pro ansehen</a></p>
+      <p>{% include ego-shop-button.html product="pro_pc" buy_label="Pro kaufen" fallback_href="/seiten/vollversion.html" fallback_label="Pro ansehen" %}</p>
     </section>
   </div>
 </section>
