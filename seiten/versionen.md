@@ -1,190 +1,173 @@
 ---
 layout: default
 title: "EGO Versionen & Preise"
-description: "Alle EGO-Versionen im Überblick: Freebie Budgetstarter, Basic, Pro, Android APK und PC+Android Bundles."
-permalink: /seiten/versionen.html
+description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne Cloud, ohne Account und ohne Abo."
 ---
 
-# EGO Versionen & Preise
+<section class="ego-hero">
+  <div class="ego-hero-text">
+    <p class="ego-kicker">Versionen & Preise</p>
 
-EGO ist eine lokale Finanz-App/Web-App mit Excel-Datei-Datenmodus.
+    <h1>Welche EGO-Version passt zu dir?</h1>
 
-Du nutzt EGO ohne Cloud, ohne Account, ohne Abo und ohne Serverpflicht. Deine Daten bleiben bei dir. Du kannst deine Daten als Excel-Datei speichern und später wieder laden. PC und Android können über diese Datei Daten austauschen.
+    <p class="ego-lead">
+      Starte kostenlos mit dem Freebie, nutze Basic für den normalen Monatsalltag
+      oder Pro als vollständiges privates Geldsystem mit allen 17 Bereichen.
+    </p>
 
-## Kurz gesagt
+    <div class="ego-hero-actions">
+      <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">
+        Freebie kostenlos testen
+      </a>
+      <a class="button secondary" href="{{ '/seiten/vollversion.html' | relative_url }}">
+        Pro ansehen
+      </a>
+    </div>
+  </div>
 
-| Version | Für wen? | Preis |
-|---|---|---:|
-| Freebie Budgetstarter | kostenlos testen | 0 € |
-| Basic PC | Monatsalltag am PC ordnen | 29 € |
-| Basic Android APK | Basic auf Android nutzen | 29 € |
-| Basic Bundle | Basic für PC + Android | 39 € |
-| Pro PC / Vollversion | alle 17 Bereiche am PC nutzen | 59 € |
-| Pro Android APK | Pro auf Android nutzen | 59 € |
-| Pro Bundle | Pro für PC + Android | 89 € |
+  <div class="ego-hero-media">
+    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
+         alt="EGO Dashboard">
+  </div>
+</section>
 
----
+<section class="ego-trust-strip">
+  <div><strong>Freebie</strong><span>0 €, maximal 20 Buchungen</span></div>
+  <div><strong>Basic</strong><span>ab 29 € für den Monatsalltag</span></div>
+  <div><strong>Pro</strong><span>ab 59 € mit allen 17 Bereichen</span></div>
+  <div><strong>Bundle</strong><span>PC + Android kombinieren</span></div>
+</section>
 
-## Welche Version passt zu dir?
+<section class="ego-section">
+  <p class="ego-kicker">Schnelle Entscheidung</p>
+  <h2>So findest du die passende Version.</h2>
 
-### Kostenlos testen: Freebie Budgetstarter
+  <div class="pricing-grid">
+    <section class="pricing-card">
+      <h3>Freebie Budgetstarter</h3>
+      <p class="price">0 €</p>
+      <p class="price-note">Kostenlos testen mit maximal 20 Buchungen.</p>
+      <ul>
+        <li>zum Kennenlernen</li>
+        <li>lokaler Datei-Modus</li>
+        <li>bewusst begrenzter Umfang</li>
+      </ul>
+      <p><a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">Freebie testen</a></p>
+    </section>
 
-Der Freebie Budgetstarter ist der kostenlose Einstieg in EGO.
+    <section class="pricing-card">
+      <h3>Basic</h3>
+      <p class="price">ab 29 €</p>
+      <p class="price-note">Für Haushaltsbuch, Fixkosten und Budgets.</p>
+      <ul>
+        <li>Basic PC: 29 €</li>
+        <li>Basic Android APK: 29 €</li>
+        <li>Basic Bundle PC + Android: 39 €</li>
+      </ul>
+      <p><a class="button" href="{{ '/seiten/downloads.html' | relative_url }}">Basic ansehen</a></p>
+    </section>
 
-Er ist auf maximal 20 Buchungen begrenzt und zeigt dir, wie EGO funktioniert. Er ist bewusst kein Ersatz für die Bezahlversionen.
+    <section class="pricing-card featured">
+      <h3>Pro / Vollversion</h3>
+      <p class="price">ab 59 €</p>
+      <p class="price-note">Für das vollständige private Geldsystem.</p>
+      <ul>
+        <li>Pro PC / Vollversion: 59 €</li>
+        <li>Pro Android APK: 59 €</li>
+        <li>Pro Bundle PC + Android: 89 €</li>
+      </ul>
+      <p><a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">Pro ansehen</a></p>
+    </section>
+  </div>
+</section>
 
-**Enthalten:**
+<section class="ego-section">
+  <p class="ego-kicker">Preisübersicht</p>
+  <h2>Alle Versionen auf einen Blick.</h2>
 
-- lokale Einstiegsversion
-- bis zu 20 Buchungen
-- Datei speichern
-- Datei laden
-- Excel-Datei-Datenmodus
+  | Version | Inhalt | Preis |
+  |---|---:|---:|
+  | Freebie Budgetstarter | kostenlos testen, maximal 20 Buchungen | 0 € |
+  | Basic PC | Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung | 29 € |
+  | Basic Android APK | Basic als Android-App-Datei | 29 € |
+  | Basic Bundle | Basic PC + Android APK | 39 € |
+  | Pro PC / Vollversion | alle 17 Bereiche | 59 € |
+  | Pro Android APK | Pro als Android-App-Datei | 59 € |
+  | Pro Bundle | Pro PC + Android APK | 89 € |
+</section>
 
-**Preis:** 0 €
+<section class="ego-section">
+  <p class="ego-kicker">App-Vorschau</p>
+  <h2>Basic und Pro im Vergleich.</h2>
 
-[Kostenlos starten]({{ '/seiten/downloads.html' | relative_url }})
+  <div class="screenshot-grid">
+    <section class="screenshot-card">
+      <h3>Basic: Monatsüberblick</h3>
+      <p>Für Haushaltsbuch, Fixkosten, Budgets und Monatsauswertung.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
+           alt="EGO Basic Dashboard">
+    </section>
 
----
+    <section class="screenshot-card">
+      <h3>Basic: Fixkosten</h3>
+      <p>Wiederkehrende Kosten strukturiert erfassen.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}"
+           alt="EGO Basic Fixkosten">
+    </section>
 
-### Einfach starten: EGO Basic
+    <section class="screenshot-card">
+      <h3>Pro: alle Bereiche</h3>
+      <p>Die Vollversion erweitert EGO auf alle 17 Bereiche.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}"
+           alt="EGO Pro Dashboard">
+    </section>
 
-EGO Basic ist die bezahlte Basisversion für den normalen Monatsalltag.
+    <section class="screenshot-card">
+      <h3>Pro: Sparziele</h3>
+      <p>Ziele, Rücklagen und Fortschritt verständlich verfolgen.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}"
+           alt="EGO Pro Sparziele">
+    </section>
+  </div>
+</section>
 
-Basic hilft dir, Einnahmen, Ausgaben, Fixkosten, Budgets, Planung und Monatsauswertung an einem Ort zu ordnen.
+<section class="ego-section">
+  <p class="ego-kicker">Empfehlung</p>
+  <h2>Welche Version solltest du nehmen?</h2>
 
-**Enthalten:**
+  <div class="ego-feature-grid">
+    <section>
+      <h3>Erst testen</h3>
+      <p>Wenn du EGO noch nicht kennst, starte mit dem kostenlosen Freebie.</p>
+    </section>
 
-- Haushaltsbuch
-- Fixkosten
-- Budgets
-- Planung
-- Monatsauswertung
-- Datei speichern / Datei laden
-- Excel-Datei-Datenmodus
+    <section>
+      <h3>Monatsalltag ordnen</h3>
+      <p>Wenn du Haushaltsbuch, Fixkosten und Budgets brauchst, reicht Basic.</p>
+    </section>
 
-**Nicht enthalten:**
+    <section>
+      <h3>Vollständig arbeiten</h3>
+      <p>Wenn du Rücklagen, Schulden, Sparziele und Jahresübersicht willst, nimm Pro.</p>
+    </section>
+  </div>
+</section>
 
-- nicht alle 17 Pro-Bereiche
-- keine vollständige Jahresstruktur
-- keine Pro-Auswertungen
-- keine Schulden-/Sparziel-/Rücklagen-Tiefe wie in Pro
+<section class="ego-section ego-note">
+  <h2>Wichtige Hinweise</h2>
 
-| Basic-Produkt | Inhalt | Preis |
-|---|---|---:|
-| Basic PC | Basic für PC/lokalen Browser | 29 € |
-| Basic Android APK | Basic als Android-APK | 29 € |
-| Basic Bundle | Basic PC + Basic Android APK | 39 € |
+  <p>
+    EGO ist ein Selbstbedienungsprodukt. Es ist keine Finanzberatung,
+    keine Steuerberatung und kein Online-Banking.
+  </p>
 
-**Hinweis:** Die Basic Android APK ist als Produktlinie vorgesehen und wird separat erstellt. Sie sollte erst verkauft werden, wenn sie final gebaut und geprüft ist.
+  <p>
+    EGO nutzt keine EGO-Cloud, keinen EGO-Account und kein Abo.
+    Daten werden lokal genutzt und per Datei gespeichert beziehungsweise geladen.
+  </p>
 
----
-
-### Komplett ordnen: EGO Pro / Vollversion
-
-EGO Pro ist die Vollversion und das Hauptprodukt.
-
-Pro ist für Menschen gedacht, die nicht nur einzelne Ausgaben eintragen möchten, sondern ihr gesamtes privates Geldsystem ordnen wollen.
-
-**Enthalten:**
-
-- alle 17 Bereiche
-- Haushaltsbuch
-- Fixkosten
-- Budgets
-- Planung
-- Monatsauswertung
-- Jahresübersicht
-- Rücklagen
-- Notgroschen
-- Sparziele
-- Schulden
-- vollständiger Datei-Datenmodus
-
-| Pro-Produkt | Inhalt | Preis |
-|---|---|---:|
-| Pro PC / Vollversion | alle 17 Bereiche für PC/lokalen Browser | 59 € |
-| Pro Android APK | Pro als Android-APK | 59 € |
-| Pro Bundle | Pro PC + Pro Android APK | 89 € |
-
-[Pro ansehen]({{ '/seiten/vollversion.html' | relative_url }})
-
----
-
-## PC, Android und Datenaustausch
-
-EGO arbeitet lokal.
-
-Du speicherst deine Daten als Datei und kannst diese Datei später wieder laden. So kannst du deine Daten auch zwischen PC und Android übertragen.
-
-Wichtig: Es gibt keine automatische Cloud-Synchronisierung.
-
-Das bedeutet:
-
-- keine Anmeldung
-- keine Cloud-Pflicht
-- kein Serverkonto
-- kein Abo
-- keine automatische Datenübertragung im Hintergrund
-
-Du entscheidest selbst, wo deine Datei liegt und wann du sie sicherst.
-
----
-
-## Android APK: wichtiger Hinweis
-
-Die Android-Version wird als APK-Datei bereitgestellt.
-
-Die Installation erfolgt eigenständig durch den Käufer. Je nach Android-Einstellung muss die Installation aus unbekannten Quellen erlaubt werden.
-
-EGO wird nicht über den Google Play Store installiert.
-
----
-
-## Was EGO nicht ist
-
-EGO ist bewusst einfach, lokal und eigenständig.
-
-EGO ist nicht:
-
-- keine Bank-App
-- kein Online-Banking
-- kein automatischer Kontenabruf
-- keine Finanzberatung
-- keine Steuerberatung
-- keine Cloud-Synchronisierung
-- kein Accountsystem
-- kein Abo
-- kein iOS-Produkt
-- kein persönlicher Live-Supportvertrag
-
----
-
-<!-- EGO_SCREENSHOTS_VERSIONEN_START -->
----
-
-## Vorschau auf Basic und Pro
-
-<div class="screenshot-grid">
-  <section class="screenshot-card">
-    <h3>Basic: Monatsüberblick</h3>
-    <p>Für Haushaltsbuch, Fixkosten, Budgets, Planung und Monatsauswertung.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}" alt="EGO Basic Dashboard">
-  </section>
-  <section class="screenshot-card">
-    <h3>Basic: Fixkosten</h3>
-    <p>Wiederkehrende Kosten strukturiert erfassen und monatlich berücksichtigen.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-fixkosten.png' | relative_url }}" alt="EGO Basic Fixkosten">
-  </section>
-  <section class="screenshot-card">
-    <h3>Basic: Budgets</h3>
-    <p>Budgetgrenzen, Auslastung und Status verständlich sehen.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-basic-budgets.png' | relative_url }}" alt="EGO Basic Budgets">
-  </section>
-  <section class="screenshot-card">
-    <h3>Pro: Vollständiger Bereichsumfang</h3>
-    <p>Pro ergänzt weitere Bereiche wie Jahresblick, Notgroschen, Schulden, Steuer und Sparziele.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-pro-dashboard-17-bereiche.png' | relative_url }}" alt="EGO Pro Dashboard mit allen Bereichen">
-  </section>
-</div>
-<!-- EGO_SCREENSHOTS_VERSIONEN_END -->
+  <p>
+    Die Android-Version wird als APK bereitgestellt. iOS wird aktuell nicht angeboten.
+    Chromebook und Linux sollten vor dem Kauf mit dem kostenlosen Freebie getestet werden.
+  </p>
+</section>
