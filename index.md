@@ -6,18 +6,18 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 
 <section class="ego-hero">
   <div class="ego-hero-text">
-    <p class="ego-kicker">Lokale Finanz-App ohne Cloud</p>
+    <p class="ego-kicker">Finanzen lokal im Griff</p>
 
-    <h1>EGO – Einfach Geld ordnen</h1>
+    <h1>Deine Finanzen lokal im Griff.</h1>
 
     <p class="ego-lead">
-      Haushaltsbuch, Fixkosten, Budgets und Auswertung in einer
-      lokalen App. Ohne Account. Ohne Abo. Ohne Bankverbindung.
+      EGO ordnet Haushaltsbuch, Fixkosten, Budgets und Auswertung lokal auf deinem Gerät.
+      Ohne Cloud. Ohne Account. Ohne Abo. Ohne Bankverbindung.
     </p>
 
     <div class="ego-hero-actions">
       <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">
-        Freebie testen
+        Freebie kostenlos testen
       </a>
       <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
         Versionen vergleichen
@@ -32,10 +32,10 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 </section>
 
 <section class="ego-trust-strip">
-  <div><strong>Lokal</strong><span>keine EGO-Cloud</span></div>
-  <div><strong>Datei-Modus</strong><span>speichern und laden</span></div>
-  <div><strong>PC & Android</strong><span>per Datei nutzbar</span></div>
-  <div><strong>Einmalzahlung</strong><span>kein Abo</span></div>
+  <div><strong>Lokal auf deinem Gerät</strong><span>keine EGO-Cloud</span></div>
+  <div><strong>Daten-Datei</strong><span>sichern und wieder laden</span></div>
+  <div><strong>PC & Android</strong><span>Datenaustausch per Datei</span></div>
+  <div><strong>Einmalzahlung</strong><span>keine laufenden EGO-Kosten</span></div>
 </section>
 
 <section class="ego-section">
@@ -46,6 +46,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
     <section class="pricing-card">
       <h3>Freebie</h3>
       <p class="price">0 €</p>
+      <p class="price-note">Kostenloser Einstieg mit 20 Buchungen.</p>
       <p>Zum Testen und Kennenlernen.</p>
       <ul>
         <li>Budgetstarter</li>
@@ -62,6 +63,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
     <section class="pricing-card">
       <h3>Basic</h3>
       <p class="price">ab 29 €</p>
+      <p class="price-note">Einmalzahlung. Keine laufenden EGO-Kosten.</p>
       <p>Für den normalen Monatsalltag.</p>
       <ul>
         <li>Haushaltsbuch</li>
@@ -70,7 +72,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
       </ul>
       <p>
         <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
-          Basic ansehen
+          Basic wählen
         </a>
       </p>
     </section>
@@ -78,6 +80,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
     <section class="pricing-card featured">
       <h3>Pro / Vollversion</h3>
       <p class="price">ab 59 €</p>
+      <p class="price-note">Alle 17 Bereiche als Vollversion.</p>
       <p>Für dein vollständiges privates Geldsystem.</p>
       <ul>
         <li>alle 17 Bereiche</li>
@@ -86,7 +89,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
       </ul>
       <p>
         <a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">
-          Pro ansehen
+          Pro wählen
         </a>
       </p>
     </section>
