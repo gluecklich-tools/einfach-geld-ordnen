@@ -386,3 +386,76 @@ body > footer.container {
 }
 
 /* EGO_LANDING_POLISH_END */
+
+/* EGO_LANDING_SCALE_START */
+
+body > header.container,
+body > footer.container,
+main.container {
+  width: min(1360px, calc(100% - 64px));
+  max-width: 1360px;
+}
+
+.ego-hero {
+  grid-template-columns: minmax(430px, 0.9fr) minmax(560px, 1.1fr);
+  gap: 3.4rem;
+  padding-top: 4.8rem;
+  padding-bottom: 2.6rem;
+}
+
+.ego-hero h1 {
+  font-size: clamp(3.4rem, 5.8vw, 5.6rem);
+  letter-spacing: -0.055em;
+}
+
+.ego-lead {
+  font-size: 1.28rem;
+  max-width: 48rem;
+}
+
+.ego-hero-media img {
+  min-height: 340px;
+}
+
+.pricing-card {
+  padding: 2rem;
+  min-height: 260px;
+}
+
+.pricing-card .price,
+.price {
+  font-size: 2.25rem;
+}
+
+.screenshot-card img {
+  min-height: 250px;
+}
+
+.ego-section {
+  margin: 5rem 0;
+}
+
+@media (max-width: 900px) {
+  body > header.container,
+  body > footer.container,
+  main.container {
+    width: min(100% - 28px, 1360px);
+  }
+
+  .ego-hero {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding-top: 2rem;
+  }
+
+  .ego-hero h1 {
+    font-size: clamp(2.4rem, 12vw, 3.4rem);
+  }
+
+  .ego-hero-media img,
+  .screenshot-card img {
+    min-height: auto;
+  }
+}
+
+/* EGO_LANDING_SCALE_END */
