@@ -162,7 +162,7 @@ permalink: /seiten/freebie.html
 
   <p>
     <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">Versionen vergleichen</a>
-    <a class="button secondary" href="{{ '/seiten/downloads.html' | relative_url }}">Zum Download</a>
+    <a class="button secondary" href="{{ '/downloads/bundles/EGO_APP_FREEBIE_BUDGETSTARTER_RC7_DATEN_DATEI_MODUS.zip' | relative_url }}">Freebie herunterladen</a>
   </p>
 </section>
 
