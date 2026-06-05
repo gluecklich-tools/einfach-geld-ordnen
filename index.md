@@ -41,44 +41,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 <section class="ego-section">
 
 <section class="ego-section">
-  <section class="ego-section ego-note">
-  <p class="ego-kicker">Kurz gesagt</p>
-  <h2>EGO ist dein lokales Geldsystem ohne Cloud, Account und Abo.</h2>
-  <p>
-    Du erfasst Einnahmen, Ausgaben, Fixkosten und Budgets lokal auf deinem Gerät.
-    Basic reicht für den normalen Monatsalltag. Pro ergänzt alle 17 Bereiche wie Jahresübersicht,
-    Rücklagen, Sparziele, Schulden und Planung.
-  </p>
-</section>
-
-<p class="ego-kicker">Warum EGO Vertrauen schafft</p>
-  <h2>Keine Finanzshow. Ein ruhiges Werkzeug für deinen Geldalltag.</h2>
-
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h3>Erst testen</h3>
-      <p>Mit dem kostenlosen Freebie prüfst du Bedienung, Datei-Modus und Oberfläche vor einem Kauf.</p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Lokal statt Cloud-Zwang</h3>
-      <p>Deine Finanzdaten werden nicht in eine EGO-Cloud geladen. Du speicherst deine Daten-Datei selbst.</p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Klare Grenzen</h3>
-      <p>EGO ist kein Online-Banking, keine Finanzberatung und kein Abo-System. Genau das wird offen gesagt.</p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Externer Checkout</h3>
-      <p>Kaufversionen werden über Digistore24 abgewickelt. Die Nutzung von EGO selbst bleibt lokal.</p>
-    </div>
-  </div>
-</section>
-
-
-<section class="ego-home-premium">
+  <section class="ego-home-premium">
   <p class="ego-kicker">Warum EGO anders ist</p>
   <h2>Ein ruhiges Geldsystem für Menschen, die keine Cloud, kein Konto und kein Abo wollen.</h2>
 
