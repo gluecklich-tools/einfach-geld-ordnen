@@ -519,3 +519,33 @@ main.container {
 }
 
 /* EGO_SCREENSHOT_ZOOM_END */
+
+/* EGO_LEGAL_READABILITY_FIX_START */
+
+main,
+main p,
+main li,
+main h1,
+main h2,
+main h3,
+main h4 {
+  opacity: 1;
+}
+
+main p,
+main li {
+  color: var(--ego-text);
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+  color: var(--ego-navy);
+}
+
+main a {
+  opacity: 1;
+}
+
+/* EGO_LEGAL_READABILITY_FIX_END */
