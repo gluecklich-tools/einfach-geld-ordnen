@@ -137,23 +137,59 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
 </section>
 <section class="ego-section">
   <p class="ego-kicker">Basic oder Pro?</p>
+  <h2>Der direkte Vergleich.</h2>
 
-  <h2>Pro ist für das vollständige System gedacht.</h2>
-
-  <div class="ego-feature-grid">
-    <section>
+  <div class="pricing-grid">
+    <section class="pricing-card">
       <h3>Basic</h3>
-      <p>Für Haushaltsbuch, Fixkosten, Budgets und normale Monatsauswertung.</p>
+      <p class="price">ab 29 €</p>
+      <p class="price-note">Für den normalen Monatsalltag.</p>
+      <ul>
+        <li>Haushaltsbuch</li>
+        <li>Fixkosten</li>
+        <li>Budgets</li>
+        <li>Monatsauswertung</li>
+        <li>für einfache private Ordnung</li>
+      </ul>
+      <p>
+        <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
+          Basic vergleichen
+        </a>
+      </p>
     </section>
 
-    <section>
-      <h3>Pro</h3>
-      <p>Für alle 17 Bereiche inklusive Jahresübersicht, Rücklagen, Schulden und Sparziele.</p>
+    <section class="pricing-card featured">
+      <h3>Pro / Vollversion</h3>
+      <p class="price">ab 59 €</p>
+      <p class="price-note">Für das vollständige private Geldsystem.</p>
+      <ul>
+        <li>alle 17 Bereiche</li>
+        <li>Jahresübersicht</li>
+        <li>Rücklagen</li>
+        <li>Schulden</li>
+        <li>Sparziele</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
+          Pro-Versionen vergleichen
+        </a>
+      </p>
     </section>
 
-    <section>
-      <h3>Bundle</h3>
-      <p>Für alle, die EGO am PC und auf Android nutzen möchten.</p>
+    <section class="pricing-card">
+      <h3>Pro Bundle</h3>
+      <p class="price">89 €</p>
+      <p class="price-note">Pro PC + Android zusammen.</p>
+      <ul>
+        <li>für Nutzung auf PC und Android</li>
+        <li>Datenaustausch per Datei</li>
+        <li>vollständiger Pro-Umfang</li>
+      </ul>
+      <p>
+        <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
+          Bundle vergleichen
+        </a>
+      </p>
     </section>
   </div>
 </section>
