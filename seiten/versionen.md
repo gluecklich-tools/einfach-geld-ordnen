@@ -84,16 +84,54 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
 <section class="ego-section">
   <p class="ego-kicker">Preisübersicht</p>
   <h2>Alle Versionen auf einen Blick.</h2>
-
-  | Version | Inhalt | Preis |
-  |---|---:|---:|
-  | Freebie Budgetstarter | kostenlos testen, maximal 20 Buchungen | 0 € |
-  | Basic PC | Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung | 29 € |
-  | Basic Android APK | Basic als Android-App-Datei | 29 € |
-  | Basic Bundle | Basic PC + Android APK | 39 € |
-  | Pro PC / Vollversion | alle 17 Bereiche | 59 € |
-  | Pro Android APK | Pro als Android-App-Datei | 59 € |
-  | Pro Bundle | Pro PC + Android APK | 89 € |
+  <div class="ego-table-wrap">
+    <table class="ego-price-table">
+      <thead>
+        <tr>
+          <th>Version</th>
+          <th>Inhalt</th>
+          <th>Preis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Freebie Budgetstarter</td>
+          <td>kostenlos testen, maximal 20 Buchungen</td>
+          <td>0 €</td>
+        </tr>
+        <tr>
+          <td>Basic PC</td>
+          <td>Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung</td>
+          <td>29 €</td>
+        </tr>
+        <tr>
+          <td>Basic Android APK</td>
+          <td>Basic als Android-App-Datei</td>
+          <td>29 €</td>
+        </tr>
+        <tr>
+          <td>Basic Bundle</td>
+          <td>Basic PC + Android APK</td>
+          <td>39 €</td>
+        </tr>
+        <tr>
+          <td>Pro PC / Vollversion</td>
+          <td>alle 17 Bereiche</td>
+          <td>59 €</td>
+        </tr>
+        <tr>
+          <td>Pro Android APK</td>
+          <td>Pro als Android-App-Datei</td>
+          <td>59 €</td>
+        </tr>
+        <tr>
+          <td>Pro Bundle</td>
+          <td>Pro PC + Android APK</td>
+          <td>89 €</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <section class="ego-section">
