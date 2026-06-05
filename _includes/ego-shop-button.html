@@ -1,0 +1,11 @@
+{% assign shop_url = site.data.shop_links[include.product] | default: "" %}
+{% assign css_class = "button" %}
+{% if include.secondary == "true" %}
+  {% assign css_class = "button secondary" %}
+{% endif %}
+
+{% if shop_url != "" %}
+<a class="{{ css_class }}" href="{{ shop_url }}" target="_blank" rel="noopener">{{ include.buy_label }}</a>
+{% else %}
+<a class="{{ css_class }}" href="{{ include.fallback_href | relative_url }}">{{ include.fallback_label }}</a>
+{% endif %}
