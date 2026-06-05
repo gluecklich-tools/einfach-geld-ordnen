@@ -78,35 +78,38 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 </section>
 
 
-<section class="ego-section">
+<section class="ego-home-premium">
   <p class="ego-kicker">Warum EGO anders ist</p>
-  <h2>Lokal statt ausgeliefert. Klar statt Finanzshow.</h2>
+  <h2>Ein ruhiges Geldsystem für Menschen, die keine Cloud, kein Konto und kein Abo wollen.</h2>
 
-  <div class="feature-grid ego-mini-icons">
-    <div class="feature-card" data-icon="🔒">
-      <h3>Deine Daten bleiben bei dir</h3>
-      <p>Keine EGO-Cloud, kein EGO-Konto und kein automatischer Bankabruf. Du speicherst deine Daten-Datei selbst.</p>
+  <div class="ego-premium-cards">
+    <div class="ego-premium-card">
+      <strong>01</strong>
+      <h3>Lokal statt ausgeliefert</h3>
+      <p>Deine Daten-Datei bleibt bei dir. Keine EGO-Cloud, kein EGO-Konto, kein automatischer Bankabruf.</p>
     </div>
 
-    <div class="feature-card" data-icon="💶">
-      <h3>Einmal zahlen statt Abo</h3>
-      <p>Freebie kostenlos testen. Basic und Pro später als Einmalkauf über Digistore24.</p>
+    <div class="ego-premium-card">
+      <strong>02</strong>
+      <h3>Klar statt überladen</h3>
+      <p>Haushaltsbuch, Fixkosten, Budgets, Rücklagen, Schulden und Ziele werden verständlich zusammengeführt.</p>
     </div>
 
-    <div class="feature-card" data-icon="🧭">
-      <h3>Orientierung im Alltag</h3>
-      <p>Haushaltsbuch, Fixkosten, Budgets, Rücklagen, Schulden und Ziele an einem Ort.</p>
+    <div class="ego-premium-card">
+      <strong>03</strong>
+      <h3>Erst testen, dann kaufen</h3>
+      <p>Der Freebie zeigt Oberfläche, Datei-Modus und Bedienung vor dem Kauf. Kein künstlicher Verkaufsdruck.</p>
     </div>
   </div>
 </section>
 
-<section class="ego-section">
+<section class="ego-home-premium">
   <p class="ego-kicker">Lokal oder Cloud?</p>
-  <h2>Der Unterschied ist der Kern von EGO.</h2>
+  <h2>Der wichtigste Unterschied ist Kontrolle.</h2>
 
-  <div class="ego-compare-grid">
-    <div class="ego-compare-card">
-      <strong>Typische Cloud-App</strong>
+  <div class="ego-local-cloud">
+    <div class="ego-local-cloud-card">
+      <h3>Typische Cloud-App</h3>
       <ul>
         <li>Konto erforderlich</li>
         <li>Daten liegen beim Anbieter</li>
@@ -115,8 +118,8 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
       </ul>
     </div>
 
-    <div class="ego-compare-card">
-      <strong>EGO</strong>
+    <div class="ego-local-cloud-card ego-win">
+      <h3>EGO</h3>
       <ul>
         <li>lokal nutzbar</li>
         <li>Daten-Datei bleibt bei dir</li>
@@ -125,41 +128,6 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
       </ul>
     </div>
   </div>
-</section>
-
-<section class="ego-section">
-  <p class="ego-kicker">Vorher / Nachher</p>
-  <h2>Aus verstreuten Zahlen wird ein klarer Überblick.</h2>
-
-  <div class="feature-grid ego-mini-icons">
-    <div class="feature-card" data-icon="🌫️">
-      <h3>Vorher</h3>
-      <p>Fixkosten werden geschätzt, Budgets sind unklar und Rücklagen verschwinden im Alltag.</p>
-    </div>
-
-    <div class="feature-card" data-icon="📊">
-      <h3>Nachher</h3>
-      <p>Einnahmen, Ausgaben, Fixkosten, Budgets, Rücklagen, Schulden und Sparziele liegen an einem Ort.</p>
-    </div>
-
-    <div class="feature-card" data-icon="✅">
-      <h3>Erst testen</h3>
-      <p>Der kostenlose Freebie zeigt dir Oberfläche, Datei-Modus und Arbeitsweise vor einem Kauf.</p>
-    </div>
-  </div>
-</section>
-
-<section class="ego-section ego-note">
-  <p class="ego-kicker">Vertrauenscheck</p>
-  <h2>Teste EGO, bevor du kaufst.</h2>
-  <p>
-    Der wichtigste Vertrauensbeweis ist kein künstliches Versprechen, sondern der kostenlose Test:
-    herunterladen, öffnen, ausprobieren und dann entscheiden.
-  </p>
-  <p>
-    <a class="button" href="{{ '/seiten/freebie.html' | relative_url }}">Freebie kostenlos testen</a>
-    <a class="button secondary" href="{{ '/seiten/qualitaet-prinzipien.html' | relative_url }}">Prinzipien lesen</a>
-  </p>
 </section>
 
 <p class="ego-kicker">Welche Version passt?</p>
