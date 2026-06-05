@@ -97,6 +97,43 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 </section>
 
 <section class="ego-section">
+  <p class="ego-kicker">Was steckt in Pro?</p>
+  <h2>Mehr als ein Haushaltsbuch.</h2>
+
+  <div class="ego-feature-grid">
+    <section>
+      <h3>Haushaltsbuch</h3>
+      <p>Einnahmen und Ausgaben erfassen und den Monat sauber verfolgen.</p>
+    </section>
+
+    <section>
+      <h3>Fixkosten</h3>
+      <p>Wiederkehrende Kosten wie Miete, Strom, Internet und Versicherungen ordnen.</p>
+    </section>
+
+    <section>
+      <h3>Budgets</h3>
+      <p>Budgetrahmen setzen und sehen, wie viel Spielraum noch bleibt.</p>
+    </section>
+
+    <section>
+      <h3>Jahresübersicht</h3>
+      <p>Monate vergleichen und erkennen, wie sich deine Finanzen entwickeln.</p>
+    </section>
+
+    <section>
+      <h3>Rücklagen</h3>
+      <p>Geld für bekannte Ausgaben und größere Belastungen einplanen.</p>
+    </section>
+
+    <section>
+      <h3>Sparziele & Schulden</h3>
+      <p>Ziele, Fortschritt und offene Beträge verständlich im Blick behalten.</p>
+    </section>
+  </div>
+</section>
+
+<section class="ego-section">
   <p class="ego-kicker">App-Vorschau</p>
   <h2>So sieht EGO aus.</h2>
 
