@@ -1,124 +1,186 @@
 ---
 layout: default
 title: "EGO Freebie Budgetstarter"
-description: "Der kostenlose Einstieg in EGO: lokale Finanz-App testen, bis zu 20 Buchungen erfassen und den Excel-Datei-Datenmodus ausprobieren."
+description: "Der kostenlose Einstieg in EGO: lokale Finanz-App testen, bis zu 20 Buchungen erfassen und den Daten-Datei-Modus ausprobieren."
 permalink: /seiten/freebie.html
 ---
 
-# EGO Freebie Budgetstarter
+<section class="ego-hero">
+  <div class="ego-hero-text">
+    <p class="ego-kicker">Freebie Budgetstarter</p>
 
-Der Freebie Budgetstarter ist der kostenlose Einstieg in Einfach Geld ordnen.
+    <h1>EGO kostenlos ausprobieren.</h1>
 
-Er ist dafür gedacht, EGO ohne Risiko auszuprobieren. Du kannst sehen, wie die Oberfläche funktioniert, wie Buchungen erfasst werden und wie der Datei-Datenmodus mit Speichern und Laden aufgebaut ist.
+    <p class="ego-lead">
+      Teste die Oberfläche, erfasse erste Buchungen und prüfe den lokalen
+      Datei-Modus mit Speichern und Laden. Der Freebie ist bewusst auf
+      maximal 20 Buchungen begrenzt.
+    </p>
 
-Der Freebie ist bewusst begrenzt: maximal 20 Buchungen.
+    <div class="ego-hero-actions">
+      <a class="button" href="{{ '/downloads/bundles/EGO_APP_FREEBIE_BUDGETSTARTER_RC7_DATEN_DATEI_MODUS.zip' | relative_url }}">
+        Freebie herunterladen
+      </a>
+      <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">
+        Versionen vergleichen
+      </a>
+    </div>
+  </div>
 
----
+  <div class="ego-hero-media">
+    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
+         alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
+  </div>
+</section>
 
-## Was du bekommst
+<section class="ego-trust-strip">
+  <div><strong>0 €</strong><span>kostenlos testen</span></div>
+  <div><strong>20 Buchungen</strong><span>bewusst begrenzt</span></div>
+  <div><strong>Lokal</strong><span>keine EGO-Cloud</span></div>
+  <div><strong>Daten-Datei</strong><span>speichern und laden testen</span></div>
+</section>
 
-Mit dem Freebie Budgetstarter bekommst du eine lokale Einstiegsversion von EGO.
+<section class="ego-section">
+  <p class="ego-kicker">Was du bekommst</p>
+  <h2>Ein kostenloser Einstieg zum Testen.</h2>
 
-**Enthalten:**
+  <div class="pricing-grid">
+    <section class="pricing-card featured">
+      <h3>Freebie Budgetstarter</h3>
+      <p class="price">0 €</p>
+      <p class="price-note">Kostenloser Einstieg mit maximal 20 Buchungen.</p>
+      <ul>
+        <li>Haushaltsbuch testen</li>
+        <li>Buchungen erfassen</li>
+        <li>Daten-Datei speichern und laden</li>
+        <li>Oberfläche kennenlernen</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/downloads/bundles/EGO_APP_FREEBIE_BUDGETSTARTER_RC7_DATEN_DATEI_MODUS.zip' | relative_url }}">
+          Freebie herunterladen
+        </a>
+      </p>
+    </section>
 
-- lokale Finanz-App/Web-App zum Testen
-- bis zu 20 Buchungen
-- einfache Einnahmen-/Ausgaben-Erfassung
-- Datei speichern
-- Datei laden
-- Excel-Datei-Datenmodus
-- Nutzung ohne Cloud
-- Nutzung ohne Account
-- Nutzung ohne Abo
+    <section class="pricing-card">
+      <h3>Basic</h3>
+      <p class="price">ab 29 €</p>
+      <p class="price-note">Für den normalen Monatsalltag.</p>
+      <ul>
+        <li>Haushaltsbuch</li>
+        <li>Fixkosten</li>
+        <li>Budgets und Auswertung</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">
+          Basic vergleichen
+        </a>
+      </p>
+    </section>
 
----
+    <section class="pricing-card">
+      <h3>Pro / Vollversion</h3>
+      <p class="price">ab 59 €</p>
+      <p class="price-note">Für das vollständige private Geldsystem.</p>
+      <ul>
+        <li>alle 17 Bereiche</li>
+        <li>Jahresübersicht</li>
+        <li>Rücklagen, Schulden, Sparziele</li>
+      </ul>
+      <p>
+        <a class="button" href="{{ '/seiten/vollversion.html' | relative_url }}">
+          Pro ansehen
+        </a>
+      </p>
+    </section>
+  </div>
+</section>
 
-## Wofür der Freebie gedacht ist
+<section class="ego-section">
+  <p class="ego-kicker">Warum begrenzt?</p>
+  <h2>Der Freebie ist zum Kennenlernen gedacht.</h2>
 
-Der Freebie hilft dir bei der Entscheidung:
+  <div class="ego-feature-grid">
+    <section>
+      <h3>Test statt Ersatz</h3>
+      <p>Du kannst prüfen, ob EGO zu deiner Arbeitsweise passt.</p>
+    </section>
 
-- Gefällt dir die Arbeitsweise?
-- Verstehst du die Oberfläche?
-- Passt EGO zu deinem Alltag?
-- Möchtest du deine Daten lokal statt in einer Cloud führen?
-- Reicht dir Basic oder brauchst du Pro?
+    <section>
+      <h3>20 Buchungen</h3>
+      <p>Die Grenze macht klar: Der Freebie ist ein Einstieg, keine Vollversion.</p>
+    </section>
 
-Der Freebie ist kein Ersatz für die Bezahlversionen.
+    <section>
+      <h3>Danach entscheiden</h3>
+      <p>Wenn dir EGO hilft, wechselst du auf Basic oder Pro.</p>
+    </section>
+  </div>
+</section>
 
----
+<section class="ego-section">
+  <p class="ego-kicker">App-Vorschau</p>
+  <h2>So sieht der Freebie aus.</h2>
 
-## Was im Freebie nicht enthalten ist
+  <div class="screenshot-grid">
+    <section class="screenshot-card">
+      <h3>Haushaltsbuch mit 20-Buchungen-Grenze</h3>
+      <p>Der Freebie zeigt die tägliche Eingabe und ist bewusst begrenzt.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}"
+           alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
+    </section>
 
-Der Freebie Budgetstarter ist bewusst klein gehalten.
+    <section class="screenshot-card">
+      <h3>Lokale Nutzung testen</h3>
+      <p>Teste Speichern, Laden und erneutes Verwenden deiner Daten-Datei.</p>
+      <img src="{{ '/assets/img/screenshots/pc/ego-basic-dashboard.png' | relative_url }}"
+           alt="EGO Dashboard als Beispiel für lokale Nutzung">
+    </section>
+  </div>
+</section>
 
-**Nicht enthalten:**
+<section class="ego-section">
+  <p class="ego-kicker">Nach dem Test</p>
+  <h2>Basic oder Pro wählen.</h2>
 
-- keine vollständige Basic-Version
-- keine Pro-Version
-- keine 17 Bereiche
-- keine vollständige Jahresübersicht
-- keine Rücklagen-/Sparziel-/Schulden-Tiefe
-- keine Android-Vollversion
-- kein Supportversprechen
+  <div class="ego-feature-grid">
+    <section>
+      <h3>Basic</h3>
+      <p>Für Haushaltsbuch, Fixkosten, Budgets und normale Monatsauswertung.</p>
+    </section>
 
-Wenn du dauerhaft mit EGO arbeiten möchtest, ist Basic oder Pro die bessere Wahl.
+    <section>
+      <h3>Pro</h3>
+      <p>Für alle 17 Bereiche inklusive Jahresübersicht, Rücklagen, Schulden und Sparziele.</p>
+    </section>
 
----
+    <section>
+      <h3>Bundle</h3>
+      <p>Für alle, die EGO am PC und auf Android nutzen möchten.</p>
+    </section>
+  </div>
 
-## Download
+  <p>
+    <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">Versionen vergleichen</a>
+    <a class="button secondary" href="{{ '/seiten/downloads.html' | relative_url }}">Zum Download</a>
+  </p>
+</section>
 
-**Preis:** 0 €
+<section class="ego-section ego-note">
+  <h2>Wichtige Hinweise</h2>
 
-[Freebie Budgetstarter herunterladen]({{ '/downloads/bundles/EGO_APP_FREEBIE_BUDGETSTARTER_RC7_DATEN_DATEI_MODUS.zip' | relative_url }})
+  <p>
+    EGO ist ein Selbstbedienungsprodukt. Es ist keine Finanzberatung,
+    keine Steuerberatung und kein Online-Banking.
+  </p>
 
----
+  <p>
+    EGO nutzt keine EGO-Cloud, keinen EGO-Account und kein Abo.
+    Daten werden lokal genutzt und per Datei gespeichert beziehungsweise geladen.
+  </p>
 
-## Danach: Basic oder Pro?
-
-Wenn du nur deinen Monatsalltag ordnen möchtest, ist **EGO Basic** der passende nächste Schritt.
-
-Basic enthält:
-
-- Haushaltsbuch
-- Fixkosten
-- Budgets
-- Planung
-- Monatsauswertung
-
-Wenn du dein gesamtes privates Geldsystem ordnen möchtest, ist **EGO Pro / Vollversion** die richtige Wahl.
-
-Pro enthält alle 17 Bereiche, inklusive Jahresübersicht, Rücklagen, Notgroschen, Sparzielen, Schulden und vollständigem Datei-Datenmodus.
-
-[Alle Versionen & Preise ansehen]({{ '/seiten/versionen.html' | relative_url }})
-
----
-
-## Wichtig zu wissen
-
-EGO arbeitet lokal.
-
-Es gibt:
-
-- keine Cloudpflicht
-- keinen Account
-- kein Abo
-- keinen automatischen Bankabruf
-- kein Online-Banking
-- keine Finanzberatung
-- keine Steuerberatung
-
-Du speicherst deine Daten selbst und entscheidest selbst, wo deine Datei liegt.
-
-<!-- EGO_SCREENSHOTS_FREEBIE_START -->
----
-
-## Vorschau: Freebie Budgetstarter
-
-<div class="screenshot-grid">
-  <section class="screenshot-card">
-    <h3>Haushaltsbuch mit 20-Buchungen-Grenze</h3>
-    <p>Der Freebie zeigt die tägliche Eingabe und ist bewusst begrenzt. So kannst du EGO testen, ohne die Bezahlversion zu ersetzen.</p>
-    <img src="{{ '/assets/img/screenshots/pc/ego-freebie-haushaltsbuch-limit.png' | relative_url }}" alt="EGO Freebie Haushaltsbuch mit 20-Buchungen-Grenze">
-  </section>
-</div>
-<!-- EGO_SCREENSHOTS_FREEBIE_END -->
+  <p>
+    Der Freebie ist bewusst begrenzt. Für dauerhaftes Arbeiten sind Basic
+    oder Pro vorgesehen.
+  </p>
+</section>
