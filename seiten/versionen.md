@@ -37,6 +37,16 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
   <div><strong>Bundle</strong><span>PC + Android kombinieren</span></div>
 </section>
 
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Schnelle Entscheidung</p>
+  <h2>Freebie zum Testen. Basic für den Monatsalltag. Pro für das vollständige Geldsystem.</h2>
+  <p>
+    Nimm Freebie, wenn du EGO kostenlos ausprobieren willst. Nimm Basic, wenn du Haushaltsbuch,
+    Fixkosten, Budgets und Monatsauswertung brauchst. Nimm Pro, wenn du zusätzlich Jahresübersicht,
+    Rücklagen, Schulden, Sparziele und alle 17 Bereiche nutzen möchtest.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Schnelle Entscheidung</p>
   <h2>So findest du die passende Version.</h2>
@@ -80,6 +90,16 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
   </div>
 </section>
 
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Schnelle Entscheidung</p>
+  <h2>Freebie zum Testen. Basic für den Monatsalltag. Pro für das vollständige Geldsystem.</h2>
+  <p>
+    Nimm Freebie, wenn du EGO kostenlos ausprobieren willst. Nimm Basic, wenn du Haushaltsbuch,
+    Fixkosten, Budgets und Monatsauswertung brauchst. Nimm Pro, wenn du zusätzlich Jahresübersicht,
+    Rücklagen, Schulden, Sparziele und alle 17 Bereiche nutzen möchtest.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Preisübersicht</p>
   <h2>Alle Versionen auf einen Blick.</h2>
@@ -121,6 +141,16 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
   </div>
 </section>
 
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Schnelle Entscheidung</p>
+  <h2>Freebie zum Testen. Basic für den Monatsalltag. Pro für das vollständige Geldsystem.</h2>
+  <p>
+    Nimm Freebie, wenn du EGO kostenlos ausprobieren willst. Nimm Basic, wenn du Haushaltsbuch,
+    Fixkosten, Budgets und Monatsauswertung brauchst. Nimm Pro, wenn du zusätzlich Jahresübersicht,
+    Rücklagen, Schulden, Sparziele und alle 17 Bereiche nutzen möchtest.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">App-Vorschau</p>
   <h2>Basic und Pro im Vergleich.</h2>
@@ -150,6 +180,16 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
       <a class="screenshot-zoom" href="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/screenshots/pc/ego-pro-sparziele.png' | relative_url }}" alt="EGO Pro Sparziele"></a>
     </section>
   </div>
+</section>
+
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Schnelle Entscheidung</p>
+  <h2>Freebie zum Testen. Basic für den Monatsalltag. Pro für das vollständige Geldsystem.</h2>
+  <p>
+    Nimm Freebie, wenn du EGO kostenlos ausprobieren willst. Nimm Basic, wenn du Haushaltsbuch,
+    Fixkosten, Budgets und Monatsauswertung brauchst. Nimm Pro, wenn du zusätzlich Jahresübersicht,
+    Rücklagen, Schulden, Sparziele und alle 17 Bereiche nutzen möchtest.
+  </p>
 </section>
 
 <section class="ego-section">

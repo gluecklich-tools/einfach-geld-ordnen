@@ -38,6 +38,15 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
   <div><strong>Einmalzahlung</strong><span>keine laufenden EGO-Kosten</span></div>
 </section>
 
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Kurz gesagt</p>
+  <h2>Pro ist die vollständige EGO-Version für deinen privaten Geldüberblick.</h2>
+  <p>
+    Pro bündelt alle 17 Bereiche: Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung,
+    Jahresübersicht, Rücklagen, Schulden, Sparziele, Notizen und Planung. Für PC, Android oder als Bundle.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Pro-Angebote</p>
   <h2>Wähle die Pro-Version, die zu deiner Nutzung passt.</h2>
@@ -81,6 +90,15 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
   </div>
 </section>
 
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Kurz gesagt</p>
+  <h2>Pro ist die vollständige EGO-Version für deinen privaten Geldüberblick.</h2>
+  <p>
+    Pro bündelt alle 17 Bereiche: Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung,
+    Jahresübersicht, Rücklagen, Schulden, Sparziele, Notizen und Planung. Für PC, Android oder als Bundle.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Vollständiger Umfang</p>
   <h2>Die wichtigsten Pro-Bereiche auf einen Blick.</h2>
@@ -101,6 +119,15 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
     <section><h3>Schulden</h3><p>Offene Beträge und Tilgung im Blick behalten.</p></section>
     <section><h3>Notizen & Planung</h3><p>Wichtige Finanzinfos gesammelt halten.</p></section>
   </div>
+</section>
+
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Kurz gesagt</p>
+  <h2>Pro ist die vollständige EGO-Version für deinen privaten Geldüberblick.</h2>
+  <p>
+    Pro bündelt alle 17 Bereiche: Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung,
+    Jahresübersicht, Rücklagen, Schulden, Sparziele, Notizen und Planung. Für PC, Android oder als Bundle.
+  </p>
 </section>
 
 <section class="ego-section">
@@ -135,6 +162,15 @@ description: "EGO Pro ist die vollständige lokale Finanz-App/Web-App mit allen 
     <a class="button secondary" href="{{ '/seiten/versionen.html' | relative_url }}">Versionen vergleichen</a>
   </p>
 </section>
+<section class="ego-section ego-note">
+  <p class="ego-kicker">Kurz gesagt</p>
+  <h2>Pro ist die vollständige EGO-Version für deinen privaten Geldüberblick.</h2>
+  <p>
+    Pro bündelt alle 17 Bereiche: Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung,
+    Jahresübersicht, Rücklagen, Schulden, Sparziele, Notizen und Planung. Für PC, Android oder als Bundle.
+  </p>
+</section>
+
 <section class="ego-section">
   <p class="ego-kicker">Basic oder Pro?</p>
   <h2>Der direkte Vergleich.</h2>
