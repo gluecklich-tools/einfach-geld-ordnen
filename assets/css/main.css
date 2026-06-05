@@ -933,3 +933,95 @@ a.button.secondary {
 }
 
 /* EGO_HOME_PREMIUM_FORCE_V2_END */
+
+
+/* EGO_HOME_VISUAL_POLISH_V3_START */
+
+/* weniger leerer Raum oben, mehr echter Premium-Aufbau */
+main {
+  padding-top: clamp(2.25rem, 4.5vw, 4.25rem) !important;
+}
+
+.ego-hero {
+  min-height: auto !important;
+  padding: clamp(3.5rem, 6vw, 5.75rem) 0 clamp(2.5rem, 5vw, 4.5rem) !important;
+}
+
+.ego-hero h1 {
+  font-size: clamp(3.4rem, 6vw, 6.8rem) !important;
+  line-height: 0.92 !important;
+}
+
+.ego-hero p {
+  font-size: clamp(1rem, 1.15vw, 1.18rem);
+}
+
+.hero-image {
+  transform: translateY(0) !important;
+}
+
+.ego-trust-strip {
+  margin-top: 0 !important;
+  margin-bottom: clamp(3rem, 6vw, 5rem) !important;
+}
+
+/* Startseiten-Preiskarten müssen 3-spaltig bleiben */
+.pricing-grid-home {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  align-items: stretch !important;
+}
+
+.pricing-grid-home > .pricing-card:last-child {
+  grid-column: auto !important;
+}
+
+.pricing-grid-home .pricing-card {
+  min-height: 100%;
+}
+
+/* neue Premium-Blöcke kompakter und hochwertiger */
+.ego-home-premium {
+  margin: clamp(3.4rem, 6vw, 5rem) 0 !important;
+}
+
+.ego-home-premium h2 {
+  font-size: clamp(2.35rem, 4.6vw, 5rem) !important;
+  line-height: 0.96 !important;
+  max-width: 980px !important;
+}
+
+.ego-premium-cards {
+  margin-top: 1.6rem !important;
+}
+
+.ego-premium-card {
+  min-height: 190px !important;
+}
+
+.ego-local-cloud {
+  margin-top: 1.35rem !important;
+}
+
+/* alte Bereiche darunter ruhiger */
+.ego-section {
+  margin-top: clamp(3rem, 6vw, 5rem);
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.screenshot-card img {
+  display: block;
+  width: 100%;
+}
+
+/* mobil sauber stapeln */
+@media (max-width: 850px) {
+  .pricing-grid-home {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ego-hero {
+    padding-top: 2.5rem !important;
+  }
+}
+
+/* EGO_HOME_VISUAL_POLISH_V3_END */

@@ -96,7 +96,7 @@ description: "EGO ist eine lokale Finanz-App/Web-App für Haushaltsbuch, Fixkost
 <p class="ego-kicker">Welche Version passt?</p>
   <h2>Starte kostenlos oder nutze EGO vollständig.</h2>
 
-  <div class="pricing-grid">
+  <div class="pricing-grid pricing-grid-home">
     <section class="pricing-card">
       <h3>Freebie</h3>
       <p class="price">0 €</p>
