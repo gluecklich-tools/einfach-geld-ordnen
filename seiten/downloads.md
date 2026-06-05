@@ -118,12 +118,12 @@ permalink: /seiten/downloads.html
 
 <section class="ego-section">
   <p class="ego-kicker">Kaufversionen</p>
-  <h2>Basic und Pro werden nicht frei über diese Seite verteilt.</h2>
+  <h2>Nach dem Test: Basic oder Pro wählen.</h2>
 
   <div class="ego-feature-grid">
     <section>
-      <h3>Warum?</h3>
-      <p>Diese öffentliche GitHub-Pages-Seite dient dem kostenlosen Einstieg und der Produktinformation.</p>
+      <h3>Freebie zuerst</h3>
+      <p>Diese öffentliche Seite bietet den kostenlosen Einstieg zum Testen der lokalen Nutzung.</p>
     </section>
 
     <section>
@@ -136,6 +136,11 @@ permalink: /seiten/downloads.html
       <p>Für den vollständigen Umfang mit allen 17 Bereichen, Rücklagen, Schulden und Sparzielen.</p>
     </section>
   </div>
+
+  <p>
+    <a class="button" href="{{ '/seiten/versionen.html' | relative_url }}">Versionen vergleichen</a>
+    <a class="button secondary" href="{{ '/seiten/vollversion.html' | relative_url }}">Pro ansehen</a>
+  </p>
 </section>
 
 <section class="ego-section ego-note">
