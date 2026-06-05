@@ -84,53 +84,41 @@ description: "Vergleiche Freebie, Basic und Pro von EGO: lokale Finanz-App ohne 
 <section class="ego-section">
   <p class="ego-kicker">Preisübersicht</p>
   <h2>Alle Versionen auf einen Blick.</h2>
-  <div class="ego-table-wrap">
-    <table class="ego-price-table">
-      <thead>
-        <tr>
-          <th>Version</th>
-          <th>Inhalt</th>
-          <th>Preis</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Freebie Budgetstarter</td>
-          <td>kostenlos testen, maximal 20 Buchungen</td>
-          <td>0 €</td>
-        </tr>
-        <tr>
-          <td>Basic PC</td>
-          <td>Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung</td>
-          <td>29 €</td>
-        </tr>
-        <tr>
-          <td>Basic Android APK</td>
-          <td>Basic als Android-App-Datei</td>
-          <td>29 €</td>
-        </tr>
-        <tr>
-          <td>Basic Bundle</td>
-          <td>Basic PC + Android APK</td>
-          <td>39 €</td>
-        </tr>
-        <tr>
-          <td>Pro PC / Vollversion</td>
-          <td>alle 17 Bereiche</td>
-          <td>59 €</td>
-        </tr>
-        <tr>
-          <td>Pro Android APK</td>
-          <td>Pro als Android-App-Datei</td>
-          <td>59 €</td>
-        </tr>
-        <tr>
-          <td>Pro Bundle</td>
-          <td>Pro PC + Android APK</td>
-          <td>89 €</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="ego-feature-grid">
+    <section>
+      <h3>Freebie Budgetstarter</h3>
+      <p><strong>0 €</strong><br>kostenlos testen, maximal 20 Buchungen</p>
+    </section>
+
+    <section>
+      <h3>Basic PC</h3>
+      <p><strong>29 €</strong><br>Haushaltsbuch, Fixkosten, Budgets, Monatsauswertung</p>
+    </section>
+
+    <section>
+      <h3>Basic Android APK</h3>
+      <p><strong>29 €</strong><br>Basic als Android-App-Datei</p>
+    </section>
+
+    <section>
+      <h3>Basic Bundle</h3>
+      <p><strong>39 €</strong><br>Basic PC + Android APK</p>
+    </section>
+
+    <section>
+      <h3>Pro PC / Vollversion</h3>
+      <p><strong>59 €</strong><br>alle 17 Bereiche</p>
+    </section>
+
+    <section>
+      <h3>Pro Android APK</h3>
+      <p><strong>59 €</strong><br>Pro als Android-App-Datei</p>
+    </section>
+
+    <section>
+      <h3>Pro Bundle</h3>
+      <p><strong>89 €</strong><br>Pro PC + Android APK</p>
+    </section>
   </div>
 </section>
 
